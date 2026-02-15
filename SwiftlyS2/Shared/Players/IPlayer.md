@@ -23,16 +23,16 @@
 | `IsAlive` | `bool` | get | 获取一个值，该值指示玩家当前是否存活。 |
 | `Controller` | `CCSPlayerController` | get | 获取与玩家关联的玩家控制器。 |
 | `RequiredController` | `CCSPlayerController` | get | 获取与玩家关联的玩家控制器。要求控制器必须有效。 <exception cref="InvalidOperationException">当控制器无效时抛出。</exception> |
-| `Pawn` | `CBasePlayerPawn?` | get | 获取与玩家关联的棋子。 |
-| `RequiredPawn` | `CBasePlayerPawn` | get | 获取与玩家关联的棋子。要求棋子必须有效。 <exception cref="InvalidOperationException">当棋子无效时抛出。</exception> |
-| `PlayerPawn` | `CCSPlayerPawn?` | get | 获取与该玩家关联的玩家棋子。 |
+| `Pawn` | `CBasePlayerPawn?` | get | 获取与玩家关联的Pawn。 |
+| `RequiredPawn` | `CBasePlayerPawn` | get | 获取与玩家关联的Pawn。要求Pawn必须有效。 <exception cref="InvalidOperationException">当Pawn无效时抛出。</exception> |
+| `PlayerPawn` | `CCSPlayerPawn?` | get | 获取与该玩家关联的玩家Pawn。 |
 | `RequiredPlayerPawn` | `CCSPlayerPawn` | get | 获取与玩家关联的玩家 pawn。要求玩家 pawn 必须有效。 <exception cref="InvalidOperationException">当玩家 pawn 无效时抛出。</exception> |
 | `PressedButtons` | `GameButtonFlags` | get | 获取当前处于按下状态的按键集合。 |
 | `IPAddress` | `string` | get | 获取与玩家关联的IP地址。 |
 | `VoiceFlags` | `VoiceFlagValue` | get, set | 获取或设置指定要应用的语音选项或功能的标志集。 |
 | `PlayerLanguage` | `Language` | get | 获取玩家的语言。 |
 | `IsFirstSpawn` | `bool` | get | 指示这是否是玩家的首次生成。 |
-| `IsValid` | `bool` | get | 检查玩家是否有效（拥有控制器、不是HLTV、已连接且拥有棋子）。 |
+| `IsValid` | `bool` | get | 检查玩家是否有效（拥有控制器、不是HLTV、已连接且拥有Pawn）。 |
 
 ## ⚙️ 方法
 

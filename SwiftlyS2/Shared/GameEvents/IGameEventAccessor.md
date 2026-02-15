@@ -301,13 +301,13 @@ CCSPlayerController controller = accessor.GetPlayerController("player1");
 CCSPlayerPawn GetPlayerPawn(string key)
 ```
 
-获取由给定字段引用的玩家棋子。
+获取由给定字段引用的玩家Pawn。
 
 **参数:**
 
 - `key` (`string`) - 字段名。
 
-**返回值:** `CCSPlayerPawn` - 玩家棋子。
+**返回值:** `CCSPlayerPawn` - 玩家Pawn。
 
 **用法示例:**
 ```csharp
@@ -383,7 +383,7 @@ int GetPawnEntityIndex(string key)
 
 - `key` (`string`) - 字段名。
 
-**返回值:** `int` - 棋子实体索引。
+**返回值:** `int` - Pawn实体索引。
 
 **用法示例:**
 ```csharp

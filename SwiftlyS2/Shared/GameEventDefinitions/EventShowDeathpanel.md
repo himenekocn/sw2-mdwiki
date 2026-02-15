@@ -12,9 +12,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `VictimController` | `CCSPlayerController` | get | 被击杀者的结束索引 <br/> 类型：玩家控制器与载具 |
-| `VictimPawn` | `CCSPlayerPawn` | get | 被击杀者的结束索引 <br/> 类型：玩家控制器与载具 |
-| `Victim` | `int` | get, set | 被击杀者的结束索引 <br/> 类型：玩家控制器与载具 |
+| `VictimController` | `CCSPlayerController` | get | 被击杀者的结束索引 <br/> 类型：玩家控制器与Pawn |
+| `VictimPawn` | `CCSPlayerPawn` | get | 被击杀者的结束索引 <br/> 类型：玩家控制器与Pawn |
+| `Victim` | `int` | get, set | 被击杀者的结束索引 <br/> 类型：玩家控制器与Pawn |
 | `Killer` | `nint` | get, set | 杀手实体的实体索引 <br/> 类型：ehandle |
 | `KillerControllerController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `KillerControllerPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |

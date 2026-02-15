@@ -12,9 +12,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `VictimController` | `CCSPlayerController` | get | 受伤的玩家索引 <br/> 类型：玩家控制器与载具 |
-| `VictimPawn` | `CCSPlayerPawn` | get | 受伤的玩家索引 <br/> 类型：玩家控制器与载具 |
-| `Victim` | `int` | get, set | 受伤的玩家索引 <br/> 类型：玩家控制器与载具 |
+| `VictimController` | `CCSPlayerController` | get | 受伤的玩家索引 <br/> 类型：玩家控制器与Pawn |
+| `VictimPawn` | `CCSPlayerPawn` | get | 受伤的玩家索引 <br/> 类型：玩家控制器与Pawn |
+| `Victim` | `int` | get, set | 受伤的玩家索引 <br/> 类型：玩家控制器与Pawn |
 | `AttackerController` | `CCSPlayerController` | get | 攻击的玩家索引 <br/> 类型：玩家控制器与游戏体 |
 | `AttackerPawn` | `CCSPlayerPawn` | get | 攻击的玩家索引 <br/> 类型：玩家控制器与游戏体 |
 | `Attacker` | `int` | get, set | 攻击的玩家索引 <br/> 类型：玩家控制器与游戏体 |

@@ -314,7 +314,7 @@ void OnWeaponServicesCanUseHook(IOnWeaponServicesCanUseHookEvent @event)
 void OnWeaponServicesDropWeaponHook(IOnWeaponServicesDropWeaponHook @event)
 ```
 
-当武器服务触发弃械钩子时调用。
+当武器服务触发丢弃武器钩子时调用。
 
 **参数:**
 

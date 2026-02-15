@@ -13,8 +13,8 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `EntIndex` | `int` | get, set | 类型：长整型 |
-| `UserIdController` | `CCSPlayerController` | get | 类型：玩家棋子 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家棋子 |
-| `UserId` | `int` | get, set | 类型：玩家棋子 |
+| `UserIdController` | `CCSPlayerController` | get | 类型：玩家Pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家Pawn |
+| `UserId` | `int` | get, set | 类型：玩家Pawn |
 | `Material` | `byte` | get, set | BREAK_GLASS, BREAK_WOOD, 等 <br/> 类型: byte |
 

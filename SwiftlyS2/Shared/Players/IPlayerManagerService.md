@@ -495,13 +495,13 @@ IPlayer? player = manager.GetPlayerFromController(controller);
 IPlayer? GetPlayerFromPawn(CBasePlayerPawn pawn)
 ```
 
-获取与指定棋子关联的玩家。
+获取与指定Pawn关联的玩家。
 
 **参数:**
 
-- `pawn` (`CBasePlayerPawn`) - 要从中获取玩家的棋子。
+- `pawn` (`CBasePlayerPawn`) - 要从中获取玩家的Pawn。
 
-**返回值:** `IPlayer?` - 一个表示拥有指定棋子的玩家的 <see cref="IPlayer"/> 实例，如果不存在这样的玩家，则为 <c>null</c>。
+**返回值:** `IPlayer?` - 一个表示拥有指定Pawn的玩家的 <see cref="IPlayer"/> 实例，如果不存在这样的玩家，则为 <c>null</c>。
 
 **用法示例:**
 ```csharp
@@ -627,7 +627,7 @@ IEnumerable<IPlayer> GetInTeam(Team team)
 
 **参数:**
 
-- `team` (`Team`) - 要检索其球员的团队。
+- `team` (`Team`) - 要检索其玩家的团队。
 
 **返回值:** `IEnumerable\<IPlayer\>` - 一个可枚举的 <see cref="IPlayer"/> 实例集合，代表指定团队中的所有玩家。
 

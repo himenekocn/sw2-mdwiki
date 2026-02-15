@@ -12,8 +12,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 投下炸弹的玩家 <br/> 类型：玩家控制器与载具 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 投下炸弹的玩家 <br/> 类型：玩家控制器与载具 |
-| `UserId` | `int` | get, set | 投下炸弹的玩家 <br/> 类型：玩家控制器与载具 |
+| `UserIdController` | `CCSPlayerController` | get | 投下炸弹的玩家 <br/> 类型：玩家控制器与Pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 投下炸弹的玩家 <br/> 类型：玩家控制器与Pawn |
+| `UserId` | `int` | get, set | 投下炸弹的玩家 <br/> 类型：玩家控制器与Pawn |
 | `EntIndex` | `int` | get, set | 类型：长整型 |
 

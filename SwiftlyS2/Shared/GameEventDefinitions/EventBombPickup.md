@@ -12,7 +12,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 拾取炸弹的玩家棋子 <br/> 类型：player_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 拾取炸弹的玩家棋子 <br/> 类型：player_pawn |
-| `UserId` | `int` | get, set | 拾取炸弹的玩家棋子 <br/> 类型：player_pawn |
+| `UserIdController` | `CCSPlayerController` | get | 拾取炸弹的玩家Pawn <br/> 类型：player_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 拾取炸弹的玩家Pawn <br/> 类型：player_pawn |
+| `UserId` | `int` | get, set | 拾取炸弹的玩家Pawn <br/> 类型：player_pawn |
 

@@ -14,7 +14,7 @@
 |------|------|--------|------|
 | `LocToken` | `string` | get, set | 类型：字符串 |
 | `Duration` | `int` | get, set | 类型：长整型 |
-| `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与载具 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与载具 |
-| `UserId` | `int` | get, set | 类型：玩家控制器与载具 |
+| `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
+| `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
 

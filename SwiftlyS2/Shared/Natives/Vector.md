@@ -1,6 +1,6 @@
 # 🏗️ Vector
 
-源2的三维向量。告别C#的混乱。
+起源2的三维向量。告别C#的混乱。
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 
@@ -77,7 +77,7 @@ void Deconstruct(out float x, out float y, out float z)
 
 **用法示例:**
 ```csharp
-Vector v = new(); // 禁止！  
+Vector v = new(); 
 // 修正：假设已有实例  
 Vector v;  
 v.Deconstruct(out float x, out float y, out float z);

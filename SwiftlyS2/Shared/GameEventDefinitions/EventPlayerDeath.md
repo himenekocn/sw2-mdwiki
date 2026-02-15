@@ -12,12 +12,12 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 已死亡的用户ID <br/> 类型：玩家控制器与载具 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 已死亡的用户ID <br/> 类型：玩家控制器与载具 |
-| `UserId` | `int` | get, set | 已死亡的用户ID <br/> 类型：玩家控制器与载具 |
-| `AttackerController` | `CCSPlayerController` | get | 杀死该实体的用户ID <br/> 类型：玩家控制器与载具 |
-| `AttackerPawn` | `CCSPlayerPawn` | get | 杀死该实体的用户ID <br/> 类型：玩家控制器与载具 |
-| `Attacker` | `int` | get, set | 杀死该实体的用户ID <br/> 类型：玩家控制器与载具 |
+| `UserIdController` | `CCSPlayerController` | get | 已死亡的用户ID <br/> 类型：玩家控制器与Pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 已死亡的用户ID <br/> 类型：玩家控制器与Pawn |
+| `UserId` | `int` | get, set | 已死亡的用户ID <br/> 类型：玩家控制器与Pawn |
+| `AttackerController` | `CCSPlayerController` | get | 杀死该实体的用户ID <br/> 类型：玩家控制器与Pawn |
+| `AttackerPawn` | `CCSPlayerPawn` | get | 杀死该实体的用户ID <br/> 类型：玩家控制器与Pawn |
+| `Attacker` | `int` | get, set | 杀死该实体的用户ID <br/> 类型：玩家控制器与Pawn |
 | `AssisterController` | `CCSPlayerController` | get | 参与击杀的玩家 <br/> 类型：玩家控制器与游戏体 |
 | `AssisterPawn` | `CCSPlayerPawn` | get | 参与击杀的玩家 <br/> 类型：玩家控制器与游戏体 |
 | `Assister` | `int` | get, set | 参与击杀的玩家 <br/> 类型：玩家控制器与游戏体 |

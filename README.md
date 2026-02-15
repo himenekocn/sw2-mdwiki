@@ -6,8 +6,6 @@ AI预测的示例可能并不准确，请根据实际情况调整。
 
 ## SwiftlyS2
 
-- 🏗️ [CGcBanInformation_t](SwiftlyS2/CGcBanInformation_t.md)
-- 📦 [Program](SwiftlyS2/Program.md)
 
 ## SwiftlyS2.Core.Commands
 
