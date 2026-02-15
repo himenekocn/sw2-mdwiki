@@ -4,5 +4,13 @@
 
 **类型:** `class`
 
-**继承:** `Attribute where T : Delegate`
+**用法:** `EventListener<T>`
+
+## 🏷️ 属性用法
+
+### 构造函数
+
+```csharp
+[EventListener<T>]
+```
 

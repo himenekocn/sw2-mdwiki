@@ -4,12 +4,3 @@
 
 **类型:** `interface`
 
-**继承:** `ISchemaClass\<CEntityAttributeTable\>`
-
-## 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `Attributes` | `SchemaUntypedField` | get | - |
-| `Names` | `SchemaUntypedField` | get | - |
-

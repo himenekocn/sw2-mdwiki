@@ -24,7 +24,7 @@ void ConfigureSharedInterface(IInterfaceManager interfaceManager)
 
 - `interfaceManager` (`IInterfaceManager`)
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### UseSharedInterface
 
@@ -36,7 +36,7 @@ void UseSharedInterface(IInterfaceManager interfaceManager)
 
 - `interfaceManager` (`IInterfaceManager`)
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### OnSharedInterfaceInjected
 
@@ -48,7 +48,7 @@ void OnSharedInterfaceInjected(IInterfaceManager interfaceManager)
 
 - `interfaceManager` (`IInterfaceManager`)
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### OnAllPluginsLoaded
 
@@ -56,7 +56,7 @@ void OnSharedInterfaceInjected(IInterfaceManager interfaceManager)
 void OnAllPluginsLoaded()
 ```
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### Load
 
@@ -68,12 +68,7 @@ void Load(bool hotReload)
 
 - `hotReload` (`bool`)
 
-**用法示例:**
-```csharp
-basePlugin.Load(false);
-// 或 hotReload = true;
-// basePlugin.Load(hotReload);
-```
+**注意:** 此方法是抽象方法，需要在子类中实现 (override)。
 
 ### Unload
 
@@ -81,8 +76,5 @@ basePlugin.Load(false);
 void Unload()
 ```
 
-**用法示例:**
-```csharp
-plugin.Unload();
-```
+**注意:** 此方法是抽象方法，需要在子类中实现 (override)。
 

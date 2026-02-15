@@ -4,5 +4,3 @@
 
 **类型:** `interface`
 
-**继承:** `ISchemaClass\<IHasAttributes\>`
-

@@ -36,7 +36,7 @@
 void Dispose()
 ```
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### PauseTextAnimation
 
@@ -46,7 +46,7 @@ void PauseTextAnimation()
 
 暂停动态文本动画。
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### ResumeTextAnimation
 
@@ -56,7 +56,7 @@ void ResumeTextAnimation()
 
 恢复动态文本动画。
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### GetFormattedHtmlText
 
@@ -70,7 +70,7 @@ string GetFormattedHtmlText(IPlayer player)
 
 **返回值:** `string`
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### GetDisplayText
 
@@ -87,7 +87,7 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 
 **返回值:** `string` - 选项的格式化显示文本。
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### OnValidatingAsync
 
@@ -103,7 +103,7 @@ ValueTask<bool> OnValidatingAsync(IPlayer player)
 
 **返回值:** `ValueTask\<bool\>` - 一个表示异步操作的任务。如果验证成功，任务结果为 true；否则为 false。
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### OnClickAsync
 
@@ -118,7 +118,7 @@ ValueTask OnClickAsync(IPlayer player, bool closeMenu = false)
 
 **返回值:** `ValueTask`
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
 ### OnClickAsync
 
@@ -134,5 +134,5 @@ ValueTask OnClickAsync(IPlayer player)
 
 **返回值:** `ValueTask` - 一个表示异步操作的任务。
 
-**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+**注意:** 此方法是虚方法，可以在子类中重写 (override)。
 
