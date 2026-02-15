@@ -8,8 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Waveform` | `ref EWaveform` | get | - |
+| `Fundamental` | `ref EMidiNote` | get | - |
+| `Octave` | `ref int` | get | - |
+| `Cents` | `ref float` | get | - |
+| `Phase` | `ref float` | get | - |
 | `Curve` | `SchemaUntypedField` | get | - |
 | `VolumeScaling` | `CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance` | get | - |
 

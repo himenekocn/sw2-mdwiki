@@ -10,9 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `AttributeName` | `string` | get, set | - |
+| `AttributeNameToken` | `ref CUtlStringToken` | get | - |
 | `X` | `SchemaUntypedField` | get | - |
 | `Y` | `SchemaUntypedField` | get | - |
 | `Z` | `SchemaUntypedField` | get | - |

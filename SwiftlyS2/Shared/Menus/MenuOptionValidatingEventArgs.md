@@ -1,6 +1,6 @@
 # 📦 MenuOptionValidatingEventArgs
 
-Provides event data for menu option validation events.
+为菜单选项验证事件提供事件数据。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -10,8 +10,8 @@ Provides event data for menu option validation events.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Cancel` | `bool` | get, set | Gets or sets a value indicating whether the interaction should be canceled. |
-| `CancelReason` | `string?` | get, set | Gets or sets the reason why the interaction was canceled. |
+| `Cancel` | `bool` | get, set | 获取或设置一个值，该值指示是否应取消交互。 |
+| `CancelReason` | `string?` | get, set | 获取或设置交互被取消的原因。 |
 

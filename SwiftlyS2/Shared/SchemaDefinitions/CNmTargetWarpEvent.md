@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CNmTargetWarpEvent\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Rule` | `ref NmTargetWarpRule_t` | get | - |
+| `Algorithm` | `ref NmTargetWarpAlgorithm_t` | get | - |
+

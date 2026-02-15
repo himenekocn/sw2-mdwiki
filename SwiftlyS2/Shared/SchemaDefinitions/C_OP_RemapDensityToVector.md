@@ -10,7 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `RadiusScale` | `ref float` | get | - |
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
+| `DensityMin` | `ref float` | get | - |
+| `DensityMax` | `ref float` | get | - |
+| `OutputMin` | `ref Vector` | get | - |
+| `OutputMax` | `ref Vector` | get | - |
+| `UseParentDensity` | `ref bool` | get | - |
+| `VoxelGridResolution` | `ref int` | get | - |
 

@@ -8,8 +8,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `BaseClusterCount` | `ref uint` | get | - |
+| `PVSBytesPerCluster` | `ref uint` | get | - |
+| `MinBounds` | `ref Vector` | get | - |
+| `MaxBounds` | `ref Vector` | get | - |
+| `GridSize` | `ref float` | get | - |
+| `SkyVisibilityCluster` | `ref uint` | get | - |
+| `SunVisibilityCluster` | `ref uint` | get | - |
 | `NodeBlock` | `VoxelVisBlockOffset_t` | get, set | - |
 | `RegionBlock` | `VoxelVisBlockOffset_t` | get, set | - |
 | `EnclosedClusterListBlock` | `VoxelVisBlockOffset_t` | get, set | - |

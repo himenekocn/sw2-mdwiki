@@ -8,9 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Parameters` | `ref CUtlVector\<SchemaUntypedField\>` | get | - |
 | `IdToIndexMap` | `SchemaUntypedField` | get | - |
-| `NameToIndexMap` | `SchemaUntypedField` | get, set | - |
+| `NameToIndexMap` | `SchemaUntypedField` | get | - |
+| `IndexToHandle` | `ref CUtlVector\<CAnimParamHandle\>` | get | - |
+| `AutoResetParams` | `ref CUtlVector\<SchemaUntypedField\>` | get, set | - |
 | `AutoResetMap` | `SchemaUntypedField` | get, set | - |
 

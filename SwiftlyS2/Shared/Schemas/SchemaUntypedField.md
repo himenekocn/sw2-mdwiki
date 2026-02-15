@@ -14,6 +14,13 @@
 |------|------|--------|------|
 | `Address` | `nint` | - | - |
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `IsValid` | `bool` | - | - |
+| `Address` | `nint` | - | - |
+
 ## ⚙️ 方法
 
 ### From (静态)
@@ -27,4 +34,9 @@ SchemaUntypedField From(nint handle)
 - `handle` (`nint`)
 
 **返回值:** `SchemaUntypedField`
+
+**用法示例:**
+```csharp
+var field = SchemaUntypedField.From(IntPtr.Zero);
+```
 

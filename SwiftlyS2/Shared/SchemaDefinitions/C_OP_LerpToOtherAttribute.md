@@ -1,4 +1,4 @@
-# 🔌 C_OP_LerpToOtherAttribute
+# 🔌 C_OP_LerpToOther
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Interpolation` | `CPerParticleFloatInput` | get | - |
 | `FieldInputFrom` | `ParticleAttributeIndex_t` | get | - |

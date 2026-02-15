@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_LIGHT_UNIT_CANDELAS` | `0` | - |
+| `PARTICLE_LIGHT_UNIT_LUMENS` | `1` | - |
+

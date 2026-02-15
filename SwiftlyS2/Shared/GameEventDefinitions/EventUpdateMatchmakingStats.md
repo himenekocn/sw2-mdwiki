@@ -1,6 +1,6 @@
 # 🔌 EventUpdateMatchmakingStats
 
-Event "update_matchmaking_stats"
+事件 "update_matchmaking_stats"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

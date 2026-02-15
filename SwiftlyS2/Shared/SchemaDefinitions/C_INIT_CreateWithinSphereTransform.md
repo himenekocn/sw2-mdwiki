@@ -10,14 +10,17 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `RadiusMin` | `CPerParticleFloatInput` | get | - |
 | `RadiusMax` | `CPerParticleFloatInput` | get | - |
 | `DistanceBias` | `CPerParticleVecInput` | get | - |
+| `DistanceBiasAbs` | `ref Vector` | get | - |
 | `TransformInput` | `CParticleTransformInput` | get | - |
 | `SpeedMin` | `CPerParticleFloatInput` | get | - |
 | `SpeedMax` | `CPerParticleFloatInput` | get | - |
+| `SpeedRandExp` | `ref float` | get | - |
+| `LocalCoords` | `ref bool` | get | - |
 | `LocalCoordinateSystemSpeedMin` | `CPerParticleVecInput` | get | - |
 | `LocalCoordinateSystemSpeedMax` | `CPerParticleVecInput` | get | - |
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |

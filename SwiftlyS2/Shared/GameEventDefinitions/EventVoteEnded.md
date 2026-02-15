@@ -1,6 +1,6 @@
 # 🔌 EventVoteEnded
 
-Event "vote_ended"
+事件 "vote_ended"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

@@ -10,7 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Damage` | `ref int` | get | - |
+| `BitsDamageType` | `ref DamageTypes_t` | get | - |
+| `Radius` | `ref float` | get | - |
+| `Delay` | `ref float` | get | - |
 | `StrTarget` | `string` | get, set | - |
+| `Activator` | `ref CHandle\<CBaseEntity\>` | get | - |
 

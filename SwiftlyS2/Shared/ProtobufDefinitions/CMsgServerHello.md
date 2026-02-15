@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Version` | `uint` | get, set | - |
-| `SocacheHaveVersions` | `IProtobufRepeatedFieldSubMessageType\<CMsgSOCacheHaveVersion\>` | get, set | - |
+| `SocacheHaveVersions` | `IProtobufRepeatedFieldSubMessageType\<CMsgSOCacheHaveVersion\>` | get | - |
 | `LegacyClientSessionNeed` | `uint` | get, set | - |
 | `ClientLauncher` | `uint` | get, set | - |
 | `LegacySteamdatagramRouting` | `byte[]` | get, set | - |

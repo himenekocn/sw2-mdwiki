@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string connString = someConnection.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(HSteamNetConnection that)
+```
+
+**参数:**
+
+- `that` (`HSteamNetConnection`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+HSteamNetConnection conn = (uint)someConnection;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(HSteamNetConnection other)
 - `other` (`HSteamNetConnection`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+HSteamNetConnection a = default;  
+int result = a.CompareTo(default);
+```
 

@@ -10,7 +10,19 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `RateMin` | `ref float` | get | - |
+| `RateMax` | `ref float` | get | - |
+| `FrequencyMin` | `ref float` | get | - |
+| `FrequencyMax` | `ref float` | get | - |
 | `Field` | `ParticleAttributeIndex_t` | get | - |
+| `Proportional` | `ref bool` | get | - |
+| `ProportionalOp` | `ref bool` | get | - |
+| `StartTime_min` | `ref float` | get | - |
+| `StartTime_max` | `ref float` | get | - |
+| `EndTime_min` | `ref float` | get | - |
+| `EndTime_max` | `ref float` | get | - |
+| `OscMult` | `ref float` | get | - |
+| `OscAdd` | `ref float` | get | - |
 

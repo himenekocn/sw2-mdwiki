@@ -8,8 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SearchDB` | `CMotionSearchDB` | get | - |
+| `MotionGraphs` | `ref CUtlVector\<SchemaUntypedField\>` | get | - |
+| `MotionGraphConfigs` | `ref CUtlVector\<CMotionGraphConfig\>` | get | - |
+| `SampleToConfig` | `ref CUtlVector\<int\>` | get | - |
 | `IsActiveScript` | `AnimScriptHandle` | get | - |
 

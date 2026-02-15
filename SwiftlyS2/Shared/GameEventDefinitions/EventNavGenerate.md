@@ -1,6 +1,6 @@
 # 🔌 EventNavGenerate
 
-Event "nav_generate"
+事件 "nav_generate"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

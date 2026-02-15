@@ -10,10 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FieldInput` | `ParticleAttributeIndex_t` | get | - |
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
+| `Increment` | `ref int` | get | - |
 | `DistanceCheck` | `CPerParticleFloatInput` | get | - |
 | `Interpolation` | `CPerParticleFloatInput` | get | - |
 

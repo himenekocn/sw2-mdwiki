@@ -10,7 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Position2` | `ref Vector` | get | - |
 | `Offset` | `ISchemaFixedArray\<Vector\>` | get, set | - |
+| `AddLength` | `ref float` | get | - |
+| `GearRatio` | `ref float` | get | - |
 

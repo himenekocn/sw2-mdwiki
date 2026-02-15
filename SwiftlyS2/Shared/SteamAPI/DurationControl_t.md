@@ -15,3 +15,59 @@
 | `m_csecsToday` | `int` | - | - |
 | `m_csecsRemaining` | `int` | - | - |
 
+## ⚙️ 方法
+
+### call
+
+```csharp
+of call(always k_EResultOK for asynchronous timer-based notifications)
+```
+
+**参数:**
+
+- `notifications` (`always k_EResultOK for asynchronous timer-based`)
+
+**返回值:** `of`
+
+**用法示例:**
+```csharp
+DurationControl_t.call();
+```
+
+### progress
+
+```csharp
+recommended progress(either everything is fine, or please exit game)
+```
+
+**参数:**
+
+- `fine` (`either everything is`)
+- `game` (`or please exit`)
+
+**返回值:** `recommended`
+
+**用法示例:**
+```csharp
+DurationControl_t.recommended(DurationControl_t.Reason.AllFine);  
+// 或  
+DurationControl_t.recommended(DurationControl_t.Reason.ExitGame);
+```
+
+### any
+
+```csharp
+if any(always k_EDurationControlNotification_None for API calls)
+```
+
+**参数:**
+
+- `calls` (`always k_EDurationControlNotification_None for API`)
+
+**返回值:** `if`
+
+**用法示例:**
+```csharp
+DurationControl_t.any(k_EDurationControlNotification_None);
+```
+

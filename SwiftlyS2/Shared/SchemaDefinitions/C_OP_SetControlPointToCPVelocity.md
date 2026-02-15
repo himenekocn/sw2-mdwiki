@@ -10,7 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `CPInput` | `ref int` | get | - |
+| `CPOutputVel` | `ref int` | get | - |
+| `Normalize` | `ref bool` | get | - |
+| `CPOutputMag` | `ref int` | get | - |
+| `CPField` | `ref int` | get | - |
 | `ComparisonVelocity` | `CParticleCollectionVecInput` | get | - |
 

@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<FeWeightedNode_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Node` | `ref ushort` | get | - |
+| `Weight` | `ref ushort` | get | - |
+

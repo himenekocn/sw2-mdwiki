@@ -8,7 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `VertexMapName` | `string` | get, set | - |
+| `NameHash` | `ref uint` | get | - |
+| `Color` | `ref Color` | get | - |
+| `VolumetricSolveStrength` | `ref float` | get | - |
+| `ScaleSourceNode` | `ref int` | get | - |
+| `Weights` | `ref CUtlVector\<float\>` | get | - |
 

@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `InputType_PlayerShootPosition` | `0` | - |
+| `InputType_PlayerShootPositionAroundAxis` | `1` | - |
+

@@ -10,9 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `OnStart` | `CPulse_ResumePoint` | get | - |
 | `OnEnd` | `CPulse_ResumePoint` | get | - |
 | `OnCanceled` | `CPulse_ResumePoint` | get | - |
+| `TagName` | `ref CGlobalSymbol` | get | - |
 

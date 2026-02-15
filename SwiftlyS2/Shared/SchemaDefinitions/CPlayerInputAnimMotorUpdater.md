@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `SampleTimes` | `ref CUtlVector\<float\>` | get | - |
+| `SpringConstant` | `ref float` | get | - |
+| `AnticipationDistance` | `ref float` | get | - |
 | `AnticipationPosParam` | `CAnimParamHandle` | get | - |
 | `AnticipationHeadingParam` | `CAnimParamHandle` | get | - |
+| `UseAcceleration` | `ref bool` | get | - |
 

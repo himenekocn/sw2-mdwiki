@@ -8,3 +8,16 @@
 
 **实现接口:** `ISchemaClass\<CSoundOpvarSetOBBWindEntity\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Mins` | `ref Vector` | get | - |
+| `Maxs` | `ref Vector` | get | - |
+| `DistanceMins` | `ref Vector` | get | - |
+| `DistanceMaxs` | `ref Vector` | get | - |
+| `WindMin` | `ref float` | get | - |
+| `WindMax` | `ref float` | get | - |
+| `WindMapMin` | `ref float` | get | - |
+| `WindMapMax` | `ref float` | get | - |
+

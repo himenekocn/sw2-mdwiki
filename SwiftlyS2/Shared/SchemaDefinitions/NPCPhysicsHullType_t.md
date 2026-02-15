@@ -6,3 +6,13 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eInvalid` | `0` | - |
+| `eGroundCapsule` | `1` | - |
+| `eCenteredCapsule` | `2` | - |
+| `eGenericCapsule` | `3` | - |
+| `eGroundBox` | `4` | - |
+

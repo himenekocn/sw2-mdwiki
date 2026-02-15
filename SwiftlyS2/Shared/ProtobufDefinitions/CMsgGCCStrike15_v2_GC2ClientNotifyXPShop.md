@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Prematch` | `CSOAccountXpShop` | get, set | - |
-| `Postmatch` | `CSOAccountXpShop` | get, set | - |
+| `Prematch` | `CSOAccountXpShop` | get | - |
+| `Postmatch` | `CSOAccountXpShop` | get | - |
 | `CurrentXp` | `uint` | get, set | - |
 | `CurrentLevel` | `uint` | get, set | - |
 

@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Crc` | `uint` | get, set | - |
 | `ItemCount` | `int` | get, set | - |
@@ -17,8 +17,8 @@
 | `ClientTimestamp` | `int` | get, set | - |
 | `Platform` | `int` | get, set | - |
 | `Inventories` | `IProtobufRepeatedFieldSubMessageType\<CUserMessage_Inventory_Response_InventoryDetail\>` | get | - |
-| `Inventories2` | `IProtobufRepeatedFieldSubMessageType\<CUserMessage_Inventory_Response_InventoryDetail\>` | get, set | - |
-| `Inventories3` | `IProtobufRepeatedFieldSubMessageType\<CUserMessage_Inventory_Response_InventoryDetail\>` | get, set | - |
+| `Inventories2` | `IProtobufRepeatedFieldSubMessageType\<CUserMessage_Inventory_Response_InventoryDetail\>` | get | - |
+| `Inventories3` | `IProtobufRepeatedFieldSubMessageType\<CUserMessage_Inventory_Response_InventoryDetail\>` | get | - |
 | `InvType` | `int` | get, set | - |
 | `BuildVersion` | `int` | get, set | - |
 | `Instance` | `int` | get, set | - |

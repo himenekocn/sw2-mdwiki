@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = TimelineEventHandle_t.SomeExistingInstance.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,24 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(TimelineEventHandle_t that)
+```
+
+**参数:**
+
+- `that` (`TimelineEventHandle_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+TimelineEventHandle_t eventHandle = TimelineEventHandle_t.SomeExistingValue;
+ulong id = (ulong)eventHandle;
+```
 
 ### Equals
 
@@ -67,4 +90,10 @@ int CompareTo(TimelineEventHandle_t other)
 - `other` (`TimelineEventHandle_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+TimelineEventHandle_t handle1 = TimelineEventHandle_t.Default;  
+int result = handle1.CompareTo(handle2);
+```
 

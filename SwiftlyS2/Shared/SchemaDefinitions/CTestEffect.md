@@ -10,8 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Loop` | `ref int` | get | - |
+| `Beam` | `ref int` | get | - |
 | `Beam1` | `ISchemaFixedArray\<CHandle\<CBeam\>\>` | get | - |
 | `BeamTime` | `ISchemaClassFixedArray\<GameTime_t\>` | get | - |
 | `StartTime` | `GameTime_t` | get | - |

@@ -8,9 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `BoneName` | `string` | get, set | - |
 | `ParentName` | `string` | get, set | - |
+| `InvBindPose` | `ref matrix3x4_t` | get | - |
 | `Bbox` | `SkeletonBoneBounds_t` | get | - |
+| `SphereRadius` | `ref float` | get | - |
 

@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string idStr = AppId_t.Dota2.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(AppId_t that)
+```
+
+**参数:**
+
+- `that` (`AppId_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint id = (uint)AppId_t.SomeValue;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(AppId_t other)
 - `other` (`AppId_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+AppId_t id1 = AppId_t.SomeValue;  
+int result = id1.CompareTo(AppId_t.OtherValue);
+```
 

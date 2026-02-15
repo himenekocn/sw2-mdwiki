@@ -8,3 +8,24 @@
 
 **实现接口:** `ISchemaClass\<CSoundEventOBBEntity\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Mins` | `ref Vector` | get | - |
+| `Maxs` | `ref Vector` | get | - |
+
+## ⚙️ 方法
+
+### MinsUpdated
+
+```csharp
+void MinsUpdated()
+```
+
+### MaxsUpdated
+
+```csharp
+void MaxsUpdated()
+```
+

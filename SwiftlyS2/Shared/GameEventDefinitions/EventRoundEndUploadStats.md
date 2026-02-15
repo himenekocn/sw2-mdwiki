@@ -1,6 +1,6 @@
 # 🔌 EventRoundEndUploadStats
 
-Event "round_end_upload_stats"
+事件 "round_end_upload_stats"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

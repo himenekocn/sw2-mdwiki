@@ -8,3 +8,11 @@
 
 **实现接口:** `ISchemaClass\<CNmTargetInfoNode__CDefinition\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InputValueNodeIdx` | `ref short` | get | - |
+| `InfoType` | `ref CNmTargetInfoNode__Info_t` | get | - |
+| `IsWorldSpaceTarget` | `ref bool` | get | - |
+

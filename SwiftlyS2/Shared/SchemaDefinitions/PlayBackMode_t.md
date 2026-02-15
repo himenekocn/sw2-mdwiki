@@ -6,3 +6,13 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `Random` | `0` | - |
+| `RandomNoRepeats` | `1` | - |
+| `RandomAvoidLast` | `2` | - |
+| `Sequential` | `3` | - |
+| `RandomWeights` | `4` | - |
+

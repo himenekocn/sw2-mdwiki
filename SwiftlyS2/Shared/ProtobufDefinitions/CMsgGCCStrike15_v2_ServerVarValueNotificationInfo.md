@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Accountid` | `uint` | get, set | - |
-| `Viewangles` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
+| `Viewangles` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `Type` | `uint` | get, set | - |
 | `Userdata` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 

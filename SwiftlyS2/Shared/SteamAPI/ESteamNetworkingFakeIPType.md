@@ -6,3 +6,9 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ESteamNetworkingFakeIPType__Force32Bit` | `0x7fffffff` | - |
+

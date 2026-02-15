@@ -8,11 +8,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `OutputName` | `string` | get, set | - |
+| `TargetType` | `ref uint` | get | - |
 | `TargetName` | `string` | get, set | - |
 | `InputName` | `string` | get, set | - |
 | `OverrideParam` | `string` | get, set | - |
+| `Delay` | `ref float` | get | - |
+| `TimesToFire` | `ref int` | get | - |
 | `ParamMap` | `SchemaUntypedField` | get | - |
 

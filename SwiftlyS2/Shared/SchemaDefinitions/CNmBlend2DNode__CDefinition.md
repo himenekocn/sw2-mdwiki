@@ -10,10 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SourceNodeIndices` | `SchemaUntypedField` | get | - |
+| `InputParameterNodeIdx0` | `ref short` | get | - |
+| `InputParameterNodeIdx1` | `ref short` | get | - |
 | `Values` | `SchemaUntypedField` | get | - |
 | `Indices` | `SchemaUntypedField` | get | - |
 | `HullIndices` | `SchemaUntypedField` | get | - |
+| `AllowLooping` | `ref bool` | get | - |
 

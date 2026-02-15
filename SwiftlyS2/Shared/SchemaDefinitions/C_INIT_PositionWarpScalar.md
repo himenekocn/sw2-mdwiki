@@ -10,7 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `WarpMin` | `ref Vector` | get | - |
+| `WarpMax` | `ref Vector` | get | - |
 | `InputValue` | `CPerParticleFloatInput` | get | - |
+| `PrevPosScale` | `ref float` | get | - |
+| `ScaleControlPointNumber` | `ref int` | get | - |
+| `ControlPointNumber` | `ref int` | get | - |
 

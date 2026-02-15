@@ -8,9 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `BodyParts` | `IProtobufRepeatedFieldSubMessageType\<CP2P_VRAvatarPosition_COrientation\>` | get, set | - |
+| `BodyParts` | `IProtobufRepeatedFieldSubMessageType\<CP2P_VRAvatarPosition_COrientation\>` | get | - |
 | `HatId` | `int` | get, set | - |
 | `SceneId` | `int` | get, set | - |
 | `WorldScale` | `int` | get, set | - |

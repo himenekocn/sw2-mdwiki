@@ -10,7 +10,43 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `PerRoundStats` | `ref CUtlVector\<CSPerRoundStats_t\>` | get | - |
 | `MatchStats` | `CSMatchStats_t` | get | - |
+| `NumRoundKills` | `ref int` | get | - |
+| `NumRoundKillsHeadshots` | `ref int` | get | - |
+| `TotalRoundDamageDealt` | `ref float` | get | - |
+
+## ⚙️ 方法
+
+### PerRoundStatsUpdated
+
+```csharp
+void PerRoundStatsUpdated()
+```
+
+### MatchStatsUpdated
+
+```csharp
+void MatchStatsUpdated()
+```
+
+### NumRoundKillsUpdated
+
+```csharp
+void NumRoundKillsUpdated()
+```
+
+### NumRoundKillsHeadshotsUpdated
+
+```csharp
+void NumRoundKillsHeadshotsUpdated()
+```
+
+### TotalRoundDamageDealtUpdated
+
+```csharp
+void TotalRoundDamageDealtUpdated()
+```
 

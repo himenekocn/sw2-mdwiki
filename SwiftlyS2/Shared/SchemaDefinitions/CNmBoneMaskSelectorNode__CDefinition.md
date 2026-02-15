@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `DefaultMaskNodeIdx` | `ref short` | get | - |
+| `ParameterValueNodeIdx` | `ref short` | get | - |
+| `SwitchDynamically` | `ref bool` | get | - |
 | `MaskNodeIndices` | `SchemaUntypedField` | get | - |
 | `ParameterValues` | `SchemaUntypedField` | get | - |
+| `BlendTimeSeconds` | `ref float` | get | - |
 

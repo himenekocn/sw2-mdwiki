@@ -8,9 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Total` | `CMsgSource2VProfLiteReportItem` | get, set | - |
-| `Items` | `IProtobufRepeatedFieldSubMessageType\<CMsgSource2VProfLiteReportItem\>` | get, set | - |
+| `Total` | `CMsgSource2VProfLiteReportItem` | get | - |
+| `Items` | `IProtobufRepeatedFieldSubMessageType\<CMsgSource2VProfLiteReportItem\>` | get | - |
 | `DiscardedFrames` | `uint` | get, set | - |
 

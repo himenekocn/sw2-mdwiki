@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `NextBlockTime` | `GameTime_t` | get, set | - |
+| `CurrentTarget` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `Activated` | `ref bool` | get | - |
+| `Enemy` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `BlockDamage` | `ref float` | get | - |
+| `NextBlockTime` | `GameTime_t` | get | - |
 | `LastTarget` | `string` | get, set | - |
 

@@ -18,3 +18,22 @@
 | `rotVelY` | `float` | - | - |
 | `rotVelZ` | `float` | - | - |
 
+## ⚙️ 方法
+
+### port
+
+```csharp
+charging port(forward side of controller)
+```
+
+**参数:**
+
+- `controller` (`forward side of`)
+
+**返回值:** `charging`
+
+**用法示例:**
+```csharp
+InputMotionData_t.charging port(forward side of controller);
+```
+

@@ -10,7 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `StateMachine` | `CAnimStateMachineUpdater` | get | - |
+| `StateData` | `ref CUtlVector\<CStateNodeStateData\>` | get | - |
+| `TransitionData` | `ref CUtlVector\<CStateNodeTransitionData\>` | get | - |
+| `BlockWaningTags` | `ref bool` | get | - |
+| `LockStateWhenWaning` | `ref bool` | get | - |
+| `ResetWhenActivated` | `ref bool` | get, set | - |
 

@@ -1,6 +1,6 @@
 # 🔌 EventRoundPoststart
 
-Event "round_poststart" sent after all other round restart actions
+事件 "round_poststart" 在所有其他回合重启操作之后发送
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

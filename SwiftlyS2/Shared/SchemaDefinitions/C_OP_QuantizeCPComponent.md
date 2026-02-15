@@ -10,8 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `InputValue` | `CParticleCollectionFloatInput` | get | - |
+| `CPOutput` | `ref int` | get | - |
+| `OutVectorField` | `ref int` | get | - |
 | `QuantizeValue` | `CParticleCollectionFloatInput` | get | - |
 

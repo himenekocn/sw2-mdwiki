@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = SNetSocket_t.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(SNetSocket_t that)
+```
+
+**参数:**
+
+- `that` (`SNetSocket_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint socketId = (uint)SNetSocket_t.someInstance;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(SNetSocket_t other)
 - `other` (`SNetSocket_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SNetSocket_t socket1 = SNetSocket_t.Invalid;  
+int result = socket1.CompareTo(socket2);
+```
 

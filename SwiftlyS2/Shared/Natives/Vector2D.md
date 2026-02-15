@@ -1,6 +1,6 @@
 # 🏗️ Vector2D
 
-2-Dimensional vector for source 2.
+源2的二维向量。
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 
@@ -13,6 +13,13 @@
 | `X` | `float` | - | - |
 | `Y` | `float` | - | - |
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Zero` | `Vector2D` | - | - |
+| `One` | `Vector2D` | - | - |
+
 ## ⚙️ 方法
 
 ### ToBuiltin
@@ -22,6 +29,12 @@ System.Numerics.Vector2 ToBuiltin()
 ```
 
 **返回值:** `System.Numerics.Vector2`
+
+**用法示例:**
+```csharp
+Vector2D v = default;
+System.Numerics.Vector2 builtin = v.ToBuiltin();
+```
 
 ### FromBuiltin (静态)
 
@@ -35,10 +48,21 @@ Vector2D FromBuiltin(System.Numerics.Vector2 vector)
 
 **返回值:** `Vector2D`
 
+**用法示例:**
+```csharp
+Vector2D result = Vector2D.FromBuiltin(new System.Numerics.Vector2(1f, 2f));
+```
+
 ### Normalize
 
 ```csharp
 void Normalize()
+```
+
+**用法示例:**
+```csharp
+Vector2D v = new Vector2D(3, 4);
+v.Normalize();
 ```
 
 ### Normalized
@@ -48,6 +72,12 @@ Vector2D Normalized()
 ```
 
 **返回值:** `Vector2D`
+
+**用法示例:**
+```csharp
+Vector2D v = new Vector2D(3, 4);
+Vector2D normalizedV = v.Normalized();
+```
 
 ### Deconstruct
 
@@ -60,19 +90,8 @@ void Deconstruct(out float x, out float y)
 - `x` (`out float`)
 - `y` (`out float`)
 
-### GetHashCode
-
+**用法示例:**
 ```csharp
-int GetHashCode()
+(float x, float y) = vector2DInstance;
 ```
-
-**返回值:** `int`
-
-### ToString
-
-```csharp
-string ToString()
-```
-
-**返回值:** `string`
 

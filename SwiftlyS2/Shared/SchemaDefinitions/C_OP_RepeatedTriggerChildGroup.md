@@ -10,9 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ChildGroupID` | `ref int` | get | - |
 | `ClusterRefireTime` | `CParticleCollectionFloatInput` | get | - |
 | `ClusterSize` | `CParticleCollectionFloatInput` | get | - |
 | `ClusterCooldown` | `CParticleCollectionFloatInput` | get | - |
+| `LimitChildCount` | `ref bool` | get | - |
 

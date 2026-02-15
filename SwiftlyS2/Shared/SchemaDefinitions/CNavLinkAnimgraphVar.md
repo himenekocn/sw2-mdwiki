@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<CNavLinkAnimgraphVar\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `AnimGraphNavlinkType` | `ref CGlobalSymbol` | get | - |
+| `AlignmentDegrees` | `ref uint` | get | - |
+

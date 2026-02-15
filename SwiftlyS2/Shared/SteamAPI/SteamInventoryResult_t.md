@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = inventoryResult.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### int (静态)
+
+```csharp
+operator int(SteamInventoryResult_t that)
+```
+
+**参数:**
+
+- `that` (`SteamInventoryResult_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+int result = SteamInventoryResult_t(someInstance);
+```
 
 ### Equals
 
@@ -67,4 +89,11 @@ int CompareTo(SteamInventoryResult_t other)
 - `other` (`SteamInventoryResult_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SteamInventoryResult_t result1 = SteamInventoryResult_t.Success;  
+SteamInventoryResult_t result2 = SteamInventoryResult_t.NoInv;  
+int comparison = result1.CompareTo(result2);
+```
 

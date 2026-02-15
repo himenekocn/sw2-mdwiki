@@ -8,8 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ChainIndex` | `ref int` | get | - |
 | `SolverSettings` | `IKSolverSettings_t` | get | - |
-| `TargetSettings` | `IKTargetSettings_t` | get, set | - |
+| `TargetSettings` | `IKTargetSettings_t` | get | - |
+| `DebugSetting` | `ref SolveIKChainAnimNodeDebugSetting` | get | - |
+| `DebugNormalizedValue` | `ref float` | get | - |
+| `DebugOffset` | `ref Vector` | get, set | - |
 

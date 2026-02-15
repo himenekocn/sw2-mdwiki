@@ -10,9 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Input` | `CPerParticleFloatInput` | get | - |
 | `RisingEdge` | `CPerParticleFloatInput` | get | - |
+| `RisingEventType` | `ref EventTypeSelection_t` | get | - |
 | `FallingEdge` | `CPerParticleFloatInput` | get | - |
+| `FallingEventType` | `ref EventTypeSelection_t` | get | - |
 

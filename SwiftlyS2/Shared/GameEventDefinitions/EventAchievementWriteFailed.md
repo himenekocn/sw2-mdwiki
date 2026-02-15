@@ -1,6 +1,6 @@
 # 🔌 EventAchievementWriteFailed
 
-Event "achievement_write_failed"
+事件“achievement_write_failed”
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

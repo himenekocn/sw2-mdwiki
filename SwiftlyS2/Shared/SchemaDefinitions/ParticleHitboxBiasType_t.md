@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_HITBOX_BIAS_ENTITY` | `0` | - |
+| `PARTICLE_HITBOX_BIAS_HITBOX` | `1` | - |
+

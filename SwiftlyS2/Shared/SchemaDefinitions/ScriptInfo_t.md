@@ -8,7 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Code` | `string` | get, set | - |
+| `ParamsModified` | `ref CUtlVector\<CAnimParamHandle\>` | get | - |
+| `ProxyReadParams` | `ref CUtlVector\<int\>` | get | - |
+| `ProxyWriteParams` | `ref CUtlVector\<int\>` | get | - |
+| `ScriptType` | `ref AnimScriptType` | get | - |
 

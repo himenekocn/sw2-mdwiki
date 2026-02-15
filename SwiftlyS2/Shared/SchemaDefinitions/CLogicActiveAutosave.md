@@ -10,7 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `TriggerHitPoints` | `ref int` | get | - |
+| `TimeToTrigger` | `ref float` | get | - |
 | `StartTime` | `GameTime_t` | get | - |
+| `DangerousTime` | `ref float` | get | - |
 

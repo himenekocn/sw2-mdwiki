@@ -10,8 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Motors` | `ref CUtlVector\<SchemaUntypedField\>` | get | - |
 | `FacingDamping` | `CAnimInputDamping` | get | - |
+| `DefaultMotorIndex` | `ref int` | get | - |
+| `DefaultRunSpeed` | `ref float` | get | - |
+| `MoveVarsDisabled` | `ref bool` | get | - |
+| `NetworkPath` | `ref bool` | get | - |
+| `NetworkFacing` | `ref bool` | get | - |
 | `ParamHandles` | `ISchemaClassFixedArray\<CAnimParamHandle\>` | get | - |
 

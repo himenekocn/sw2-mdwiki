@@ -10,9 +10,19 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `StrPhysicsType` | `string` | get, set | - |
+| `StartAsleep` | `ref bool` | get | - |
 | `PlayerWakeRadius` | `CParticleCollectionFloatInput` | get | - |
 | `VehicleWakeRadius` | `CParticleCollectionFloatInput` | get | - |
+| `UseHighQualitySimulation` | `ref bool` | get | - |
+| `MaxParticleCount` | `ref int` | get | - |
+| `RespectExclusionVolumes` | `ref bool` | get | - |
+| `KillParticles` | `ref bool` | get | - |
+| `DeleteSim` | `ref bool` | get | - |
+| `ControlPoint` | `ref int` | get | - |
+| `ForcedSimId` | `ref int` | get | - |
+| `ColorBlendType` | `ref ParticleColorBlendType_t` | get | - |
+| `ForcedStatusEffects` | `ref ParticleAttrBoxFlags_t` | get | - |
 

@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `CPInput` | `ref int` | get | - |
+| `CPOutput` | `ref int` | get | - |
 | `Scale` | `CParticleCollectionFloatInput` | get | - |
+| `SetOrientation` | `ref bool` | get | - |
+| `SetZDown` | `ref bool` | get | - |
 

@@ -1,6 +1,6 @@
 # 🔌 IOnClientVoiceEvent
 
-Called when a client sends a voice packet.
+当客户端发送语音数据包时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,7 +8,7 @@ Called when a client sends a voice packet.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | The player ID of the client that sent a voice packet. |
+| `PlayerId` | `int` | get | 发送语音数据包的客户端的玩家ID。 |
 

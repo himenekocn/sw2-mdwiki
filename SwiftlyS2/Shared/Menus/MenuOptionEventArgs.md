@@ -1,6 +1,6 @@
 # 📦 MenuOptionEventArgs
 
-Provides event data for menu option events.
+为菜单选项事件提供事件数据。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -10,8 +10,8 @@ Provides event data for menu option events.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Player` | `IPlayer?` | get | The player who triggered this menu event. |
-| `Option` | `IMenuOption?` | get | The menu option involved in this event, or null for lifecycle events like opening or closing the menu. |
+| `Player` | `IPlayer?` | get | 触发此菜单事件的玩家。 |
+| `Option` | `IMenuOption?` | get | 与此事件相关的菜单选项，或对于打开或关闭菜单等生命周期事件则为 null。 |
 

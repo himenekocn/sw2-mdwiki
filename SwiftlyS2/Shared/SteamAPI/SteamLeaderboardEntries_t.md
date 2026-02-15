@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = SteamLeaderboardEntries_t.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(SteamLeaderboardEntries_t that)
+```
+
+**参数:**
+
+- `that` (`SteamLeaderboardEntries_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+SteamLeaderboardEntries_t.operator_ulong(leaderboardEntries);
+```
 
 ### Equals
 
@@ -67,4 +89,9 @@ int CompareTo(SteamLeaderboardEntries_t other)
 - `other` (`SteamLeaderboardEntries_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SteamLeaderboardEntries_t a = default; SteamLeaderboardEntries_t b = default; int result = a.CompareTo(b);
+```
 

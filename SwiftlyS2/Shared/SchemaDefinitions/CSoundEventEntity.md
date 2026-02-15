@@ -10,10 +10,20 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `StartOnSpawn` | `ref bool` | get | - |
+| `ToLocalPlayer` | `ref bool` | get | - |
+| `StopOnNew` | `ref bool` | get | - |
+| `SaveRestore` | `ref bool` | get | - |
+| `SavedIsPlaying` | `ref bool` | get | - |
+| `SavedElapsedTime` | `ref float` | get | - |
 | `SourceEntityName` | `string` | get, set | - |
 | `AttachmentName` | `string` | get, set | - |
-| `OnGUIDChanged` | `SchemaUntypedField` | get, set | - |
+| `OnGUIDChanged` | `SchemaUntypedField` | get | - |
+| `OnSoundFinished` | `ref CEntityIOOutput` | get | - |
+| `ClientCullRadius` | `ref float` | get | - |
 | `SoundName` | `string` | get, set | - |
+| `Source` | `ref CHandle\<CEntityInstance\>` | get | - |
+| `EntityIndexSelection` | `ref int` | get | - |
 

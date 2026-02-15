@@ -10,14 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Action` | `SchemaUntypedField` | get, set | - |
-| `ActionSubtype` | `SchemaUntypedField` | get, set | - |
+| `Action` | `SchemaUntypedField` | get | - |
+| `ActionSubtype` | `SchemaUntypedField` | get | - |
 | `ActionReset` | `SchemaUntypedField` | get, set | - |
 | `IdleVariation` | `SchemaUntypedField` | get | - |
 | `RunVariation` | `SchemaUntypedField` | get | - |
 | `PanicVariation` | `SchemaUntypedField` | get | - |
 | `SquatVariation` | `SchemaUntypedField` | get | - |
 | `InWater` | `SchemaUntypedField` | get | - |
+| `HasActionCompletedEvent` | `ref bool` | get | - |
+| `WaitingForCompletedEvent` | `ref bool` | get | - |
 

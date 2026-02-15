@@ -8,7 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SkeletonName` | `SchemaUntypedField` | get | - |
+| `BoneIDs` | `ref CUtlVector\<CGlobalSymbol\>` | get | - |
+| `Weights` | `ref CUtlVector\<float\>` | get | - |
 

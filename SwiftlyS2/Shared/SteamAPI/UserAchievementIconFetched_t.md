@@ -12,3 +12,18 @@
 | `m_nGameID` | `CGameID` | - | - |
 | `m_bAchieved` | `bool` | - | - |
 
+## ⚙️ 方法
+
+### SteamUtils
+
+```csharp
+in SteamUtils()
+```
+
+**返回值:** `in`
+
+**用法示例:**
+```csharp
+UserAchievementIconFetched_t.SteamUtils();
+```
+

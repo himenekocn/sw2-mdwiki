@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Type` | `PARTICLE_MESSAGE` | get, set | - |
 | `Index` | `uint` | get, set | - |
@@ -19,7 +19,7 @@
 | `UpdateParticle` | `CUserMsg_ParticleManager_UpdateParticle_OBSOLETE` | get | - |
 | `UpdateParticleFwd` | `CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE` | get | - |
 | `UpdateParticleOrient` | `CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE` | get | - |
-| `UpdateParticleFallback` | `CUserMsg_ParticleManager_UpdateParticleFallback` | get, set | - |
+| `UpdateParticleFallback` | `CUserMsg_ParticleManager_UpdateParticleFallback` | get | - |
 | `UpdateParticleOffset` | `CUserMsg_ParticleManager_UpdateParticleOffset` | get, set | - |
 | `UpdateParticleEnt` | `CUserMsg_ParticleManager_UpdateParticleEnt` | get | - |
 | `UpdateParticleShouldDraw` | `CUserMsg_ParticleManager_UpdateParticleShouldDraw` | get | - |

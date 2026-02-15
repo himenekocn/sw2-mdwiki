@@ -6,3 +6,11 @@
 
 **继承:** `byte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `AllowTransition` | `0` | - |
+| `ConditionallyAllowTransition` | `1` | - |
+| `BlockTransition` | `2` | - |
+

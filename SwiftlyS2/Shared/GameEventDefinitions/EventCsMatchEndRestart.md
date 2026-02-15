@@ -1,6 +1,6 @@
 # 🔌 EventCsMatchEndRestart
 
-Event "cs_match_end_restart"
+事件 "cs_match_end_restart"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

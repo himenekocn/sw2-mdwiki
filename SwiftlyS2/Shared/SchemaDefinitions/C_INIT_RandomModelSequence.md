@@ -10,8 +10,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ActivityName` | `string` | get, set | - |
 | `SequenceName` | `string` | get, set | - |
+| `Model` | `ref CStrongHandle\<InfoForResourceTypeCModel\>` | get | - |
 

@@ -1,6 +1,6 @@
 # 📦 ToggleMenuOption
 
-Represents a toggleable menu option that displays an on/off state.
+表示一个可切换的菜单选项，显示开/关状态。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -16,14 +16,19 @@ Represents a toggleable menu option that displays an on/off state.
 string GetDisplayText(IPlayer player, int displayLine = 0)
 ```
 
-Gets the display text for this option, including the toggle state indicator.
+获取此选项的显示文本，包括切换状态指示器。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player viewing the option.
-- `displayLine` (`int`) = `0` - The display line number (not used in this implementation).
+- `player` (`IPlayer`) - 查看该选项的玩家。
+- `displayLine` (`int`) = `0` - 显示行号（此实现中未使用）。
 
-**返回值:** `string` - The formatted display text with toggle state indicator.
+**返回值:** `string` - 带切换状态指示器的格式化显示文本。
+
+**用法示例:**
+```csharp
+string displayText = toggleMenuOption.GetDisplayText(player, 0);
+```
 
 ### GetToggleState
 
@@ -31,13 +36,18 @@ Gets the display text for this option, including the toggle state indicator.
 bool GetToggleState(IPlayer player)
 ```
 
-Gets the toggle state for the specified player.
+获取指定玩家的切换状态。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose toggle state to retrieve.
+- `player` (`IPlayer`) - 要获取其切换状态的玩家。
 
-**返回值:** `bool` - True if toggled on, false if toggled off. Uses the configured default value for new players.
+**返回值:** `bool` - 如果切换为开启则返回 true，如果切换为关闭则返回 false。新玩家将使用配置的默认值。
+
+**用法示例:**
+```csharp
+bool state = toggleMenuOption.GetToggleState(player);
+```
 
 ### SetToggleState
 
@@ -45,12 +55,17 @@ Gets the toggle state for the specified player.
 bool SetToggleState(IPlayer player, bool value)
 ```
 
-Sets the toggle state for the specified player and triggers the value changed event.
+设置指定玩家的切换状态，并触发值更改事件。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose toggle state to set.
-- `value` (`bool`) - The toggle state to set.
+- `player` (`IPlayer`) - 要设置其切换状态的玩家。
+- `value` (`bool`) - 要设置的切换状态。
 
-**返回值:** `bool` - True if the value was changed, false if it was already the same value.
+**返回值:** `bool` - 如果值已更改，则为 true；如果值已相同，则为 false。
+
+**用法示例:**
+```csharp
+toggleMenuOption.SetToggleState(player, true);
+```
 

@@ -1,6 +1,6 @@
 # 🔗 OnSteamAPIActivated
 
-Called when Steam API is activated.
+当 Steam API 被激活时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

@@ -6,3 +6,14 @@
 
 **继承:** `byte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `kDecalInvalid` | `255` | - |
+| `kDecalMin` | `0` | - |
+| `kDecalBlood` | `0` | - |
+| `kDecalCloak` | `1` | - |
+| `kDecalMax` | `2` | - |
+| `kDecalDefault` | `0` | - |
+

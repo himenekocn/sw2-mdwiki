@@ -8,7 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `BaseOrientation` | `ref Quaternion` | get | - |
+| `BasePosition` | `ref Vector` | get | - |
+| `BoneHash` | `ref uint` | get | - |
+| `Weight` | `ref float` | get | - |
 | `Name` | `string` | get, set | - |
 

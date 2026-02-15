@@ -8,15 +8,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Serverid` | `ulong` | get, set | - |
 | `DirectUdpIp` | `uint` | get, set | - |
 | `DirectUdpPort` | `uint` | get, set | - |
 | `Reservationid` | `ulong` | get, set | - |
-| `Reservation` | `CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve` | get, set | - |
+| `Reservation` | `CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve` | get | - |
 | `Map` | `string` | get, set | - |
 | `ServerAddress` | `string` | get, set | - |
-| `GsPing` | `DataCenterPing` | get, set | - |
+| `GsPing` | `DataCenterPing` | get | - |
 | `GsLocationId` | `uint` | get, set | - |
 

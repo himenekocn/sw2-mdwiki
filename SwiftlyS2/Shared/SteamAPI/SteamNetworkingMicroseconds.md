@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+SteamNetworkingMicroseconds time = 1000;
+string result = time.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### long (静态)
+
+```csharp
+operator long(SteamNetworkingMicroseconds that)
+```
+
+**参数:**
+
+- `that` (`SteamNetworkingMicroseconds`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+long time = (long)SteamNetworkingMicroseconds.SomeValue;
+```
 
 ### Equals
 
@@ -67,4 +90,9 @@ int CompareTo(SteamNetworkingMicroseconds other)
 - `other` (`SteamNetworkingMicroseconds`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SteamNetworkingMicroseconds a = default; SteamNetworkingMicroseconds b = default; int result = a.CompareTo(b);
+```
 

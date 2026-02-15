@@ -10,8 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Train` | `ref CHandle\<CFuncTrackTrain\>` | get | - |
+| `TargetEntity` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `SoundPlaying` | `ref int` | get | - |
 | `StartSoundName` | `string` | get, set | - |
 | `EngineSoundName` | `string` | get, set | - |
 | `MovementSoundName` | `string` | get, set | - |

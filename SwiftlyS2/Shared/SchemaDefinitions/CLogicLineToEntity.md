@@ -10,8 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Line` | `SchemaUntypedField` | get | - |
 | `SourceName` | `string` | get, set | - |
+| `StartEntity` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `EndEntity` | `ref CHandle\<CBaseEntity\>` | get | - |
 

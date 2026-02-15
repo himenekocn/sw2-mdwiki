@@ -1,6 +1,6 @@
 # 🔗 OnMapLoad
 
-Called when a map is loaded.
+当地图加载时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

@@ -8,3 +8,11 @@
 
 **实现接口:** `ISchemaClass\<FeBuildSphereRigid_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Priority` | `ref int` | get | - |
+| `VertexMapHash` | `ref uint` | get | - |
+| `AntitunnelGroupBits` | `ref uint` | get | - |
+

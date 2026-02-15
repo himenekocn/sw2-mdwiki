@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `RequestId` | `uint` | get, set | - |
-| `AccountIds` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
-| `WatchableMatchInfos` | `IProtobufRepeatedFieldSubMessageType\<WatchableMatchInfo\>` | get, set | - |
+| `AccountIds` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `WatchableMatchInfos` | `IProtobufRepeatedFieldSubMessageType\<WatchableMatchInfo\>` | get | - |
 | `ExtendedTimeout` | `uint` | get, set | - |
 

@@ -1,6 +1,6 @@
 # 🔗 OnEntityIdentityAcceptInputHook
 
-Called when an entity identity accept input hook is triggered.
+当实体标识接受输入钩子被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

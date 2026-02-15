@@ -1,6 +1,6 @@
 # 🔌 EventCsPreRestart
 
-Event "cs_pre_restart"
+事件 "cs_pre_restart"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

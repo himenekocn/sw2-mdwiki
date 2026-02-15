@@ -6,3 +6,11 @@
 
 **继承:** `byte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `RENDER_SLOT_INVALID` | `byte.MaxValue` | - |
+| `RENDER_SLOT_PER_VERTEX` | `0` | - |
+| `RENDER_SLOT_PER_INSTANCE` | `1` | - |
+

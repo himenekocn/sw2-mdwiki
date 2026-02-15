@@ -8,12 +8,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Name` | `string` | get, set | - |
-| `InfluenceNames` | `ISchemaUtlStringFixedArray` | get, set | - |
-| `InfluenceRotations` | `ISchemaFixedArray\<Quaternion\>` | get, set | - |
+| `InfluenceNames` | `ISchemaUtlStringFixedArray` | get | - |
+| `InfluenceRotations` | `ISchemaFixedArray\<Quaternion\>` | get | - |
 | `InfluenceOffsets` | `ISchemaFixedArray\<Vector\>` | get, set | - |
 | `InfluenceWeights` | `ISchemaFixedArray\<float\>` | get | - |
 | `InfluenceRootTransform` | `ISchemaFixedArray\<bool\>` | get | - |
+| `Influences` | `ref byte` | get | - |
+| `IgnoreRotation` | `ref bool` | get | - |
 

@@ -8,9 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `XpProgressData` | `IProtobufRepeatedFieldSubMessageType\<XpProgressData\>` | get, set | - |
+| `XpProgressData` | `IProtobufRepeatedFieldSubMessageType\<XpProgressData\>` | get | - |
 | `AccountId` | `uint` | get, set | - |
 | `CurrentXp` | `uint` | get, set | - |
 | `CurrentLevel` | `uint` | get, set | - |

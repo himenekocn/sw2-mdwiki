@@ -10,11 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `SpeedMin` | `CPerParticleFloatInput` | get, set | - |
-| `SpeedMax` | `CPerParticleFloatInput` | get, set | - |
-| `EndSpread` | `CPerParticleFloatInput` | get, set | - |
+| `SpeedMin` | `CPerParticleFloatInput` | get | - |
+| `SpeedMax` | `CPerParticleFloatInput` | get | - |
+| `EndSpread` | `CPerParticleFloatInput` | get | - |
 | `StartOffset` | `CPerParticleFloatInput` | get, set | - |
 | `EndOffset` | `CPerParticleFloatInput` | get, set | - |
+| `EndControlPointNumber` | `ref int` | get | - |
+| `TrailBias` | `ref bool` | get | - |
 

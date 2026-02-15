@@ -8,3 +8,9 @@
 
 **实现接口:** `ISchemaClass\<CCPPScriptComponentUpdater\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ScriptsToRun` | `ref CUtlVector\<CGlobalSymbol\>` | get | - |
+

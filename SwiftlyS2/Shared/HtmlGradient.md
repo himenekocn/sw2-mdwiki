@@ -1,6 +1,6 @@
 # 📦 HtmlGradient
 
-Provides utility methods for generating HTML text with gradient color effects.
+提供用于生成带有渐变颜色效果的 HTML 文本的工具方法。
 
 **命名空间:** `SwiftlyS2.Shared`
 
@@ -14,30 +14,20 @@ Provides utility methods for generating HTML text with gradient color effects.
 string GenerateGradientText(string text, string startColor, string endColor)
 ```
 
-Generates gradient colored text by interpolating between two colors.
+通过在两种颜色之间进行插值来生成渐变色的文本。
 
 **参数:**
 
-- `text` (`string`) - The plain text to apply gradient to. Must not contain any HTML tags.
-- `startColor` (`string`) - The starting color in hex format (e.g., "#FF0000").
-- `endColor` (`string`) - The ending color in hex format (e.g., "#0000FF").
+- `text` (`string`) - 要应用渐变的纯文本。不得包含任何 HTML 标签。
+- `startColor` (`string`) - 十六进制格式的起始颜色（例如，“#FF0000”）。
+- `endColor` (`string`) - 十六进制格式的结束颜色（例如，“#0000FF”）。
 
-**返回值:** `string` - HTML string with each character wrapped in a colored font tag.
+**返回值:** `string` - 每个字符都包裹在带颜色的字体标签中的HTML字符串。
 
-### GenerateGradientText (静态)
-
+**用法示例:**
 ```csharp
-string GenerateGradientText(string text, params string[] colors)
+string result = HtmlGradient.GenerateGradientText("Hello", "#FF0000", "#0000FF");
 ```
-
-Generates gradient colored text by interpolating across multiple color stops.
-
-**参数:**
-
-- `text` (`string`) - The plain text to apply gradient to. Must not contain any HTML tags.
-- `colors` (`params string[]`) - Array of color stops in hex format (e.g., "#FF0000", "#00FF00", "#0000FF").
-
-**返回值:** `string` - HTML string with each character wrapped in a colored font tag.
 
 ### GenerateGradientText (静态)
 
@@ -45,15 +35,20 @@ Generates gradient colored text by interpolating across multiple color stops.
 string GenerateGradientText(string text, Natives.Color startColor, Natives.Color endColor)
 ```
 
-Generates gradient colored text by interpolating between two SwiftlyS2 native colors.
+通过在两种 SwiftlyS2 原生颜色之间进行插值，生成渐变色文本。
 
 **参数:**
 
-- `text` (`string`) - The plain text to apply gradient to. Must not contain any HTML tags.
-- `startColor` (`Natives.Color`) - The starting SwiftlyS2 native color.
-- `endColor` (`Natives.Color`) - The ending SwiftlyS2 native color.
+- `text` (`string`) - 要应用渐变的纯文本。不得包含任何 HTML 标签。
+- `startColor` (`Natives.Color`) - 初始的 SwiftlyS2 原生颜色。
+- `endColor` (`Natives.Color`) - 最终 SwiftlyS2 原生颜色。
 
-**返回值:** `string` - HTML string with each character wrapped in a colored font tag.
+**返回值:** `string` - 每个字符都包裹在带颜色的字体标签中的HTML字符串。
+
+**用法示例:**
+```csharp
+string result = HtmlGradient.GenerateGradientText("Hello", Natives.Color.Red, Natives.Color.Blue);
+```
 
 ### GenerateGradientText (静态)
 
@@ -61,15 +56,20 @@ Generates gradient colored text by interpolating between two SwiftlyS2 native co
 string GenerateGradientText(string text, System.Drawing.Color startColor, System.Drawing.Color endColor)
 ```
 
-Generates gradient colored text by interpolating between two System.Drawing colors.
+通过在两个 System.Drawing 颜色之间进行插值，生成渐变色文本。
 
 **参数:**
 
-- `text` (`string`) - The plain text to apply gradient to. Must not contain any HTML tags.
-- `startColor` (`System.Drawing.Color`) - The starting System.Drawing color.
-- `endColor` (`System.Drawing.Color`) - The ending System.Drawing color.
+- `text` (`string`) - 要应用渐变的纯文本。不得包含任何 HTML 标签。
+- `startColor` (`System.Drawing.Color`) - 起始的 System.Drawing 颜色。
+- `endColor` (`System.Drawing.Color`) - 结束时的 System.Drawing 颜色。
 
-**返回值:** `string` - HTML string with each character wrapped in a colored font tag.
+**返回值:** `string` - 每个字符都包裹在带颜色的字体标签中的HTML字符串。
+
+**用法示例:**
+```csharp
+HtmlGradient.GenerateGradientText("Hello", System.Drawing.Color.Red, System.Drawing.Color.Blue);
+```
 
 ### GenerateGradientText (静态)
 
@@ -77,14 +77,19 @@ Generates gradient colored text by interpolating between two System.Drawing colo
 string GenerateGradientText(string text, params Natives.Color[] colors)
 ```
 
-Generates gradient colored text by interpolating across multiple SwiftlyS2 native color stops.
+通过在多个 SwiftlyS2 原生色标之间进行插值，生成渐变色文本。
 
 **参数:**
 
-- `text` (`string`) - The plain text to apply gradient to. Must not contain any HTML tags.
-- `colors` (`params Natives.Color[]`) - Array of SwiftlyS2 native color stops.
+- `text` (`string`) - 要应用渐变的纯文本。不得包含任何 HTML 标签。
+- `colors` (`params Natives.Color[]`) - SwiftlyS2 原生色标数组。
 
-**返回值:** `string` - HTML string with each character wrapped in a colored font tag.
+**返回值:** `string` - 每个字符都包裹在带颜色的字体标签中的HTML字符串。
+
+**用法示例:**
+```csharp
+string result = HtmlGradient.GenerateGradientText("Hello", Natives.Color.Red, Natives.Color.Green, Natives.Color.Blue);
+```
 
 ### GenerateGradientText (静态)
 
@@ -92,12 +97,17 @@ Generates gradient colored text by interpolating across multiple SwiftlyS2 nativ
 string GenerateGradientText(string text, params System.Drawing.Color[] colors)
 ```
 
-Generates gradient colored text by interpolating across multiple System.Drawing color stops.
+通过在多个 System.Drawing 颜色停止点之间进行插值，生成渐变着色文本。
 
 **参数:**
 
-- `text` (`string`) - The plain text to apply gradient to. Must not contain any HTML tags.
-- `colors` (`params System.Drawing.Color[]`) - Array of System.Drawing color stops.
+- `text` (`string`) - 要应用渐变的纯文本。不得包含任何 HTML 标签。
+- `colors` (`params System.Drawing.Color[]`) - System.Drawing 颜色渐变的数组。
 
-**返回值:** `string` - HTML string with each character wrapped in a colored font tag.
+**返回值:** `string` - 每个字符都包裹在带颜色的字体标签中的HTML字符串。
+
+**用法示例:**
+```csharp
+string result = HtmlGradient.GenerateGradientText("Hello", Color.Red, Color.Green, Color.Blue);
+```
 

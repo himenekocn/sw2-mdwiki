@@ -6,3 +6,13 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eDrawn` | `0` | - |
+| `eEquipped` | `1` | - |
+| `eUserInitiatedSwitchToLast` | `2` | - |
+| `eUserInitiatedUIKeyPress` | `3` | - |
+| `eUserInitiatedSwitchHands` | `4` | - |
+

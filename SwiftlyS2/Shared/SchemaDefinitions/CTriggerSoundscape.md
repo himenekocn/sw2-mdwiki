@@ -10,7 +10,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Soundscape` | `ref CHandle\<CEnvSoundscapeTriggerable\>` | get | - |
 | `SoundscapeName` | `string` | get, set | - |
+| `Spectators` | `ref CUtlVector\<CHandle\<CBasePlayerPawn\>\>` | get | - |
 

@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `PlayerHasAmmo` | `ref CEntityIOOutput` | get | - |
+| `PlayerHasNoAmmo` | `ref CEntityIOOutput` | get | - |
+| `PlayerDied` | `ref CEntityIOOutput` | get | - |
 | `RequestedPlayerHealth` | `SchemaUntypedField` | get | - |
+| `Player` | `ref CHandle\<CBaseEntity\>` | get | - |
 

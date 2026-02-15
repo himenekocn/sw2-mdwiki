@@ -10,9 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Expression` | `ref VectorExpressionType_t` | get | - |
+| `OutputCP` | `ref int` | get | - |
 | `Input1` | `CParticleCollectionVecInput` | get | - |
 | `Input2` | `CParticleCollectionVecInput` | get | - |
 | `Lerp` | `CPerParticleFloatInput` | get | - |
+| `NormalizedOutput` | `ref bool` | get | - |
 

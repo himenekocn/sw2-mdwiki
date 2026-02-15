@@ -1,6 +1,6 @@
 # 🔗 OnEntityTakeDamage
 
-Called when an entity takes damage.
+当实体受到伤害时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

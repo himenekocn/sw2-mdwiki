@@ -8,3 +8,9 @@
 
 **实现接口:** `ISchemaClass\<vphysics_save_cphysicsbody_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OldPointer` | `ref ulong` | get | - |
+

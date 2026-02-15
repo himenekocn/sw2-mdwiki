@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+SteamInventoryUpdateHandle_t handle = default;
+string result = handle.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(SteamInventoryUpdateHandle_t that)
+```
+
+**参数:**
+
+- `that` (`SteamInventoryUpdateHandle_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+SteamInventoryUpdateHandle_t handle = (SteamInventoryUpdateHandle_t)12345UL;
+```
 
 ### Equals
 
@@ -67,4 +90,11 @@ int CompareTo(SteamInventoryUpdateHandle_t other)
 - `other` (`SteamInventoryUpdateHandle_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SteamInventoryUpdateHandle_t handle1 = default;  
+SteamInventoryUpdateHandle_t handle2 = default;  
+int result = handle1.CompareTo(handle2);
+```
 

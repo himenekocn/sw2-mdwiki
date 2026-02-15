@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string idStr = sessionID.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(RemotePlaySessionID_t that)
+```
+
+**参数:**
+
+- `that` (`RemotePlaySessionID_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint sessionId = (uint)RemotePlaySessionID_t.someInstance;
+```
 
 ### Equals
 
@@ -67,4 +89,11 @@ int CompareTo(RemotePlaySessionID_t other)
 - `other` (`RemotePlaySessionID_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+RemotePlaySessionID_t id1 = RemotePlaySessionID_t.Default;
+RemotePlaySessionID_t id2 = RemotePlaySessionID_t.Default;
+int result = id1.CompareTo(id2);
+```
 

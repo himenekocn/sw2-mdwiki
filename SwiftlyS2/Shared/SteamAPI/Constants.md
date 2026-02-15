@@ -169,3 +169,39 @@
 | `k_SteamMusicNameMaxLength` | `int` | const | - |
 | `k_SteamMusicPNGMaxLength` | `int` | const | - |
 
+## ⚙️ 方法
+
+### unencrypted
+
+```csharp
+wire unencrypted(by this library)
+```
+
+**参数:**
+
+- `library` (`by this`)
+
+**返回值:** `wire`
+
+**用法示例:**
+```csharp
+Constants.wire(unencrypted);
+```
+
+### somehow
+
+```csharp
+relayed somehow(SDR or TURN)
+```
+
+**参数:**
+
+- `TURN` (`SDR or`)
+
+**返回值:** `relayed`
+
+**用法示例:**
+```csharp
+Constants.relayed(Constants.SDR);
+```
+

@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_SORTING_NEAREST` | `0` | - |
+| `PARTICLE_SORTING_CREATION_TIME` | `1` | - |
+

@@ -10,8 +10,19 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `OnEventFired` | `ref CEntityIOOutput` | get | - |
 | `GameEventName` | `string` | get, set | - |
 | `GameEventItem` | `string` | get, set | - |
+| `Enabled` | `ref bool` | get | - |
+| `StartDisabled` | `ref bool` | get | - |
+
+## ⚙️ 方法
+
+### EnabledUpdated
+
+```csharp
+void EnabledUpdated()
+```
 

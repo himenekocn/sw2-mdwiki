@@ -1,6 +1,6 @@
 # 🔗 OnMapUnload
 
-Called when a map is unloaded.
+当地图被卸载时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

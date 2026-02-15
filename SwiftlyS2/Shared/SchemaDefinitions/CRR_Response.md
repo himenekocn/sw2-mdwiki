@@ -8,11 +8,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Type` | `ref byte` | get | - |
 | `ResponseName` | `string` | get, set | - |
 | `MatchingRule` | `string` | get, set | - |
-| `Params` | `ResponseParams` | get, set | - |
+| `Params` | `ResponseParams` | get | - |
+| `MatchScore` | `ref float` | get | - |
+| `AnyMatchingRulesInCooldown` | `ref bool` | get | - |
 | `SpeakerContext` | `string` | get, set | - |
 | `WorldContext` | `string` | get, set | - |
 | `Followup` | `ResponseFollowup` | get | - |

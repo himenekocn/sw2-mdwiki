@@ -1,6 +1,6 @@
 # 🔗 OnClientVoice
 
-Called when a client sends a voice packet.
+当客户端发送语音数据包时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

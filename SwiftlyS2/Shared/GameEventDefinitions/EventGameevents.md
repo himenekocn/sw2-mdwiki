@@ -1,6 +1,6 @@
 # 🔌 EventGameevents
 
-Event "gameevents"
+事件 "gameevents"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

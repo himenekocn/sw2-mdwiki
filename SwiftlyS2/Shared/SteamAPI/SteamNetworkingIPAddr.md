@@ -22,6 +22,12 @@
 void Clear()
 ```
 
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr addr = default;  
+addr.Clear();
+```
+
 ### IsIPv6AllZeros
 
 ```csharp
@@ -29,6 +35,12 @@ bool IsIPv6AllZeros()
 ```
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr addr = default;
+bool result = addr.IsIPv6AllZeros();
+```
 
 ### SetIPv6
 
@@ -41,6 +53,12 @@ void SetIPv6(byte[] ipv6, ushort nPort)
 - `ipv6` (`byte[]`)
 - `nPort` (`ushort`)
 
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr addr;  
+addr.SetIPv6(new byte[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1 }, 8080);
+```
+
 ### SetIPv4
 
 ```csharp
@@ -52,6 +70,12 @@ void SetIPv4(uint nIP, ushort nPort)
 - `nIP` (`uint`)
 - `nPort` (`ushort`)
 
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr addr;  
+addr.SetIPv4(0x7F000001, 8080);
+```
+
 ### IsIPv4
 
 ```csharp
@@ -60,6 +84,12 @@ bool IsIPv4()
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr addr = default;  
+bool isIPv4 = addr.IsIPv4();
+```
+
 ### GetIPv4
 
 ```csharp
@@ -67,6 +97,11 @@ uint GetIPv4()
 ```
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint ip = SteamNetworkingIPAddr.GetIPv4();
+```
 
 ### SetIPv6LocalHost
 
@@ -78,6 +113,12 @@ void SetIPv6LocalHost(ushort nPort = 0)
 
 - `nPort` (`ushort`) = `0`
 
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr addr;  
+addr.SetIPv6LocalHost(8080);
+```
+
 ### IsLocalHost
 
 ```csharp
@@ -85,6 +126,12 @@ bool IsLocalHost()
 ```
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr addr = default;
+bool isLocalHost = addr.IsLocalHost();
+```
 
 ### ToString
 
@@ -97,6 +144,13 @@ void ToString(out string buf, bool bWithPort)
 - `buf` (`out string`)
 - `bWithPort` (`bool`)
 
+**用法示例:**
+```csharp
+string ipStr;
+SteamNetworkingIPAddr addr = SteamNetworkingMessages.GetLocalHostAddress();
+addr.ToString(out ipStr, true);
+```
+
 ### ParseString
 
 ```csharp
@@ -108,6 +162,12 @@ bool ParseString(string pszStr)
 - `pszStr` (`string`)
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr addr;  
+addr.ParseString("127.0.0.1:80");
+```
 
 ### Equals
 
@@ -129,6 +189,11 @@ ESteamNetworkingFakeIPType GetFakeIPType()
 
 **返回值:** `ESteamNetworkingFakeIPType`
 
+**用法示例:**
+```csharp
+ESteamNetworkingFakeIPType fakeIPType = addr.GetFakeIPType();
+```
+
 ### IsFakeIP
 
 ```csharp
@@ -136,4 +201,10 @@ bool IsFakeIP()
 ```
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr addr = default;  
+bool isFake = addr.IsFakeIP();
+```
 

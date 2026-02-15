@@ -10,10 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `AngleMode` | `ref TargetSelectorAngleMode_t` | get | - |
+| `Children` | `ref CUtlVector\<CAnimUpdateNodeRef\>` | get | - |
 | `TargetPosition` | `CAnimParamHandle` | get | - |
 | `TargetFacePositionParameter` | `CAnimParamHandle` | get | - |
 | `MoveHeadingParameter` | `CAnimParamHandle` | get | - |
 | `DesiredMoveHeadingParameter` | `CAnimParamHandle` | get | - |
+| `TargetPositionIsWorldSpace` | `ref bool` | get | - |
+| `TargetFacePositionIsWorldSpace` | `ref bool` | get | - |
+| `EnablePhaseMatching` | `ref bool` | get | - |
+| `PhaseMatchingMaxRootMotionSkip` | `ref float` | get | - |
 

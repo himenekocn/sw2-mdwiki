@@ -1,6 +1,6 @@
 # 🔌 EventCsWinPanelMatch
 
-Event "cs_win_panel_match"
+事件 "cs_win_panel_match"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

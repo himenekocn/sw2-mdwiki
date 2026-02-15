@@ -8,9 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `GroupValues` | `IProtobufRepeatedFieldValueType\<string\>` | get, set | - |
+| `GroupValues` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
 | `ServersEmpty` | `uint` | get, set | - |
 | `ServersFull` | `uint` | get, set | - |
 | `ServersTotal` | `uint` | get, set | - |

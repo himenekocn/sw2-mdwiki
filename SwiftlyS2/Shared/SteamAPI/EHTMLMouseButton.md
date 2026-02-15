@@ -6,3 +6,11 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eHTMLMouseButton_Left` | `0` | - |
+| `eHTMLMouseButton_Right` | `1` | - |
+| `eHTMLMouseButton_Middle` | `2` | - |
+

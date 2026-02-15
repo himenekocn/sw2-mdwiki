@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+SteamAPICall_t call = default;
+string result = call.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(SteamAPICall_t that)
+```
+
+**参数:**
+
+- `that` (`SteamAPICall_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+SteamAPICall_t call = (SteamAPICall_t)12345UL;
+```
 
 ### Equals
 
@@ -67,4 +90,10 @@ int CompareTo(SteamAPICall_t other)
 - `other` (`SteamAPICall_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SteamAPICall_t call1 = default;  
+int result = call1.CompareTo(default);
+```
 

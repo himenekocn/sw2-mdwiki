@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CVoiceContainerDecayingSineWave\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Frequency` | `ref float` | get | - |
+| `DecayTime` | `ref float` | get | - |
+

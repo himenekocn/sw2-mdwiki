@@ -1,6 +1,6 @@
 # 🔌 IOnConVarValueChanged
 
-Called when a ConVar value is changed.
+当 ConVar 的值被更改时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,10 +8,10 @@ Called when a ConVar value is changed.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ConVarName` | `string` | get | The name of the ConVar that changed. |
-| `PlayerId` | `int` | get | The player ID of the client that made the change. |
-| `NewValue` | `string` | get | The old value of the ConVar in string format. |
-| `OldValue` | `string` | get | The new value of the ConVar in string format. |
+| `ConVarName` | `string` | get | 已更改的ConVar的名称。 |
+| `PlayerId` | `int` | get | 做出更改的客户端的玩家ID。 |
+| `NewValue` | `string` | get | ConVar 的旧值，以字符串格式表示。 |
+| `OldValue` | `string` | get | ConVar的新值，以字符串格式表示。 |
 

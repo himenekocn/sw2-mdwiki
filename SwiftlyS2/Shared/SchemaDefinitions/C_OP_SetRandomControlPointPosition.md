@@ -10,8 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `UseWorldLocation` | `ref bool` | get | - |
+| `Orient` | `ref bool` | get | - |
+| `CP1` | `ref int` | get | - |
+| `HeadLocation` | `ref int` | get | - |
 | `ReRandomRate` | `CParticleCollectionFloatInput` | get | - |
+| `CPMinPos` | `ref Vector` | get | - |
+| `CPMaxPos` | `ref Vector` | get | - |
 | `Interpolation` | `CParticleCollectionFloatInput` | get | - |
 

@@ -10,7 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `TestDir` | `ref Vector` | get | - |
+| `TestNormal` | `ref Vector` | get | - |
+| `CullOnMiss` | `ref bool` | get | - |
+| `StickInsteadOfCull` | `ref bool` | get | - |
 | `RtEnvName` | `string` | get, set | - |
+| `RTEnvCP` | `ref int` | get | - |
+| `Component` | `ref int` | get | - |
 

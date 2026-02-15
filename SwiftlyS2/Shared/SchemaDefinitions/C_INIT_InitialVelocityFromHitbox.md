@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `VelocityMin` | `ref float` | get | - |
+| `VelocityMax` | `ref float` | get | - |
+| `ControlPointNumber` | `ref int` | get | - |
 | `HitboxSetName` | `string` | get, set | - |
+| `UseBones` | `ref bool` | get | - |
 

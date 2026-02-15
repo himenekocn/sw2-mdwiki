@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `FUNC_DOOR_SPAWN_CLOSED` | `0` | - |
+| `FUNC_DOOR_SPAWN_OPEN` | `1` | - |
+

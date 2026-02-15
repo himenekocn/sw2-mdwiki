@@ -1,6 +1,6 @@
 # 📦 SliderMenuOption
 
-Represents a slider menu option that allows selecting a numeric value within a range.
+表示一个滑块菜单选项，允许在指定范围内选择一个数值。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -10,11 +10,11 @@ Represents a slider menu option that allows selecting a numeric value within a r
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Min` | `float` | get | Gets the minimum value of the slider. |
-| `Max` | `float` | get | Gets the maximum value of the slider. |
-| `Step` | `float` | get | Gets the step increment/decrement value. |
+| `Min` | `float` | get | 获取滑块的最小值。 |
+| `Max` | `float` | get | 获取滑块的最大值。 |
+| `Step` | `float` | get | 获取步进/步退值。 |
 
 ## ⚙️ 方法
 
@@ -31,19 +31,29 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string text = sliderMenuOption.GetDisplayText(player, 0);
+```
+
 ### GetValue
 
 ```csharp
 float GetValue(IPlayer player)
 ```
 
-Gets the current slider value for the specified player.
+获取指定玩家的当前滑块值。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose value to retrieve.
+- `player` (`IPlayer`) - 要检索其值的玩家。
 
-**返回值:** `float` - The current slider value.
+**返回值:** `float` - 当前滑块值。
+
+**用法示例:**
+```csharp
+float value = sliderMenuOption.GetValue(player);
+```
 
 ### SetValue
 
@@ -51,12 +61,17 @@ Gets the current slider value for the specified player.
 void SetValue(IPlayer player, float value)
 ```
 
-Sets the slider value for the specified player.
+为指定玩家设置滑块值。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose value to set.
-- `value` (`float`) - The value to set. Will be clamped between Min and Max.
+- `player` (`IPlayer`) - 要设置其值的玩家。
+- `value` (`float`) - 要设置的值。该值将被限制在 Min 和 Max 之间。
+
+**用法示例:**
+```csharp
+sliderMenuOption.SetValue(player, 0.75f);
+```
 
 ### DecrementValue
 
@@ -64,13 +79,18 @@ Sets the slider value for the specified player.
 ValueTask DecrementValue(IPlayer player)
 ```
 
-Decrements the slider value by the step amount for the specified player. Wraps to Max if the value goes below Min.
+将指定玩家的滑块值按步长递减。如果值低于最小值，则回绕到最大值。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose value to decrement.
+- `player` (`IPlayer`) - 要递减其值的玩家。
 
 **返回值:** `ValueTask`
+
+**用法示例:**
+```csharp
+await sliderMenuOption.DecrementValue(player);
+```
 
 ### IncrementValue
 
@@ -78,11 +98,16 @@ Decrements the slider value by the step amount for the specified player. Wraps t
 ValueTask IncrementValue(IPlayer player)
 ```
 
-Increments the slider value by the step amount for the specified player. Wraps to Min if the value goes above Max.
+将指定玩家的滑块值按步长递增。如果值超过最大值，则回绕到最小值。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose value to increment.
+- `player` (`IPlayer`) - 要增加其值的玩家。
 
 **返回值:** `ValueTask`
+
+**用法示例:**
+```csharp
+await sliderMenuOption.IncrementValue(player);
+```
 

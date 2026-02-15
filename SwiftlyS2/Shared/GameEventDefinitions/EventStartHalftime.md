@@ -1,6 +1,6 @@
 # 🔌 EventStartHalftime
 
-Event "start_halftime"
+事件 "start_halftime"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

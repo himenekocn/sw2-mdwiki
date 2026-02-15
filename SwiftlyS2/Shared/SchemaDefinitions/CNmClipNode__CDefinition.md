@@ -10,7 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `GraphEvents` | `SchemaUntypedField` | get, set | - |
+| `PlayInReverseValueNodeIdx` | `ref short` | get | - |
+| `ResetTimeValueNodeIdx` | `ref short` | get, set | - |
+| `SampleRootMotion` | `ref bool` | get | - |
+| `AllowLooping` | `ref bool` | get | - |
+| `DataSlotIdx` | `ref short` | get | - |
+| `GraphEvents` | `SchemaUntypedField` | get | - |
+| `SpeedMultiplier` | `ref float` | get | - |
+| `StartSyncEventOffset` | `ref int` | get, set | - |
 

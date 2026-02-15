@@ -8,7 +8,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Name` | `string` | get, set | - |
+| `MeshIndex` | `ref int` | get | - |
+| `DataBlock` | `ref int` | get | - |
+| `MorphBlock` | `ref int` | get | - |
+| `VertexBuffers` | `ref CUtlVector\<ModelMeshBufferData_t\>` | get | - |
+| `IndexBuffers` | `ref CUtlVector\<ModelMeshBufferData_t\>` | get | - |
+| `ToolsBuffers` | `ref CUtlVector\<ModelMeshBufferData_t\>` | get | - |
+| `VBIBBlock` | `ref int` | get | - |
+| `ToolsVBBlock` | `ref int` | get | - |
 

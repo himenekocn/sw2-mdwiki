@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `CHAT_IGNORE_NONE` | `0` | - |
+| `CHAT_IGNORE_ALL` | `1` | - |
+| `CHAT_IGNORE_TEAM` | `2` | - |
+

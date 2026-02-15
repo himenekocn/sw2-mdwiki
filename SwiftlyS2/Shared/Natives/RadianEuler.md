@@ -1,6 +1,6 @@
 # 🏗️ RadianEuler
 
-Radian Euler angle aligned to axis (NOT ROLL/PITCH/YAW)
+弧度欧拉角，与轴对齐（非横滚/俯仰/偏航）
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 
@@ -14,21 +14,9 @@ Radian Euler angle aligned to axis (NOT ROLL/PITCH/YAW)
 | `Y` | `float` | - | - |
 | `Z` | `float` | - | - |
 
-## ⚙️ 方法
+## 📝 属性
 
-### GetHashCode
-
-```csharp
-int GetHashCode()
-```
-
-**返回值:** `int`
-
-### ToString
-
-```csharp
-string ToString()
-```
-
-**返回值:** `string`
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Zero` | `RadianEuler` | - | - |
 

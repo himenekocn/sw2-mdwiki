@@ -1,6 +1,6 @@
 # 🔗 ClientCommandHandler
 
-The handler for the client command hook.
+客户端命令钩子的处理程序。
 
 **命名空间:** `SwiftlyS2.Shared.Commands`
 

@@ -8,3 +8,14 @@
 
 **实现接口:** `ISchemaClass\<C_OP_FadeAndKillForTracers\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `StartFadeInTime` | `ref float` | get | - |
+| `EndFadeInTime` | `ref float` | get | - |
+| `StartFadeOutTime` | `ref float` | get | - |
+| `EndFadeOutTime` | `ref float` | get | - |
+| `StartAlpha` | `ref float` | get | - |
+| `EndAlpha` | `ref float` | get | - |
+

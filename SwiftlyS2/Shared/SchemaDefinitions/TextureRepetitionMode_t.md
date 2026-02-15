@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `TEXTURE_REPETITION_PARTICLE` | `0` | - |
+| `TEXTURE_REPETITION_PATH` | `1` | - |
+

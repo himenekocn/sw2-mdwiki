@@ -10,8 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ConditionNodeIndices` | `SchemaUntypedField` | get | - |
 | `Values` | `SchemaUntypedField` | get | - |
+| `DefaultValue` | `ref float` | get | - |
+| `EaseTime` | `ref float` | get | - |
+| `EasingOp` | `ref NmEasingOperation_t` | get | - |
 

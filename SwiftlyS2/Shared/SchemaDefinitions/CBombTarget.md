@@ -10,7 +10,23 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `OnBombExplode` | `ref CEntityIOOutput` | get | - |
+| `OnBombPlanted` | `ref CEntityIOOutput` | get | - |
+| `OnBombDefused` | `ref CEntityIOOutput` | get | - |
+| `IsBombSiteB` | `ref bool` | get | - |
+| `IsHeistBombTarget` | `ref bool` | get | - |
+| `BombPlantedHere` | `ref bool` | get | - |
 | `MountTarget` | `string` | get, set | - |
+| `InstructorHint` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `BombSiteDesignation` | `ref int` | get | - |
+
+## ⚙️ 方法
+
+### BombPlantedHereUpdated
+
+```csharp
+void BombPlantedHereUpdated()
+```
 

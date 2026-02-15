@@ -6,3 +6,10 @@
 
 **继承:** `byte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `TRANSITION_TO_LIFESTATE_DYING` | `0` | - |
+| `TRANSITION_TO_LIFESTATE_DEAD` | `1` | - |
+

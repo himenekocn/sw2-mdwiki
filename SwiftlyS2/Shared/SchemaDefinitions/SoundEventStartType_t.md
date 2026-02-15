@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `SOUNDEVENT_START_PLAYER` | `0` | - |
+| `SOUNDEVENT_START_WORLD` | `1` | - |
+| `SOUNDEVENT_START_ENTITY` | `2` | - |
+

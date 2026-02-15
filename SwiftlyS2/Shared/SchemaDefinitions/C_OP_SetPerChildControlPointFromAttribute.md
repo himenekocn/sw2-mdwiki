@@ -1,4 +1,4 @@
-# 🔌 C_OP_SetPerChildControlPointFromAttribute
+# 🔌 C_OP_SetPerChildControlPointFrom
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
@@ -10,7 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ChildGroupID` | `ref int` | get | - |
+| `FirstControlPoint` | `ref int` | get | - |
+| `NumControlPoints` | `ref int` | get | - |
+| `ParticleIncrement` | `ref int` | get | - |
+| `FirstSourcePoint` | `ref int` | get | - |
+| `NumBasedOnParticleCount` | `ref bool` | get | - |
 | `AttributeToRead` | `ParticleAttributeIndex_t` | get | - |
+| `CPField` | `ref int` | get | - |
 

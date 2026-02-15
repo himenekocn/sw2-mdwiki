@@ -10,7 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `FieldOutput` | `ParticleAttributeIndex_t` | get, set | - |
+| `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
+| `AbsVal` | `ref bool` | get | - |
+| `AbsValInv` | `ref bool` | get | - |
+| `Offset` | `ref float` | get, set | - |
+| `OutputMin` | `ref float` | get | - |
+| `OutputMax` | `ref float` | get | - |
+| `NoiseScale` | `ref float` | get | - |
+| `NoiseScaleLoc` | `ref float` | get | - |
+| `OffsetLoc` | `ref Vector` | get, set | - |
+| `WorldTimeScale` | `ref float` | get | - |
 

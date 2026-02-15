@@ -38,25 +38,16 @@
 string Colored(this string text)
 ```
 
-Replace the color codes in the text with the corresponding color codes.
+将文本中的颜色代码替换为对应的颜色代码。
 
 **参数:**
 
-- `text` (`this string`) - The text to replace the color codes in.
+- `text` (`this string`) - 要替换颜色代码的文本。
 
-**返回值:** `string` - The text with the color codes replaced.
+**返回值:** `string` - 已替换颜色代码的文本。
 
-### GetCharWidth (静态)
-
+**用法示例:**
 ```csharp
-float GetCharWidth(char c)
+Helper.Colored("Hello [red]World[/red]")
 ```
-
-Estimates the display width of a character based on its type. Inspired by: https://github.com/spectreconsole/wcwidth
-
-**参数:**
-
-- `c` (`char`) - The character to measure.
-
-**返回值:** `float` - The estimated display width in relative units.
 

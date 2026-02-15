@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = HTTPRequestHandle.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(HTTPRequestHandle that)
+```
+
+**参数:**
+
+- `that` (`HTTPRequestHandle`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint handle = (uint)HTTPRequestHandle.someInstance;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(HTTPRequestHandle other)
 - `other` (`HTTPRequestHandle`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+HTTPRequestHandle h1 = HTTPRequestHandle.Default;  
+int result = h1.CompareTo(other);
+```
 

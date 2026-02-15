@@ -1,4 +1,4 @@
-# 🔌 CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute
+# 🔌 CQuest_PublisherAddCommunityItemsToPlayer_Request_
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
 
@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Attribute` | `uint` | get, set | - |
 | `Value` | `ulong` | get, set | - |

@@ -8,11 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `EventName` | `string` | get, set | - |
 | `Eventid` | `int` | get, set | - |
-| `Keys` | `IProtobufRepeatedFieldSubMessageType\<CMsgSource1LegacyGameEvent_key_t\>` | get, set | - |
+| `Keys` | `IProtobufRepeatedFieldSubMessageType\<CMsgSource1LegacyGameEvent_key_t\>` | get | - |
 | `ServerTick` | `int` | get, set | - |
 | `Passthrough` | `int` | get, set | - |
 

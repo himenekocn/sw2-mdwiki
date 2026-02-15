@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ControlPoint` | `int` | get, set | - |
 | `Position` | `Vector` | get, set | - |
-| `Orientation` | `CMsgQuaternion` | get, set | - |
+| `Orientation` | `CMsgQuaternion` | get | - |
 | `InterpolationInterval` | `float` | get, set | - |
 

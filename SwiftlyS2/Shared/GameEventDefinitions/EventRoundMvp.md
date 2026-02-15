@@ -1,10 +1,23 @@
 # 🔌 EventRoundMvp
 
-Event "round_mvp"
+事件 "round_mvp"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
 **类型:** `interface`
 
 **继承:** `IGameEvent\<EventRoundMvp\>`
+
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
+| `UserId` | `int` | get, set | 类型：玩家控制器 |
+| `Reason` | `short` | get, set | 类型：短整型 |
+| `Value` | `int` | get, set | 类型：长整型 |
+| `MusickItMvps` | `int` | get, set | 类型：长整型 |
+| `NoMusic` | `byte` | get, set | 类型：字节 |
+| `MusickItID` | `int` | get, set | 类型：长整型 |
 

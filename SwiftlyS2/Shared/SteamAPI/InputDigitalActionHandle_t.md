@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+InputDigitalActionHandle_t handle = InputManager.GetAction("jump");  
+Console.WriteLine(handle.ToString());
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(InputDigitalActionHandle_t that)
+```
+
+**参数:**
+
+- `that` (`InputDigitalActionHandle_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+InputDigitalActionHandle_t handle = (InputDigitalActionHandle_t)12345UL;
+```
 
 ### Equals
 
@@ -67,4 +90,9 @@ int CompareTo(InputDigitalActionHandle_t other)
 - `other` (`InputDigitalActionHandle_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+int result = handle1.CompareTo(handle2);
+```
 

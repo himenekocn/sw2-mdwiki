@@ -6,3 +6,12 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `SILHOUETTE_NONE` | `0` | - |
+| `SILHOUETTE_LIGHT` | `1` | - |
+| `SILHOUETTE_ENVMAP` | `2` | - |
+| `SILHOUETTE_LPV` | `4` | - |
+

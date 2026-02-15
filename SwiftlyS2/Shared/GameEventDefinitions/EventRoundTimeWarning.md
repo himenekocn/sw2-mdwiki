@@ -1,6 +1,6 @@
 # 🔌 EventRoundTimeWarning
 
-Event "round_time_warning"
+事件 "round_time_warning"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

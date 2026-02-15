@@ -8,3 +8,12 @@
 
 **实现接口:** `ISchemaClass\<CLogicBranch\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InValue` | `ref bool` | get | - |
+| `Listeners` | `ref CUtlVector\<CHandle\<CBaseEntity\>\>` | get | - |
+| `OnTrue` | `ref CEntityIOOutput` | get | - |
+| `OnFalse` | `ref CEntityIOOutput` | get | - |
+

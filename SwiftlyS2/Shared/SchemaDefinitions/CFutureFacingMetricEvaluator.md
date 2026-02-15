@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CFutureFacingMetricEvaluator\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Distance` | `ref float` | get | - |
+| `Time` | `ref float` | get | - |
+

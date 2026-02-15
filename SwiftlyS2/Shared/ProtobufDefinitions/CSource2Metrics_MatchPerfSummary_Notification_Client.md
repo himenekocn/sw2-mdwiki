@@ -8,13 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `SystemSpecs` | `CMsgSource2SystemSpecs` | get, set | - |
-| `Profile` | `CMsgSource2VProfLiteReport` | get, set | - |
+| `SystemSpecs` | `CMsgSource2SystemSpecs` | get | - |
+| `Profile` | `CMsgSource2VProfLiteReport` | get | - |
 | `BuildId` | `uint` | get, set | - |
-| `DownstreamFlow` | `CMsgSource2NetworkFlowQuality` | get, set | - |
-| `UpstreamFlow` | `CMsgSource2NetworkFlowQuality` | get, set | - |
+| `DownstreamFlow` | `CMsgSource2NetworkFlowQuality` | get | - |
+| `UpstreamFlow` | `CMsgSource2NetworkFlowQuality` | get | - |
 | `Steamid` | `ulong` | get, set | - |
 | `PerfSamples` | `IProtobufRepeatedFieldSubMessageType\<CMsgSource2PerfIntervalSample\>` | get | - |
 

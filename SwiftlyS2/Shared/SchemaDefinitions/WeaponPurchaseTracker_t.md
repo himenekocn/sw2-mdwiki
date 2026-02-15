@@ -6,3 +6,17 @@
 
 **继承:** `ISchemaClass\<WeaponPurchaseTracker_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `WeaponPurchases` | `ref CUtlVector\<WeaponPurchaseCount_t\>` | get | - |
+
+## ⚙️ 方法
+
+### WeaponPurchasesUpdated
+
+```csharp
+void WeaponPurchasesUpdated()
+```
+

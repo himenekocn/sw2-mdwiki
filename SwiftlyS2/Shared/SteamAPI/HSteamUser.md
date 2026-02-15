@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = player.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### int (静态)
+
+```csharp
+operator int(HSteamUser that)
+```
+
+**参数:**
+
+- `that` (`HSteamUser`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+int value = (int)HSteamUser.someInstance;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(HSteamUser other)
 - `other` (`HSteamUser`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+HSteamUser a = SteamAPI.GetLocalPlayer();  
+int result = a.CompareTo(otherUser);
+```
 

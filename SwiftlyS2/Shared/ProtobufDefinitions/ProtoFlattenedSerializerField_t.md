@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `VarTypeSym` | `int` | get, set | - |
 | `VarNameSym` | `int` | get, set | - |
@@ -20,6 +20,6 @@
 | `FieldSerializerVersion` | `int` | get, set | - |
 | `SendNodeSym` | `int` | get, set | - |
 | `VarEncoderSym` | `int` | get, set | - |
-| `PolymorphicTypes` | `IProtobufRepeatedFieldSubMessageType\<ProtoFlattenedSerializerField_t_polymorphic_field_t\>` | get, set | - |
+| `PolymorphicTypes` | `IProtobufRepeatedFieldSubMessageType\<ProtoFlattenedSerializerField_t_polymorphic_field_t\>` | get | - |
 | `VarSerializerSym` | `int` | get, set | - |
 

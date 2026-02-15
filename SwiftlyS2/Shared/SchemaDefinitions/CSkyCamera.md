@@ -10,8 +10,24 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SkyboxData` | `sky3dparams_t` | get | - |
+| `SkyboxSlotToken` | `ref CUtlStringToken` | get | - |
+| `UseAngles` | `ref bool` | get | - |
 | `Next` | `CSkyCamera?` | get | - |
+
+## ⚙️ 方法
+
+### SkyboxDataUpdated
+
+```csharp
+void SkyboxDataUpdated()
+```
+
+### SkyboxSlotTokenUpdated
+
+```csharp
+void SkyboxSlotTokenUpdated()
+```
 

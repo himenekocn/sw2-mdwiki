@@ -4,7 +4,5 @@
 
 **类型:** `interface`
 
-**继承:** `ISchemaField`
-
-**实现接口:** `ISchemaClass`, `INativeHandle where T : ISchemaClass\<T\>`
+**继承:** `INativeHandle`
 

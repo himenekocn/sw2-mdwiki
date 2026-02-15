@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Msgtype` | `uint` | get, set | - |
 | `Payload` | `byte[]` | get, set | - |
-| `Steamids` | `IProtobufRepeatedFieldValueType\<ulong\>` | get, set | - |
+| `Steamids` | `IProtobufRepeatedFieldValueType\<ulong\>` | get | - |
 | `Replytogc` | `bool` | get, set | - |
 

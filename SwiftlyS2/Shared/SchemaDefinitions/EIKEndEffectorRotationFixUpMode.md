@@ -6,3 +6,13 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `None` | `0` | - |
+| `MatchTargetOrientation` | `1` | - |
+| `LookAtTargetForward` | `2` | - |
+| `MaintainParentOrientation` | `3` | - |
+| `Count` | `4` | - |
+

@@ -8,7 +8,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `EnvelopeAmount` | `ref float` | get | - |
+| `AttackTimeMS` | `ref float` | get | - |
+| `ReleaseTimeMS` | `ref float` | get | - |
 | `Filter` | `VMixFilterDesc_t` | get | - |
+| `LFOAmount` | `ref float` | get | - |
+| `LFORate` | `ref float` | get | - |
+| `Phase` | `ref float` | get | - |
+| `LFOShape` | `ref VMixLFOShape_t` | get | - |
 

@@ -10,9 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `LaserTarget` | `string` | get, set | - |
-| `Sprite` | `CSprite?` | get, set | - |
+| `Sprite` | `CSprite?` | get | - |
 | `SpriteName` | `string` | get, set | - |
+| `FirePosition` | `ref Vector` | get | - |
+| `StartFrame` | `ref float` | get | - |
 

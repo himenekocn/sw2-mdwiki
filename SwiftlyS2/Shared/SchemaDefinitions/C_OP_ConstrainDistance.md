@@ -10,8 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `MinDistance` | `CParticleCollectionFloatInput` | get, set | - |
-| `MaxDistance` | `CParticleCollectionFloatInput` | get, set | - |
+| `MinDistance` | `CParticleCollectionFloatInput` | get | - |
+| `MaxDistance` | `CParticleCollectionFloatInput` | get | - |
+| `ControlPointNumber` | `ref int` | get | - |
+| `CenterOffset` | `ref Vector` | get, set | - |
+| `GlobalCenter` | `ref bool` | get | - |
 

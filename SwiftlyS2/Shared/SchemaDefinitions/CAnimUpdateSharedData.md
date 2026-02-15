@@ -8,9 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Nodes` | `ref CUtlVector\<SchemaUntypedField\>` | get | - |
 | `NodeIndexMap` | `SchemaUntypedField` | get | - |
+| `Components` | `ref CUtlVector\<SchemaUntypedField\>` | get | - |
 | `ParamListUpdater` | `SchemaUntypedField` | get | - |
 | `TagManagerUpdater` | `SchemaUntypedField` | get | - |
 | `ScriptManager` | `SchemaUntypedField` | get | - |

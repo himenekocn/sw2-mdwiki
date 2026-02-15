@@ -8,3 +8,11 @@
 
 **实现接口:** `ISchemaClass\<C_INIT_CreateFromPlaneCache\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OffsetMin` | `ref Vector` | get, set | - |
+| `OffsetMax` | `ref Vector` | get, set | - |
+| `UseNormal` | `ref bool` | get | - |
+

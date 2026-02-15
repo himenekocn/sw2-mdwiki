@@ -10,9 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `OpFixedSettings` | `AimMatrixOpFixedSettings_t` | get | - |
-| `ParamIndex` | `CAnimParamHandle` | get, set | - |
-| `Sequence` | `HSequence` | get, set | - |
+| `Target` | `ref AnimVectorSource` | get | - |
+| `ParamIndex` | `CAnimParamHandle` | get | - |
+| `Sequence` | `HSequence` | get | - |
+| `ResetChild` | `ref bool` | get, set | - |
+| `LockWhenWaning` | `ref bool` | get | - |
 

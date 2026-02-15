@@ -10,12 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TrackTop` | `CPathTrack?` | get, set | - |
-| `TrackBottom` | `CPathTrack?` | get, set | - |
-| `Train` | `CFuncTrackTrain?` | get, set | - |
+| `TrackTop` | `CPathTrack?` | get | - |
+| `TrackBottom` | `CPathTrack?` | get | - |
+| `Train` | `CFuncTrackTrain?` | get | - |
 | `TrackTopName` | `string` | get, set | - |
 | `TrackBottomName` | `string` | get, set | - |
 | `TrainName` | `string` | get, set | - |
+| `Code` | `ref TRAIN_CODE` | get | - |
+| `TargetState` | `ref int` | get | - |
+| `Use` | `ref int` | get | - |
 

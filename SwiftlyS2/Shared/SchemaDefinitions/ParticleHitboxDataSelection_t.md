@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_HITBOX_AVERAGE_SPEED` | `0` | - |
+| `PARTICLE_HITBOX_COUNT` | `1` | - |
+

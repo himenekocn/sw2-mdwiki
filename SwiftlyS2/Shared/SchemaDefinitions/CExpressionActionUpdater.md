@@ -10,8 +10,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Param` | `CAnimParamHandle` | get | - |
+| `ParamType` | `ref AnimParamType_t` | get | - |
 | `Script` | `AnimScriptHandle` | get | - |
 

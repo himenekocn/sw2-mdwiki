@@ -10,9 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `InputVec1` | `CPerParticleVecInput` | get | - |
 | `InputVec2` | `CPerParticleVecInput` | get | - |
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
+| `Normalize` | `ref bool` | get | - |
 

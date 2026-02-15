@@ -8,7 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `DistMin` | `ref float` | get | - |
+| `DistMax` | `ref float` | get | - |
 | `Node` | `ISchemaFixedArray\<ushort\>` | get | - |
 

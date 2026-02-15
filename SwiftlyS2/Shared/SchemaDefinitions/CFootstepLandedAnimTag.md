@@ -10,9 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `FootstepType` | `ref FootstepLandedFootSoundType_t` | get | - |
 | `OverrideSoundName` | `string` | get, set | - |
 | `DebugAnimSourceString` | `string` | get, set | - |
 | `BoneName` | `string` | get, set | - |
+| `FootstepJumpPhase` | `ref FootstepJumpPhase_t` | get | - |
 

@@ -10,7 +10,17 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Debris` | `ref bool` | get | - |
+| `ParentShard` | `ref uint` | get | - |
 | `ShardDesc` | `shard_model_desc_t` | get | - |
+
+## ⚙️ 方法
+
+### ShardDescUpdated
+
+```csharp
+void ShardDescUpdated()
+```
 

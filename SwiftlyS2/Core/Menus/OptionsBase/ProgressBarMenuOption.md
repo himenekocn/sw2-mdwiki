@@ -1,6 +1,6 @@
 # 📦 ProgressBarMenuOption
 
-Represents a progress bar menu option that displays progress visually.
+表示一个进度条菜单选项，用于以视觉方式显示进度。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -10,10 +10,11 @@ Represents a progress bar menu option that displays progress visually.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `BarWidth` | `int` | get | Gets the width of the progress bar in characters. |
-| `ShowPercentage` | `bool` | get | Gets whether to display the percentage value. |
+| `BarWidth` | `int` | get | 获取进度条的宽度（以字符为单位）。 |
+| `ShowPercentage` | `bool` | get | 获取是否显示百分比值。 |
+| `LineCount` | `int` | - | - |
 
 ## ⚙️ 方法
 
@@ -30,18 +31,28 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string text = progressBarMenuOption.GetDisplayText(player, 0);
+```
+
 ### SetProgressProvider
 
 ```csharp
 void SetProgressProvider(IPlayer player, Func<float> progressProvider)
 ```
 
-Sets or updates the progress provider function for a specific player.
+为特定玩家设置或更新进度提供程序函数。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose progress provider to set.
-- `progressProvider` (`Func\<float\>`) - Function that returns progress value (0.0 to 1.0).
+- `player` (`IPlayer`) - 要设置其进度提供程序的玩家。
+- `progressProvider` (`Func\<float\>`) - 返回进度值（0.0 到 1.0）的函数。
+
+**用法示例:**
+```csharp
+player.SetProgressProvider(player, () => manager.GetPlayerProgress(player));
+```
 
 ### GetProgress
 
@@ -49,11 +60,16 @@ Sets or updates the progress provider function for a specific player.
 float GetProgress(IPlayer player)
 ```
 
-Gets the current progress value for the specified player.
+获取指定玩家的当前进度值。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose progress to retrieve.
+- `player` (`IPlayer`) - 要检索其进度的玩家。
 
-**返回值:** `float` - The current progress value (0.0 to 1.0).
+**返回值:** `float` - 当前进度值（0.0 到 1.0）。
+
+**用法示例:**
+```csharp
+float progress = progressBarMenuOption.GetProgress(player);
+```
 

@@ -8,12 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Version` | `uint` | get, set | - |
 | `AccountId` | `uint` | get, set | - |
 | `JoinToken` | `uint` | get, set | - |
 | `JoinIpp` | `uint` | get, set | - |
-| `Res` | `CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve` | get, set | - |
+| `Res` | `CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve` | get | - |
 | `Errormsg` | `string` | get, set | - |
 

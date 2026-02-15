@@ -10,9 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `OnFired` | `SignatureOutflow_Resume` | get, set | - |
-| `OnCanceled` | `CPulse_ResumePoint` | get, set | - |
+| `OnFired` | `SignatureOutflow_Resume` | get | - |
+| `OnCanceled` | `CPulse_ResumePoint` | get | - |
+| `StrEntityOutput` | `ref CGlobalSymbol` | get | - |
 | `StrEntityOutputParam` | `string` | get, set | - |
+| `ListenUntilCanceled` | `ref bool` | get | - |
 

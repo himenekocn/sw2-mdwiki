@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `EmitterAngle` | `ref float` | get | - |
+| `SweetSpotAngle` | `ref float` | get | - |
+| `AttenMin` | `ref float` | get | - |
+| `AttenMax` | `ref float` | get | - |
 | `ParameterName` | `string` | get, set | - |
 

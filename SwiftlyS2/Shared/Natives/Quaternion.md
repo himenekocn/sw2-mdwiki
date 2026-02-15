@@ -1,6 +1,6 @@
 # 🏗️ Quaternion
 
-Quaternion, basically 4 floats.
+四元数，基本上是4个浮点数。
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 
@@ -15,6 +15,13 @@ Quaternion, basically 4 floats.
 | `Z` | `float` | - | - |
 | `W` | `float` | - | - |
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Zero` | `Quaternion` | - | - |
+| `One` | `Quaternion` | - | - |
+
 ## ⚙️ 方法
 
 ### ToBuiltin
@@ -24,6 +31,12 @@ System.Numerics.Quaternion ToBuiltin()
 ```
 
 **返回值:** `System.Numerics.Quaternion`
+
+**用法示例:**
+```csharp
+Quaternion q = Quaternion.Identity;
+Quaternion builtin = q.ToBuiltin();
+```
 
 ### FromBuiltin (静态)
 
@@ -37,19 +50,8 @@ Quaternion FromBuiltin(System.Numerics.Quaternion quaternion)
 
 **返回值:** `Quaternion`
 
-### GetHashCode
-
+**用法示例:**
 ```csharp
-int GetHashCode()
+Quaternion q = Quaternion.FromBuiltin(new System.Numerics.Quaternion(1, 2, 3, 4));
 ```
-
-**返回值:** `int`
-
-### ToString
-
-```csharp
-string ToString()
-```
-
-**返回值:** `string`
 

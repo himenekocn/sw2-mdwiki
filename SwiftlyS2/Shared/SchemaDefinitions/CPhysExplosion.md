@@ -10,7 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ExplodeOnSpawn` | `ref bool` | get | - |
+| `Magnitude` | `ref float` | get | - |
+| `Damage` | `ref float` | get | - |
+| `Radius` | `ref float` | get | - |
 | `TargetEntityName` | `string` | get, set | - |
+| `InnerRadius` | `ref float` | get | - |
+| `PushScale` | `ref float` | get | - |
+| `ConvertToDebrisWhenPossible` | `ref bool` | get | - |
+| `AffectInvulnerableEnts` | `ref bool` | get | - |
+| `OnPushedPlayer` | `ref CEntityIOOutput` | get | - |
 

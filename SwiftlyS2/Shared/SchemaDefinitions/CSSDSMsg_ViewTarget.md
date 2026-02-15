@@ -8,7 +8,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Name` | `string` | get, set | - |
+| `TextureId` | `ref ulong` | get | - |
+| `Width` | `ref int` | get | - |
+| `Height` | `ref int` | get | - |
+| `RequestedWidth` | `ref int` | get | - |
+| `RequestedHeight` | `ref int` | get | - |
+| `NumMipLevels` | `ref int` | get | - |
+| `Depth` | `ref int` | get | - |
+| `MultisampleNumSamples` | `ref int` | get | - |
+| `Format` | `ref int` | get | - |
 

@@ -6,3 +6,12 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `FLAG0_SHIFT_INTERPENETRATE` | `0` | - |
+| `FLAG0_SHIFT_CONSTRAIN` | `1` | - |
+| `FLAG0_SHIFT_BREAKABLE_FORCE` | `2` | - |
+| `FLAG0_SHIFT_BREAKABLE_TORQUE` | `3` | - |
+

@@ -10,7 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Duration` | `ref float` | get | - |
+| `Radius` | `ref float` | get | - |
+| `TiltTime` | `ref float` | get | - |
 | `StopTime` | `GameTime_t` | get | - |
 

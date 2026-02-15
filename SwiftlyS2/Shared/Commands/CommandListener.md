@@ -1,6 +1,6 @@
 # 🔗 CommandListener
 
-The listener for the command.
+命令的监听器。
 
 **命名空间:** `SwiftlyS2.Shared.Commands`
 

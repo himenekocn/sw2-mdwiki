@@ -1,6 +1,6 @@
 # 🔌 EventMbInputLockSuccess
 
-Event "mb_input_lock_success"
+事件 "mb_input_lock_success"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

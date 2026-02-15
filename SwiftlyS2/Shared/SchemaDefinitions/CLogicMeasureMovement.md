@@ -10,9 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `StrMeasureTarget` | `string` | get, set | - |
 | `StrMeasureReference` | `string` | get, set | - |
 | `StrTargetReference` | `string` | get, set | - |
+| `MeasureTarget` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `MeasureReference` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `Target` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `TargetReference` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `Scale` | `ref float` | get | - |
+| `MeasureType` | `ref int` | get | - |
 

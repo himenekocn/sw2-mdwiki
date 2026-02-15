@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `MATERIAL_ATTRIBUTE_TAG_VALUE` | `0` | - |
+| `MATERIAL_ATTRIBUTE_TAG_COLOR` | `1` | - |
+

@@ -24,6 +24,12 @@
 void Clear()
 ```
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;
+identity.Clear();
+```
+
 ### IsInvalid
 
 ```csharp
@@ -31,6 +37,12 @@ bool IsInvalid()
 ```
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+bool invalid = identity.IsInvalid();
+```
 
 ### SetSteamID
 
@@ -42,6 +54,12 @@ void SetSteamID(CSteamID steamID)
 
 - `steamID` (`CSteamID`)
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+identity.SetSteamID(CSteamID(12345));
+```
+
 ### GetSteamID
 
 ```csharp
@@ -49,6 +67,12 @@ CSteamID GetSteamID()
 ```
 
 **返回值:** `CSteamID`
+
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+CSteamID id = identity.GetSteamID();
+```
 
 ### SetSteamID64
 
@@ -60,6 +84,12 @@ void SetSteamID64(ulong steamID)
 
 - `steamID` (`ulong`)
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+identity.SetSteamID64(123456789UL);
+```
+
 ### GetSteamID64
 
 ```csharp
@@ -67,6 +97,12 @@ ulong GetSteamID64()
 ```
 
 **返回值:** `ulong`
+
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity = SteamGameServer.GetPlayerIdentity(playerIndex);
+ulong steamID64 = identity.GetSteamID64();
+```
 
 ### SetXboxPairwiseID
 
@@ -80,6 +116,12 @@ bool SetXboxPairwiseID(string pszString)
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+identity.SetXboxPairwiseID("123456789");
+```
+
 ### GetXboxPairwiseID
 
 ```csharp
@@ -87,6 +129,11 @@ string GetXboxPairwiseID()
 ```
 
 **返回值:** `string`
+
+**用法示例:**
+```csharp
+string pairId = SteamNetworkingIdentity.GetXboxPairwiseID();
+```
 
 ### SetPSNID
 
@@ -98,6 +145,12 @@ void SetPSNID(ulong id)
 
 - `id` (`ulong`)
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+identity.SetPSNID(1234567890UL);
+```
+
 ### GetPSNID
 
 ```csharp
@@ -105,6 +158,11 @@ ulong GetPSNID()
 ```
 
 **返回值:** `ulong`
+
+**用法示例:**
+```csharp
+ulong psnId = SteamNetworkingIdentity.GetPSNID();
+```
 
 ### SetStadiaID
 
@@ -116,6 +174,12 @@ void SetStadiaID(ulong id)
 
 - `id` (`ulong`)
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+identity.SetStadiaID(123456789);
+```
+
 ### GetStadiaID
 
 ```csharp
@@ -123,6 +187,11 @@ ulong GetStadiaID()
 ```
 
 **返回值:** `ulong`
+
+**用法示例:**
+```csharp
+ulong stadiaId = someSteamNetworkingIdentity.GetStadiaID();
+```
 
 ### SetIPAddr
 
@@ -134,6 +203,12 @@ void SetIPAddr(SteamNetworkingIPAddr addr)
 
 - `addr` (`SteamNetworkingIPAddr`)
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+identity.SetIPAddr(default(SteamNetworkingIPAddr));
+```
+
 ### GetIPAddr
 
 ```csharp
@@ -141,6 +216,11 @@ SteamNetworkingIPAddr GetIPAddr()
 ```
 
 **返回值:** `SteamNetworkingIPAddr`
+
+**用法示例:**
+```csharp
+SteamNetworkingIPAddr ip = identity.GetIPAddr();
+```
 
 ### SetIPv4Addr
 
@@ -153,6 +233,12 @@ void SetIPv4Addr(uint nIPv4, ushort nPort)
 - `nIPv4` (`uint`)
 - `nPort` (`ushort`)
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+identity.SetIPv4Addr(0x7F000001, 8080);
+```
+
 ### GetIPv4
 
 ```csharp
@@ -160,6 +246,11 @@ uint GetIPv4()
 ```
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint ip = SteamNetworkingIdentity.GetIPv4();
+```
 
 ### GetFakeIPType
 
@@ -169,6 +260,11 @@ ESteamNetworkingFakeIPType GetFakeIPType()
 
 **返回值:** `ESteamNetworkingFakeIPType`
 
+**用法示例:**
+```csharp
+SteamNetworkingFakeIPType fakeIPType = identity.GetFakeIPType();
+```
+
 ### IsFakeIP
 
 ```csharp
@@ -177,10 +273,22 @@ bool IsFakeIP()
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity = SteamClient.GetLocalPlayer().GetSteamId();  
+bool isFake = identity.IsFakeIP();
+```
+
 ### SetLocalHost
 
 ```csharp
 void SetLocalHost()
+```
+
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity = default;
+identity.SetLocalHost();
 ```
 
 ### IsLocalHost
@@ -190,6 +298,12 @@ bool IsLocalHost()
 ```
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity = SteamNetworkingMessages.GetIdentity();  
+bool isLocalHost = identity.IsLocalHost();
+```
 
 ### SetGenericString
 
@@ -203,6 +317,12 @@ bool SetGenericString(string pszString)
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity id;  
+id.SetGenericString("player123");
+```
+
 ### GetGenericString
 
 ```csharp
@@ -210,6 +330,11 @@ string GetGenericString()
 ```
 
 **返回值:** `string`
+
+**用法示例:**
+```csharp
+string idStr = SteamNetworkingIdentity.GetGenericString();
+```
 
 ### SetGenericBytes
 
@@ -224,6 +349,12 @@ bool SetGenericBytes(byte[] data, uint cbLen)
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity;  
+identity.SetGenericBytes(new byte[] { 1, 2, 3 }, 3);
+```
+
 ### GetGenericBytes
 
 ```csharp
@@ -235,6 +366,12 @@ byte[] GetGenericBytes(out int cbLen)
 - `cbLen` (`out int`)
 
 **返回值:** `byte[]`
+
+**用法示例:**
+```csharp
+SteamNetworkingIdentity identity; // 已有实例  
+byte[] bytes = identity.GetGenericBytes(out int len);
+```
 
 ### Equals
 
@@ -258,6 +395,13 @@ void ToString(out string buf)
 
 - `buf` (`out string`)
 
+**用法示例:**
+```csharp
+string buf;
+SteamNetworkingIdentity identity = SteamNetworkingIdentity.GetLocal();
+identity.ToString(out buf);
+```
+
 ### ParseString
 
 ```csharp
@@ -269,4 +413,10 @@ bool ParseString(string pszStr)
 - `pszStr` (`string`)
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamNetworkingIdentity id;  
+id.ParseString("steam:123456789");
+```
 

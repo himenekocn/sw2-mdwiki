@@ -10,8 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `TargetParam` | `CAnimParamHandle` | get | - |
+| `OriginalJumpMovement` | `ref Vector` | get | - |
+| `OriginalJumpDuration` | `ref float` | get | - |
+| `JumpStartCycle` | `ref float` | get | - |
+| `JumpEndCycle` | `ref float` | get | - |
+| `CorrectionMethod` | `ref JumpCorrectionMethod` | get | - |
 | `TranslationAxis` | `ISchemaFixedArray\<bool\>` | get | - |
+| `ScaleSpeed` | `ref bool` | get | - |
 

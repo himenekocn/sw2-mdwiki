@@ -6,3 +6,13 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `Beginning` | `0` | - |
+| `SameCycleAsSource` | `1` | - |
+| `InverseSourceCycle` | `2` | - |
+| `FixedValue` | `3` | - |
+| `SameTimeAsSource` | `4` | - |
+

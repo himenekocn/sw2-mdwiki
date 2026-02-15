@@ -10,9 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ComponentScale` | `ref Vector` | get | - |
 | `ForceAmount` | `CPerParticleFloatInput` | get | - |
+| `FalloffPower` | `ref float` | get | - |
 | `TransformInput` | `CParticleTransformInput` | get | - |
 | `ForceAmountMin` | `CPerParticleFloatInput` | get | - |
+| `ApplyMinForce` | `ref bool` | get | - |
 

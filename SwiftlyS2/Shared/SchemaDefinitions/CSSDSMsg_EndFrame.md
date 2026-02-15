@@ -6,3 +6,9 @@
 
 **继承:** `ISchemaClass\<CSSDSMsg_EndFrame\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Views` | `ref CUtlVector\<CSSDSEndFrameViewInfo\>` | get | - |
+

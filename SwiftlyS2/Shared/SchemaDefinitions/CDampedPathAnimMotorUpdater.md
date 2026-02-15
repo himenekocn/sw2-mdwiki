@@ -10,8 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `AnticipationTime` | `ref float` | get | - |
+| `MinSpeedScale` | `ref float` | get | - |
 | `AnticipationPosParam` | `CAnimParamHandle` | get | - |
 | `AnticipationHeadingParam` | `CAnimParamHandle` | get | - |
+| `SpringConstant` | `ref float` | get | - |
+| `MinSpringTension` | `ref float` | get | - |
+| `MaxSpringTension` | `ref float` | get | - |
 

@@ -1,6 +1,6 @@
 # 📦 SubmenuMenuOption
 
-Represents a menu option that opens a submenu when clicked.
+表示一个菜单选项，当被点击时会打开一个子菜单。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 

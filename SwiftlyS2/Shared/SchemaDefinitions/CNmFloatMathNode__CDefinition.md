@@ -8,3 +8,14 @@
 
 **实现接口:** `ISchemaClass\<CNmFloatMathNode__CDefinition\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InputValueNodeIdxA` | `ref short` | get | - |
+| `InputValueNodeIdxB` | `ref short` | get | - |
+| `ReturnAbsoluteResult` | `ref bool` | get | - |
+| `ReturnNegatedResult` | `ref bool` | get | - |
+| `Operator` | `ref CNmFloatMathNode__Operator_t` | get | - |
+| `ValueB` | `ref float` | get | - |
+

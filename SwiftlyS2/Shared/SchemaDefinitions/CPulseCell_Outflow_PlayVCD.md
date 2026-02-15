@@ -10,8 +10,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ChoreoScene` | `ref CStrongHandle\<InfoForResourceTypeCChoreoSceneResource\>` | get | - |
 | `OnPaused` | `CPulse_OutflowConnection` | get | - |
 | `OnResumed` | `CPulse_OutflowConnection` | get | - |
 

@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<C_OP_RandomForce\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MinForce` | `ref Vector` | get | - |
+| `MaxForce` | `ref Vector` | get | - |
+

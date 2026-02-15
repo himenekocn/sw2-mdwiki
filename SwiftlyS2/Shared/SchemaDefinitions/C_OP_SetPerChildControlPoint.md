@@ -10,9 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ChildGroupID` | `ref int` | get | - |
+| `FirstControlPoint` | `ref int` | get | - |
+| `NumControlPoints` | `ref int` | get | - |
 | `ParticleIncrement` | `CParticleCollectionFloatInput` | get | - |
 | `FirstSourcePoint` | `CParticleCollectionFloatInput` | get | - |
+| `SetOrientation` | `ref bool` | get | - |
 | `OrientationField` | `ParticleAttributeIndex_t` | get | - |
+| `NumBasedOnParticleCount` | `ref bool` | get | - |
 

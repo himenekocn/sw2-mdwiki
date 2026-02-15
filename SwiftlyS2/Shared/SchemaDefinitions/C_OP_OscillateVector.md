@@ -10,9 +10,20 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Field` | `ParticleAttributeIndex_t` | get, set | - |
+| `RateMin` | `ref Vector` | get | - |
+| `RateMax` | `ref Vector` | get | - |
+| `FrequencyMin` | `ref Vector` | get | - |
+| `FrequencyMax` | `ref Vector` | get | - |
+| `Field` | `ParticleAttributeIndex_t` | get | - |
+| `Proportional` | `ref bool` | get | - |
+| `ProportionalOp` | `ref bool` | get | - |
+| `Offset` | `ref bool` | get, set | - |
+| `StartTime_min` | `ref float` | get | - |
+| `StartTime_max` | `ref float` | get | - |
+| `EndTime_min` | `ref float` | get | - |
+| `EndTime_max` | `ref float` | get | - |
 | `OscMult` | `CPerParticleFloatInput` | get | - |
 | `OscAdd` | `CPerParticleFloatInput` | get | - |
 | `RateScale` | `CPerParticleFloatInput` | get | - |

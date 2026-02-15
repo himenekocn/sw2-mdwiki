@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+InputHandle_t handle = InputManager.GetLastInput();  
+string result = handle.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(InputHandle_t that)
+```
+
+**参数:**
+
+- `that` (`InputHandle_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+InputHandle_t.ulong(handle);
+```
 
 ### Equals
 
@@ -67,4 +90,10 @@ int CompareTo(InputHandle_t other)
 - `other` (`InputHandle_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+InputHandle_t handle1 = InputManager.GetHandle();  
+int result = handle1.CompareTo(handle2);
+```
 

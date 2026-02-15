@@ -1,6 +1,6 @@
 # 🔌 IOnClientProcessUsercmdsEvent
 
-Called when a client processes user commands. This callback is a hot path, be careful with it and don't do anything expensive.
+当客户端处理用户命令时调用。此回调是热点路径，请谨慎处理，不要执行任何昂贵的操作。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,10 +8,10 @@ Called when a client processes user commands. This callback is a hot path, be ca
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | The player ID of the client that processed the user commands. |
-| `Usercmds` | `List\<CSGOUserCmdPB\>` | get | The user commands that the client processed. |
-| `Paused` | `bool` | get | Whether the client is paused. |
-| `Margin` | `float` | get | The margin of the client, milliseconds. |
+| `PlayerId` | `int` | get | 处理用户命令的客户端的玩家ID。 |
+| `Usercmds` | `List\<CSGOUserCmdPB\>` | get | 用户命令，由客户端处理。 |
+| `Paused` | `bool` | get | 客户端是否已暂停。 |
+| `Margin` | `float` | get | 客户端的边距，以毫秒为单位。 |
 

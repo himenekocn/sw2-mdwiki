@@ -1,6 +1,6 @@
 # 🔌 EventCsRoundStartBeep
 
-Event "cs_round_start_beep"
+事件 "cs_round_start_beep"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

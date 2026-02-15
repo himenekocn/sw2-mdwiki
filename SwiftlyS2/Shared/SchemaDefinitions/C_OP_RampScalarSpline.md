@@ -10,7 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `RateMin` | `ref float` | get | - |
+| `RateMax` | `ref float` | get | - |
+| `StartTime_min` | `ref float` | get | - |
+| `StartTime_max` | `ref float` | get | - |
+| `EndTime_min` | `ref float` | get | - |
+| `EndTime_max` | `ref float` | get | - |
+| `Bias` | `ref float` | get | - |
 | `Field` | `ParticleAttributeIndex_t` | get | - |
+| `ProportionalOp` | `ref bool` | get | - |
+| `EaseOut` | `ref bool` | get | - |
 

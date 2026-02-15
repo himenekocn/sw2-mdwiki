@@ -8,9 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ObjectsModified` | `IProtobufRepeatedFieldSubMessageType\<CMsgSOMultipleObjects_SingleObject\>` | get, set | - |
+| `ObjectsModified` | `IProtobufRepeatedFieldSubMessageType\<CMsgSOMultipleObjects_SingleObject\>` | get | - |
 | `Version` | `ulong` | get, set | - |
 | `OwnerSoid` | `CMsgSOIDOwner` | get | - |
 

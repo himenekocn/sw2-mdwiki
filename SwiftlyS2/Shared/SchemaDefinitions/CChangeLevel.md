@@ -10,8 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `MapName` | `string` | get, set | - |
 | `LandmarkName` | `string` | get, set | - |
+| `OnChangeLevel` | `ref CEntityIOOutput` | get | - |
+| `Touched` | `ref bool` | get | - |
+| `NoTouch` | `ref bool` | get | - |
+| `NewChapter` | `ref bool` | get | - |
+| `OnChangeLevelFired` | `ref bool` | get | - |
 

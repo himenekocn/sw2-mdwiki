@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+PublishedFileUpdateHandle_t handle = PublishedFileUpdateHandle_t.Invalid;  
+Console.WriteLine(handle.ToString());
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,24 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(PublishedFileUpdateHandle_t that)
+```
+
+**参数:**
+
+- `that` (`PublishedFileUpdateHandle_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+PublishedFileUpdateHandle_t handle = default;
+ulong value = (ulong)handle;
+```
 
 ### Equals
 
@@ -67,4 +91,10 @@ int CompareTo(PublishedFileUpdateHandle_t other)
 - `other` (`PublishedFileUpdateHandle_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+PublishedFileUpdateHandle_t handle1 = default;  
+int result = handle1.CompareTo(handle2);
+```
 

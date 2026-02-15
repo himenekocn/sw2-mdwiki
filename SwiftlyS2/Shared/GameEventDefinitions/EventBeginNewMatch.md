@@ -1,6 +1,6 @@
 # 🔌 EventBeginNewMatch
 
-Event "begin_new_match"
+事件 "begin_new_match"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

@@ -8,15 +8,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Gameserverpings` | `IProtobufRepeatedFieldSubMessageType\<GameServerPing\>` | get, set | - |
+| `Gameserverpings` | `IProtobufRepeatedFieldSubMessageType\<GameServerPing\>` | get | - |
 | `OffsetIndex` | `int` | get, set | - |
 | `FinalBatch` | `int` | get, set | - |
-| `DataCenterPings` | `IProtobufRepeatedFieldSubMessageType\<DataCenterPing\>` | get, set | - |
+| `DataCenterPings` | `IProtobufRepeatedFieldSubMessageType\<DataCenterPing\>` | get | - |
 | `MaxPing` | `uint` | get, set | - |
 | `TestToken` | `uint` | get, set | - |
 | `SearchKey` | `byte[]` | get, set | - |
-| `Notes` | `IProtobufRepeatedFieldSubMessageType\<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note\>` | get, set | - |
+| `Notes` | `IProtobufRepeatedFieldSubMessageType\<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note\>` | get | - |
 | `DebugMessage` | `string` | get, set | - |
 

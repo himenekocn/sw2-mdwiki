@@ -6,3 +6,12 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eLiteralValue` | `0` | - |
+| `eParameter` | `1` | - |
+| `eAnimationMovementHeading` | `2` | - |
+| `eAnimationMovementHeadingAtEnd` | `3` | - |
+

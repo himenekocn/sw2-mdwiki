@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `IKTARGETSOURCE_Bone` | `0` | - |
+| `IKTARGETSOURCE_AnimgraphParameter` | `1` | - |
+| `IKTARGETSOURCE_COUNT` | `2` | - |
+

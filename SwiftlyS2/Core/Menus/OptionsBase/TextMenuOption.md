@@ -1,6 +1,6 @@
 # 📦 TextMenuOption
 
-Represents a simple text-only menu option without interactive behavior.
+表示一个仅包含文本的简单菜单选项，不具备交互行为。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 

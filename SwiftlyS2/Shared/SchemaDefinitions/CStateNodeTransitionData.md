@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Curve` | `CBlendCurve` | get, set | - |
-| `BlendDuration` | `SchemaUntypedField` | get, set | - |
+| `Curve` | `CBlendCurve` | get | - |
+| `BlendDuration` | `SchemaUntypedField` | get | - |
 | `ResetCycleValue` | `SchemaUntypedField` | get, set | - |
 | `Reset` | `SchemaUntypedField` | get, set | - |
 | `ResetCycleOption` | `SchemaUntypedField` | get, set | - |

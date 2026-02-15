@@ -6,3 +6,9 @@
 
 **继承:** `ISchemaClass\<VertexPositionColor_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Position` | `ref Vector` | get | - |
+

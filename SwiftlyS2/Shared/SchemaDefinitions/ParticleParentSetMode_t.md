@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_SET_PARENT_NO` | `0` | - |
+| `PARTICLE_SET_PARENT_IMMEDIATE` | `1` | - |
+| `PARTICLE_SET_PARENT_ROOT` | `2` | - |
+

@@ -10,11 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `CPSnapshot` | `ref int` | get | - |
 | `ModelInput` | `CParticleModelInput` | get | - |
-| `RecalcRate` | `CParticleCollectionFloatInput` | get, set | - |
-| `USpacing` | `CParticleCollectionFloatInput` | get, set | - |
-| `VSpacing` | `CParticleCollectionFloatInput` | get, set | - |
+| `RecalcRate` | `CParticleCollectionFloatInput` | get | - |
+| `USpacing` | `CParticleCollectionFloatInput` | get | - |
+| `VSpacing` | `CParticleCollectionFloatInput` | get | - |
 | `SurfaceOffset` | `CParticleCollectionFloatInput` | get, set | - |
+| `SetNormal` | `ref bool` | get | - |
+| `SetUp` | `ref bool` | get | - |
+| `SetGravity` | `ref bool` | get | - |
+| `SetUV` | `ref bool` | get | - |
 

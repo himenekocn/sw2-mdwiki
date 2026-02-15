@@ -1,6 +1,6 @@
 # 🔌 EventRoundAnnounceWarmup
 
-Event "round_announce_warmup"
+事件 "round_announce_warmup"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

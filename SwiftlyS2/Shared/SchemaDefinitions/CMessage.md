@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Message` | `string` | get, set | - |
+| `MessageVolume` | `ref float` | get | - |
+| `MessageAttenuation` | `ref int` | get | - |
+| `Radius` | `ref float` | get | - |
 | `Noise` | `string` | get, set | - |
+| `OnShowMessage` | `ref CEntityIOOutput` | get | - |
 

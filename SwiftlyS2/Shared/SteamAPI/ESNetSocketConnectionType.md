@@ -6,3 +6,11 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ESNetSocketConnectionTypeNotConnected` | `0` | - |
+| `k_ESNetSocketConnectionTypeUDP` | `1` | - |
+| `k_ESNetSocketConnectionTypeUDPRelay` | `2` | - |
+

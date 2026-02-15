@@ -1,6 +1,6 @@
 # 🔌 EventRoundPrestart
 
-Event "round_prestart" sent before all other round restart actions
+事件 "round_prestart" 在所有其他回合重启操作之前发送
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

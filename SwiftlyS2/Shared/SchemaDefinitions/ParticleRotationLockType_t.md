@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_ROTATION_LOCK_NONE` | `0` | - |
+| `PARTICLE_ROTATION_LOCK_ROTATIONS` | `1` | - |
+| `PARTICLE_ROTATION_LOCK_NORMAL` | `2` | - |
+

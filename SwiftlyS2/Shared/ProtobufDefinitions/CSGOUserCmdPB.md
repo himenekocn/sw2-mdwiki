@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Base` | `CBaseUserCmdPB` | get, set | - |
-| `InputHistory` | `IProtobufRepeatedFieldSubMessageType\<CSGOInputHistoryEntryPB\>` | get, set | - |
+| `Base` | `CBaseUserCmdPB` | get | - |
+| `InputHistory` | `IProtobufRepeatedFieldSubMessageType\<CSGOInputHistoryEntryPB\>` | get | - |
 | `Attack1StartHistoryIndex` | `int` | get, set | - |
 | `Attack2StartHistoryIndex` | `int` | get, set | - |
 | `LeftHandDesired` | `bool` | get, set | - |

@@ -12,3 +12,22 @@
 | `m_unSubmittedText` | `uint` | - | - |
 | `m_unAppID` | `AppId_t` | - | - |
 
+## ⚙️ 方法
+
+### text
+
+```csharp
+accepted text(Call ISteamUtils::GetEnteredGamepadTextInput()
+```
+
+**参数:**
+
+- `ISteamUtils::GetEnteredGamepadTextInput(` (`Call`)
+
+**返回值:** `accepted`
+
+**用法示例:**
+```csharp
+GamepadTextInputDismissed_t.accepted(GameUtils.GetEnteredGamepadTextInput());
+```
+

@@ -10,12 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `OpFixedSettings` | `HitReactFixedSettings_t` | get, set | - |
-| `TriggerParam` | `CAnimParamHandle` | get, set | - |
-| `HitBoneParam` | `CAnimParamHandle` | get, set | - |
+| `OpFixedSettings` | `HitReactFixedSettings_t` | get | - |
+| `TriggerParam` | `CAnimParamHandle` | get | - |
+| `HitBoneParam` | `CAnimParamHandle` | get | - |
 | `HitOffsetParam` | `CAnimParamHandle` | get, set | - |
-| `HitDirectionParam` | `CAnimParamHandle` | get, set | - |
-| `HitStrengthParam` | `CAnimParamHandle` | get, set | - |
+| `HitDirectionParam` | `CAnimParamHandle` | get | - |
+| `HitStrengthParam` | `CAnimParamHandle` | get | - |
+| `MinDelayBetweenHits` | `ref float` | get | - |
+| `ResetChild` | `ref bool` | get, set | - |
 

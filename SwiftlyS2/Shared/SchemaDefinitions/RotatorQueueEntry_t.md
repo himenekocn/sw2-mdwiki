@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<RotatorQueueEntry_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Target` | `ref Quaternion` | get | - |
+| `Space` | `ref RotatorTargetSpace_t` | get | - |
+

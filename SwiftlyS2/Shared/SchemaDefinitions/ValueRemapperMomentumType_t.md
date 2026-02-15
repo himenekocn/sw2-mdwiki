@@ -6,3 +6,12 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `MomentumType_None` | `0` | - |
+| `MomentumType_Friction` | `1` | - |
+| `MomentumType_SpringTowardSnapValue` | `2` | - |
+| `MomentumType_SpringAwayFromSnapValue` | `3` | - |
+

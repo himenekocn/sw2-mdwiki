@@ -1,6 +1,6 @@
 # 🔌 EventDropRateModified
 
-Event "drop_rate_modified"
+事件 "drop_rate_modified"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

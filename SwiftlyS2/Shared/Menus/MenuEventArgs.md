@@ -1,6 +1,6 @@
 # 📦 MenuEventArgs
 
-Provides event data for menu-related events.
+为菜单相关事件提供事件数据。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -10,8 +10,8 @@ Provides event data for menu-related events.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Player` | `IPlayer?` | get | The player who triggered this menu event. |
-| `Options` | `IReadOnlyList\<IMenuOption\>?` | get | The menu options involved in this event. |
+| `Player` | `IPlayer?` | get | 触发此菜单事件的玩家。 |
+| `Options` | `IReadOnlyList\<IMenuOption\>?` | get | 与此事件相关的菜单选项。 |
 

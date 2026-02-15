@@ -1,6 +1,6 @@
 # 🔌 EventDemoStart
 
-Event "demo_start"
+事件 "demo_start"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

@@ -8,3 +8,12 @@
 
 **实现接口:** `ISchemaClass\<CAnimationGraphVisualizerPie\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `WsCenter` | `ref Vector` | get | - |
+| `WsStart` | `ref Vector` | get | - |
+| `WsEnd` | `ref Vector` | get | - |
+| `Color` | `ref Color` | get | - |
+

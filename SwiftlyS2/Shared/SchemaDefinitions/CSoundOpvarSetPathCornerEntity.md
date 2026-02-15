@@ -10,7 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `UseParentedPath` | `ref bool` | get | - |
+| `DistMinSqr` | `ref float` | get | - |
+| `DistMaxSqr` | `ref float` | get | - |
 | `PathCornerEntityName` | `string` | get, set | - |
 

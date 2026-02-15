@@ -8,3 +8,14 @@
 
 **实现接口:** `ISchemaClass\<C_OP_RenderStatusEffectCitadel\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TextureColorWarp` | `ref CStrongHandle\<InfoForResourceTypeCTextureBase\>` | get | - |
+| `TextureNormal` | `ref CStrongHandle\<InfoForResourceTypeCTextureBase\>` | get | - |
+| `TextureMetalness` | `ref CStrongHandle\<InfoForResourceTypeCTextureBase\>` | get | - |
+| `TextureRoughness` | `ref CStrongHandle\<InfoForResourceTypeCTextureBase\>` | get | - |
+| `TextureSelfIllum` | `ref CStrongHandle\<InfoForResourceTypeCTextureBase\>` | get | - |
+| `TextureDetail` | `ref CStrongHandle\<InfoForResourceTypeCTextureBase\>` | get | - |
+

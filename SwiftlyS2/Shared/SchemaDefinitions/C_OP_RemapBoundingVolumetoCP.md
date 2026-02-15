@@ -8,3 +8,13 @@
 
 **实现接口:** `ISchemaClass\<C_OP_RemapBoundingVolumetoCP\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OutControlPointNumber` | `ref int` | get | - |
+| `InputMin` | `ref float` | get | - |
+| `InputMax` | `ref float` | get | - |
+| `OutputMin` | `ref float` | get | - |
+| `OutputMax` | `ref float` | get | - |
+

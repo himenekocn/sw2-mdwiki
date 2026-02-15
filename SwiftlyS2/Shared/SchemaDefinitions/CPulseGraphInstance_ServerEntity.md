@@ -10,8 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Owner` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `Activated` | `ref bool` | get | - |
 | `NameFixupStaticPrefix` | `string` | get, set | - |
 | `NameFixupParent` | `string` | get, set | - |
 | `NameFixupLocal` | `string` | get, set | - |

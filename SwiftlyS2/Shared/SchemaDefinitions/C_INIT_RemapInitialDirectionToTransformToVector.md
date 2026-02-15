@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TransformInput` | `CParticleTransformInput` | get, set | - |
-| `FieldOutput` | `ParticleAttributeIndex_t` | get, set | - |
+| `TransformInput` | `CParticleTransformInput` | get | - |
+| `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
+| `Scale` | `ref float` | get | - |
+| `OffsetRot` | `ref float` | get, set | - |
+| `OffsetAxis` | `ref Vector` | get, set | - |
+| `Normalize` | `ref bool` | get | - |
 

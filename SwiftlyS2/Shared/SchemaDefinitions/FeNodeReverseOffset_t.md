@@ -6,3 +6,11 @@
 
 **继承:** `ISchemaClass\<FeNodeReverseOffset_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Offset` | `ref Vector` | get, set | - |
+| `BoneCtrl` | `ref ushort` | get | - |
+| `TargetNode` | `ref ushort` | get | - |
+

@@ -8,10 +8,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `TranslationRangeX` | `NmCompressionSettings_t__QuantizationRange_t` | get | - |
 | `TranslationRangeY` | `NmCompressionSettings_t__QuantizationRange_t` | get | - |
 | `TranslationRangeZ` | `NmCompressionSettings_t__QuantizationRange_t` | get | - |
 | `ScaleRange` | `NmCompressionSettings_t__QuantizationRange_t` | get | - |
+| `ConstantRotation` | `ref Quaternion` | get | - |
+| `IsRotationStatic` | `ref bool` | get | - |
+| `IsTranslationStatic` | `ref bool` | get | - |
+| `IsScaleStatic` | `ref bool` | get | - |
 

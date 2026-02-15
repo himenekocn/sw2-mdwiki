@@ -1,6 +1,6 @@
 # 🔌 IOnMapUnloadEvent
 
-Called when the map is unloaded.
+当地图被卸载时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,7 +8,7 @@ Called when the map is unloaded.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `MapName` | `string` | get | The name of the map. |
+| `MapName` | `string` | get | 地图的名称。 |
 

@@ -10,10 +10,21 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Items` | `ref CUtlVector\<BlendItem_t\>` | get | - |
+| `Tags` | `ref CUtlVector\<TagSpan_t\>` | get | - |
 | `ParamSpans` | `CParamSpanUpdater` | get | - |
+| `NodeItemIndices` | `ref CUtlVector\<int\>` | get | - |
 | `Damping` | `CAnimInputDamping` | get | - |
+| `BlendSourceX` | `ref AnimValueSource` | get | - |
 | `ParamX` | `CAnimParamHandle` | get | - |
-| `ParamY` | `CAnimParamHandle` | get, set | - |
+| `BlendSourceY` | `ref AnimValueSource` | get | - |
+| `ParamY` | `CAnimParamHandle` | get | - |
+| `BlendMode` | `ref Blend2DMode` | get | - |
+| `PlaybackSpeed` | `ref float` | get | - |
+| `Loop` | `ref bool` | get | - |
+| `LockBlendOnReset` | `ref bool` | get, set | - |
+| `LockWhenWaning` | `ref bool` | get | - |
+| `AnimEventsAndTagsOnMostWeightedOnly` | `ref bool` | get | - |
 

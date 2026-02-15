@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `RequestIdDeprecated` | `uint` | get, set | - |
-| `AccountIdsDeprecated` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
+| `AccountIdsDeprecated` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `AccountId` | `uint` | get, set | - |
 | `RequestLevel` | `uint` | get, set | - |
 

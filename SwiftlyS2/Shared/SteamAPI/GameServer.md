@@ -22,10 +22,20 @@ bool Init(uint unIP, ushort usGamePort, ushort usQueryPort, EServerMode eServerM
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool result = GameServer.Init(0x7F000001, 8080, 27015, EServerMode.Value, "1.0.0");
+```
+
 ### Shutdown (静态)
 
 ```csharp
 void Shutdown()
+```
+
+**用法示例:**
+```csharp
+GameServer.Shutdown();
 ```
 
 ### RunCallbacks (静态)
@@ -34,10 +44,20 @@ void Shutdown()
 void RunCallbacks()
 ```
 
+**用法示例:**
+```csharp
+GameServer.RunCallbacks();
+```
+
 ### ReleaseCurrentThreadMemory (静态)
 
 ```csharp
 void ReleaseCurrentThreadMemory()
+```
+
+**用法示例:**
+```csharp
+GameServer.ReleaseCurrentThreadMemory();
 ```
 
 ### BSecure (静态)
@@ -48,6 +68,11 @@ bool BSecure()
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool isSecure = GameServer.BSecure();
+```
+
 ### GetSteamID (静态)
 
 ```csharp
@@ -55,6 +80,11 @@ CSteamID GetSteamID()
 ```
 
 **返回值:** `CSteamID`
+
+**用法示例:**
+```csharp
+CSteamID steamId = GameServer.GetSteamID();
+```
 
 ### GetHSteamPipe (静态)
 
@@ -64,6 +94,11 @@ HSteamPipe GetHSteamPipe()
 
 **返回值:** `HSteamPipe`
 
+**用法示例:**
+```csharp
+HSteamPipe pipe = GameServer.GetHSteamPipe();
+```
+
 ### GetHSteamUser (静态)
 
 ```csharp
@@ -71,4 +106,9 @@ HSteamUser GetHSteamUser()
 ```
 
 **返回值:** `HSteamUser`
+
+**用法示例:**
+```csharp
+HSteamUser user = GameServer.GetHSteamUser();
+```
 

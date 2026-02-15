@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_LEFT` | `0` | - |
+| `POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_CENTER` | `1` | - |
+| `POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_RIGHT` | `2` | - |
+

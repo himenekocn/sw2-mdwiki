@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `AccountId` | `uint` | get, set | - |
 | `MatchId` | `ulong` | get, set | - |
-| `Commendation` | `PlayerCommendationInfo` | get, set | - |
+| `Commendation` | `PlayerCommendationInfo` | get | - |
 | `Tokens` | `uint` | get, set | - |
 

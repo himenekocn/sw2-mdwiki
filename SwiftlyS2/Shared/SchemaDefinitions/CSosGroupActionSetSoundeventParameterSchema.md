@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `MaxCount` | `ref int` | get | - |
+| `MinValue` | `ref float` | get | - |
+| `MaxValue` | `ref float` | get | - |
 | `OpvarName` | `string` | get, set | - |
+| `SortType` | `ref SosActionSetParamSortType_t` | get | - |
 

@@ -10,9 +10,19 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `AuthoredPosition` | `ref MoveLinearAuthoredPos_t` | get | - |
+| `MoveEntitySpace` | `ref QAngle` | get | - |
+| `MoveDirParentSpace` | `ref Vector` | get | - |
 | `SoundStart` | `string` | get, set | - |
 | `SoundStop` | `string` | get, set | - |
 | `CurrentSound` | `string` | get, set | - |
+| `BlockDamage` | `ref float` | get | - |
+| `StartPosition` | `ref float` | get | - |
+| `OnFullyOpen` | `ref CEntityIOOutput` | get | - |
+| `OnFullyClosed` | `ref CEntityIOOutput` | get | - |
+| `CreateMovableNavMesh` | `ref bool` | get | - |
+| `AllowMovableNavMeshDockingOnEntireEntity` | `ref bool` | get | - |
+| `CreateNavObstacle` | `ref bool` | get | - |
 

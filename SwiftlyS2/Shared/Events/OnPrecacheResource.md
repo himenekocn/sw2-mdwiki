@@ -1,6 +1,6 @@
 # 🔗 OnPrecacheResource
 
-Called when the game is precaching resources.
+当游戏正在预加载资源时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

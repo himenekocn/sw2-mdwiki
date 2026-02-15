@@ -1,6 +1,6 @@
 # 🔌 EventClientDisconnect
 
-Event "client_disconnect"
+事件 "client_disconnect"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

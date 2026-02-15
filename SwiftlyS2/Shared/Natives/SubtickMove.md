@@ -16,3 +16,18 @@
 | `PitchDelta` | `float` | - | - |
 | `YawDelta` | `float` | - | - |
 
+## ⚙️ 方法
+
+### IsAnalogInput
+
+```csharp
+bool IsAnalogInput()
+```
+
+**返回值:** `bool`
+
+**用法示例:**
+```csharp
+SubtickMove.IsAnalogInput()
+```
+

@@ -10,9 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `RgEntities` | `ISchemaFixedArray\<CHandle\<CBaseEntity\>\>` | get | - |
-| `RgTriggered` | `ISchemaFixedArray\<int\>` | get, set | - |
+| `RgTriggered` | `ISchemaFixedArray\<int\>` | get | - |
+| `OnTrigger` | `ref CEntityIOOutput` | get | - |
+| `Total` | `ref int` | get | - |
 | `Globalstate` | `string` | get, set | - |
 

@@ -10,10 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `StrQueryPublicFieldName` | `string` | get, set | - |
 | `StrDelayPublicFieldName` | `string` | get, set | - |
+| `ExcludeStoppedSounds` | `ref bool` | get | - |
+| `ExcludeDelayedSounds` | `ref bool` | get | - |
+| `ExcludeSoundsBelowThreshold` | `ref bool` | get | - |
+| `ExcludeSoundsMinThresholdValue` | `ref float` | get | - |
+| `ExcludSoundsAboveThreshold` | `ref bool` | get | - |
+| `ExcludeSoundsMaxThresholdValue` | `ref float` | get | - |
 | `StrMinValueName` | `string` | get, set | - |
 | `StrMaxValueName` | `string` | get, set | - |
 

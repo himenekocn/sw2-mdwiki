@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = ScreenshotHandle.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(ScreenshotHandle that)
+```
+
+**参数:**
+
+- `that` (`ScreenshotHandle`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint handle = (uint)ScreenshotHandle.SomeInstance;
+```
 
 ### Equals
 
@@ -67,4 +89,9 @@ int CompareTo(ScreenshotHandle other)
 - `other` (`ScreenshotHandle`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+int result = screenshotHandle1.CompareTo(screenshotHandle2);
+```
 

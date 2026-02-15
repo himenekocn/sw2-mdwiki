@@ -12,9 +12,14 @@
 HSteamPipe CreateSteamPipe()
 ```
 
-<para> Creates a communication pipe to the Steam client.</para> <para> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</para>
+<para>创建与 Steam 客户端的通信管道。</para> <para>非线程安全 - 调用时请确保没有其他线程正在访问 Steamworks API。</para>
 
 **返回值:** `HSteamPipe`
+
+**用法示例:**
+```csharp
+HSteamPipe pipe = SteamGameServerClient.CreateSteamPipe();
+```
 
 ### BReleaseSteamPipe (静态)
 
@@ -22,7 +27,7 @@ HSteamPipe CreateSteamPipe()
 bool BReleaseSteamPipe(HSteamPipe hSteamPipe)
 ```
 
-<para> Releases a previously created communications pipe</para> <para> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</para>
+<para> 释放先前创建的通信管道</para> <para> 非线程安全 - 调用时请确保没有其他线程正在访问 Steamworks API</para>
 
 **参数:**
 
@@ -30,13 +35,19 @@ bool BReleaseSteamPipe(HSteamPipe hSteamPipe)
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool released = SteamGameServerClient.BReleaseSteamPipe(hSteamPipe);
+if (released) { /* handle success */ }
+```
+
 ### ConnectToGlobalUser (静态)
 
 ```csharp
 HSteamUser ConnectToGlobalUser(HSteamPipe hSteamPipe)
 ```
 
-<para> connects to an existing global user, failing if none exists</para> <para> used by the game to coordinate with the steamUI</para> <para> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</para>
+<para>连接到一个已存在的全局用户，如果不存在则失败</para> <para>游戏用于与SteamUI进行协调</para> <para>非线程安全 - 调用时请确保没有其他线程正在访问Steamworks API</para>
 
 **参数:**
 
@@ -44,13 +55,19 @@ HSteamUser ConnectToGlobalUser(HSteamPipe hSteamPipe)
 
 **返回值:** `HSteamUser`
 
+**用法示例:**
+```csharp
+HSteamPipe pipe = SteamGameServer.CreateSteamPipe();
+HSteamUser user = SteamGameServerClient.ConnectToGlobalUser(pipe);
+```
+
 ### CreateLocalUser (静态)
 
 ```csharp
 HSteamUser CreateLocalUser(out HSteamPipe phSteamPipe, EAccountType eAccountType)
 ```
 
-<para> used by game servers, create a steam user that won't be shared with anyone else</para> <para> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</para>
+<para>供游戏服务器使用，创建一个不会与其他任何人共享的 Steam 用户</para> <para>非线程安全 - 调用时请确保没有其他线程正在访问 Steamworks API</para>
 
 **参数:**
 
@@ -59,18 +76,29 @@ HSteamUser CreateLocalUser(out HSteamPipe phSteamPipe, EAccountType eAccountType
 
 **返回值:** `HSteamUser`
 
+**用法示例:**
+```csharp
+HSteamPipe pipe;
+HSteamUser user = SteamGameServerClient.CreateLocalUser(out pipe, EAccountType.Value);
+```
+
 ### ReleaseUser (静态)
 
 ```csharp
 void ReleaseUser(HSteamPipe hSteamPipe, HSteamUser hUser)
 ```
 
-<para> removes an allocated user</para> <para> NOT THREADSAFE - ensure that no other threads are accessing Steamworks API when calling</para>
+<para>移除一个已分配的用户</para> <para>非线程安全 - 调用时请确保没有其他线程正在访问 Steamworks API</para>
 
 **参数:**
 
 - `hSteamPipe` (`HSteamPipe`)
 - `hUser` (`HSteamUser`)
+
+**用法示例:**
+```csharp
+SteamGameServerClient.ReleaseUser(hSteamPipe, hUser);
+```
 
 ### GetISteamUser (静态)
 
@@ -78,7 +106,7 @@ void ReleaseUser(HSteamPipe hSteamPipe, HSteamUser hUser)
 IntPtr GetISteamUser(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> retrieves the ISteamUser interface associated with the handle</para>
+<para>检索与该句柄关联的 ISteamUser 接口</para>
 
 **参数:**
 
@@ -87,6 +115,11 @@ IntPtr GetISteamUser(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVer
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr pSteamUser = SteamGameServerClient.GetISteamUser(hSteamUser, hSteamPipe, "STEAM_USER_VERSION");
+```
 
 ### GetISteamGameServer (静态)
 
@@ -94,7 +127,7 @@ IntPtr GetISteamUser(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVer
 IntPtr GetISteamGameServer(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> retrieves the ISteamGameServer interface associated with the handle</para>
+<para>检索与该句柄关联的 ISteamGameServer 接口</para>
 
 **参数:**
 
@@ -103,6 +136,11 @@ IntPtr GetISteamGameServer(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string 
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr steamServer = SteamGameServerClient.GetISteamGameServer(hSteamUser, hSteamPipe, "STEAM_GAMESERVER_API_VERSION");
+```
 
 ### SetLocalIPBinding (静态)
 
@@ -110,12 +148,18 @@ IntPtr GetISteamGameServer(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string 
 void SetLocalIPBinding(ref SteamIPAddress_t unIP, ushort usPort)
 ```
 
-<para> set the local IP and Port to bind to</para> <para> this must be set before CreateLocalUser()</para>
+<para>设置要绑定的本地IP和端口</para> <para>必须在调用CreateLocalUser()之前设置此属性</para>
 
 **参数:**
 
 - `unIP` (`ref SteamIPAddress_t`)
 - `usPort` (`ushort`)
+
+**用法示例:**
+```csharp
+SteamIPAddress_t ip = new SteamIPAddress_t { IPv4 = 0x7F000001 }; // 127.0.0.1
+SteamGameServerClient.SetLocalIPBinding(ref ip, 27015);
+```
 
 ### GetISteamFriends (静态)
 
@@ -123,7 +167,7 @@ void SetLocalIPBinding(ref SteamIPAddress_t unIP, ushort usPort)
 IntPtr GetISteamFriends(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> returns the ISteamFriends interface</para>
+<para> 返回 ISteamFriends 接口</para>
 
 **参数:**
 
@@ -132,6 +176,11 @@ IntPtr GetISteamFriends(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pch
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr friendsPtr = SteamGameServerClient.GetISteamFriends(hSteamUser, hSteamPipe, "SteamFriends012");
+```
 
 ### GetISteamUtils (静态)
 
@@ -139,7 +188,7 @@ IntPtr GetISteamFriends(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pch
 IntPtr GetISteamUtils(HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> returns the ISteamUtils interface</para>
+<para> 返回 ISteamUtils 接口</para>
 
 **参数:**
 
@@ -147,6 +196,11 @@ IntPtr GetISteamUtils(HSteamPipe hSteamPipe, string pchVersion)
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr utilsPtr = SteamGameServerClient.GetISteamUtils(hSteamPipe, "SteamUtils001");
+```
 
 ### GetISteamMatchmaking (静态)
 
@@ -154,7 +208,7 @@ IntPtr GetISteamUtils(HSteamPipe hSteamPipe, string pchVersion)
 IntPtr GetISteamMatchmaking(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> returns the ISteamMatchmaking interface</para>
+<para> 返回 ISteamMatchmaking 接口</para>
 
 **参数:**
 
@@ -163,6 +217,12 @@ IntPtr GetISteamMatchmaking(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr matchMakingPtr = SteamGameServerClient.GetISteamMatchmaking(hSteamUser, hSteamPipe, "STEAM_MATCHMAKING_INTERFACE_VERSION_001");
+if (matchMakingPtr != IntPtr.Zero) { /* 使用接口 */ }
+```
 
 ### GetISteamMatchmakingServers (静态)
 
@@ -170,7 +230,7 @@ IntPtr GetISteamMatchmaking(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string
 IntPtr GetISteamMatchmakingServers(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> returns the ISteamMatchmakingServers interface</para>
+<para> 返回 ISteamMatchmakingServers 接口</para>
 
 **参数:**
 
@@ -179,6 +239,11 @@ IntPtr GetISteamMatchmakingServers(HSteamUser hSteamUser, HSteamPipe hSteamPipe,
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr serverInterface = SteamGameServerClient.GetISteamMatchmakingServers(hSteamUser, hSteamPipe, "STEAM_MATCHMAKING_V1");
+```
 
 ### GetISteamGenericInterface (静态)
 
@@ -186,7 +251,7 @@ IntPtr GetISteamMatchmakingServers(HSteamUser hSteamUser, HSteamPipe hSteamPipe,
 IntPtr GetISteamGenericInterface(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> returns the a generic interface</para>
+<para> 返回一个泛型接口 </para>
 
 **参数:**
 
@@ -195,6 +260,11 @@ IntPtr GetISteamGenericInterface(HSteamUser hSteamUser, HSteamPipe hSteamPipe, s
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr steamInterface = SteamGameServerClient.GetISteamGenericInterface(hSteamUser, hSteamPipe, "SteamGameServer012");
+```
 
 ### GetISteamUserStats (静态)
 
@@ -202,7 +272,7 @@ IntPtr GetISteamGenericInterface(HSteamUser hSteamUser, HSteamPipe hSteamPipe, s
 IntPtr GetISteamUserStats(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> returns the ISteamUserStats interface</para>
+<para> 返回 ISteamUserStats 接口</para>
 
 **参数:**
 
@@ -211,6 +281,12 @@ IntPtr GetISteamUserStats(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string p
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr statsPtr = SteamGameServerClient.GetISteamUserStats(hSteamUser, hSteamPipe, "STEAM_USER_STATS_V001");
+if (statsPtr != IntPtr.Zero) { /* 使用 statsPtr */ }
+```
 
 ### GetISteamGameServerStats (静态)
 
@@ -218,7 +294,7 @@ IntPtr GetISteamUserStats(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string p
 IntPtr GetISteamGameServerStats(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> returns the ISteamGameServerStats interface</para>
+<para> 返回 ISteamGameServerStats 接口</para>
 
 **参数:**
 
@@ -227,6 +303,15 @@ IntPtr GetISteamGameServerStats(HSteamUser hSteamuser, HSteamPipe hSteamPipe, st
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr stats = SteamGameServerClient.GetISteamGameServerStats(hSteamUser, hSteamPipe, "STEAMGAMESERVERSTATS001");
+if (stats != IntPtr.Zero)
+{
+    // 使用 stats 指针进行后续操作
+}
+```
 
 ### GetISteamApps (静态)
 
@@ -234,7 +319,7 @@ IntPtr GetISteamGameServerStats(HSteamUser hSteamuser, HSteamPipe hSteamPipe, st
 IntPtr GetISteamApps(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> returns apps interface</para>
+<para> 返回应用程序接口 </para>
 
 **参数:**
 
@@ -243,6 +328,11 @@ IntPtr GetISteamApps(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVer
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr appsInterface = SteamGameServerClient.GetISteamApps(hSteamUser, hSteamPipe, "STEAMAPPS_INTERFACE_VERSION001");
+```
 
 ### GetISteamNetworking (静态)
 
@@ -250,7 +340,7 @@ IntPtr GetISteamApps(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVer
 IntPtr GetISteamNetworking(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> networking</para>
+<para>网络</para>
 
 **参数:**
 
@@ -259,6 +349,11 @@ IntPtr GetISteamNetworking(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string 
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr networkInterface = SteamGameServerClient.GetISteamNetworking(hSteamUser, hSteamPipe, "STEAM_GAME_SERVER_NETWORKING_VERSION_1");
+```
 
 ### GetISteamRemoteStorage (静态)
 
@@ -266,7 +361,7 @@ IntPtr GetISteamNetworking(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string 
 IntPtr GetISteamRemoteStorage(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> remote storage</para>
+<para> 远程存储 </para>
 
 **参数:**
 
@@ -275,6 +370,11 @@ IntPtr GetISteamRemoteStorage(HSteamUser hSteamuser, HSteamPipe hSteamPipe, stri
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr storage = SteamGameServerClient.GetISteamRemoteStorage(hSteamUser, hSteamPipe, "STEAMREMOTESTORE_INTERFACE_VERSION001");
+```
 
 ### GetISteamScreenshots (静态)
 
@@ -282,7 +382,7 @@ IntPtr GetISteamRemoteStorage(HSteamUser hSteamuser, HSteamPipe hSteamPipe, stri
 IntPtr GetISteamScreenshots(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> user screenshots</para>
+用户截图
 
 **参数:**
 
@@ -291,6 +391,11 @@ IntPtr GetISteamScreenshots(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr ptr = SteamGameServerClient.GetISteamScreenshots(hSteamUser, hSteamPipe, "STEAMSCREENSHOTS_INTERFACE_VERSION_1");
+```
 
 ### GetISteamGameSearch (静态)
 
@@ -298,7 +403,7 @@ IntPtr GetISteamScreenshots(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string
 IntPtr GetISteamGameSearch(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> game search</para>
+<para>游戏搜索</para>
 
 **参数:**
 
@@ -307,6 +412,11 @@ IntPtr GetISteamGameSearch(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string 
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr p = SteamGameServerClient.GetISteamGameSearch(hSteamUser, hSteamPipe, "SteamGameSearch001");
+```
 
 ### GetIPCCallCount (静态)
 
@@ -314,9 +424,14 @@ IntPtr GetISteamGameSearch(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string 
 uint GetIPCCallCount()
 ```
 
-<para> returns the number of IPC calls made since the last time this function was called</para> <para> Used for perf debugging so you can understand how many IPC calls your game makes per frame</para> <para> Every IPC call is at minimum a thread context switch if not a process one so you want to rate</para> <para> control how often you do them.</para>
+<para>返回自上次调用此函数以来所进行的 IPC 调用次数。</para> <para>用于性能调试，以便了解您的游戏每帧执行多少次 IPC 调用。</para> <para>每次 IPC 调用至少会导致一次线程上下文切换，甚至可能是进程上下文切换，因此您需要控制执行它们的频率。</para>
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint calls = SteamGameServerClient.GetIPCCallCount();
+```
 
 ### SetWarningMessageHook (静态)
 
@@ -324,11 +439,16 @@ uint GetIPCCallCount()
 void SetWarningMessageHook(SteamAPIWarningMessageHook_t pFunction)
 ```
 
-<para> API warning handling</para> <para> 'int' is the severity; 0 for msg, 1 for warning</para> <para> 'const char *' is the text of the message</para> <para> callbacks will occur directly after the API function is called that generated the warning or message.</para>
+<para> API 警告处理</para> <para> 'int' 是严重级别；0 表示消息，1 表示警告</para> <para> 'const char *' 是消息的文本内容</para> <para> 回调函数将在生成警告或消息的 API 函数被调用后立即执行。</para>
 
 **参数:**
 
 - `pFunction` (`SteamAPIWarningMessageHook_t`)
+
+**用法示例:**
+```csharp
+SteamGameServerClient.SetWarningMessageHook((severity, message) => Console.WriteLine($"[{severity}] {message}"));
+```
 
 ### BShutdownIfAllPipesClosed (静态)
 
@@ -336,9 +456,14 @@ void SetWarningMessageHook(SteamAPIWarningMessageHook_t pFunction)
 bool BShutdownIfAllPipesClosed()
 ```
 
-<para> Trigger global shutdown for the DLL</para>
+<para> 触发 DLL 的全局关闭</para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamGameServerClient.BShutdownIfAllPipesClosed();
+```
 
 ### GetISteamHTTP (静态)
 
@@ -346,7 +471,7 @@ bool BShutdownIfAllPipesClosed()
 IntPtr GetISteamHTTP(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Expose HTTP interface</para>
+<para> 暴露 HTTP 接口 </para>
 
 **参数:**
 
@@ -355,6 +480,11 @@ IntPtr GetISteamHTTP(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVer
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr httpInterface = SteamGameServerClient.GetISteamHTTP(hSteamUser, hSteamPipe, "HTTP_002");
+```
 
 ### GetISteamController (静态)
 
@@ -362,7 +492,7 @@ IntPtr GetISteamHTTP(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVer
 IntPtr GetISteamController(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Exposes the ISteamController interface - deprecated in favor of Steam Input</para>
+<para> 暴露 ISteamController 接口 - 已弃用，推荐使用 Steam Input</para>
 
 **参数:**
 
@@ -371,6 +501,11 @@ IntPtr GetISteamController(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string 
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr controller = SteamGameServerClient.GetISteamController(0, 1, "STEAM_CONTROLLER_API_VERSION001");
+```
 
 ### GetISteamUGC (静态)
 
@@ -378,7 +513,7 @@ IntPtr GetISteamController(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string 
 IntPtr GetISteamUGC(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Exposes the ISteamUGC interface</para>
+<para> 暴露 ISteamUGC 接口</para>
 
 **参数:**
 
@@ -387,6 +522,11 @@ IntPtr GetISteamUGC(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVers
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr pUGC = SteamGameServerClient.GetISteamUGC(hUser, hPipe, "STEAMUGC_INTERFACE_VERSION001");
+```
 
 ### GetISteamMusic (静态)
 
@@ -394,7 +534,7 @@ IntPtr GetISteamUGC(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVers
 IntPtr GetISteamMusic(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Music Player</para>
+<para> 音乐播放器 </para>
 
 **参数:**
 
@@ -403,6 +543,11 @@ IntPtr GetISteamMusic(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVe
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr musicInterface = SteamGameServerClient.GetISteamMusic(hSteamUser, hSteamPipe, "IVoiceUI_001");
+```
 
 ### GetISteamMusicRemote (静态)
 
@@ -410,7 +555,7 @@ IntPtr GetISteamMusic(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVe
 IntPtr GetISteamMusicRemote(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Music Player Remote</para>
+<para> 音乐播放器远程控制 </para>
 
 **参数:**
 
@@ -419,6 +564,11 @@ IntPtr GetISteamMusicRemote(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr musicRemote = SteamGameServerClient.GetISteamMusicRemote(hSteamUser, hSteamPipe, "IVersion_1");
+```
 
 ### GetISteamHTMLSurface (静态)
 
@@ -426,7 +576,7 @@ IntPtr GetISteamMusicRemote(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string
 IntPtr GetISteamHTMLSurface(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> html page display</para>
+<para> HTML 页面显示</para>
 
 **参数:**
 
@@ -435,6 +585,11 @@ IntPtr GetISteamHTMLSurface(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr surface = SteamGameServerClient.GetISteamHTMLSurface(hSteamUser, hSteamPipe, "1.0");
+```
 
 ### GetISteamInventory (静态)
 
@@ -442,7 +597,7 @@ IntPtr GetISteamHTMLSurface(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string
 IntPtr GetISteamInventory(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> inventory</para>
+<para> 库存 </para>
 
 **参数:**
 
@@ -451,6 +606,12 @@ IntPtr GetISteamInventory(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string p
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr inventoryPtr = SteamGameServerClient.GetISteamInventory(hSteamUser, hSteamPipe, "STEAM_INVENTORY_API_V001");
+if (inventoryPtr != IntPtr.Zero) { /* 使用 inventoryPtr */ }
+```
 
 ### GetISteamVideo (静态)
 
@@ -458,7 +619,7 @@ IntPtr GetISteamInventory(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string p
 IntPtr GetISteamVideo(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Video</para>
+<para> 视频</para>
 
 **参数:**
 
@@ -467,6 +628,12 @@ IntPtr GetISteamVideo(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVe
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr video = SteamGameServerClient.GetISteamVideo(0, 0, "STEAM_GAMESERVER_VIDEO_INTERFACE");
+Console.WriteLine(video);
+```
 
 ### GetISteamParentalSettings (静态)
 
@@ -474,7 +641,7 @@ IntPtr GetISteamVideo(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVe
 IntPtr GetISteamParentalSettings(HSteamUser hSteamuser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Parental controls</para>
+<para> 家长控制 </para>
 
 **参数:**
 
@@ -484,13 +651,18 @@ IntPtr GetISteamParentalSettings(HSteamUser hSteamuser, HSteamPipe hSteamPipe, s
 
 **返回值:** `IntPtr`
 
+**用法示例:**
+```csharp
+IntPtr ptr = SteamGameServerClient.GetISteamParentalSettings(hSteamUser, hSteamPipe, "parental_settings_v1");
+```
+
 ### GetISteamInput (静态)
 
 ```csharp
 IntPtr GetISteamInput(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Exposes the Steam Input interface for controller support</para>
+<para> 暴露 Steam Input 接口以支持控制器</para>
 
 **参数:**
 
@@ -499,6 +671,11 @@ IntPtr GetISteamInput(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVe
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr inputPtr = SteamGameServerClient.GetISteamInput(hSteamUser, hSteamPipe, "STEAM_INPUT_INTERFACE_VERSION_001");
+```
 
 ### GetISteamParties (静态)
 
@@ -506,7 +683,7 @@ IntPtr GetISteamInput(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVe
 IntPtr GetISteamParties(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Steam Parties interface</para>
+<para> Steam 聚会界面</para>
 
 **参数:**
 
@@ -515,6 +692,12 @@ IntPtr GetISteamParties(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pch
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr partiesPtr = SteamGameServerClient.GetISteamParties(hSteamUser, hSteamPipe, "SteamParties001");
+if (partiesPtr != IntPtr.Zero) { /* 使用 partiesPtr */ }
+```
 
 ### GetISteamRemotePlay (静态)
 
@@ -522,7 +705,7 @@ IntPtr GetISteamParties(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pch
 IntPtr GetISteamRemotePlay(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string pchVersion)
 ```
 
-<para> Steam Remote Play interface</para>
+<para> Steam 远程游玩接口</para>
 
 **参数:**
 
@@ -531,4 +714,10 @@ IntPtr GetISteamRemotePlay(HSteamUser hSteamUser, HSteamPipe hSteamPipe, string 
 - `pchVersion` (`string`)
 
 **返回值:** `IntPtr`
+
+**用法示例:**
+```csharp
+IntPtr remotePlay = SteamGameServerClient.GetISteamRemotePlay(0, 1, "STEAM_GAME_SERVER_REMOTE_PLAY_INTERFACE");
+Console.WriteLine(remotePlay);
+```
 

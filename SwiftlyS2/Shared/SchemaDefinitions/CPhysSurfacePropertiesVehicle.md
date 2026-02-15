@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<CPhysSurfacePropertiesVehicle\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `WheelDrag` | `ref float` | get | - |
+| `WheelFrictionScale` | `ref float` | get | - |
+

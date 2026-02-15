@@ -10,9 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Sequences` | `ISchemaClassFixedArray\<HSequence\>` | get | - |
 | `Damping` | `CAnimInputDamping` | get | - |
-| `ParamIndex` | `CAnimParamHandle` | get, set | - |
+| `BlendValueSource` | `ref AnimValueSource` | get | - |
+| `ParamIndex` | `CAnimParamHandle` | get | - |
+| `PlaybackSpeed` | `ref float` | get | - |
+| `Duration` | `ref float` | get | - |
+| `Loop` | `ref bool` | get | - |
+| `LockBlendOnReset` | `ref bool` | get, set | - |
 

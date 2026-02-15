@@ -1,6 +1,6 @@
 # 🔌 EventGcConnected
 
-Event "gc_connected"
+事件 "gc_connected"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

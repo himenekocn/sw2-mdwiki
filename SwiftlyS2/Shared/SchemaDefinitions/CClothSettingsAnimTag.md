@@ -10,7 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Stiffness` | `ref float` | get | - |
+| `EaseIn` | `ref float` | get | - |
+| `EaseOut` | `ref float` | get | - |
 | `VertexSet` | `string` | get, set | - |
 

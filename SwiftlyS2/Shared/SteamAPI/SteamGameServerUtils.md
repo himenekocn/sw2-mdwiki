@@ -12,9 +12,14 @@
 uint GetSecondsSinceAppActive()
 ```
 
-<para> return the number of seconds since the user</para>
+<para> 返回自用户以来经过的秒数</para>
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint seconds = SteamGameServerUtils.GetSecondsSinceAppActive();
+```
 
 ### GetSecondsSinceComputerActive (静态)
 
@@ -24,15 +29,25 @@ uint GetSecondsSinceComputerActive()
 
 **返回值:** `uint`
 
+**用法示例:**
+```csharp
+uint seconds = SteamGameServerUtils.GetSecondsSinceComputerActive();
+```
+
 ### GetConnectedUniverse (静态)
 
 ```csharp
 EUniverse GetConnectedUniverse()
 ```
 
-<para> the universe this client is connecting to</para>
+<para>此客户端正在连接的宇宙</para>
 
 **返回值:** `EUniverse`
+
+**用法示例:**
+```csharp
+EUniverse universe = SteamGameServerUtils.GetConnectedUniverse();
+```
 
 ### GetServerRealTime (静态)
 
@@ -40,9 +55,14 @@ EUniverse GetConnectedUniverse()
 uint GetServerRealTime()
 ```
 
-<para> Steam server time. Number of seconds since January 1, 1970, GMT (i.e unix time)</para>
+Steam服务器时间。自1970年1月1日以来的秒数，格林尼治标准时间（即Unix时间）。
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint serverTime = SteamGameServerUtils.GetServerRealTime();
+```
 
 ### GetIPCountry (静态)
 
@@ -50,9 +70,14 @@ uint GetServerRealTime()
 string GetIPCountry()
 ```
 
-<para> returns the 2 digit ISO 3166-1-alpha-2 format country code this client is running in (as looked up via an IP-to-location database)</para> <para> e.g "US" or "UK".</para>
+<para> 返回此客户端所在国家的两位数 ISO 3166-1-alpha-2 格式国家代码（通过 IP 到地理位置数据库查询获取）。</para> <para> 例如 "US" 或 "UK"。</para>
 
 **返回值:** `string`
+
+**用法示例:**
+```csharp
+string country = SteamGameServerUtils.GetIPCountry();
+```
 
 ### GetImageSize (静态)
 
@@ -60,7 +85,7 @@ string GetIPCountry()
 bool GetImageSize(int iImage, out uint pnWidth, out uint pnHeight)
 ```
 
-<para> returns true if the image exists, and valid sizes were filled out</para>
+<para>如果图像存在，并且有效的大小已填写，则返回 true</para>
 
 **参数:**
 
@@ -70,13 +95,19 @@ bool GetImageSize(int iImage, out uint pnWidth, out uint pnHeight)
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+uint width, height;
+bool result = SteamGameServerUtils.GetImageSize(0, out width, out height);
+```
+
 ### GetImageRGBA (静态)
 
 ```csharp
 bool GetImageRGBA(int iImage, byte[] pubDest, int nDestBufferSize)
 ```
 
-<para> returns true if the image exists, and the buffer was successfully filled out</para> <para> results are returned in RGBA format</para> <para> the destination buffer size should be 4 * height * width * sizeof(char)</para>
+<para>如果图像存在且缓冲区已成功填充，则返回 true</para> <para>结果以 RGBA 格式返回</para> <para>目标缓冲区大小应为 4 * height * width * sizeof(char)</para>
 
 **参数:**
 
@@ -86,15 +117,26 @@ bool GetImageRGBA(int iImage, byte[] pubDest, int nDestBufferSize)
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+byte[] dest = new byte[4 * 1024 * 1024]; // 假设图像尺寸为1024x1024
+bool success = SteamGameServerUtils.GetImageRGBA(0, dest, dest.Length);
+```
+
 ### GetCurrentBatteryPower (静态)
 
 ```csharp
 byte GetCurrentBatteryPower()
 ```
 
-<para> return the amount of battery power left in the current system in % [0..100], 255 for being on AC power</para>
+返回当前系统中剩余的电池电量百分比 [0..100]，若使用交流电源则返回 255。
 
 **返回值:** `byte`
+
+**用法示例:**
+```csharp
+byte battery = SteamGameServerUtils.GetCurrentBatteryPower();
+```
 
 ### GetAppID (静态)
 
@@ -102,9 +144,14 @@ byte GetCurrentBatteryPower()
 AppId_t GetAppID()
 ```
 
-<para> returns the appID of the current process</para>
+<para> 返回当前进程的应用程序标识符（appID）</para>
 
 **返回值:** `AppId_t`
+
+**用法示例:**
+```csharp
+AppId_t appid = SteamGameServerUtils.GetAppID();
+```
 
 ### SetOverlayNotificationPosition (静态)
 
@@ -112,11 +159,16 @@ AppId_t GetAppID()
 void SetOverlayNotificationPosition(ENotificationPosition eNotificationPosition)
 ```
 
-<para> Sets the position where the overlay instance for the currently calling game should show notifications.</para> <para> This position is per-game and if this function is called from outside of a game context it will do nothing.</para>
+<para>设置当前调用游戏的通知叠加层实例应显示的位置。</para> <para>此位置是每个游戏独有的，如果从游戏上下文外部调用此函数，则不会执行任何操作。</para>
 
 **参数:**
 
 - `eNotificationPosition` (`ENotificationPosition`)
+
+**用法示例:**
+```csharp
+SteamGameServerUtils.SetOverlayNotificationPosition(ENotificationPosition.k_ENotificationPosition_TopLeft);
+```
 
 ### IsAPICallCompleted (静态)
 
@@ -124,7 +176,7 @@ void SetOverlayNotificationPosition(ENotificationPosition eNotificationPosition)
 bool IsAPICallCompleted(SteamAPICall_t hSteamAPICall, out bool pbFailed)
 ```
 
-<para> API asynchronous call results</para> <para> can be used directly, but more commonly used via the callback dispatch API (see steam_api.h)</para>
+<para> API 异步调用结果</para> <para> 可以直接使用，但更常见的是通过回调分发 API 使用（请参阅 steam_api.h）</para>
 
 **参数:**
 
@@ -132,6 +184,12 @@ bool IsAPICallCompleted(SteamAPICall_t hSteamAPICall, out bool pbFailed)
 - `pbFailed` (`out bool`)
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+bool failed;
+bool result = SteamGameServerUtils.IsAPICallCompleted(mySteamAPICall, out failed);
+```
 
 ### GetAPICallFailureReason (静态)
 
@@ -144,6 +202,12 @@ ESteamAPICallFailure GetAPICallFailureReason(SteamAPICall_t hSteamAPICall)
 - `hSteamAPICall` (`SteamAPICall_t`)
 
 **返回值:** `ESteamAPICallFailure`
+
+**用法示例:**
+```csharp
+SteamAPICall_t call = default;
+ESteamAPICallFailure result = SteamGameServerUtils.GetAPICallFailureReason(call);
+```
 
 ### GetAPICallResult (静态)
 
@@ -161,15 +225,25 @@ bool GetAPICallResult(SteamAPICall_t hSteamAPICall, IntPtr pCallback, int cubCal
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool result = SteamGameServerUtils.GetAPICallResult(callHandle, callbackPtr, 4, expectedCallbackId, out bool failed);
+```
+
 ### GetIPCCallCount (静态)
 
 ```csharp
 uint GetIPCCallCount()
 ```
 
-<para> returns the number of IPC calls made since the last time this function was called</para> <para> Used for perf debugging so you can understand how many IPC calls your game makes per frame</para> <para> Every IPC call is at minimum a thread context switch if not a process one so you want to rate</para> <para> control how often you do them.</para>
+<para>返回自上次调用此函数以来所进行的 IPC 调用次数。</para> <para>用于性能调试，以便了解您的游戏每帧执行多少次 IPC 调用。</para> <para>每次 IPC 调用至少会导致一次线程上下文切换，甚至可能是进程上下文切换，因此您需要控制执行它们的频率。</para>
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint ipcCalls = SteamGameServerUtils.GetIPCCallCount();
+```
 
 ### SetWarningMessageHook (静态)
 
@@ -177,11 +251,16 @@ uint GetIPCCallCount()
 void SetWarningMessageHook(SteamAPIWarningMessageHook_t pFunction)
 ```
 
-<para> API warning handling</para> <para> 'int' is the severity; 0 for msg, 1 for warning</para> <para> 'const char *' is the text of the message</para> <para> callbacks will occur directly after the API function is called that generated the warning or message</para>
+<para> API 警告处理</para> <para> 'int' 是严重性等级；0 表示消息，1 表示警告</para> <para> 'const char *' 是消息的文本内容</para> <para> 回调函数将在产生警告或消息的 API 函数被调用后立即执行</para>
 
 **参数:**
 
 - `pFunction` (`SteamAPIWarningMessageHook_t`)
+
+**用法示例:**
+```csharp
+SteamGameServerUtils.SetWarningMessageHook((severity, msg) => Console.WriteLine($"[{severity}] {msg}"));
+```
 
 ### IsOverlayEnabled (静态)
 
@@ -189,9 +268,14 @@ void SetWarningMessageHook(SteamAPIWarningMessageHook_t pFunction)
 bool IsOverlayEnabled()
 ```
 
-<para> Returns true if the overlay is running &amp; the user can access it. The overlay process could take a few seconds to</para> <para> start &amp; hook the game process, so this function will initially return false while the overlay is loading.</para>
+<para>如果覆盖层正在运行且用户可以访问它，则返回 true。覆盖层进程可能需要几秒钟来启动并挂钩游戏进程，因此在此覆盖层加载期间，此函数将初始返回 false。</para> <para></para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+bool overlayEnabled = SteamGameServerUtils.IsOverlayEnabled();
+```
 
 ### BOverlayNeedsPresent (静态)
 
@@ -199,9 +283,14 @@ bool IsOverlayEnabled()
 bool BOverlayNeedsPresent()
 ```
 
-<para> Normally this call is unneeded if your game has a constantly running frame loop that calls the</para> <para> D3D Present API, or OGL SwapBuffers API every frame.</para> <para> However, if you have a game that only refreshes the screen on an event driven basis then that can break</para> <para> the overlay, as it uses your Present/SwapBuffers calls to drive it's internal frame loop and it may also</para> <para> need to Present() to the screen any time an even needing a notification happens or when the overlay is</para> <para> brought up over the game by a user. You can use this API to ask the overlay if it currently need a present</para> <para> in that case, and then you can check for this periodically (roughly 33hz is desirable) and make sure you</para> <para> refresh the screen with Present or SwapBuffers to allow the overlay to do it's work.</para>
+<para> 通常，如果你的游戏有一个持续运行的帧循环，该循环每帧都会调用 D3D Present API 或 OGL SwapBuffers API，那么这个调用是不需要的。</para> <para> 但是，如果你的游戏仅在事件驱动的基础上刷新屏幕，这可能会破坏覆盖层，因为它使用你的 Present/SwapBuffers 调用来驱动其内部帧循环，并且它也可能需要在发生需要通知的事件时或当用户将覆盖层置于游戏之上时，随时向屏幕 Present()。在这种情况下，你可以使用此 API 来询问覆盖层是否当前需要一次 Present，然后你可以定期（大约 33Hz 是理想的）检查这一点，并确保你使用 Present 或 SwapBuffers 刷新屏幕，以允许覆盖层完成其工作。</para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+if (SteamGameServerUtils.BOverlayNeedsPresent()) { /* 调用 Present 或 SwapBuffers */ }
+```
 
 ### CheckFileSignature (静态)
 
@@ -209,7 +298,7 @@ bool BOverlayNeedsPresent()
 SteamAPICall_t CheckFileSignature(string szFileName)
 ```
 
-<para> Asynchronous call to check if an executable file has been signed using the public key set on the signing tab</para> <para> of the partner site, for example to refuse to load modified executable files.</para> <para> The result is returned in CheckFileSignature_t.</para> <para> k_ECheckFileSignatureNoSignaturesFoundForThisApp - This app has not been configured on the signing tab of the partner site to enable this function.</para> <para> k_ECheckFileSignatureNoSignaturesFoundForThisFile - This file is not listed on the signing tab for the partner site.</para> <para> k_ECheckFileSignatureFileNotFound - The file does not exist on disk.</para> <para> k_ECheckFileSignatureInvalidSignature - The file exists, and the signing tab has been set for this file, but the file is either not signed or the signature does not match.</para> <para> k_ECheckFileSignatureValidSignature - The file is signed and the signature is valid.</para>
+<para> 异步调用，用于检查可执行文件是否使用合作伙伴网站签名选项卡上设置的公钥进行了签名，例如以拒绝加载已修改的可执行文件。</para> <para> 结果通过 CheckFileSignature_t 返回。</para> <para> k_ECheckFileSignatureNoSignaturesFoundForThisApp - 此应用程序未在合作伙伴网站的签名选项卡上进行配置以启用此功能。</para> <para> k_ECheckFileSignatureNoSignaturesFoundForThisFile - 此文件未在合作伙伴网站的签名选项卡上列出。</para> <para> k_ECheckFileSignatureFileNotFound - 该文件在磁盘上不存在。</para> <para> k_ECheckFileSignatureInvalidSignature - 文件存在，并且已为该文件设置了签名选项卡，但文件要么未签名，要么签名不匹配。</para> <para> k_ECheckFileSignatureValidSignature - 文件已签名且签名有效。</para>
 
 **参数:**
 
@@ -217,13 +306,18 @@ SteamAPICall_t CheckFileSignature(string szFileName)
 
 **返回值:** `SteamAPICall_t`
 
+**用法示例:**
+```csharp
+SteamAPICall_t call = SteamGameServerUtils.CheckFileSignature("game.exe");
+```
+
 ### ShowGamepadTextInput (静态)
 
 ```csharp
 bool ShowGamepadTextInput(EGamepadTextInputMode eInputMode, EGamepadTextInputLineMode eLineInputMode, string pchDescription, uint unCharMax, string pchExistingText)
 ```
 
-<para> Activates the full-screen text input dialog which takes a initial text string and returns the text the user has typed</para>
+<para> 激活全屏文本输入对话框，该对话框接收一个初始文本字符串，并返回用户输入的文本</para>
 
 **参数:**
 
@@ -235,15 +329,25 @@ bool ShowGamepadTextInput(EGamepadTextInputMode eInputMode, EGamepadTextInputLin
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool result = SteamGameServerUtils.ShowGamepadTextInput(EGamepadTextInputMode.k_EGamepadTextInputModeNormal, EGamepadTextInputLineMode.k_EGamepadTextInputLineModeSingleLine, "Enter your name:", 32, "");
+```
+
 ### GetEnteredGamepadTextLength (静态)
 
 ```csharp
 uint GetEnteredGamepadTextLength()
 ```
 
-<para> Returns previously entered text &amp; length</para>
+<para> 返回先前输入的文本及其长度</para>
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint length = SteamGameServerUtils.GetEnteredGamepadTextLength();
+```
 
 ### GetEnteredGamepadTextInput (静态)
 
@@ -258,15 +362,26 @@ bool GetEnteredGamepadTextInput(out string pchText, uint cchText)
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+string text;
+SteamGameServerUtils.GetEnteredGamepadTextInput(out text, 256);
+```
+
 ### GetSteamUILanguage (静态)
 
 ```csharp
 string GetSteamUILanguage()
 ```
 
-<para> returns the language the steam client is running in, you probably want ISteamApps::GetCurrentGameLanguage instead, this is for very special usage cases</para>
+<para> 返回 Steam 客户端正在运行的语言，你可能更想要使用 ISteamApps::GetCurrentGameLanguage，此函数用于非常特殊的用例场景。</para>
 
 **返回值:** `string`
+
+**用法示例:**
+```csharp
+string lang = SteamGameServerUtils.GetSteamUILanguage();
+```
 
 ### IsSteamRunningInVR (静态)
 
@@ -274,9 +389,14 @@ string GetSteamUILanguage()
 bool IsSteamRunningInVR()
 ```
 
-<para> returns true if Steam itself is running in VR mode</para>
+<para> 如果 Steam 本身正在 VR 模式下运行，则返回 true</para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+bool isVrMode = SteamGameServerUtils.IsSteamRunningInVR();
+```
 
 ### SetOverlayNotificationInset (静态)
 
@@ -284,12 +404,17 @@ bool IsSteamRunningInVR()
 void SetOverlayNotificationInset(int nHorizontalInset, int nVerticalInset)
 ```
 
-<para> Sets the inset of the overlay notification from the corner specified by SetOverlayNotificationPosition.</para>
+<para>设置叠加通知相对于 SetOverlayNotificationPosition 指定的角的偏移量。</para>
 
 **参数:**
 
 - `nHorizontalInset` (`int`)
 - `nVerticalInset` (`int`)
+
+**用法示例:**
+```csharp
+SteamGameServerUtils.SetOverlayNotificationInset(10, 20);
+```
 
 ### IsSteamInBigPictureMode (静态)
 
@@ -297,9 +422,17 @@ void SetOverlayNotificationInset(int nHorizontalInset, int nVerticalInset)
 bool IsSteamInBigPictureMode()
 ```
 
-<para> returns true if Steam &amp; the Steam Overlay are running in Big Picture mode</para> <para> Games much be launched through the Steam client to enable the Big Picture overlay. During development,</para> <para> a game can be added as a non-steam game to the developers library to test this feature</para>
+<para>如果 Steam 和 Steam 覆盖层正在以大屏幕模式运行，则返回 true。</para> <para>游戏必须通过 Steam 客户端启动，才能启用大屏幕覆盖层。在开发期间，</para> <para>可以将游戏作为非 Steam 游戏添加到开发者的库中以测试此功能。</para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+if (SteamGameServerUtils.IsSteamInBigPictureMode())
+{
+    // 处理大屏幕模式逻辑
+}
+```
 
 ### StartVRDashboard (静态)
 
@@ -307,7 +440,12 @@ bool IsSteamInBigPictureMode()
 void StartVRDashboard()
 ```
 
-<para> ask SteamUI to create and render its OpenVR dashboard</para>
+<para> 请求 SteamUI 创建并渲染其 OpenVR 仪表盘 </para>
+
+**用法示例:**
+```csharp
+SteamGameServerUtils.StartVRDashboard();
+```
 
 ### IsVRHeadsetStreamingEnabled (静态)
 
@@ -315,9 +453,14 @@ void StartVRDashboard()
 bool IsVRHeadsetStreamingEnabled()
 ```
 
-<para> Returns true if the HMD content will be streamed via Steam Remote Play</para>
+<para>如果 HMD 内容将通过 Steam 远程播放进行流式传输，则返回 true</para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+bool isStreaming = SteamGameServerUtils.IsVRHeadsetStreamingEnabled();
+```
 
 ### SetVRHeadsetStreamingEnabled (静态)
 
@@ -325,11 +468,16 @@ bool IsVRHeadsetStreamingEnabled()
 void SetVRHeadsetStreamingEnabled(bool bEnabled)
 ```
 
-<para> Set whether the HMD content will be streamed via Steam Remote Play</para> <para> If this is set to true, then the scene in the HMD headset will be streamed, and remote input will not be allowed.</para> <para> If this is set to false, then the application window will be streamed instead, and remote input will be allowed.</para> <para> The default is true unless "VRHeadsetStreaming" "0" is in the extended appinfo for a game.</para> <para> (this is useful for games that have asymmetric multiplayer gameplay)</para>
+<para> 设置是否通过 Steam 远程播放功能来流式传输 HMD 内容。</para> <para> 如果设置为 true，则将流式传输 HMD 头显中的场景，并且不允许远程输入。</para> <para> 如果设置为 false，则将流式传输应用程序窗口，并且允许远程输入。</para> <para> 默认值为 true，除非游戏在扩展的 appinfo 中包含 "VRHeadsetStreaming" "0"。</para> <para> （这对于具有非对称多人游戏玩法的游戏很有用）</para>
 
 **参数:**
 
 - `bEnabled` (`bool`)
+
+**用法示例:**
+```csharp
+SteamGameServerUtils.SetVRHeadheadsetStreamingEnabled(true);
+```
 
 ### IsSteamChinaLauncher (静态)
 
@@ -337,9 +485,14 @@ void SetVRHeadsetStreamingEnabled(bool bEnabled)
 bool IsSteamChinaLauncher()
 ```
 
-<para> Returns whether this steam client is a Steam China specific client, vs the global client.</para>
+<para> 返回此 Steam 客户端是否为 Steam 中国专用客户端，而非全球客户端。</para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+bool isChina = SteamGameServerUtils.IsSteamChinaLauncher();
+```
 
 ### InitFilterText (静态)
 
@@ -347,7 +500,7 @@ bool IsSteamChinaLauncher()
 bool InitFilterText(uint unFilterOptions = 0)
 ```
 
-<para> Initializes text filtering, loading dictionaries for the language the game is running in.</para> <para> unFilterOptions are reserved for future use and should be set to 0</para> <para> Returns false if filtering is unavailable for the game's language, in which case FilterText() will act as a passthrough.</para> <para> Users can customize the text filter behavior in their Steam Account preferences:</para> <para> https://store.steampowered.com/account/preferences#CommunityContentPreferences</para>
+<para>初始化文本过滤，为游戏运行的语言加载字典。</para> <para>unFilterOptions 预留用于未来功能，应将其设置为 0。</para> <para>如果游戏语言不支持过滤，则返回 false，此时 FilterText() 将作为直通函数。</para> <para>用户可以在其 Steam 账户设置中自定义文本过滤行为：</para> <para>https://store.steampowered.com/account/preferences#CommunityContentPreferences</para>
 
 **参数:**
 
@@ -355,13 +508,18 @@ bool InitFilterText(uint unFilterOptions = 0)
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool success = SteamGameServerUtils.InitFilterText(0u);
+```
+
 ### FilterText (静态)
 
 ```csharp
 int FilterText(ETextFilteringContext eContext, CSteamID sourceSteamID, string pchInputMessage, out string pchOutFilteredText, uint nByteSizeOutFilteredText)
 ```
 
-<para> Filters the provided input message and places the filtered result into pchOutFilteredText, using legally required filtering and additional filtering based on the context and user settings</para> <para> eContext is the type of content in the input string</para> <para> sourceSteamID is the Steam ID that is the source of the input string (e.g. the player with the name, or who said the chat text)</para> <para> pchInputText is the input string that should be filtered, which can be ASCII or UTF-8</para> <para> pchOutFilteredText is where the output will be placed, even if no filtering is performed</para> <para> nByteSizeOutFilteredText is the size (in bytes) of pchOutFilteredText, should be at least strlen(pchInputText)+1</para> <para> Returns the number of characters (not bytes) filtered</para>
+<para> 对提供的输入消息进行过滤，并将过滤后的结果放入 pchOutFilteredText 中，使用法律要求的过滤以及基于上下文和用户设置的额外过滤</para> <para> eContext 是输入字符串中内容的类型</para> <para> sourceSteamID 是输入字符串来源的 Steam ID（例如，拥有该名称的玩家，或说出聊天文本的人）</para> <para> pchInputText 是应被过滤的输入字符串，可以是 ASCII 或 UTF-8</para> <para> pchOutFilteredText 是输出将被放置的位置，即使未执行任何过滤</para> <para> nByteSizeOutFilteredText 是 pchOutFilteredText 的大小（以字节为单位），应至少为 strlen(pchInputText)+1</para> <para> 返回被过滤的字符数（而非字节数）</para>
 
 **参数:**
 
@@ -373,13 +531,19 @@ int FilterText(ETextFilteringContext eContext, CSteamID sourceSteamID, string pc
 
 **返回值:** `int`
 
+**用法示例:**
+```csharp
+string filteredText = "";
+int result = SteamGameServerUtils.FilterText(ETextFilteringContext.Chat, new CSteamID(123456789), "Hello @#$%^&*", out filteredText, (uint)(filteredText.Length + 1));
+```
+
 ### GetIPv6ConnectivityState (静态)
 
 ```csharp
 ESteamIPv6ConnectivityState GetIPv6ConnectivityState(ESteamIPv6ConnectivityProtocol eProtocol)
 ```
 
-<para> Return what we believe your current ipv6 connectivity to "the internet" is on the specified protocol.</para> <para> This does NOT tell you if the Steam client is currently connected to Steam via ipv6.</para>
+<para> 返回我们认为您在指定协议上，对“互联网”的当前 IPv6 连接状态。</para> <para> 这并不会告知您 Steam 客户端当前是否通过 IPv6 连接到 Steam。</para>
 
 **参数:**
 
@@ -387,15 +551,25 @@ ESteamIPv6ConnectivityState GetIPv6ConnectivityState(ESteamIPv6ConnectivityProto
 
 **返回值:** `ESteamIPv6ConnectivityState`
 
+**用法示例:**
+```csharp
+ESteamIPv6ConnectivityState state = SteamGameServerUtils.GetIPv6ConnectivityState(ESteamIPv6ConnectivityProtocol.TCP);
+```
+
 ### IsSteamRunningOnSteamDeck (静态)
 
 ```csharp
 bool IsSteamRunningOnSteamDeck()
 ```
 
-<para> returns true if currently running on the Steam Deck device</para>
+<para> 如果当前正在 Steam Deck 设备上运行，则返回 true </para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+bool isDeck = SteamGameServerUtils.IsSteamRunningOnSteamDeck();
+```
 
 ### ShowFloatingGamepadTextInput (静态)
 
@@ -403,7 +577,7 @@ bool IsSteamRunningOnSteamDeck()
 bool ShowFloatingGamepadTextInput(EFloatingGamepadTextInputMode eKeyboardMode, int nTextFieldXPosition, int nTextFieldYPosition, int nTextFieldWidth, int nTextFieldHeight)
 ```
 
-<para> Opens a floating keyboard over the game content and sends OS keyboard keys directly to the game.</para> <para> The text field position is specified in pixels relative the origin of the game window and is used to position the floating keyboard in a way that doesn't cover the text field</para>
+<para>在游戏内容上方打开一个浮动键盘，并将操作系统键盘按键直接发送给游戏。</para> <para>文本字段的位置以像素为单位，相对于游戏窗口的原点进行指定，用于将浮动键盘定位在不会遮挡文本字段的位置。</para>
 
 **参数:**
 
@@ -415,17 +589,27 @@ bool ShowFloatingGamepadTextInput(EFloatingGamepadTextInputMode eKeyboardMode, i
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+SteamGameServerUtils.ShowFloatingGamepadTextInput(EFloatingGamepadTextInputMode.Value, 100, 200, 300, 50);
+```
+
 ### SetGameLauncherMode (静态)
 
 ```csharp
 void SetGameLauncherMode(bool bLauncherMode)
 ```
 
-<para> In game launchers that don't have controller support you can call this to have Steam Input translate the controller input into mouse/kb to navigate the launcher</para>
+在那些不支持手柄的游戏启动器中，你可以调用此方法，让 Steam Input 将手柄输入转换为鼠标/键盘输入，以导航启动器。
 
 **参数:**
 
 - `bLauncherMode` (`bool`)
+
+**用法示例:**
+```csharp
+SteamGameServerUtils.SetGameLauncherMode(true);
+```
 
 ### DismissFloatingGamepadTextInput (静态)
 
@@ -433,9 +617,14 @@ void SetGameLauncherMode(bool bLauncherMode)
 bool DismissFloatingGamepadTextInput()
 ```
 
-<para> Dismisses the floating keyboard.</para>
+<para> 关闭浮动键盘。</para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamGameServerUtils.DismissFloatingGamepadTextInput();
+```
 
 ### DismissGamepadTextInput (静态)
 
@@ -443,7 +632,12 @@ bool DismissFloatingGamepadTextInput()
 bool DismissGamepadTextInput()
 ```
 
-<para> Dismisses the full-screen text input dialog.</para>
+<para> 关闭全屏文本输入对话框。</para>
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+SteamGameServerUtils.DismissGamepadTextInput();
+```
 

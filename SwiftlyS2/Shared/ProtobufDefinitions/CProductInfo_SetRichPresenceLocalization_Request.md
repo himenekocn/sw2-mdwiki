@@ -8,9 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Appid` | `uint` | get, set | - |
-| `Languages` | `IProtobufRepeatedFieldSubMessageType\<CProductInfo_SetRichPresenceLocalization_Request_LanguageSection\>` | get, set | - |
+| `Languages` | `IProtobufRepeatedFieldSubMessageType\<CProductInfo_SetRichPresenceLocalization_Request_LanguageSection\>` | get | - |
 | `Steamid` | `ulong` | get, set | - |
 

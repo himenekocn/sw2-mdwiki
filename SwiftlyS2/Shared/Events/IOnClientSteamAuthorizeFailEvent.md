@@ -1,6 +1,6 @@
 # 🔌 IOnClientSteamAuthorizeFailEvent
 
-Called when a client's Steam authorization fails.
+当客户端的 Steam 授权失败时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,7 +8,7 @@ Called when a client's Steam authorization fails.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | The player ID of the client that failed to authorize. |
+| `PlayerId` | `int` | get | 未能通过授权的客户端的玩家ID。 |
 

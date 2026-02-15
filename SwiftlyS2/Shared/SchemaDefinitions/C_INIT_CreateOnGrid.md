@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `XCount` | `CParticleCollectionFloatInput` | get | - |
 | `YCount` | `CParticleCollectionFloatInput` | get | - |
@@ -18,4 +18,8 @@
 | `XSpacing` | `CParticleCollectionFloatInput` | get | - |
 | `YSpacing` | `CParticleCollectionFloatInput` | get | - |
 | `ZSpacing` | `CParticleCollectionFloatInput` | get | - |
+| `ControlPointNumber` | `ref int` | get | - |
+| `LocalSpace` | `ref bool` | get | - |
+| `Center` | `ref bool` | get | - |
+| `Hollow` | `ref bool` | get | - |
 

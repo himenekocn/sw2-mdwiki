@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Id` | `ulong` | get, set | - |
 | `AccountId` | `uint` | get, set | - |
@@ -21,11 +21,11 @@
 | `Origin` | `uint` | get, set | - |
 | `CustomName` | `string` | get, set | - |
 | `CustomDesc` | `string` | get, set | - |
-| `Attribute` | `IProtobufRepeatedFieldSubMessageType\<CSOEconItemAttribute\>` | get, set | - |
-| `InteriorItem` | `CSOEconItem` | get, set | - |
+| `Attribute` | `IProtobufRepeatedFieldSubMessageType\<CSOEconItemAttribute\>` | get | - |
+| `InteriorItem` | `CSOEconItem` | get | - |
 | `InUse` | `bool` | get, set | - |
 | `Style` | `uint` | get, set | - |
 | `OriginalId` | `ulong` | get, set | - |
-| `EquippedState` | `IProtobufRepeatedFieldSubMessageType\<CSOEconItemEquipped\>` | get, set | - |
+| `EquippedState` | `IProtobufRepeatedFieldSubMessageType\<CSOEconItemEquipped\>` | get | - |
 | `Rarity` | `uint` | get, set | - |
 

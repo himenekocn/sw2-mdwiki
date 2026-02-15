@@ -6,3 +6,16 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `None` | `0` | - |
+| `GenerateBreakpieces` | `1` | - |
+| `SetBodyGroupAndCollisionState` | `2` | - |
+| `EnableFlinches` | `4` | - |
+| `ForceDamageApply` | `8` | - |
+| `IgnoreKillEntityFlag` | `16` | - |
+| `IgnoreHealthCheck` | `32` | - |
+| `Default` | `7` | - |
+

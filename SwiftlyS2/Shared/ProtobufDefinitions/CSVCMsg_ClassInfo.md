@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `CreateOnClient` | `bool` | get, set | - |
 | `Classes` | `IProtobufRepeatedFieldSubMessageType\<CSVCMsg_ClassInfo_class_t\>` | get | - |

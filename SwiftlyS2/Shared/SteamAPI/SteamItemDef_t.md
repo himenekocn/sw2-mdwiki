@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = steamItemDef.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### int (静态)
+
+```csharp
+operator int(SteamItemDef_t that)
+```
+
+**参数:**
+
+- `that` (`SteamItemDef_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+int result = (int)SteamItemDef_t.SomeItemDef;
+```
 
 ### Equals
 
@@ -67,4 +89,11 @@ int CompareTo(SteamItemDef_t other)
 - `other` (`SteamItemDef_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SteamItemDef_t item1 = SteamItemDef_t.DefinitionA;
+SteamItemDef_t item2 = SteamItemDef_t.DefinitionB;
+int result = item1.CompareTo(item2);
+```
 

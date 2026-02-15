@@ -10,10 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Scale` | `CPerParticleFloatInput` | get | - |
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
 | `Increment` | `CPerParticleFloatInput` | get | - |
+| `RandomDistribution` | `ref bool` | get | - |
+| `Reverse` | `ref bool` | get | - |
+| `MissingParentBehavior` | `ref MissingParentInheritBehavior_t` | get | - |
 | `Interpolation` | `CPerParticleFloatInput` | get | - |
 

@@ -1,6 +1,6 @@
 # 🔌 EventRoundOfficiallyEnded
 
-Event "round_officially_ended"
+事件“round_officially_ended”
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

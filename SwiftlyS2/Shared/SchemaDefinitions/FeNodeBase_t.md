@@ -8,7 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Node` | `ref ushort` | get | - |
 | `Dummy` | `ISchemaFixedArray\<ushort\>` | get | - |
+| `NodeX0` | `ref ushort` | get | - |
+| `NodeX1` | `ref ushort` | get | - |
+| `NodeY0` | `ref ushort` | get | - |
+| `NodeY1` | `ref ushort` | get | - |
+| `Adjust` | `ref QuaternionStorage` | get | - |
 

@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `FOLLOW_CONSTRAINT_DISTANCE` | `0` | - |
+| `FOLLOW_CONSTRAINT_SPRING` | `1` | - |
+

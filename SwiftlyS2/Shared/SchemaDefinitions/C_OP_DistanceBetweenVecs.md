@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
 | `Point1` | `CPerParticleVecInput` | get | - |
@@ -19,4 +19,6 @@
 | `InputMax` | `CPerParticleFloatInput` | get | - |
 | `OutputMin` | `CPerParticleFloatInput` | get | - |
 | `OutputMax` | `CPerParticleFloatInput` | get | - |
+| `SetMethod` | `ref ParticleSetMethod_t` | get | - |
+| `DeltaTime` | `ref bool` | get | - |
 

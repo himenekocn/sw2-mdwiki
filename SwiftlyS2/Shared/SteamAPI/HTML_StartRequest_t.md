@@ -14,3 +14,25 @@
 | `pchPostData` | `string` | - | - |
 | `bIsRedirect` | `bool` | - | - |
 
+## ⚙️ 方法
+
+### type
+
+```csharp
+target type(i.e _blank,  _self,  _parent,  _top)
+```
+
+**参数:**
+
+- `_blank` (`i.e`)
+- `_self` (``)
+- `_parent` (``)
+- `_top` (``)
+
+**返回值:** `target`
+
+**用法示例:**
+```csharp
+HTML_StartRequest_t._blank
+```
+

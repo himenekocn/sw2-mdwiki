@@ -8,7 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Samples` | `ref CUtlVector\<ParamSpanSample_t\>` | get | - |
 | `Param` | `CAnimParamHandle` | get | - |
+| `ParamType` | `ref AnimParamType_t` | get | - |
+| `StartCycle` | `ref float` | get | - |
+| `EndCycle` | `ref float` | get | - |
 

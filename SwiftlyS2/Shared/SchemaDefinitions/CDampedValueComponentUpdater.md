@@ -8,3 +8,9 @@
 
 **实现接口:** `ISchemaClass\<CDampedValueComponentUpdater\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Items` | `ref CUtlVector\<CDampedValueUpdateItem\>` | get | - |
+

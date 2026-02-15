@@ -10,8 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
+| `RotAxisMin` | `ref Vector` | get | - |
+| `RotAxisMax` | `ref Vector` | get | - |
+| `RotRateMin` | `ref float` | get | - |
+| `RotRateMax` | `ref float` | get | - |
+| `Normalize` | `ref bool` | get | - |
 | `Scale` | `CPerParticleFloatInput` | get | - |
 

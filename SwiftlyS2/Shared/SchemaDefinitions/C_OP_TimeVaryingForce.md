@@ -8,3 +8,12 @@
 
 **实现接口:** `ISchemaClass\<C_OP_TimeVaryingForce\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `StartLerpTime` | `ref float` | get | - |
+| `StartingForce` | `ref Vector` | get | - |
+| `EndLerpTime` | `ref float` | get | - |
+| `EndingForce` | `ref Vector` | get | - |
+

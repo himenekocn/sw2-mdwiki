@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ControlPointNumber` | `ref int` | get | - |
+| `BoundBox` | `ref bool` | get | - |
+| `CullOutside` | `ref bool` | get | - |
+| `UseBones` | `ref bool` | get | - |
 | `HitboxSetName` | `string` | get, set | - |
 

@@ -10,11 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TransformInput` | `CParticleTransformInput` | get, set | - |
-| `ParticleDensity` | `CPerParticleFloatInput` | get, set | - |
+| `Component1` | `ref int` | get | - |
+| `Component2` | `ref int` | get | - |
+| `TransformInput` | `CParticleTransformInput` | get | - |
+| `ParticleDensity` | `CPerParticleFloatInput` | get | - |
 | `Offset` | `CPerParticleFloatInput` | get, set | - |
-| `Radius1` | `CPerParticleFloatInput` | get, set | - |
-| `Radius2` | `CPerParticleFloatInput` | get, set | - |
+| `Radius1` | `CPerParticleFloatInput` | get | - |
+| `Radius2` | `CPerParticleFloatInput` | get | - |
+| `UseCount` | `ref bool` | get | - |
+| `UseLocalCoords` | `ref bool` | get | - |
+| `OffsetExistingPos` | `ref bool` | get, set | - |
 

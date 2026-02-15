@@ -6,3 +6,24 @@
 
 **继承:** `ISchemaClass\<WeaponPurchaseCount_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ItemDefIndex` | `ref ushort` | get | - |
+| `Count` | `ref ushort` | get | - |
+
+## ⚙️ 方法
+
+### ItemDefIndexUpdated
+
+```csharp
+void ItemDefIndexUpdated()
+```
+
+### CountUpdated
+
+```csharp
+void CountUpdated()
+```
+

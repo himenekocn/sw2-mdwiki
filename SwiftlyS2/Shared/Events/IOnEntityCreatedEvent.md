@@ -1,6 +1,6 @@
 # 🔌 IOnEntityCreatedEvent
 
-Called when an entity is created.
+当实体被创建时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,7 +8,7 @@ Called when an entity is created.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Entity` | `CEntityInstance` | get | The entity that was created. The entity is not fully initialized when this event is called, better do things on next tick and also add a validity check there. |
+| `Entity` | `CEntityInstance` | get | 已创建的实体。当此事件被调用时，实体尚未完全初始化，建议在下一帧执行操作，并在此处添加有效性检查。 |
 

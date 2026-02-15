@@ -8,7 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Node` | `ISchemaFixedArray\<ushort\>` | get | - |
+| `W1` | `ref float` | get | - |
+| `W2` | `ref float` | get | - |
+| `V1x` | `ref float` | get | - |
+| `V2` | `ref Vector2D` | get | - |
 

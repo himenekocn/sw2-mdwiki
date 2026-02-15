@@ -26,6 +26,11 @@ Vector GetVector(int index)
 
 **返回值:** `Vector`
 
+**用法示例:**
+```csharp
+Vector v = convar.GetVector(0);
+```
+
 ### SetVector
 
 ```csharp
@@ -36,4 +41,9 @@ void SetVector(int index, Vector vector)
 
 - `index` (`int`)
 - `vector` (`Vector`)
+
+**用法示例:**
+```csharp
+convar.SetVector(0, Vector.Forward);
+```
 

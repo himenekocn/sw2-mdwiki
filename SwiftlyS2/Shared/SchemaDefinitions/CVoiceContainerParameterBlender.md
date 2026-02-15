@@ -10,12 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FirstSound` | `CSoundContainerReference` | get | - |
 | `SecondSound` | `CSoundContainerReference` | get | - |
+| `EnableOcclusionBlend` | `ref bool` | get | - |
 | `Curve1` | `SchemaUntypedField` | get | - |
 | `Curve2` | `SchemaUntypedField` | get | - |
+| `EnableDistanceBlend` | `ref bool` | get | - |
 | `Curve3` | `SchemaUntypedField` | get | - |
 | `Curve4` | `SchemaUntypedField` | get | - |
 

@@ -1,6 +1,6 @@
 # 🔌 EventCstrikeevents
 
-Event "cstrikeevents"
+事件 "cstrikeevents"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

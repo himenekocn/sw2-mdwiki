@@ -1,6 +1,6 @@
 # 🔗 OnItemServicesCanAcquireHook
 
-Called when an item services can acquire hook is triggered.
+当项目服务可获取挂钩被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

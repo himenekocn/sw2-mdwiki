@@ -1,6 +1,6 @@
 # 🔌 EventMapTransition
 
-Event "map_transition"
+事件 "map_transition"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

@@ -11,3 +11,31 @@
 | `m_VTServerResponded` | `InternalServerResponded` | - | - |
 | `m_VTServerFailedToRespond` | `InternalServerFailedToRespond` | - | - |
 
+## ⚙️ 方法
+
+### ServerResponded
+
+```csharp
+void ServerResponded(gameserveritem_t server)
+```
+
+**参数:**
+
+- `server` (`gameserveritem_t`)
+
+**用法示例:**
+```csharp
+ISteamMatchmakingPingResponse.ServerResponded(server);
+```
+
+### ServerFailedToRespond
+
+```csharp
+void ServerFailedToRespond()
+```
+
+**用法示例:**
+```csharp
+ISteamMatchmakingPingResponse.ServerFailedToRespond();
+```
+

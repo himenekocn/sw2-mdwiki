@@ -1,6 +1,6 @@
 # 🔌 EventStorePricesheetUpdated
 
-Event "store_pricesheet_updated"
+事件 "store_pricesheet_updated"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

@@ -6,3 +6,24 @@
 
 **继承:** `ISchemaClass\<AABB_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MinBounds` | `ref Vector` | get | - |
+| `MaxBounds` | `ref Vector` | get | - |
+
+## ⚙️ 方法
+
+### MinBoundsUpdated
+
+```csharp
+void MinBoundsUpdated()
+```
+
+### MaxBoundsUpdated
+
+```csharp
+void MaxBoundsUpdated()
+```
+

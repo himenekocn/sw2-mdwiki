@@ -1,6 +1,6 @@
 # 🔌 IOnClientDisconnectedEvent
 
-Called when a client disconnects from the server.
+当客户端与服务器断开连接时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,8 +8,8 @@ Called when a client disconnects from the server.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | The player ID of the client that disconnected. |
-| `Reason` | `ENetworkDisconnectionReason` | get | The reason for the client to disconnect. |
+| `PlayerId` | `int` | get | 已断开连接的客户端的玩家ID。 |
+| `Reason` | `ENetworkDisconnectionReason` | get | 客户端断开连接的原因。 |
 

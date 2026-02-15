@@ -8,8 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Name` | `string` | get, set | - |
+| `NameToken` | `ref CUtlStringToken` | get | - |
 | `Index` | `FuseVariableIndex_t` | get | - |
+| `NumComponents` | `ref byte` | get | - |
+| `VarType` | `ref FuseVariableType_t` | get | - |
+| `Access` | `ref FuseVariableAccess_t` | get | - |
 

@@ -10,9 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Relevance` | `ref CNmEventRelevance_t` | get | - |
 | `Name` | `string` | get, set | - |
+| `Position` | `ref CNmSoundEvent__Position_t` | get | - |
 | `AttachmentName` | `string` | get, set | - |
 | `Tags` | `string` | get, set | - |
+| `ContinuePlayingSoundAtDurationEnd` | `ref bool` | get | - |
+| `DurationInterruptionThreshold` | `ref float` | get | - |
 

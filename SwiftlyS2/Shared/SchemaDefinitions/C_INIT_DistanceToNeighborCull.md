@@ -10,10 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Distance` | `CPerParticleFloatInput` | get | - |
+| `IncludeRadii` | `ref bool` | get | - |
 | `LifespanOverlap` | `CPerParticleFloatInput` | get | - |
 | `FieldModify` | `ParticleAttributeIndex_t` | get | - |
 | `Modify` | `CPerParticleFloatInput` | get | - |
+| `SetMethod` | `ref ParticleSetMethod_t` | get | - |
+| `UseNeighbor` | `ref bool` | get | - |
 

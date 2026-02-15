@@ -10,7 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `DesiredMovingVelocityNodeIdx` | `ref short` | get | - |
+| `DesiredFacingDirectionNodeIdx` | `ref short` | get | - |
+| `LinearVelocityLimitNodeIdx` | `ref short` | get | - |
+| `AngularVelocityLimitNodeIdx` | `ref short` | get | - |
+| `MaxLinearVelocity` | `ref float` | get | - |
+| `MaxAngularVelocityRadians` | `ref float` | get | - |
 | `OverrideFlags` | `CNmBitFlags` | get | - |
 

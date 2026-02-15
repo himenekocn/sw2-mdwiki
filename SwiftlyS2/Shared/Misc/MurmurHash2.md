@@ -12,7 +12,7 @@
 uint Hash(byte[] data, uint seed = 0x31415926)
 ```
 
-Compute MurmurHash2 (32-bit) of a byte array with an optional seed.
+计算字节数组的 MurmurHash2 (32位) 哈希值，可指定可选的种子。
 
 **参数:**
 
@@ -21,13 +21,18 @@ Compute MurmurHash2 (32-bit) of a byte array with an optional seed.
 
 **返回值:** `uint`
 
+**用法示例:**
+```csharp
+uint hash = MurmurHash2.Hash(new byte[] { 1, 2, 3 }, 0x12345678);
+```
+
 ### HashString (静态)
 
 ```csharp
 uint HashString(string text, uint seed = 0x31415926)
 ```
 
-Convenience method for strings (UTF8).
+字符串的便捷方法 (UTF8)。
 
 **参数:**
 
@@ -35,6 +40,11 @@ Convenience method for strings (UTF8).
 - `seed` (`uint`) = `0x31415926`
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint hash = MurmurHash2.HashString("hello", 0x12345678);
+```
 
 ### HashStringLowercase (静态)
 
@@ -42,7 +52,7 @@ Convenience method for strings (UTF8).
 uint HashStringLowercase(string text, uint seed = 0x31415926)
 ```
 
-Convert a string to lowercase and then hash it.
+将字符串转换为小写，然后对其进行哈希处理。
 
 **参数:**
 
@@ -50,4 +60,9 @@ Convert a string to lowercase and then hash it.
 - `seed` (`uint`) = `0x31415926`
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint hash = MurmurHash2.HashStringLowercase("Hello World", 0x12345678);
+```
 

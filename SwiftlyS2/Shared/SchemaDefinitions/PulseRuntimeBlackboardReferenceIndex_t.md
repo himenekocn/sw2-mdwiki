@@ -6,3 +6,9 @@
 
 **继承:** `ISchemaClass\<PulseRuntimeBlackboardReferenceIndex_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Value` | `ref short` | get | - |
+

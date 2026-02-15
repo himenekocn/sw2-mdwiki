@@ -8,3 +8,15 @@
 
 **实现接口:** `ISchemaClass\<CNmTwoBoneIKNode__CDefinition\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `EffectorBoneID` | `ref CGlobalSymbol` | get | - |
+| `EffectorTargetNodeIdx` | `ref short` | get | - |
+| `EnabledNodeIdx` | `ref short` | get | - |
+| `BlendTimeSeconds` | `ref float` | get | - |
+| `BlendMode` | `ref NmIKBlendMode_t` | get | - |
+| `IsTargetInWorldSpace` | `ref bool` | get | - |
+| `ReferencePoseTwistWeight` | `ref float` | get | - |
+

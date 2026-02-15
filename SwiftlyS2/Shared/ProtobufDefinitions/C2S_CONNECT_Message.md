@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `HostVersion` | `uint` | get, set | - |
 | `AuthProtocol` | `uint` | get, set | - |
@@ -16,7 +16,7 @@
 | `ReservationCookie` | `ulong` | get, set | - |
 | `LowViolence` | `bool` | get, set | - |
 | `EncryptedPassword` | `byte[]` | get, set | - |
-| `Splitplayers` | `IProtobufRepeatedFieldSubMessageType\<CCLCMsg_SplitPlayerConnect\>` | get, set | - |
+| `Splitplayers` | `IProtobufRepeatedFieldSubMessageType\<CCLCMsg_SplitPlayerConnect\>` | get | - |
 | `AuthSteam` | `byte[]` | get, set | - |
 | `ChallengeContext` | `string` | get, set | - |
 | `LocalhostSameProcessCheck` | `C2S_CONNECT_SameProcessCheck` | get | - |

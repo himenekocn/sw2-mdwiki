@@ -8,11 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Name` | `string` | get, set | - |
 | `CPPClassname` | `string` | get, set | - |
 | `NetworkDataReferencedDescription` | `string` | get, set | - |
 | `NetworkDataReferencedPtrPropDescription` | `string` | get, set | - |
+| `RuntimeIndex` | `ref int` | get | - |
+| `Flags` | `ref uint` | get | - |
 | `BaseClassComponentHelper` | `CEntityComponentHelper?` | get | - |
 

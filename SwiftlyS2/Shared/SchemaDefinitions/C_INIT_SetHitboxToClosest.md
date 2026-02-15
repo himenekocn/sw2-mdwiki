@@ -10,9 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `HitBoxScale` | `CParticleCollectionVecInput` | get, set | - |
+| `ControlPointNumber` | `ref int` | get | - |
+| `DesiredHitbox` | `ref int` | get | - |
+| `HitBoxScale` | `CParticleCollectionVecInput` | get | - |
 | `HitboxSetName` | `string` | get, set | - |
+| `UseBones` | `ref bool` | get | - |
+| `UseClosestPointOnHitbox` | `ref bool` | get | - |
+| `TestType` | `ref ClosestPointTestType_t` | get | - |
 | `HybridRatio` | `CParticleCollectionFloatInput` | get | - |
+| `UpdatePosition` | `ref bool` | get | - |
 

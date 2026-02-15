@@ -8,7 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Sphere` | `ISchemaFixedArray\<fltx4\>` | get | - |
+| `Node` | `ref ushort` | get | - |
+| `CollisionMask` | `ref ushort` | get | - |
+| `VertexMapIndex` | `ref ushort` | get | - |
+| `Flags` | `ref ushort` | get | - |
 

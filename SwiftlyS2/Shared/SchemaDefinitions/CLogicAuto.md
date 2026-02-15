@@ -10,7 +10,17 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `OnMapSpawn` | `ref CEntityIOOutput` | get | - |
+| `OnDemoMapSpawn` | `ref CEntityIOOutput` | get | - |
+| `OnNewGame` | `ref CEntityIOOutput` | get | - |
+| `OnLoadGame` | `ref CEntityIOOutput` | get | - |
+| `OnMapTransition` | `ref CEntityIOOutput` | get | - |
+| `OnBackgroundMap` | `ref CEntityIOOutput` | get | - |
+| `OnMultiNewMap` | `ref CEntityIOOutput` | get | - |
+| `OnMultiNewRound` | `ref CEntityIOOutput` | get | - |
+| `OnVREnabled` | `ref CEntityIOOutput` | get | - |
+| `OnVRNotEnabled` | `ref CEntityIOOutput` | get | - |
 | `Globalstate` | `string` | get, set | - |
 

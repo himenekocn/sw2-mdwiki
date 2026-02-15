@@ -6,3 +6,11 @@
 
 **继承:** `byte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PercentageThroughState` | `0` | - |
+| `PercentageThroughSyncEvent` | `1` | - |
+| `ElapsedTime` | `2` | - |
+

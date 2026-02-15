@@ -13,3 +13,22 @@
 | `m_bUserInitiated` | `bool` | - | - |
 | `m_dwOverlayPID` | `uint` | - | - |
 
+## ⚙️ 方法
+
+### game
+
+```csharp
+the game(should always be the current game)
+```
+
+**参数:**
+
+- `game` (`should always be the current`)
+
+**返回值:** `the`
+
+**用法示例:**
+```csharp
+GameOverlayActivated_t.game()
+```
+

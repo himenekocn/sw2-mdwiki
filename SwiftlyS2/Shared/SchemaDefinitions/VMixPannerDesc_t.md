@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<VMixPannerDesc_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Type` | `ref VMixPannerType_t` | get | - |
+| `Strength` | `ref float` | get | - |
+

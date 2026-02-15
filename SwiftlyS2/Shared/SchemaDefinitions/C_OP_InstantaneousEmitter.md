@@ -10,10 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ParticlesToEmit` | `CParticleCollectionFloatInput` | get | - |
 | `StartTime` | `CParticleCollectionFloatInput` | get | - |
-| `ParentParticleScale` | `CParticleCollectionFloatInput` | get, set | - |
+| `InitFromKilledParentParticles` | `ref float` | get | - |
+| `EventType` | `ref EventTypeSelection_t` | get | - |
+| `ParentParticleScale` | `CParticleCollectionFloatInput` | get | - |
+| `MaxEmittedPerFrame` | `ref int` | get | - |
+| `SnapshotControlPoint` | `ref int` | get | - |
 | `StrSnapshotSubset` | `string` | get, set | - |
 

@@ -1,6 +1,6 @@
 # 🔗 OnClientPutInServer
 
-Called when a client is fully put in server.
+当客户端完全被置于服务器中时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

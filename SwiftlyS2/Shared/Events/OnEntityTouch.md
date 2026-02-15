@@ -1,6 +1,6 @@
 # 🔗 OnEntityTouch
 
-Called when an entity is touching another entity.
+当实体接触另一个实体时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

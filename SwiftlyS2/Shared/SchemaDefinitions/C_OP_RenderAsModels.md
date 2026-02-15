@@ -10,9 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ModelList` | `ref CUtlVector\<ModelReference_t\>` | get | - |
+| `ModelScale` | `ref float` | get | - |
+| `FitToModelSize` | `ref bool` | get | - |
+| `NonUniformScaling` | `ref bool` | get | - |
 | `XAxisScalingAttribute` | `ParticleAttributeIndex_t` | get | - |
 | `YAxisScalingAttribute` | `ParticleAttributeIndex_t` | get | - |
 | `ZAxisScalingAttribute` | `ParticleAttributeIndex_t` | get | - |
+| `SizeCullBloat` | `ref int` | get | - |
 

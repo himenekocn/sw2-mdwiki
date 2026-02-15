@@ -1,6 +1,6 @@
 # 🔌 EventLocalPlayerTeam
 
-Event "local_player_team"
+事件 "local_player_team"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

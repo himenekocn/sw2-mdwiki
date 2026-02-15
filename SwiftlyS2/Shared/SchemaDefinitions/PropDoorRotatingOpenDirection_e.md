@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `DOOR_ROTATING_OPEN_BOTH_WAYS` | `0` | - |
+| `DOOR_ROTATING_OPEN_FORWARD` | `1` | - |
+| `DOOR_ROTATING_OPEN_BACKWARD` | `2` | - |
+

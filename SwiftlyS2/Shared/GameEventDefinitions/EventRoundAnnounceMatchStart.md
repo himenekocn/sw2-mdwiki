@@ -1,6 +1,6 @@
 # 🔌 EventRoundAnnounceMatchStart
 
-Event "round_announce_match_start"
+事件 "round_announce_match_start"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

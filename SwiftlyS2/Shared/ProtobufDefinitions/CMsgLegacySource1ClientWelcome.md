@@ -8,13 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Version` | `uint` | get, set | - |
 | `GameData` | `byte[]` | get, set | - |
 | `OutofdateSubscribedCaches` | `IProtobufRepeatedFieldSubMessageType\<CMsgSOCacheSubscribed\>` | get | - |
-| `UptodateSubscribedCaches` | `IProtobufRepeatedFieldSubMessageType\<CMsgSOCacheSubscriptionCheck\>` | get, set | - |
-| `Location` | `CMsgLegacySource1ClientWelcome_Location` | get, set | - |
+| `UptodateSubscribedCaches` | `IProtobufRepeatedFieldSubMessageType\<CMsgSOCacheSubscriptionCheck\>` | get | - |
+| `Location` | `CMsgLegacySource1ClientWelcome_Location` | get | - |
 | `GameData2` | `byte[]` | get, set | - |
 | `Rtime32GcWelcomeTimestamp` | `uint` | get, set | - |
 | `Currency` | `uint` | get, set | - |

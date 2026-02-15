@@ -8,12 +8,18 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Name` | `string` | get, set | - |
-| `Intensity` | `CRangeFloat` | get, set | - |
-| `DurationScale` | `CRangeFloat` | get, set | - |
-| `NextStart` | `CRangeFloat` | get, set | - |
+| `ActiveListening` | `ref bool` | get | - |
+| `ActiveTalking` | `ref bool` | get | - |
+| `LayerAnimations` | `ref CUtlVector\<MoodAnimation_t\>` | get | - |
+| `Intensity` | `CRangeFloat` | get | - |
+| `DurationScale` | `CRangeFloat` | get | - |
+| `ScaleWithInts` | `ref bool` | get | - |
+| `NextStart` | `CRangeFloat` | get | - |
 | `StartOffset` | `CRangeFloat` | get, set | - |
 | `EndOffset` | `CRangeFloat` | get, set | - |
+| `FadeIn` | `ref float` | get | - |
+| `FadeOut` | `ref float` | get | - |
 

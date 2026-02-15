@@ -6,3 +6,11 @@
 
 **继承:** `byte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eDoNotNotify` | `0` | - |
+| `eNotifyWhenFinished` | `1` | - |
+| `eNotifyTriggered` | `2` | - |
+

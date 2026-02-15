@@ -10,8 +10,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Enabled` | `ref bool` | get | - |
 | `DialogXMLName` | `string` | get, set | - |
 | `PanelClassName` | `string` | get, set | - |
 | `PanelID` | `string` | get, set | - |
@@ -25,4 +26,30 @@
 | `CustomOutput7` | `SchemaUntypedField` | get | - |
 | `CustomOutput8` | `SchemaUntypedField` | get | - |
 | `CustomOutput9` | `SchemaUntypedField` | get | - |
+
+## ⚙️ 方法
+
+### EnabledUpdated
+
+```csharp
+void EnabledUpdated()
+```
+
+### DialogXMLNameUpdated
+
+```csharp
+void DialogXMLNameUpdated()
+```
+
+### PanelClassNameUpdated
+
+```csharp
+void PanelClassNameUpdated()
+```
+
+### PanelIDUpdated
+
+```csharp
+void PanelIDUpdated()
+```
 

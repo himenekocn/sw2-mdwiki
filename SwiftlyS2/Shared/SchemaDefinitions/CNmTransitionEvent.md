@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CNmTransitionEvent\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Rule` | `ref NmTransitionRule_t` | get | - |
+| `ID` | `ref CGlobalSymbol` | get | - |
+

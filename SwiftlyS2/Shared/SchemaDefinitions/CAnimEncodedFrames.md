@@ -8,7 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `FileName` | `ref CBufferString` | get | - |
+| `Frames` | `ref int` | get | - |
+| `FramesPerBlock` | `ref int` | get | - |
+| `FrameblockArray` | `ref CUtlVector\<CAnimFrameBlockAnim\>` | get | - |
 | `UsageDifferences` | `CAnimEncodeDifference` | get | - |
 

@@ -8,11 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ConfigName` | `string` | get, set | - |
-| `ConfigValue` | `SchemaUntypedField` | get, set | - |
+| `ConfigValue` | `SchemaUntypedField` | get | - |
 | `BoundValuePath` | `string` | get, set | - |
+| `AttachType` | `ref ParticleAttachment_t` | get | - |
 | `StrEntityScope` | `string` | get, set | - |
 | `StrAttachmentName` | `string` | get, set | - |
 

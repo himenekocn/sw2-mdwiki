@@ -8,8 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ParamIn` | `CAnimParamHandle` | get | - |
 | `ParamOut` | `CAnimParamHandle` | get | - |
+| `MinInputValue` | `ref float` | get | - |
+| `MaxInputValue` | `ref float` | get | - |
+| `MinOutputValue` | `ref float` | get | - |
+| `MaxOutputValue` | `ref float` | get | - |
 

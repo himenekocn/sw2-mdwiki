@@ -10,8 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Effect` | `ref CStrongHandle\<InfoForResourceTypeIParticleSystemDefinition\>` | get | - |
+| `EventType` | `ref EventTypeSelection_t` | get | - |
 | `ParticleConfig` | `string` | get, set | - |
 | `AggregationPos` | `CPerParticleVecInput` | get | - |
 

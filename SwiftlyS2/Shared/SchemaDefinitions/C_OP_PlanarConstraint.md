@@ -10,8 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `PointOnPlane` | `ref Vector` | get | - |
+| `PlaneNormal` | `ref Vector` | get | - |
+| `ControlPointNumber` | `ref int` | get | - |
+| `GlobalOrigin` | `ref bool` | get | - |
+| `GlobalNormal` | `ref bool` | get | - |
 | `RadiusScale` | `CPerParticleFloatInput` | get | - |
 | `MaximumDistanceToCP` | `CParticleCollectionFloatInput` | get | - |
+| `UseOldCode` | `ref bool` | get | - |
 

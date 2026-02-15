@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<AggregateInstanceStreamOnDiskData_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `DecodedSize` | `ref uint` | get | - |
+| `BufferData` | `ref CUtlBinaryBlock` | get | - |
+

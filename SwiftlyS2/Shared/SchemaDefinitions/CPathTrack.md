@@ -10,10 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Pnext` | `CPathTrack?` | get | - |
-| `Pprevious` | `CPathTrack?` | get, set | - |
-| `Paltpath` | `CPathTrack?` | get, set | - |
+| `Pprevious` | `CPathTrack?` | get | - |
+| `Paltpath` | `CPathTrack?` | get | - |
+| `Radius` | `ref float` | get | - |
+| `Length` | `ref float` | get | - |
 | `AltName` | `string` | get, set | - |
+| `IterVal` | `ref int` | get | - |
+| `OrientationType` | `ref TrackOrientationType_t` | get | - |
+| `OnPass` | `ref CEntityIOOutput` | get | - |
 

@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Accountid` | `uint` | get, set | - |
 | `Itemid` | `ulong` | get, set | - |
@@ -21,7 +21,7 @@
 | `Killeaterscoretype` | `uint` | get, set | - |
 | `Killeatervalue` | `uint` | get, set | - |
 | `Customname` | `string` | get, set | - |
-| `Stickers` | `IProtobufRepeatedFieldSubMessageType\<CEconItemPreviewDataBlock_Sticker\>` | get, set | - |
+| `Stickers` | `IProtobufRepeatedFieldSubMessageType\<CEconItemPreviewDataBlock_Sticker\>` | get | - |
 | `Inventory` | `uint` | get, set | - |
 | `Origin` | `uint` | get, set | - |
 | `Questid` | `uint` | get, set | - |
@@ -29,8 +29,8 @@
 | `Musicindex` | `uint` | get, set | - |
 | `Entindex` | `int` | get, set | - |
 | `Petindex` | `uint` | get, set | - |
-| `Keychains` | `IProtobufRepeatedFieldSubMessageType\<CEconItemPreviewDataBlock_Sticker\>` | get, set | - |
+| `Keychains` | `IProtobufRepeatedFieldSubMessageType\<CEconItemPreviewDataBlock_Sticker\>` | get | - |
 | `Style` | `uint` | get, set | - |
-| `Variations` | `IProtobufRepeatedFieldSubMessageType\<CEconItemPreviewDataBlock_Sticker\>` | get, set | - |
+| `Variations` | `IProtobufRepeatedFieldSubMessageType\<CEconItemPreviewDataBlock_Sticker\>` | get | - |
 | `UpgradeLevel` | `uint` | get, set | - |
 

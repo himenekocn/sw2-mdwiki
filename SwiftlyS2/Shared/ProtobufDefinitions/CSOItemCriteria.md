@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ItemLevel` | `uint` | get, set | - |
 | `ItemQuality` | `int` | get, set | - |
@@ -17,7 +17,7 @@
 | `InitialInventory` | `uint` | get, set | - |
 | `InitialQuantity` | `uint` | get, set | - |
 | `IgnoreEnabledFlag` | `bool` | get, set | - |
-| `Conditions` | `IProtobufRepeatedFieldSubMessageType\<CSOItemCriteriaCondition\>` | get, set | - |
+| `Conditions` | `IProtobufRepeatedFieldSubMessageType\<CSOItemCriteriaCondition\>` | get | - |
 | `ItemRarity` | `int` | get, set | - |
 | `ItemRaritySet` | `bool` | get, set | - |
 | `RecentOnly` | `bool` | get, set | - |

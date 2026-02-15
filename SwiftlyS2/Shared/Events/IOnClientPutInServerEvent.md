@@ -1,6 +1,6 @@
 # 🔌 IOnClientPutInServerEvent
 
-Called when a client is put in the server.
+当客户端被添加到服务器时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,8 +8,8 @@ Called when a client is put in the server.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | The player ID of the client that was put in the server. |
-| `Kind` | `ClientKind` | get | The kind of client that was put in the server. |
+| `PlayerId` | `int` | get | 被放入服务器的客户端的玩家ID。 |
+| `Kind` | `ClientKind` | get | 已放置在服务器中的客户端类型。 |
 

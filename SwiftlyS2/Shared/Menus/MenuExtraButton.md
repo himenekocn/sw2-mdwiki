@@ -1,6 +1,6 @@
 # 📦 MenuExtraButton
 
-Represents an extra button in the menu that executes a custom action when pressed.
+表示菜单中的一个额外按钮，当按下时会执行自定义操作。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 

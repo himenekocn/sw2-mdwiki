@@ -1,6 +1,6 @@
 # 🔌 IOnClientSteamAuthorizeEvent
 
-Called when a client is authorized via Steam.
+当客户端通过 Steam 授权时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,7 +8,7 @@ Called when a client is authorized via Steam.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | The player ID of the client that was authorized. |
+| `PlayerId` | `int` | get | 已授权的客户端的玩家ID。 |
 

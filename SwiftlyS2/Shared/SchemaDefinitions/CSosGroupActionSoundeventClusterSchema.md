@@ -10,8 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `MinNearby` | `ref int` | get | - |
+| `ClusterEpsilon` | `ref float` | get | - |
 | `ShouldPlayOpvar` | `string` | get, set | - |
 | `ShouldPlayClusterChild` | `string` | get, set | - |
 | `ClusterSizeOpvar` | `string` | get, set | - |

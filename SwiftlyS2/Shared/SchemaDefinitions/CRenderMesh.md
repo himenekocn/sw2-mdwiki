@@ -8,10 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SceneObjects` | `SchemaUntypedField` | get | - |
 | `Skeleton` | `CRenderSkeleton` | get | - |
+| `UseUV2ForCharting` | `ref bool` | get | - |
+| `EmbeddedMapMesh` | `ref bool` | get | - |
 | `MeshDeformParams` | `DynamicMeshDeformParams_t` | get | - |
 | `GroomData` | `CRenderGroom?` | get | - |
 

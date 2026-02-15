@@ -13,3 +13,24 @@
 | `m_ulSteamIDUserChanged` | `ulong` | - | - |
 | `m_rgfChatMemberStateChange` | `uint` | - | - |
 
+## ⚙️ 方法
+
+### change
+
+```csharp
+the change(different from SteamIDUserChange if kicking,  muting, etc. )
+```
+
+**参数:**
+
+- `kicking` (`different from SteamIDUserChange if`)
+- `muting` (``)
+- `` (`etc.`)
+
+**返回值:** `the`
+
+**用法示例:**
+```csharp
+LobbyChatUpdate_t.change(SteamIDUserChange);
+```
+

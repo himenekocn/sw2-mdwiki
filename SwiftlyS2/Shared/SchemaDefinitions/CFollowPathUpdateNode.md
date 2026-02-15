@@ -10,8 +10,19 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TurnDamping` | `CAnimInputDamping` | get, set | - |
-| `Param` | `CAnimParamHandle` | get, set | - |
+| `BlendOutTime` | `ref float` | get | - |
+| `BlockNonPathMovement` | `ref bool` | get | - |
+| `StopFeetAtGoal` | `ref bool` | get | - |
+| `ScaleSpeed` | `ref bool` | get | - |
+| `Scale` | `ref float` | get | - |
+| `MinAngle` | `ref float` | get | - |
+| `MaxAngle` | `ref float` | get | - |
+| `SpeedScaleBlending` | `ref float` | get | - |
+| `TurnDamping` | `CAnimInputDamping` | get | - |
+| `FacingTarget` | `ref AnimValueSource` | get | - |
+| `Param` | `CAnimParamHandle` | get | - |
+| `TurnToFaceOffset` | `ref float` | get, set | - |
+| `TurnToFace` | `ref bool` | get | - |
 

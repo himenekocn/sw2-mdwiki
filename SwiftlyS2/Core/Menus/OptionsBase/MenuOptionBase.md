@@ -1,6 +1,6 @@
 # 📦 MenuOptionBase
 
-Provides a base implementation for menu options with event-driven behavior.
+为具有事件驱动行为的菜单选项提供基础实现。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -12,20 +12,21 @@ Provides a base implementation for menu options with event-driven behavior.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Menu` | `IMenuAPI?` | get, set | Gets or sets the menu that this option belongs to. |
-| `BindingText` | `Func\<string?\>?` | - | Gets or sets a function that dynamically provides the text content for this menu option. |
-| `Text` | `string` | - | Gets or sets the text content displayed for this menu option. |
-| `Comment` | `string` | get, set | Gets or sets the comment content displayed for this menu option. |
-| `MaxWidth` | `float` | - | The maximum display width for menu option text in relative units. |
-| `Visible` | `bool` | - | Gets or sets a value indicating whether this option is visible in the menu. |
-| `Enabled` | `bool` | - | Gets or sets a value indicating whether this option can be interacted with. |
-| `CloseAfterClick` | `bool` | get, set | Gets or sets a value indicating whether the menu should be closed after handling the click. |
-| `Tag` | `object?` | get, set | Gets or sets an object that contains data about this option. |
-| `TextSize` | `MenuOptionTextSize` | get, set | Gets or sets the text size for this option. |
-| `TextStyle` | `MenuOptionTextStyle` | - | Gets or sets the text overflow style for this option. |
-| `PlaySound` | `bool` | get, set | Gets or sets a value indicating whether a sound should play when this option is selected. |
+| `Menu` | `IMenuAPI?` | get, set | 获取或设置此选项所属的菜单。 |
+| `LineCount` | `int` | - | 获取此选项在菜单中请求占用的行数。 |
+| `BindingText` | `Func\<string?\>?` | - | 获取或设置一个函数，该函数可动态为此菜单选项提供文本内容。 |
+| `Text` | `string` | - | 获取或设置为此菜单选项显示的文本内容。 |
+| `Comment` | `string` | get, set | 获取或设置为此菜单选项显示的注释内容。 |
+| `MaxWidth` | `float` | - | 菜单选项文本的最大显示宽度（以相对单位表示）。 |
+| `Visible` | `bool` | - | 获取或设置一个值，该值指示此选项是否在菜单中可见。 |
+| `Enabled` | `bool` | - | 获取或设置一个值，该值指示此选项是否可以交互。 |
+| `CloseAfterClick` | `bool` | get | 获取或设置一个值，该值指示在处理完点击后是否应关闭菜单。 |
+| `Tag` | `object?` | get, set | 获取或设置一个包含此选项相关数据的对象。 |
+| `TextSize` | `MenuOptionTextSize` | get, set | 获取或设置此选项的文本大小。 |
+| `TextStyle` | `MenuOptionTextStyle` | - | 获取或设置此选项的文本溢出样式。 |
+| `PlaySound` | `bool` | get, set | 获取或设置一个值，该值指示当选择此选项时是否应播放声音。 |
 
 ## ⚙️ 方法
 
@@ -35,13 +36,17 @@ Provides a base implementation for menu options with event-driven behavior.
 void Dispose()
 ```
 
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+
 ### PauseTextAnimation
 
 ```csharp
 void PauseTextAnimation()
 ```
 
-Pauses the dynamic text animation.
+暂停动态文本动画。
+
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
 
 ### ResumeTextAnimation
 
@@ -49,7 +54,23 @@ Pauses the dynamic text animation.
 void ResumeTextAnimation()
 ```
 
-Resumes the dynamic text animation.
+恢复动态文本动画。
+
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+
+### GetFormattedHtmlText
+
+```csharp
+string GetFormattedHtmlText(IPlayer player)
+```
+
+**参数:**
+
+- `player` (`IPlayer`)
+
+**返回值:** `string`
+
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
 
 ### GetDisplayText
 
@@ -57,14 +78,16 @@ Resumes the dynamic text animation.
 string GetDisplayText(IPlayer player, int displayLine = 0)
 ```
 
-Gets the display text for this option as it should appear to the specified player.
+获取此选项的显示文本，该文本应显示给指定的玩家。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player requesting the display text.
-- `displayLine` (`int`) = `0` - The display line index of the option.
+- `player` (`IPlayer`) - 请求显示文本的玩家。
+- `displayLine` (`int`) = `0` - 选项的显示行索引。
 
-**返回值:** `string` - The formatted display text for the option.
+**返回值:** `string` - 选项的格式化显示文本。
+
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
 
 ### OnValidatingAsync
 
@@ -72,13 +95,30 @@ Gets the display text for this option as it should appear to the specified playe
 ValueTask<bool> OnValidatingAsync(IPlayer player)
 ```
 
-Validates whether the specified player can interact with this option.
+验证指定的玩家是否可以与此选项进行交互。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player to validate.
+- `player` (`IPlayer`) - 要验证的玩家。
 
-**返回值:** `ValueTask\<bool\>` - A task that represents the asynchronous operation. The task result is true if validation succeeds; otherwise, false.
+**返回值:** `ValueTask\<bool\>` - 一个表示异步操作的任务。如果验证成功，任务结果为 true；否则为 false。
+
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+
+### OnClickAsync
+
+```csharp
+ValueTask OnClickAsync(IPlayer player, bool closeMenu = false)
+```
+
+**参数:**
+
+- `player` (`IPlayer`)
+- `closeMenu` (`bool`) = `false`
+
+**返回值:** `ValueTask`
+
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
 
 ### OnClickAsync
 
@@ -86,11 +126,13 @@ Validates whether the specified player can interact with this option.
 ValueTask OnClickAsync(IPlayer player)
 ```
 
-Handles the click action for this option.
+处理此选项的点击操作。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player who clicked the option.
+- `player` (`IPlayer`) - 点击该选项的玩家。
 
-**返回值:** `ValueTask` - A task that represents the asynchronous operation.
+**返回值:** `ValueTask` - 一个表示异步操作的任务。
+
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
 

@@ -6,3 +6,9 @@
 
 **继承:** `ISchemaClass\<CPhysicsShake\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Force` | `ref Vector` | get | - |
+

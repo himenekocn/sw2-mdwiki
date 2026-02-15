@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = SteamLeaderboard.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(SteamLeaderboard_t that)
+```
+
+**参数:**
+
+- `that` (`SteamLeaderboard_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+SteamLeaderboard_t operator ulong(SteamLeaderboard_t that) => that;
+```
 
 ### Equals
 
@@ -67,4 +89,11 @@ int CompareTo(SteamLeaderboard_t other)
 - `other` (`SteamLeaderboard_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SteamLeaderboard_t a = SteamAPI.SteamUserStats.FindLeaderboard("leaderboard_name");  
+SteamLeaderboard_t b = SteamAPI.SteamUserStats.FindLeaderboard("another_leaderboard");  
+int result = a.CompareTo(b);
+```
 

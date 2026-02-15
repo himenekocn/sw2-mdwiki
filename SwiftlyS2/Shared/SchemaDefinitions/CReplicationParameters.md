@@ -8,8 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ReplicationMode` | `ref ParticleReplicationMode_t` | get | - |
+| `ScaleChildParticleRadii` | `ref bool` | get | - |
 | `MinRandomRadiusScale` | `CParticleCollectionFloatInput` | get | - |
 | `MaxRandomRadiusScale` | `CParticleCollectionFloatInput` | get | - |
 | `MinRandomDisplacement` | `CParticleCollectionVecInput` | get | - |

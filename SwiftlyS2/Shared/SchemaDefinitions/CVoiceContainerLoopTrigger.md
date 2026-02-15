@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Sound` | `CSoundContainerReference` | get | - |
+| `RetriggerTimeMin` | `ref float` | get | - |
+| `RetriggerTimeMax` | `ref float` | get | - |
+| `FadeTime` | `ref float` | get | - |
+| `CrossFade` | `ref bool` | get | - |
 

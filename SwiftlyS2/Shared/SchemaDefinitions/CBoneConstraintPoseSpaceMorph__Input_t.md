@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<CBoneConstraintPoseSpaceMorph__Input_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InputValue` | `ref Vector` | get | - |
+| `OutputWeightList` | `ref CUtlVector\<float\>` | get | - |
+

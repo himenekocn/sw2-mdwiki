@@ -8,7 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `TmMessageEnd` | `ref float` | get | - |
+| `Messages` | `ref CUtlVector\<PointerTo\<CHintMessage\>\>` | get | - |
 | `PlayerController` | `CBasePlayerController?` | get | - |
 

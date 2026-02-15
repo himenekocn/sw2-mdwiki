@@ -8,9 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Eventid` | `int` | get, set | - |
-| `Matches` | `IProtobufRepeatedFieldSubMessageType\<CDataGCCStrike15_v2_MatchInfo\>` | get, set | - |
+| `Matches` | `IProtobufRepeatedFieldSubMessageType\<CDataGCCStrike15_v2_MatchInfo\>` | get | - |
 | `Accountid` | `uint` | get, set | - |
 

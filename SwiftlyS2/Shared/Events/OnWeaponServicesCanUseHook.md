@@ -1,6 +1,6 @@
 # 🔗 OnWeaponServicesCanUseHook
 
-Called when a weapon services can use hook is triggered.
+当武器服务可用挂钩被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

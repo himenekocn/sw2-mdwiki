@@ -6,3 +6,14 @@
 
 **继承:** `ISchemaClass\<DynamicMeshDeformParams_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TensionCompressScale` | `ref float` | get | - |
+| `TensionStretchScale` | `ref float` | get | - |
+| `RecomputeSmoothNormalsAfterAnimation` | `ref bool` | get | - |
+| `ComputeDynamicMeshTensionAfterAnimation` | `ref bool` | get | - |
+| `SmoothNormalsAcrossUvSeams` | `ref bool` | get | - |
+| `EnableEyeBulgeDeformation` | `ref bool` | get | - |
+

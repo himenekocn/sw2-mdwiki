@@ -1,6 +1,6 @@
 # 🔗 OnConsoleOutput
 
-Called when a console output is received.
+当接收到控制台输出时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

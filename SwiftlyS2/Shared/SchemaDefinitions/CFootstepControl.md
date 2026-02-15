@@ -10,8 +10,22 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Source` | `string` | get, set | - |
 | `Destination` | `string` | get, set | - |
+
+## ⚙️ 方法
+
+### SourceUpdated
+
+```csharp
+void SourceUpdated()
+```
+
+### DestinationUpdated
+
+```csharp
+void DestinationUpdated()
+```
 

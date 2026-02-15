@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Child1` | `CAnimUpdateNodeRef` | get, set | - |
-| `Child2` | `CAnimUpdateNodeRef` | get, set | - |
+| `Child1` | `CAnimUpdateNodeRef` | get | - |
+| `Child2` | `CAnimUpdateNodeRef` | get | - |
+| `TimingBehavior` | `ref BinaryNodeTiming` | get | - |
+| `TimingBlend` | `ref float` | get | - |
+| `ResetChild1` | `ref bool` | get, set | - |
+| `ResetChild2` | `ref bool` | get, set | - |
 

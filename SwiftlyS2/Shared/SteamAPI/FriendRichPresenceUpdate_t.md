@@ -11,3 +11,22 @@
 | `k_iCallback` | `int` | const | - |
 | `m_steamIDFriend` | `CSteamID` | - | - |
 
+## ⚙️ 方法
+
+### game
+
+```csharp
+the game(should always be the current game)
+```
+
+**参数:**
+
+- `game` (`should always be the current`)
+
+**返回值:** `the`
+
+**用法示例:**
+```csharp
+FriendRichPresenceUpdate_t.game();
+```
+

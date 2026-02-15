@@ -8,3 +8,11 @@
 
 **实现接口:** `ISchemaClass\<C_OP_RampCPLinearRandom\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OutControlPointNumber` | `ref int` | get | - |
+| `RateMin` | `ref Vector` | get | - |
+| `RateMax` | `ref Vector` | get | - |
+

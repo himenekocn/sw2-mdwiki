@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `SCENE_ONPLAYERDEATH_DO_NOTHING` | `0` | - |
+| `SCENE_ONPLAYERDEATH_CANCEL` | `1` | - |
+

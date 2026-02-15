@@ -6,3 +6,9 @@
 
 **继承:** `ISchemaClass\<CAnimTagManagerUpdater\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Tags` | `ref CUtlVector\<SchemaUntypedField\>` | get | - |
+

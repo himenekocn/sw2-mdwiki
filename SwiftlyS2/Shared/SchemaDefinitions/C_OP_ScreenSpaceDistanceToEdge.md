@@ -10,9 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
 | `MaxDistFromEdge` | `CPerParticleFloatInput` | get | - |
 | `OutputRemap` | `CParticleRemapFloatInput` | get | - |
+| `SetMethod` | `ref ParticleSetMethod_t` | get | - |
 

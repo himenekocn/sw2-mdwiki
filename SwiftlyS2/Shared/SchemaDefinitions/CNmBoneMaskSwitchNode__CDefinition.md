@@ -8,3 +8,13 @@
 
 **实现接口:** `ISchemaClass\<CNmBoneMaskSwitchNode__CDefinition\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `SwitchValueNodeIdx` | `ref short` | get | - |
+| `TrueValueNodeIdx` | `ref short` | get | - |
+| `FalseValueNodeIdx` | `ref short` | get | - |
+| `BlendTimeSeconds` | `ref float` | get | - |
+| `SwitchDynamically` | `ref bool` | get | - |
+

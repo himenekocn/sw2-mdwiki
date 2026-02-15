@@ -1,6 +1,6 @@
 # 🔗 OnEntityFireOutputHookEvent
 
-Called when an entity fires output.
+当实体触发输出时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

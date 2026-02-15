@@ -6,3 +6,12 @@
 
 **继承:** `ISchemaClass\<FeNodeWindBase_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `NodeX0` | `ref ushort` | get | - |
+| `NodeX1` | `ref ushort` | get | - |
+| `NodeY0` | `ref ushort` | get | - |
+| `NodeY1` | `ref ushort` | get | - |
+

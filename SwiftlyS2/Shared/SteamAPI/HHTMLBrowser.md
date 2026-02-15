@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = HHTMLBrowser.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(HHTMLBrowser that)
+```
+
+**参数:**
+
+- `that` (`HHTMLBrowser`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint value = (uint)HHTMLBrowser.someInstance;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(HHTMLBrowser other)
 - `other` (`HHTMLBrowser`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+HHTMLBrowser a = HHTMLBrowser.Default;  
+int result = a.CompareTo(HHTMLBrowser.Empty);
+```
 

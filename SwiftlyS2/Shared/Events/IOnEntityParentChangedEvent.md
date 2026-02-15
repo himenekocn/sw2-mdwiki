@@ -1,6 +1,6 @@
 # 🔌 IOnEntityParentChangedEvent
 
-Called when an entity's parent changes.
+当实体的父级发生更改时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,8 +8,8 @@ Called when an entity's parent changes.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Entity` | `CEntityInstance` | get | The entity that had its parent changed. |
-| `NewParent` | `CEntityInstance?` | get | The new parent of the entity. |
+| `Entity` | `CEntityInstance` | get | 其父实体已更改的实体。 |
+| `NewParent` | `CEntityInstance?` | get | 实体的新父级。 |
 

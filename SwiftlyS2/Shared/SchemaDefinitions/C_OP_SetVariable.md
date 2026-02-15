@@ -10,10 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `VariableReference` | `CParticleVariableRef` | get, set | - |
-| `TransformInput` | `CParticleTransformInput` | get, set | - |
-| `Input` | `CParticleCollectionVecInput` | get, set | - |
+| `VariableReference` | `CParticleVariableRef` | get | - |
+| `TransformInput` | `CParticleTransformInput` | get | - |
+| `PositionOffset` | `ref Vector` | get, set | - |
+| `RotationOffset` | `ref QAngle` | get, set | - |
+| `Input` | `CParticleCollectionVecInput` | get | - |
 | `FloatInput` | `CParticleCollectionFloatInput` | get | - |
 

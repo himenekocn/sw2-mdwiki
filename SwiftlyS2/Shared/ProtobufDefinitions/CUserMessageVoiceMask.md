@@ -10,9 +10,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `GamerulesMasks` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
-| `BanMasks` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
+| `GamerulesMasks` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `BanMasks` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `ModEnable` | `bool` | get, set | - |
 

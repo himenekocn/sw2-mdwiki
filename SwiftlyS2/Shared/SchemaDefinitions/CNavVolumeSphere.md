@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CNavVolumeSphere\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Center` | `ref Vector` | get | - |
+| `Radius` | `ref float` | get | - |
+

@@ -1,6 +1,6 @@
 # 🔌 EventMapShutdown
 
-Event "map_shutdown"
+事件 "map_shutdown"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

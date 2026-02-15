@@ -8,14 +8,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `MatchId` | `ulong` | get, set | - |
 | `GameMode` | `int` | get, set | - |
 | `GameWinner` | `int` | get, set | - |
-| `PlayerInfo` | `IProtobufRepeatedFieldSubMessageType\<CGameInfo_CDotaGameInfo_CPlayerInfo\>` | get, set | - |
+| `PlayerInfo` | `IProtobufRepeatedFieldSubMessageType\<CGameInfo_CDotaGameInfo_CPlayerInfo\>` | get | - |
 | `Leagueid` | `uint` | get, set | - |
-| `PicksBans` | `IProtobufRepeatedFieldSubMessageType\<CGameInfo_CDotaGameInfo_CHeroSelectEvent\>` | get, set | - |
+| `PicksBans` | `IProtobufRepeatedFieldSubMessageType\<CGameInfo_CDotaGameInfo_CHeroSelectEvent\>` | get | - |
 | `RadiantTeamId` | `uint` | get, set | - |
 | `DireTeamId` | `uint` | get, set | - |
 | `RadiantTeamTag` | `string` | get, set | - |

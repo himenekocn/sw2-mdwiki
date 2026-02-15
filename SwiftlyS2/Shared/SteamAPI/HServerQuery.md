@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = HServerQuery.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### int (静态)
+
+```csharp
+operator int(HServerQuery that)
+```
+
+**参数:**
+
+- `that` (`HServerQuery`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+int result = (int)HServerQuery.someInstance;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(HServerQuery other)
 - `other` (`HServerQuery`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+HServerQuery a = HServerQuery.Default;  
+int result = a.CompareTo(HServerQuery.Empty);
+```
 

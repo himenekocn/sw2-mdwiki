@@ -1,6 +1,6 @@
 # 🔌 EventGameInit
 
-Event "game_init" sent when a new game is started
+当新游戏开始时发送事件 "game_init"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

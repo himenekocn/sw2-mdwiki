@@ -8,7 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Frame` | `ref int` | get | - |
+| `EndFrame` | `ref int` | get | - |
+| `Cycle` | `ref float` | get | - |
+| `Duration` | `ref float` | get | - |
 | `EventData` | `SchemaUntypedField` | get | - |
+| `LegacyOptions` | `ref CBufferString` | get | - |
+| `EventName` | `ref CGlobalSymbol` | get | - |
 

@@ -1,6 +1,6 @@
 # 📋 MenuOptionScrollStyle
 
-Defines how the menu scrolls when navigating between options.
+定义在选项间导航时菜单的滚动方式。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 

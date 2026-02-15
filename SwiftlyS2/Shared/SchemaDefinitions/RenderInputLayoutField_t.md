@@ -8,8 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SemanticName` | `string` | get, set | - |
+| `SemanticIndex` | `ref byte` | get | - |
+| `Offset` | `ref short` | get, set | - |
+| `Slot` | `ref byte` | get | - |
+| `SlotType` | `ref RenderSlotType_t` | get | - |
 | `ShaderSemantic` | `string` | get, set | - |
 

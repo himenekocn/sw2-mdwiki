@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ENT_FIND_METHOD_NEAREST` | `0` | - |
+| `ENT_FIND_METHOD_FARTHEST` | `1` | - |
+| `ENT_FIND_METHOD_RANDOM` | `2` | - |
+

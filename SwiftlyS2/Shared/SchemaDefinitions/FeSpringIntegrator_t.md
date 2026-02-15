@@ -8,7 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Node` | `ISchemaFixedArray\<ushort\>` | get | - |
+| `SpringRestLength` | `ref float` | get | - |
+| `SpringConstant` | `ref float` | get | - |
+| `SpringDamping` | `ref float` | get | - |
+| `NodeWeight0` | `ref float` | get | - |
 

@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `SPRITECARD_SHADER_BASE` | `0` | - |
+| `SPRITECARD_SHADER_CUSTOM` | `1` | - |
+

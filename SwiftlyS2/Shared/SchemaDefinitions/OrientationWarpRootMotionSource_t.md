@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eAnimationOrProcedural` | `0` | - |
+| `eAnimationOnly` | `1` | - |
+| `eProceduralOnly` | `2` | - |
+

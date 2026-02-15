@@ -1,6 +1,6 @@
 # 🔌 EventHideDeathpanel
 
-Event "hide_deathpanel"
+事件 "hide_deathpanel"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

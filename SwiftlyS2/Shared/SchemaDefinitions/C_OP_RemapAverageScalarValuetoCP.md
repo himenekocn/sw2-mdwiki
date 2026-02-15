@@ -10,9 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Expression` | `ref SetStatisticExpressionType_t` | get | - |
 | `DecimalPlaces` | `CParticleCollectionFloatInput` | get | - |
+| `OutControlPointNumber` | `ref int` | get | - |
+| `OutVectorField` | `ref int` | get | - |
 | `Field` | `ParticleAttributeIndex_t` | get | - |
 | `OutputRemap` | `CParticleRemapFloatInput` | get | - |
 

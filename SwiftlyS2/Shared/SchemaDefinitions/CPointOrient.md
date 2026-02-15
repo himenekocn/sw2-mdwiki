@@ -10,8 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SpawnTargetName` | `string` | get, set | - |
+| `Target` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `Active` | `ref bool` | get | - |
+| `GoalDirection` | `ref PointOrientGoalDirectionType_t` | get | - |
+| `Constraint` | `ref PointOrientConstraint_t` | get | - |
+| `MaxTurnRate` | `ref float` | get | - |
 | `LastGameTime` | `GameTime_t` | get | - |
 

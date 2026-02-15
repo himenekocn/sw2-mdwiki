@@ -1,6 +1,6 @@
 # 📦 MenuManagerEventArgs
 
-Provides event data for menu manager events.
+为菜单管理器事件提供事件数据。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -10,8 +10,8 @@ Provides event data for menu manager events.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Player` | `IPlayer?` | get | The player involved in this menu event. |
-| `Menu` | `IMenuAPI?` | get | The menu involved in this event. |
+| `Player` | `IPlayer?` | get | 参与此菜单事件的玩家。 |
+| `Menu` | `IMenuAPI?` | get | 与此事件相关的菜单。 |
 

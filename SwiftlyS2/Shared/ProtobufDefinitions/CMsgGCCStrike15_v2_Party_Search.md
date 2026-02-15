@@ -8,12 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Ver` | `uint` | get, set | - |
 | `Apr` | `uint` | get, set | - |
 | `Ark` | `uint` | get, set | - |
-| `Grps` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
+| `Grps` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `Launcher` | `uint` | get, set | - |
 | `GameType` | `uint` | get, set | - |
 

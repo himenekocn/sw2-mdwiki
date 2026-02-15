@@ -1,6 +1,6 @@
 # 🔌 EventRoundAnnounceFinal
 
-Event "round_announce_final"
+事件 "round_announce_final"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

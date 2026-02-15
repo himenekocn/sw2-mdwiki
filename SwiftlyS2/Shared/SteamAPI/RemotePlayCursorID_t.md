@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string idStr = RemotePlayCursorID_t.SomeValue.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(RemotePlayCursorID_t that)
+```
+
+**参数:**
+
+- `that` (`RemotePlayCursorID_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint id = (uint)RemotePlayCursorID_t.SomeValue;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(RemotePlayCursorID_t other)
 - `other` (`RemotePlayCursorID_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+RemotePlayCursorID_t id1 = RemotePlayCursorID_t.First;  
+int result = id1.CompareTo(RemotePlayCursorID_t.Second);
+```
 

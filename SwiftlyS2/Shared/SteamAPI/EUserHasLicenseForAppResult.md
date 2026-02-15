@@ -6,3 +6,11 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_EUserHasLicenseResultHasLicense` | `0` | - |
+| `k_EUserHasLicenseResultDoesNotHaveLicense` | `1` | - |
+| `k_EUserHasLicenseResultNoAuth` | `2` | - |
+

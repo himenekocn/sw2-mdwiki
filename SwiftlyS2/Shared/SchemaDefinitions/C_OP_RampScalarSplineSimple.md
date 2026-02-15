@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Rate` | `ref float` | get | - |
+| `StartTime` | `ref float` | get | - |
+| `EndTime` | `ref float` | get | - |
 | `Field` | `ParticleAttributeIndex_t` | get | - |
+| `EaseOut` | `ref bool` | get | - |
 

@@ -10,8 +10,8 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Allplayerdata` | `IProtobufRepeatedFieldSubMessageType\<CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData\>` | get, set | - |
+| `Allplayerdata` | `IProtobufRepeatedFieldSubMessageType\<CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData\>` | get | - |
 | `Scene` | `int` | get, set | - |
 

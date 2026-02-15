@@ -1,6 +1,6 @@
 # 🔌 EventHostageRescuedAll
 
-Event "hostage_rescued_all"
+事件 "hostage_rescued_all"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

@@ -8,8 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Weight` | `ISchemaFixedArray\<float\>` | get | - |
+| `Height0` | `ref float` | get | - |
 | `Node` | `ISchemaFixedArray\<ushort\>` | get | - |
+| `Reserved` | `ref ushort` | get | - |
 

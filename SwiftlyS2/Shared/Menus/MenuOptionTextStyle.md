@@ -1,6 +1,6 @@
 # 📋 MenuOptionTextStyle
 
-Defines the horizontal text overflow behavior for menu options.
+定义菜单选项的水平文本溢出行为。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 

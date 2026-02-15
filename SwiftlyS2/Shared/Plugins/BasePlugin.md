@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ReloadMethod` | `PluginReloadMethod` | get, set | - |
 
@@ -24,6 +24,8 @@ void ConfigureSharedInterface(IInterfaceManager interfaceManager)
 
 - `interfaceManager` (`IInterfaceManager`)
 
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+
 ### UseSharedInterface
 
 ```csharp
@@ -33,6 +35,8 @@ void UseSharedInterface(IInterfaceManager interfaceManager)
 **参数:**
 
 - `interfaceManager` (`IInterfaceManager`)
+
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
 
 ### OnSharedInterfaceInjected
 
@@ -44,9 +48,41 @@ void OnSharedInterfaceInjected(IInterfaceManager interfaceManager)
 
 - `interfaceManager` (`IInterfaceManager`)
 
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+
 ### OnAllPluginsLoaded
 
 ```csharp
 void OnAllPluginsLoaded()
+```
+
+**注意:** 此方法是虚方法，需要在子类中重写 (override)。
+
+### Load
+
+```csharp
+void Load(bool hotReload)
+```
+
+**参数:**
+
+- `hotReload` (`bool`)
+
+**用法示例:**
+```csharp
+basePlugin.Load(false);
+// 或 hotReload = true;
+// basePlugin.Load(hotReload);
+```
+
+### Unload
+
+```csharp
+void Unload()
+```
+
+**用法示例:**
+```csharp
+plugin.Unload();
 ```
 

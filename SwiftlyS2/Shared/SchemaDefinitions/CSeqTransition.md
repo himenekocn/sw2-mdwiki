@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<CSeqTransition\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `FadeInTime` | `ref float` | get | - |
+| `FadeOutTime` | `ref float` | get | - |
+

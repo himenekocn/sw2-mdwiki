@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<ModelReference_t\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Model` | `ref CStrongHandle\<InfoForResourceTypeCModel\>` | get | - |
+| `RelativeProbabilityOfSpawn` | `ref float` | get | - |
+

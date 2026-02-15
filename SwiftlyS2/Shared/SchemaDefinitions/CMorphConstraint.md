@@ -10,7 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `TargetMorph` | `string` | get, set | - |
+| `SlaveChannel` | `ref int` | get | - |
+| `Min` | `ref float` | get | - |
+| `Max` | `ref float` | get | - |
 

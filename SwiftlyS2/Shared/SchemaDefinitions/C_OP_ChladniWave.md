@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
 | `InputMin` | `CPerParticleFloatInput` | get | - |
@@ -19,4 +19,7 @@
 | `OutputMax` | `CPerParticleFloatInput` | get | - |
 | `WaveLength` | `CPerParticleVecInput` | get | - |
 | `Harmonics` | `CPerParticleVecInput` | get | - |
+| `SetMethod` | `ref ParticleSetMethod_t` | get | - |
+| `LocalSpaceControlPoint` | `ref int` | get | - |
+| `B3D` | `ref bool` | get | - |
 

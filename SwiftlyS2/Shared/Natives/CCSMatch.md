@@ -21,3 +21,15 @@
 | `TerroristScoreTotal` | `short` | - | - |
 | `Phase` | `GamePhase` | - | - |
 
+## ⚙️ 方法
+
+### ToString
+
+```csharp
+string ToString()
+```
+
+返回匹配数据的格式化字符串表示形式。
+
+**返回值:** `string`
+

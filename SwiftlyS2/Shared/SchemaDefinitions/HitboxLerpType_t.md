@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `HITBOX_LERP_LIFETIME` | `0` | - |
+| `HITBOX_LERP_CONSTANT` | `1` | - |
+

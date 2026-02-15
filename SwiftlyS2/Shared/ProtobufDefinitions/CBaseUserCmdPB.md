@@ -8,12 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `LegacyCommandNumber` | `int` | get, set | - |
 | `ClientTick` | `int` | get, set | - |
 | `PredictionOffsetTicksX256` | `uint` | get, set | - |
-| `ButtonsPb` | `CInButtonStatePB` | get, set | - |
+| `ButtonsPb` | `CInButtonStatePB` | get | - |
 | `Viewangles` | `QAngle` | get, set | - |
 | `Forwardmove` | `float` | get, set | - |
 | `Leftmove` | `float` | get, set | - |
@@ -24,7 +24,7 @@
 | `Mousedx` | `int` | get, set | - |
 | `Mousedy` | `int` | get, set | - |
 | `PawnEntityHandle` | `uint` | get, set | - |
-| `SubtickMoves` | `IProtobufRepeatedFieldSubMessageType\<CSubtickMoveStep\>` | get, set | - |
+| `SubtickMoves` | `IProtobufRepeatedFieldSubMessageType\<CSubtickMoveStep\>` | get | - |
 | `MoveCrc` | `byte[]` | get, set | - |
 | `ConsumedServerAngleChanges` | `uint` | get, set | - |
 | `CmdFlags` | `int` | get, set | - |

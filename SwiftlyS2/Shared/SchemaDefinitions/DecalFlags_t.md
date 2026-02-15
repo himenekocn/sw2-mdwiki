@@ -6,3 +6,13 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eNone` | `0` | - |
+| `eCannotClear` | `1` | - |
+| `eDecalProjectToBackfaces` | `2` | - |
+| `eAll` | `4294967295` | - |
+| `eAllButCannotClear` | `4294967294` | - |
+

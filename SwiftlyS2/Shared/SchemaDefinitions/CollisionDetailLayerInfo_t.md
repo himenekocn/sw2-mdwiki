@@ -8,9 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Description` | `string` | get, set | - |
 | `FriendlyName` | `string` | get, set | - |
+| `IsQueryOnly` | `ref bool` | get | - |
 | `ParentDetailLayer` | `string` | get, set | - |
+| `SubtreeDetailLayers` | `ref CUtlVector\<CollisionDetailLayerInfo_t__Name_t\>` | get | - |
+| `NotPickable` | `ref bool` | get | - |
 

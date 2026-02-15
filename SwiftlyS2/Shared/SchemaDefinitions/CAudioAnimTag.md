@@ -10,8 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ClipName` | `string` | get, set | - |
 | `AttachmentName` | `string` | get, set | - |
+| `Volume` | `ref float` | get | - |
+| `StopWhenTagEnds` | `ref bool` | get | - |
+| `StopWhenGraphEnds` | `ref bool` | get | - |
+| `PlayOnServer` | `ref bool` | get | - |
+| `PlayOnClient` | `ref bool` | get | - |
 

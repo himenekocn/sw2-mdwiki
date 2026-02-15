@@ -12,3 +12,22 @@
 | `m_ulSteamIDLobby` | `ulong` | - | - |
 | `m_ulSteamIDAdmin` | `ulong` | - | - |
 
+## ⚙️ 方法
+
+### Steam
+
+```csharp
+to Steam(currently always true)
+```
+
+**参数:**
+
+- `true` (`currently always`)
+
+**返回值:** `to`
+
+**用法示例:**
+```csharp
+LobbyKicked_t.Steam();
+```
+

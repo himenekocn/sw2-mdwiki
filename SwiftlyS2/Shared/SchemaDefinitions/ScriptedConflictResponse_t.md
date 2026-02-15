@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `SS_CONFLICT_ENQUEUE` | `0` | - |
+| `SS_CONFLICT_INTERRUPT` | `1` | - |
+

@@ -10,9 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `CubeWidth` | `CParticleCollectionRendererFloatInput` | get | - |
 | `CutoffRadius` | `CParticleCollectionRendererFloatInput` | get | - |
 | `RenderRadius` | `CParticleCollectionRendererFloatInput` | get | - |
+| `VertexCountKb` | `ref uint` | get | - |
+| `IndexCountKb` | `ref uint` | get | - |
+| `ScaleCP` | `ref int` | get | - |
+| `MaterialVars` | `ref CUtlVector\<MaterialVariable_t\>` | get | - |
+| `Material` | `ref CStrongHandle\<InfoForResourceTypeIMaterial2\>` | get | - |
 

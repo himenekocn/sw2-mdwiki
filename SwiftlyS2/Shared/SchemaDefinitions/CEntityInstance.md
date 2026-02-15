@@ -8,9 +8,17 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `PrivateVScripts` | `string` | get, set | - |
 | `Entity` | `CEntityIdentity?` | get | - |
 | `CScriptComponent` | `CScriptComponent?` | get | - |
+
+## ⚙️ 方法
+
+### EntityUpdated
+
+```csharp
+void EntityUpdated()
+```
 

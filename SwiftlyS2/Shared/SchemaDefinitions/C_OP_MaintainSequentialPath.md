@@ -10,7 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `MaxDistance` | `ref float` | get | - |
+| `NumToAssign` | `ref float` | get | - |
+| `CohesionStrength` | `ref float` | get | - |
+| `Tolerance` | `ref float` | get | - |
+| `Loop` | `ref bool` | get | - |
+| `UseParticleCount` | `ref bool` | get | - |
 | `PathParams` | `CPathParameters` | get | - |
 

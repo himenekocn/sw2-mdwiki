@@ -6,3 +6,12 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ELeaderboardDataRequestGlobal` | `0` | - |
+| `k_ELeaderboardDataRequestGlobalAroundUser` | `1` | - |
+| `k_ELeaderboardDataRequestFriends` | `2` | - |
+| `k_ELeaderboardDataRequestUsers` | `3` | - |
+

@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = hSteamNetPollGroup.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(HSteamNetPollGroup that)
+```
+
+**参数:**
+
+- `that` (`HSteamNetPollGroup`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+HSteamNetPollGroup group = (uint)somePollGroup;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(HSteamNetPollGroup other)
 - `other` (`HSteamNetPollGroup`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+HSteamNetPollGroup group1 = default;  
+int result = group1.CompareTo(group2);
+```
 

@@ -10,8 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ControlPoint` | `ref int` | get | - |
+| `PointOffset` | `ref Vector` | get, set | - |
 | `Distance` | `CParticleCollectionFloatInput` | get | - |
+| `CullInside` | `ref bool` | get | - |
 | `Attribute` | `ParticleAttributeIndex_t` | get | - |
 

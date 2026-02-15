@@ -8,9 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EconItem` | `CEconItemPreviewDataBlock` | get, set | - |
+| `EconItem` | `CEconItemPreviewDataBlock` | get | - |
 | `Team` | `int` | get, set | - |
 | `Slot` | `int` | get, set | - |
 

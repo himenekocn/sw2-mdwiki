@@ -10,7 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ConnectionTarget` | `string` | get, set | - |
+| `Connections` | `ref CUtlVector\<DynamicVolumeDef_t\>` | get | - |
+| `TransitionType` | `ref CGlobalSymbol` | get | - |
+| `ConnectionsEnabled` | `ref bool` | get | - |
+| `TargetAreaSearchRadius` | `ref float` | get | - |
+| `UpdateDistance` | `ref float` | get | - |
+| `MaxConnectionDistance` | `ref float` | get | - |
 

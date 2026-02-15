@@ -10,12 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SignonState` | `SignonState_t` | get, set | - |
 | `SpawnCount` | `uint` | get, set | - |
 | `NumServerPlayers` | `uint` | get, set | - |
-| `PlayersNetworkids` | `IProtobufRepeatedFieldValueType\<string\>` | get, set | - |
+| `PlayersNetworkids` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
 | `MapName` | `string` | get, set | - |
 | `Addons` | `string` | get, set | - |
 

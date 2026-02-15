@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string cookieString = HTTPCookieContainerHandle.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(HTTPCookieContainerHandle that)
+```
+
+**参数:**
+
+- `that` (`HTTPCookieContainerHandle`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint value = (uint)HTTPCookieContainerHandle.someInstance;
+```
 
 ### Equals
 
@@ -67,4 +89,10 @@ int CompareTo(HTTPCookieContainerHandle other)
 - `other` (`HTTPCookieContainerHandle`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+HTTPCookieContainerHandle a = HTTPCookieContainerHandle.Default;  
+int result = a.CompareTo(HTTPCookieContainerHandle.Empty);
+```
 

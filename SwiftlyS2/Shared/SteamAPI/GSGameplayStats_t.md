@@ -13,3 +13,22 @@
 | `m_unTotalConnects` | `uint` | - | - |
 | `m_unTotalMinutesPlayed` | `uint` | - | - |
 
+## ⚙️ 方法
+
+### server
+
+```csharp
+the server(0-based )
+```
+
+**参数:**
+
+- `` (`0-based`)
+
+**返回值:** `the`
+
+**用法示例:**
+```csharp
+GSGameplayStats_t.server();
+```
+

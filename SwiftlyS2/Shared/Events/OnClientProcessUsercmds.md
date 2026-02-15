@@ -1,6 +1,6 @@
 # 🔗 OnClientProcessUsercmds
 
-Called when a client processes user commands. This callback is a hot path, be careful with it and don't do anything expensive.
+当客户端处理用户命令时调用。此回调是热点路径，请谨慎处理，不要执行任何昂贵的操作。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

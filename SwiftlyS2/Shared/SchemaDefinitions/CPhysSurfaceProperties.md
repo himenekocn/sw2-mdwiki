@@ -8,9 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Name` | `string` | get, set | - |
+| `NameHash` | `ref uint` | get | - |
+| `BaseNameHash` | `ref uint` | get | - |
+| `Hidden` | `ref bool` | get | - |
 | `Description` | `string` | get, set | - |
 | `Physics` | `CPhysSurfacePropertiesPhysics` | get | - |
 | `VehicleParams` | `CPhysSurfacePropertiesVehicle` | get | - |

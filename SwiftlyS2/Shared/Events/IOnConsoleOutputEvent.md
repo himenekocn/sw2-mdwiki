@@ -1,6 +1,6 @@
 # 🔌 IOnConsoleOutputEvent
 
-Called when a console output is received.
+当接收到控制台输出时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,7 +8,7 @@ Called when a console output is received.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Message` | `string` | get | The message of the console output. |
+| `Message` | `string` | get | 控制台输出的消息。 |
 

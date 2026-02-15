@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `NameAttach1` | `string` | get, set | - |
 | `NameAttach2` | `string` | get, set | - |
+| `IncludeHierarchy` | `ref bool` | get | - |
+| `SupportMultipleEntitiesWithSameName` | `ref bool` | get | - |
+| `Disabled` | `ref bool` | get | - |
+| `Succeeded` | `ref bool` | get | - |
 

@@ -1,6 +1,6 @@
 # 🔌 EventMaterialDefaultComplete
 
-Event "material_default_complete"
+事件 "material_default_complete"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

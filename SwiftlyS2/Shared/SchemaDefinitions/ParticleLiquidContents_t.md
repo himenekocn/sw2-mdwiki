@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_LIQUID_NONE` | `0` | - |
+| `PARTICLE_LIQUID_OIL` | `1` | - |
+| `PARTICLE_LIQUID_WATER` | `2` | - |
+

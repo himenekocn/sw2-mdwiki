@@ -1,6 +1,6 @@
 # 🔗 OnConCommandCreated
 
-Called when a ConCommand is created.
+当创建 ConCommand 时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

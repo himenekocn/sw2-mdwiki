@@ -8,7 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Parent` | `ref int` | get | - |
+| `Origin` | `ref Vector` | get | - |
+| `MinBounds` | `ref Vector` | get | - |
+| `MaxBounds` | `ref Vector` | get | - |
+| `MinimumDistance` | `ref float` | get | - |
+| `ChildNodeIndices` | `ref CUtlVector\<int\>` | get | - |
 | `WorldNodePrefix` | `string` | get, set | - |
 

@@ -10,11 +10,17 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ControlPointNumber` | `ref int` | get | - |
 | `StrSnapshotSubset` | `string` | get, set | - |
 | `AttributeToRead` | `ParticleAttributeIndex_t` | get | - |
 | `AttributeToWrite` | `ParticleAttributeIndex_t` | get | - |
+| `LocalSpaceCP` | `ref int` | get | - |
+| `Random` | `ref bool` | get | - |
+| `Reverse` | `ref bool` | get | - |
 | `SnapShotIncrement` | `CParticleCollectionFloatInput` | get | - |
 | `ManualSnapshotIndex` | `CPerParticleFloatInput` | get | - |
+| `RandomSeed` | `ref int` | get | - |
+| `LocalSpaceAngles` | `ref bool` | get | - |
 

@@ -10,7 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `EffectorBoneIdx` | `ref int` | get | - |
+| `EffectorTargetBoneIdx` | `ref int` | get | - |
+| `TargetTransform` | `ref CTransform` | get | - |
 | `EffectorTarget` | `CNmTarget` | get | - |
+| `BlendMode` | `ref NmIKBlendMode_t` | get | - |
+| `BlendWeight` | `ref float` | get | - |
+| `IsTargetInWorldSpace` | `ref bool` | get | - |
+| `IsRunningFromDeserializedData` | `ref bool` | get | - |
+| `ReferencePoseTwistWeight` | `ref float` | get | - |
+| `DebugEffectorBoneID` | `ref CGlobalSymbol` | get | - |
 

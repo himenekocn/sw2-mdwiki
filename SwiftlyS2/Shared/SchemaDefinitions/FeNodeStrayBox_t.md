@@ -8,7 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Min` | `ref Vector` | get | - |
+| `Flags` | `ref uint` | get | - |
+| `Max` | `ref Vector` | get | - |
 | `Node` | `ISchemaFixedArray\<ushort\>` | get | - |
 

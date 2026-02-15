@@ -1,6 +1,6 @@
 # 🔌 EventEndmatchCmmStartRevealItems
 
-Event "endmatch_cmm_start_reveal_items"
+事件 "endmatch_cmm_start_reveal_items"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

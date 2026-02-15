@@ -10,9 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `UsePerParticleRadius` | `ref bool` | get | - |
+| `VertexCountKb` | `ref uint` | get | - |
+| `IndexCountKb` | `ref uint` | get | - |
 | `GridSize` | `CParticleCollectionRendererFloatInput` | get | - |
 | `RadiusScale` | `CParticleCollectionRendererFloatInput` | get | - |
 | `IsosurfaceThreshold` | `CParticleCollectionRendererFloatInput` | get | - |
+| `ScaleCP` | `ref int` | get | - |
+| `Material` | `ref CStrongHandle\<InfoForResourceTypeIMaterial2\>` | get | - |
 

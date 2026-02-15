@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `NameAttach` | `string` | get, set | - |
+| `Force` | `ref float` | get | - |
+| `ForceTime` | `ref float` | get | - |
+| `AttachedObject` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `WasRestored` | `ref bool` | get | - |
 | `Integrator` | `CConstantForceController` | get | - |
 

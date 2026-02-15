@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Protocol` | `int` | get, set | - |
 | `ServerCount` | `int` | get, set | - |
@@ -26,6 +26,6 @@
 | `SkyName` | `string` | get, set | - |
 | `HostName` | `string` | get, set | - |
 | `AddonName` | `string` | get, set | - |
-| `GameSessionConfig` | `CSVCMsg_GameSessionConfiguration` | get, set | - |
+| `GameSessionConfig` | `CSVCMsg_GameSessionConfiguration` | get | - |
 | `GameSessionManifest` | `byte[]` | get, set | - |
 

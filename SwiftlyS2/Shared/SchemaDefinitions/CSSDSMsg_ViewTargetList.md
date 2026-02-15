@@ -8,8 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ViewId` | `SceneViewId_t` | get, set | - |
+| `ViewId` | `SceneViewId_t` | get | - |
 | `ViewName` | `string` | get, set | - |
+| `Targets` | `ref CUtlVector\<CSSDSMsg_ViewTarget\>` | get | - |
 

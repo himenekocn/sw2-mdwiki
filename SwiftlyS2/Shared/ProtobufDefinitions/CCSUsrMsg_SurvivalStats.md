@@ -10,11 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Xuid` | `ulong` | get, set | - |
 | `Facts` | `IProtobufRepeatedFieldSubMessageType\<CCSUsrMsg_SurvivalStats_Fact\>` | get | - |
-| `Users` | `IProtobufRepeatedFieldSubMessageType\<CCSUsrMsg_SurvivalStats_Placement\>` | get, set | - |
-| `Damages` | `IProtobufRepeatedFieldSubMessageType\<CCSUsrMsg_SurvivalStats_Damage\>` | get, set | - |
+| `Users` | `IProtobufRepeatedFieldSubMessageType\<CCSUsrMsg_SurvivalStats_Placement\>` | get | - |
+| `Damages` | `IProtobufRepeatedFieldSubMessageType\<CCSUsrMsg_SurvivalStats_Damage\>` | get | - |
 | `Ticknumber` | `int` | get, set | - |
 

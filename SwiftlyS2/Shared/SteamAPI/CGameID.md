@@ -24,6 +24,12 @@ bool IsSteamApp()
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+CGameID gameID = CGameID.CreateFromApp(12345);
+bool isSteamApp = gameID.IsSteamApp();
+```
+
 ### IsMod
 
 ```csharp
@@ -31,6 +37,11 @@ bool IsMod()
 ```
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+bool isMod = gameID.IsMod();
+```
 
 ### IsShortcut
 
@@ -40,6 +51,11 @@ bool IsShortcut()
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool isShortcut = gameID.IsShortcut();
+```
+
 ### IsP2PFile
 
 ```csharp
@@ -47,6 +63,12 @@ bool IsP2PFile()
 ```
 
 **返回值:** `bool`
+
+**用法示例:**
+```csharp
+CGameID gameID = CGameID.CreateFromSteamID(12345);  
+bool isP2PFile = gameID.IsP2PFile();
+```
 
 ### AppID
 
@@ -56,6 +78,11 @@ AppId_t AppID()
 
 **返回值:** `AppId_t`
 
+**用法示例:**
+```csharp
+AppId_t appid = gameID.AppID();
+```
+
 ### Type
 
 ```csharp
@@ -63,6 +90,12 @@ EGameIDType Type()
 ```
 
 **返回值:** `EGameIDType`
+
+**用法示例:**
+```csharp
+CGameID gameID = default;  
+EGameIDType type = gameID.Type();
+```
 
 ### ModID
 
@@ -72,6 +105,11 @@ uint ModID()
 
 **返回值:** `uint`
 
+**用法示例:**
+```csharp
+uint modId = gameID.ModID();
+```
+
 ### IsValid
 
 ```csharp
@@ -80,10 +118,22 @@ bool IsValid()
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+CGameID gameID = CGameID.CreateFromInt(12345);
+bool valid = gameID.IsValid();
+```
+
 ### Reset
 
 ```csharp
 void Reset()
+```
+
+**用法示例:**
+```csharp
+CGameID gameID;  
+gameID.Reset();
 ```
 
 ### Set
@@ -96,6 +146,12 @@ void Set(ulong GameID)
 
 - `GameID` (`ulong`)
 
+**用法示例:**
+```csharp
+CGameID gameID;  
+gameID.Set(123456789UL);
+```
+
 ### ToString
 
 ```csharp
@@ -103,6 +159,11 @@ string ToString()
 ```
 
 **返回值:** `string`
+
+**用法示例:**
+```csharp
+string idStr = CGameID.SomeExistingInstance.ToString();
+```
 
 ### Equals
 
@@ -123,6 +184,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(CGameID that)
+```
+
+**参数:**
+
+- `that` (`CGameID`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+CGameID gameID = (CGameID)12345UL;
+```
 
 ### Equals
 
@@ -147,4 +225,10 @@ int CompareTo(CGameID other)
 - `other` (`CGameID`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+CGameID gameA = CGameID.FromString("game1");  
+int result = gameA.CompareTo(gameB);
+```
 

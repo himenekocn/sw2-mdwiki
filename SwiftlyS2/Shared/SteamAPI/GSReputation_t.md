@@ -16,3 +16,22 @@
 | `m_usBannedPort` | `ushort` | - | - |
 | `m_ulBannedGameID` | `ulong` | - | - |
 
+## ⚙️ 方法
+
+### epoch
+
+```csharp
+Unix epoch(seconds since 1/1/1970)
+```
+
+**参数:**
+
+- `1/1/1970` (`seconds since`)
+
+**返回值:** `Unix`
+
+**用法示例:**
+```csharp
+long timestamp = GSReputation_t.UnixEpoch();
+```
+

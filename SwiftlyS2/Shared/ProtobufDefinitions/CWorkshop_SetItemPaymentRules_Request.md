@@ -8,12 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Appid` | `uint` | get, set | - |
 | `Gameitemid` | `uint` | get, set | - |
 | `AssociatedWorkshopFiles` | `IProtobufRepeatedFieldSubMessageType\<CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule\>` | get | - |
-| `PartnerAccounts` | `IProtobufRepeatedFieldSubMessageType\<CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule\>` | get, set | - |
+| `PartnerAccounts` | `IProtobufRepeatedFieldSubMessageType\<CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule\>` | get | - |
 | `ValidateOnly` | `bool` | get, set | - |
 | `MakeWorkshopFilesSubscribable` | `bool` | get, set | - |
 | `AssociatedWorkshopFileForDirectPayments` | `CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule` | get | - |

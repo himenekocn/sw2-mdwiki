@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `AccountId` | `uint` | get, set | - |
 | `RankId` | `uint` | get, set | - |
@@ -21,7 +21,7 @@
 | `RankIfWin` | `uint` | get, set | - |
 | `RankIfLose` | `uint` | get, set | - |
 | `RankIfTie` | `uint` | get, set | - |
-| `PerMapRank` | `IProtobufRepeatedFieldSubMessageType\<PlayerRankingInfo_PerMapRank\>` | get, set | - |
+| `PerMapRank` | `IProtobufRepeatedFieldSubMessageType\<PlayerRankingInfo_PerMapRank\>` | get | - |
 | `LeaderboardNameStatus` | `uint` | get, set | - |
 | `HighestRank` | `uint` | get, set | - |
 | `RankExpiry` | `uint` | get, set | - |

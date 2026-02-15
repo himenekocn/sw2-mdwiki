@@ -6,3 +6,12 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `OutputType_AnimationCycle` | `0` | - |
+| `OutputType_RotationX` | `1` | - |
+| `OutputType_RotationY` | `2` | - |
+| `OutputType_RotationZ` | `3` | - |
+

@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `FieldInput` | `ParticleAttributeIndex_t` | get, set | - |
-| `FieldOutput` | `ParticleAttributeIndex_t` | get, set | - |
+| `ControlPointNumber` | `ref int` | get | - |
+| `ScaleControlPoint` | `ref int` | get | - |
+| `ScaleCPField` | `ref int` | get | - |
+| `FieldInput` | `ParticleAttributeIndex_t` | get | - |
+| `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
+| `OffsetLocal` | `ref bool` | get, set | - |
 

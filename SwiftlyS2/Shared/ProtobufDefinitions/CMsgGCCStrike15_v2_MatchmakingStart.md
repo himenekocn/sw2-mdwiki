@@ -8,13 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `AccountIds` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
+| `AccountIds` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `GameType` | `uint` | get, set | - |
 | `TicketData` | `string` | get, set | - |
 | `ClientVersion` | `uint` | get, set | - |
-| `TournamentMatch` | `TournamentMatchSetup` | get, set | - |
+| `TournamentMatch` | `TournamentMatchSetup` | get | - |
 | `PrimeOnly` | `bool` | get, set | - |
 | `TvControl` | `uint` | get, set | - |
 | `LobbyId` | `ulong` | get, set | - |

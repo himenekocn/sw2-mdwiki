@@ -8,8 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `AncestorCursorIDs` | `ref CUtlVector\<PulseCursorID_t\>` | get | - |
 | `SpawnNodeID` | `PulseDocNodeID_t` | get | - |
 | `RetiredAtNodeID` | `PulseDocNodeID_t` | get | - |
+| `LastReferenced` | `ref float` | get | - |
+| `LastValidEntryIdx` | `ref int` | get | - |
 

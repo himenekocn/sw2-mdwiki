@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `EntIndex` | `int` | get, set | - |
 | `RuleName` | `string` | get, set | - |
@@ -21,7 +21,7 @@
 | `IntCriteriaValues` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
 | `FloatCriteriaNames` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `FloatCriteriaValues` | `IProtobufRepeatedFieldValueType\<float\>` | get | - |
-| `SymbolCriteriaNames` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
-| `SymbolCriteriaValues` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
+| `SymbolCriteriaNames` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `SymbolCriteriaValues` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `SpeakResult` | `int` | get, set | - |
 

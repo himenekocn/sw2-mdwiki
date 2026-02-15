@@ -10,9 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Dpv` | `dynpitchvol_t` | get, set | - |
+| `Radius` | `ref float` | get | - |
+| `MaxRadius` | `ref float` | get | - |
+| `SoundLevel` | `ref soundlevel_t` | get | - |
+| `Dpv` | `dynpitchvol_t` | get | - |
+| `Active` | `ref bool` | get | - |
+| `Looping` | `ref bool` | get | - |
 | `Sound` | `string` | get, set | - |
 | `SourceEntName` | `string` | get, set | - |
+| `SoundSource` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `SoundSourceEntIndex` | `ref uint` | get | - |
 

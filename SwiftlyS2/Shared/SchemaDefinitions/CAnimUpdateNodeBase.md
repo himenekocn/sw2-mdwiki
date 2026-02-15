@@ -8,8 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `NodePath` | `CAnimNodePath` | get, set | - |
+| `NodePath` | `CAnimNodePath` | get | - |
+| `NetworkMode` | `ref AnimNodeNetworkMode` | get | - |
 | `Name` | `string` | get, set | - |
 

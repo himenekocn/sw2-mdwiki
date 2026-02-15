@@ -18,6 +18,12 @@ void Init(uint ip, ushort usQueryPort, ushort usConnectionPort)
 - `usQueryPort` (`ushort`)
 - `usConnectionPort` (`ushort`)
 
+**用法示例:**
+```csharp
+servernetadr_t addr;
+addr.Init(0x7F000001, 27015, 27015);
+```
+
 ### GetIPAndQueryPort
 
 ```csharp
@@ -26,6 +32,11 @@ netadr_t GetIPAndQueryPort()
 
 **返回值:** `netadr_t`
 
+**用法示例:**
+```csharp
+netadr_t ipAndQueryPort = serverNetAdr.GetIPAndQueryPort();
+```
+
 ### GetQueryPort
 
 ```csharp
@@ -33,6 +44,11 @@ ushort GetQueryPort()
 ```
 
 **返回值:** `ushort`
+
+**用法示例:**
+```csharp
+ushort port = serverNetAdr.GetQueryPort();
+```
 
 ### SetQueryPort
 
@@ -44,6 +60,12 @@ void SetQueryPort(ushort usPort)
 
 - `usPort` (`ushort`)
 
+**用法示例:**
+```csharp
+servernetadr_t adr;  
+adr.SetQueryPort(27015);
+```
+
 ### GetConnectionPort
 
 ```csharp
@@ -51,6 +73,11 @@ ushort GetConnectionPort()
 ```
 
 **返回值:** `ushort`
+
+**用法示例:**
+```csharp
+ushort port = serverNetAdr.GetConnectionPort();
+```
 
 ### SetConnectionPort
 
@@ -62,6 +89,12 @@ void SetConnectionPort(ushort usPort)
 
 - `usPort` (`ushort`)
 
+**用法示例:**
+```csharp
+servernetadr_t adr;  
+adr.SetConnectionPort(27015);
+```
+
 ### GetIP
 
 ```csharp
@@ -69,6 +102,11 @@ uint GetIP()
 ```
 
 **返回值:** `uint`
+
+**用法示例:**
+```csharp
+uint ip = serverNetAdr.GetIP();
+```
 
 ### SetIP
 
@@ -80,6 +118,12 @@ void SetIP(uint unIP)
 
 - `unIP` (`uint`)
 
+**用法示例:**
+```csharp
+servernetadr_t adr;  
+adr.SetIP(0x7F000001);
+```
+
 ### GetConnectionAddressString
 
 ```csharp
@@ -88,6 +132,11 @@ string GetConnectionAddressString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string addr = serverNetAdr.GetConnectionAddressString();
+```
+
 ### GetQueryAddressString
 
 ```csharp
@@ -95,6 +144,11 @@ string GetQueryAddressString()
 ```
 
 **返回值:** `string`
+
+**用法示例:**
+```csharp
+string queryAddr = serverNetAdr.GetQueryAddressString();
+```
 
 ### ToString (静态)
 
@@ -108,6 +162,11 @@ string ToString(uint unIP, ushort usPort)
 - `usPort` (`ushort`)
 
 **返回值:** `string`
+
+**用法示例:**
+```csharp
+string addr = servernetadr_t.ToString(0x7F000001, 8080);
+```
 
 ### Equals
 
@@ -152,4 +211,9 @@ int CompareTo(servernetadr_t other)
 - `other` (`servernetadr_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+servernetadr_t a = default; servernetadr_t b = default; int result = a.CompareTo(b);
+```
 

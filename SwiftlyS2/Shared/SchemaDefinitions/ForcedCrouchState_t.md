@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `FORCEDCROUCH_NONE` | `0` | - |
+| `FORCEDCROUCH_CROUCHED` | `1` | - |
+| `FORCEDCROUCH_UNCROUCHED` | `2` | - |
+

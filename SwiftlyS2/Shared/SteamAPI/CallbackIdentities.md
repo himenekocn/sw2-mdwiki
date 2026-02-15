@@ -18,3 +18,8 @@ int GetCallbackIdentity(Type callbackStruct)
 
 **返回值:** `int`
 
+**用法示例:**
+```csharp
+int id = CallbackIdentities.GetCallbackIdentity(typeof(MyStruct));
+```
+

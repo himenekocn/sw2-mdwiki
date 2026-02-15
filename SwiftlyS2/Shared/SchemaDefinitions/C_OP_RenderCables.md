@@ -10,16 +10,27 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `RadiusScale` | `CParticleCollectionFloatInput` | get | - |
 | `AlphaScale` | `CParticleCollectionFloatInput` | get | - |
 | `ColorScale` | `CParticleCollectionVecInput` | get | - |
-| `TextureRepeatsPerSegment` | `CParticleCollectionFloatInput` | get, set | - |
-| `TextureRepeatsCircumference` | `CParticleCollectionFloatInput` | get, set | - |
+| `ColorBlendType` | `ref ParticleColorBlendType_t` | get | - |
+| `Material` | `ref CStrongHandle\<InfoForResourceTypeIMaterial2\>` | get | - |
+| `TextureRepetitionMode` | `ref TextureRepetitionMode_t` | get | - |
+| `TextureRepeatsPerSegment` | `CParticleCollectionFloatInput` | get | - |
+| `TextureRepeatsCircumference` | `CParticleCollectionFloatInput` | get | - |
 | `ColorMapOffsetV` | `CParticleCollectionFloatInput` | get, set | - |
 | `ColorMapOffsetU` | `CParticleCollectionFloatInput` | get, set | - |
 | `NormalMapOffsetV` | `CParticleCollectionFloatInput` | get, set | - |
 | `NormalMapOffsetU` | `CParticleCollectionFloatInput` | get, set | - |
+| `DrawCableCaps` | `ref bool` | get | - |
+| `CapRoundness` | `ref float` | get | - |
+| `CapOffsetAmount` | `ref float` | get, set | - |
+| `TessScale` | `ref float` | get | - |
+| `MinTesselation` | `ref int` | get | - |
+| `MaxTesselation` | `ref int` | get | - |
+| `Roundness` | `ref int` | get | - |
+| `ForceRoundnessFixed` | `ref bool` | get | - |
 | `LightingTransform` | `CParticleTransformInput` | get | - |
 

@@ -8,8 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `MaxCarry` | `ref int` | get | - |
 | `SplashSize` | `CRangeInt` | get | - |
+| `Flags` | `ref AmmoFlags_t` | get | - |
+| `Mass` | `ref float` | get | - |
 | `Speed` | `CRangeFloat` | get | - |
 

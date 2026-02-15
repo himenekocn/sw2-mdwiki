@@ -8,11 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `QuestId` | `ulong` | get, set | - |
 | `Score` | `uint` | get, set | - |
-| `Accountentries` | `IProtobufRepeatedFieldSubMessageType\<ScoreLeaderboardData_AccountEntries\>` | get, set | - |
-| `Matchentries` | `IProtobufRepeatedFieldSubMessageType\<ScoreLeaderboardData_Entry\>` | get, set | - |
+| `Accountentries` | `IProtobufRepeatedFieldSubMessageType\<ScoreLeaderboardData_AccountEntries\>` | get | - |
+| `Matchentries` | `IProtobufRepeatedFieldSubMessageType\<ScoreLeaderboardData_Entry\>` | get | - |
 | `LeaderboardName` | `string` | get, set | - |
 

@@ -10,8 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `SetOnce` | `ref bool` | get | - |
+| `CP1` | `ref int` | get | - |
 | `CP1Pos` | `CParticleCollectionVecInput` | get | - |
 | `TransformInput` | `CParticleTransformInput` | get | - |
 

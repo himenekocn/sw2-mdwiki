@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `TrackOrientation_Fixed` | `0` | - |
+| `TrackOrientation_FacePath` | `1` | - |
+| `TrackOrientation_FacePathAngles` | `2` | - |
+

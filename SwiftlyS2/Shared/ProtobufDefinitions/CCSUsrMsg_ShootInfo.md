@@ -10,10 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FrameNumber` | `int` | get, set | - |
-| `HitboxTransforms` | `IProtobufRepeatedFieldSubMessageType\<CMsgTransform\>` | get, set | - |
+| `HitboxTransforms` | `IProtobufRepeatedFieldSubMessageType\<CMsgTransform\>` | get | - |
 | `ShootPos` | `Vector` | get, set | - |
 | `ShootDir` | `QAngle` | get, set | - |
 

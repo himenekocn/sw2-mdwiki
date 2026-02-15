@@ -1,6 +1,6 @@
 # 🔌 EventRoundStartPostNav
 
-Event "round_start_post_nav"
+事件 "round_start_post_nav"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

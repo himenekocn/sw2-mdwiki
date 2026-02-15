@@ -1,6 +1,6 @@
 # 🔌 IOnEntityDeletedEvent
 
-Called when an entity is deleted.
+当实体被删除时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,7 +8,7 @@ Called when an entity is deleted.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Entity` | `CEntityInstance` | get | The entity that was deleted. |
+| `Entity` | `CEntityInstance` | get | 被删除的实体。 |
 

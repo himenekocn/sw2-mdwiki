@@ -1,6 +1,6 @@
 # 📦 CallbackDispatcher
 
-Manages Steam callbacks and call results registration/dispatch
+管理 Steam 回调与调用结果的注册/分发
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`
 

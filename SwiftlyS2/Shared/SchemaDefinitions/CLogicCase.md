@@ -10,9 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Case` | `ISchemaStringFixedArray` | get | - |
+| `ShuffleCases` | `ref int` | get | - |
+| `LastShuffleCase` | `ref int` | get | - |
 | `UchShuffleCaseMap` | `ISchemaFixedArray\<byte\>` | get | - |
 | `OnCase` | `ISchemaFixedArray\<CEntityIOOutput\>` | get | - |
 | `OnDefault` | `SchemaUntypedField` | get | - |

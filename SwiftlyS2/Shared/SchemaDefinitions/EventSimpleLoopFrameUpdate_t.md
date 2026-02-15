@@ -8,7 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `LoopState` | `EngineLoopState_t` | get | - |
+| `RealTime` | `ref float` | get | - |
+| `FrameTime` | `ref float` | get | - |
 

@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = UGCUpdateHandle_t.Invalid.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(UGCUpdateHandle_t that)
+```
+
+**参数:**
+
+- `that` (`UGCUpdateHandle_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+ulong handle = UGCUpdateHandle_t.operator_ulong(existingHandle);
+```
 
 ### Equals
 
@@ -67,4 +89,9 @@ int CompareTo(UGCUpdateHandle_t other)
 - `other` (`UGCUpdateHandle_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+int result = handle1.CompareTo(handle2);
+```
 

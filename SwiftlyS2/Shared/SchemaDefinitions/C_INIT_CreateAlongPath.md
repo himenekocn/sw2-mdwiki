@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PathParams` | `CPathParameters` | get, set | - |
+| `MaxDistance` | `ref float` | get | - |
+| `PathParams` | `CPathParameters` | get | - |
+| `UseRandomCPs` | `ref bool` | get | - |
+| `EndOffset` | `ref Vector` | get, set | - |
+| `SaveOffset` | `ref bool` | get, set | - |
 

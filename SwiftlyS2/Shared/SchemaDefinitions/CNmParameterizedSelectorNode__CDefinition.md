@@ -10,8 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `OptionNodeIndices` | `SchemaUntypedField` | get | - |
 | `OptionWeights` | `SchemaUntypedField` | get | - |
+| `ParameterNodeIdx` | `ref short` | get | - |
+| `IgnoreInvalidOptions` | `ref bool` | get | - |
+| `HasWeightsSet` | `ref bool` | get | - |
 

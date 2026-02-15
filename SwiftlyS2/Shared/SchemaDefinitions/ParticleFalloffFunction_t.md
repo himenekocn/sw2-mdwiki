@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_FALLOFF_CONSTANT` | `0` | - |
+| `PARTICLE_FALLOFF_LINEAR` | `1` | - |
+| `PARTICLE_FALLOFF_EXPONENTIAL` | `2` | - |
+

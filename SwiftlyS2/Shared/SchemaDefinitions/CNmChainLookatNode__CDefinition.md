@@ -8,3 +8,15 @@
 
 **实现接口:** `ISchemaClass\<CNmChainLookatNode__CDefinition\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ChainEndBoneID` | `ref CGlobalSymbol` | get | - |
+| `LookatTargetNodeIdx` | `ref short` | get | - |
+| `EnabledNodeIdx` | `ref short` | get | - |
+| `BlendTimeSeconds` | `ref float` | get | - |
+| `ChainLength` | `ref byte` | get | - |
+| `IsTargetInWorldSpace` | `ref bool` | get | - |
+| `ChainForwardDir` | `ref Vector` | get | - |
+

@@ -12,3 +12,18 @@
 | `m_hSteamLeaderboard` | `SteamLeaderboard_t` | - | - |
 | `m_cEntryCount` | `int` | - | - |
 
+## ⚙️ 方法
+
+### GetDownloadedLeaderboardEntries
+
+```csharp
+into GetDownloadedLeaderboardEntries()
+```
+
+**返回值:** `into`
+
+**用法示例:**
+```csharp
+LeaderboardScoresDownloaded_t.GetDownloadedLeaderboardEntries()
+```
+

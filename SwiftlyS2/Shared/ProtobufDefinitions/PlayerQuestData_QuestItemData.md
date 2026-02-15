@@ -8,13 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `QuestId` | `ulong` | get, set | - |
 | `QuestNormalPointsEarned` | `int` | get, set | - |
 | `QuestBonusPointsEarned` | `int` | get, set | - |
-| `QuestNormalPointsRequired` | `IProtobufRepeatedFieldValueType\<int\>` | get, set | - |
-| `QuestRewardXp` | `IProtobufRepeatedFieldValueType\<int\>` | get, set | - |
+| `QuestNormalPointsRequired` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
+| `QuestRewardXp` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
 | `QuestPeriod` | `int` | get, set | - |
 | `QuestType` | `QuestType` | get, set | - |
 

@@ -6,3 +6,18 @@
 
 **继承:** `ulong`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_MASK_ALL` | `ulong.MaxValue` | - |
+| `PARTICLE_MASK_SOLID` | `798721` | - |
+| `PARTICLE_MASK_WATER` | `98304` | - |
+| `PARTICLE_MASK_SOLID_WATER` | `897025` | - |
+| `PARTICLE_MASK_SHOT` | `1839107` | - |
+| `PARTICLE_MASK_SHOT_BRUSHONLY` | `1052673` | - |
+| `PARTICLE_MASK_SHOT_HULL` | `1847297` | - |
+| `PARTICLE_MASK_OPAQUE` | `128` | - |
+| `PARTICLE_MASK_DEFAULTPLAYERSOLID` | `798737` | - |
+| `PARTICLE_MASK_NPCSOLID` | `798753` | - |
+

@@ -10,7 +10,18 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `DecoyShotTick` | `ref int` | get | - |
+| `ShotsRemaining` | `ref int` | get | - |
 | `ExpireTime` | `GameTime_t` | get | - |
+| `DecoyWeaponDefIndex` | `ref ushort` | get | - |
+
+## ⚙️ 方法
+
+### DecoyShotTickUpdated
+
+```csharp
+void DecoyShotTickUpdated()
+```
 

@@ -15,3 +15,22 @@
 | `m_nRemoteIP` | `uint` | - | - |
 | `m_nRemotePort` | `ushort` | - | - |
 
+## ⚙️ 方法
+
+### server
+
+```csharp
+relay server( TURN)
+```
+
+**参数:**
+
+- `TURN` (``)
+
+**返回值:** `relay`
+
+**用法示例:**
+```csharp
+P2PSessionState_t.relay_server(P2PSessionState_t.TURN);
+```
+

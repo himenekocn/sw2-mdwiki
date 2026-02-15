@@ -8,3 +8,12 @@
 
 **实现接口:** `ISchemaClass\<CNmTargetOffsetNode__CDefinition\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InputValueNodeIdx` | `ref short` | get | - |
+| `IsBoneSpaceOffset` | `ref bool` | get, set | - |
+| `RotationOffset` | `ref Quaternion` | get, set | - |
+| `TranslationOffset` | `ref Vector` | get, set | - |
+

@@ -8,16 +8,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Groupid` | `uint` | get, set | - |
 | `Name` | `string` | get, set | - |
 | `Desc` | `string` | get, set | - |
 | `PicksDeprecated` | `uint` | get, set | - |
-| `Teams` | `IProtobufRepeatedFieldSubMessageType\<CDataGCCStrike15_v2_TournamentGroupTeam\>` | get, set | - |
-| `StageIds` | `IProtobufRepeatedFieldValueType\<int\>` | get, set | - |
+| `Teams` | `IProtobufRepeatedFieldSubMessageType\<CDataGCCStrike15_v2_TournamentGroupTeam\>` | get | - |
+| `StageIds` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
 | `Picklockuntiltime` | `uint` | get, set | - |
 | `Pickableteams` | `uint` | get, set | - |
 | `PointsPerPick` | `uint` | get, set | - |
-| `Picks` | `IProtobufRepeatedFieldSubMessageType\<CDataGCCStrike15_v2_TournamentGroup_Picks\>` | get, set | - |
+| `Picks` | `IProtobufRepeatedFieldSubMessageType\<CDataGCCStrike15_v2_TournamentGroup_Picks\>` | get | - |
 

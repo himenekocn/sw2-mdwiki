@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `IKTARGETCOORDINATESYSTEM_WorldSpace` | `0` | - |
+| `IKTARGETCOORDINATESYSTEM_ModelSpace` | `1` | - |
+| `IKTARGETCOORDINATESYSTEM_COUNT` | `2` | - |
+

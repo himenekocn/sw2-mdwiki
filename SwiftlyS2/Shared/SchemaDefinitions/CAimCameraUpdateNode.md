@@ -10,10 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ParameterPosition` | `CAnimParamHandle` | get, set | - |
-| `ParameterOrientation` | `CAnimParamHandle` | get, set | - |
+| `ParameterPosition` | `CAnimParamHandle` | get | - |
+| `ParameterOrientation` | `CAnimParamHandle` | get | - |
 | `ParameterPelvisOffset` | `CAnimParamHandle` | get, set | - |
 | `ParameterCameraOnly` | `CAnimParamHandle` | get | - |
 | `ParameterWeaponDepenetrationDistance` | `CAnimParamHandle` | get | - |

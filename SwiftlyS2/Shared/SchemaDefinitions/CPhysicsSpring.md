@@ -10,8 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Frequency` | `ref float` | get | - |
+| `DampingRatio` | `ref float` | get | - |
+| `RestLength` | `ref float` | get | - |
 | `NameAttachStart` | `string` | get, set | - |
 | `NameAttachEnd` | `string` | get, set | - |
+| `Start` | `ref Vector` | get | - |
+| `End` | `ref Vector` | get | - |
+| `TeleportTick` | `ref uint` | get | - |
 

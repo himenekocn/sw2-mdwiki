@@ -10,8 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `SnapshotControlPointNumber` | `ref int` | get | - |
+| `ControlPointNumber` | `ref int` | get | - |
+| `Random` | `ref bool` | get | - |
+| `RandomSeed` | `ref int` | get | - |
+| `SetNormal` | `ref bool` | get | - |
+| `SetRadius` | `ref bool` | get | - |
+| `IndexType` | `ref SnapshotIndexType_t` | get | - |
 | `ReadIndex` | `CPerParticleFloatInput` | get | - |
 | `Increment` | `CParticleCollectionFloatInput` | get | - |
 | `FullLoopIncrement` | `CParticleCollectionFloatInput` | get | - |

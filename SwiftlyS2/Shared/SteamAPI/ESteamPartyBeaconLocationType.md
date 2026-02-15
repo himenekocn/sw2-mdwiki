@@ -6,3 +6,10 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ESteamPartyBeaconLocationType_Invalid` | `0` | - |
+| `k_ESteamPartyBeaconLocationType_ChatGroup` | `1` | - |
+

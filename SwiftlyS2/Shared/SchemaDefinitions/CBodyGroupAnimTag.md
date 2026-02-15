@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CBodyGroupAnimTag\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Priority` | `ref int` | get | - |
+| `BodyGroupSettings` | `ref CUtlVector\<CBodyGroupSetting\>` | get | - |
+

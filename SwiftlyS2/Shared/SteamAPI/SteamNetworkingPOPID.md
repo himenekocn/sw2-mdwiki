@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+SteamNetworkingPOPID popid = SteamNetworkingPOPID.Invalid;
+string result = popid.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(SteamNetworkingPOPID that)
+```
+
+**参数:**
+
+- `that` (`SteamNetworkingPOPID`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint id = (uint)SteamNetworkingPOPID.k_ESteamNetworkingPOPID_Invalid;
+```
 
 ### Equals
 
@@ -67,4 +90,10 @@ int CompareTo(SteamNetworkingPOPID other)
 - `other` (`SteamNetworkingPOPID`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SteamNetworkingPOPID popid1 = SteamNetworkingPOPID.Invalid;  
+int result = popid1.CompareTo(SteamNetworkingPOPID.LocalHost);
+```
 

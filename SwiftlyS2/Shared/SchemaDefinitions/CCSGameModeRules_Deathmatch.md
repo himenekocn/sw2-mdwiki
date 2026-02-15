@@ -10,8 +10,29 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `DMBonusStartTime` | `GameTime_t` | get, set | - |
+| `DMBonusStartTime` | `GameTime_t` | get | - |
+| `DMBonusTimeLength` | `ref float` | get | - |
 | `DMBonusWeapon` | `string` | get, set | - |
+
+## ⚙️ 方法
+
+### DMBonusStartTimeUpdated
+
+```csharp
+void DMBonusStartTimeUpdated()
+```
+
+### DMBonusTimeLengthUpdated
+
+```csharp
+void DMBonusTimeLengthUpdated()
+```
+
+### DMBonusWeaponUpdated
+
+```csharp
+void DMBonusWeaponUpdated()
+```
 

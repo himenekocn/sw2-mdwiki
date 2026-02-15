@@ -8,8 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `BuilderParams` | `WorldBuilderParams_t` | get | - |
+| `WorldNodes` | `ref CUtlVector\<NodeData_t\>` | get | - |
 | `WorldLightingInfo` | `BakedLightingInfo_t` | get | - |
+| `EntityLumps` | `ref CUtlVector\<CStrongHandle\<InfoForResourceTypeCEntityLump\>\>` | get | - |
 

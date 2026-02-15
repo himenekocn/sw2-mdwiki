@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `TransformInput` | `CParticleTransformInput` | get | - |
 | `ParticlesPerOrbit` | `CParticleCollectionFloatInput` | get | - |
@@ -21,4 +21,6 @@
 | `Roll` | `CPerParticleFloatInput` | get | - |
 | `Pitch` | `CPerParticleFloatInput` | get | - |
 | `Yaw` | `CPerParticleFloatInput` | get | - |
+| `EvenDistribution` | `ref bool` | get | - |
+| `XYVelocityOnly` | `ref bool` | get | - |
 

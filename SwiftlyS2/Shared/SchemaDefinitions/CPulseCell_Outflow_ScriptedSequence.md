@@ -10,10 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SyncGroup` | `string` | get, set | - |
+| `ExpectedNumSequencesInSyncGroup` | `ref int` | get | - |
+| `EnsureOnNavmeshOnFinish` | `ref bool` | get | - |
+| `DontTeleportAtEnd` | `ref bool` | get | - |
+| `DisallowInterrupts` | `ref bool` | get | - |
 | `ScriptedSequenceDataMain` | `PulseScriptedSequenceData_t` | get | - |
+| `AdditionalActors` | `ref CUtlVector\<PulseScriptedSequenceData_t\>` | get | - |
 | `OnFinished` | `CPulse_ResumePoint` | get | - |
 | `OnCanceled` | `CPulse_ResumePoint` | get | - |
+| `Triggers` | `ref CUtlVector\<CPulse_OutflowConnection\>` | get | - |
 

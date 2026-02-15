@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string ticketString = HAuthTicket.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(HAuthTicket that)
+```
+
+**参数:**
+
+- `that` (`HAuthTicket`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint ticket = (uint)HAuthTicket.someInstance;
+```
 
 ### Equals
 
@@ -67,4 +89,9 @@ int CompareTo(HAuthTicket other)
 - `other` (`HAuthTicket`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+int result = ticket1.CompareTo(ticket2);
+```
 

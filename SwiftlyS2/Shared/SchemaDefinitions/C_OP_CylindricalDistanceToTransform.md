@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
 | `InputMin` | `CPerParticleFloatInput` | get | - |
@@ -19,4 +19,8 @@
 | `OutputMax` | `CPerParticleFloatInput` | get | - |
 | `TransformStart` | `CParticleTransformInput` | get | - |
 | `TransformEnd` | `CParticleTransformInput` | get | - |
+| `SetMethod` | `ref ParticleSetMethod_t` | get | - |
+| `ActiveRange` | `ref bool` | get | - |
+| `Additive` | `ref bool` | get | - |
+| `Capsule` | `ref bool` | get | - |
 

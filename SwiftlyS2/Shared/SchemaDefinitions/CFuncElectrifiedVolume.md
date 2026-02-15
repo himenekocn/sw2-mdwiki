@@ -10,10 +10,18 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `EffectName` | `string` | get, set | - |
 | `EffectInterpenetrateName` | `string` | get, set | - |
 | `EffectZapName` | `string` | get, set | - |
 | `EffectSource` | `string` | get, set | - |
+
+## ⚙️ 方法
+
+### EffectNameUpdated
+
+```csharp
+void EffectNameUpdated()
+```
 

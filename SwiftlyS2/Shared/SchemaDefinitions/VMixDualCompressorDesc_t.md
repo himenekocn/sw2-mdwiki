@@ -8,7 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `RMSTimeMS` | `ref float` | get | - |
+| `FldbKneeWidth` | `ref float` | get | - |
+| `WetMix` | `ref float` | get | - |
+| `PeakMode` | `ref bool` | get | - |
 | `BandDesc` | `VMixDynamicsBand_t` | get | - |
 

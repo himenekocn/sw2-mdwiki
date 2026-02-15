@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Sectionid` | `int` | get, set | - |
 | `Slots` | `IProtobufRepeatedFieldSubMessageType\<CMsgGCCStrike15_v2_Fantasy_FantasySlot\>` | get | - |

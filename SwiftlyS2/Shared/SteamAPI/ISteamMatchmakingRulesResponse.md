@@ -12,3 +12,81 @@
 | `m_VTRulesFailedToRespond` | `InternalRulesFailedToRespond` | - | - |
 | `m_VTRulesRefreshComplete` | `InternalRulesRefreshComplete` | - | - |
 
+## ⚙️ 方法
+
+### RulesResponded
+
+```csharp
+void RulesResponded(string pchRule, string pchValue)
+```
+
+**参数:**
+
+- `pchRule` (`string`)
+- `pchValue` (`string`)
+
+**用法示例:**
+```csharp
+ISteamMatchmakingRulesResponse.RulesResponded("map", "de_dust2");
+```
+
+### RulesFailedToRespond
+
+```csharp
+void RulesFailedToRespond()
+```
+
+**用法示例:**
+```csharp
+ISteamMatchmakingRulesResponse.RulesFailedToRespond();
+```
+
+### RulesRefreshComplete
+
+```csharp
+void RulesRefreshComplete()
+```
+
+**用法示例:**
+```csharp
+ISteamMatchmakingRulesResponse.RulesRefreshComplete();
+```
+
+### InternalRulesResponded
+
+```csharp
+void InternalRulesResponded(IntPtr pchRule, IntPtr pchValue)
+```
+
+**参数:**
+
+- `pchRule` (`IntPtr`)
+- `pchValue` (`IntPtr`)
+
+**用法示例:**
+```csharp
+ISteamMatchmakingRulesResponse.InternalRulesResponded(IntPtr.Zero, IntPtr.Zero);
+```
+
+### InternalRulesFailedToRespond
+
+```csharp
+void InternalRulesFailedToRespond()
+```
+
+**用法示例:**
+```csharp
+ISteamMatchmakingRulesResponse.InternalRulesFailedToRespond();
+```
+
+### InternalRulesRefreshComplete
+
+```csharp
+void InternalRulesRefreshComplete()
+```
+
+**用法示例:**
+```csharp
+ISteamMatchmakingRulesResponse.InternalRulesRefreshComplete();
+```
+

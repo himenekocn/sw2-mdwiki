@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Dedicated` | `bool` | get, set | - |
 | `CpuUsage` | `int` | get, set | - |
@@ -21,7 +21,7 @@
 | `NumSpectators` | `int` | get, set | - |
 | `NumTvRelays` | `int` | get, set | - |
 | `Fps` | `float` | get, set | - |
-| `Ports` | `IProtobufRepeatedFieldSubMessageType\<CMsgServerNetworkStats_Port\>` | get, set | - |
+| `Ports` | `IProtobufRepeatedFieldSubMessageType\<CMsgServerNetworkStats_Port\>` | get | - |
 | `AvgPingMs` | `float` | get, set | - |
 | `AvgEngineLatencyOut` | `float` | get, set | - |
 | `AvgPacketsOut` | `float` | get, set | - |

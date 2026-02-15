@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CBoneConstraintRbf\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InputBones` | `ref CUtlVector\<SchemaUntypedField\>` | get | - |
+| `OutputBones` | `ref CUtlVector\<SchemaUntypedField\>` | get | - |
+

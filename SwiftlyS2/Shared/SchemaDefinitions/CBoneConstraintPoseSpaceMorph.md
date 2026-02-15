@@ -10,8 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `BoneName` | `string` | get, set | - |
 | `AttachmentName` | `string` | get, set | - |
+| `OutputMorph` | `ref CUtlVector\<CUtlString\>` | get | - |
+| `InputList` | `ref CUtlVector\<CBoneConstraintPoseSpaceMorph__Input_t\>` | get | - |
+| `Clamp` | `ref bool` | get | - |
 

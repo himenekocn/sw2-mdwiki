@@ -1,6 +1,6 @@
 # 🔌 IOnEntityStartTouchEvent
 
-Called when an entity starts touching another entity.
+当实体开始接触另一个实体时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,8 +8,8 @@ Called when an entity starts touching another entity.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Entity` | `CBaseEntity` | get | Gets the entity that initiated the touch. |
-| `OtherEntity` | `CBaseEntity` | get | Gets the entity being touched. |
+| `Entity` | `CBaseEntity` | get | 获取发起触摸的实体。 |
+| `OtherEntity` | `CBaseEntity` | get | 获取被触摸的实体。 |
 

@@ -8,7 +8,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `FldbGainOutput` | `ref float` | get | - |
+| `RMSTimeMS` | `ref float` | get | - |
+| `FldbKneeWidth` | `ref float` | get | - |
+| `Depth` | `ref float` | get | - |
+| `WetMix` | `ref float` | get | - |
+| `TimeScale` | `ref float` | get | - |
+| `LowCutoffFreq` | `ref float` | get | - |
+| `HighCutoffFreq` | `ref float` | get | - |
+| `PeakMode` | `ref bool` | get | - |
 | `BandDesc` | `ISchemaClassFixedArray\<VMixDynamicsBand_t\>` | get | - |
 

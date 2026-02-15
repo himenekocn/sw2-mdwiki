@@ -8,8 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `StartTime` | `NmPercent_t` | get | - |
 | `Duration` | `NmPercent_t` | get | - |
+| `SyncID` | `ref CGlobalSymbol` | get | - |
+| `ClientOnly` | `ref bool` | get | - |
 

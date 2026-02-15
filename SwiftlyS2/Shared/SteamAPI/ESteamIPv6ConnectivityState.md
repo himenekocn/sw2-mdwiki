@@ -6,3 +6,11 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ESteamIPv6ConnectivityState_Unknown` | `0` | - |
+| `k_ESteamIPv6ConnectivityState_Good` | `1` | - |
+| `k_ESteamIPv6ConnectivityState_Bad` | `2` | - |
+

@@ -10,8 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `OrientationType` | `ref ParticleOrientationChoiceList_t` | get | - |
+| `OrientationControlPoint` | `ref int` | get | - |
+| `MinSize` | `ref float` | get | - |
+| `MaxSize` | `ref float` | get | - |
 | `StartFadeSize` | `CParticleCollectionRendererFloatInput` | get | - |
 | `EndFadeSize` | `CParticleCollectionRendererFloatInput` | get | - |
+| `ClampV` | `ref bool` | get | - |
 

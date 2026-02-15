@@ -10,7 +10,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Pos` | `CPerParticleVecInput` | get | - |
 | `Radius` | `CPerParticleFloatInput` | get | - |
@@ -18,4 +18,6 @@
 | `Shape` | `CPerParticleFloatInput` | get | - |
 | `WindSpeed` | `CPerParticleFloatInput` | get | - |
 | `Wobble` | `CPerParticleFloatInput` | get | - |
+| `IsRadialWind` | `ref bool` | get | - |
+| `EventType` | `ref EventTypeSelection_t` | get | - |
 

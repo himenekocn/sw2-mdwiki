@@ -14,3 +14,18 @@
 | `m_bRequestSuccessful` | `bool` | - | - |
 | `m_eStatusCode` | `EHTTPStatusCode` | - | - |
 
+## ⚙️ 方法
+
+### GetHTTPResponseBodySize
+
+```csharp
+as GetHTTPResponseBodySize()
+```
+
+**返回值:** `as`
+
+**用法示例:**
+```csharp
+int size = HTTPRequestCompleted_t.GetHTTPResponseBodySize();
+```
+

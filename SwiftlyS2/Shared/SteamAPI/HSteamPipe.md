@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+HSteamPipe pipe = default;
+string result = pipe.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### int (静态)
+
+```csharp
+operator int(HSteamPipe that)
+```
+
+**参数:**
+
+- `that` (`HSteamPipe`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+int pipe = (int)HSteamPipe.myPipe;
+```
 
 ### Equals
 
@@ -67,4 +90,10 @@ int CompareTo(HSteamPipe other)
 - `other` (`HSteamPipe`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+HSteamPipe pipe1 = SteamAPI.GetHSteamPipe();  
+int result = pipe1.CompareTo(pipe2);
+```
 

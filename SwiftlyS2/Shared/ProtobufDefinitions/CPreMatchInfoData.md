@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `PredictionsPct` | `int` | get, set | - |
 | `Draft` | `CDataGCCStrike15_v2_TournamentMatchDraft` | get | - |

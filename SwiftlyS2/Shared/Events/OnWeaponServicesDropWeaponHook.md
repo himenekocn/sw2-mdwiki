@@ -1,6 +1,6 @@
 # 🔗 OnWeaponServicesDropWeaponHook
 
-Called when a weapon services drop weapon hook is triggered.
+当武器服务触发弃械钩子时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

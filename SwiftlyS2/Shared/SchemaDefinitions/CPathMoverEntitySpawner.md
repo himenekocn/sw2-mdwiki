@@ -10,9 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SpawnTemplates` | `ISchemaStringFixedArray` | get | - |
+| `SpawnIndex` | `ref int` | get | - |
+| `PathMover` | `ref CHandle\<CPathMover\>` | get | - |
+| `SpawnFrequencySeconds` | `ref float` | get | - |
+| `SpawnFrequencyDistToNearestMover` | `ref float` | get | - |
 | `MapSpawnedMoverTemplates` | `SchemaUntypedField` | get | - |
+| `MaxActive` | `ref int` | get | - |
 | `LastSpawnTime` | `GameTime_t` | get | - |
+| `Enabled` | `ref bool` | get | - |
 

@@ -1,6 +1,6 @@
 # 🔌 EventItemSchemaInitialized
 
-Event "item_schema_initialized"
+事件 "item_schema_initialized"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

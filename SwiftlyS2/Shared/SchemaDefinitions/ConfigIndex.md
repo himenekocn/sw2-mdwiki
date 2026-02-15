@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<ConfigIndex\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Group` | `ref ushort` | get | - |
+| `Config` | `ref ushort` | get | - |
+

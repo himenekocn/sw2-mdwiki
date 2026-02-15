@@ -10,10 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `DurationScale` | `ref float` | get | - |
+| `RadiusScale` | `ref float` | get | - |
+| `FrequencyScale` | `ref float` | get | - |
+| `AmplitudeScale` | `ref float` | get | - |
 | `RadiusField` | `ParticleAttributeIndex_t` | get | - |
 | `DurationField` | `ParticleAttributeIndex_t` | get | - |
 | `FrequencyField` | `ParticleAttributeIndex_t` | get | - |
 | `AmplitudeField` | `ParticleAttributeIndex_t` | get | - |
+| `FilterCP` | `ref int` | get | - |
 

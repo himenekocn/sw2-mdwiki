@@ -8,7 +8,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Time` | `ref float` | get | - |
 | `Stamp` | `SkeletonAnimCapture_t__FrameStamp_t` | get | - |
+| `Transform` | `ref CTransform` | get | - |
+| `Teleport` | `ref bool` | get | - |
+| `CompositeBones` | `ref CUtlVector\<CTransform\>` | get | - |
+| `SimStateBones` | `ref CUtlVector\<CTransform\>` | get | - |
+| `FeModelAnims` | `ref CUtlVector\<CTransform\>` | get | - |
+| `FeModelPos` | `ref CUtlVector\<Vector\>` | get | - |
+| `FlexControllerWeights` | `ref CUtlVector\<float\>` | get | - |
 

@@ -6,3 +6,11 @@
 
 **继承:** `byte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `DirectionOnly` | `0` | - |
+| `MagnitudeOnly` | `1` | - |
+| `DirectionAndMagnitude` | `2` | - |
+

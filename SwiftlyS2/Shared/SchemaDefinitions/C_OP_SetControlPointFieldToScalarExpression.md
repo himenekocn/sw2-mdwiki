@@ -10,10 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Expression` | `ref ScalarExpressionType_t` | get | - |
 | `Input1` | `CParticleCollectionFloatInput` | get | - |
 | `Input2` | `CParticleCollectionFloatInput` | get | - |
 | `OutputRemap` | `CParticleRemapFloatInput` | get | - |
+| `OutputCP` | `ref int` | get | - |
+| `OutVectorField` | `ref int` | get | - |
 | `Interpolation` | `CParticleCollectionFloatInput` | get | - |
 

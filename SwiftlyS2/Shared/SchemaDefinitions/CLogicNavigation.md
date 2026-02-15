@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CLogicNavigation\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `IsOn` | `ref bool` | get | - |
+| `NavProperty` | `ref navproperties_t` | get | - |
+

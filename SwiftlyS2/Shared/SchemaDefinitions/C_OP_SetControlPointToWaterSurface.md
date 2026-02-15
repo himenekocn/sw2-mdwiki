@@ -10,7 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `SourceCP` | `ref int` | get | - |
+| `DestCP` | `ref int` | get | - |
+| `FlowCP` | `ref int` | get | - |
+| `ActiveCP` | `ref int` | get | - |
+| `ActiveCPField` | `ref int` | get | - |
 | `RetestRate` | `CParticleCollectionFloatInput` | get | - |
+| `AdaptiveThreshold` | `ref bool` | get | - |
 

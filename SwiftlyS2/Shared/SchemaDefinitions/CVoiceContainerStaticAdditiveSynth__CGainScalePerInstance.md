@@ -6,3 +6,12 @@
 
 **继承:** `ISchemaClass\<CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MinVolume` | `ref float` | get | - |
+| `InstancesAtMinVolume` | `ref int` | get | - |
+| `MaxVolume` | `ref float` | get | - |
+| `InstancesAtMaxVolume` | `ref int` | get | - |
+

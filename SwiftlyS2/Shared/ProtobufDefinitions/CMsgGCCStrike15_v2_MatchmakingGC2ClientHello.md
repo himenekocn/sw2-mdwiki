@@ -8,11 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `AccountId` | `uint` | get, set | - |
-| `Ongoingmatch` | `CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve` | get, set | - |
-| `GlobalStats` | `GlobalStatistics` | get, set | - |
+| `Ongoingmatch` | `CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve` | get | - |
+| `GlobalStats` | `GlobalStatistics` | get | - |
 | `PenaltySeconds` | `uint` | get, set | - |
 | `PenaltyReason` | `uint` | get, set | - |
 | `VacBanned` | `int` | get, set | - |
@@ -21,13 +21,13 @@
 | `Medals` | `PlayerMedalsInfo` | get | - |
 | `MyCurrentEvent` | `TournamentEvent` | get | - |
 | `MyCurrentEventTeams` | `IProtobufRepeatedFieldSubMessageType\<TournamentTeam\>` | get | - |
-| `MyCurrentTeam` | `TournamentTeam` | get, set | - |
-| `MyCurrentEventStages` | `IProtobufRepeatedFieldSubMessageType\<TournamentEvent\>` | get, set | - |
+| `MyCurrentTeam` | `TournamentTeam` | get | - |
+| `MyCurrentEventStages` | `IProtobufRepeatedFieldSubMessageType\<TournamentEvent\>` | get | - |
 | `SurveyVote` | `uint` | get, set | - |
-| `Activity` | `AccountActivity` | get, set | - |
+| `Activity` | `AccountActivity` | get | - |
 | `PlayerLevel` | `int` | get, set | - |
 | `PlayerCurXp` | `int` | get, set | - |
 | `PlayerXpBonusFlags` | `int` | get, set | - |
-| `Rankings` | `IProtobufRepeatedFieldSubMessageType\<PlayerRankingInfo\>` | get, set | - |
+| `Rankings` | `IProtobufRepeatedFieldSubMessageType\<PlayerRankingInfo\>` | get | - |
 | `Owcaseid` | `ulong` | get, set | - |
 

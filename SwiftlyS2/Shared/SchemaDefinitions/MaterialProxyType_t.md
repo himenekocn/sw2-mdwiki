@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `MATERIAL_PROXY_STATUS_EFFECT` | `0` | - |
+| `MATERIAL_PROXY_TINT` | `1` | - |
+

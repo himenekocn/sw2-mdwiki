@@ -1,6 +1,6 @@
 # 🔗 OnClientSteamAuthorizeFail
 
-Called when a client's Steam authorization fails.
+当客户端的 Steam 授权失败时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

@@ -1,6 +1,6 @@
 # 🔗 OnEntityDeleted
 
-Called when an entity is deleted.
+当实体被删除时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

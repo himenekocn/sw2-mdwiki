@@ -14,10 +14,20 @@ bool Init()
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool success = SteamAPI.Init();
+```
+
 ### Shutdown (静态)
 
 ```csharp
 void Shutdown()
+```
+
+**用法示例:**
+```csharp
+SteamAPI.Shutdown();
 ```
 
 ### RestartAppIfNecessary (静态)
@@ -32,16 +42,31 @@ bool RestartAppIfNecessary(AppId_t unOwnAppID)
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool needsRestart = SteamAPI.RestartAppIfNecessary(123456);
+```
+
 ### ReleaseCurrentThreadMemory (静态)
 
 ```csharp
 void ReleaseCurrentThreadMemory()
 ```
 
+**用法示例:**
+```csharp
+SteamAPI.ReleaseCurrentThreadMemory();
+```
+
 ### RunCallbacks (静态)
 
 ```csharp
 void RunCallbacks()
+```
+
+**用法示例:**
+```csharp
+SteamAPI.RunCallbacks();
 ```
 
 ### IsSteamRunning (静态)
@@ -52,6 +77,11 @@ bool IsSteamRunning()
 
 **返回值:** `bool`
 
+**用法示例:**
+```csharp
+bool isRunning = SteamAPI.IsSteamRunning();
+```
+
 ### GetHSteamPipe (静态)
 
 ```csharp
@@ -60,6 +90,11 @@ HSteamPipe GetHSteamPipe()
 
 **返回值:** `HSteamPipe`
 
+**用法示例:**
+```csharp
+HSteamPipe pipe = SteamAPI.GetHSteamPipe();
+```
+
 ### GetHSteamUser (静态)
 
 ```csharp
@@ -67,4 +102,9 @@ HSteamUser GetHSteamUser()
 ```
 
 **返回值:** `HSteamUser`
+
+**用法示例:**
+```csharp
+HSteamUser user = SteamAPI.GetHSteamUser();
+```
 

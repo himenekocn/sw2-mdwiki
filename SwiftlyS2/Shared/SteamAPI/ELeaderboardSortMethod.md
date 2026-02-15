@@ -6,3 +6,11 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ELeaderboardSortMethodNone` | `0` | - |
+| `k_ELeaderboardSortMethodAscending` | `1` | - |
+| `k_ELeaderboardSortMethodDescending` | `2` | - |
+

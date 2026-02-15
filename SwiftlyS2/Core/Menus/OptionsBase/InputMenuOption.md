@@ -1,6 +1,6 @@
 # 📦 InputMenuOption
 
-Represents a menu option that allows text input from players.
+表示一个允许玩家输入文本的菜单选项。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -23,19 +23,29 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string text = inputMenuOption.GetDisplayText(player1, 0);
+```
+
 ### GetValue
 
 ```csharp
 string GetValue(IPlayer player)
 ```
 
-Gets the current input value for the specified player.
+获取指定玩家的当前输入值。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose value to retrieve.
+- `player` (`IPlayer`) - 要检索其值的玩家。
 
-**返回值:** `string` - The current input value.
+**返回值:** `string` - 当前输入值。
+
+**用法示例:**
+```csharp
+string value = inputMenuOption.GetValue(player);
+```
 
 ### SetValue
 
@@ -43,14 +53,19 @@ Gets the current input value for the specified player.
 bool SetValue(IPlayer player, string value)
 ```
 
-Sets the input value for the specified player and triggers validation.
+为指定玩家设置输入值并触发验证。
 
 **参数:**
 
-- `player` (`IPlayer`) - The player whose value to set.
-- `value` (`string`) - The value to set.
+- `player` (`IPlayer`) - 要设置其值的玩家。
+- `value` (`string`) - 要设置的值。
 
-**返回值:** `bool` - True if the value is valid and was set, false otherwise.
+**返回值:** `bool` - 如果值有效且已设置，则为 true；否则为 false。
+
+**用法示例:**
+```csharp
+bool success = inputMenuOption.SetValue(player, "someValue");
+```
 
 ### Dispose
 

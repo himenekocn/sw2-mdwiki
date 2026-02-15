@@ -8,9 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Diagnostics` | `IProtobufRepeatedFieldSubMessageType\<CUserMessage_Diagnostic_Response_Diagnostic\>` | get, set | - |
+| `Diagnostics` | `IProtobufRepeatedFieldSubMessageType\<CUserMessage_Diagnostic_Response_Diagnostic\>` | get | - |
 | `BuildVersion` | `int` | get, set | - |
 | `Instance` | `int` | get, set | - |
 | `StartTime` | `long` | get, set | - |

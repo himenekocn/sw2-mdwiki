@@ -10,9 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `FieldOutput` | `ParticleAttributeIndex_t` | get, set | - |
-| `FieldInput` | `ParticleAttributeIndex_t` | get, set | - |
+| `Scale` | `ref Vector` | get | - |
+| `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
+| `FieldInput` | `ParticleAttributeIndex_t` | get | - |
+| `OffsetMin` | `ref Vector` | get, set | - |
+| `OffsetMax` | `ref Vector` | get, set | - |
 | `RandomnessParameters` | `CRandomNumberGeneratorParameters` | get | - |
 

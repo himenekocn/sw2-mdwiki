@@ -1,6 +1,6 @@
 # 🔗 OnEntityEndTouch
 
-Called when an entity ends touching another entity.
+当实体停止接触另一个实体时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

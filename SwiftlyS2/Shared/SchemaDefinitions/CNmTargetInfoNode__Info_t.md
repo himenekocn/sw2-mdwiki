@@ -6,3 +6,16 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `AngleHorizontal` | `0` | - |
+| `AngleVertical` | `1` | - |
+| `Distance` | `2` | - |
+| `DistanceHorizontalOnly` | `3` | - |
+| `DistanceVerticalOnly` | `4` | - |
+| `DeltaOrientationX` | `5` | - |
+| `DeltaOrientationY` | `6` | - |
+| `DeltaOrientationZ` | `7` | - |
+

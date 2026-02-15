@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Radius` | `ref int` | get | - |
 | `MessageText` | `string` | get, set | - |
+| `DrawText` | `ref bool` | get | - |
+| `DeveloperOnly` | `ref bool` | get | - |
+| `Enabled` | `ref bool` | get | - |
 

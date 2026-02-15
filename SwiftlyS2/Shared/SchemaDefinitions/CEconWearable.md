@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CEconWearable\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ForceSkin` | `ref int` | get | - |
+| `AlwaysAllow` | `ref bool` | get | - |
+

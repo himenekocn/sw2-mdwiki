@@ -8,7 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ModelName` | `SchemaUntypedField` | get | - |
+| `MoodType` | `ref MoodType_t` | get | - |
+| `AnimationLayers` | `ref CUtlVector\<MoodAnimationLayer_t\>` | get | - |
 

@@ -8,10 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `InfluenceRotations` | `ISchemaFixedArray\<Quaternion\>` | get, set | - |
+| `InfluenceRotations` | `ISchemaFixedArray\<Quaternion\>` | get | - |
 | `InfluenceOffsets` | `ISchemaFixedArray\<Vector\>` | get, set | - |
 | `InfluenceIndices` | `ISchemaFixedArray\<int\>` | get | - |
 | `InfluenceWeights` | `ISchemaFixedArray\<float\>` | get | - |
+| `NumInfluences` | `ref byte` | get | - |
 

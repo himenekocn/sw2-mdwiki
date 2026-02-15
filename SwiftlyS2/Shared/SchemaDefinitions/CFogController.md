@@ -10,7 +10,17 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Fog` | `fogparams_t` | get | - |
+| `UseAngles` | `ref bool` | get | - |
+| `ChangedVariables` | `ref int` | get | - |
+
+## ⚙️ 方法
+
+### FogUpdated
+
+```csharp
+void FogUpdated()
+```
 

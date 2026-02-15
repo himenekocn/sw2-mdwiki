@@ -1,6 +1,6 @@
 # 🔗 OnStartupServer
 
-Called when the server is started.
+当服务器启动时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

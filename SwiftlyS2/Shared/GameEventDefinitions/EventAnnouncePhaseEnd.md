@@ -1,6 +1,6 @@
 # 🔌 EventAnnouncePhaseEnd
 
-Event "announce_phase_end"
+事件 "announce_phase_end"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

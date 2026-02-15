@@ -10,7 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `OptionNodeIndices` | `SchemaUntypedField` | get | - |
+| `OrientationScoreWeight` | `ref float` | get | - |
+| `PositionScoreWeight` | `ref float` | get | - |
+| `ParameterNodeIdx` | `ref short` | get | - |
+| `IgnoreInvalidOptions` | `ref bool` | get | - |
+| `IsWorldSpaceTarget` | `ref bool` | get | - |
 

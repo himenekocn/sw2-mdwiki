@@ -1,6 +1,6 @@
 # 🔌 EventGameuiHidden
 
-Event "gameui_hidden"
+事件 "gameui_hidden"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

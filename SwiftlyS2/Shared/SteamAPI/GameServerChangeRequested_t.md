@@ -10,3 +10,23 @@
 |------|------|--------|------|
 | `k_iCallback` | `int` | const | - |
 
+## ⚙️ 方法
+
+### address
+
+```csharp
+server address("127.0.0.1:27015" , "tf2.valvesoftware.com" )
+```
+
+**参数:**
+
+- `` (`"127.0.0.1:27015"`)
+- `` (`"tf2.valvesoftware.com"`)
+
+**返回值:** `server`
+
+**用法示例:**
+```csharp
+GameServerChangeRequested_t.server address("127.0.0.1:27015", "tf2.valvesoftware.com");
+```
+

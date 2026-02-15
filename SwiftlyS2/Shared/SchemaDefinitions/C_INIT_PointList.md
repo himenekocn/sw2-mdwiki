@@ -10,7 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
+| `PointList` | `ref CUtlVector\<PointDefinition_t\>` | get | - |
+| `PlaceAlongPath` | `ref bool` | get | - |
+| `ClosedLoop` | `ref bool` | get | - |
+| `NumPointsAlongPath` | `ref int` | get | - |
 

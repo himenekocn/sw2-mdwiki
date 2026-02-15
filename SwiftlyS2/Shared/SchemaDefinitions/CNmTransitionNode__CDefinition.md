@@ -10,8 +10,17 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `BoneMaskBlendInTimePercentage` | `NmPercent_t` | get, set | - |
+| `TargetStateNodeIdx` | `ref short` | get | - |
+| `DurationOverrideNodeIdx` | `ref short` | get | - |
+| `TimeOffsetOverrideNodeIdx` | `ref short` | get, set | - |
+| `StartBoneMaskNodeIdx` | `ref short` | get | - |
+| `Duration` | `ref float` | get | - |
+| `BoneMaskBlendInTimePercentage` | `NmPercent_t` | get | - |
+| `TimeOffset` | `ref float` | get, set | - |
 | `TransitionOptions` | `CNmBitFlags` | get | - |
+| `TargetSyncIDNodeIdx` | `ref short` | get | - |
+| `BlendWeightEasing` | `ref NmEasingOperation_t` | get | - |
+| `RootMotionBlend` | `ref NmRootMotionBlendMode_t` | get | - |
 

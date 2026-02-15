@@ -8,13 +8,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Appid` | `uint` | get, set | - |
 | `GameMode` | `string` | get, set | - |
 | `ServerBuildId` | `uint` | get, set | - |
 | `ServerPopid` | `uint` | get, set | - |
-| `ServerProfile` | `CMsgSource2VProfLiteReport` | get, set | - |
-| `Clients` | `IProtobufRepeatedFieldSubMessageType\<CSource2Metrics_MatchPerfSummary_Notification_Client\>` | get, set | - |
+| `ServerProfile` | `CMsgSource2VProfLiteReport` | get | - |
+| `Clients` | `IProtobufRepeatedFieldSubMessageType\<CSource2Metrics_MatchPerfSummary_Notification_Client\>` | get | - |
 | `Map` | `string` | get, set | - |
 

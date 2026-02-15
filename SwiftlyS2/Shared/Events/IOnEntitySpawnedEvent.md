@@ -1,6 +1,6 @@
 # 🔌 IOnEntitySpawnedEvent
 
-Called when an entity is spawned.
+当实体被生成时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,7 +8,7 @@ Called when an entity is spawned.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Entity` | `CEntityInstance` | get | The entity that was spawned. |
+| `Entity` | `CEntityInstance` | get | 被生成的实体。 |
 

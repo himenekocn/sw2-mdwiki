@@ -1,6 +1,6 @@
 # 📋 MenuOptionTextSize
 
-Defines the available text size options for menu items.
+定义菜单项可用的文本大小选项。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 

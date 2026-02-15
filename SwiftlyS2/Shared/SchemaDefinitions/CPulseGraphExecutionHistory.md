@@ -8,10 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `InstanceID` | `PulseGraphInstanceID_t` | get, set | - |
+| `InstanceID` | `PulseGraphInstanceID_t` | get | - |
 | `StrFileName` | `string` | get, set | - |
+| `History` | `ref CUtlVector\<PointerTo\<PulseGraphExecutionHistoryEntry_t\>\>` | get | - |
 | `MapCellDesc` | `SchemaUntypedField` | get | - |
 | `MapCursorDesc` | `SchemaUntypedField` | get | - |
 

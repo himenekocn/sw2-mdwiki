@@ -6,3 +6,12 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_EFloatingGamepadTextInputModeModeSingleLine` | `0` | - |
+| `k_EFloatingGamepadTextInputModeModeMultipleLines` | `1` | - |
+| `k_EFloatingGamepadTextInputModeModeEmail` | `2` | - |
+| `k_EFloatingGamepadTextInputModeModeNumeric` | `3` | - |
+

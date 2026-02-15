@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<C_INIT_RandomSecondSequence\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `SequenceMin` | `ref int` | get | - |
+| `SequenceMax` | `ref int` | get | - |
+

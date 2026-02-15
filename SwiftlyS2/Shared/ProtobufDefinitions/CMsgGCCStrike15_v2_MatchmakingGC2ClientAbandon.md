@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `AccountId` | `uint` | get, set | - |
-| `AbandonedMatch` | `CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve` | get, set | - |
+| `AbandonedMatch` | `CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve` | get | - |
 | `PenaltySeconds` | `uint` | get, set | - |
 | `PenaltyReason` | `uint` | get, set | - |
 

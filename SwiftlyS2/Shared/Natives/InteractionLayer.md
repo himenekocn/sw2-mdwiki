@@ -6,3 +6,13 @@
 
 **继承:** `sbyte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ContentsSolid` | `0` | - |
+| `ContentsPlayerClip` | `FirstUser` | - |
+| `ContentsCsgoTeam1` | `FirstModSpecific` | - |
+| `NotFound` | `-1` | - |
+| `MaxAllowed` | `64` | - |
+

@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `FloatValues` | `IProtobufRepeatedFieldSubMessageType\<CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue\>` | get | - |
 | `VectorValues` | `IProtobufRepeatedFieldSubMessageType\<CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorContextValue\>` | get | - |

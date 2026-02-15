@@ -10,16 +10,20 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Segments` | `CParticleCollectionFloatInput` | get, set | - |
+| `CPSnapshot` | `ref int` | get | - |
+| `CPStartPnt` | `ref int` | get | - |
+| `CPEndPnt` | `ref int` | get | - |
+| `Segments` | `CParticleCollectionFloatInput` | get | - |
 | `Offset` | `CParticleCollectionFloatInput` | get, set | - |
 | `OffsetDecay` | `CParticleCollectionFloatInput` | get, set | - |
-| `RecalcRate` | `CParticleCollectionFloatInput` | get, set | - |
-| `UVScale` | `CParticleCollectionFloatInput` | get, set | - |
+| `RecalcRate` | `CParticleCollectionFloatInput` | get | - |
+| `UVScale` | `CParticleCollectionFloatInput` | get | - |
 | `UVOffset` | `CParticleCollectionFloatInput` | get, set | - |
 | `SplitRate` | `CParticleCollectionFloatInput` | get | - |
 | `BranchTwist` | `CParticleCollectionFloatInput` | get | - |
+| `BranchBehavior` | `ref ParticleLightnintBranchBehavior_t` | get | - |
 | `RadiusStart` | `CParticleCollectionFloatInput` | get | - |
 | `RadiusEnd` | `CParticleCollectionFloatInput` | get | - |
 | `DedicatedPool` | `CParticleCollectionFloatInput` | get | - |

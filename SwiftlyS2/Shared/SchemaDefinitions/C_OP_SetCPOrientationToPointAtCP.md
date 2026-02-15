@@ -10,7 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `InputCP` | `ref int` | get | - |
+| `OutputCP` | `ref int` | get | - |
 | `Interpolation` | `CParticleCollectionFloatInput` | get | - |
+| `B2DOrientation` | `ref bool` | get | - |
+| `AvoidSingularity` | `ref bool` | get | - |
+| `PointAway` | `ref bool` | get | - |
 

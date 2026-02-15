@@ -8,3 +8,12 @@
 
 **实现接口:** `ISchemaClass\<CNmFollowBoneNode__CDefinition\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Bone` | `ref CGlobalSymbol` | get | - |
+| `FollowTargetBone` | `ref CGlobalSymbol` | get | - |
+| `EnabledNodeIdx` | `ref short` | get | - |
+| `Mode` | `ref NmFollowBoneMode_t` | get | - |
+

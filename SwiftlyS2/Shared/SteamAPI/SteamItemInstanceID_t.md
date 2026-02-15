@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+SteamItemInstanceID_t id = SteamInventory.GetNextItemInstanceID();  
+Console.WriteLine(id.ToString());
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,24 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(SteamItemInstanceID_t that)
+```
+
+**参数:**
+
+- `that` (`SteamItemInstanceID_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+SteamItemInstanceID_t instance = default;
+ulong id = (ulong)instance;
+```
 
 ### Equals
 
@@ -67,4 +91,9 @@ int CompareTo(SteamItemInstanceID_t other)
 - `other` (`SteamItemInstanceID_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+SteamItemInstanceID_t id1 = default; SteamItemInstanceID_t id2 = default; int result = id1.CompareTo(id2);
+```
 

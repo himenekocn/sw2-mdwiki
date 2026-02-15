@@ -10,7 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `LogicBranchNames` | `ISchemaStringFixedArray` | get | - |
+| `LogicBranchList` | `ref CUtlVector\<CHandle\<CBaseEntity\>\>` | get | - |
+| `LastState` | `ref CLogicBranchList__LogicBranchListenerLastState_t` | get | - |
+| `OnAllTrue` | `ref CEntityIOOutput` | get | - |
+| `OnAllFalse` | `ref CEntityIOOutput` | get | - |
+| `OnMixed` | `ref CEntityIOOutput` | get | - |
 

@@ -6,3 +6,11 @@
 
 **继承:** `byte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `RotationAndTranslation` | `0` | - |
+| `RotationOnly` | `1` | - |
+| `TranslationOnly` | `2` | - |
+

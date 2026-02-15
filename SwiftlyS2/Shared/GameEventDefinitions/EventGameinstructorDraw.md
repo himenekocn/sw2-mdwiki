@@ -1,6 +1,6 @@
 # 🔌 EventGameinstructorDraw
 
-Event "gameinstructor_draw"
+事件 "gameinstructor_draw"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

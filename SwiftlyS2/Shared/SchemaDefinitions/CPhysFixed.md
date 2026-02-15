@@ -10,8 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `LinearFrequency` | `ref float` | get | - |
+| `LinearDampingRatio` | `ref float` | get | - |
+| `AngularFrequency` | `ref float` | get | - |
+| `AngularDampingRatio` | `ref float` | get | - |
+| `EnableLinearConstraint` | `ref bool` | get | - |
+| `EnableAngularConstraint` | `ref bool` | get | - |
 | `BoneName1` | `string` | get, set | - |
 | `BoneName2` | `string` | get, set | - |
 

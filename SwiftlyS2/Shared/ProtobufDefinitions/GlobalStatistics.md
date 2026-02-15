@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `PlayersOnline` | `uint` | get, set | - |
 | `ServersOnline` | `uint` | get, set | - |
@@ -16,7 +16,7 @@
 | `ServersAvailable` | `uint` | get, set | - |
 | `OngoingMatches` | `uint` | get, set | - |
 | `SearchTimeAvg` | `uint` | get, set | - |
-| `SearchStatistics` | `IProtobufRepeatedFieldSubMessageType\<DetailedSearchStatistic\>` | get, set | - |
+| `SearchStatistics` | `IProtobufRepeatedFieldSubMessageType\<DetailedSearchStatistic\>` | get | - |
 | `MainPostUrl` | `string` | get, set | - |
 | `RequiredAppidVersion` | `uint` | get, set | - |
 | `PricesheetVersion` | `uint` | get, set | - |

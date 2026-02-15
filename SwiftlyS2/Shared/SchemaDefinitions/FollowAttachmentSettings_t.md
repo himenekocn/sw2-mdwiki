@@ -8,8 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Attachment` | `CAnimAttachment` | get | - |
+| `BoneIndex` | `ref int` | get | - |
 | `AttachmentHandle` | `AttachmentHandle_t` | get | - |
+| `MatchTranslation` | `ref bool` | get | - |
+| `MatchRotation` | `ref bool` | get | - |
 

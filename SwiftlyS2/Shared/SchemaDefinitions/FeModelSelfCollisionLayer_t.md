@@ -8,8 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Name` | `string` | get, set | - |
+| `Nodes` | `ref CUtlVector\<ushort\>` | get | - |
+| `ParentReaction` | `ref float` | get | - |
+| `Flags` | `ref uint` | get | - |
 | `EndIdx` | `ISchemaFixedArray\<uint\>` | get | - |
 

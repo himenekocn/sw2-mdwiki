@@ -10,9 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `MethodName` | `SchemaUntypedField` | get | - |
 | `GameBlackboard` | `SchemaUntypedField` | get | - |
+| `AsyncCallMode` | `ref PulseMethodCallMode_t` | get | - |
 | `OnFinished` | `CPulse_ResumePoint` | get | - |
 

@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+AccountID_t id = AccountID_t.Default;  
+string str = id.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### uint (静态)
+
+```csharp
+operator uint(AccountID_t that)
+```
+
+**参数:**
+
+- `that` (`AccountID_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+uint id = (uint)AccountID_t.SomeValue;
+```
 
 ### Equals
 
@@ -67,4 +90,10 @@ int CompareTo(AccountID_t other)
 - `other` (`AccountID_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+AccountID_t id1 = AccountID_t.Default;  
+int result = id1.CompareTo(AccountID_t.Empty);
+```
 

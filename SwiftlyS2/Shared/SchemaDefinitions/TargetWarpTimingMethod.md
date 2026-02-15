@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ReachDestinationOnRootMotionEnd` | `0` | - |
+| `ReachDestinationOnWarpTagEnd` | `1` | - |
+

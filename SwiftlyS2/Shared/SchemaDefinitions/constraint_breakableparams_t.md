@@ -8,7 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Strength` | `ref float` | get | - |
+| `ForceLimit` | `ref float` | get | - |
+| `TorqueLimit` | `ref float` | get | - |
 | `BodyMassScale` | `ISchemaFixedArray\<float\>` | get | - |
+| `IsActive` | `ref bool` | get | - |
 

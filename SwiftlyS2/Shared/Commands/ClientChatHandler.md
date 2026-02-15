@@ -1,6 +1,6 @@
 # 🔗 ClientChatHandler
 
-The handler for the client chat hook.
+客户端聊天钩子的处理程序。
 
 **命名空间:** `SwiftlyS2.Shared.Commands`
 

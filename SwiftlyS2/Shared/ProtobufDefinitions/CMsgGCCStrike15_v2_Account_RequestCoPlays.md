@@ -8,8 +8,8 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Players` | `IProtobufRepeatedFieldSubMessageType\<CMsgGCCStrike15_v2_Account_RequestCoPlays_Player\>` | get, set | - |
+| `Players` | `IProtobufRepeatedFieldSubMessageType\<CMsgGCCStrike15_v2_Account_RequestCoPlays_Player\>` | get | - |
 | `Servertime` | `uint` | get, set | - |
 

@@ -6,3 +6,13 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ESteamPartyBeaconLocationDataInvalid` | `0` | - |
+| `k_ESteamPartyBeaconLocationDataName` | `1` | - |
+| `k_ESteamPartyBeaconLocationDataIconURLSmall` | `2` | - |
+| `k_ESteamPartyBeaconLocationDataIconURLMedium` | `3` | - |
+| `k_ESteamPartyBeaconLocationDataIconURLLarge` | `4` | - |
+

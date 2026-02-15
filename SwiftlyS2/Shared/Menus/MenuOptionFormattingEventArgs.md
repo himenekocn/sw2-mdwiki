@@ -1,6 +1,6 @@
 # 📦 MenuOptionFormattingEventArgs
 
-Provides event data for menu option HTML formatting events.
+为菜单选项HTML格式化事件提供事件数据。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -10,7 +10,7 @@ Provides event data for menu option HTML formatting events.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `CustomText` | `string?` | get, set | Gets or sets custom text to use instead of the default text during HTML assembly. |
+| `CustomText` | `string?` | get, set | 获取或设置在 HTML 汇编期间使用的自定义文本，以替代默认文本。 |
 

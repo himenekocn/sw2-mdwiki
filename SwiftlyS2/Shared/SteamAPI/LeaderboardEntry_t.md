@@ -13,3 +13,18 @@
 | `m_cDetails` | `int` | - | - |
 | `m_hUGC` | `UGCHandle_t` | - | - |
 
+## ⚙️ 方法
+
+### SteamFriends
+
+```csharp
+use SteamFriends()
+```
+
+**返回值:** `use`
+
+**用法示例:**
+```csharp
+LeaderboardEntry_t.SteamFriends();
+```
+

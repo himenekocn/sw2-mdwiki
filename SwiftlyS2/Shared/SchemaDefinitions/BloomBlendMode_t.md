@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `BLOOM_BLEND_ADD` | `0` | - |
+| `BLOOM_BLEND_SCREEN` | `1` | - |
+| `BLOOM_BLEND_BLUR` | `2` | - |
+

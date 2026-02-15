@@ -8,3 +8,10 @@
 
 **实现接口:** `ISchemaClass\<CAimConstraint\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `AimOffset` | `ref Quaternion` | get, set | - |
+| `UpType` | `ref uint` | get | - |
+

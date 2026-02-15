@@ -24,6 +24,12 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+FriendsGroupID_t group = FriendsGroupID_t.Default;
+string str = group.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +49,23 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### short (静态)
+
+```csharp
+operator short(FriendsGroupID_t that)
+```
+
+**参数:**
+
+- `that` (`FriendsGroupID_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+short(FriendsGroupID_t.Friend)
+```
 
 ### Equals
 
@@ -67,4 +90,11 @@ int CompareTo(FriendsGroupID_t other)
 - `other` (`FriendsGroupID_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+FriendsGroupID_t group1 = FriendsGroupID_t.Group1;
+FriendsGroupID_t group2 = FriendsGroupID_t.Group2;
+int result = group1.CompareTo(group2);
+```
 

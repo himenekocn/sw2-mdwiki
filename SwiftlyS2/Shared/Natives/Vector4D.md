@@ -13,6 +13,13 @@
 | `Z` | `float` | - | - |
 | `W` | `float` | - | - |
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Zero` | `Vector4D` | - | - |
+| `One` | `Vector4D` | - | - |
+
 ## ⚙️ 方法
 
 ### ToBuiltin
@@ -22,6 +29,12 @@ System.Numerics.Vector4 ToBuiltin()
 ```
 
 **返回值:** `System.Numerics.Vector4`
+
+**用法示例:**
+```csharp
+Vector4D v = new Vector4D(1, 2, 3, 4);
+System.Numerics.Vector4 builtin = v.ToBuiltin();
+```
 
 ### FromBuiltin (静态)
 
@@ -35,26 +48,21 @@ Vector4D FromBuiltin(System.Numerics.Vector4 vector)
 
 **返回值:** `Vector4D`
 
-### GetHashCode
-
+**用法示例:**
 ```csharp
-int GetHashCode()
+Vector4D result = Vector4D.FromBuiltin(new System.Numerics.Vector4(1f, 2f, 3f, 4f));
 ```
-
-**返回值:** `int`
-
-### ToString
-
-```csharp
-string ToString()
-```
-
-**返回值:** `string`
 
 ### Normalize
 
 ```csharp
 void Normalize()
+```
+
+**用法示例:**
+```csharp
+Vector4D v = new Vector4D(1, 2, 3, 4);  
+v.Normalize();
 ```
 
 ### Normalized
@@ -64,6 +72,12 @@ Vector4D Normalized()
 ```
 
 **返回值:** `Vector4D`
+
+**用法示例:**
+```csharp
+Vector4D v = new Vector4D(1, 2, 3, 4);
+Vector4D normalizedV = v.Normalized();
+```
 
 ### Deconstruct
 
@@ -77,4 +91,10 @@ void Deconstruct(out float x, out float y, out float z, out float w)
 - `y` (`out float`)
 - `z` (`out float`)
 - `w` (`out float`)
+
+**用法示例:**
+```csharp
+float x, y, z, w;
+convar.Deconstruct(out x, out y, out z, out w);
+```
 

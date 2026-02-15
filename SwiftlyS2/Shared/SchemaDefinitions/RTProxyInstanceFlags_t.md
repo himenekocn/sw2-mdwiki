@@ -6,3 +6,10 @@
 
 **继承:** `byte`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `RTPROXY_INSTANCE_FLAG_NONE` | `0` | - |
+| `RTPROXY_INSTANCE_UNIQUE_MESH` | `1` | - |
+

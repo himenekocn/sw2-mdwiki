@@ -1,6 +1,6 @@
 # 🔌 EventGuardianWaveRestart
 
-Event "guardian_wave_restart"
+事件 "guardian_wave_restart"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

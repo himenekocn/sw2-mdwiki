@@ -1,6 +1,6 @@
 # 🔌 EventEventTicketModified
 
-Event "event_ticket_modified"
+事件 "event_ticket_modified"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

@@ -10,9 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `MethodName` | `SchemaUntypedField` | get, set | - |
+| `MethodName` | `SchemaUntypedField` | get | - |
 | `Description` | `string` | get, set | - |
+| `IsPublic` | `ref bool` | get | - |
 | `ReturnType` | `SchemaUntypedField` | get | - |
 

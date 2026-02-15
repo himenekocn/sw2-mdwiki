@@ -10,9 +10,9 @@
 |------|------|--------|------|
 | `OutWishVel` | `Vector` | - | - |
 | `OldAngles` | `QAngle` | - | - |
-| `InputRotated` | `Vector` | - | World space input vector. Used to compare against the movement services' previous rotation for ground movement stuff. |
-| `ContinuousAcceleration` | `Vector` | - | Continuous acceleration in units per second squared (u/s²). |
-| `FrameVelocityDelta` | `Vector` | - | Immediate delta in u/s. Air acceleration bypasses per second acceleration, applies up to half of its impulse to the velocity and the rest goes straight into this. |
+| `InputRotated` | `Vector` | - | 世界空间输入向量。用于与移动服务的先前旋转进行比较，以处理地面移动相关逻辑。 |
+| `ContinuousAcceleration` | `Vector` | - | 连续加速度，单位为每秒平方单位 (u/s²)。 |
+| `FrameVelocityDelta` | `Vector` | - | 瞬时速度变化量。空气加速度会绕过每秒加速度，将其冲量的一半应用于速度，其余部分则直接作用于此。 |
 | `MaxSpeed` | `float` | - | - |
 | `ClientMaxSpeed` | `float` | - | - |
 | `FrictionDecel` | `float` | - | - |

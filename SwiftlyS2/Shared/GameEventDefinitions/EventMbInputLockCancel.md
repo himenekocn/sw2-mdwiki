@@ -1,6 +1,6 @@
 # 🔌 EventMbInputLockCancel
 
-Event "mb_input_lock_cancel"
+事件 "mb_input_lock_cancel"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

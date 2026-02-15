@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `InputCP1` | `ref int` | get | - |
+| `InputCP2` | `ref int` | get | - |
+| `OutputCP` | `ref int` | get | - |
+| `OutVectorField` | `ref int` | get | - |
 | `InputMin` | `CParticleCollectionFloatInput` | get | - |
 | `InputMax` | `CParticleCollectionFloatInput` | get | - |
 | `OutputMin` | `CParticleCollectionFloatInput` | get | - |

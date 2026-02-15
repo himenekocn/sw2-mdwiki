@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ViewAngles` | `QAngle` | get, set | - |
 | `RenderTickCount` | `int` | get, set | - |
@@ -16,9 +16,9 @@
 | `PlayerTickCount` | `int` | get, set | - |
 | `PlayerTickFraction` | `float` | get, set | - |
 | `ClInterp` | `CSGOInterpolationInfoPB_CL` | get | - |
-| `SvInterp0` | `CSGOInterpolationInfoPB` | get, set | - |
-| `SvInterp1` | `CSGOInterpolationInfoPB` | get, set | - |
-| `PlayerInterp` | `CSGOInterpolationInfoPB` | get, set | - |
+| `SvInterp0` | `CSGOInterpolationInfoPB` | get | - |
+| `SvInterp1` | `CSGOInterpolationInfoPB` | get | - |
+| `PlayerInterp` | `CSGOInterpolationInfoPB` | get | - |
 | `FrameNumber` | `int` | get, set | - |
 | `TargetEntIndex` | `int` | get, set | - |
 | `ShootPosition` | `Vector` | get, set | - |

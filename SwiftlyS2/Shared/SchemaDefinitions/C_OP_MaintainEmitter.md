@@ -10,10 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ParticlesToMaintain` | `CParticleCollectionFloatInput` | get | - |
-| `EmissionDuration` | `CParticleCollectionFloatInput` | get, set | - |
+| `StartTime` | `ref float` | get | - |
+| `EmissionDuration` | `CParticleCollectionFloatInput` | get | - |
+| `EmissionRate` | `ref float` | get | - |
+| `SnapshotControlPoint` | `ref int` | get | - |
 | `StrSnapshotSubset` | `string` | get, set | - |
+| `EmitInstantaneously` | `ref bool` | get | - |
+| `FinalEmitOnStop` | `ref bool` | get | - |
 | `Scale` | `CParticleCollectionFloatInput` | get | - |
 

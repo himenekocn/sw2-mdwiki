@@ -10,10 +10,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `NoiseFreq` | `CPerParticleVecInput` | get, set | - |
-| `NoiseScale` | `CPerParticleVecInput` | get, set | - |
+| `NoiseType` | `ref ParticleDirectionNoiseType_t` | get | - |
+| `NoiseFreq` | `CPerParticleVecInput` | get | - |
+| `NoiseScale` | `CPerParticleVecInput` | get | - |
 | `Offset` | `CPerParticleVecInput` | get, set | - |
 | `OffsetRate` | `CPerParticleVecInput` | get, set | - |
 | `WorleySeed` | `CPerParticleFloatInput` | get | - |

@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Matchmaking` | `int` | get, set | - |
-| `WaitingAccountIdSessions` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
+| `WaitingAccountIdSessions` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `Error` | `string` | get, set | - |
 | `OngoingmatchAccountIdSessions` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `GlobalStats` | `GlobalStatistics` | get | - |

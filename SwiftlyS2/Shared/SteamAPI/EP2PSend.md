@@ -6,3 +6,12 @@
 
 **继承:** `int`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_EP2PSendUnreliable` | `0` | - |
+| `k_EP2PSendUnreliableNoDelay` | `1` | - |
+| `k_EP2PSendReliable` | `2` | - |
+| `k_EP2PSendReliableWithBuffering` | `3` | - |
+

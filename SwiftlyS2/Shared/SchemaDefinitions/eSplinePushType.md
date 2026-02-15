@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_eSplinePushAlong` | `0` | - |
+| `k_eSplinePushAway` | `1` | - |
+| `k_eSplinePushTowards` | `2` | - |
+

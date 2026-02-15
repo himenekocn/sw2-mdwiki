@@ -10,12 +10,14 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `OnVariantVoid` | `ref CEntityIOOutput` | get | - |
 | `OnVariantBool` | `SchemaUntypedField` | get | - |
 | `OnVariantInt` | `SchemaUntypedField` | get | - |
 | `OnVariantFloat` | `SchemaUntypedField` | get | - |
 | `OnVariantString` | `SchemaUntypedField` | get | - |
 | `OnVariantColor` | `SchemaUntypedField` | get | - |
 | `OnVariantVector` | `SchemaUntypedField` | get | - |
+| `AllowEmptyInputs` | `ref bool` | get | - |
 

@@ -10,7 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `MovingEntity` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `PhysicsBlocker` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `SeparationDuration` | `ref float` | get | - |
 | `CancelTime` | `GameTime_t` | get | - |
 

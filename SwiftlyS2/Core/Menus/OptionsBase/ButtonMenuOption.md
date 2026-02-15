@@ -1,6 +1,6 @@
 # 📦 ButtonMenuOption
 
-Represents a clickable button menu option.
+表示一个可点击的按钮菜单选项。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 

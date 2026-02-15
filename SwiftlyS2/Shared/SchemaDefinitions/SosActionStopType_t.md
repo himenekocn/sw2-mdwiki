@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `SOS_STOPTYPE_NONE` | `0` | - |
+| `SOS_STOPTYPE_TIME` | `1` | - |
+| `SOS_STOPTYPE_OPVAR` | `2` | - |
+

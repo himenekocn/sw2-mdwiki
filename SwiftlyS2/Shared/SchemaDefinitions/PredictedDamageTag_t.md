@@ -8,7 +8,36 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `TagTick` | `GameTick_t` | get | - |
+| `FlinchModSmall` | `ref float` | get | - |
+| `FlinchModLarge` | `ref float` | get | - |
+| `FriendlyFireDamageReductionRatio` | `ref float` | get | - |
+
+## ⚙️ 方法
+
+### TagTickUpdated
+
+```csharp
+void TagTickUpdated()
+```
+
+### FlinchModSmallUpdated
+
+```csharp
+void FlinchModSmallUpdated()
+```
+
+### FlinchModLargeUpdated
+
+```csharp
+void FlinchModLargeUpdated()
+```
+
+### FriendlyFireDamageReductionRatioUpdated
+
+```csharp
+void FriendlyFireDamageReductionRatioUpdated()
+```
 

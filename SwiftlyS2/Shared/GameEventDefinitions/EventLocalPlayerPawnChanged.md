@@ -1,6 +1,6 @@
 # 🔌 EventLocalPlayerPawnChanged
 
-Event "local_player_pawn_changed"
+事件“本地玩家棋子已变更”
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

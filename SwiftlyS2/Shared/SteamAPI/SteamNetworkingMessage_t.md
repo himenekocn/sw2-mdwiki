@@ -29,6 +29,12 @@
 void Release()
 ```
 
+**用法示例:**
+```csharp
+SteamNetworkingMessage_t msg = SteamNetworkingMessages.ReceiveMessageOnChannel(0);
+msg.Release();
+```
+
 ### Release (静态)
 
 ```csharp
@@ -38,6 +44,11 @@ void Release(IntPtr pointer)
 **参数:**
 
 - `pointer` (`IntPtr`)
+
+**用法示例:**
+```csharp
+SteamNetworkingMessage_t.Release(IntPtr.Zero);
+```
 
 ### FromIntPtr (静态)
 
@@ -50,4 +61,9 @@ SteamNetworkingMessage_t FromIntPtr(IntPtr pointer)
 - `pointer` (`IntPtr`)
 
 **返回值:** `SteamNetworkingMessage_t`
+
+**用法示例:**
+```csharp
+SteamNetworkingMessage_t msg = SteamNetworkingMessage_t.FromIntPtr(ptr);
+```
 

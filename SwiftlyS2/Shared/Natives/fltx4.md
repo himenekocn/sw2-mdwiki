@@ -6,30 +6,6 @@
 
 ## ⚙️ 方法
 
-### GetFloat
-
-```csharp
-float GetFloat(int index)
-```
-
-**参数:**
-
-- `index` (`int`)
-
-**返回值:** `float`
-
-### GetUInt
-
-```csharp
-uint GetUInt(int index)
-```
-
-**参数:**
-
-- `index` (`int`)
-
-**返回值:** `uint`
-
 ### SetFloat
 
 ```csharp
@@ -41,6 +17,11 @@ void SetFloat(int index, float value)
 - `index` (`int`)
 - `value` (`float`)
 
+**用法示例:**
+```csharp
+fltx4 instance; instance.SetFloat(0, 3.14f);
+```
+
 ### SetUInt
 
 ```csharp
@@ -51,4 +32,9 @@ void SetUInt(int index, uint value)
 
 - `index` (`int`)
 - `value` (`uint`)
+
+**用法示例:**
+```csharp
+fltx4 instance; instance.SetUInt(0, 123u);
+```
 

@@ -10,9 +10,16 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Children` | `ref CUtlVector\<CAnimUpdateNodeRef\>` | get | - |
+| `Tags` | `ref CUtlVector\<byte\>` | get | - |
 | `BlendCurve` | `CBlendCurve` | get | - |
-| `BlendTime` | `SchemaUntypedField` | get, set | - |
-| `Parameter` | `CAnimParamHandle` | get, set | - |
+| `BlendTime` | `SchemaUntypedField` | get | - |
+| `Parameter` | `CAnimParamHandle` | get | - |
+| `TagIndex` | `ref int` | get | - |
+| `TagBehavior` | `ref SelectorTagBehavior_t` | get | - |
+| `ResetOnChange` | `ref bool` | get, set | - |
+| `LockWhenWaning` | `ref bool` | get | - |
+| `SyncCyclesOnChange` | `ref bool` | get | - |
 

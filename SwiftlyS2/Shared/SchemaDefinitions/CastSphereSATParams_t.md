@@ -8,7 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `RayStart` | `ref Vector` | get | - |
+| `RayDelta` | `ref Vector` | get | - |
+| `Radius` | `ref float` | get | - |
+| `MaxFraction` | `ref float` | get | - |
+| `Scale` | `ref float` | get | - |
 | `Hull` | `RnHull_t?` | get | - |
 

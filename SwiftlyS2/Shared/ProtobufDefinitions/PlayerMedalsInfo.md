@@ -8,8 +8,8 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `DisplayItemsDefidx` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
+| `DisplayItemsDefidx` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `FeaturedDisplayItemDefidx` | `uint` | get, set | - |
 

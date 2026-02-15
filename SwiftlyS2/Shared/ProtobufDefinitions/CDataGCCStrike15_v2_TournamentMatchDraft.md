@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `EventId` | `int` | get, set | - |
 | `EventStageId` | `int` | get, set | - |
@@ -24,9 +24,9 @@
 | `VoteMapid1` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
 | `VoteMapid2` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
 | `VoteMapid3` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
-| `VoteMapid4` | `IProtobufRepeatedFieldValueType\<int\>` | get, set | - |
-| `VoteMapid5` | `IProtobufRepeatedFieldValueType\<int\>` | get, set | - |
-| `VoteStartingSide` | `IProtobufRepeatedFieldValueType\<int\>` | get, set | - |
+| `VoteMapid4` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
+| `VoteMapid5` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
+| `VoteStartingSide` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
 | `VotePhase` | `int` | get, set | - |
 | `VotePhaseStart` | `float` | get, set | - |
 | `VotePhaseLength` | `float` | get, set | - |

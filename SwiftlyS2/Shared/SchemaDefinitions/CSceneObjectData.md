@@ -6,3 +6,11 @@
 
 **继承:** `ISchemaClass\<CSceneObjectData\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MinBounds` | `ref Vector` | get | - |
+| `MaxBounds` | `ref Vector` | get | - |
+| `TintColor` | `ref Vector4D` | get | - |
+

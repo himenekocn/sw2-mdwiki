@@ -8,11 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerQuestData` | `IProtobufRepeatedFieldSubMessageType\<PlayerQuestData\>` | get, set | - |
+| `PlayerQuestData` | `IProtobufRepeatedFieldSubMessageType\<PlayerQuestData\>` | get | - |
 | `BinaryData` | `byte[]` | get, set | - |
 | `MmGameMode` | `uint` | get, set | - |
-| `Missionlbsdata` | `ScoreLeaderboardData` | get, set | - |
+| `Missionlbsdata` | `ScoreLeaderboardData` | get | - |
 | `Flags` | `uint` | get, set | - |
 

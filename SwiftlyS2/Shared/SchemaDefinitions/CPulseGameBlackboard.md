@@ -10,8 +10,22 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `StrGraphName` | `string` | get, set | - |
 | `StrStateBlob` | `string` | get, set | - |
+
+## ⚙️ 方法
+
+### StrGraphNameUpdated
+
+```csharp
+void StrGraphNameUpdated()
+```
+
+### StrStateBlobUpdated
+
+```csharp
+void StrStateBlobUpdated()
+```
 

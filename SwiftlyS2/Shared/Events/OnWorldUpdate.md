@@ -1,6 +1,6 @@
 # 🔗 OnWorldUpdate
 
-Called when the world is updated. This happens even in hibernation. This callback is a hot path, be careful with it and don't do anything expensive.
+当世界被更新时调用。即使在休眠状态下也会发生。此回调是热点路径，请谨慎处理，不要执行任何昂贵的操作。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

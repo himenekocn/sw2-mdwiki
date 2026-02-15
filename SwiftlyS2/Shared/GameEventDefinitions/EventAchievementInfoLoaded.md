@@ -1,6 +1,6 @@
 # 🔌 EventAchievementInfoLoaded
 
-Event "achievement_info_loaded"
+事件 "achievement_info_loaded"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

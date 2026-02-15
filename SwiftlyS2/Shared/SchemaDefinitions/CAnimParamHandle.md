@@ -6,3 +6,10 @@
 
 **继承:** `ISchemaClass\<CAnimParamHandle\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Type` | `ref AnimParamType_t` | get | - |
+| `Index` | `ref byte` | get | - |
+

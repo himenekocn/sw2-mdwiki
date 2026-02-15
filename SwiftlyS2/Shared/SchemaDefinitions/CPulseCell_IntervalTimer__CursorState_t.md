@@ -8,8 +8,11 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `StartTime` | `GameTime_t` | get | - |
 | `EndTime` | `GameTime_t` | get | - |
+| `WaitInterval` | `ref float` | get | - |
+| `WaitIntervalHigh` | `ref float` | get | - |
+| `CompleteOnNextWake` | `ref bool` | get | - |
 

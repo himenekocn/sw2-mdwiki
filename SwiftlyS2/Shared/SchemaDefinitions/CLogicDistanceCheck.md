@@ -10,8 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `EntityA` | `string` | get, set | - |
 | `EntityB` | `string` | get, set | - |
+| `Zone1Distance` | `ref float` | get | - |
+| `Zone2Distance` | `ref float` | get | - |
+| `InZone1` | `ref CEntityIOOutput` | get | - |
+| `InZone2` | `ref CEntityIOOutput` | get | - |
+| `InZone3` | `ref CEntityIOOutput` | get | - |
 

@@ -10,7 +10,13 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Enabled` | `ref bool` | get | - |
+| `Magnitude` | `ref float` | get | - |
+| `Radius` | `ref float` | get | - |
+| `InnerRadius` | `ref float` | get | - |
+| `ConeOfInfluence` | `ref float` | get | - |
 | `FilterName` | `string` | get, set | - |
+| `Filter` | `ref CHandle\<CBaseFilter\>` | get | - |
 

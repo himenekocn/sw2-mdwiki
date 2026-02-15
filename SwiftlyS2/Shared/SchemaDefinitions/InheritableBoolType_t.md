@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `INHERITABLE_BOOL_INHERIT` | `0` | - |
+| `INHERITABLE_BOOL_FALSE` | `1` | - |
+| `INHERITABLE_BOOL_TRUE` | `2` | - |
+

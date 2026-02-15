@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `SNAPSHOT_INDEX_INCREMENT` | `0` | - |
+| `SNAPSHOT_INDEX_DIRECT` | `1` | - |
+

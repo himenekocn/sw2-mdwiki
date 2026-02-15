@@ -6,3 +6,11 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eLightEffectNone` | `0` | - |
+| `eLightEffectDropped` | `1` | - |
+| `eLightEffectThirdPersonHeld` | `2` | - |
+

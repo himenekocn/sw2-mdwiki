@@ -10,7 +10,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Movers` | `ref CUtlVector\<CHandle\<CFuncMover\>\>` | get | - |
+| `MoverSpawner` | `ref CHandle\<CPathMoverEntitySpawner\>` | get | - |
 | `MoverSpawnerName` | `string` | get, set | - |
 

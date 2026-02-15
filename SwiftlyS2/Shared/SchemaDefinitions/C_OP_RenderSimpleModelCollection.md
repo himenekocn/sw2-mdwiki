@@ -10,10 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `CenterOffset` | `ref bool` | get, set | - |
+| `Model` | `ref CStrongHandle\<InfoForResourceTypeCModel\>` | get | - |
 | `ModelInput` | `CParticleModelInput` | get | - |
 | `SizeCullScale` | `CParticleCollectionFloatInput` | get | - |
+| `DisableShadows` | `ref bool` | get | - |
+| `DisableMotionBlur` | `ref bool` | get | - |
+| `AcceptsDecals` | `ref bool` | get | - |
 | `DrawFilter` | `CPerParticleFloatInput` | get | - |
 | `AngularVelocityField` | `ParticleAttributeIndex_t` | get | - |
 

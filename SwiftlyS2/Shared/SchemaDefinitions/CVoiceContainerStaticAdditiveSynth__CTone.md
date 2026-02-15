@@ -8,7 +8,9 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Harmonics` | `ref CUtlVector\<CVoiceContainerStaticAdditiveSynth__CHarmonic\>` | get | - |
 | `Curve` | `SchemaUntypedField` | get | - |
+| `SyncInstances` | `ref bool` | get | - |
 

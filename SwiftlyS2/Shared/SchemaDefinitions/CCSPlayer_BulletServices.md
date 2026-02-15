@@ -8,3 +8,17 @@
 
 **实现接口:** `ISchemaClass\<CCSPlayer_BulletServices\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TotalHitsOnServer` | `ref int` | get | - |
+
+## ⚙️ 方法
+
+### TotalHitsOnServerUpdated
+
+```csharp
+void TotalHitsOnServerUpdated()
+```
+

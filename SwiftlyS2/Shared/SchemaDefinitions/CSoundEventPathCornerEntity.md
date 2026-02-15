@@ -10,7 +10,21 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `PathCorner` | `string` | get, set | - |
+| `CountMax` | `ref int` | get | - |
+| `DistanceMax` | `ref float` | get | - |
+| `DistMaxSqr` | `ref float` | get | - |
+| `DotProductMax` | `ref float` | get | - |
+| `Playing` | `ref bool` | get | - |
+| `CornerPairsNetworked` | `ref CUtlVector\<SoundeventPathCornerPairNetworked_t\>` | get | - |
+
+## ⚙️ 方法
+
+### CornerPairsNetworkedUpdated
+
+```csharp
+void CornerPairsNetworkedUpdated()
+```
 

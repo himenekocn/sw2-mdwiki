@@ -8,10 +8,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `TableName` | `string` | get, set | - |
-| `Items` | `IProtobufRepeatedFieldSubMessageType\<CDemoStringTables_items_t\>` | get, set | - |
-| `ItemsClientside` | `IProtobufRepeatedFieldSubMessageType\<CDemoStringTables_items_t\>` | get, set | - |
+| `Items` | `IProtobufRepeatedFieldSubMessageType\<CDemoStringTables_items_t\>` | get | - |
+| `ItemsClientside` | `IProtobufRepeatedFieldSubMessageType\<CDemoStringTables_items_t\>` | get | - |
 | `TableFlags` | `int` | get, set | - |
 

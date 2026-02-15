@@ -24,6 +24,11 @@ string ToString()
 
 **返回值:** `string`
 
+**用法示例:**
+```csharp
+string result = UGCFileWriteStreamHandle_t.Invalid.ToString();
+```
+
 ### Equals
 
 ```csharp
@@ -43,6 +48,24 @@ int GetHashCode()
 ```
 
 **返回值:** `int`
+
+### ulong (静态)
+
+```csharp
+operator ulong(UGCFileWriteStreamHandle_t that)
+```
+
+**参数:**
+
+- `that` (`UGCFileWriteStreamHandle_t`)
+
+**返回值:** `operator`
+
+**用法示例:**
+```csharp
+UGCFileWriteStreamHandle_t handle = UGCFileWriteStreamHandle_t.Invalid;
+ulong value = (ulong)handle;
+```
 
 ### Equals
 
@@ -67,4 +90,11 @@ int CompareTo(UGCFileWriteStreamHandle_t other)
 - `other` (`UGCFileWriteStreamHandle_t`)
 
 **返回值:** `int`
+
+**用法示例:**
+```csharp
+UGCFileWriteStreamHandle_t handle1 = UGCFileWriteStreamHandle_t.Invalid;  
+UGCFileWriteStreamHandle_t handle2 = UGCFileWriteStreamHandle_t.Invalid;  
+int result = handle1.CompareTo(handle2);
+```
 

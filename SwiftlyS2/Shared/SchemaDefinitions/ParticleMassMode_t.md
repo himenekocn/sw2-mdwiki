@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_MASSMODE_RADIUS_CUBED` | `0` | - |
+| `PARTICLE_MASSMODE_RADIUS_SQUARED` | `2` | - |
+

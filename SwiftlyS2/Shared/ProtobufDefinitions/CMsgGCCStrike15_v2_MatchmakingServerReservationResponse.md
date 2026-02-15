@@ -8,7 +8,7 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Reservationid` | `ulong` | get, set | - |
 | `Reservation` | `CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve` | get | - |
@@ -16,8 +16,8 @@
 | `GcReservationSent` | `ulong` | get, set | - |
 | `ServerVersion` | `uint` | get, set | - |
 | `TvInfo` | `ServerHltvInfo` | get | - |
-| `RewardPlayerAccounts` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
-| `IdlePlayerAccounts` | `IProtobufRepeatedFieldValueType\<uint\>` | get, set | - |
+| `RewardPlayerAccounts` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `IdlePlayerAccounts` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
 | `RewardItemAttrDefIdx` | `uint` | get, set | - |
 | `RewardItemAttrValue` | `uint` | get, set | - |
 | `RewardItemAttrRewardIdx` | `uint` | get, set | - |

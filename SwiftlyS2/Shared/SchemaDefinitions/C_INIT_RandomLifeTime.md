@@ -8,3 +8,11 @@
 
 **实现接口:** `ISchemaClass\<C_INIT_RandomLifeTime\>`
 
+## 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `LifetimeMin` | `ref float` | get | - |
+| `LifetimeMax` | `ref float` | get | - |
+| `LifetimeRandExponent` | `ref float` | get | - |
+

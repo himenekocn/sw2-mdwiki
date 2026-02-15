@@ -10,10 +10,18 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Damping` | `CAnimInputDamping` | get | - |
-| `MoveVecParam` | `CAnimParamHandle` | get, set | - |
-| `MoveHeadingParam` | `CAnimParamHandle` | get, set | - |
-| `TurnToFaceParam` | `CAnimParamHandle` | get, set | - |
+| `FacingTarget` | `ref AnimValueSource` | get | - |
+| `MoveVecParam` | `CAnimParamHandle` | get | - |
+| `MoveHeadingParam` | `CAnimParamHandle` | get | - |
+| `TurnToFaceParam` | `CAnimParamHandle` | get | - |
+| `TurnToFaceOffset` | `ref float` | get, set | - |
+| `TurnToFaceLimit` | `ref float` | get | - |
+| `Additive` | `ref bool` | get | - |
+| `ApplyMovement` | `ref bool` | get | - |
+| `OrientMovement` | `ref bool` | get | - |
+| `ApplyRotation` | `ref bool` | get | - |
+| `LimitOnly` | `ref bool` | get | - |
 

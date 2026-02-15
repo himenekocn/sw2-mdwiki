@@ -10,9 +10,15 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `UseCurveForFrequency` | `ref bool` | get | - |
+| `Frequency` | `ref float` | get | - |
 | `FrequencySweep` | `SchemaUntypedField` | get | - |
+| `UseCurveForResonance` | `ref bool` | get | - |
+| `Resonance` | `ref float` | get | - |
 | `ResonanceSweep` | `SchemaUntypedField` | get | - |
+| `UseCurveForAmplitude` | `ref bool` | get | - |
+| `GainInDecibels` | `ref float` | get | - |
 | `GainSweep` | `SchemaUntypedField` | get | - |
 

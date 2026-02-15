@@ -10,8 +10,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `ControlPointNumber` | `ref int` | get | - |
+| `SnapshotControlPointNumber` | `ref int` | get | - |
+| `SetNormal` | `ref bool` | get | - |
+| `SetRadius` | `ref bool` | get | - |
 | `Interpolation` | `CPerParticleFloatInput` | get | - |
 | `TValue` | `CPerParticleFloatInput` | get | - |
 

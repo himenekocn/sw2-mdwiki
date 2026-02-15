@@ -6,3 +6,10 @@
 
 **继承:** `uint`
 
+## 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `FOOTLOCKSUBVISUALIZATION_ReachabilityAnalysis` | `0` | - |
+| `FOOTLOCKSUBVISUALIZATION_IKSolve` | `1` | - |
+

@@ -8,7 +8,12 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `EntityIndex` | `ref int` | get | - |
 | `ModelName` | `string` | get, set | - |
+| `PoseParams` | `ref CUtlVector\<CUtlString\>` | get | - |
+| `DecodeOps` | `ref CUtlVector\<CUtlString\>` | get | - |
+| `InternalOps` | `ref CUtlVector\<CUtlString\>` | get | - |
+| `DecodedAnims` | `ref CUtlVector\<CUtlString\>` | get | - |
 

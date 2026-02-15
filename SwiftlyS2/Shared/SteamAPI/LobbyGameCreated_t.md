@@ -13,3 +13,22 @@
 | `m_ulSteamIDGameServer` | `ulong` | - | - |
 | `m_usPort` | `ushort` | - | - |
 
+## ⚙️ 方法
+
+### server
+
+```csharp
+game server(if any)
+```
+
+**参数:**
+
+- `any` (`if`)
+
+**返回值:** `game`
+
+**用法示例:**
+```csharp
+LobbyGameCreated_t.server();
+```
+

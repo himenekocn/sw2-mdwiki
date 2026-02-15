@@ -1,6 +1,6 @@
 # 🔌 IOnMovementServicesRunCommandHookEvent
 
-Called when the movement services run command hook is triggered.
+当移动服务运行命令挂钩被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,9 +8,9 @@ Called when the movement services run command hook is triggered.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `MovementServices` | `CCSPlayer_MovementServices` | get | The movement services. |
-| `ButtonState` | `CInButtonState` | get | The button state. |
-| `UserCmdPB` | `CSGOUserCmdPB` | get | The user command protobuf. |
+| `MovementServices` | `CCSPlayer_MovementServices` | get | 移动服务。 |
+| `ButtonState` | `CInButtonState` | get | 按钮状态。 |
+| `UserCmdPB` | `CSGOUserCmdPB` | get | 用户命令 protobuf。 |
 

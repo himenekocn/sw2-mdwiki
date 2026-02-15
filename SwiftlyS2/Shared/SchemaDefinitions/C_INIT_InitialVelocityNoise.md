@@ -10,8 +10,10 @@
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `AbsVal` | `ref Vector` | get | - |
+| `AbsValInv` | `ref Vector` | get | - |
 | `OffsetLoc` | `CPerParticleVecInput` | get, set | - |
 | `Offset` | `CPerParticleFloatInput` | get, set | - |
 | `OutputMin` | `CPerParticleVecInput` | get | - |
@@ -19,4 +21,5 @@
 | `NoiseScale` | `CPerParticleFloatInput` | get | - |
 | `NoiseScaleLoc` | `CPerParticleFloatInput` | get | - |
 | `TransformInput` | `CParticleTransformInput` | get | - |
+| `IgnoreDt` | `ref bool` | get | - |
 

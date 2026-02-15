@@ -1,6 +1,6 @@
 # 🔌 IOnEntityIdentityAcceptInputHookEvent
 
-Called when the entity identity accept input hook is triggered.
+当实体标识接受输入钩子被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -8,14 +8,15 @@ Called when the entity identity accept input hook is triggered.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Identity` | `CEntityIdentity` | get | The entity identity. |
-| `EntityInstance` | `CEntityInstance` | get | The entity instance. |
-| `DesignerName` | `string` | get | The designer name of the caller. |
-| `InputName` | `string` | get | The name of the input being accepted. |
-| `Activator` | `CEntityInstance?` | get | The value of the input being accepted. |
-| `Caller` | `CEntityInstance?` | get | The caller of the input being accepted. |
-| `OutputId` | `int` | get, set | The output ID of the input being accepted. |
-| `Result` | `HookResult` | get, set | The result of the hook. |
+| `Identity` | `CEntityIdentity` | get | 实体标识。 |
+| `EntityInstance` | `CEntityInstance` | get | 实体实例。 |
+| `DesignerName` | `string` | get | 调用方的设计器名称。 |
+| `InputName` | `string` | get | 正在接受的输入的名称。 |
+| `Activator` | `CEntityInstance?` | get | 被接受的输入值。 |
+| `Caller` | `CEntityInstance?` | get | 接受输入的调用方。 |
+| `VariantValue` | `ref CVariant\<CVariantDefaultAllocator\>` | get | 被接受的输入的变体值。 |
+| `OutputId` | `int` | get | 被接受的输入的输出ID。 |
+| `Result` | `HookResult` | get, set | 钩子（Hook）的结果。 |
 

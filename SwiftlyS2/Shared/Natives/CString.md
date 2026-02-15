@@ -1,6 +1,6 @@
 # 🏗️ CString
 
-Wrapper class for native char*.
+用于封装原生 char* 的包装类。
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 
@@ -8,7 +8,7 @@ Wrapper class for native char*.
 
 ## 📝 属性
 
-| 名称 | 类型 | 访问器 | 描述 |
+| 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Value` | `string` | get, set | - |
+| `Value` | `string` | - | - |
 
