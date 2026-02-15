@@ -1,0 +1,17 @@
+# 🏗️ P2PSessionState_t
+
+**命名空间:** `SwiftlyS2.Shared.SteamAPI`
+
+**类型:** `struct`
+
+## 📋 字段
+
+| 名称 | 类型 | 修饰符 | 描述 |
+|------|------|--------|------|
+| `m_bConnectionActive` | `byte` | - | - |
+| `m_bConnecting` | `byte` | - | - |
+| `m_nBytesQueuedForSend` | `int` | - | - |
+| `m_nPacketsQueuedForSend` | `int` | - | - |
+| `m_nRemoteIP` | `uint` | - | - |
+| `m_nRemotePort` | `ushort` | - | - |
+

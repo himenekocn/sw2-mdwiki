@@ -1,0 +1,25 @@
+# 📦 CItemGenericImpl
+
+**命名空间:** `SwiftlyS2.Core.SchemaDefinitions`
+
+**类型:** `class`
+
+**继承:** `CItemImpl`
+
+**实现接口:** `CItemGeneric`
+
+## 📝 属性
+
+| 名称 | 类型 | 访问器 | 描述 |
+|------|------|--------|------|
+| `LastPickupCheck` | `GameTime_t` | get, set | - |
+| `AmbientSoundEffect` | `string` | get, set | - |
+| `SpawnScriptFunction` | `string` | get, set | - |
+| `PickupSoundEffect` | `string` | get, set | - |
+| `PickupScriptFunction` | `string` | get, set | - |
+| `TimeoutSoundEffect` | `string` | get, set | - |
+| `TimeoutScriptFunction` | `string` | get, set | - |
+| `PickupFilterName` | `string` | get, set | - |
+| `AllowPickupScriptFunction` | `string` | get, set | - |
+| `TriggerSoundEffect` | `string` | get, set | - |
+

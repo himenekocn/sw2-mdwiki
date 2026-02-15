@@ -1,0 +1,18 @@
+# 🔌 CSOPersonaDataPublic
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CSOPersonaDataPublic\>`
+
+## 📝 属性
+
+| 名称 | 类型 | 访问器 | 描述 |
+|------|------|--------|------|
+| `PlayerLevel` | `int` | get, set | - |
+| `Commendation` | `PlayerCommendationInfo` | get, set | - |
+| `ElevatedState` | `bool` | get, set | - |
+| `XpTrailTimestampRefresh` | `uint` | get, set | - |
+| `XpTrailLevel` | `uint` | get, set | - |
+
