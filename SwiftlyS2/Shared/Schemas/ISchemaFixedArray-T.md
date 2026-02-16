@@ -13,4 +13,5 @@
 | `ElementAlignment` | `int` | get | - |
 | `ElementCount` | `int` | get | - |
 | `ElementSize` | `int` | get | - |
+| `this[int index]` | `ref T` | get | - |
 

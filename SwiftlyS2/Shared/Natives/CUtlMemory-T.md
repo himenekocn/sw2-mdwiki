@@ -15,6 +15,7 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ElementSize` | `int` | - | - |
+| `this[int index]` | `ref T` | - | - |
 | `ExternallyAllocated` | `bool` | - | - |
 | `IsReadOnly` | `bool` | - | - |
 | `Base` | `nint` | - | - |

@@ -15,4 +15,5 @@
 | `ElementAlignment` | `int` | get | - |
 | `ElementCount` | `int` | get | - |
 | `ElementSize` | `int` | get | - |
+| `this[int index]` | `T` | get | - |
 

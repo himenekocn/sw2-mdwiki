@@ -27,6 +27,7 @@
 | `NumAllocated` | `int` | - | - |
 | `ExternallyAllocated` | `bool` | - | - |
 | `Base` | `nint` | - | - |
+| `this[I index]` | `ref T` | - | - |
 
 ## ⚙️ 方法
 

@@ -19,6 +19,7 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ElementSize` | `int` | - | - |
+| `this[int index]` | `ref T` | - | - |
 | `Base` | `nint` | - | - |
 | `Count` | `int` | - | - |
 | `Capacity` | `int` | - | - |

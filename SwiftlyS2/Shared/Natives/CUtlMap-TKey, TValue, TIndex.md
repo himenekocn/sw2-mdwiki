@@ -19,6 +19,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `this[TIndex idx]` | `ref TValue` | - | - |
 | `Count` | `int` | - | - |
 | `MaxElement` | `TIndex` | - | - |
 

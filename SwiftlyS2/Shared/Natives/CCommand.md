@@ -17,6 +17,7 @@
 | `ArgC` | `int` | - | - |
 | `ArgS` | `string?` | - | - |
 | `GetCommandString` | `string?` | - | - |
+| `this[int index]` | `string?` | - | - |
 
 ## ⚙️ 方法
 
