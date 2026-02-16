@@ -38,6 +38,21 @@ void NextTick(Func<Task?> task)
 schedulerService.NextTick(async () => await SomeAsyncMethod());
 ```
 
+### NextTick<T>
+
+```csharp
+void NextTick<T>(Func<Task<T?>> task)
+```
+
+**参数:**
+
+- `task` (`Func\<Task\<T?\>\>`)
+
+**用法示例:**
+```csharp
+scheduler.NextTick(async () => await GetResultAsync());
+```
+
 ### NextTickAsync
 
 ```csharp
@@ -72,6 +87,40 @@ void NextTickAsync(Func<Task?> task)
 await schedulerService.NextTickAsync(async () => await SomeTaskAsync());
 ```
 
+### NextTickAsync<T>
+
+```csharp
+void NextTickAsync<T>(Func<Task<T?>> task)
+```
+
+**参数:**
+
+- `task` (`Func\<Task\<T?\>\>`)
+
+**用法示例:**
+```csharp
+await scheduler.NextTickAsync(() => SomeAsyncMethod());
+```
+
+### NextTickAsync<T>
+
+```csharp
+Task<T> NextTickAsync<T>(Func<T> task)
+```
+
+添加一个任务，以便在下一个tick异步执行。
+
+**参数:**
+
+- `task` (`Func\<T\>`) - 要执行的任务。
+
+**返回值:** `Task\<T\>`
+
+**用法示例:**
+```csharp
+var result = await scheduler.NextTickAsync(() => CalculateSomething());
+```
+
 ### NextWorldUpdate
 
 ```csharp
@@ -102,6 +151,21 @@ void NextWorldUpdate(Func<Task?> task)
 **用法示例:**
 ```csharp
 schedulerService.NextWorldUpdate(async () => await SomeAsyncOperation());
+```
+
+### NextWorldUpdate<T>
+
+```csharp
+void NextWorldUpdate<T>(Func<Task<T?>> task)
+```
+
+**参数:**
+
+- `task` (`Func\<Task\<T?\>\>`)
+
+**用法示例:**
+```csharp
+scheduler.NextWorldUpdate(async () => await GetWorldDataAsync());
 ```
 
 ### NextWorldUpdateAsync
@@ -136,6 +200,42 @@ void NextWorldUpdateAsync(Func<Task?> task)
 **用法示例:**
 ```csharp
 await schedulerService.NextWorldUpdateAsync(async () => await SomeTaskAsync());
+```
+
+### NextWorldUpdateAsync<T>
+
+```csharp
+Task<T> NextWorldUpdateAsync<T>(Func<Task<T?>> task)
+```
+
+**参数:**
+
+- `task` (`Func\<Task\<T?\>\>`)
+
+**返回值:** `Task\<T\>`
+
+**用法示例:**
+```csharp
+var result = await scheduler.NextWorldUpdateAsync(() => GetNextUpdateAsync());
+```
+
+### NextWorldUpdateAsync<T>
+
+```csharp
+Task<T> NextWorldUpdateAsync<T>(Func<T> task)
+```
+
+将一个任务添加到下一次世界更新时异步执行。
+
+**参数:**
+
+- `task` (`Func\<T\>`) - 要执行的任务。
+
+**返回值:** `Task\<T\>`
+
+**用法示例:**
+```csharp
+await scheduler.NextWorldUpdateAsync(() => ProcessWorldData());
 ```
 
 ### Delay

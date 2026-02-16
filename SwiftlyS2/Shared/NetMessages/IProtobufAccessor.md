@@ -1212,3 +1212,93 @@ void Clear()
 convar.Clear();
 ```
 
+### Set<T>
+
+```csharp
+void Set<T>(string fieldName, T value)
+```
+
+**参数:**
+
+- `fieldName` (`string`)
+- `value` (`T`)
+
+**用法示例:**
+```csharp
+accessor.Set("name", "Alice");
+accessor.Set("age", 25);
+accessor.Set("team", Team.T);
+```
+
+### Add<T>
+
+```csharp
+void Add<T>(string fieldName, T value)
+```
+
+**参数:**
+
+- `fieldName` (`string`)
+- `value` (`T`)
+
+**用法示例:**
+```csharp
+accessor.Add("name", "Alice");
+accessor.Add("age", 25);
+accessor.Add("team", Team.T);
+```
+
+### SetRepeated<T>
+
+```csharp
+void SetRepeated<T>(string fieldName, int index, T value)
+```
+
+**参数:**
+
+- `fieldName` (`string`)
+- `index` (`int`)
+- `value` (`T`)
+
+**用法示例:**
+```csharp
+accessor.SetRepeated("items", 0, 42);
+accessor.SetRepeated("teams", 1, Team.T);
+```
+
+### GetRepeated<T>
+
+```csharp
+T GetRepeated<T>(string fieldName, int index)
+```
+
+**参数:**
+
+- `fieldName` (`string`)
+- `index` (`int`)
+
+**返回值:** `T`
+
+**用法示例:**
+```csharp
+var item = accessor.GetRepeated<string>("items", 0);
+```
+
+### Get<T>
+
+```csharp
+T Get<T>(string fieldName)
+```
+
+**参数:**
+
+- `fieldName` (`string`)
+
+**返回值:** `T`
+
+**用法示例:**
+```csharp
+var value = accessor.Get<string>("name");
+var team = accessor.Get<Team>("team");
+```
+

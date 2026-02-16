@@ -378,6 +378,23 @@ CVariant variant;
 variant.SetColor(Color.Red);
 ```
 
+### Set<T>
+
+```csharp
+void Set<T>(T value)
+```
+
+**参数:**
+
+- `value` (`T`)
+
+**用法示例:**
+```csharp
+variant.Set(42);
+variant.Set("hello");
+variant.Set(Team.T);
+```
+
 ### TryGetBool
 
 ```csharp
@@ -609,6 +626,23 @@ bool TryGetHScript([MaybeNullWhen(false )
 ```csharp
 CVariant variant = default;
 bool success = variant.TryGetHScript(out HScript script);
+```
+
+### TryGetCHandle<T>
+
+```csharp
+bool TryGetCHandle<T>([MaybeNullWhen(false )
+```
+
+**参数:**
+
+- `` (`[MaybeNullWhen(false`)
+
+**返回值:** `bool`
+
+**用法示例:**
+```csharp
+if (variant.TryGetCHandle<int>(out var handle)) { /* use handle */ }
 ```
 
 ### TryGetVector2D

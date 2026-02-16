@@ -53,6 +53,46 @@ IPluginConfigurationService InitializeWithTemplate(string name, string templateN
 convar.InitializeWithTemplate("MyPlugin", "DefaultConfig");
 ```
 
+### InitializeJsonWithModel<T>
+
+```csharp
+IPluginConfigurationService InitializeJsonWithModel<T>(string name, string sectionName)
+```
+
+使用类作为模板初始化 JSON 配置文件。
+
+**参数:**
+
+- `name` (`string`) - 配置文件的名称。
+- `sectionName` (`string`) - 配置文件中节（section）的名称。
+
+**返回值:** `IPluginConfigurationService`
+
+**用法示例:**
+```csharp
+var result = pluginConfigService.InitializeJsonWithModel<MyConfig>("plugin", "settings");
+```
+
+### InitializeTomlWithModel<T>
+
+```csharp
+IPluginConfigurationService InitializeTomlWithModel<T>(string name, string sectionName)
+```
+
+使用类作为模板初始化 TOML 配置文件。
+
+**参数:**
+
+- `name` (`string`) - 配置文件的名称。
+- `sectionName` (`string`) - 配置文件中节（section）的名称。
+
+**返回值:** `IPluginConfigurationService`
+
+**用法示例:**
+```csharp
+configService.InitializeTomlWithModel<MyConfig>("plugin", "settings");
+```
+
 ### Configure
 
 ```csharp

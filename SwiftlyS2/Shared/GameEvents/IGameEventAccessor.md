@@ -201,6 +201,44 @@ string GetString(string key)
 string value = gameEventAccessor.GetString("playerName");
 ```
 
+### SetEntity<K>
+
+```csharp
+void SetEntity<K>(string key, K value)
+```
+
+在事件负载上设置一个实体引用。
+
+**参数:**
+
+- `key` (`string`) - 字段名。
+- `value` (`K`) - 实体实例。
+
+**用法示例:**
+```csharp
+gameEventAccessor.SetEntity("player", player);
+gameEventAccessor.SetEntity("team", Team.T);
+```
+
+### GetEntity<K>
+
+```csharp
+K GetEntity<K>(string key)
+```
+
+从事件负载中获取实体引用。
+
+**参数:**
+
+- `key` (`string`) - 字段名。
+
+**返回值:** `K` - 实体实例。
+
+**用法示例:**
+```csharp
+var entity = accessor.GetEntity<Player>("player1");
+```
+
 ### SetEntityIndex
 
 ```csharp

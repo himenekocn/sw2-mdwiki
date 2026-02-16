@@ -6,6 +6,45 @@
 
 ## ⚙️ 方法
 
+### GetUnmanagedFunctionByAddress<TDelegate>
+
+```csharp
+IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByAddress<TDelegate>(nint address)
+```
+
+通过地址获取非托管函数。
+
+**参数:**
+
+- `address` (`nint`) - 非托管函数的地址。
+
+**返回值:** `IUnmanagedFunction\<TDelegate\>` - 非托管函数。
+
+**用法示例:**
+```csharp
+var func = manager.GetUnmanagedFunctionByAddress<SomeDelegate>(0x12345678);
+```
+
+### GetUnmanagedFunctionByVTable<TDelegate>
+
+```csharp
+IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByVTable<TDelegate>(nint pVTable, int index)
+```
+
+通过其 vtable 地址和索引获取非托管函数。
+
+**参数:**
+
+- `pVTable` (`nint`) - vtable 的地址。
+- `index` (`int`) - vtable中该函数的索引。
+
+**返回值:** `IUnmanagedFunction\<TDelegate\>` - 非托管函数。
+
+**用法示例:**
+```csharp
+var func = manager.GetUnmanagedFunctionByVTable<SomeDelegate>(vtablePtr, 0);
+```
+
 ### GetUnmanagedMemoryByAddress
 
 ```csharp
@@ -159,6 +198,25 @@ bool ObjectPtrHasBaseClass(nint address, string baseClassName)
 **用法示例:**
 ```csharp
 bool hasBase = memoryService.ObjectPtrHasBaseClass(player.Address, "Character");
+```
+
+### ToSchemaClass<T>
+
+```csharp
+T ToSchemaClass<T>(nint address)
+```
+
+将原始地址转换为架构类。
+
+**参数:**
+
+- `address` (`nint`) - 架构类的地址。
+
+**返回值:** `T` - 架构类。
+
+**用法示例:**
+```csharp
+var player = manager.ToSchemaClass<Player>(0x12345678);
 ```
 
 ### Alloc

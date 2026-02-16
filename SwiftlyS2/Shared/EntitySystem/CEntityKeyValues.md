@@ -521,3 +521,39 @@ QAngle GetQAngle(string key)
 QAngle angle = entityKeyValues.GetQAngle("angles");
 ```
 
+### Set<T>
+
+```csharp
+void Set<T>(string key, T value)
+```
+
+**参数:**
+
+- `key` (`string`)
+- `value` (`T`)
+
+**用法示例:**
+```csharp
+entityKeyValues.Set("name", "Alice");
+entityKeyValues.Set("age", 30);
+entityKeyValues.Set("team", Team.T);
+```
+
+### Get<T>
+
+```csharp
+T Get<T>(string key)
+```
+
+**参数:**
+
+- `key` (`string`)
+
+**返回值:** `T`
+
+**用法示例:**
+```csharp
+int value = entityKeyValues.Get<int>("key");
+Team team = entityKeyValues.Get<Team>("teamKey");
+```
+

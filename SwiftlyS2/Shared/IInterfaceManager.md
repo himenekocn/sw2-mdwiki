@@ -25,3 +25,22 @@ bool HasSharedInterface(string key)
 bool exists = manager.HasSharedInterface("MyKey");
 ```
 
+### GetSharedInterface<TInterface>
+
+```csharp
+TInterface GetSharedInterface<TInterface>(string key)
+```
+
+获取共享接口。
+
+**参数:**
+
+- `key` (`string`) - 接口的关键。
+
+**返回值:** `TInterface` - 接口的实现。
+
+**用法示例:**
+```csharp
+var service = manager.GetSharedInterface<IService>("key");
+```
+
