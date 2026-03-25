@@ -39,10 +39,6 @@ AI预测的示例可能并不准确,请根据实际情况调整.
 - 📦 [TextMenuOption](SwiftlyS2/Core/Menus/OptionsBase/TextMenuOption.md)
 - 📦 [ToggleMenuOption](SwiftlyS2/Core/Menus/OptionsBase/ToggleMenuOption.md)
 
-## SwiftlyS2.Core.Natives
-
-- 📦 [StringAlloc](SwiftlyS2/Core/Natives/StringAlloc.md)
-
 ## SwiftlyS2.Core.NetMessages
 
 - 🔗 [NetMessageClientHookCallbackDelegate](SwiftlyS2/Core/NetMessages/NetMessageClientHookCallbackDelegate.md)
