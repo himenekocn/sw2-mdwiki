@@ -24,6 +24,6 @@ in SteamUtils()
 
 **用法示例:**
 ```csharp
-UserAchievementIconFetched_t.SteamUtils();
+achievementIconFetched.SteamUtils();
 ```
 

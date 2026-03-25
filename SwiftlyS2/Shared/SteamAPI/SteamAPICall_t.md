@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-SteamAPICall_t call = default;
-string result = call.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator ulong(SteamAPICall_t that)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = (SteamAPICall_t)12345UL;
+ulong callId = (ulong)existingSteamAPICall;
 ```
 
 ### Equals
@@ -93,7 +87,6 @@ int CompareTo(SteamAPICall_t other)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call1 = default;  
-int result = call1.CompareTo(default);
+int result = existingCall.CompareTo(otherCall);
 ```
 

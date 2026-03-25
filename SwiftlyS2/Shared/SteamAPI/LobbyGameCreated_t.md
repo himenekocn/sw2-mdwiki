@@ -29,6 +29,6 @@ game server(if any)
 
 **用法示例:**
 ```csharp
-LobbyGameCreated_t.server();
+var gameServer = lobbyGameCreated.GameServer();
 ```
 

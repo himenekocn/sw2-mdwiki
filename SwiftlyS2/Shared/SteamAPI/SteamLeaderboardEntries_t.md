@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = SteamLeaderboardEntries_t.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator ulong(SteamLeaderboardEntries_t that)
 
 **用法示例:**
 ```csharp
-SteamLeaderboardEntries_t.operator_ulong(leaderboardEntries);
+ulong handle = SteamLeaderboardEntries_t.ulong(existingEntries);
 ```
 
 ### Equals
@@ -92,6 +87,6 @@ int CompareTo(SteamLeaderboardEntries_t other)
 
 **用法示例:**
 ```csharp
-SteamLeaderboardEntries_t a = default; SteamLeaderboardEntries_t b = default; int result = a.CompareTo(b);
+int result = existingEntry.CompareTo(otherEntry);
 ```
 

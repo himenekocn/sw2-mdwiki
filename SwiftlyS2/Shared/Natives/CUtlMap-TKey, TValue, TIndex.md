@@ -37,7 +37,6 @@ void EnsureCapacity(TIndex num)
 
 **用法示例:**
 ```csharp
-CUtlMap map;  
 map.EnsureCapacity(10);
 ```
 
@@ -55,7 +54,7 @@ TIndex Find(TKey key)
 
 **用法示例:**
 ```csharp
-TIndex index = myMap.Find(someKey);
+var index = existingUtlMap.Find(existingKey);
 ```
 
 ### Remove
@@ -72,8 +71,7 @@ bool Remove(TKey key)
 
 **用法示例:**
 ```csharp
-CUtlMap<int, string> map;
-map.Remove(42);
+bool removed = map.Remove(key);
 ```
 
 ### Reinsert
@@ -89,7 +87,7 @@ void Reinsert(TKey key, TIndex idx)
 
 **用法示例:**
 ```csharp
-manager.Reinsert(key, idx);
+map.Reinsert(key, idx);
 ```
 
 ### InsertOrReplace
@@ -107,7 +105,7 @@ TIndex InsertOrReplace(TKey key, TValue element)
 
 **用法示例:**
 ```csharp
-manager.InsertOrReplace("key1", "value1");
+TIndex index = existingMap.InsertOrReplace(existingKey, existingValue);
 ```
 
 ### Dispose

@@ -22,7 +22,7 @@ bool HasField(string fieldName)
 
 **用法示例:**
 ```csharp
-bool hasField = player.HasField("name");
+bool hasField = protobufAccessor.HasField("player_id");
 ```
 
 ### SetBool
@@ -38,7 +38,7 @@ void SetBool(string fieldName, bool value)
 
 **用法示例:**
 ```csharp
-convar.SetBool("isEnabled", true);
+accessor.SetBool("isActive", true);
 ```
 
 ### AddBool
@@ -54,7 +54,7 @@ void AddBool(string fieldName, bool value)
 
 **用法示例:**
 ```csharp
-convar.AddBool("isEnabled", true);
+accessor.AddBool("isActive", true);
 ```
 
 ### SetRepeatedBool
@@ -71,7 +71,7 @@ void SetRepeatedBool(string fieldName, int index, bool value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedBool("flags", 0, true);
+accessor.SetRepeatedBool("flags", 0, true);
 ```
 
 ### GetRepeatedBool
@@ -89,7 +89,7 @@ bool GetRepeatedBool(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-bool value = IProtobufAccessor.GetRepeatedBool("isActive", 0);
+bool value = accessor.GetRepeatedBool("flags", 0);
 ```
 
 ### GetBool
@@ -106,7 +106,7 @@ bool GetBool(string fieldName)
 
 **用法示例:**
 ```csharp
-bool value = convar.GetBool("enabled");
+bool isActive = accessor.GetBool("enabled");
 ```
 
 ### SetInt32
@@ -122,7 +122,7 @@ void SetInt32(string fieldName, int value)
 
 **用法示例:**
 ```csharp
-convar.SetInt32("health", 100);
+accessor.SetInt32("health", 100);
 ```
 
 ### AddInt32
@@ -138,7 +138,7 @@ void AddInt32(string fieldName, int value)
 
 **用法示例:**
 ```csharp
-convar.AddInt32("score", 100);
+accessor.AddInt32("field", 42);
 ```
 
 ### SetRepeatedInt32
@@ -155,7 +155,7 @@ void SetRepeatedInt32(string fieldName, int index, int value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedInt32("scores", 0, 10);
+accessor.SetRepeatedInt32("scores", 0, 100);
 ```
 
 ### GetRepeatedInt32
@@ -173,7 +173,7 @@ int GetRepeatedInt32(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-int value = convar.GetRepeatedInt32("scores", 0);
+int value = accessor.GetRepeatedInt32("scores", 0);
 ```
 
 ### GetInt32
@@ -190,7 +190,7 @@ int GetInt32(string fieldName)
 
 **用法示例:**
 ```csharp
-int value = convar.GetInt32("someField");
+int value = accessor.GetInt32("playerId");
 ```
 
 ### SetUInt32
@@ -206,7 +206,7 @@ void SetUInt32(string fieldName, uint value)
 
 **用法示例:**
 ```csharp
-convar.SetUInt32("maxPlayers", 32);
+accessor.SetUInt32("playerId", 1001);
 ```
 
 ### AddUInt32
@@ -222,7 +222,7 @@ void AddUInt32(string fieldName, uint value)
 
 **用法示例:**
 ```csharp
-convar.AddUInt32("score", 100u);
+accessor.AddUInt32("field", 123);
 ```
 
 ### SetRepeatedUInt32
@@ -239,7 +239,7 @@ void SetRepeatedUInt32(string fieldName, int index, uint value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedUInt32("scores", 0, 0);
+accessor.SetRepeatedUInt32("scores", 0, 100u);
 ```
 
 ### GetRepeatedUInt32
@@ -257,7 +257,7 @@ uint GetRepeatedUInt32(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-uint value = convar.GetRepeatedUInt32("scores", 0);
+uint value = accessor.GetRepeatedUInt32("scores", 0);
 ```
 
 ### GetUInt32
@@ -274,7 +274,7 @@ uint GetUInt32(string fieldName)
 
 **用法示例:**
 ```csharp
-uint value = convar.GetUInt32("maxPlayers");
+uint value = accessor.GetUInt32("field_name");
 ```
 
 ### SetInt64
@@ -290,7 +290,7 @@ void SetInt64(string fieldName, long value)
 
 **用法示例:**
 ```csharp
-convar.SetInt64("score", 100L);
+accessor.SetInt64("score", 100L);
 ```
 
 ### AddInt64
@@ -306,7 +306,7 @@ void AddInt64(string fieldName, long value)
 
 **用法示例:**
 ```csharp
-convar.AddInt64("score", 100L);
+accessor.AddInt64("score", 100L);
 ```
 
 ### SetRepeatedInt64
@@ -323,7 +323,7 @@ void SetRepeatedInt64(string fieldName, int index, long value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedInt64("scores", 0, 100L);
+accessor.SetRepeatedInt64("scores", 0, 123456L);
 ```
 
 ### GetRepeatedInt64
@@ -341,7 +341,7 @@ long GetRepeatedInt64(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-long value = convar.GetRepeatedInt64("scores", 0);
+long value = accessor.GetRepeatedInt64("scores", 0);
 ```
 
 ### GetInt64
@@ -358,7 +358,7 @@ long GetInt64(string fieldName)
 
 **用法示例:**
 ```csharp
-long value = player.GetInt64("health");
+long value = accessor.GetInt64("player_id");
 ```
 
 ### SetUInt64
@@ -374,7 +374,7 @@ void SetUInt64(string fieldName, ulong value)
 
 **用法示例:**
 ```csharp
-convar.SetUInt64("Score", 100UL);
+accessor.SetUInt64("playerId", 1234567890UL);
 ```
 
 ### AddUInt64
@@ -390,7 +390,7 @@ void AddUInt64(string fieldName, ulong value)
 
 **用法示例:**
 ```csharp
-convar.AddUInt64("score", 100UL);
+accessor.AddUInt64("playerId", 1234567890UL);
 ```
 
 ### SetRepeatedUInt64
@@ -407,7 +407,7 @@ void SetRepeatedUInt64(string fieldName, int index, ulong value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedUInt64("scores", 0, 100UL);
+accessor.SetRepeatedUInt64("scores", 0, 100UL);
 ```
 
 ### GetRepeatedUInt64
@@ -425,7 +425,7 @@ ulong GetRepeatedUInt64(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-ulong value = convar.GetRepeatedUInt64("scores", 0);
+ulong value = accessor.GetRepeatedUInt64("scores", 0);
 ```
 
 ### GetUInt64
@@ -442,7 +442,7 @@ ulong GetUInt64(string fieldName)
 
 **用法示例:**
 ```csharp
-ulong value = convar.GetUInt64("someField");
+ulong value = accessor.GetUInt64("player_id");
 ```
 
 ### SetFloat
@@ -458,7 +458,7 @@ void SetFloat(string fieldName, float value)
 
 **用法示例:**
 ```csharp
-convar.SetFloat("health", 100f);
+accessor.SetFloat("health", 100.5f);
 ```
 
 ### AddFloat
@@ -474,7 +474,7 @@ void AddFloat(string fieldName, float value)
 
 **用法示例:**
 ```csharp
-convar.AddFloat("speed", 3.14f);
+accessor.AddFloat("health", 100.5f);
 ```
 
 ### SetRepeatedFloat
@@ -491,7 +491,7 @@ void SetRepeatedFloat(string fieldName, int index, float value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedFloat("positions", 0, 1.5f);
+accessor.SetRepeatedFloat("positions", 0, 1.5f);
 ```
 
 ### GetRepeatedFloat
@@ -509,7 +509,7 @@ float GetRepeatedFloat(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-float value = convar.GetRepeatedFloat("speeds", 2);
+float value = accessor.GetRepeatedFloat("scores", 0);
 ```
 
 ### GetFloat
@@ -526,7 +526,7 @@ float GetFloat(string fieldName)
 
 **用法示例:**
 ```csharp
-float value = convar.GetFloat("health");
+float value = accessor.GetFloat("health");
 ```
 
 ### SetDouble
@@ -542,7 +542,7 @@ void SetDouble(string fieldName, double value)
 
 **用法示例:**
 ```csharp
-convar.SetDouble("speed", 10.5);
+accessor.SetDouble("health", 100.5);
 ```
 
 ### AddDouble
@@ -558,7 +558,7 @@ void AddDouble(string fieldName, double value)
 
 **用法示例:**
 ```csharp
-convar.AddDouble("speed", 10.5);
+accessor.AddDouble("temperature", 23.5);
 ```
 
 ### SetRepeatedDouble
@@ -575,7 +575,7 @@ void SetRepeatedDouble(string fieldName, int index, double value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedDouble("scores", 0, 95.5);
+accessor.SetRepeatedDouble("scores", 0, 98.5);
 ```
 
 ### GetRepeatedDouble
@@ -593,7 +593,7 @@ double GetRepeatedDouble(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-double value = IProtobufAccessor.GetRepeatedDouble("scores", 0);
+double value = accessor.GetRepeatedDouble("scores", 0);
 ```
 
 ### GetDouble
@@ -610,7 +610,7 @@ double GetDouble(string fieldName)
 
 **用法示例:**
 ```csharp
-double value = convar.GetDouble("health");
+double value = accessor.GetDouble("score");
 ```
 
 ### SetString
@@ -626,7 +626,7 @@ void SetString(string fieldName, string value)
 
 **用法示例:**
 ```csharp
-convar.SetString("username", "Alice");
+accessor.SetString("player_name", "Swiftly");
 ```
 
 ### AddString
@@ -642,7 +642,7 @@ void AddString(string fieldName, string value)
 
 **用法示例:**
 ```csharp
-convar.AddString("name", "Alice");
+protobufAccessor.AddString("player_name", "Steve");
 ```
 
 ### SetRepeatedString
@@ -659,7 +659,7 @@ void SetRepeatedString(string fieldName, int index, string value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedString("names", 0, "Alice");
+accessor.SetRepeatedString("tags", 0, "admin");
 ```
 
 ### GetRepeatedString
@@ -677,7 +677,7 @@ string GetRepeatedString(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-string value = convar.GetRepeatedString("names", 0);
+string value = accessor.GetRepeatedString("items", 0);
 ```
 
 ### GetString
@@ -694,7 +694,7 @@ string GetString(string fieldName)
 
 **用法示例:**
 ```csharp
-string value = convar.GetString("player_name");
+string value = accessor.GetString("player_name");
 ```
 
 ### SetBytes
@@ -710,7 +710,7 @@ void SetBytes(string fieldName, byte[] value)
 
 **用法示例:**
 ```csharp
-convar.SetBytes("data", Encoding.UTF8.GetBytes("example"));
+accessor.SetBytes("data", new byte[] { 1, 2, 3 });
 ```
 
 ### AddBytes
@@ -726,7 +726,7 @@ void AddBytes(string fieldName, byte[] value)
 
 **用法示例:**
 ```csharp
-IProtobufAccessor.AddBytes("data", new byte[] { 1, 2, 3 });
+accessor.AddBytes("data", new byte[] { 1, 2, 3 });
 ```
 
 ### SetRepeatedBytes
@@ -743,7 +743,7 @@ void SetRepeatedBytes(string fieldName, int index, byte[] value)
 
 **用法示例:**
 ```csharp
-IProtobufAccessor.SetRepeatedBytes("data", 0, new byte[] { 1, 2, 3 });
+accessor.SetRepeatedBytes("data", 0, new byte[] { 1, 2, 3 });
 ```
 
 ### GetRepeatedBytes
@@ -761,7 +761,7 @@ byte[] GetRepeatedBytes(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-byte[] data = accessor.GetRepeatedBytes("items", 0);
+var data = accessor.GetRepeatedBytes("items", 0);
 ```
 
 ### GetBytes
@@ -778,7 +778,7 @@ byte[] GetBytes(string fieldName)
 
 **用法示例:**
 ```csharp
-byte[] data = IProtobufAccessor.GetBytes("fieldName");
+byte[] data = accessor.GetBytes("player_name");
 ```
 
 ### SetVector2D
@@ -794,7 +794,7 @@ void SetVector2D(string fieldName, Vector2D value)
 
 **用法示例:**
 ```csharp
-IProtobufAccessor.SetVector2D("position", new Vector2D(10, 20));
+accessor.SetVector2D("position", Vector2D.Zero);
 ```
 
 ### AddVector2D
@@ -810,7 +810,7 @@ void AddVector2D(string fieldName, Vector2D value)
 
 **用法示例:**
 ```csharp
-convar.AddVector2D("position", new Vector2D(10, 20));
+accessor.AddVector2D("position", Vector2D.Zero);
 ```
 
 ### SetRepeatedVector2D
@@ -827,7 +827,7 @@ void SetRepeatedVector2D(string fieldName, int index, Vector2D value)
 
 **用法示例:**
 ```csharp
-IProtobufAccessor.SetRepeatedVector2D("position", 0, new Vector2D(1.0f, 2.0f));
+accessor.SetRepeatedVector2D("positions", 0, Vector2D.Zero);
 ```
 
 ### GetRepeatedVector2D
@@ -845,7 +845,7 @@ Vector2D GetRepeatedVector2D(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-Vector2D pos = accessor.GetRepeatedVector2D("positions", 0);
+var pos = accessor.GetRepeatedVector2D("positions", 0);
 ```
 
 ### GetVector2D
@@ -862,7 +862,7 @@ Vector2D GetVector2D(string fieldName)
 
 **用法示例:**
 ```csharp
-Vector2D pos = IProtobufAccessor.GetVector2D("position");
+Vector2D position = accessor.GetVector2D("spawn_position");
 ```
 
 ### SetVector
@@ -878,7 +878,7 @@ void SetVector(string fieldName, Vector value)
 
 **用法示例:**
 ```csharp
-convar.SetVector("position", new Vector(1, 2, 3));
+accessor.SetVector("position", Vector.Zero);
 ```
 
 ### AddVector
@@ -894,7 +894,7 @@ void AddVector(string fieldName, Vector value)
 
 **用法示例:**
 ```csharp
-IProtobufAccessor.AddVector("position", new Vector(1, 2, 3));
+accessor.AddVector("position", Vector.Zero);
 ```
 
 ### SetRepeatedVector
@@ -911,7 +911,7 @@ void SetRepeatedVector(string fieldName, int index, Vector value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedVector("positions", 0, Vector.Zero);
+accessor.SetRepeatedVector("positions", 0, Vector.Zero);
 ```
 
 ### GetRepeatedVector
@@ -929,7 +929,7 @@ Vector GetRepeatedVector(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-Vector pos = IProtobufAccessor.GetRepeatedVector("positions", 0);
+Vector vec = accessor.GetRepeatedVector("positions", 0);
 ```
 
 ### GetVector
@@ -946,7 +946,7 @@ Vector GetVector(string fieldName)
 
 **用法示例:**
 ```csharp
-Vector pos = IProtobufAccessor.GetVector("position");
+var vector = accessor.GetVector("position");
 ```
 
 ### SetColor
@@ -962,7 +962,7 @@ void SetColor(string fieldName, Color value)
 
 **用法示例:**
 ```csharp
-convar.SetColor("teamColor", Color.Red);
+accessor.SetColor("teamColor", Color.Red);
 ```
 
 ### AddColor
@@ -978,7 +978,7 @@ void AddColor(string fieldName, Color value)
 
 **用法示例:**
 ```csharp
-convar.AddColor("color", Color.Red);
+accessor.AddColor("teamColor", Color.Red);
 ```
 
 ### SetRepeatedColor
@@ -995,7 +995,7 @@ void SetRepeatedColor(string fieldName, int index, Color value)
 
 **用法示例:**
 ```csharp
-convar.SetRepeatedColor("colors", 0, Color.Red);
+accessor.SetRepeatedColor("colors", 0, Color.Red);
 ```
 
 ### GetRepeatedColor
@@ -1013,7 +1013,7 @@ Color GetRepeatedColor(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-Color color = convar.GetRepeatedColor("colors", 0);
+Color color = accessor.GetRepeatedColor("colors", 0);
 ```
 
 ### GetColor
@@ -1030,7 +1030,7 @@ Color GetColor(string fieldName)
 
 **用法示例:**
 ```csharp
-Color color = convar.GetColor("teamColor");
+Color color = accessor.GetColor("health");
 ```
 
 ### SetQAngle
@@ -1046,7 +1046,7 @@ void SetQAngle(string fieldName, QAngle value)
 
 **用法示例:**
 ```csharp
-IProtobufAccessor.SetQAngle("angles", new QAngle(0, 90, 0));
+accessor.SetQAngle("angles", new QAngle(0f, 90f, 0f));
 ```
 
 ### AddQAngle
@@ -1062,7 +1062,7 @@ void AddQAngle(string fieldName, QAngle value)
 
 **用法示例:**
 ```csharp
-IProtobufAccessor.AddQAngle("angle", new QAngle(0, 90, 0));
+accessor.AddQAngle("viewangles", existingQAngle);
 ```
 
 ### SetRepeatedQAngle
@@ -1079,7 +1079,7 @@ void SetRepeatedQAngle(string fieldName, int index, QAngle value)
 
 **用法示例:**
 ```csharp
-player.SetRepeatedQAngle("angles", 0, QAngle.Zero);
+accessor.SetRepeatedQAngle("angles", 0, QAngle.Zero);
 ```
 
 ### GetRepeatedQAngle
@@ -1097,7 +1097,7 @@ QAngle GetRepeatedQAngle(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-QAngle angle = accessor.GetRepeatedQAngle("angles", 0);
+var angle = accessor.GetRepeatedQAngle("angles", 0);
 ```
 
 ### GetQAngle
@@ -1114,7 +1114,7 @@ QAngle GetQAngle(string fieldName)
 
 **用法示例:**
 ```csharp
-QAngle angle = accessor.GetQAngle("rotation");
+QAngle angle = accessor.GetQAngle("viewangles");
 ```
 
 ### GetNestedMessage
@@ -1131,7 +1131,7 @@ nint GetNestedMessage(string fieldName)
 
 **用法示例:**
 ```csharp
-nint nested = IProtobufAccessor.GetNestedMessage("someField");
+nint nested = accessor.GetNestedMessage("player_data");
 ```
 
 ### GetRepeatedNestedMessage
@@ -1149,7 +1149,7 @@ nint GetRepeatedNestedMessage(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-nint result = accessor.GetRepeatedNestedMessage("items", 0);
+nint handle = accessor.GetRepeatedNestedMessage("players", 0);
 ```
 
 ### AddNestedMessage
@@ -1166,7 +1166,7 @@ nint AddNestedMessage(string fieldName)
 
 **用法示例:**
 ```csharp
-nint handle = IProtobufAccessor.AddNestedMessage("playerInfo");
+nint result = accessor.AddNestedMessage("nested_field");
 ```
 
 ### GetRepeatedFieldSize
@@ -1183,7 +1183,7 @@ int GetRepeatedFieldSize(string fieldName)
 
 **用法示例:**
 ```csharp
-int size = convar.GetRepeatedFieldSize("players");
+int size = accessor.GetRepeatedFieldSize("items");
 ```
 
 ### ClearRepeatedField
@@ -1198,7 +1198,7 @@ void ClearRepeatedField(string fieldName)
 
 **用法示例:**
 ```csharp
-convar.ClearRepeatedField("players");
+protobufAccessor.ClearRepeatedField("items");
 ```
 
 ### Clear
@@ -1209,7 +1209,7 @@ void Clear()
 
 **用法示例:**
 ```csharp
-convar.Clear();
+protobufAccessor.Clear();
 ```
 
 ### Set<T>
@@ -1225,9 +1225,7 @@ void Set<T>(string fieldName, T value)
 
 **用法示例:**
 ```csharp
-accessor.Set("name", "Alice");
-accessor.Set("age", 25);
-accessor.Set("team", Team.T);
+accessor.Set("player_name", "Steve");
 ```
 
 ### Add<T>
@@ -1243,9 +1241,7 @@ void Add<T>(string fieldName, T value)
 
 **用法示例:**
 ```csharp
-accessor.Add("name", "Alice");
-accessor.Add("age", 25);
-accessor.Add("team", Team.T);
+accessor.Add("player_name", "Steve");
 ```
 
 ### SetRepeated<T>
@@ -1262,8 +1258,7 @@ void SetRepeated<T>(string fieldName, int index, T value)
 
 **用法示例:**
 ```csharp
-accessor.SetRepeated("items", 0, 42);
-accessor.SetRepeated("teams", 1, Team.T);
+accessor.SetRepeated("players", 0, player);
 ```
 
 ### GetRepeated<T>
@@ -1281,7 +1276,7 @@ T GetRepeated<T>(string fieldName, int index)
 
 **用法示例:**
 ```csharp
-var item = accessor.GetRepeated<string>("items", 0);
+var value = accessor.GetRepeated<Player>(“players”, 0);
 ```
 
 ### Get<T>
@@ -1298,7 +1293,6 @@ T Get<T>(string fieldName)
 
 **用法示例:**
 ```csharp
-var value = accessor.Get<string>("name");
-var team = accessor.Get<Team>("team");
+var value = accessor.Get<int>("score");
 ```
 

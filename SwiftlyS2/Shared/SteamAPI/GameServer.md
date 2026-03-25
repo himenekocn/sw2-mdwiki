@@ -24,7 +24,7 @@ bool Init(uint unIP, ushort usGamePort, ushort usQueryPort, EServerMode eServerM
 
 **用法示例:**
 ```csharp
-bool result = GameServer.Init(0x7F000001, 8080, 27015, EServerMode.Value, "1.0.0");
+bool success = GameServer.Init(0x7F000001, 27015, 27016, EServerMode.Value, "1.0.0");
 ```
 
 ### Shutdown (静态)
@@ -83,7 +83,7 @@ CSteamID GetSteamID()
 
 **用法示例:**
 ```csharp
-CSteamID steamId = GameServer.GetSteamID();
+CSteamID serverId = GameServer.GetSteamID();
 ```
 
 ### GetHSteamPipe (静态)

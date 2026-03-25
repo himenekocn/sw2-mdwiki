@@ -1,6 +1,6 @@
 # 🔗 OnEntityParentChanged
 
-当实体的父级发生更改时调用。
+当事件实体的父级发生变更时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

@@ -13,5 +13,5 @@
 | `Entity` | `CEntityInstance` | get | 受到伤害的实体。 |
 | `Info` | `ref CTakeDamageInfo` | get | 伤害信息。 |
 | `DamageResult` | `ref CTakeDamageResult` | get | 伤害结果。 |
-| `Result` | `HookResult` | get, set | 如果返回 <see cref="HookResult.Stop"/>，则不会应用伤害。 |
+| `Result` | `HookResult` | get, set | 如果返回<see cref="HookResult.Stop"/>，则伤害将不会被应用。 |
 

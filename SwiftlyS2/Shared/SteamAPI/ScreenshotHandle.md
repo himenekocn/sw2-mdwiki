@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = ScreenshotHandle.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(ScreenshotHandle that)
 
 **用法示例:**
 ```csharp
-uint handle = (uint)ScreenshotHandle.SomeInstance;
+uint handleValue = ScreenshotHandle.uint(existingHandle);
 ```
 
 ### Equals
@@ -92,6 +87,6 @@ int CompareTo(ScreenshotHandle other)
 
 **用法示例:**
 ```csharp
-int result = screenshotHandle1.CompareTo(screenshotHandle2);
+int result = existingHandle.CompareTo(otherHandle);
 ```
 

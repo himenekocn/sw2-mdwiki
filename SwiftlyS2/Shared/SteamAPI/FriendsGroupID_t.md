@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-FriendsGroupID_t group = FriendsGroupID_t.Default;
-string str = group.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator short(FriendsGroupID_t that)
 
 **用法示例:**
 ```csharp
-short(FriendsGroupID_t.Friend)
+short id = FriendsGroupID_t.short(existingFriendsGroupID);
 ```
 
 ### Equals
@@ -93,8 +87,6 @@ int CompareTo(FriendsGroupID_t other)
 
 **用法示例:**
 ```csharp
-FriendsGroupID_t group1 = FriendsGroupID_t.Group1;
-FriendsGroupID_t group2 = FriendsGroupID_t.Group2;
-int result = group1.CompareTo(group2);
+int result = myFriendsGroupID.CompareTo(otherFriendsGroupID);
 ```
 

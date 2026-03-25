@@ -10,6 +10,6 @@
 |------|------|--------|------|
 | `WeaponServices` | `CCSPlayer_WeaponServices` | get | 武器服务。 |
 | `Weapon` | `CBasePlayerWeapon?` | get | 武器。 |
-| `SwappingWeapon` | `bool` | get | 与地面上的武器进行交换。 |
-| `Result` | `HookResult` | get, set | 钩子（Hook）的结果。 |
+| `SwappingWeapon` | `bool` | get | 从地面拾取并切换武器。 |
+| `Result` | `HookResult` | get, set | 钩子的结果。 |
 

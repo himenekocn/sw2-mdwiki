@@ -64,8 +64,7 @@ void EnsureCapacity(int num, bool force)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vec;
-vec.EnsureCapacity(10, false);
+vector.EnsureCapacity(10, true);
 ```
 
 ### SetExternalBuffer
@@ -82,8 +81,7 @@ void SetExternalBuffer(nint memory, I allocationCount, I numElements)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector vector;  
-vector.SetExternalBuffer(IntPtr.Zero, 0, 0);
+vector.SetExternalBuffer(memoryPtr, 10, 5);
 ```
 
 ### AssumeMemory
@@ -100,8 +98,7 @@ void AssumeMemory(nint memory, I allocationCount, I numElements)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector vector;  
-vector.AssumeMemory(IntPtr.Zero, 0, 0);
+vector.AssumeMemory(memoryPtr, 10, 5);
 ```
 
 ### DetachMemory
@@ -114,7 +111,6 @@ nint DetachMemory()
 
 **用法示例:**
 ```csharp
-CUtlLeanVector vector;  
 nint ptr = vector.DetachMemory();
 ```
 
@@ -126,7 +122,6 @@ void RemoveAll()
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vector = GetExistingVector();  
 vector.RemoveAll();
 ```
 
@@ -138,8 +133,7 @@ void Purge()
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vec;
-vec.Purge();
+vector.Purge();
 ```
 
 ### Element
@@ -156,7 +150,7 @@ T Element(I idx)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector.Element(0);
+var element = vector.Element(0);
 ```
 
 ### AddToTail
@@ -169,8 +163,7 @@ I AddToTail()
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vec = default;
-vec.AddToTail();
+CUtlLeanVector vector; var item = vector.AddToTail();
 ```
 
 ### AddToTail
@@ -187,8 +180,8 @@ I AddToTail(T element)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vector;
-vector.AddToTail(42);
+CUtlLeanVector vector;
+vector.AddToTail(default(T));
 ```
 
 ### SetCount
@@ -220,7 +213,7 @@ I Find(T element)
 
 **用法示例:**
 ```csharp
-int index = vector.Find(someElement);
+var index = leanVector.Find(targetElement);
 ```
 
 ### FastRemove
@@ -235,8 +228,7 @@ void FastRemove(I elem)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vec = GetExistingVector();  
-vec.FastRemove(42);
+vector.FastRemove(element);
 ```
 
 ### Remove
@@ -251,8 +243,7 @@ void Remove(I elem)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vec = GetExistingVector();  
-vec.Remove(42);
+vector.Remove(elem);
 ```
 
 ### RemoveMultiple
@@ -268,7 +259,7 @@ void RemoveMultiple(I idx, I count)
 
 **用法示例:**
 ```csharp
-vector.RemoveMultiple(2, 3);
+vector.RemoveMultiple(0, 5);
 ```
 
 ### RemoveMultipleFromHead
@@ -283,8 +274,7 @@ void RemoveMultipleFromHead(I count)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector vector = GetExistingVector();  
-vector.RemoveMultipleFromHead(3);
+vector.RemoveMultipleFromHead(5);
 ```
 
 ### RemoveMultipleFromTail
@@ -316,8 +306,7 @@ bool FindAndRemove(T value)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vec;
-vec.FindAndRemove(42);
+vector.FindAndRemove(value);
 ```
 
 ### FindAndFastRemove
@@ -334,8 +323,7 @@ bool FindAndFastRemove(T value)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vec = GetExistingVector();  
-vec.FindAndFastRemove(42);
+vector.FindAndFastRemove(value);
 ```
 
 ### Dispose
@@ -354,7 +342,6 @@ IEnumerator<T> GetEnumerator()
 
 **用法示例:**
 ```csharp
-CUtlLeanVector<int> vector = SomeStaticMethod.GetVector();
-foreach (int item in vector) { Console.WriteLine(item); }
+foreach (var item in vector) { }
 ```
 

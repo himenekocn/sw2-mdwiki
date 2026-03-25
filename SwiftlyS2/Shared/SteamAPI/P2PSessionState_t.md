@@ -31,6 +31,6 @@ relay server( TURN)
 
 **用法示例:**
 ```csharp
-P2PSessionState_t.relay_server(P2PSessionState_t.TURN);
+if (state.RelayServer()) Console.WriteLine("TURN");
 ```
 

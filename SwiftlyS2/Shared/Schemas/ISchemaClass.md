@@ -14,13 +14,12 @@
 K As<K>()
 ```
 
-将此句柄转换为另一种类型。
+将此句柄转换为其他类型。
 
 **返回值:** `K` - 转换后的句柄。
 
 **用法示例:**
 ```csharp
-var schema = manager.As<ISchemaClass>();
-var result = schema.As<K>();
+var derivedInstance = existingSchemaClass.As<DerivedType>();
 ```
 

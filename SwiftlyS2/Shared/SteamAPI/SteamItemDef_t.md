@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = steamItemDef.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator int(SteamItemDef_t that)
 
 **用法示例:**
 ```csharp
-int result = (int)SteamItemDef_t.SomeItemDef;
+int itemId = SteamItemDef_t.int(existingItemDef);
 ```
 
 ### Equals
@@ -92,8 +87,6 @@ int CompareTo(SteamItemDef_t other)
 
 **用法示例:**
 ```csharp
-SteamItemDef_t item1 = SteamItemDef_t.DefinitionA;
-SteamItemDef_t item2 = SteamItemDef_t.DefinitionB;
-int result = item1.CompareTo(item2);
+int result = existingItem.CompareTo(otherItem);
 ```
 

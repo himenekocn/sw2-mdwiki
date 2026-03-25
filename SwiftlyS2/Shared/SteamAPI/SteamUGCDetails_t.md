@@ -44,7 +44,7 @@ their list(not always applicable)
 
 **用法示例:**
 ```csharp
-SteamUGCDetails_t.list();
+details.list();
 ```
 
 ### file
@@ -61,7 +61,7 @@ primary file(for legacy items which only support one file)
 
 **用法示例:**
 ```csharp
-SteamUGCDetails_t.primary_file()
+var primaryFile = details.primary_file();
 ```
 
 ### files
@@ -78,6 +78,6 @@ all files(non-legacy )
 
 **用法示例:**
 ```csharp
-SteamUGCDetails_t.files();
+var files = details.AllFiles();
 ```
 

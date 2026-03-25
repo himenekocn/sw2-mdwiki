@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string ticketString = HAuthTicket.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(HAuthTicket that)
 
 **用法示例:**
 ```csharp
-uint ticket = (uint)HAuthTicket.someInstance;
+uint ticketValue = HAuthTicket.uint(existingTicket);
 ```
 
 ### Equals
@@ -92,6 +87,6 @@ int CompareTo(HAuthTicket other)
 
 **用法示例:**
 ```csharp
-int result = ticket1.CompareTo(ticket2);
+int result = existingTicket.CompareTo(otherTicket);
 ```
 

@@ -12,3 +12,20 @@
 |------|------|--------|------|
 | `Accessor` | `IProtobufAccessor` | get | - |
 
+## ⚙️ 方法
+
+### Wrap (静态)
+
+```csharp
+T Wrap(nint handle, bool isManuallyAllocated)
+```
+
+**参数:**
+
+- `handle` (`nint`)
+- `isManuallyAllocated` (`bool`)
+
+**返回值:** `T`
+
+**注意:** 此方法是抽象方法,需要在子类中实现 (override).
+

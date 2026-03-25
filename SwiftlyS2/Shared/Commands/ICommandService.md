@@ -12,7 +12,7 @@
 void CommandListener(ICommandContext context)
 ```
 
-命令的监听器。
+命令监听器。
 
 **参数:**
 
@@ -20,7 +20,7 @@ void CommandListener(ICommandContext context)
 
 **用法示例:**
 ```csharp
-ICommandService.CommandListener(player.Context);
+commandService.CommandListener(context);
 ```
 
 ### ClientCommandHandler
@@ -29,18 +29,18 @@ ICommandService.CommandListener(player.Context);
 HookResult ClientCommandHandler(int playerId, string commandLine)
 ```
 
-客户端命令钩子的处理程序。
+客户端命令钩子的处理器。
 
 **参数:**
 
-- `playerId` (`int`) - 玩家ID。
+- `playerId` (`int`) - 玩家 ID。
 - `commandLine` (`string`) - 命令行。
 
 **返回值:** `HookResult` - 是否应继续发送该命令。
 
 **用法示例:**
 ```csharp
-ICommandService.ClientCommandHandler(player.Id, "say hello");
+var result = commandService.ClientCommandHandler(playerId, "say Hello");
 ```
 
 ### ClientChatHandler
@@ -49,19 +49,19 @@ ICommandService.ClientCommandHandler(player.Id, "say hello");
 HookResult ClientChatHandler(int playerId, string text, bool teamonly)
 ```
 
-客户端聊天钩子的处理程序。
+客户端聊天钩子的处理器。
 
 **参数:**
 
-- `playerId` (`int`) - 玩家ID。
-- `text` (`string`) - 好的，请提供需要翻译的C#代码注释。
-- `teamonly` (`bool`) - 文本是否仅限团队可见。
+- `playerId` (`int`) - 玩家 ID。
+- `text` (`string`) - 文本。
+- `teamonly` (`bool`) - 该文本是否仅用于团队内部。
 
 **返回值:** `HookResult` - 是否应继续发送文本。
 
 **用法示例:**
 ```csharp
-HookResult result = commandService.ClientChatHandler(playerId: 1, text: "Hello", teamonly: false);
+var result = commandService.ClientChatHandler(playerId, "Hello", false);
 ```
 
 ### RegisterCommand
@@ -70,20 +70,20 @@ HookResult result = commandService.ClientChatHandler(playerId: 1, text: "Hello",
 Guid RegisterCommand(string commandName, CommandListener handler, bool registerRaw, string permission)
 ```
 
-注册一个命令（向后兼容重载）。
+注册一个命令（向后兼容的重载）。
 
 **参数:**
 
 - `commandName` (`string`) - 命令名称。
-- `handler` (`CommandListener`) - 命令的处理程序回调。
-- `registerRaw` (`bool`) - 如果设置为 true，则该命令不会以 `sw_` 为前缀。
+- `handler` (`CommandListener`) - 该命令的处理器回调。
+- `registerRaw` (`bool`) - 如果设置为 true，命令将不带 `sw_` 前缀。
 - `permission` (`string`) - 使用该命令所需的权限。
 
-**返回值:** `Guid` - 命令的 GUID。
+**返回值:** `Guid` - 该命令的 GUID。
 
 **用法示例:**
 ```csharp
-manager.RegisterCommand("kick", OnKickCommand, false, "admin.kick");
+var commandId = commandService.RegisterCommand("testcmd", HandleCommand, false, "admin.access");
 ```
 
 ### RegisterCommand
@@ -97,16 +97,16 @@ Guid RegisterCommand(string commandName, CommandListener handler, bool registerR
 **参数:**
 
 - `commandName` (`string`) - 命令名称。
-- `handler` (`CommandListener`) - 命令的处理程序回调。
-- `registerRaw` (`bool`) = `false` - 如果设置为 true，则该命令不会以 `sw_` 为前缀。
+- `handler` (`CommandListener`) - 该命令的处理器回调。
+- `registerRaw` (`bool`) = `false` - 如果设置为 true，命令将不带 `sw_` 前缀。
 - `permission` (`string`) = `""` - 使用该命令所需的权限。
-- `helpText` (`string`) = `"SwiftlyS2 registered command"` - 命令的帮助文本。
+- `helpText` (`string`) = `"SwiftlyS2 registered command"` - 该命令的帮助文本。
 
-**返回值:** `Guid` - 命令的 GUID。
+**返回值:** `Guid` - 该命令的 GUID。
 
 **用法示例:**
 ```csharp
-commandService.RegisterCommand("kick", OnKickCommand, false, "admin.kick", "Kicks a player from the server");
+Guid cmdId = commandService.RegisterCommand("teleport", OnTeleportCommand, false, "admin.teleport", "Teleports a player to spawn");
 ```
 
 ### RegisterCommandAlias
@@ -115,17 +115,17 @@ commandService.RegisterCommand("kick", OnKickCommand, false, "admin.kick", "Kick
 void RegisterCommandAlias(string commandName, string alias, bool registerRaw = false)
 ```
 
-注册一个命令别名。
+注册命令别名。
 
 **参数:**
 
 - `commandName` (`string`) - 命令名称。
 - `alias` (`string`) - 别名。
-- `registerRaw` (`bool`) = `false` - 如果设置为 true，则别名不会以 `sw_` 为前缀。
+- `registerRaw` (`bool`) = `false` - 如果设置为 true，则别名将不以 `sw_` 前缀开头。
 
 **用法示例:**
 ```csharp
-commandService.RegisterCommandAlias("kick", "k", true);
+commandService.RegisterCommandAlias("say", "s", false);
 ```
 
 ### UnregisterCommand
@@ -134,15 +134,15 @@ commandService.RegisterCommandAlias("kick", "k", true);
 void UnregisterCommand(Guid guid)
 ```
 
-注销命令。
+注销一个命令。
 
 **参数:**
 
-- `guid` (`Guid`) - 命令的 GUID。
+- `guid` (`Guid`) - 该命令的 GUID。
 
 **用法示例:**
 ```csharp
-commandService.UnregisterCommand(Guid.NewGuid());
+commandService.UnregisterCommand(existingGuid);
 ```
 
 ### UnregisterCommand
@@ -151,7 +151,7 @@ commandService.UnregisterCommand(Guid.NewGuid());
 void UnregisterCommand(string commandName)
 ```
 
-注销所有具有指定命令名称的命令监听器。
+注销所有指定命令名称的命令监听器。
 
 **参数:**
 
@@ -159,7 +159,7 @@ void UnregisterCommand(string commandName)
 
 **用法示例:**
 ```csharp
-commandService.UnregisterCommand("move");
+commandService.UnregisterCommand("say");
 ```
 
 ### IsCommandRegistered
@@ -174,11 +174,11 @@ bool IsCommandRegistered(string commandName)
 
 - `commandName` (`string`) - 命令名称。
 
-**返回值:** `bool` - 命令是否已注册。
+**返回值:** `bool` - 该命令是否已注册。
 
 **用法示例:**
 ```csharp
-bool isRegistered = commandService.IsCommandRegistered("myCommand");
+bool isRegistered = commandService.IsCommandRegistered("say");
 ```
 
 ### HookClientCommand
@@ -187,7 +187,7 @@ bool isRegistered = commandService.IsCommandRegistered("myCommand");
 Guid HookClientCommand(ClientCommandHandler handler)
 ```
 
-挂钩客户端命令，当玩家发送任何命令时将被触发。
+钩住客户端命令，当玩家发送任何命令时将被触发。
 
 **参数:**
 
@@ -197,7 +197,7 @@ Guid HookClientCommand(ClientCommandHandler handler)
 
 **用法示例:**
 ```csharp
-Guid id = commandService.HookClientCommand((player, command) => Console.WriteLine($"Player {player.Name} used command: {command}"));
+Guid hookId = commandService.HookClientCommand(OnClientCommand);
 ```
 
 ### UnhookClientCommand
@@ -206,7 +206,7 @@ Guid id = commandService.HookClientCommand((player, command) => Console.WriteLin
 void UnhookClientCommand(Guid guid)
 ```
 
-取消挂钩客户端命令。
+解除绑定客户端命令。
 
 **参数:**
 
@@ -214,7 +214,7 @@ void UnhookClientCommand(Guid guid)
 
 **用法示例:**
 ```csharp
-commandService.UnhookClientCommand(someGuid);
+commandService.UnhookClientCommand(commandGuid);
 ```
 
 ### HookClientChat
@@ -223,11 +223,11 @@ commandService.UnhookClientCommand(someGuid);
 Guid HookClientChat(ClientChatHandler handler)
 ```
 
-挂钩客户端聊天，当玩家发送任何聊天消息时将触发。
+挂钩客户端聊天，当玩家发送任何聊天消息时将被触发。
 
 **参数:**
 
-- `handler` (`ClientChatHandler`) - 客户端聊天的事件处理回调。
+- `handler` (`ClientChatHandler`) - 客户端聊天的处理器回调。
 
 **返回值:** `Guid`
 
@@ -242,7 +242,7 @@ Guid hookId = commandService.HookClientChat((player, message) => Console.WriteLi
 void UnhookClientChat(Guid guid)
 ```
 
-取消客户端聊天挂钩。
+解除客户端聊天的挂钩。
 
 **参数:**
 
@@ -250,6 +250,70 @@ void UnhookClientChat(Guid guid)
 
 **用法示例:**
 ```csharp
-commandService.UnhookClientChat(playerGuid);
+commandService.UnhookClientChat(clientGuid);
+```
+
+### GetAllCommands
+
+```csharp
+List<string> GetAllCommands()
+```
+
+获取插件注册的所有命令。
+
+**返回值:** `List\<string\>`
+
+**用法示例:**
+```csharp
+var commands = commandService.GetAllCommands();
+```
+
+### GetCommandsByPlugin
+
+```csharp
+List<CommandInfo> GetCommandsByPlugin(string pluginName)
+```
+
+获取由特定插件注册的所有命令。
+
+**参数:**
+
+- `pluginName` (`string`) - 插件的名称。
+
+**返回值:** `List\<CommandInfo\>` - 由插件注册的玩家指令信息列表。
+
+**用法示例:**
+```csharp
+var commands = commandService.GetCommandsByPlugin("MyPlugin");
+```
+
+### GetAllCommandsByPlugin
+
+```csharp
+List<CommandInfo>> GetAllCommandsByPlugin()
+```
+
+获取所有已注册命令的插件。
+
+**返回值:** `List\<CommandInfo\>\>` - 将插件名称映射到其注册命令信息的字典。
+
+**用法示例:**
+```csharp
+var commands = commandService.GetAllCommandsByPlugin();
+```
+
+### GetAllCommandsInfo
+
+```csharp
+List<CommandInfo> GetAllCommandsInfo()
+```
+
+获取由插件注册的所有命令的信息。
+
+**返回值:** `List\<CommandInfo\>` - 由插件注册的玩家指令信息列表。
+
+**用法示例:**
+```csharp
+var commands = commandService.GetAllCommandsInfo();
 ```
 

@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-SteamItemInstanceID_t id = SteamInventory.GetNextItemInstanceID();  
-Console.WriteLine(id.ToString());
-```
-
 ### Equals
 
 ```csharp
@@ -64,8 +58,7 @@ operator ulong(SteamItemInstanceID_t that)
 
 **用法示例:**
 ```csharp
-SteamItemInstanceID_t instance = default;
-ulong id = (ulong)instance;
+ulong id = SteamItemInstanceID_t.ulong(existingInstance);
 ```
 
 ### Equals
@@ -94,6 +87,6 @@ int CompareTo(SteamItemInstanceID_t other)
 
 **用法示例:**
 ```csharp
-SteamItemInstanceID_t id1 = default; SteamItemInstanceID_t id2 = default; int result = id1.CompareTo(id2);
+int result = existingInstance.CompareTo(otherInstance);
 ```
 

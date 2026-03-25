@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = listenSocket.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(SNetListenSocket_t that)
 
 **用法示例:**
 ```csharp
-uint socketId = (uint)someListenSocket;
+uint socketId = SNetListenSocket_t.uint(existingSocket);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(SNetListenSocket_t other)
 
 **用法示例:**
 ```csharp
-SNetListenSocket_t socket1 = default;  
-int result = socket1.CompareTo(default);
+int result = socketA.CompareTo(socketB);
 ```
 

@@ -18,17 +18,17 @@
 Guid AddHook(MidHookDelegate callback)
 ```
 
-在指定地址挂钩一个原生函数，并使用托管回调。该回调会接收一个上下文结构，该结构允许读取和修改CPU寄存器。
+在指定地址挂钩一个原生函数，并使用托管回调。该回调接收一个上下文结构，允许读取和修改 CPU 寄存器。
 
 **参数:**
 
-- `callback` (`MidHookDelegate`) - 当代码执行到该地址时调用的回调。
+- `callback` (`MidHookDelegate`) - 当代码到达该地址时调用的回调函数。
 
 **返回值:** `Guid`
 
 **用法示例:**
 ```csharp
-Guid hookId = IUnmanagedMemory.AddHook((ctx) => { /* 修改 ctx 寄存器 */ });
+var hookId = unmanagedMemory.AddHook((ctx) => { ctx.Rax = 0; });
 ```
 
 ### RemoveHook
@@ -37,14 +37,14 @@ Guid hookId = IUnmanagedMemory.AddHook((ctx) => { /* 修改 ctx 寄存器 */ });
 void RemoveHook(Guid id)
 ```
 
-根据指定的ID取消挂钩。
+根据其 ID 移除钩子。
 
 **参数:**
 
-- `id` (`Guid`) - 要取消挂钩的钩子的 ID。
+- `id` (`Guid`) - 要解除挂钩的钩子 ID。
 
 **用法示例:**
 ```csharp
-IUnmanagedMemory.RemoveHook(someId);
+manager.RemoveHook(Guid.Parse("00000000-0000-0000-0000-000000000001"));
 ```
 

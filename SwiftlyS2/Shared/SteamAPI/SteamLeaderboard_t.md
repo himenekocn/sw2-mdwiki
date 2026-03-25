@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = SteamLeaderboard.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator ulong(SteamLeaderboard_t that)
 
 **用法示例:**
 ```csharp
-SteamLeaderboard_t operator ulong(SteamLeaderboard_t that) => that;
+ulong leaderboardId = (ulong)existingLeaderboard;
 ```
 
 ### Equals
@@ -92,8 +87,6 @@ int CompareTo(SteamLeaderboard_t other)
 
 **用法示例:**
 ```csharp
-SteamLeaderboard_t a = SteamAPI.SteamUserStats.FindLeaderboard("leaderboard_name");  
-SteamLeaderboard_t b = SteamAPI.SteamUserStats.FindLeaderboard("another_leaderboard");  
-int result = a.CompareTo(b);
+int result = leaderboard.CompareTo(otherLeaderboard);
 ```
 

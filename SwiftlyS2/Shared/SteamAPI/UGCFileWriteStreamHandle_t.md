@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = UGCFileWriteStreamHandle_t.Invalid.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,8 +58,7 @@ operator ulong(UGCFileWriteStreamHandle_t that)
 
 **用法示例:**
 ```csharp
-UGCFileWriteStreamHandle_t handle = UGCFileWriteStreamHandle_t.Invalid;
-ulong value = (ulong)handle;
+ulong handleValue = UGCFileWriteStreamHandle_t.ulong(existingHandle);
 ```
 
 ### Equals
@@ -93,8 +87,6 @@ int CompareTo(UGCFileWriteStreamHandle_t other)
 
 **用法示例:**
 ```csharp
-UGCFileWriteStreamHandle_t handle1 = UGCFileWriteStreamHandle_t.Invalid;  
-UGCFileWriteStreamHandle_t handle2 = UGCFileWriteStreamHandle_t.Invalid;  
-int result = handle1.CompareTo(handle2);
+int result = existingHandle.CompareTo(otherHandle);
 ```
 

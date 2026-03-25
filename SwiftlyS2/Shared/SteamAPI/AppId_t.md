@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string idStr = AppId_t.Dota2.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(AppId_t that)
 
 **用法示例:**
 ```csharp
-uint id = (uint)AppId_t.SomeValue;
+uint appIdValue = (uint)existingAppId;
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(AppId_t other)
 
 **用法示例:**
 ```csharp
-AppId_t id1 = AppId_t.SomeValue;  
-int result = id1.CompareTo(AppId_t.OtherValue);
+int result = existingAppId.CompareTo(otherAppId);
 ```
 

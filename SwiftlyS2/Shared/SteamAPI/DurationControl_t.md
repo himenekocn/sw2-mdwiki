@@ -31,7 +31,7 @@ of call(always k_EResultOK for asynchronous timer-based notifications)
 
 **用法示例:**
 ```csharp
-DurationControl_t.call();
+durationControl.call();
 ```
 
 ### progress
@@ -49,9 +49,7 @@ recommended progress(either everything is fine, or please exit game)
 
 **用法示例:**
 ```csharp
-DurationControl_t.recommended(DurationControl_t.Reason.AllFine);  
-// 或  
-DurationControl_t.recommended(DurationControl_t.Reason.ExitGame);
+var result = durationControl.progress();
 ```
 
 ### any
@@ -68,6 +66,6 @@ if any(always k_EDurationControlNotification_None for API calls)
 
 **用法示例:**
 ```csharp
-DurationControl_t.any(k_EDurationControlNotification_None);
+if (durationControl.Any(DurationControlNotification.k_EDurationControlNotification_None)) { }
 ```
 

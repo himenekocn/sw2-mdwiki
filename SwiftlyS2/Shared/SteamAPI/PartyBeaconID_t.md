@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-PartyBeaconID_t beacon = PartyBeaconID_t.Valid;
-string result = beacon.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator ulong(PartyBeaconID_t that)
 
 **用法示例:**
 ```csharp
-ulong id = (ulong)PartyBeaconID_t.SomeValue;
+ulong id = PartyBeaconID_t.operator ulong(existingBeacon);
 ```
 
 ### Equals
@@ -93,7 +87,6 @@ int CompareTo(PartyBeaconID_t other)
 
 **用法示例:**
 ```csharp
-PartyBeaconID_t beacon1 = PartyBeaconID_t.Default;  
-int result = beacon1.CompareTo(beacon2);
+int result = existingBeaconID.CompareTo(otherBeaconID);
 ```
 

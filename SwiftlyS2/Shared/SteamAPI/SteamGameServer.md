@@ -12,7 +12,7 @@
 void SetProduct(string pszProduct)
 ```
 
-<para>/ 游戏产品标识符。目前主服务器用于版本检查。</para> <para>/ 这是一个必填字段，但最终将被移除，届时将使用 AppID 来实现此目的。</para>
+<para>/ 游戏产品标识符。当前由主服务器用于版本检查。</para> <para>/ 这是必填字段，但最终将被移除，届时将使用 AppID 实现此目的。</para>
 
 **参数:**
 
@@ -29,7 +29,7 @@ SteamGameServer.SetProduct("MyGame");
 void SetGameDescription(string pszGameDescription)
 ```
 
-<para>/ 游戏的描述。这是一个必填字段，目前会显示在 Steam 服务器浏览器中。</para> <para>/ 这是一个必填字段，但最终会被移除，因为数据应通过 AppID 确定。</para>
+<para>/ 游戏描述。这是一个必填字段，当前将显示在 Steam 服务器浏览器中。</para> <para>/ 这是一个必填字段，但未来将被移除，因为该数据应从 AppID 确定。</para>
 
 **参数:**
 
@@ -37,7 +37,7 @@ void SetGameDescription(string pszGameDescription)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetGameDescription("My Awesome Game");
+SteamGameServer.SetGameDescription("My Awesome Dedicated Server");
 ```
 
 ### SetModDir (静态)
@@ -46,7 +46,7 @@ SteamGameServer.SetGameDescription("My Awesome Game");
 void SetModDir(string pszModDir)
 ```
 
-<para>/ 如果您的游戏是“模组”，请传入标识它的字符串。默认值为空字符串，表示</para> <para>/ 此应用程序是原始游戏，而非模组。</para> <para>/</para> <para>/ @see k_cbMaxGameServerGameDir</para>
+<para>/ 如果您的游戏是“模组”（mod），请传入标识它的字符串。默认值为空字符串，表示</para> <para>/ 此应用程序为原版游戏，而非模组。</para> <para>/</para> <para>/ @see k_cbMaxGameServerGameDir</para>
 
 **参数:**
 
@@ -54,7 +54,7 @@ void SetModDir(string pszModDir)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetModDir("csgo");
+SteamGameServer.SetModDir("my_mod");
 ```
 
 ### SetDedicatedServer (静态)
@@ -63,7 +63,7 @@ SteamGameServer.SetModDir("csgo");
 void SetDedicatedServer(bool bDedicated)
 ```
 
-<para>/ 这是专用服务器吗？默认值为 false。</para>
+<para>/ 这是否是一个专用服务器？默认值为 false。</para>
 
 **参数:**
 
@@ -80,7 +80,7 @@ SteamGameServer.SetDedicatedServer(true);
 void LogOn(string pszToken)
 ```
 
-<para> 登录</para> <para>/ 开始登录到持久游戏服务器账户的流程</para> <para>/</para> <para>/ 您需要注册回调以确定此操作的结果。</para> <para>/ @see SteamServersConnected_t</para> <para>/ @see SteamServerConnectFailure_t</para> <para>/ @see SteamServersDisconnected_t</para>
+<para>登录</para> <para>/ 开始向持久化游戏服务器账户进行登录的流程</para> <para>/</para> <para>/ 您需要注册回调以获取此操作的结果。</para> <para>/ @see SteamServersConnected_t</para> <para>/ @see SteamServerConnectFailure_t</para> <para>/ @see SteamServersDisconnected_t</para>
 
 **参数:**
 
@@ -97,7 +97,7 @@ SteamGameServer.LogOn("your_auth_token");
 void LogOnAnonymous()
 ```
 
-<para>/ 登录到一个通用的、匿名的账户。</para> <para>/</para> <para>/ 注意：在 SDK 的早期版本中，此方法会在 SteamGameServer_Init 内被自动调用，</para> <para>/ 但现在情况已不再如此。</para>
+<para>/ 登录通用匿名账户。</para> <para>/</para> <para>/ 注意：在 SDK 的早期版本中，此操作会自动在 SteamGameServer_Init 内调用，但目前已不再如此。</para>
 
 **用法示例:**
 ```csharp
@@ -110,7 +110,7 @@ SteamGameServer.LogOnAnonymous();
 void LogOff()
 ```
 
-<para>开始将游戏服务器从 Steam 注销的流程</para>
+<para>/ 开始将游戏服务器从 Steam 登出</para>
 
 **用法示例:**
 ```csharp
@@ -123,13 +123,14 @@ SteamGameServer.LogOff();
 bool BLoggedOn()
 ```
 
-状态函数
+<para>状态函数</para>
 
 **返回值:** `bool`
 
 **用法示例:**
 ```csharp
 bool isLoggedOn = SteamGameServer.BLoggedOn();
+Console.WriteLine(isLoggedOn);
 ```
 
 ### BSecure (静态)
@@ -143,7 +144,6 @@ bool BSecure()
 **用法示例:**
 ```csharp
 bool isSecure = SteamGameServer.BSecure();
-Console.WriteLine($"Is secure: {isSecure}");
 ```
 
 ### GetSteamID (静态)
@@ -156,8 +156,7 @@ CSteamID GetSteamID()
 
 **用法示例:**
 ```csharp
-CSteamID mySteamID = SteamGameServer.GetSteamID();
-Console.WriteLine($"Current server SteamID: {mySteamID}");
+CSteamID steamId = SteamGameServer.GetSteamID();
 ```
 
 ### WasRestartRequested (静态)
@@ -166,16 +165,14 @@ Console.WriteLine($"Current server SteamID: {mySteamID}");
 bool WasRestartRequested()
 ```
 
-<para>/ 如果主服务器已请求重启，则返回 true。</para> <para>/ 每个请求仅返回 true 一次。</para>
+/ 若主服务器已请求重启，则返回 true。  
+/ 每个请求仅返回一次 true。
 
 **返回值:** `bool`
 
 **用法示例:**
 ```csharp
-if (SteamGameServer.WasRestartRequested())
-{
-    Console.WriteLine("服务器即将重启...");
-}
+if (SteamGameServer.WasRestartRequested()) Console.WriteLine("Restart requested by master server.");
 ```
 
 ### SetMaxPlayerCount (静态)
@@ -184,7 +181,7 @@ if (SteamGameServer.WasRestartRequested())
 void SetMaxPlayerCount(int cPlayersMax)
 ```
 
-<para>服务器状态。这些属性可以随时更改。</para> <para>/ 将报告给服务器浏览器和客户端查询的最大玩家数量</para>
+<para>服务器状态。这些属性可能随时更改。</para><para>/ 向服务器浏览器和客户端查询报告的 maximum 玩家数量</para>
 
 **参数:**
 
@@ -192,7 +189,7 @@ void SetMaxPlayerCount(int cPlayersMax)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetMaxPlayerCount(10);
+SteamGameServer.SetMaxPlayerCount(32);
 ```
 
 ### SetBotPlayerCount (静态)
@@ -201,7 +198,7 @@ SteamGameServer.SetMaxPlayerCount(10);
 void SetBotPlayerCount(int cBotplayers)
 ```
 
-<para>机器人数量。默认值为零</para>
+<para>/ 机器人数量。默认值为零</para>
 
 **参数:**
 
@@ -209,7 +206,7 @@ void SetBotPlayerCount(int cBotplayers)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetBotPlayerCount(2);
+SteamGameServer.SetBotPlayerCount(3);
 ```
 
 ### SetServerName (静态)
@@ -218,7 +215,7 @@ SteamGameServer.SetBotPlayerCount(2);
 void SetServerName(string pszServerName)
 ```
 
-<para>// 设置服务器在服务器浏览器中显示的名称</para> <para>//</para> <para>// @see k_cbMaxGameServerName</para>
+<para>/ 设置服务器名称，该名称将显示在服务器浏览器中</para> <para>/</para> <para>/ @see k_cbMaxGameServerName</para>
 
 **参数:**
 
@@ -226,7 +223,7 @@ void SetServerName(string pszServerName)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetServerName("My Awesome Server");
+SteamGameServer.SetServerName("My Dedicated Server");
 ```
 
 ### SetMapName (静态)
@@ -235,7 +232,7 @@ SteamGameServer.SetServerName("My Awesome Server");
 void SetMapName(string pszMapName)
 ```
 
-<para>// 设置在服务器浏览器中报告的地图名称</para> <para>//</para> <para>// @see k_cbMaxGameServerMapName</para>
+<para>/ 设置将在服务器浏览器中报告的地图名称</para> <para>/</para> <para>/ @see k_cbMaxGameServerMapName</para>
 
 **参数:**
 
@@ -252,7 +249,7 @@ SteamGameServer.SetMapName("de_dust2");
 void SetPasswordProtected(bool bPasswordProtected)
 ```
 
-<para>告知用户您的服务器是否需要密码</para>
+<para>/ 告知玩家您的服务器是否需要密码</para>
 
 **参数:**
 
@@ -269,7 +266,7 @@ SteamGameServer.SetPasswordProtected(true);
 void SetSpectatorPort(ushort unSpectatorPort)
 ```
 
-<para>/ 要通告的旁观者服务器端口。默认值为零，表示该服务</para> <para>/ 未被使用。如果您的服务器在局域网上收到任何信息请求，</para> <para>/ 此值将被放置在对此类本地查询的回复中。</para> <para>/</para> <para>/ 这也是主服务器将通告的值。</para> <para>/ 唯一例外是，如果您的服务器正在使用伪造IP。那么，如果</para> <para>/ 您将此值设置为任何非零值，分配给您的服务器的第二个</para> <para>/ 伪造端口号（索引1）将被列在主服务器上作为旁观者端口。</para> <para>/</para> <para>/ 此函数仅控制要通告的值 -- 实际上配置服务器以监听此端口</para> <para>/ 并处理任何旁观者流量是您的责任。</para>
+<para>/ 用于宣告的观战服务器端口。默认值为零，表示不使用该服务。如果您的服务器在局域网内收到任何信息请求，</para> <para>/ 此值将作为本地查询回复中的内容。</para> <para>/</para> <para>/ 这也是由主服务器宣告的值。</para> <para>/ 唯一的例外情况是您的服务器使用了虚假 IP（FakeIP）。此时，若将此值设置为任何非零值，则分配给服务器的第二个</para> <para>/ 虚假端口号（索引 1）将在主服务器上被列为观战端口。</para> <para>/</para> <para>/ 此函数仅控制所宣告的值；您需自行配置服务器以实际在该端口上监听并处理所有观战流量。</para>
 
 **参数:**
 
@@ -277,7 +274,7 @@ void SetSpectatorPort(ushort unSpectatorPort)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetSpectatorPort(27015);
+SteamGameServer.SetSpectatorPort(27020);
 ```
 
 ### SetSpectatorServerName (静态)
@@ -286,7 +283,7 @@ SteamGameServer.SetSpectatorPort(27015);
 void SetSpectatorServerName(string pszSpectatorServerName)
 ```
 
-<para>/ 观战服务器的名称。(仅在观战端口不为零时使用。)</para> <para>/</para> <para>/ @see k_cbMaxGameServerMapName</para>
+<para>/ 旁观者服务器的名称。（仅在 spectator 端口非零时使用。）</para> <para>/</para> <para>/ @see k_cbMaxGameServerMapName</para>
 
 **参数:**
 
@@ -294,7 +291,7 @@ void SetSpectatorServerName(string pszSpectatorServerName)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetSpectatorServerName("MySpectatorServer");
+SteamGameServer.SetSpectatorServerName("My Spectator Server");
 ```
 
 ### ClearAllKeyValues (静态)
@@ -303,7 +300,7 @@ SteamGameServer.SetSpectatorServerName("MySpectatorServer");
 void ClearAllKeyValues()
 ```
 
-<para>调用此方法以清除在规则查询中发送的所有键/值列表。</para>
+<para>/ 调用此方法以清除规则查询中发送的所有键/值列表。</para>
 
 **用法示例:**
 ```csharp
@@ -316,7 +313,7 @@ SteamGameServer.ClearAllKeyValues();
 void SetKeyValue(string pKey, string pValue)
 ```
 
-<para>调用此方法以添加/更新键值对。</para>
+<para>/ 调用此方法以添加或更新键/值对。</para>
 
 **参数:**
 
@@ -325,7 +322,7 @@ void SetKeyValue(string pKey, string pValue)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetKeyValue("game_type", "csgo");
+SteamGameServer.SetKeyValue("sv_region", "CN");
 ```
 
 ### SetGameTags (静态)
@@ -334,7 +331,7 @@ SteamGameServer.SetKeyValue("game_type", "csgo");
 void SetGameTags(string pchGameTags)
 ```
 
-<para>/ 设置一个字符串，用于定义此服务器的“游戏标签”，此参数为可选，但如果设置了</para> <para>/ 则允许用户在匹配/服务器浏览器界面中根据该值进行筛选</para> <para>/</para> <para>/ @see k_cbMaxGameServerTags</para>
+<para>/ 设置一个字符串以定义本服务器的“游戏标签”，此为可选参数。若已设置，</para> <para>/ 用户可在匹配/服务器浏览器界面中根据该值进行筛选。</para> <para>/</para> <para>/ @see k_cbMaxGameServerTags</para>
 
 **参数:**
 
@@ -342,7 +339,7 @@ void SetGameTags(string pchGameTags)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetGameTags("competitive;6v6");
+SteamGameServer.SetGameTags("ranked,pvp,hardcore");
 ```
 
 ### SetGameData (静态)
@@ -351,7 +348,7 @@ SteamGameServer.SetGameTags("competitive;6v6");
 void SetGameData(string pchGameData)
 ```
 
-<para>/ 设置一个字符串，用于定义此服务器的“游戏数据”，此为可选设置，但如果已设置</para> <para>/ 则允许用户在匹配/服务器浏览器界面中根据该值进行筛选</para> <para>/</para> <para>/ @see k_cbMaxGameServerGameData</para>
+<para>/ 设置一个定义该服务器“游戏数据”的字符串。此参数为可选，但若已设置</para> <para>/ 则允许用户在匹配或服务器浏览器界面中根据该值进行筛选。</para> <para>/</para> <para>/ @see k_cbMaxGameServerGameData</para>
 
 **参数:**
 
@@ -359,7 +356,7 @@ void SetGameData(string pchGameData)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetGameData("{\"mode\":\"deathmatch\",\"map\":\"de_dust2\"}");
+SteamGameServer.SetGameData("mode=deathmatch;map=arena");
 ```
 
 ### SetRegion (静态)
@@ -368,7 +365,7 @@ SteamGameServer.SetGameData("{\"mode\":\"deathmatch\",\"map\":\"de_dust2\"}");
 void SetRegion(string pszRegion)
 ```
 
-<para>区域标识符。这是一个可选字段，默认值为空，表示“世界”区域。</para>
+<para>/ 区域标识符。此字段为可选，默认值为空，表示“世界”区域</para>
 
 **参数:**
 
@@ -376,7 +373,7 @@ void SetRegion(string pszRegion)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SetRegion("us");
+SteamGameServer.SetRegion("CN");
 ```
 
 ### SetAdvertiseServerActive (静态)
@@ -385,7 +382,7 @@ SteamGameServer.SetRegion("us");
 void SetAdvertiseServerActive(bool bActive)
 ```
 
-<para>/ 指示您是否希望被列入主服务器列表</para> <para>/ 以及/或响应服务器浏览器 / LAN 发现数据包。</para> <para>/ 服务器启动时此值默认为 false。您应在启用服务器广告之前</para> <para>/ 设置所有相关的服务器参数。</para> <para>/</para> <para>/ (此函数以前名为 EnableHeartbeats，因此如果您想知道</para> <para>/ 该函数去哪了，它就在这里。它和以前的功能一样，</para> <para>/ 只是旧名称容易引起混淆。)</para>
+<para>/ 指示是否希望在主服务器列表中列出</para> <para>/ 以及/或响应服务器浏览器 / LAN 发现数据包。</para> <para>/ 服务器启动时此值默认为 false。在启用服务器广播前，您应设置所有</para> <para>/ 相关的服务器参数。</para> <para>/</para> <para>/ （此函数曾名为 EnableHeartbeats；如果您疑惑该函数的去向，它便在此处。其功能与之前相同，旧名称只是令人困惑。）</para>
 
 **参数:**
 
@@ -402,7 +399,7 @@ SteamGameServer.SetAdvertiseServerActive(true);
 HAuthTicket GetAuthSessionTicket(byte[] pTicket, int cbMaxTicket, out uint pcbTicket, ref SteamNetworkingIdentity pSnid)
 ```
 
-<para> 玩家列表管理 / 身份验证。</para> <para> 获取用于发送给希望对您进行身份验证的实体的票据（使用 BeginAuthSession API）。</para> <para> pcbTicket 用于获取实际票据的长度。</para> <para> SteamNetworkingIdentity 是一个可选参数，用于保存您正在连接的实体的公网 IP 地址</para> <para> 如果传递了 IP 地址，Steam 将只允许具有该 IP 地址的实体使用该票据</para>
+<para>玩家列表管理与身份验证。</para><para>获取票据，该票据将发送给希望验证您身份的实体（通过 BeginAuthSession API）。</para><para>pcbTicket 用于获取实际票据的长度。</para><para>SteamNetworkingIdentity 为可选参数，用于保存您要连接的实体的公网 IP 地址。</para><para>若传递了 IP 地址，Steam 将仅允许具有该 IP 地址的实体使用该票据。</para>
 
 **参数:**
 
@@ -415,10 +412,7 @@ HAuthTicket GetAuthSessionTicket(byte[] pTicket, int cbMaxTicket, out uint pcbTi
 
 **用法示例:**
 ```csharp
-uint ticketSize;
-byte[] ticket = new byte[1024];
-SteamNetworkingIdentity snid = default;
-HAuthTicket authTicket = SteamGameServer.GetAuthSessionTicket(ticket, ticket.Length, out ticketSize, ref snid);
+uint ticketLen; HAuthTicket ticket = SteamGameServer.GetAuthSessionTicket(ticketBuffer, ticketBuffer.Length, out ticketLen, ref snid);
 ```
 
 ### BeginAuthSession (静态)
@@ -427,7 +421,7 @@ HAuthTicket authTicket = SteamGameServer.GetAuthSessionTicket(ticket, ticket.Len
 EBeginAuthSessionResult BeginAuthSession(byte[] pAuthTicket, int cbAuthTicket, CSteamID steamID)
 ```
 
-<para> 验证来自实体 steamID 的凭证（来自 GetAuthSessionTicket）以确保其有效且未被重复使用。</para> <para> 如果实体下线或取消凭证，则注册回调（请参阅 ValidateAuthTicketResponse_t 回调和 EAuthSessionResponse）。</para>
+<para>对来自 GetAuthSessionTicket 的票据进行身份验证，将其与实体 steamID 关联，以确保其有效且未被重复使用</para> <para>注册回调以监听该实体下线或取消票据的情况（参见 ValidateAuthTicketResponse_t 回调及 EAuthSessionResponse）</para>
 
 **参数:**
 
@@ -439,9 +433,7 @@ EBeginAuthSessionResult BeginAuthSession(byte[] pAuthTicket, int cbAuthTicket, C
 
 **用法示例:**
 ```csharp
-byte[] ticket = new byte[256]; // 假设已填充有效凭证数据
-CSteamID playerID = new CSteamID(123456789);
-EBeginAuthSessionResult result = SteamGameServer.BeginAuthSession(ticket, ticket.Length, playerID);
+var result = SteamGameServer.BeginAuthSession(authTicket, authTicket.Length, playerSteamID);
 ```
 
 ### EndAuthSession (静态)
@@ -450,7 +442,7 @@ EBeginAuthSessionResult result = SteamGameServer.BeginAuthSession(ticket, ticket
 void EndAuthSession(CSteamID steamID)
 ```
 
-<para> 停止由 BeginAuthSession 启动的追踪 - 当不再与该实体进行游戏时调用</para>
+<para>停止由 BeginAuthSession 启动的跟踪 - 当不再与此实体进行游戏时调用</para>
 
 **参数:**
 
@@ -458,7 +450,8 @@ void EndAuthSession(CSteamID steamID)
 
 **用法示例:**
 ```csharp
-SteamGameServer.EndAuthSession(player.SteamID);
+CSteamID steamID = playerSteamId;
+SteamGameServer.EndAuthSession(steamID);
 ```
 
 ### CancelAuthTicket (静态)
@@ -467,7 +460,7 @@ SteamGameServer.EndAuthSession(player.SteamID);
 void CancelAuthTicket(HAuthTicket hAuthTicket)
 ```
 
-<para> 取消通过 GetAuthSessionTicket 获取的授权票据，当不再与您提供票据的实体进行游戏时调用此方法</para>
+取消从 GetAuthSessionTicket 获取的身份验证票据；在与提供该票据的实体不再共同进行游戏时调用。
 
 **参数:**
 
@@ -475,8 +468,7 @@ void CancelAuthTicket(HAuthTicket hAuthTicket)
 
 **用法示例:**
 ```csharp
-HAuthTicket ticket = SteamGameServer.GetAuthSessionTicket();
-SteamGameServer.CancelAuthTicket(ticket);
+SteamGameServer.CancelAuthTicket(hAuthTicket);
 ```
 
 ### UserHasLicenseForApp (静态)
@@ -485,7 +477,7 @@ SteamGameServer.CancelAuthTicket(ticket);
 EUserHasLicenseForAppResult UserHasLicenseForApp(CSteamID steamID, AppId_t appID)
 ```
 
-在接收用户的身份验证数据并将其传递给 SendUserConnectAndAuthenticate 后，使用此函数来确定用户是否拥有由所提供 AppID 指定的可下载内容。
+<para>在接收用户的身份验证数据并将其传递给 SendUserConnectAndAuthenticate 后，请使用此函数</para> <para>以确定该用户是否拥有由所提供的 AppID 指定的可下载内容。</para>
 
 **参数:**
 
@@ -496,7 +488,8 @@ EUserHasLicenseForAppResult UserHasLicenseForApp(CSteamID steamID, AppId_t appID
 
 **用法示例:**
 ```csharp
-EUserHasLicenseForAppResult result = SteamGameServer.UserHasLicenseForApp(steamID, appID);
+var licenseResult = SteamGameServer.UserHasLicenseForApp(steamID, appID);
+if (licenseResult == EUserHasLicenseForAppResult.HasLicense) { }
 ```
 
 ### RequestUserGroupStatus (静态)
@@ -505,7 +498,7 @@ EUserHasLicenseForAppResult result = SteamGameServer.UserHasLicenseForApp(steamI
 bool RequestUserGroupStatus(CSteamID steamIDUser, CSteamID steamIDGroup)
 ```
 
-<para> 询问指定用户是否在指定群组中，结果通过 GSUserGroupStatus_t 异步返回。</para> <para> 如果我们未连接到 Steam 服务器，因此无法查询，则返回 false。</para>
+<para>询问指定用户是否属于指定组，结果通过 GSUserGroupStatus_t 异步返回</para><para>如果未连接到 Steam 服务器且因此无法发起查询，则返回 false</para>
 
 **参数:**
 
@@ -516,7 +509,7 @@ bool RequestUserGroupStatus(CSteamID steamIDUser, CSteamID steamIDGroup)
 
 **用法示例:**
 ```csharp
-SteamGameServer.RequestUserGroupStatus(new CSteamID(123456), new CSteamID(789012));
+bool ok = SteamGameServer.RequestUserGroupStatus(steamIDUser, steamIDGroup);
 ```
 
 ### GetGameplayStats (静态)
@@ -525,7 +518,7 @@ SteamGameServer.RequestUserGroupStatus(new CSteamID(123456), new CSteamID(789012
 void GetGameplayStats()
 ```
 
-<para>这两个函数已弃用，将不会返回结果</para> <para>它们将在 SDK 的未来版本中被移除</para>
+<para> 这两个函数已弃用，将不再返回结果。</para><para> 它们将在 SDK 的未来版本中被移除。</para>
 
 **用法示例:**
 ```csharp
@@ -542,8 +535,7 @@ SteamAPICall_t GetServerReputation()
 
 **用法示例:**
 ```csharp
-SteamAPICall_t reputationCall = SteamGameServer.GetServerReputation();
-Console.WriteLine($"Server reputation call handle: {reputationCall}");
+var call = SteamGameServer.GetServerReputation();
 ```
 
 ### GetPublicIP (静态)
@@ -552,14 +544,14 @@ Console.WriteLine($"Server reputation call handle: {reputationCall}");
 SteamIPAddress_t GetPublicIP()
 ```
 
-<para>根据 Steam 返回服务器的公网 IP，当服务器位于 NAT 后方且您希望向大厅广告其 IP 以供其他客户端直接连接时非常有用。</para> <para></para> <para></para>
+返回根据 Steam 获取的服务器公网 IP，当服务器位于 NAT 之后且您希望在大厅中公布其 IP 以供其他客户端直接连接时，此方法非常有用。
 
 **返回值:** `SteamIPAddress_t`
 
 **用法示例:**
 ```csharp
-SteamIPAddress_t publicIP = SteamGameServer.GetPublicIP();
-Console.WriteLine($"Public IP: {publicIP}");
+var publicIP = SteamGameServer.GetPublicIP();
+Console.WriteLine(publicIP);
 ```
 
 ### HandleIncomingPacket (静态)
@@ -568,7 +560,7 @@ Console.WriteLine($"Public IP: {publicIP}");
 bool HandleIncomingPacket(byte[] pData, int cbData, uint srcIP, ushort srcPort)
 ```
 
-<para> 共享套接字模式下与服务器浏览器相关的查询数据包处理。当您将 STEAMGAMESERVER_QUERY_PORT_SHARED 作为查询端口传递给 SteamGameServer_Init 时，将使用这些功能。</para> <para> IP 地址和端口为主机序，即 127.0.0.1 == 0x7f000001</para> <para> 当您选择复用游戏服务器的 UDP 套接字，而不是让主服务器更新器使用其自己的套接字时，将使用这些功能。</para> <para> 源游戏使用此功能来简化服务器管理员的工作，因此他们无需在防火墙上开放更多端口。</para> <para> 当接收到以 0xFFFFFFFF 开头的数据包时，请调用此函数。这意味着该数据包是发给我们的。</para>
+与服务器浏览器相关的查询数据包处理，适用于共享套接字模式。当您在调用 SteamGameServer_Init 时将 STEAMGAMESERVER_QUERY_PORT_SHARED 作为查询端口传入时，会使用这些接口。IP 地址和端口均以主机字节序表示，例如 127.0.0.1 对应 0x7f000001。这些接口用于您选择复用作游戏服务器的 UDP 套接字，而非由主服务器更新器使用其独立套接字的场景。Source 系列游戏采用此机制以简化服务器管理员的工作，使其无需在防火墙上额外开放更多端口。当收到以 0xFFFFFFFF 开头的数据包时，请调用此函数；这表示该数据包是发往本服务器的。
 
 **参数:**
 
@@ -581,8 +573,8 @@ bool HandleIncomingPacket(byte[] pData, int cbData, uint srcIP, ushort srcPort)
 
 **用法示例:**
 ```csharp
-byte[] packetData = new byte[256]; // 示例数据
-SteamGameServer.HandleIncomingPacket(packetData, packetData.Length, 0x7f000001, 27015); // 处理来自本地的查询包
+byte[] packet = { 0xFF, 0xFF, 0xFF, 0xFF };
+bool handled = SteamGameServer.HandleIncomingPacket(packet, packet.Length, 0x7f000001, 27015);
 ```
 
 ### GetNextOutgoingPacket (静态)
@@ -591,7 +583,7 @@ SteamGameServer.HandleIncomingPacket(packetData, packetData.Length, 0x7f000001, 
 int GetNextOutgoingPacket(byte[] pOut, int cbMaxOut, out uint pNetAdr, out ushort pPort)
 ```
 
-<para> 在为该帧内收到的任何数据包调用 HandleIncomingPacket 之后，调用此方法。</para> <para> 此方法会获取主服务器更新器需要通过 UDP 发送出去的数据包。</para> <para> 它返回要发送的数据包长度，如果没有更多数据包需要发送，则返回 0。</para> <para> 每帧调用此方法，直到它返回 0 为止。</para>
+<para>在调用 HandleIncomingPacket 处理该帧内收到的任何数据包后，请调用此方法。</para> <para>此方法获取主服务器更新器需要通过 UDP 发送的数据包。</para> <para>它返回待发送数据包的长度；若无更多数据包可发送，则返回 0。</para> <para>每帧调用一次，直到返回值变为 0 为止。</para>
 
 **参数:**
 
@@ -604,9 +596,8 @@ int GetNextOutgoingPacket(byte[] pOut, int cbMaxOut, out uint pNetAdr, out ushor
 
 **用法示例:**
 ```csharp
-byte[] packetBuffer = new byte[1024];
-uint netAddr; ushort port;
-int length = SteamGameServer.GetNextOutgoingPacket(packetBuffer, packetBuffer.Length, out netAddr, out port);
+uint netAdr; ushort port; int len;
+while ((len = SteamGameServer.GetNextOutgoingPacket(buffer, buffer.Length, out netAdr, out port)) > 0) SendUdp(netAdr, port, buffer, len);
 ```
 
 ### AssociateWithClan (静态)
@@ -615,7 +606,7 @@ int length = SteamGameServer.GetNextOutgoingPacket(packetBuffer, packetBuffer.Le
 SteamAPICall_t AssociateWithClan(CSteamID steamIDClan)
 ```
 
-<para> 服务器氏族关联</para> <para> 将此游戏服务器与此氏族关联，以便计算玩家兼容性</para>
+<para>服务器公会关联</para><para>将此游戏服务器与该公会关联，用于计算玩家兼容性</para>
 
 **参数:**
 
@@ -625,7 +616,7 @@ SteamAPICall_t AssociateWithClan(CSteamID steamIDClan)
 
 **用法示例:**
 ```csharp
-SteamGameServer.AssociateWithClan(new CSteamID(123456789));
+SteamAPICall_t call = SteamGameServer.AssociateWithClan(clanId);
 ```
 
 ### ComputeNewPlayerCompatibility (静态)
@@ -634,7 +625,7 @@ SteamGameServer.AssociateWithClan(new CSteamID(123456789));
 SteamAPICall_t ComputeNewPlayerCompatibility(CSteamID steamIDNewPlayer)
 ```
 
-<para>询问当前玩家中是否有任何人不想与该新玩家一起玩，或者反过来，新玩家不想与当前玩家中的任何人一起玩。</para>
+<para>询问当前玩家中是否有人不愿与该新玩家组队——或反之</para>
 
 **参数:**
 
@@ -644,7 +635,7 @@ SteamAPICall_t ComputeNewPlayerCompatibility(CSteamID steamIDNewPlayer)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t result = SteamGameServer.ComputeNewPlayerCompatibility(new CSteamID(123456789));
+SteamAPICall_t call = SteamGameServer.ComputeNewPlayerCompatibility(steamIDNewPlayer);
 ```
 
 ### SendUserConnectAndAuthenticate_DEPRECATED (静态)
@@ -653,11 +644,7 @@ SteamAPICall_t result = SteamGameServer.ComputeNewPlayerCompatibility(new CSteam
 bool SendUserConnectAndAuthenticate_DEPRECATED(uint unIPClient, byte[] pvAuthBlob, uint cubAuthBlobSize, out CSteamID pSteamIDUser)
 ```
 
-<para>处理来自Steam用户的新连接请求。此调用将请求Steam服务器验证用户的身份、应用所有权和VAC状态。如果Steam服务器离线，则会自行验证缓存的票据，以验证应用所有权和身份。此处的AuthBlob应在游戏客户端通过SteamUser()->InitiateGameConnection()获取，然后必须发送到游戏服务器进行身份验证。</para>
-<para>返回值：如果用户的票据通过基本检查，则返回true。pSteamIDUser将包含该用户的Steam ID。pSteamIDUser不得为NULL。</para>
-<para>如果调用成功，则应预期收到GSClientApprove_t或GSClientDeny_t回调，该回调将告知您用户的身份验证是否成功或失败（回调中的steamid将与本调用返回的steamid匹配）。</para>
-<para>已弃用！此功能将在即将发布的SDK版本中移除。</para>
-<para>请迁移到BeginAuthSession及相关函数。</para>
+<para>处理来自 Steam 用户的新连接请求。此调用将要求 Steam 服务器验证用户的身份、应用所有权以及 VAC 状态。如果 Steam 服务器离线，则系统将自行验证缓存票据以确认应用所有权和身份。AuthBlob 应通过游戏客户端中的 SteamUser()->InitiateGameConnection() 获取，随后必须将其发送至游戏服务器进行认证。</para><para>返回值：若用户票据通过基本检查则返回 true。pSteamIDUser 将包含该用户的 Steam ID。pSteamIDUser 不得为 NULL。</para><para>若调用成功，预期将收到 GSClientApprove_t 或 GSClientDeny_t 回调，该回调将告知用户认证成功或失败（回调中的 Steam ID 将与本调用返回的 ID 一致）。</para><para>已弃用！此函数将在未来版本的 SDK 中被移除。</para><para>请迁移至 BeginAuthSession 及相关函数。</para>
 
 **参数:**
 
@@ -670,9 +657,7 @@ bool SendUserConnectAndAuthenticate_DEPRECATED(uint unIPClient, byte[] pvAuthBlo
 
 **用法示例:**
 ```csharp
-uint clientIP = 0x7F000001; // 127.0.0.1
-byte[] authBlob = new byte[256]; // 示例数据
-SteamGameServer.SendUserConnectAndAuthenticate_DEPRECATED(clientIP, authBlob, (uint)authBlob.Length, out CSteamID steamID);
+bool ok = SteamGameServer.SendUserConnectAndAuthenticate_DEPRECATED(unIPClient, authBlob, (uint)authBlob.Length, out CSteamID steamIdUser);
 ```
 
 ### CreateUnauthenticatedUserConnection (静态)
@@ -681,14 +666,13 @@ SteamGameServer.SendUserConnectAndAuthenticate_DEPRECATED(clientIP, authBlob, (u
 CSteamID CreateUnauthenticatedUserConnection()
 ```
 
-<para>创建一个虚假用户（即机器人），该用户将被列为在服务器上游戏，但会跳过验证。</para> <para>返回值：返回一个用于追踪该用户的 SteamID，当此用户离开服务器时，您应像对待真实用户一样调用 EndAuthSession()。</para>
+<para>创建一个虚假用户（即机器人），该用户将显示为正在服务器上游戏，但会跳过验证。</para><para>返回值：返回用于跟踪该用户的 SteamID，当该用户离开服务器时，应像对待真实用户一样调用 EndAuthSession()。</para>
 
 **返回值:** `CSteamID`
 
 **用法示例:**
 ```csharp
-CSteamID botId = SteamGameServer.CreateUnauthenticatedUserConnection();
-SteamGameServer.EndAuthSession(botId);
+CSteamID botSteamId = SteamGameServer.CreateUnauthenticatedUserConnection();
 ```
 
 ### SendUserDisconnect_DEPRECATED (静态)
@@ -697,7 +681,7 @@ SteamGameServer.EndAuthSession(botId);
 void SendUserDisconnect_DEPRECATED(CSteamID steamIDUser)
 ```
 
-<para>每当用户离开我们的游戏服务器时都应调用此函数，这能让 Steam 内部</para> <para>追踪哪些用户当前在哪些服务器上，以便防止单个</para> <para>账户登录到多个服务器、显示当前在服务器上的用户等。</para> <para>已弃用！此函数将在 SDK 的未来版本中移除。</para> <para>请迁移到 BeginAuthSession 及相关函数。</para>
+当用户离开我们的游戏服务器时应调用此方法，它允许 Steam 内部跟踪当前哪些用户位于哪些服务器上，以防止单个账户同时登录多个服务器、显示当前在服务器上的用户等操作。已弃用！此函数将在后续版本的 SDK 中被移除。请迁移至 BeginAuthSession 及相关函数。
 
 **参数:**
 
@@ -705,7 +689,7 @@ void SendUserDisconnect_DEPRECATED(CSteamID steamIDUser)
 
 **用法示例:**
 ```csharp
-SteamGameServer.SendUserDisconnect_DEPRECATED(new CSteamID(123456789));
+SteamGameServer.SendUserDisconnect_DEPRECATED(steamIDUser);
 ```
 
 ### BUpdateUserData (静态)
@@ -714,7 +698,7 @@ SteamGameServer.SendUserDisconnect_DEPRECATED(new CSteamID(123456789));
 bool BUpdateUserData(CSteamID steamIDUser, string pchPlayerName, uint uScore)
 ```
 
-<para> 更新服务器浏览器和匹配界面中显示的用户数据，该用户当前已连接到服务器。对于普通用户，您必须在收到 GSUserValidationSuccess 回调后调用此方法。</para> <para> 返回值：如果成功则返回 true，如果失败则返回 false（即，steamIDUser 不是活跃玩家的 steamID）</para>
+<para>更新当前连接到服务器的用户在服务器浏览器和匹配界面中显示的数据。</para> <para>对于普通用户，必须在收到 GSUserValidationSuccess 回调后调用此方法。</para> <para>返回值：如果成功返回 true，失败返回 false（例如，steamIDUser 不对应活跃玩家）。</para>
 
 **参数:**
 
@@ -726,6 +710,6 @@ bool BUpdateUserData(CSteamID steamIDUser, string pchPlayerName, uint uScore)
 
 **用法示例:**
 ```csharp
-SteamGameServer.BUpdateUserData(steamIDUser, "PlayerName", 1000);
+SteamGameServer.BUpdateUserData(steamIDUser, "PlayerOne", 100);
 ```
 

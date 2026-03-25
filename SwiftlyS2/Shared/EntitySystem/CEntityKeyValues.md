@@ -39,7 +39,7 @@ void SetBool(string key, bool value)
 
 **用法示例:**
 ```csharp
-entityKeyValues.SetBool("isEnabled", true);
+entityKeyValues.SetBool("is_active", true);
 ```
 
 ### SetInt32
@@ -71,7 +71,7 @@ void SetUInt32(string key, uint value)
 
 **用法示例:**
 ```csharp
-entityKeyValues.SetUInt32("health", 100u);
+entityKeyValues.SetUInt32("round_time", 120);
 ```
 
 ### SetInt64
@@ -103,7 +103,7 @@ void SetUInt64(string key, ulong value)
 
 **用法示例:**
 ```csharp
-entityKeyValues.SetUInt64("score", 100UL);
+entityKeyValues.SetUInt64("match_id", 1234567890UL);
 ```
 
 ### SetFloat
@@ -119,7 +119,7 @@ void SetFloat(string key, float value)
 
 **用法示例:**
 ```csharp
-entityKeyValues.SetFloat("health", 100f);
+entityKeyValues.SetFloat("health", 100.5f);
 ```
 
 ### SetDouble
@@ -151,7 +151,7 @@ void SetString(string key, string value)
 
 **用法示例:**
 ```csharp
-entityKeyValues.SetString("name", "Player1");
+entityKeyValues.SetString("targetname", "my_entity");
 ```
 
 ### SetPtr
@@ -167,7 +167,7 @@ void SetPtr(string key, nint value)
 
 **用法示例:**
 ```csharp
-entityKeyValues.SetPtr("health", (nint)100);
+entityKeyValues.SetPtr("hMyEntity", someIntPtr);
 ```
 
 ### SetStringToken
@@ -183,7 +183,7 @@ void SetStringToken(string key, CUtlStringToken value)
 
 **用法示例:**
 ```csharp
-entityKeyValues.SetStringToken("playerName", CUtlStringToken.FromString("Alice"));
+entityKeyValues.SetStringToken("name", CUtlStringToken.PlayerName);
 ```
 
 ### SetColor
@@ -199,7 +199,7 @@ void SetColor(string key, Color value)
 
 **用法示例:**
 ```csharp
-entityKeyValues.SetColor("health_color", Color.Red);
+entityKeyValues.SetColor("light_color", Color.Red);
 ```
 
 ### SetVector
@@ -215,7 +215,7 @@ void SetVector(string key, Vector value)
 
 **用法示例:**
 ```csharp
-CEntityKeyValues.SetVector("origin", new Vector(100, 200, 300));
+entityKeyValues.SetVector("origin", new Vector(100, 200, 300));
 ```
 
 ### SetVector2D
@@ -231,7 +231,7 @@ void SetVector2D(string key, Vector2D value)
 
 **用法示例:**
 ```csharp
-CEntityKeyValues.SetVector2D("position", new Vector2D(10, 20));
+entityKeyValues.SetVector2D("position", new Vector2D(10.5f, 20.3f));
 ```
 
 ### SetVector4D
@@ -247,7 +247,7 @@ void SetVector4D(string key, Vector4D value)
 
 **用法示例:**
 ```csharp
-CEntityKeyValues.SetVector4D("position", new Vector4D(1f, 2f, 3f, 4f));
+entityKeyValues.SetVector4D("position", new Vector4D(1.0f, 2.0f, 3.0f, 4.0f));
 ```
 
 ### SetQAngle
@@ -263,7 +263,7 @@ void SetQAngle(string key, QAngle value)
 
 **用法示例:**
 ```csharp
-CEntityKeyValues.SetQAngle("angles", new QAngle(0, 90, 0));
+entityKeyValues.SetQAngle("m_angRotation", new QAngle(0f, 90f, 0f));
 ```
 
 ### GetBool
@@ -280,7 +280,7 @@ bool GetBool(string key)
 
 **用法示例:**
 ```csharp
-bool value = entityKeyValues.GetBool("is_visible");
+bool isActive = entityKeyValues.GetBool("m_bIsAlive");
 ```
 
 ### GetInt32
@@ -297,7 +297,7 @@ int GetInt32(string key)
 
 **用法示例:**
 ```csharp
-int value = entityKeyValues.GetInt32("health");
+int health = entityKeyValues.GetInt32("health");
 ```
 
 ### GetUInt32
@@ -314,7 +314,7 @@ uint GetUInt32(string key)
 
 **用法示例:**
 ```csharp
-uint value = entityKeyValues.GetUInt32("health");
+uint value = entityKeyValues.GetUInt32("m_iHealth");
 ```
 
 ### GetInt64
@@ -348,7 +348,7 @@ ulong GetUInt64(string key)
 
 **用法示例:**
 ```csharp
-ulong value = entityKeyValues.GetUInt64("health");
+ulong value = entityKeyValues.GetUInt64("m_iHealth");
 ```
 
 ### GetFloat
@@ -399,7 +399,7 @@ string GetString(string key)
 
 **用法示例:**
 ```csharp
-string value = entityKeyValues.GetString("model");
+string value = entityKeyValues.GetString("classname");
 ```
 
 ### GetPtr
@@ -433,7 +433,7 @@ CUtlStringToken GetStringToken(string key)
 
 **用法示例:**
 ```csharp
-CEntityKeyValues.GetStringToken("health");
+CUtlStringToken token = entityKeyValues.GetStringToken("targetname");
 ```
 
 ### GetColor
@@ -450,7 +450,7 @@ Color GetColor(string key)
 
 **用法示例:**
 ```csharp
-Color c = entityKeyValues.GetColor("color");
+Color color = entityKeyValues.GetColor("team_color");
 ```
 
 ### GetVector
@@ -467,7 +467,7 @@ Vector GetVector(string key)
 
 **用法示例:**
 ```csharp
-Vector pos = entityKeyValues.GetVector("origin");
+Vector position = entityKeyValues.GetVector("origin");
 ```
 
 ### GetVector2D
@@ -501,7 +501,7 @@ Vector4D GetVector4D(string key)
 
 **用法示例:**
 ```csharp
-Vector4D v = entityKeyValues.GetVector4D("position");
+Vector4D vec = entityKeyValues.GetVector4D("origin");
 ```
 
 ### GetQAngle
@@ -518,7 +518,7 @@ QAngle GetQAngle(string key)
 
 **用法示例:**
 ```csharp
-QAngle angle = entityKeyValues.GetQAngle("angles");
+QAngle angle = entityKeyValues.GetQAngle("m_angRotation");
 ```
 
 ### Set<T>
@@ -534,9 +534,7 @@ void Set<T>(string key, T value)
 
 **用法示例:**
 ```csharp
-entityKeyValues.Set("name", "Alice");
-entityKeyValues.Set("age", 30);
-entityKeyValues.Set("team", Team.T);
+entityKeyValues.Set("health", 100);
 ```
 
 ### Get<T>
@@ -553,7 +551,6 @@ T Get<T>(string key)
 
 **用法示例:**
 ```csharp
-int value = entityKeyValues.Get<int>("key");
-Team team = entityKeyValues.Get<Team>("teamKey");
+var value = entityKeyValues.Get<int>("m_iHealth");
 ```
 

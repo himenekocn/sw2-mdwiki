@@ -1,6 +1,6 @@
 # 🔌 IOnEntityEndTouchEvent
 
-当实体停止接触另一个实体时调用。
+当实体结束与另一实体的接触时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -11,5 +11,5 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Entity` | `CBaseEntity` | get | 获取发起触摸的实体。 |
-| `OtherEntity` | `CBaseEntity` | get | 获取被触摸的实体。 |
+| `OtherEntity` | `CBaseEntity` | get | 获取被触碰的实体。 |
 

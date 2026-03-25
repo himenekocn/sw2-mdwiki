@@ -36,8 +36,7 @@ void Init(int growSize, int initSize)
 
 **用法示例:**
 ```csharp
-CUtlMemory memory;
-memory.Init(10, 20);
+memory.Init(16, 32);
 ```
 
 ### Purge
@@ -48,7 +47,6 @@ void Purge()
 
 **用法示例:**
 ```csharp
-CUtlMemory memory = default;
 memory.Purge();
 ```
 
@@ -64,8 +62,7 @@ void Purge(int numElements)
 
 **用法示例:**
 ```csharp
-CUtlMemory memory;  
-memory.Purge(10);
+memory.Purge(0);
 ```
 
 ### ConvertToGrowableMemory
@@ -80,8 +77,7 @@ void ConvertToGrowableMemory(int growSize)
 
 **用法示例:**
 ```csharp
-CUtlMemory memory;  
-memory.ConvertToGrowableMemory(10);
+memory.ConvertToGrowableMemory(16);
 ```
 
 ### SetExternalBuffer
@@ -98,8 +94,7 @@ void SetExternalBuffer(nint memory, int numelements, bool readOnly)
 
 **用法示例:**
 ```csharp
-IntPtr buffer = Marshal.AllocHGlobal(100 * sizeof(int));
-memory.SetExternalBuffer(buffer, 100, false);
+unsafe { var mem = new CUtlMemory(); fixed (byte* ptr = buffer) mem.SetExternalBuffer((nint)ptr, count, readOnly); }
 ```
 
 ### AssumeMemory
@@ -115,8 +110,7 @@ void AssumeMemory(nint memory, int numelements)
 
 **用法示例:**
 ```csharp
-CUtlMemory memory;
-memory.AssumeMemory(IntPtr.Zero, 0);
+memory.AssumeMemory(nint.Zero, 10);
 ```
 
 ### DetachMemory
@@ -129,7 +123,6 @@ nint DetachMemory()
 
 **用法示例:**
 ```csharp
-CUtlMemory memory = default;
 nint ptr = memory.DetachMemory();
 ```
 
@@ -145,7 +138,6 @@ void Grow(int num)
 
 **用法示例:**
 ```csharp
-CUtlMemory memory;
 memory.Grow(10);
 ```
 
@@ -161,7 +153,6 @@ void EnsureCapacity(int num)
 
 **用法示例:**
 ```csharp
-CUtlMemory memory;  
 memory.EnsureCapacity(10);
 ```
 
@@ -177,7 +168,6 @@ void SetGrowSize(int size)
 
 **用法示例:**
 ```csharp
-CUtlMemory memory;
-memory.SetGrowSize(10);
+memory.SetGrowSize(16);
 ```
 

@@ -16,10 +16,10 @@ void Register(object instance)
 
 **参数:**
 
-- `instance` (`object`) - 任何包含监听器属性的类。
+- `instance` (`object`) - 任何包含监听器属性的对象。
 
 **用法示例:**
 ```csharp
-IRegistratorService.Register(player);
+registratorService.Register(listenerInstance);
 ```
 

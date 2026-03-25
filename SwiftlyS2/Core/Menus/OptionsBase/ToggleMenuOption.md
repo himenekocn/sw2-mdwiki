@@ -1,6 +1,6 @@
 # 📦 ToggleMenuOption
 
-表示一个可切换的菜单选项，显示开/关状态。
+表示一个可切换的菜单选项，用于显示开/关状态。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -21,9 +21,9 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 **参数:**
 
 - `player` (`IPlayer`) - 查看该选项的玩家。
-- `displayLine` (`int`) = `0` - 显示行号（此实现中未使用）。
+- `displayLine` (`int`) = `0` - 显示行号（本实现中未使用）。
 
-**返回值:** `string` - 带切换状态指示器的格式化显示文本。
+**返回值:** `string` - 带有切换状态指示器的格式化显示文本。
 
 **用法示例:**
 ```csharp
@@ -40,13 +40,13 @@ bool GetToggleState(IPlayer player)
 
 **参数:**
 
-- `player` (`IPlayer`) - 要获取其切换状态的玩家。
+- `player` (`IPlayer`) - 要检索其切换状态的玩家。
 
-**返回值:** `bool` - 如果切换为开启则返回 true，如果切换为关闭则返回 false。新玩家将使用配置的默认值。
+**返回值:** `bool` - 若已启用则为 true，若已禁用则为 false。对于新玩家使用配置好的默认值。
 
 **用法示例:**
 ```csharp
-bool state = toggleMenuOption.GetToggleState(player);
+bool isEnabled = toggleMenuOption.GetToggleState(player);
 ```
 
 ### SetToggleState
@@ -55,17 +55,17 @@ bool state = toggleMenuOption.GetToggleState(player);
 bool SetToggleState(IPlayer player, bool value)
 ```
 
-设置指定玩家的切换状态，并触发值更改事件。
+设置指定玩家的切换状态并触发值更改事件。
 
 **参数:**
 
-- `player` (`IPlayer`) - 要设置其切换状态的玩家。
+- `player` (`IPlayer`) - 要设置切换状态的玩家。
 - `value` (`bool`) - 要设置的切换状态。
 
-**返回值:** `bool` - 如果值已更改，则为 true；如果值已相同，则为 false。
+**返回值:** `bool` - 如果值被更改则为 true，如果原本就是相同值则为 false。
 
 **用法示例:**
 ```csharp
-toggleMenuOption.SetToggleState(player, true);
+bool result = toggleMenuOption.SetToggleState(player, true);
 ```
 

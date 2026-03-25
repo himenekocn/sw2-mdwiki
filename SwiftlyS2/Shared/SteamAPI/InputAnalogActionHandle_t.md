@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-InputAnalogActionHandle_t handle = default;
-string result = handle.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator ulong(InputAnalogActionHandle_t that)
 
 **用法示例:**
 ```csharp
-InputAnalogActionHandle_t handle = InputAnalogActionHandle_t.ulong(12345);
+ulong handleValue = InputAnalogActionHandle_t.operator ulong(existingHandle);
 ```
 
 ### Equals
@@ -93,7 +87,6 @@ int CompareTo(InputAnalogActionHandle_t other)
 
 **用法示例:**
 ```csharp
-InputAnalogActionHandle_t handle1 = InputAnalogActionHandle_t.SomeValue;  
-int result = handle1.CompareTo(InputAnalogActionHandle_t.OtherValue);
+int result = handle.CompareTo(otherHandle);
 ```
 

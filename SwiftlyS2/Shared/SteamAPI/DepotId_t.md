@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-DepotId_t id = DepotId_t.SomeValue;
-string str = id.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator uint(DepotId_t that)
 
 **用法示例:**
 ```csharp
-uint id = (uint)DepotId_t.SomeValue;
+uint id = DepotId_t.uint(existingDepotId);
 ```
 
 ### Equals
@@ -93,7 +87,6 @@ int CompareTo(DepotId_t other)
 
 **用法示例:**
 ```csharp
-DepotId_t id1 = DepotId_t.A;  
-int result = id1.CompareTo(DepotId_t.B);
+int result = existingDepotId.CompareTo(otherDepotId);
 ```
 

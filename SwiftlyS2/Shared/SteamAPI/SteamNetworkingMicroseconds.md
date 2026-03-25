@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-SteamNetworkingMicroseconds time = 1000;
-string result = time.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator long(SteamNetworkingMicroseconds that)
 
 **用法示例:**
 ```csharp
-long time = (long)SteamNetworkingMicroseconds.SomeValue;
+long microseconds = (long)SteamNetworkingMicroseconds.FromSeconds(1.5);
 ```
 
 ### Equals
@@ -93,6 +87,6 @@ int CompareTo(SteamNetworkingMicroseconds other)
 
 **用法示例:**
 ```csharp
-SteamNetworkingMicroseconds a = default; SteamNetworkingMicroseconds b = default; int result = a.CompareTo(b);
+int result = existingMicroseconds.CompareTo(otherMicroseconds);
 ```
 

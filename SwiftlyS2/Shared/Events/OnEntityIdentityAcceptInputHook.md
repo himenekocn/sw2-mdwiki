@@ -1,6 +1,6 @@
 # 🔗 OnEntityIdentityAcceptInputHook
 
-当实体标识接受输入钩子被触发时调用。
+当实体身份接受输入钩子被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

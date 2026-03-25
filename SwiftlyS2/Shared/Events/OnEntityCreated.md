@@ -1,6 +1,6 @@
 # 🔗 OnEntityCreated
 
-当实体被创建时调用。
+在实体创建时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

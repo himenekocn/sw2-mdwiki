@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = InputActionSetHandle_t.Default.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator ulong(InputActionSetHandle_t that)
 
 **用法示例:**
 ```csharp
-InputActionSetHandle_t handle = (ulong)someHandle;
+ulong handleValue = InputActionSetHandle_t.operator ulong(existingHandle);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(InputActionSetHandle_t other)
 
 **用法示例:**
 ```csharp
-InputActionSetHandle_t handle1 = InputActionSetHandle_t.SomeValue;  
-int result = handle1.CompareTo(handle2);
+int result = handle.CompareTo(otherHandle);
 ```
 

@@ -27,6 +27,6 @@ server address("127.0.0.1:27015" , "tf2.valvesoftware.com" )
 
 **用法示例:**
 ```csharp
-GameServerChangeRequested_t.server address("127.0.0.1:27015", "tf2.valvesoftware.com");
+evt.server_address("127.0.0.1:27015", "tf2.valvesoftware.com");
 ```
 

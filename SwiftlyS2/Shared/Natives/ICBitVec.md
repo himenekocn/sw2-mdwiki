@@ -16,8 +16,7 @@ bool IsFixedSize()
 
 **用法示例:**
 ```csharp
-ICBitVec instance = GetSomeInstance();  
-bool fixedSize = instance.IsFixedSize();
+bool isFixed = bitVec.IsFixedSize();
 ```
 
 ### NumDWords
@@ -30,7 +29,7 @@ uint NumDWords()
 
 **用法示例:**
 ```csharp
-uint count = ICBitVec.NumDWords();
+uint count = bitVec.NumDWords();
 ```
 
 ### GetNumBits
@@ -43,7 +42,7 @@ uint GetNumBits()
 
 **用法示例:**
 ```csharp
-uint bitCount = convar.GetNumBits();
+uint numBits = bitVec.GetNumBits();
 ```
 
 ### ClearAll
@@ -54,7 +53,7 @@ void ClearAll()
 
 **用法示例:**
 ```csharp
-icBitVec.ClearAll();
+bitVec.ClearAll();
 ```
 
 ### SetAll
@@ -65,7 +64,7 @@ void SetAll()
 
 **用法示例:**
 ```csharp
-convar.SetAll();
+existingBitVecInstance.SetAll();
 ```
 
 ### Set
@@ -80,7 +79,7 @@ void Set(uint index)
 
 **用法示例:**
 ```csharp
-convar.Set(123);
+bitVec.Set(5);
 ```
 
 ### Set
@@ -110,7 +109,7 @@ void Clear(uint index)
 
 **用法示例:**
 ```csharp
-bitVec.Clear(5u);
+bitVec.Clear(5);
 ```
 
 ### Clear
@@ -125,7 +124,7 @@ void Clear(int index)
 
 **用法示例:**
 ```csharp
-bitVec.Clear(0);
+bitVec.Clear(5);
 ```
 
 ### IsSet
@@ -142,7 +141,7 @@ bool IsSet(uint index)
 
 **用法示例:**
 ```csharp
-bool result = bitVec.IsSet(5);
+bool isSet = bitVec.IsSet(5);
 ```
 
 ### IsSet
@@ -159,7 +158,7 @@ bool IsSet(int index)
 
 **用法示例:**
 ```csharp
-bool result = convar.IsSet(3);
+bool isSet = existingBitVec.IsSet(5);
 ```
 
 ### Count
@@ -172,7 +171,7 @@ int Count()
 
 **用法示例:**
 ```csharp
-int count = convar.BitVec.Count();
+int count = existingBitVec.Count();
 ```
 
 ### IsAllClear
@@ -185,6 +184,6 @@ bool IsAllClear()
 
 **用法示例:**
 ```csharp
-bool result = convar.IsAllClear();
+bool allClear = bitVec.IsAllClear();
 ```
 

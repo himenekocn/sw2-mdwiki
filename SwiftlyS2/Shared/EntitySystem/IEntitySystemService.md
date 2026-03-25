@@ -12,7 +12,7 @@
 void EntityOutputEventHandler(IOnEntityFireOutputHookEvent @event)
 ```
 
-表示一个处理实体输出事件的方法，允许在实体触发输出时执行自定义逻辑。
+表示一种处理实体输出事件的方法，允许在实体触发输出时执行自定义逻辑。
 
 **参数:**
 
@@ -20,7 +20,7 @@ void EntityOutputEventHandler(IOnEntityFireOutputHookEvent @event)
 
 **用法示例:**
 ```csharp
-manager.EntityOutputEventHandler(new EntityFireOutputHookEvent(player, "OnKilled", null));
+IEntitySystemService.EntityOutputEventHandler(eventData);
 ```
 
 ### EntityInputEventHandler
@@ -29,7 +29,7 @@ manager.EntityOutputEventHandler(new EntityFireOutputHookEvent(player, "OnKilled
 void EntityInputEventHandler(IOnEntityIdentityAcceptInputHookEvent @event)
 ```
 
-表示一个处理实体输入事件的方法，允许在实体接受输入时执行自定义逻辑。
+表示处理实体输入事件的方法，允许在实体接受输入时执行自定义逻辑。
 
 **参数:**
 
@@ -37,7 +37,7 @@ void EntityInputEventHandler(IOnEntityIdentityAcceptInputHookEvent @event)
 
 **用法示例:**
 ```csharp
-manager.EntityInputEventHandler(new EntityInputAcceptInputEvent(player));
+entitySystemService.EntityInputEventHandler(eventData);
 ```
 
 ### CreateEntity<T>
@@ -52,7 +52,7 @@ T CreateEntity<T>()
 
 **用法示例:**
 ```csharp
-var entity = manager.CreateEntity<MyEntity>();
+var entity = manager.CreateEntity<Player>();
 ```
 
 ### CreateEntityByDesignerName<T>
@@ -65,13 +65,13 @@ T CreateEntityByDesignerName<T>(string designerName)
 
 **参数:**
 
-- `designerName` (`string`) - 设计器名称。
+- `designerName` (`string`) - 设计师名称。
 
 **返回值:** `T` - 已创建实体。
 
 **用法示例:**
 ```csharp
-var entity = manager.CreateEntityByDesignerName<MyEntity>("MyDesigner");
+var entity = IEntitySystemService.CreateEntityByDesignerName<Entity>("info_player_start");
 ```
 
 ### GetRefEHandle<T>
@@ -86,11 +86,11 @@ CHandle<T> GetRefEHandle<T>(T entity)
 
 - `entity` (`T`) - 实体实例。
 
-**返回值:** `CHandle\<T\>` - 引用实体句柄到该实体。
+**返回值:** `CHandle\<T\>` - 引用实体的实体句柄。
 
 **用法示例:**
 ```csharp
-CHandle<Player> handle = manager.GetRefEHandle(player);
+var handle = entitySystem.GetRefEHandle(player);
 ```
 
 ### GetGameRules
@@ -101,11 +101,11 @@ CCSGameRules? GetGameRules()
 
 获取游戏规则实体。
 
-**返回值:** `CCSGameRules?` - 游戏规则实体。可为空。
+**返回值:** `CCSGameRules?` - 游戏实体规则。可为空。
 
 **用法示例:**
 ```csharp
-CCSGameRules? rules = entitySystem.GetGameRules();
+var rules = entitySystemService.GetGameRules();
 ```
 
 ### GetAllEntities
@@ -120,7 +120,7 @@ IEnumerable<CEntityInstance> GetAllEntities()
 
 **用法示例:**
 ```csharp
-foreach (var entity in manager.GetAllEntities()) { /* 处理实体 */ }
+var entities = IEntitySystemService.GetAllEntities();
 ```
 
 ### GetAllEntitiesByClass<T>
@@ -131,11 +131,11 @@ IEnumerable<T> GetAllEntitiesByClass<T>()
 
 按类获取所有实体。
 
-**返回值:** `IEnumerable\<T\>` - 按类获取所有实体。
+**返回值:** `IEnumerable\<T\>` - 所有按类划分的实体。
 
 **用法示例:**
 ```csharp
-var entities = manager.GetAllEntitiesByClass<Team>();
+var entities = entitySystemService.GetAllEntitiesByClass<CBasePlayer>();
 ```
 
 ### GetAllEntitiesByDesignerName<T>
@@ -144,17 +144,17 @@ var entities = manager.GetAllEntitiesByClass<Team>();
 IEnumerable<T> GetAllEntitiesByDesignerName<T>(string designerName)
 ```
 
-根据设计师名称获取所有实体，并将其转换为类型 T。
+通过设计师名称获取所有实体，并转换为类型 T。
 
 **参数:**
 
-- `designerName` (`string`) - 设计器名称。
+- `designerName` (`string`) - 设计师名称。
 
-**返回值:** `IEnumerable\<T\>` - 按设计者名称的所有实体。
+**返回值:** `IEnumerable\<T\>` - 所有按设计师名称命名的实体。
 
 **用法示例:**
 ```csharp
-var entities = manager.GetAllEntitiesByDesignerName<Product>("John Doe");
+var entities = IEntitySystemService.GetAllEntitiesByDesignerName<MyEntity>("DesignerName");
 ```
 
 ### GetEntityByIndex<T>
@@ -169,11 +169,11 @@ T? GetEntityByIndex<T>(uint index)
 
 - `index` (`uint`) - 实体索引。
 
-**返回值:** `T?` - 按索引获取实体。可为空。
+**返回值:** `T?` - 通过索引获取实体。可为空。
 
 **用法示例:**
 ```csharp
-var entity = manager.GetEntityByIndex<Player>(123);
+var entity = systemService.GetEntityByIndex<Player>(1);
 ```
 
 ### GetEntityByIndex
@@ -182,18 +182,17 @@ var entity = manager.GetEntityByIndex<Player>(123);
 CEntityInstance? GetEntityByIndex(uint index)
 ```
 
-通过索引获取实体。返回的对象将具有实体的实际类型。您可以将其强制转换为实际类型。
+通过索引获取实体。返回的对象将具有实体的实际类型，您可以将其转换为该实际类型。
 
 **参数:**
 
 - `index` (`uint`) - 实体索引。
 
-**返回值:** `CEntityInstance?` - 按索引获取实体。可为空。
+**返回值:** `CEntityInstance?` - 通过索引获取实体。可为空。
 
 **用法示例:**
 ```csharp
-CEntityInstance? entity = GetEntityByIndex(0);  
-if (entity is CPlayerController player) { /* use player */ }
+var entity = manager.GetEntityByIndex(5);
 ```
 
 ### GetEntityByAddress<T>
@@ -208,11 +207,11 @@ T? GetEntityByAddress<T>(nint address)
 
 - `address` (`nint`) - 实体地址。
 
-**返回值:** `T?` - 按地址获取的实体。可为空。
+**返回值:** `T?` - 按地址定位的实体。可为空。
 
 **用法示例:**
 ```csharp
-var entity = manager.GetEntityByAddress<MyEntity>(0x12345678);
+var entity = system.GetEntityByAddress<MyEntity>(address);
 ```
 
 ### GetEntityByAddress
@@ -227,11 +226,11 @@ CEntityInstance? GetEntityByAddress(nint address)
 
 - `address` (`nint`) - 实体地址。
 
-**返回值:** `CEntityInstance?` - 按地址获取的实体。可为空。
+**返回值:** `CEntityInstance?` - 按地址定位的实体。可为空。
 
 **用法示例:**
 ```csharp
-CEntityInstance? entity = entitySystem.GetEntityByAddress(0x12345678);
+var entity = systemService.GetEntityByAddress(address);
 ```
 
 ### HookEntityOutput<T>
@@ -240,18 +239,18 @@ CEntityInstance? entity = entitySystem.GetEntityByAddress(0x12345678);
 Guid HookEntityOutput<T>(string outputName, EntityOutputEventHandler callback)
 ```
 
-将指定实体类型的输出绑定到回调函数。
+将指定实体类型的输出挂钩至回调函数。
 
 **参数:**
 
-- `outputName` (`string`) - 要挂钩的输出名称。该值不能为 <see langword="null"/> 或空。
-- `callback` (`EntityOutputEventHandler`) - 当输出被触发时调用的回调函数。该值不能为 <see langword="null"/>。
+- `outputName` (`string`) - 要挂钩的输出的名称。此值不能为<see langword="null"/>或空。
+- `callback` (`EntityOutputEventHandler`) - 触发输出时调用的回调函数。此值不能为 <see langword="null"/>。
 
-**返回值:** `Guid` - 一个 <see cref="Guid"/>，用于唯一标识该钩子。此标识符可用于移除该钩子。
+**返回值:** `Guid` - 一个唯一标识该挂钩的 <see cref="Guid"/>。此标识符可用于移除该挂钩。
 
 **用法示例:**
 ```csharp
-entitySystemService.HookEntityOutput<Player>("Health", OnPlayerHealthChanged);
+var hookId = entitySystem.HookEntityOutput<Player>("OnTakeDamage", (sender, args) => { });
 ```
 
 ### HookEntityOutput
@@ -260,19 +259,19 @@ entitySystemService.HookEntityOutput<Player>("Health", OnPlayerHealthChanged);
 Guid HookEntityOutput(string designerName, string outputName, EntityOutputEventHandler callback)
 ```
 
-将指定实体类型的输出绑定到回调函数。
+将指定实体类型的输出挂钩至回调函数。
 
 **参数:**
 
-- `designerName` (`string`) - 要挂钩的实体的设计器名称。该值不能为 <see langword="null"/> 或空。
-- `outputName` (`string`) - 要挂钩的输出名称。该值不能为 <see langword="null"/> 或空。
-- `callback` (`EntityOutputEventHandler`) - 当输出被触发时调用的回调函数。该值不能为 <see langword="null"/>。
+- `designerName` (`string`) - 要绑定的实体的设计器名称。此值不能为 <see langword="null"/> 或空字符串。
+- `outputName` (`string`) - 要挂钩的输出的名称。此值不能为<see langword="null"/>或空。
+- `callback` (`EntityOutputEventHandler`) - 触发输出时调用的回调函数。此值不能为 <see langword="null"/>。
 
-**返回值:** `Guid` - 一个 <see cref="Guid"/>，用于唯一标识该钩子。此标识符可用于移除该钩子。
+**返回值:** `Guid` - 一个唯一标识该挂钩的 <see cref="Guid"/>。此标识符可用于移除该挂钩。
 
 **用法示例:**
 ```csharp
-Guid hookId = EntitySystem.HookEntityOutput("Player", "HealthChanged", (sender, args) => Console.WriteLine($"Health changed: {args.Value}"));
+Guid hookId = entitySystem.HookEntityOutput("func_button", "OnPressed", (entity, output) => Console.WriteLine($"Button {entity} pressed!"));
 ```
 
 ### UnhookEntityOutput
@@ -285,13 +284,13 @@ bool UnhookEntityOutput(Guid guid)
 
 **参数:**
 
-- `guid` (`Guid`) - 要取消挂钩的实体的唯一标识符。
+- `guid` (`Guid`) - 输出到解钩的实体的唯一标识符。
 
-**返回值:** `bool` - 如果挂钩已成功移除，则为 <see langword="true"/>；否则为 <see langword="false"/>。
+**返回值:** `bool` - 如果钩子成功移除，则为<see langword="true"/>；否则为<see langword="false"/>。
 
 **用法示例:**
 ```csharp
-manager.UnhookEntityOutput(someGuid);
+IEntitySystemService entityService; entityService.UnhookEntityOutput(Guid.Parse("12345678-1234-1234-1234-123456789012"));
 ```
 
 ### HookEntityInput<T>
@@ -300,18 +299,18 @@ manager.UnhookEntityOutput(someGuid);
 Guid HookEntityInput<T>(string inputName, EntityInputEventHandler callback)
 ```
 
-将指定实体类型的输入挂钩到回调函数。
+将指定实体类型的输入挂钩至回调函数。
 
 **参数:**
 
-- `inputName` (`string`) - 要挂钩的输入名称。该值不能为 <see langword="null"/> 或空。
-- `callback` (`EntityInputEventHandler`) - 当输入被接受时调用的回调函数。该值不能为 <see langword="null"/>。
+- `inputName` (`string`) - 要拦截的输入名称。该值不能为 null 或为空。
+- `callback` (`EntityInputEventHandler`) - 当输入被接受时调用的回调函数。此值不能为 <see langword="null"/>。
 
-**返回值:** `Guid` - 一个 <see cref="Guid"/>，用于唯一标识该钩子。此标识符可用于移除该钩子。
+**返回值:** `Guid` - 一个唯一标识该挂钩的 <see cref="Guid"/>。此标识符可用于移除该挂钩。
 
 **用法示例:**
 ```csharp
-var handlerId = manager.HookEntityInput<Player>("Health", OnHealthChanged);
+var hookId = entitySystemService.HookEntityInput<Player>("attack", OnPlayerAttack);
 ```
 
 ### HookEntityInput
@@ -320,21 +319,19 @@ var handlerId = manager.HookEntityInput<Player>("Health", OnHealthChanged);
 Guid HookEntityInput(string designerName, string inputName, EntityInputEventHandler callback)
 ```
 
-将指定实体类型的输入挂钩到回调函数。
+将指定实体类型的输入挂钩至回调函数。
 
 **参数:**
 
-- `designerName` (`string`) - 要挂钩的实体的设计器名称。该值不能为 <see langword="null"/> 或空。
-- `inputName` (`string`) - 要挂钩的输入名称。该值不能为 <see langword="null"/> 或空。
-- `callback` (`EntityInputEventHandler`) - 当输入被接受时调用的回调函数。该值不能为 <see langword="null"/>。
+- `designerName` (`string`) - 要绑定的实体的设计器名称。此值不能为 <see langword="null"/> 或空字符串。
+- `inputName` (`string`) - 要拦截的输入名称。该值不能为 null 或为空。
+- `callback` (`EntityInputEventHandler`) - 当输入被接受时调用的回调函数。此值不能为 <see langword="null"/>。
 
-**返回值:** `Guid` - 一个 <see cref="Guid"/>，用于唯一标识该钩子。此标识符可用于移除该钩子。
+**返回值:** `Guid` - 一个唯一标识该挂钩的 <see cref="Guid"/>。此标识符可用于移除该挂钩。
 
 **用法示例:**
 ```csharp
-Guid hookId = entitySystem.HookEntityInput("Player", "Jump", OnPlayerJump);
-
-void OnPlayerJump(Entity entity) { /* handle jump */ }
+Guid hookId = IEntitySystemService.HookEntityInput("player", "take_damage", OnPlayerDamage);
 ```
 
 ### UnhookEntityInput
@@ -343,16 +340,16 @@ void OnPlayerJump(Entity entity) { /* handle jump */ }
 bool UnhookEntityInput(Guid guid)
 ```
 
-移除指定实体输入与其处理程序之间的关联。
+移除指定实体输入与其处理器之间的关联。
 
 **参数:**
 
-- `guid` (`Guid`) - 要取消挂钩的实体输入的唯一标识符。
+- `guid` (`Guid`) - 注入解钩的目标实体的唯一标识符。
 
-**返回值:** `bool` - 如果挂钩已成功移除，则为 <see langword="true"/>；否则为 <see langword="false"/>。
+**返回值:** `bool` - 如果钩子成功移除，则为<see langword="true"/>；否则为<see langword="false"/>。
 
 **用法示例:**
 ```csharp
-bool result = entitySystem.UnhookEntityInput(someGuid);
+bool result = entitySystemService.UnhookEntityInput(guid);
 ```
 

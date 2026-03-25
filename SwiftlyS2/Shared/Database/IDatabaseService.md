@@ -12,17 +12,17 @@
 string GetConnectionString(string connectionName)
 ```
 
-获取指定连接名称的连接字符串。
+获取给定连接名称的连接字符串。
 
 **参数:**
 
-- `connectionName` (`string`) - 要获取字符串的连接名称。
+- `connectionName` (`string`) - 要获取其字符串的连接名称。
 
-**返回值:** `string` - 连接字符串。如果未找到连接名称，则返回默认连接字符串。
+**返回值:** `string` - 连接字符串。若未找到指定的连接名称，则返回默认连接字符串。
 
 **用法示例:**
 ```csharp
-string connStr = databaseService.GetConnectionString("MainDb");
+string connStr = databaseService.GetConnectionString("DefaultDB");
 ```
 
 ### GetConnectionInfo
@@ -35,13 +35,13 @@ DatabaseConnectionInfo GetConnectionInfo(string connectionName)
 
 **参数:**
 
-- `connectionName` (`string`) - 要获取信息的连接名称。
+- `connectionName` (`string`) - 获取信息所需的连接名称。
 
-**返回值:** `DatabaseConnectionInfo` - 连接信息。如果未找到连接名称，则返回默认连接信息。
+**返回值:** `DatabaseConnectionInfo` - 连接信息。若未找到指定的连接名称，则返回默认连接信息。
 
 **用法示例:**
 ```csharp
-DatabaseConnectionInfo info = databaseService.GetConnectionInfo("PrimaryDb");
+var info = databaseService.GetConnectionInfo("MainDB");
 ```
 
 ### GetConnection
@@ -54,12 +54,12 @@ IDbConnection GetConnection(string connectionName)
 
 **参数:**
 
-- `connectionName` (`string`) - 要获取连接的连接名称。
+- `connectionName` (`string`) - 获取连接所使用的连接名称。
 
 **返回值:** `IDbConnection` - 数据库连接。如果未找到指定的连接名称，则返回默认连接。
 
 **用法示例:**
 ```csharp
-IDbConnection conn = databaseService.GetConnection("MainDb");
+var connection = databaseService.GetConnection("MainDB");
 ```
 

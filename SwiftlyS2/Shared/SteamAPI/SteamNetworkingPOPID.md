@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-SteamNetworkingPOPID popid = SteamNetworkingPOPID.Invalid;
-string result = popid.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator uint(SteamNetworkingPOPID that)
 
 **用法示例:**
 ```csharp
-uint id = (uint)SteamNetworkingPOPID.k_ESteamNetworkingPOPID_Invalid;
+uint popIdValue = SteamNetworkingPOPID.uint(existingPopId);
 ```
 
 ### Equals
@@ -93,7 +87,6 @@ int CompareTo(SteamNetworkingPOPID other)
 
 **用法示例:**
 ```csharp
-SteamNetworkingPOPID popid1 = SteamNetworkingPOPID.Invalid;  
-int result = popid1.CompareTo(SteamNetworkingPOPID.LocalHost);
+int result = popidA.CompareTo(popidB);
 ```
 

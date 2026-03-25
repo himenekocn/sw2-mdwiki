@@ -34,6 +34,6 @@ charging port(forward side of controller)
 
 **用法示例:**
 ```csharp
-InputMotionData_t.charging port(forward side of controller);
+var chargingPort = inputMotionData.charging_port;
 ```
 

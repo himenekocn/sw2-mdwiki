@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-HSteamPipe pipe = default;
-string result = pipe.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator int(HSteamPipe that)
 
 **用法示例:**
 ```csharp
-int pipe = (int)HSteamPipe.myPipe;
+int pipeValue = HSteamPipe.int(existingPipe);
 ```
 
 ### Equals
@@ -93,7 +87,6 @@ int CompareTo(HSteamPipe other)
 
 **用法示例:**
 ```csharp
-HSteamPipe pipe1 = SteamAPI.GetHSteamPipe();  
-int result = pipe1.CompareTo(pipe2);
+int result = existingPipe.CompareTo(otherPipe);
 ```
 

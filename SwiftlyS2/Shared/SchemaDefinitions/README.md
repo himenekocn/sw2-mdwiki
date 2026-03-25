@@ -6080,7 +6080,7 @@ void LastTeleportTimeUpdated()
 void SetOrAddAttribute(string attributeName, float value)
 ```
 
-设置或向属性列表中添加一个属性。
+将属性设置或添加到属性列表中。
 
 **参数:**
 
@@ -6089,7 +6089,7 @@ void SetOrAddAttribute(string attributeName, float value)
 
 **用法示例:**
 ```csharp
-convar.SetOrAddAttribute("health", 100f);
+attributeList.SetOrAddAttribute("Health", 25.0f);
 ```
 
 
@@ -7538,7 +7538,7 @@ void IsUsableUpdated()
 | `VData` | `CEntitySubclassVDataBase` | get | 获取与此实体关联的子类特定数据。 |
 | `AbsOrigin` | `Vector?` | get | 获取实体的绝对原点位置。 |
 | `AbsRotation` | `QAngle?` | get | 获取实体的绝对旋转。 |
-| `Team` | `Team` | get, set | 获取实体的团队。 |
+| `Team` | `Team` | get, set | 获取实体的队伍。 |
 
 ### ⚙️ 方法
 
@@ -7548,17 +7548,17 @@ void IsUsableUpdated()
 void Teleport(Vector? position, QAngle? angle, Vector? velocity)
 ```
 
-将实体传送到指定的位置、朝向和速度。
+将实体传送至指定的位置、朝向和速度。
 
 **参数:**
 
-- `position` (`Vector?`) - 要移动实体到的目标位置。如果为 null，则不改变实体的位置。
-- `angle` (`QAngle?`) - 要为实体设置的目标朝向。如果为 null，则不更改实体的朝向。
-- `velocity` (`Vector?`) - 传送后要应用于实体的速度。如果为 null，则不改变实体的速度。
+- `position` (`Vector?`) - 实体要移动到的目标位置。如果为 null，则不改变实体的位置。
+- `angle` (`QAngle?`) - 实体要设置的目标朝向。如果为 null，则不更改实体的朝向。
+- `velocity` (`Vector?`) - 传送后应用于实体的速度。若为 null，则不改变实体的速度。
 
 **用法示例:**
 ```csharp
-player.Teleport(new Vector(100, 200, 300), new QAngle(0, 90, 0), new Vector(0, 0, 5));
+entity.Teleport(pos, ang, vel);
 ```
 
 #### TakeDamage
@@ -7573,7 +7573,7 @@ void TakeDamage(CTakeDamageInfo dmgInfo)
 
 **用法示例:**
 ```csharp
-player.TakeDamage(dmgInfo);
+entity.TakeDamage(dmgInfo);
 ```
 
 #### TakeDamageAsync
@@ -7582,7 +7582,7 @@ player.TakeDamage(dmgInfo);
 Task TakeDamageAsync(CTakeDamageInfo dmgInfo)
 ```
 
-根据指定的伤害信息，异步地对实体造成伤害。
+根据指定的伤害信息，异步地对实体施加伤害。
 
 **参数:**
 
@@ -7592,7 +7592,7 @@ Task TakeDamageAsync(CTakeDamageInfo dmgInfo)
 
 **用法示例:**
 ```csharp
-await player.TakeDamageAsync(new CTakeDamageInfo { Damage = 50f, DamageType = DamageType.Bullet });
+await entity.TakeDamageAsync(dmgInfo);
 ```
 
 #### TakeDamage
@@ -7611,7 +7611,7 @@ void TakeDamage(float flDamage, DamageTypes_t bitsDamageType, CBaseEntity? infli
 
 **用法示例:**
 ```csharp
-player.TakeDamage(10f, DamageTypes_t.BULLET, null, attacker: enemy, ability: null);
+entity.TakeDamage(100f, DamageTypes_t.Generic, inflictor, attacker, null);
 ```
 
 #### TakeDamageAsync
@@ -7620,7 +7620,7 @@ player.TakeDamage(10f, DamageTypes_t.BULLET, null, attacker: enemy, ability: nul
 Task TakeDamageAsync(float flDamage, DamageTypes_t bitsDamageType, CBaseEntity? inflictor = null, CBaseEntity? attacker = null, CBaseEntity? ability = null)
 ```
 
-根据指定的伤害信息，异步地对实体造成伤害。
+根据指定的伤害信息，异步地对实体施加伤害。
 
 **参数:**
 
@@ -7634,7 +7634,7 @@ Task TakeDamageAsync(float flDamage, DamageTypes_t bitsDamageType, CBaseEntity? 
 
 **用法示例:**
 ```csharp
-await player.TakeDamageAsync(10f, DamageTypes_t.BULLET, null, attacker: enemy, ability: null);
+await entity.TakeDamageAsync(50f, DamageTypes_t.Physical, inflictor, attacker, ability);
 ```
 
 #### CollisionRulesChanged
@@ -7643,11 +7643,12 @@ await player.TakeDamageAsync(10f, DamageTypes_t.BULLET, null, attacker: enemy, a
 void CollisionRulesChanged()
 ```
 
-通知游戏实体碰撞规则已更改。当您更改实体的 Collision 时，请调用此方法。
+通知游戏该实体的碰撞规则已更改。在修改实体的 Collision 属性时请调用此方法。
 
 **用法示例:**
 ```csharp
-player.CollisionRulesChanged();
+entity.Collision = CollisionGroup.None;
+entity.CollisionRulesChanged();
 ```
 
 
@@ -8160,13 +8161,14 @@ void ThrowerUpdated()
 CSkeletonInstance? GetSkeletonInstance()
 ```
 
-获取实体的骨架实例。
+获取实体的骨架化实例。
 
 **返回值:** `CSkeletonInstance?`
 
 **用法示例:**
 ```csharp
-CSkeletonInstance? skeleton = model.GetSkeletonInstance();
+CSkeletonInstance? skeleton = entity.GetSkeletonInstance();
+if (skeleton != null) Console.WriteLine("Skeleton found");
 ```
 
 #### GetModel
@@ -8181,7 +8183,8 @@ string? GetModel()
 
 **用法示例:**
 ```csharp
-string? model = convar.GetModel();
+string? model = entity.GetModel();
+if (model != null) Console.WriteLine(model);
 ```
 
 #### GetMeshGroupMask
@@ -8196,7 +8199,8 @@ ulong? GetMeshGroupMask()
 
 **用法示例:**
 ```csharp
-ulong? mask = entity.GetMeshGroupMask();
+ulong? meshGroupMask = modelEntity.GetMeshGroupMask();
+if (meshGroupMask.HasValue) Console.WriteLine(meshGroupMask.Value);
 ```
 
 #### SetMeshGroupMask
@@ -8213,7 +8217,7 @@ void SetMeshGroupMask(ulong meshGroupMask)
 
 **用法示例:**
 ```csharp
-player.SetMeshGroupMask(0x1 | 0x2);
+modelEntity.SetMeshGroupMask(1UL);
 ```
 
 #### SetModel
@@ -8228,7 +8232,7 @@ void SetModel(string model)
 
 **用法示例:**
 ```csharp
-convar.SetModel("weapon_ak47");
+modelEntity.SetModel("models/player.mdl");
 ```
 
 #### SetModelAsync
@@ -8237,7 +8241,7 @@ convar.SetModel("weapon_ak47");
 Task SetModelAsync(string model)
 ```
 
-异步地将模型设置为实体。
+异步将模型设置到实体。
 
 **参数:**
 
@@ -8247,7 +8251,7 @@ Task SetModelAsync(string model)
 
 **用法示例:**
 ```csharp
-await modelEntity.SetModelAsync("GPT-4");
+await entity.SetModelAsync("models/player/custom_player/legacy/tm_phoenix.mdl");
 ```
 
 #### SetBodygroupByName
@@ -8263,7 +8267,7 @@ void SetBodygroupByName(string group, int value)
 
 **用法示例:**
 ```csharp
-player.SetBodygroupByName("head", 2);
+modelEntity.SetBodygroupByName("headgear", 1);
 ```
 
 #### SetBodygroupByNameAsync
@@ -8276,14 +8280,14 @@ Task SetBodygroupByNameAsync(string group, int value)
 
 **参数:**
 
-- `group` (`string`) - 要设置的bodygroup的名称。
-- `value` (`int`) - 要为身体组设置的值。
+- `group` (`string`) - 要设置的 bodygroup 名称。
+- `value` (`int`) - 要设置为该身体组的值。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.SetBodygroupByNameAsync("eyes", 2);
+await modelEntity.SetBodygroupByNameAsync("head", 1);
 ```
 
 #### SetScale
@@ -8298,7 +8302,7 @@ void SetScale(float scale)
 
 **用法示例:**
 ```csharp
-player.SetScale(1.5f);
+modelEntity.SetScale(1.25f);
 ```
 
 #### SetScaleAsync
@@ -8317,7 +8321,7 @@ Task SetScaleAsync(float scale)
 
 **用法示例:**
 ```csharp
-await model.SetScaleAsync(2.0f);
+await entity.SetScaleAsync(1.25f);
 ```
 
 
@@ -8565,15 +8569,15 @@ void DisabledHitGroupsUpdated()
 void SetPawn(CBasePlayerPawn? pawn)
 ```
 
-设置玩家 pawn 为该实体。
+将玩家Pawn设置为该实体。
 
 **参数:**
 
-- `pawn` (`CBasePlayerPawn?`) - 要关联的玩家 pawn。可以为 null 以移除当前关联。
+- `pawn` (`CBasePlayerPawn?`) - 要关联的玩家 Pawn。可为 null 以移除当前关联。
 
 **用法示例:**
 ```csharp
-playerController.SetPawn(existingPlayerPawn);
+controller.SetPawn(pawn);
 ```
 
 #### ToPlayer
@@ -8584,11 +8588,12 @@ IPlayer? ToPlayer()
 
 将控制器转换为玩家。
 
-**返回值:** `IPlayer?` - 一个表示具有指定控制器的玩家的 <see cref="IPlayer"/> 实例，如果不存在这样的玩家，则为 <c>null</c>。
+**返回值:** `IPlayer?` - 一个代表指定控制器的玩家的 <see cref="IPlayer"/> 实例，如果不存在此类玩家，则为 <c>null</c>。
 
 **用法示例:**
 ```csharp
 IPlayer? player = controller.ToPlayer();
+if (player != null) Console.WriteLine(player);
 ```
 
 
@@ -8724,7 +8729,7 @@ void DesiredFOVUpdated()
 void CommitSuicide(bool explode, bool force)
 ```
 
-对 Pawn 执行自杀操作，可选择性地引发爆炸并允许强制执行。
+对目标Pawn执行自杀，可选择引发爆炸并允许强制执行。
 
 **参数:**
 
@@ -8742,18 +8747,18 @@ player.CommitSuicide(true, false);
 bool HasLineOfSight(CCSPlayerPawn targetPlayer, float? fieldOfViewDegrees = null)
 ```
 
-检查目标玩家是否在此玩家的视线范围内。执行物理遮挡检查和视野验证。
+检查目标玩家是否在当前玩家的视野范围内。同时执行物理遮挡检测和视角范围验证。
 
 **参数:**
 
-- `targetPlayer` (`CCSPlayerPawn`) - 要检查其可见性的目标玩家。
-- `fieldOfViewDegrees` (`float?`) = `null` - 可选的视场（以度为单位）。
+- `targetPlayer` (`CCSPlayerPawn`) - 需要检查可见性的目标玩家。
+- `fieldOfViewDegrees` (`float?`) = `null` - 可选的视场角（单位：度）。
 
-**返回值:** `bool` - 如果目标玩家可见，则为 true；否则为 false。
+**返回值:** `bool` - 当目标玩家可见时为 true；否则为 false。
 
 **用法示例:**
 ```csharp
-bool hasLineOfSight = playerPawn.HasLineOfSight(targetPlayer, 90f);
+bool canSee = player.HasLineOfSight(targetPlayer, 90f);
 ```
 
 #### ToPlayer
@@ -8762,13 +8767,14 @@ bool hasLineOfSight = playerPawn.HasLineOfSight(targetPlayer, 90f);
 IPlayer? ToPlayer()
 ```
 
-将 Pawn 转换为玩家。
+将pawn转换为玩家。
 
-**返回值:** `IPlayer?` - 一个表示拥有指定Pawn的玩家的 <see cref="IPlayer"/> 实例，如果不存在这样的玩家，则为 <c>null</c>。
+**返回值:** `IPlayer?` - 一个表示拥有指定棋子玩家的 <see cref="IPlayer"/> 实例；若不存在此类玩家，则为 <c>null</c>。
 
 **用法示例:**
 ```csharp
 IPlayer? player = pawn.ToPlayer();
+if (player != null) Console.WriteLine(player);
 ```
 
 
@@ -10761,6 +10767,7 @@ void EntitySpottedStateUpdated()
 | `BendNoisePositionValid` | `ref bool` | get | - |
 | `LookAroundStateTimestamp` | `ref float` | get | - |
 | `LookAheadAngle` | `ref float` | get | - |
+| `LookUpAngle` | `ref float` | get | - |
 | `ForwardAngle` | `ref float` | get | - |
 | `InhibitLookAroundTimestamp` | `ref float` | get | - |
 | `LookAtSpot` | `ref Vector` | get | - |
@@ -11176,7 +11183,7 @@ void DMBonusWeaponUpdated()
 T? FindPickerEntity<T>(CBasePlayerController controller)
 ```
 
-查找控制器正在瞄准的玩家
+查找控制器所锁定的玩家
 
 **参数:**
 
@@ -11186,7 +11193,8 @@ T? FindPickerEntity<T>(CBasePlayerController controller)
 
 **用法示例:**
 ```csharp
-var target = gameRules.FindPickerEntity<CCSPlayerPawn>(controller);
+var picker = gameRules.FindPickerEntity<CBasePlayerPawn>(controller);
+if (picker != null) Console.WriteLine(picker);
 ```
 
 #### TerminateRound
@@ -11195,16 +11203,16 @@ var target = gameRules.FindPickerEntity<CCSPlayerPawn>(controller);
 void TerminateRound(RoundEndReason reason, float delay)
 ```
 
-以指定原因，在可选延迟后结束当前回合
+在可选延迟后，以指定的原因结束当前回合。
 
 **参数:**
 
-- `reason` (`RoundEndReason`) - 轮次结束的原因
-- `delay` (`float`) - 轮次结束前的延迟
+- `reason` (`RoundEndReason`) - 结束回合的原因
+- `delay` (`float`) - 回合结束前的延迟时间
 
 **用法示例:**
 ```csharp
-CCSGameRules.TerminateRound(RoundEndReason.Value, 0f);
+gameRules.TerminateRound(RoundEndReason.TargetBombed, 3.0f);
 ```
 
 #### TerminateRound
@@ -11213,18 +11221,18 @@ CCSGameRules.TerminateRound(RoundEndReason.Value, 0f);
 void TerminateRound(RoundEndReason reason, float delay, uint teamId, uint unk01 = 0)
 ```
 
-以指定原因，在可选延迟后结束当前回合
+在可选延迟后，以指定的原因结束当前回合。
 
 **参数:**
 
-- `reason` (`RoundEndReason`) - 轮次结束的原因
-- `delay` (`float`) - 轮次结束前的延迟
-- `teamId` (`uint`) - 要结束回合的队伍ID
+- `reason` (`RoundEndReason`) - 结束回合的原因
+- `delay` (`float`) - 回合结束前的延迟时间
+- `teamId` (`uint`) - 用于结束回合的团队 ID
 - `unk01` (`uint`) = `0` - 未知参数
 
 **用法示例:**
 ```csharp
-CCSGameRules.TerminateRound(RoundEndReason.Value, 0f, Team.T, 0u);
+gameRules.TerminateRound(RoundEndReason.TerroristsWin, 0.5f, 0u, 0u);
 ```
 
 #### GetViewVectors
@@ -11239,7 +11247,8 @@ CViewVectors GetViewVectors()
 
 **用法示例:**
 ```csharp
-CCSGameRules.GetViewVectors()
+var viewVectors = gameRules.GetViewVectors();
+Console.WriteLine(viewVectors);
 ```
 
 
@@ -12268,7 +12277,7 @@ player.Respawn();
 Task RespawnAsync()
 ```
 
-异步重生玩家。
+异步地重生玩家。
 
 **返回值:** `Task`
 
@@ -17473,10 +17482,10 @@ void NameStringableIndexUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `IsValid` | `bool` | get | 实体实例是否有效。 |
+| `IsValid` | `bool` | get | 该实体实例是否有效。 |
 | `Index` | `uint` | get | 实体的索引。 |
-| `DesignerName` | `string` | get | 实体的设计器名称。 |
-| `IsValidEntity` | `bool` | get | 实体实例是否有效且存在于服务器上。此属性必须仅用于实体，否则将返回 false。 |
+| `DesignerName` | `string` | get | 实体的设计者名称。 |
+| `IsValidEntity` | `bool` | get | 该实体实例是否有效且存在于服务器上。此属性必须仅用于实体，否则将返回 false。 |
 
 ### ⚙️ 方法
 
@@ -17496,7 +17505,7 @@ void AcceptInput<T>(string input, T? value, CEntityInstance? activator = null, C
 
 **用法示例:**
 ```csharp
-entity.AcceptInput("input", null, activator, caller, 1);
+entity.AcceptInput<int>("SetHealth", 100, activator, caller, 0);
 ```
 
 #### AcceptInputAsync<T>
@@ -17505,21 +17514,21 @@ entity.AcceptInput("input", null, activator, caller, 1);
 Task AcceptInputAsync<T>(string input, T? value, CEntityInstance? activator = null, CEntityInstance? caller = null, int outputID = 0)
 ```
 
-异步地向实体发送输入。
+异步向实体发送输入指令。
 
 **参数:**
 
 - `input` (`string`) - 输入名称。
 - `value` (`T?`) - 输入值。
-- `activator` (`CEntityInstance?`) = `null` - 激活器实体。可为空。
-- `caller` (`CEntityInstance?`) = `null` - 调用方实体。可为空。
+- `activator` (`CEntityInstance?`) = `null` - 激活实体。可为空。
+- `caller` (`CEntityInstance?`) = `null` - 调用者实体。可为空。
 - `outputID` (`int`) = `0` - 输出 ID。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await entityInstance.AcceptInputAsync("input", value, activator, caller, 1);
+await entity.AcceptInputAsync("SetHealth", 100, null, null, 0);
 ```
 
 #### AddEntityIOEvent<T>
@@ -17538,7 +17547,7 @@ void AddEntityIOEvent<T>(string input, T? value, CEntityInstance? activator = nu
 
 **用法示例:**
 ```csharp
-entityInstance.AddEntityIOEvent("input", value, activator, caller, 0.5f);
+entity.AddEntityIOEvent("SetText", "Hello", activator, caller, 0.1f);
 ```
 
 #### AddEntityIOEventAsync<T>
@@ -17547,21 +17556,21 @@ entityInstance.AddEntityIOEvent("input", value, activator, caller, 0.5f);
 Task AddEntityIOEventAsync<T>(string input, T? value, CEntityInstance? activator = null, CEntityInstance? caller = null, float delay = 0f)
 ```
 
-异步地向实体添加一个实体IO事件。
+异步为实体添加一个 IO 事件。
 
 **参数:**
 
 - `input` (`string`) - 输入名称。
 - `value` (`T?`) - 输入值。
-- `activator` (`CEntityInstance?`) = `null` - 激活器实体。可为空。
-- `caller` (`CEntityInstance?`) = `null` - 调用方实体。可为空。
-- `delay` (`float`) = `0f` - 以秒为单位的延迟。
+- `activator` (`CEntityInstance?`) = `null` - 激活实体。可为空。
+- `caller` (`CEntityInstance?`) = `null` - 调用者实体。可为空。
+- `delay` (`float`) = `0f` - 延迟（秒）。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await convar.AddEntityIOEventAsync("input", value, activator, caller, 0.5f);
+await entity.AddEntityIOEventAsync("SetHealth", 100, activator, caller, 0.1f);
 ```
 
 #### DispatchSpawn
@@ -17576,7 +17585,7 @@ void DispatchSpawn(CEntityKeyValues? entityKV = null)
 
 **用法示例:**
 ```csharp
-entityInstance.DispatchSpawn(entityKV);
+entity.DispatchSpawn(entityKV);
 ```
 
 #### DispatchSpawnAsync
@@ -17585,7 +17594,7 @@ entityInstance.DispatchSpawn(entityKV);
 Task DispatchSpawnAsync(CEntityKeyValues? entityKV = null)
 ```
 
-异步地向实体分发一个生成事件。
+异步向实体分发生成事件。
 
 **参数:**
 
@@ -17595,7 +17604,7 @@ Task DispatchSpawnAsync(CEntityKeyValues? entityKV = null)
 
 **用法示例:**
 ```csharp
-await entityInstance.DispatchSpawnAsync(new CEntityKeyValues { ["classname"] = "player" });
+await entity.DispatchSpawnAsync(entityKV);
 ```
 
 #### SetTransmitState
@@ -17604,12 +17613,12 @@ await entityInstance.DispatchSpawnAsync(new CEntityKeyValues { ["classname"] = "
 void SetTransmitState(bool transmitting, int playerId)
 ```
 
-为单个玩家设置实体的传输状态。
+设置实体对于单个玩家的传输状态。
 
 **参数:**
 
 - `transmitting` (`bool`) - 实体是否应进行传输。
-- `playerId` (`int`) - 要设置其传输状态的玩家ID。
+- `playerId` (`int`) - 要设置传输状态的玩家 ID。
 
 **用法示例:**
 ```csharp
@@ -17622,7 +17631,7 @@ entity.SetTransmitState(true, playerId);
 void SetTransmitState(bool transmitting)
 ```
 
-设置实体的全局发送状态。
+设置实体的全局传输状态。
 
 **参数:**
 
@@ -17630,7 +17639,7 @@ void SetTransmitState(bool transmitting)
 
 **用法示例:**
 ```csharp
-player.SetTransmitState(true);
+entity.SetTransmitState(true);
 ```
 
 #### IsTransmitting
@@ -17639,17 +17648,17 @@ player.SetTransmitState(true);
 bool IsTransmitting(int playerId)
 ```
 
-检查实体是否正在为单个玩家进行传输。
+检查该实体是否正在向单个玩家进行传输。
 
 **参数:**
 
-- `playerId` (`int`) - 要检查其传输状态的玩家ID。
+- `playerId` (`int`) - 要检查传输状态的玩家 ID。
 
 **返回值:** `bool`
 
 **用法示例:**
 ```csharp
-bool transmitting = entityInstance.IsTransmitting(playerId);
+bool isTransmitting = entity.IsTransmitting(playerId);
 ```
 
 #### Despawn
@@ -17660,7 +17669,7 @@ void Despawn()
 
 **用法示例:**
 ```csharp
-player.Despawn();
+entity.Despawn();
 ```
 
 #### DespawnAsync
@@ -17669,13 +17678,13 @@ player.Despawn();
 Task DespawnAsync()
 ```
 
-异步地销毁实体。
+异步销毁实体。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await entityInstance.DespawnAsync();
+await entity.DespawnAsync();
 ```
 
 
@@ -22710,6 +22719,8 @@ void Draw3DSkyboxUpdated()
 |------|------|--------|------|
 | `QuestName` | `string` | get, set | - |
 | `QuestPhase` | `ref int` | get | - |
+| `LastMatchTime` | `ref uint` | get | - |
+| `LastMatchTime_MatchID64` | `ref ulong` | get | - |
 | `TotalPausedTicks` | `ref int` | get | - |
 | `PauseStartTick` | `ref int` | get | - |
 | `GamePaused` | `ref bool` | get | - |
@@ -22766,13 +22777,13 @@ void GamePausedUpdated()
 CSkeletonInstance GetSkeletonInstance()
 ```
 
-获取节点中的骨架实例。
+从节点获取骨骼实例。
 
 **返回值:** `CSkeletonInstance`
 
 **用法示例:**
 ```csharp
-CSkeletonInstance skeleton = sceneNode.GetSkeletonInstance();
+CSkeletonInstance skeleton = node.GetSkeletonInstance();
 ```
 
 
@@ -35499,7 +35510,7 @@ T GiveItem<T>()
 
 **用法示例:**
 ```csharp
-var item = player.GiveItem<ItemType>();
+var item = itemServices.GiveItem<Item>();
 ```
 
 #### GiveItemAsync<T>
@@ -35508,13 +35519,13 @@ var item = player.GiveItem<ItemType>();
 Task<T> GiveItemAsync<T>()
 ```
 
-异步给予玩家一个物品。
+异步向玩家提供一个物品。
 
-**返回值:** `Task\<T\>` - 所提供的项。
+**返回值:** `Task\<T\>` - 已获得的物品。
 
 **用法示例:**
 ```csharp
-var item = await player.GiveItemAsync<ItemType>();
+var item = await playerItemServices.GiveItemAsync<object>();
 ```
 
 #### GiveItem<T>
@@ -35531,7 +35542,7 @@ T GiveItem<T>(string itemDesignerName)
 
 **用法示例:**
 ```csharp
-var item = player.GiveItem<ItemType>("weapon_rifle");
+var item = itemServices.GiveItem<object>("weapon_ak47");
 ```
 
 #### GiveItemAsync<T>
@@ -35540,17 +35551,17 @@ var item = player.GiveItem<ItemType>("weapon_rifle");
 Task<T> GiveItemAsync<T>(string itemDesignerName)
 ```
 
-异步给予玩家一个物品。
+异步向玩家提供一个物品。
 
 **参数:**
 
-- `itemDesignerName` (`string`) - 要给予的物品的设计器名称。
+- `itemDesignerName` (`string`) - 要给予的物品的设计师名称。
 
-**返回值:** `Task\<T\>` - 所提供的项。
+**返回值:** `Task\<T\>` - 已获得的物品。
 
 **用法示例:**
 ```csharp
-var item = await player.GiveItemAsync<ItemType>("sword");
+var item = await itemServices.GiveItemAsync<object>("weapon_pistol");
 ```
 
 #### GiveItem
@@ -35565,7 +35576,7 @@ void GiveItem(string itemDesignerName)
 
 **用法示例:**
 ```csharp
-player.GiveItem("HealthPack");
+itemServices.GiveItem("weapon_ak47");
 ```
 
 #### GiveItemAsync
@@ -35574,17 +35585,17 @@ player.GiveItem("HealthPack");
 Task GiveItemAsync(string itemDesignerName)
 ```
 
-异步给予玩家一个物品。
+异步向玩家提供一个物品。
 
 **参数:**
 
-- `itemDesignerName` (`string`) - 要给予的物品的设计器名称。
+- `itemDesignerName` (`string`) - 要给予的物品的设计师名称。
 
-**返回值:** `Task` - 所提供的项。
+**返回值:** `Task` - 已获得的物品。
 
 **用法示例:**
 ```csharp
-await CPlayer_ItemServices.GiveItemAsync("Sword_01");
+await itemServices.GiveItemAsync("weapon_ak47");
 ```
 
 #### DropActiveItem
@@ -35595,7 +35606,7 @@ void DropActiveItem()
 
 **用法示例:**
 ```csharp
-player.DropActiveItem();
+itemServices.DropActiveItem();
 ```
 
 #### DropActiveItemAsync
@@ -35610,7 +35621,7 @@ Task DropActiveItemAsync()
 
 **用法示例:**
 ```csharp
-await player.DropActiveItemAsync();
+await itemServices.DropActiveItemAsync();
 ```
 
 #### RemoveItems
@@ -35621,7 +35632,7 @@ void RemoveItems()
 
 **用法示例:**
 ```csharp
-player.RemoveItems();
+playerItemServices.RemoveItems();
 ```
 
 #### RemoveItemsAsync
@@ -35630,13 +35641,13 @@ player.RemoveItems();
 Task RemoveItemsAsync()
 ```
 
-异步移除玩家所有物品。
+异步移除玩家的所有物品。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.ItemServices.RemoveItemsAsync();
+await itemServices.RemoveItemsAsync();
 ```
 
 
@@ -35836,7 +35847,7 @@ void DropWeapon(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-player.DropWeapon(currentWeapon);
+playerWeaponServices.DropWeapon(currentWeapon);
 ```
 
 #### DropWeaponAsync
@@ -35845,17 +35856,17 @@ player.DropWeapon(currentWeapon);
 Task DropWeaponAsync(CBasePlayerWeapon weapon)
 ```
 
-异步丢弃武器。
+异步投放武器。
 
 **参数:**
 
-- `weapon` (`CBasePlayerWeapon`) - 要丢弃的武器。
+- `weapon` (`CBasePlayerWeapon`) - 待掉落的武器。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.WeaponServices.DropWeaponAsync(weapon);
+await weaponServices.DropWeaponAsync(weapon);
 ```
 
 #### DropWeapon
@@ -35871,7 +35882,7 @@ void DropWeapon(CBasePlayerWeapon weapon, Vector momentum)
 
 **用法示例:**
 ```csharp
-player.DropWeapon(existingWeapon, Vector(100, 0, 0));
+weaponServices.DropWeapon(weapon, momentum);
 ```
 
 #### DropWeaponAsync
@@ -35880,18 +35891,18 @@ player.DropWeapon(existingWeapon, Vector(100, 0, 0));
 Task DropWeaponAsync(CBasePlayerWeapon weapon, Vector momentum)
 ```
 
-异步丢弃武器。
+异步投放武器。
 
 **参数:**
 
-- `weapon` (`CBasePlayerWeapon`) - 要丢弃的武器。
-- `momentum` (`Vector`) - 要应用于掉落武器的动量。
+- `weapon` (`CBasePlayerWeapon`) - 待掉落的武器。
+- `momentum` (`Vector`) - 应用于掉落武器的动量。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.WeaponServices.DropWeaponAsync(existingWeapon, Vector.Zero);
+await weaponServices.DropWeaponAsync(weapon, momentum);
 ```
 
 #### RemoveWeapon
@@ -35906,7 +35917,7 @@ void RemoveWeapon(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-player.RemoveWeapon(existingWeapon);
+weaponServices.RemoveWeapon(weapon);
 ```
 
 #### RemoveWeaponAsync
@@ -35925,7 +35936,7 @@ Task RemoveWeaponAsync(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-await player.WeaponServices.RemoveWeaponAsync(existingWeapon);
+await weaponServices.RemoveWeaponAsync(weapon);
 ```
 
 #### SelectWeapon
@@ -35934,7 +35945,7 @@ await player.WeaponServices.RemoveWeaponAsync(existingWeapon);
 void SelectWeapon(CBasePlayerWeapon weapon)
 ```
 
-让玩家选择武器。线程不安全，在非主线程上下文中请改用异步版本。
+使玩家选择一把武器。非线程安全，在非主线程上下文中请使用异步变体。
 
 **参数:**
 
@@ -35942,7 +35953,7 @@ void SelectWeapon(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-player.SelectWeapon(existingWeapon);
+weaponServices.SelectWeapon(activeWeapon);
 ```
 
 #### SelectWeaponAsync
@@ -35951,7 +35962,7 @@ player.SelectWeapon(existingWeapon);
 Task SelectWeaponAsync(CBasePlayerWeapon weapon)
 ```
 
-让玩家异步选择武器。
+异步使玩家选择武器。
 
 **参数:**
 
@@ -35961,7 +35972,7 @@ Task SelectWeaponAsync(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-await player.WeaponServices.SelectWeaponAsync(weapon);
+await weaponServices.SelectWeaponAsync(weapon);
 ```
 
 #### DropWeaponBySlot
@@ -35976,7 +35987,7 @@ void DropWeaponBySlot(gear_slot_t slot)
 
 **用法示例:**
 ```csharp
-player.DropWeaponBySlot(gear_slot_t.Value);
+weaponServices.DropWeaponBySlot(gear_slot_t.Value);
 ```
 
 #### DropWeaponBySlot
@@ -35992,7 +36003,7 @@ void DropWeaponBySlot(gear_slot_t slot, Vector momentum)
 
 **用法示例:**
 ```csharp
-player.DropWeaponBySlot(gear_slot_t.Value, Vector.Zero);
+weaponServices.DropWeaponBySlot(gear_slot_t.Primary, momentum);
 ```
 
 #### DropWeaponBySlotAsync
@@ -36001,17 +36012,17 @@ player.DropWeaponBySlot(gear_slot_t.Value, Vector.Zero);
 Task DropWeaponBySlotAsync(gear_slot_t slot)
 ```
 
-异步地通过槽位丢弃武器。
+按槽异步丢弃武器。
 
 **参数:**
 
-- `slot` (`gear_slot_t`) - 用于放置武器的插槽。
+- `slot` (`gear_slot_t`) - 武器丢弃的槽位。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.DropWeaponBySlotAsync(gear_slot_t.primary);
+await weaponServices.DropWeaponBySlotAsync(gear_slot_t.Primary);
 ```
 
 #### DropWeaponBySlotAsync
@@ -36020,18 +36031,18 @@ await player.DropWeaponBySlotAsync(gear_slot_t.primary);
 Task DropWeaponBySlotAsync(gear_slot_t slot, Vector momentum)
 ```
 
-异步地通过槽位丢弃武器。
+按槽异步丢弃武器。
 
 **参数:**
 
-- `slot` (`gear_slot_t`) - 用于放置武器的插槽。
-- `momentum` (`Vector`) - 要应用于掉落武器的动量。
+- `slot` (`gear_slot_t`) - 武器丢弃的槽位。
+- `momentum` (`Vector`) - 应用于掉落武器的动量。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.DropWeaponBySlotAsync(gear_slot_t.MainHand, Vector.Zero);
+await playerWeaponServices.DropWeaponBySlotAsync(gear_slot_t.Value, momentum);
 ```
 
 #### RemoveWeaponBySlot
@@ -36046,7 +36057,7 @@ void RemoveWeaponBySlot(gear_slot_t slot)
 
 **用法示例:**
 ```csharp
-player.RemoveWeaponBySlot(gear_slot_t.Value);
+weaponServices.RemoveWeaponBySlot(gear_slot_t.Value);
 ```
 
 #### RemoveWeaponBySlotAsync
@@ -36055,17 +36066,17 @@ player.RemoveWeaponBySlot(gear_slot_t.Value);
 Task RemoveWeaponBySlotAsync(gear_slot_t slot)
 ```
 
-异步地通过槽位移除武器。
+异步按槽位移除武器。
 
 **参数:**
 
-- `slot` (`gear_slot_t`) - 要移除武器的槽位。
+- `slot` (`gear_slot_t`) - 用于移除武器的插槽。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.WeaponServices.RemoveWeaponBySlotAsync(gear_slot_t.Main);
+await playerWeaponServices.RemoveWeaponBySlotAsync(gear_slot_t.Primary);
 ```
 
 #### SelectWeaponBySlot
@@ -36080,7 +36091,7 @@ void SelectWeaponBySlot(gear_slot_t slot)
 
 **用法示例:**
 ```csharp
-player.SelectWeaponBySlot(gear_slot_t.Primary);
+weaponServices.SelectWeaponBySlot(gear_slot_t.Slot1);
 ```
 
 #### SelectWeaponBySlotAsync
@@ -36089,17 +36100,17 @@ player.SelectWeaponBySlot(gear_slot_t.Primary);
 Task SelectWeaponBySlotAsync(gear_slot_t slot)
 ```
 
-异步地按槽位选择武器。
+按槽位异步选择武器。
 
 **参数:**
 
-- `slot` (`gear_slot_t`) - 用于选择武器的插槽。
+- `slot` (`gear_slot_t`) - 用于选择武器的槽位。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.WeaponServices.SelectWeaponBySlotAsync(gear_slot_t.MainHand);
+await weaponServices.SelectWeaponBySlotAsync(gear_slot_t.Value);
 ```
 
 #### DropWeaponByDesignerName
@@ -36114,7 +36125,7 @@ void DropWeaponByDesignerName(string designerName)
 
 **用法示例:**
 ```csharp
-player.DropWeaponByDesignerName("weapon_ak47");
+weaponServices.DropWeaponByDesignerName("weapon_ak47");
 ```
 
 #### DropWeaponByDesignerName
@@ -36130,7 +36141,7 @@ void DropWeaponByDesignerName(string designerName, Vector momentum)
 
 **用法示例:**
 ```csharp
-player.DropWeaponByDesignerName("weapon_ak47", Vector.Forward * 10);
+playerWeaponServices.DropWeaponByDesignerName("weapon_ak47", momentum);
 ```
 
 #### DropWeaponByDesignerNameAsync
@@ -36139,17 +36150,17 @@ player.DropWeaponByDesignerName("weapon_ak47", Vector.Forward * 10);
 Task DropWeaponByDesignerNameAsync(string designerName)
 ```
 
-按设计器名称异步丢弃武器。
+根据设计师名称异步丢弃武器。
 
 **参数:**
 
-- `designerName` (`string`) - 要掉落的武器的设计器名称。
+- `designerName` (`string`) - 要掉落武器的设计师名称。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.DropWeaponByDesignerNameAsync("AK47");
+await weaponServices.DropWeaponByDesignerNameAsync("weapon_ak47");
 ```
 
 #### DropWeaponByDesignerNameAsync
@@ -36158,18 +36169,18 @@ await player.DropWeaponByDesignerNameAsync("AK47");
 Task DropWeaponByDesignerNameAsync(string designerName, Vector momentum)
 ```
 
-按设计器名称异步丢弃武器。
+根据设计师名称异步丢弃武器。
 
 **参数:**
 
-- `designerName` (`string`) - 要掉落的武器的设计器名称。
-- `momentum` (`Vector`) - 要应用于掉落武器的动量。
+- `designerName` (`string`) - 要掉落武器的设计师名称。
+- `momentum` (`Vector`) - 应用于掉落武器的动量。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await CPlayer_WeaponServices.DropWeaponByDesignerNameAsync("weapon_ak47", Vector.Zero);
+await weaponServices.DropWeaponByDesignerNameAsync("weapon_ak47", momentum);
 ```
 
 #### RemoveWeaponByDesignerName
@@ -36184,7 +36195,7 @@ void RemoveWeaponByDesignerName(string designerName)
 
 **用法示例:**
 ```csharp
-player.RemoveWeaponByDesignerName("AK47");
+weaponServices.RemoveWeaponByDesignerName("weapon_ak47");
 ```
 
 #### RemoveWeaponByDesignerNameAsync
@@ -36193,17 +36204,17 @@ player.RemoveWeaponByDesignerName("AK47");
 Task RemoveWeaponByDesignerNameAsync(string designerName)
 ```
 
-按设计师名称异步移除武器。
+通过设计器名称异步移除武器。
 
 **参数:**
 
-- `designerName` (`string`) - 要移除的武器的设计器名称。
+- `designerName` (`string`) - 要移除的武器的设计师名称。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.RemoveWeaponByDesignerAsync("AK47");
+await weaponServices.RemoveWeaponByDesignerNameAsync("weapon_ak47");
 ```
 
 #### SelectWeaponByDesignerName
@@ -36218,7 +36229,7 @@ void SelectWeaponByDesignerName(string designerName)
 
 **用法示例:**
 ```csharp
-player.SelectWeaponByDesignerName("weapon_ak47");
+weaponServices.SelectWeaponByDesignerName("weapon_ak47");
 ```
 
 #### SelectWeaponByDesignerNameAsync
@@ -36227,17 +36238,17 @@ player.SelectWeaponByDesignerName("weapon_ak47");
 Task SelectWeaponByDesignerNameAsync(string designerName)
 ```
 
-按设计师名称异步选择武器。
+异步选择武器。
 
 **参数:**
 
-- `designerName` (`string`) - 要选择的武器的设计器名称。
+- `designerName` (`string`) - 要选择的武器设计者名称。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.SelectWeaponByDesignerNameAsync("AssaultRifle");
+await weaponServices.SelectWeaponByDesignerNameAsync("weapon_ak47");
 ```
 
 #### DropWeaponByClass<T>
@@ -36248,7 +36259,7 @@ void DropWeaponByClass<T>()
 
 **用法示例:**
 ```csharp
-player.DropWeaponByClass<AK47>();
+weaponServices.DropWeaponByClass<CWeaponAK47>();
 ```
 
 #### DropWeaponByClass<T>
@@ -36263,7 +36274,7 @@ void DropWeaponByClass<T>(Vector momentum)
 
 **用法示例:**
 ```csharp
-player.DropWeaponByClass<WeaponClass>(new Vector(1, 2, 3));
+weaponServices.DropWeaponByClass<CWeaponAK47>(momentum);
 ```
 
 #### DropWeaponByClassAsync<T>
@@ -36272,13 +36283,13 @@ player.DropWeaponByClass<WeaponClass>(new Vector(1, 2, 3));
 Task DropWeaponByClassAsync<T>()
 ```
 
-异步丢弃所有指定类别的武器。
+异步丢弃指定类的所有武器。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.DropWeaponByClassAsync<Shotgun>();
+await weaponServices.DropWeaponByClassAsync<CWeaponAK47>();
 ```
 
 #### DropWeaponByClassAsync<T>
@@ -36287,17 +36298,17 @@ await player.DropWeaponByClassAsync<Shotgun>();
 Task DropWeaponByClassAsync<T>(Vector momentum)
 ```
 
-异步丢弃所有指定类别的武器。
+异步丢弃指定类的所有武器。
 
 **参数:**
 
-- `momentum` (`Vector`) - 要应用于掉落武器的动量。
+- `momentum` (`Vector`) - 应用于掉落武器的动量。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.DropWeaponByClassAsync<Shotgun>(new Vector(1, 0, 0));
+await weaponServices.DropWeaponByClassAsync<CWeaponAK47>(momentum);
 ```
 
 #### RemoveWeaponByClass<T>
@@ -36308,7 +36319,7 @@ void RemoveWeaponByClass<T>()
 
 **用法示例:**
 ```csharp
-player.RemoveWeaponByClass<AK47>();
+player.WeaponServices.RemoveWeaponByClass<CWeaponAK47>();
 ```
 
 #### RemoveWeaponByClassAsync<T>
@@ -36317,13 +36328,13 @@ player.RemoveWeaponByClass<AK47>();
 Task RemoveWeaponByClassAsync<T>()
 ```
 
-异步移除所有指定类型的武器。
+异步移除所有指定类别的武器。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.RemoveWeaponByClassAsync<Rifle>();
+await weaponServices.RemoveWeaponByClassAsync<WeaponClass>();
 ```
 
 #### SelectWeaponByClass<T>
@@ -36334,7 +36345,7 @@ void SelectWeaponByClass<T>()
 
 **用法示例:**
 ```csharp
-player.SelectWeaponByClass<WeaponClass>();
+weaponServices.SelectWeaponByClass<CCSWeaponAK47>();
 ```
 
 #### SelectWeaponByClassAsync<T>
@@ -36343,13 +36354,13 @@ player.SelectWeaponByClass<WeaponClass>();
 Task SelectWeaponByClassAsync<T>()
 ```
 
-按类别异步选择武器。
+异步按类别选择武器。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.WeaponServices.SelectWeaponByClassAsync<AssaultRifle>();
+await weaponServices.SelectWeaponByClassAsync<CWeaponAK47>();
 ```
 
 

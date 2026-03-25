@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = hSteamNetPollGroup.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(HSteamNetPollGroup that)
 
 **用法示例:**
 ```csharp
-HSteamNetPollGroup group = (uint)somePollGroup;
+uint pollGroupValue = HSteamNetPollGroup.uint(existingPollGroup);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(HSteamNetPollGroup other)
 
 **用法示例:**
 ```csharp
-HSteamNetPollGroup group1 = default;  
-int result = group1.CompareTo(group2);
+int result = existingPollGroup.CompareTo(otherPollGroup);
 ```
 

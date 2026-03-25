@@ -31,7 +31,7 @@ Color FromInt32(int color)
 
 **用法示例:**
 ```csharp
-Color c = Color.FromInt32(0xFF00FF);
+Color color = Color.FromInt32(0xFF5733);
 ```
 
 ### FromBuiltin (静态)
@@ -48,7 +48,7 @@ Color FromBuiltin(System.Drawing.Color color)
 
 **用法示例:**
 ```csharp
-Color c = Color.FromBuiltin(Color.Red);
+var color = Color.FromBuiltin(System.Drawing.Color.Red);
 ```
 
 ### FromHex (静态)
@@ -65,7 +65,7 @@ Color FromHex(string hex)
 
 **用法示例:**
 ```csharp
-Color c = Color.FromHex("#FF5733");
+Color color = Color.FromHex("#FF5733");
 ```
 
 ### ToBuiltin
@@ -78,7 +78,7 @@ System.Drawing.Color ToBuiltin()
 
 **用法示例:**
 ```csharp
-Color builtinColor = Color.Red.ToBuiltin();
+System.Drawing.Color builtinColor = existingColor.ToBuiltin();
 ```
 
 ### ToInt32
@@ -91,7 +91,7 @@ int ToInt32()
 
 **用法示例:**
 ```csharp
-int colorInt = Color.Red.ToInt32();
+int colorValue = existingColor.ToInt32();
 ```
 
 ### ToHex
@@ -108,7 +108,7 @@ string ToHex(bool includeAlpha = false)
 
 **用法示例:**
 ```csharp
-string hex = color.ToHex(true);
+string hex = Color.Red.ToHex(false);
 ```
 
 ### Equals

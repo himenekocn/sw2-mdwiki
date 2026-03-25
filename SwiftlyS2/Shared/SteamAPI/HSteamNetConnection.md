@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string connString = someConnection.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(HSteamNetConnection that)
 
 **用法示例:**
 ```csharp
-HSteamNetConnection conn = (uint)someConnection;
+uint connectionId = HSteamNetConnection.uint(existingConnection);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(HSteamNetConnection other)
 
 **用法示例:**
 ```csharp
-HSteamNetConnection a = default;  
-int result = a.CompareTo(default);
+int result = connection.CompareTo(otherConnection);
 ```
 

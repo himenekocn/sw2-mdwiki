@@ -11,5 +11,5 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Entity` | `CBaseEntity` | get | 获取发起触摸的实体。 |
-| `OtherEntity` | `CBaseEntity` | get | 获取被触摸的实体。 |
+| `OtherEntity` | `CBaseEntity` | get | 获取被触碰的实体。 |
 

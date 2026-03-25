@@ -30,7 +30,7 @@ T Get(int index)
 
 **用法示例:**
 ```csharp
-T value = convar.Get(0);
+var item = protobufField.Get(0);
 ```
 
 ### Add
@@ -43,7 +43,7 @@ T Add()
 
 **用法示例:**
 ```csharp
-T item = convar.Add();
+var item = existingField.Add();
 ```
 
 ### Clear
@@ -54,6 +54,6 @@ void Clear()
 
 **用法示例:**
 ```csharp
-convar.Clear();
+protobufField.Clear();
 ```
 

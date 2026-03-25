@@ -34,7 +34,7 @@ Vector GetVector(int index)
 
 **用法示例:**
 ```csharp
-Vector v = convar.GetVector(0);
+Vector v = fourVectors.GetVector(0);
 ```
 
 ### SetVector
@@ -50,6 +50,6 @@ void SetVector(int index, Vector vector)
 
 **用法示例:**
 ```csharp
-convar.SetVector(0, Vector.Forward);
+fourVectors.SetVector(0, Vector.Zero);
 ```
 

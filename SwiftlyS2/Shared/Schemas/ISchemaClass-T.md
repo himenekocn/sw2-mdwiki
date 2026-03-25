@@ -15,3 +15,19 @@
 | `Size` | `int` | get | - |
 | `ClassName` | `string?` | get | - |
 
+## ⚙️ 方法
+
+### From (静态)
+
+```csharp
+T From(nint handle)
+```
+
+**参数:**
+
+- `handle` (`nint`)
+
+**返回值:** `T`
+
+**注意:** 此方法是抽象方法,需要在子类中实现 (override).
+

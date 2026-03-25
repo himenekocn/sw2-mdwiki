@@ -26,8 +26,7 @@ bool IsSteamApp()
 
 **用法示例:**
 ```csharp
-CGameID gameID = CGameID.CreateFromApp(12345);
-bool isSteamApp = gameID.IsSteamApp();
+bool isSteamApp = gameId.IsSteamApp();
 ```
 
 ### IsMod
@@ -40,7 +39,8 @@ bool IsMod()
 
 **用法示例:**
 ```csharp
-bool isMod = gameID.IsMod();
+bool isMod = gameId.IsMod();
+if (isMod) { /* 处理 Mod 游戏 */ }
 ```
 
 ### IsShortcut
@@ -53,7 +53,7 @@ bool IsShortcut()
 
 **用法示例:**
 ```csharp
-bool isShortcut = gameID.IsShortcut();
+bool isShortcut = gameId.IsShortcut();
 ```
 
 ### IsP2PFile
@@ -66,8 +66,7 @@ bool IsP2PFile()
 
 **用法示例:**
 ```csharp
-CGameID gameID = CGameID.CreateFromSteamID(12345);  
-bool isP2PFile = gameID.IsP2PFile();
+bool isP2P = gameId.IsP2PFile();
 ```
 
 ### AppID
@@ -80,7 +79,7 @@ AppId_t AppID()
 
 **用法示例:**
 ```csharp
-AppId_t appid = gameID.AppID();
+var appId = gameId.AppID();
 ```
 
 ### Type
@@ -93,8 +92,7 @@ EGameIDType Type()
 
 **用法示例:**
 ```csharp
-CGameID gameID = default;  
-EGameIDType type = gameID.Type();
+EGameIDType type = gameId.Type();
 ```
 
 ### ModID
@@ -107,7 +105,7 @@ uint ModID()
 
 **用法示例:**
 ```csharp
-uint modId = gameID.ModID();
+uint modId = gameId.ModID();
 ```
 
 ### IsValid
@@ -118,12 +116,6 @@ bool IsValid()
 
 **返回值:** `bool`
 
-**用法示例:**
-```csharp
-CGameID gameID = CGameID.CreateFromInt(12345);
-bool valid = gameID.IsValid();
-```
-
 ### Reset
 
 ```csharp
@@ -132,8 +124,7 @@ void Reset()
 
 **用法示例:**
 ```csharp
-CGameID gameID;  
-gameID.Reset();
+gameId.Reset();
 ```
 
 ### Set
@@ -148,8 +139,7 @@ void Set(ulong GameID)
 
 **用法示例:**
 ```csharp
-CGameID gameID;  
-gameID.Set(123456789UL);
+gameId.Set(123456789UL);
 ```
 
 ### ToString
@@ -159,11 +149,6 @@ string ToString()
 ```
 
 **返回值:** `string`
-
-**用法示例:**
-```csharp
-string idStr = CGameID.SomeExistingInstance.ToString();
-```
 
 ### Equals
 
@@ -199,7 +184,7 @@ operator ulong(CGameID that)
 
 **用法示例:**
 ```csharp
-CGameID gameID = (CGameID)12345UL;
+ulong rawId = (ulong)gameId;
 ```
 
 ### Equals
@@ -228,7 +213,6 @@ int CompareTo(CGameID other)
 
 **用法示例:**
 ```csharp
-CGameID gameA = CGameID.FromString("game1");  
-int result = gameA.CompareTo(gameB);
+int result = gameId.CompareTo(otherGameId);
 ```
 

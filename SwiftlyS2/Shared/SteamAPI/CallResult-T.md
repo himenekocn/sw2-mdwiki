@@ -1,6 +1,6 @@
 # 📦 CallResult<T>
 
-表示一个自动管理其生命周期的 Steam 调用结果
+表示一个自动管理其生命周期的 Steam 调用结果。
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`
 
@@ -29,7 +29,7 @@ CallResult<T> Create(ulong hAPICall, Action<T, bool> callback)
 
 **用法示例:**
 ```csharp
-CallResult<int>.Create(12345, (result, success) => Console.WriteLine($"Result: {result}, Success: {success}"));
+CallResult<MyResponse> result = CallResult<MyResponse>.Create(12345, (response, success) => { });
 ```
 
 ### Set
@@ -46,7 +46,7 @@ void Set(ulong hAPICall)
 
 **用法示例:**
 ```csharp
-callResult.Set(12345ul);
+callResult.Set(1234567890UL);
 ```
 
 ### Dispose

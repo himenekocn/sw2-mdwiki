@@ -30,7 +30,7 @@ CRecipientFilter FromMask(ulong playerMask)
 
 **用法示例:**
 ```csharp
-CRecipientFilter filter = CRecipientFilter.FromMask(0x123456789ABCDEF0UL);
+var filter = CRecipientFilter.FromMask(0x1);
 ```
 
 ### FromPlayers (静态)
@@ -47,7 +47,7 @@ CRecipientFilter FromPlayers(params int[] players)
 
 **用法示例:**
 ```csharp
-CRecipientFilter filter = CRecipientFilter.FromPlayers(1, 2, 3);
+var filter = CRecipientFilter.FromPlayers(1, 2, 3);
 ```
 
 ### FromSingle (静态)
@@ -77,7 +77,7 @@ ulong ToMask()
 
 **用法示例:**
 ```csharp
-ulong mask = someRecipientFilter.ToMask();
+ulong mask = filter.ToMask();
 ```
 
 ### AddAllPlayers
@@ -100,8 +100,7 @@ void RemoveAllPlayers()
 
 **用法示例:**
 ```csharp
-CRecipientFilter filter = GetExistingFilter();  
-filter.RemoveAllPlayers();
+CRecipientFilter filter; filter.RemoveAllPlayers();
 ```
 
 ### AddRecipient
@@ -116,7 +115,6 @@ void AddRecipient(int playerid)
 
 **用法示例:**
 ```csharp
-CRecipientFilter filter = GetExistingFilter();
 filter.AddRecipient(1);
 ```
 
@@ -132,7 +130,7 @@ void RemoveRecipient(int playerid)
 
 **用法示例:**
 ```csharp
-filter.RemoveRecipient(1);
+filter.RemoveRecipient(playerid);
 ```
 
 ### GetRecipientCount
@@ -145,7 +143,7 @@ int GetRecipientCount()
 
 **用法示例:**
 ```csharp
-int count = filter.GetRecipientCount();
+int count = recipientFilter.GetRecipientCount();
 ```
 
 ### GetRecipients
@@ -158,6 +156,6 @@ IEnumerable<int> GetRecipients()
 
 **用法示例:**
 ```csharp
-foreach (int recipient in CRecipientFilter.GetRecipients()) { Console.WriteLine(recipient); }
+var recipients = existingFilter.GetRecipients();
 ```
 

@@ -1,6 +1,6 @@
 # 🔗 OnCommandExecuteHook
 
-当执行服务器命令 (ConCommand) 时调用。
+当服务器命令（ConCommand）被执行时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

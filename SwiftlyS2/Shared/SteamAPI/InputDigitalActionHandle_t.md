@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-InputDigitalActionHandle_t handle = InputManager.GetAction("jump");  
-Console.WriteLine(handle.ToString());
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator ulong(InputDigitalActionHandle_t that)
 
 **用法示例:**
 ```csharp
-InputDigitalActionHandle_t handle = (InputDigitalActionHandle_t)12345UL;
+ulong handleValue = InputDigitalActionHandle_t.operator ulong(existingHandle);
 ```
 
 ### Equals
@@ -93,6 +87,6 @@ int CompareTo(InputDigitalActionHandle_t other)
 
 **用法示例:**
 ```csharp
-int result = handle1.CompareTo(handle2);
+int result = handle.CompareTo(otherHandle);
 ```
 

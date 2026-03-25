@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = TimelineEventHandle_t.SomeExistingInstance.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,8 +58,7 @@ operator ulong(TimelineEventHandle_t that)
 
 **用法示例:**
 ```csharp
-TimelineEventHandle_t eventHandle = TimelineEventHandle_t.SomeExistingValue;
-ulong id = (ulong)eventHandle;
+ulong handleValue = TimelineEventHandle_t.ulong(existingHandle);
 ```
 
 ### Equals
@@ -93,7 +87,6 @@ int CompareTo(TimelineEventHandle_t other)
 
 **用法示例:**
 ```csharp
-TimelineEventHandle_t handle1 = TimelineEventHandle_t.Default;  
-int result = handle1.CompareTo(handle2);
+int result = existingHandle.CompareTo(otherHandle);
 ```
 

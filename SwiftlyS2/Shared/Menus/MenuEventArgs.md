@@ -13,5 +13,5 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Player` | `IPlayer?` | get | 触发此菜单事件的玩家。 |
-| `Options` | `IReadOnlyList\<IMenuOption\>?` | get | 与此事件相关的菜单选项。 |
+| `Options` | `IReadOnlyList\<IMenuOption\>?` | get | 参与此事件的菜单选项。 |
 

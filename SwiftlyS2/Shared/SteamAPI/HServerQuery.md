@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = HServerQuery.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator int(HServerQuery that)
 
 **用法示例:**
 ```csharp
-int result = (int)HServerQuery.someInstance;
+int result = HServerQuery.int(existingQuery);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(HServerQuery other)
 
 **用法示例:**
 ```csharp
-HServerQuery a = HServerQuery.Default;  
-int result = a.CompareTo(HServerQuery.Empty);
+int result = existingQuery.CompareTo(otherQuery);
 ```
 

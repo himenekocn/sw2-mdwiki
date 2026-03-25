@@ -28,6 +28,7 @@ accepted text(Call ISteamUtils::GetEnteredGamepadTextInput()
 
 **用法示例:**
 ```csharp
-GamepadTextInputDismissed_t.accepted(GameUtils.GetEnteredGamepadTextInput());
+var text = dismissed.AcceptedText();
+Console.WriteLine(text);
 ```
 

@@ -1,6 +1,6 @@
 # 🏗️ RadianEuler
 
-弧度欧拉角，与轴对齐（非横滚/俯仰/偏航）
+与轴对齐的弧度欧拉角（非滚转/俯仰/偏航）
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 

@@ -1,11 +1,12 @@
 # 📚 API 文档
 
-本文档自动生成自 C# 源代码。
+本文档自动生成自 C# 源代码.
 
-AI预测的示例可能并不准确，请根据实际情况调整。
+AI预测的示例可能并不准确,请根据实际情况调整.
 
 ## SwiftlyS2
 
+- 🏗️ [TraceFilters](SwiftlyS2/TraceFilters.md)
 
 ## SwiftlyS2.Core.Commands
 
@@ -37,6 +38,10 @@ AI预测的示例可能并不准确，请根据实际情况调整。
 - 📦 [SubmenuMenuOption](SwiftlyS2/Core/Menus/OptionsBase/SubmenuMenuOption.md)
 - 📦 [TextMenuOption](SwiftlyS2/Core/Menus/OptionsBase/TextMenuOption.md)
 - 📦 [ToggleMenuOption](SwiftlyS2/Core/Menus/OptionsBase/ToggleMenuOption.md)
+
+## SwiftlyS2.Core.Natives
+
+- 📦 [StringAlloc](SwiftlyS2/Core/Natives/StringAlloc.md)
 
 ## SwiftlyS2.Core.NetMessages
 
@@ -93,6 +98,15 @@ AI预测的示例可能并不准确，请根据实际情况调整。
 ## SwiftlyS2.Shared.Datamaps
 
 - 📚 [全部定义](SwiftlyS2/Shared/Datamaps/README.md)
+
+## SwiftlyS2.Shared.Engine
+
+- 🔌 [IHLTVClient](SwiftlyS2/Shared/Engine/IHLTVClient.md)
+- 🔌 [INetChannel](SwiftlyS2/Shared/Engine/INetChannel.md)
+- 🔌 [INetChannelInfo](SwiftlyS2/Shared/Engine/INetChannelInfo.md)
+- 🔌 [IServerSideClient](SwiftlyS2/Shared/Engine/IServerSideClient.md)
+- 🔌 [IServerSideClientBase](SwiftlyS2/Shared/Engine/IServerSideClientBase.md)
+- 📋 [NetworkFlow](SwiftlyS2/Shared/Engine/NetworkFlow.md)
 
 ## SwiftlyS2.Shared.EntitySystem
 
@@ -422,7 +436,7 @@ AI预测的示例可能并不准确，请根据实际情况调整。
 - 🔌 [ISchemaFixedString](SwiftlyS2/Shared/Schemas/ISchemaFixedString.md)
 - 🔌 [ISchemaStringFixedArray](SwiftlyS2/Shared/Schemas/ISchemaStringFixedArray.md)
 - 🔌 [ISchemaUtlStringFixedArray](SwiftlyS2/Shared/Schemas/ISchemaUtlStringFixedArray.md)
-- 📦 [SchemaSize](SwiftlyS2/Shared/Schemas/SchemaSize.md)
+- 📦 [SchemaInfo](SwiftlyS2/Shared/Schemas/SchemaInfo.md)
 - 📦 [SchemaUntypedField](SwiftlyS2/Shared/Schemas/SchemaUntypedField.md)
 
 ## SwiftlyS2.Shared.Services

@@ -12,7 +12,7 @@
 IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByAddress<TDelegate>(nint address)
 ```
 
-通过地址获取非托管函数。
+根据其地址获取一个非托管函数。
 
 **参数:**
 
@@ -22,7 +22,7 @@ IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByAddress<TDelegate>(nint addr
 
 **用法示例:**
 ```csharp
-var func = manager.GetUnmanagedFunctionByAddress<SomeDelegate>(0x12345678);
+var func = memoryService.GetUnmanagedFunctionByAddress<MyDelegate>(0x12345678);
 ```
 
 ### GetUnmanagedFunctionByVTable<TDelegate>
@@ -31,18 +31,18 @@ var func = manager.GetUnmanagedFunctionByAddress<SomeDelegate>(0x12345678);
 IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByVTable<TDelegate>(nint pVTable, int index)
 ```
 
-通过其 vtable 地址和索引获取非托管函数。
+通过其虚表地址和索引获取一个非托管函数。
 
 **参数:**
 
-- `pVTable` (`nint`) - vtable 的地址。
-- `index` (`int`) - vtable中该函数的索引。
+- `pVTable` (`nint`) - 虚函数表（vtable）的地址。
+- `index` (`int`) - 该函数在虚表中的索引。
 
 **返回值:** `IUnmanagedFunction\<TDelegate\>` - 非托管函数。
 
 **用法示例:**
 ```csharp
-var func = manager.GetUnmanagedFunctionByVTable<SomeDelegate>(vtablePtr, 0);
+var func = memoryService.GetUnmanagedFunctionByVTable<MyDelegate>(pVTable, 0);
 ```
 
 ### GetUnmanagedMemoryByAddress
@@ -51,7 +51,7 @@ var func = manager.GetUnmanagedFunctionByVTable<SomeDelegate>(vtablePtr, 0);
 IUnmanagedMemory GetUnmanagedMemoryByAddress(nint address)
 ```
 
-根据指定地址获取非托管内存块。
+根据其地址获取未托管内存块。
 
 **参数:**
 
@@ -61,7 +61,7 @@ IUnmanagedMemory GetUnmanagedMemoryByAddress(nint address)
 
 **用法示例:**
 ```csharp
-IUnmanagedMemory mem = memoryService.GetUnmanagedMemoryByAddress(0x12345678);
+var memory = memoryService.GetUnmanagedMemoryByAddress(address);
 ```
 
 ### GetInterfaceByName
@@ -70,17 +70,17 @@ IUnmanagedMemory mem = memoryService.GetUnmanagedMemoryByAddress(0x12345678);
 nint? GetInterfaceByName(string name)
 ```
 
-根据名称获取阀门或快速原生接口的地址。
+根据其名称获取 Valve 或 Swiftly 原生接口的地址。
 
 **参数:**
 
 - `name` (`string`) - 接口的名称。
 
-**返回值:** `nint?` - 接口的地址。如果未找到，则返回 null。
+**返回值:** `nint?` - 接口的地址。若未找到则返回 null。
 
 **用法示例:**
 ```csharp
-nint? addr = memoryService.GetInterfaceByName(" Valve ");
+nint? address = memoryService.GetInterfaceByName("IServer");
 ```
 
 ### GetAddressBySignature
@@ -89,18 +89,18 @@ nint? addr = memoryService.GetInterfaceByName(" Valve ");
 nint? GetAddressBySignature(string library, string signature)
 ```
 
-获取IDA风格签名的地址。
+获取 IDA 风格签名的地址。
 
 **参数:**
 
 - `library` (`string`) - 该签名所属的库。
-- `signature` (`string`) - 函数的签名。
+- `signature` (`string`) - 该函数的签名。
 
-**返回值:** `nint?` - 函数的地址。如果未找到，则返回 null。
+**返回值:** `nint?` - 函数的地址。若未找到则返回 null。
 
 **用法示例:**
 ```csharp
-nint? addr = memoryService.GetAddressBySignature("game.dll", "48 89 5C 24 ?? 48 89 74 24 ?? 57 41 56 41 57");
+nint? address = memoryService.GetAddressBySignature("server.dll", "48 89 5C 24 ?");
 ```
 
 ### GetVTableAddress
@@ -109,18 +109,18 @@ nint? addr = memoryService.GetAddressBySignature("game.dll", "48 89 5C 24 ?? 48 
 nint? GetVTableAddress(string library, string vtableName)
 ```
 
-根据名称获取虚函数表的地址。
+通过名称获取虚函数表（vtable）的地址。
 
 **参数:**
 
-- `library` (`string`) - 该虚函数表所属的库。
-- `vtableName` (`string`) - vtable 的名称。
+- `library` (`string`) - 所属的虚函数表（vtable）库。
+- `vtableName` (`string`) - 虚表（vtable）的名称。
 
-**返回值:** `nint?` - vtable的地址。如果未找到，则返回null。
+**返回值:** `nint?` - 虚函数表（vtable）的地址。若未找到，则返回 null。
 
 **用法示例:**
 ```csharp
-nint? addr = memoryService.GetVTableAddress("mylib", "MyVTableName");
+var addr = memoryService.GetVTableAddress("server", "CBaseEntity");
 ```
 
 ### ResolveXrefAddress
@@ -129,17 +129,17 @@ nint? addr = memoryService.GetVTableAddress("mylib", "MyVTableName");
 nint ResolveXrefAddress(nint xrefAddress)
 ```
 
-解析交叉引用签名（xref signature）的地址。
+解析跨引用签名的地址。
 
 **参数:**
 
-- `xrefAddress` (`nint`) - xref 的地址。
+- `xrefAddress` (`nint`) - 交叉引用的地址。
 
-**返回值:** `nint` - 已解析的地址。
+**返回值:** `nint` - 解析后的地址。
 
 **用法示例:**
 ```csharp
-memoryService.ResolveXrefAddress(0x12345678);
+nint resolvedAddress = memoryService.ResolveXrefAddress(xrefAddress);
 ```
 
 ### GetObjectPtrVtableName
@@ -154,11 +154,11 @@ string? GetObjectPtrVtableName(nint address)
 
 - `address` (`nint`) - 对象指针的地址。
 
-**返回值:** `string?` - vtable 名称。如果未找到，则返回 null。
+**返回值:** `string?` - 虚函数表名称。若未找到则返回 null。
 
 **用法示例:**
 ```csharp
-string? vtableName = memoryService.GetObjectPtrVtableName(someAddress);
+string? vtableName = memoryService.GetObjectPtrVtableName(address);
 ```
 
 ### ObjectPtrHasVtable
@@ -167,17 +167,17 @@ string? vtableName = memoryService.GetObjectPtrVtableName(someAddress);
 bool ObjectPtrHasVtable(nint address)
 ```
 
-检查对象指针是否具有虚函数表。
+检查对象指针是否拥有虚函数表（vtable）。
 
 **参数:**
 
 - `address` (`nint`) - 对象指针的地址。
 
-**返回值:** `bool` - 如果对象指针具有虚函数表，则为 true；否则为 false。
+**返回值:** `bool` - 如果对象指针具有虚函数表（vtable），则为 true，否则为 false。
 
 **用法示例:**
 ```csharp
-bool hasVtable = memoryService.ObjectPtrHasVtable(someAddress);
+bool hasVtable = memoryService.ObjectPtrHasVtable(address);
 ```
 
 ### ObjectPtrHasBaseClass
@@ -186,18 +186,18 @@ bool hasVtable = memoryService.ObjectPtrHasVtable(someAddress);
 bool ObjectPtrHasBaseClass(nint address, string baseClassName)
 ```
 
-检查对象指针是否具有基类。
+检查对象指针是否拥有基类。
 
 **参数:**
 
 - `address` (`nint`) - 对象指针的地址。
 - `baseClassName` (`string`) - 基类的名称。
 
-**返回值:** `bool` - 如果对象指针具有基类，则为 true；否则为 false。
+**返回值:** `bool` - 当对象指针具有基类时为 true，否则为 false。
 
 **用法示例:**
 ```csharp
-bool hasBase = memoryService.ObjectPtrHasBaseClass(player.Address, "Character");
+bool hasBase = memoryService.ObjectPtrHasBaseClass(player.Address, "CBasePlayer");
 ```
 
 ### ToSchemaClass<T>
@@ -210,13 +210,13 @@ T ToSchemaClass<T>(nint address)
 
 **参数:**
 
-- `address` (`nint`) - 架构类的地址。
+- `address` (`nint`) - Schema 类的地址。
 
-**返回值:** `T` - 架构类。
+**返回值:** `T` - 模式类。
 
 **用法示例:**
 ```csharp
-var player = manager.ToSchemaClass<Player>(0x12345678);
+var schemaClass = memoryService.ToSchemaClass<MySchema>(address);
 ```
 
 ### Alloc
@@ -229,7 +229,7 @@ nint Alloc(ulong size)
 
 **参数:**
 
-- `size` (`ulong`) - 要分配的内存块大小。
+- `size` (`ulong`) - 要分配的内存块的大小。
 
 **返回值:** `nint` - 已分配内存块的地址。
 
@@ -248,11 +248,11 @@ void Free(nint pointer)
 
 **参数:**
 
-- `pointer` (`nint`) - 要释放的内存块的地址。
+- `pointer` (`nint`) - 要释放的内存块地址。
 
 **用法示例:**
 ```csharp
-IMemoryService.Free(pointer);
+memoryService.Free(pointer);
 ```
 
 ### Resize
@@ -261,17 +261,17 @@ IMemoryService.Free(pointer);
 nint Resize(nint pointer, ulong newSize)
 ```
 
-调整一块内存的大小。
+调整内存块的大小。
 
 **参数:**
 
-- `pointer` (`nint`) - 要调整大小的内存块的地址。
+- `pointer` (`nint`) - 要调整大小的内存块地址。
 - `newSize` (`ulong`) - 内存块的新大小。
 
 **返回值:** `nint` - 调整大小后的内存块的地址。
 
 **用法示例:**
 ```csharp
-nint resized = IMemoryService.Resize(existingPointer, 1024UL);
+nint newPointer = memoryService.Resize(existingPointer, 1024);
 ```
 

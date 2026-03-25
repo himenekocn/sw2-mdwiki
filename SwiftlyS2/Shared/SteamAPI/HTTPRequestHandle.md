@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = HTTPRequestHandle.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(HTTPRequestHandle that)
 
 **用法示例:**
 ```csharp
-uint handle = (uint)HTTPRequestHandle.someInstance;
+uint handleValue = HTTPRequestHandle.uint(existingHandle);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(HTTPRequestHandle other)
 
 **用法示例:**
 ```csharp
-HTTPRequestHandle h1 = HTTPRequestHandle.Default;  
-int result = h1.CompareTo(other);
+int result = handle.CompareTo(otherHandle);
 ```
 

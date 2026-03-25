@@ -1,6 +1,6 @@
 # 🔗 OnMovementServicesRunCommandHook
 
-当移动服务运行命令挂钩被触发时调用。
+当移动服务运行命令钩子被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

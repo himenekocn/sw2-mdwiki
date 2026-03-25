@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = HSteamListenSocket.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,8 +58,7 @@ operator uint(HSteamListenSocket that)
 
 **用法示例:**
 ```csharp
-HSteamListenSocket socket = (HSteamListenSocket)12345;
-uint port = (uint)socket;
+uint socketId = HSteamListenSocket.uint(existingSocket);
 ```
 
 ### Equals
@@ -93,8 +87,6 @@ int CompareTo(HSteamListenSocket other)
 
 **用法示例:**
 ```csharp
-HSteamListenSocket socket1 = SteamAPI.SteamNetworkingSockets.CreateListenSocket(0);
-HSteamListenSocket socket2 = SteamAPI.SteamNetworkingSockets.CreateListenSocket(1);
-int result = socket1.CompareTo(socket2);
+int result = existingSocket.CompareTo(otherSocket);
 ```
 

@@ -28,6 +28,6 @@ bool IsAnalogInput()
 
 **用法示例:**
 ```csharp
-SubtickMove.IsAnalogInput()
+bool isAnalog = existingSubtickMove.IsAnalogInput();
 ```
 

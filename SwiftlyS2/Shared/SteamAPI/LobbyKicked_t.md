@@ -28,6 +28,6 @@ to Steam(currently always true)
 
 **用法示例:**
 ```csharp
-LobbyKicked_t.Steam();
+lobbyKicked.ToSteam();
 ```
 

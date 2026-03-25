@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = UGCQueryHandle_t.Invalid.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator ulong(UGCQueryHandle_t that)
 
 **用法示例:**
 ```csharp
-ulong handle = (UGCQueryHandle_t)someUGCQueryHandle;
+ulong handleValue = (ulong)existingQueryHandle;
 ```
 
 ### Equals
@@ -92,8 +87,6 @@ int CompareTo(UGCQueryHandle_t other)
 
 **用法示例:**
 ```csharp
-UGCQueryHandle_t handle1 = UGCQueryHandle_t.Invalid;  
-UGCQueryHandle_t handle2 = UGCQueryHandle_t.Invalid;  
-int result = handle1.CompareTo(handle2);
+int result = queryHandle.CompareTo(otherQueryHandle);
 ```
 

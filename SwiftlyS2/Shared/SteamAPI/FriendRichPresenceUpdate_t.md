@@ -27,6 +27,6 @@ the game(should always be the current game)
 
 **用法示例:**
 ```csharp
-FriendRichPresenceUpdate_t.game();
+var game = update.game();
 ```
 

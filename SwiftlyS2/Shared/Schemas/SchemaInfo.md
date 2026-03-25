@@ -1,4 +1,4 @@
-# 📦 SchemaSize
+# 📦 SchemaInfo
 
 **命名空间:** `SwiftlyS2.Shared.Schemas`
 
@@ -16,7 +16,7 @@ int GetSize<T>()
 
 **用法示例:**
 ```csharp
-int size = SchemaSize.GetSize<MyType>();
+int size = SchemaInfo.GetSize<CBasePlayer>();
 ```
 
 ### Get<T> (静态)
@@ -29,6 +29,19 @@ int Get<T>()
 
 **用法示例:**
 ```csharp
-int size = SchemaSize.Get<int>();
+int playerId = SchemaInfo.Get<Player>();
+```
+
+### IsSchemaClass<T> (静态)
+
+```csharp
+bool IsSchemaClass<T>()
+```
+
+**返回值:** `bool`
+
+**用法示例:**
+```csharp
+bool isSchema = SchemaInfo.IsSchemaClass<CCSPlayerController>();
 ```
 

@@ -18,7 +18,7 @@ void ConfigureSharedInterface(IInterfaceManager interfaceManager)
 
 **用法示例:**
 ```csharp
-interfaceManager?.RegisterPlugin(this);
+plugin.ConfigureSharedInterface(interfaceManager);
 ```
 
 ### UseSharedInterface
@@ -33,7 +33,7 @@ void UseSharedInterface(IInterfaceManager interfaceManager)
 
 **用法示例:**
 ```csharp
-manager.UseSharedInterface(convar);
+plugin.UseSharedInterface(interfaceManager);
 ```
 
 ### OnSharedInterfaceInjected
@@ -48,7 +48,7 @@ void OnSharedInterfaceInjected(IInterfaceManager interfaceManager)
 
 **用法示例:**
 ```csharp
-plugin.OnSharedInterfaceInjected(manager);
+plugin.OnSharedInterfaceInjected(interfaceManager);
 ```
 
 ### OnAllPluginsLoaded

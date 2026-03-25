@@ -18,8 +18,7 @@ void Init(Vector StartOffset)
 
 **用法示例:**
 ```csharp
-Ray_t ray;  
-ray.Init(new Vector(1f, 2f, 3f));
+Ray_t ray; ray.Init(Vector.Zero);
 ```
 
 ### Init
@@ -35,8 +34,7 @@ void Init(Vector Center, float Radius)
 
 **用法示例:**
 ```csharp
-Ray_t ray;  
-ray.Init(new Vector(0, 0, 0), 1.0f);
+Ray_t ray; ray.Init(Vector.Zero, 10.0f);
 ```
 
 ### Init
@@ -52,8 +50,7 @@ void Init(Vector Mins, Vector Maxs)
 
 **用法示例:**
 ```csharp
-Ray_t ray;  
-ray.Init(Vector.Zero, Vector.One);
+Ray_t ray; ray.Init(Vector.Zero, Vector.One);
 ```
 
 ### Init
@@ -70,8 +67,7 @@ void Init(Vector CenterA, Vector CenterB, float Radius)
 
 **用法示例:**
 ```csharp
-Ray_t ray;  
-ray.Init(new Vector(0f, 0f, 0f), new Vector(1f, 1f, 1f), 5.0f);
+Ray_t ray; ray.Init(Vector.Zero, Vector.UnitX, 1.0f);
 ```
 
 ### Init
@@ -89,6 +85,6 @@ void Init(Vector Mins, Vector Maxs, Vector* Vertices, int NumVertices)
 
 **用法示例:**
 ```csharp
-Ray_t.Init(Vector.Zero, Vector.One, null, 0);
+Ray_t ray; ray.Init(Vector.Zero, Vector.One, null, 0);
 ```
 

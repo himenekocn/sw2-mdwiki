@@ -1,6 +1,6 @@
 # 📦 ProgressBarMenuOption
 
-表示一个进度条菜单选项，用于以视觉方式显示进度。
+表示一个以可视化方式显示进度的进度条菜单选项。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -12,7 +12,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `BarWidth` | `int` | get | 获取进度条的宽度（以字符为单位）。 |
+| `BarWidth` | `int` | get | 获取进度条的字符宽度。 |
 | `ShowPercentage` | `bool` | get | 获取是否显示百分比值。 |
 | `LineCount` | `int` | - | - |
 
@@ -51,7 +51,7 @@ void SetProgressProvider(IPlayer player, Func<float> progressProvider)
 
 **用法示例:**
 ```csharp
-player.SetProgressProvider(player, () => manager.GetPlayerProgress(player));
+progressBarMenuOption.SetProgressProvider(player, () => 0.5f);
 ```
 
 ### GetProgress
@@ -64,9 +64,9 @@ float GetProgress(IPlayer player)
 
 **参数:**
 
-- `player` (`IPlayer`) - 要检索其进度的玩家。
+- `player` (`IPlayer`) - 要获取进度的玩家。
 
-**返回值:** `float` - 当前进度值（0.0 到 1.0）。
+**返回值:** `float` - 当前进度值（范围 0.0 到 1.0）。
 
 **用法示例:**
 ```csharp

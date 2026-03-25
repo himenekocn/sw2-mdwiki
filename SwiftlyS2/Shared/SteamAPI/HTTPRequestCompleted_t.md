@@ -26,6 +26,6 @@ as GetHTTPResponseBodySize()
 
 **用法示例:**
 ```csharp
-int size = HTTPRequestCompleted_t.GetHTTPResponseBodySize();
+var bodySize = requestCompleted.GetHTTPResponseBodySize();
 ```
 

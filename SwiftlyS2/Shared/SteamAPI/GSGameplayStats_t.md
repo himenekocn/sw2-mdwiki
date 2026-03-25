@@ -29,6 +29,6 @@ the server(0-based )
 
 **用法示例:**
 ```csharp
-GSGameplayStats_t.server();
+var server = stats.server(0);
 ```
 

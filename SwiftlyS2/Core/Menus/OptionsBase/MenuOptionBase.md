@@ -16,13 +16,13 @@
 |------|------|--------|------|
 | `Menu` | `IMenuAPI?` | get, set | 获取或设置此选项所属的菜单。 |
 | `LineCount` | `int` | - | 获取此选项在菜单中请求占用的行数。 |
-| `BindingText` | `Func\<string?\>?` | - | 获取或设置一个函数，该函数可动态为此菜单选项提供文本内容。 |
-| `Text` | `string` | - | 获取或设置为此菜单选项显示的文本内容。 |
-| `Comment` | `string` | get, set | 获取或设置为此菜单选项显示的注释内容。 |
-| `MaxWidth` | `float` | - | 菜单选项文本的最大显示宽度（以相对单位表示）。 |
-| `Visible` | `bool` | - | 获取或设置一个值，该值指示此选项是否在菜单中可见。 |
-| `Enabled` | `bool` | - | 获取或设置一个值，该值指示此选项是否可以交互。 |
-| `CloseAfterClick` | `bool` | get | 获取或设置一个值，该值指示在处理完点击后是否应关闭菜单。 |
+| `BindingText` | `Func\<string?\>?` | - | 获取或设置一个函数，该函数动态提供此菜单选项的文本内容。 |
+| `Text` | `string` | - | 获取或设置此菜单选项显示的文本内容。 |
+| `Comment` | `string` | get, set | 获取或设置此菜单选项显示的注释内容。 |
+| `MaxWidth` | `float` | - | 菜单选项文本在相对单位下的最大显示宽度。 |
+| `Visible` | `bool` | - | 获取或设置一个值，指示此选项是否在菜单中可见。 |
+| `Enabled` | `bool` | - | 获取或设置一个值，指示该选项是否可交互。 |
+| `CloseAfterClick` | `bool` | get | 获取或设置一个值，指示在处理点击后是否应关闭菜单。 |
 | `Tag` | `object?` | get, set | 获取或设置一个包含此选项相关数据的对象。 |
 | `TextSize` | `MenuOptionTextSize` | get, set | 获取或设置此选项的文本大小。 |
 | `TextStyle` | `MenuOptionTextStyle` | - | 获取或设置此选项的文本溢出样式。 |
@@ -36,7 +36,7 @@
 void Dispose()
 ```
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### PauseTextAnimation
 
@@ -46,7 +46,7 @@ void PauseTextAnimation()
 
 暂停动态文本动画。
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### ResumeTextAnimation
 
@@ -56,7 +56,7 @@ void ResumeTextAnimation()
 
 恢复动态文本动画。
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### GetFormattedHtmlText
 
@@ -70,7 +70,7 @@ string GetFormattedHtmlText(IPlayer player)
 
 **返回值:** `string`
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### GetDisplayText
 
@@ -78,16 +78,16 @@ string GetFormattedHtmlText(IPlayer player)
 string GetDisplayText(IPlayer player, int displayLine = 0)
 ```
 
-获取此选项的显示文本，该文本应显示给指定的玩家。
+获取该选项针对指定玩家应显示的文本。
 
 **参数:**
 
 - `player` (`IPlayer`) - 请求显示文本的玩家。
 - `displayLine` (`int`) = `0` - 选项的显示行索引。
 
-**返回值:** `string` - 选项的格式化显示文本。
+**返回值:** `string` - 该选项的格式化显示文本。
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### OnValidatingAsync
 
@@ -95,15 +95,15 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 ValueTask<bool> OnValidatingAsync(IPlayer player)
 ```
 
-验证指定的玩家是否可以与此选项进行交互。
+验证指定玩家是否能够与该选项进行交互。
 
 **参数:**
 
-- `player` (`IPlayer`) - 要验证的玩家。
+- `player` (`IPlayer`) - 待验证的玩家。
 
-**返回值:** `ValueTask\<bool\>` - 一个表示异步操作的任务。如果验证成功，任务结果为 true；否则为 false。
+**返回值:** `ValueTask\<bool\>` - 一个表示异步操作的 Task。Task 的结果为 true 表示验证成功；否则为 false。
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### OnClickAsync
 
@@ -118,7 +118,7 @@ ValueTask OnClickAsync(IPlayer player, bool closeMenu = false)
 
 **返回值:** `ValueTask`
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### OnClickAsync
 
@@ -126,13 +126,13 @@ ValueTask OnClickAsync(IPlayer player, bool closeMenu = false)
 ValueTask OnClickAsync(IPlayer player)
 ```
 
-处理此选项的点击操作。
+处理此选项的点击动作。
 
 **参数:**
 
 - `player` (`IPlayer`) - 点击该选项的玩家。
 
-**返回值:** `ValueTask` - 一个表示异步操作的任务。
+**返回值:** `ValueTask` - 表示异步操作的 Task。
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 

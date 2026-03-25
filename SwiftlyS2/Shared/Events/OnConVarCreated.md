@@ -1,6 +1,6 @@
 # 🔗 OnConVarCreated
 
-当创建一个 ConVar 时调用。
+在创建 ConVar 时被调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

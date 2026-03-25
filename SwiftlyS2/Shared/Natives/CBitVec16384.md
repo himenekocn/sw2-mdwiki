@@ -16,8 +16,7 @@ void ClearAll()
 
 **用法示例:**
 ```csharp
-CBitVec16384 bitVec;  
-bitVec.ClearAll();
+CBitVec16384 vec; vec.ClearAll();
 ```
 
 ### SetAll
@@ -28,8 +27,7 @@ void SetAll()
 
 **用法示例:**
 ```csharp
-CBitVec16384 bitVec;  
-bitVec.SetAll();
+CBitVec16384 vec; vec.SetAll();
 ```
 
 ### Set
@@ -44,8 +42,7 @@ void Set(uint index)
 
 **用法示例:**
 ```csharp
-CBitVec16384 bitVec;  
-bitVec.Set(100);
+CBitVec16384 vec; vec.Set(100);
 ```
 
 ### Set
@@ -60,8 +57,7 @@ void Set(int index)
 
 **用法示例:**
 ```csharp
-CBitVec16384 bitVec;  
-bitVec.Set(100);
+CBitVec16384 vec; vec.Set(0);
 ```
 
 ### Clear
@@ -76,8 +72,7 @@ void Clear(uint index)
 
 **用法示例:**
 ```csharp
-CBitVec16384 bitVec;
-bitVec.Clear(5);
+CBitVec16384 vec; vec.Clear(0);
 ```
 
 ### Clear
@@ -92,8 +87,7 @@ void Clear(int index)
 
 **用法示例:**
 ```csharp
-CBitVec16384 bitVec;  
-bitVec.Clear(5);
+vec.Clear(0);
 ```
 
 ### IsSet
@@ -110,7 +104,7 @@ bool IsSet(uint index)
 
 **用法示例:**
 ```csharp
-bool result = convar.IsSet(10);
+bool isSet = existingBitVec.IsSet(1024);
 ```
 
 ### IsSet
@@ -127,7 +121,7 @@ bool IsSet(int index)
 
 **用法示例:**
 ```csharp
-bool result = bitVec.IsSet(10);
+bool isSet = bitVec.IsSet(42);
 ```
 
 ### Count
@@ -140,8 +134,7 @@ int Count()
 
 **用法示例:**
 ```csharp
-CBitVec16384 bitVec = default;
-int count = bitVec.Count();
+int count = existingBitVec.Count();
 ```
 
 ### IsAllClear
@@ -154,7 +147,6 @@ bool IsAllClear()
 
 **用法示例:**
 ```csharp
-CBitVec16384 bitVec;  
-bool result = bitVec.IsAllClear();
+bool isClear = bitVec16384.IsAllClear();
 ```
 

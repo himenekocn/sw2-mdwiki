@@ -1,6 +1,6 @@
 # 🔌 IOnClientPutInServerEvent
 
-当客户端被添加到服务器时调用。
+当客户端被放入服务器时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -10,6 +10,6 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | 被放入服务器的客户端的玩家ID。 |
-| `Kind` | `ClientKind` | get | 已放置在服务器中的客户端类型。 |
+| `PlayerId` | `int` | get | 被添加到服务器的客户端的玩家 ID。 |
+| `Kind` | `ClientKind` | get | 部署在服务器上的客户端类型。 |
 

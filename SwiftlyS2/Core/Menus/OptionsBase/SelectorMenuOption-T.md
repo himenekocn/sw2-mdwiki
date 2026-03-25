@@ -1,6 +1,6 @@
 # 📦 SelectorMenuOption<T>
 
-表示一个选择器菜单选项，允许使用左右键循环浏览一系列选项。显示为：标签：上一个选项 [当前选项] 下一个选项。此选项分别将“退出”和“使用”键用于上一个和下一个选择。
+表示一个选择器菜单选项，允许使用左/右键在选项列表中循环切换。显示格式为：标签: 上一选项 [当前选项] 下一选项。该选项占用“退出”和“使用”键，分别用于执行上一项和下一项的选择操作。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -12,8 +12,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Choices` | `IReadOnlyList\<T\>` | get | 获取此选择器的可用选项。 |
-| `WrapAround` | `bool` | get, set | 获取或设置当到达末尾时选择器是否应循环。 |
+| `Choices` | `IReadOnlyList\<T\>` | get | 获取此选择器可用的选项。 |
+| `WrapAround` | `bool` | get, set | 获取或设置选择器在到达末尾时是否应循环回绕。 |
 
 ## ⚙️ 方法
 
@@ -31,7 +31,7 @@ void PauseTextAnimation()
 
 **用法示例:**
 ```csharp
-selectorMenuOption.PauseTextAnimation();
+option.PauseTextAnimation();
 ```
 
 ### ResumeTextAnimation
@@ -61,6 +61,7 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 **用法示例:**
 ```csharp
 string text = selectorMenuOption.GetDisplayText(player, 0);
+Console.WriteLine(text);
 ```
 
 ### GetSelectedIndex
@@ -69,17 +70,17 @@ string text = selectorMenuOption.GetDisplayText(player, 0);
 int GetSelectedIndex(IPlayer player)
 ```
 
-获取指定玩家的当前选定索引。
+获取指定玩家当前选定的索引。
 
 **参数:**
 
-- `player` (`IPlayer`) - 要检索其选择的玩家。
+- `player` (`IPlayer`) - 需要检索其选择的玩家。
 
-**返回值:** `int` - 选中的索引。
+**返回值:** `int` - 所选索引。
 
 **用法示例:**
 ```csharp
-int index = selectorMenuOption.GetSelectedIndex(player);
+int selectedIndex = selectorMenuOption.GetSelectedIndex(player);
 ```
 
 ### GetSelectedChoice
@@ -88,17 +89,17 @@ int index = selectorMenuOption.GetSelectedIndex(player);
 T? GetSelectedChoice(IPlayer player)
 ```
 
-获取指定玩家的当前选定选项。
+获取指定玩家当前所选的选项。
 
 **参数:**
 
-- `player` (`IPlayer`) - 要检索其选择的玩家。
+- `player` (`IPlayer`) - 需要检索其选择的玩家。
 
-**返回值:** `T?` - 选定的选项，如果无可用选项则返回默认值。
+**返回值:** `T?` - 选定的选项，若无可用选项则使用默认值。
 
 **用法示例:**
 ```csharp
-Team? selected = selectorMenuOption.GetSelectedChoice(player);
+var choice = selectorMenuOption.GetSelectedChoice(player);
 ```
 
 ### SetSelectedIndex
@@ -107,15 +108,15 @@ Team? selected = selectorMenuOption.GetSelectedChoice(player);
 void SetSelectedIndex(IPlayer player, int index)
 ```
 
-为指定玩家设置选定索引。
+设置指定玩家的选中索引。
 
 **参数:**
 
 - `player` (`IPlayer`) - 要设置其选择的玩家。
-- `index` (`int`) - 要选择的索引。将被限制在有效范围内。
+- `index` (`int`) - 用于选择的索引。将被限制在有效范围内。
 
 **用法示例:**
 ```csharp
-selectorMenuOption.SetSelectedIndex(player, 2);
+selectorMenuOption.SetSelectedIndex(player, 1);
 ```
 

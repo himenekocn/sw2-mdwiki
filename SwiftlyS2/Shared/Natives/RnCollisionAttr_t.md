@@ -14,6 +14,9 @@
 | `EntityId` | `uint` | - | - |
 | `OwnerId` | `uint` | - | - |
 | `HierarchyId` | `ushort` | - | - |
+| `DetailLayerMask` | `ushort` | - | - |
+| `DetailLayerMaskType` | `byte` | - | - |
+| `TargetDetailLayer` | `byte` | - | - |
 | `CollisionGroup` | `CollisionGroup` | - | - |
 | `CollisionFunctionMask` | `CollisionFunctionMask_t` | - | - |
 

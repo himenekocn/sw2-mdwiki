@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-AccountID_t id = AccountID_t.Default;  
-string str = id.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator uint(AccountID_t that)
 
 **用法示例:**
 ```csharp
-uint id = (uint)AccountID_t.SomeValue;
+uint id = AccountID_t.uint(someAccountID);
 ```
 
 ### Equals
@@ -93,7 +87,6 @@ int CompareTo(AccountID_t other)
 
 **用法示例:**
 ```csharp
-AccountID_t id1 = AccountID_t.Default;  
-int result = id1.CompareTo(AccountID_t.Empty);
+int result = myAccountID.CompareTo(otherAccountID);
 ```
 

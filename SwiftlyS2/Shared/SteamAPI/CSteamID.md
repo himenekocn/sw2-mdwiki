@@ -30,7 +30,7 @@ new AccountID_t( 0)
 
 **用法示例:**
 ```csharp
-CSteamID.AccountID_t(0);
+var accountId = CSteamID.AccountID_t(0);
 ```
 
 ### AccountID_t (静态)
@@ -47,7 +47,7 @@ new AccountID_t( 0)
 
 **用法示例:**
 ```csharp
-CSteamID.AccountID_t(0);
+var accountId = CSteamID.AccountID_t(0);
 ```
 
 ### AccountID_t (静态)
@@ -64,7 +64,8 @@ new AccountID_t( 1)
 
 **用法示例:**
 ```csharp
-CSteamID.AccountID_t(1)
+var accountId = CSteamID.AccountID_t(1);
+steamId = CSteamID.AccountID_t(1);
 ```
 
 ### AccountID_t (静态)
@@ -81,7 +82,7 @@ new AccountID_t( 2)
 
 **用法示例:**
 ```csharp
-CSteamID.AccountID_t(2)
+var accountId = CSteamID.AccountID_t(2);
 ```
 
 ### Set
@@ -98,7 +99,7 @@ void Set(AccountID_t unAccountID, EUniverse eUniverse, EAccountType eAccountType
 
 **用法示例:**
 ```csharp
-steamID.Set(123456789, EUniverse.Public, EAccountType.Individual);
+steamId.Set(123456, EUniverse.Public, EAccountType.Individual);
 ```
 
 ### InstancedSet
@@ -116,7 +117,7 @@ void InstancedSet(AccountID_t unAccountID, uint unInstance, EUniverse eUniverse,
 
 **用法示例:**
 ```csharp
-CSteamID sid; sid.InstancedSet(12345u, 0u, EUniverse.Public, EAccountType.Individual);
+steamId.InstancedSet(accountId, 1u, EUniverse.Public, EAccountType.Individual);
 ```
 
 ### Clear
@@ -127,8 +128,7 @@ void Clear()
 
 **用法示例:**
 ```csharp
-CSteamID id;  
-id.Clear();
+steamId.Clear();
 ```
 
 ### CreateBlankAnonLogon
@@ -143,7 +143,7 @@ void CreateBlankAnonLogon(EUniverse eUniverse)
 
 **用法示例:**
 ```csharp
-CSteamID id; id.CreateBlankAnonLogon(EUniverse.Public);
+steamId.CreateBlankAnonLogon(EUniverse.Public);
 ```
 
 ### CreateBlankAnonUserLogon
@@ -158,7 +158,7 @@ void CreateBlankAnonUserLogon(EUniverse eUniverse)
 
 **用法示例:**
 ```csharp
-CSteamID id; id.CreateBlankAnonUserLogon(EUniverse.Public);
+steamId.CreateBlankAnonUserLogon(EUniverse.Public);
 ```
 
 ### BBlankAnonAccount
@@ -171,8 +171,7 @@ bool BBlankAnonAccount()
 
 **用法示例:**
 ```csharp
-CSteamID id = SteamUser.GetSteamID();  
-bool isBlankAnon = id.BBlankAnonAccount();
+bool isBlankAnon = steamId.BBlankAnonAccount();
 ```
 
 ### BGameServerAccount
@@ -185,7 +184,7 @@ bool BGameServerAccount()
 
 **用法示例:**
 ```csharp
-bool isGameServer = mySteamID.BGameServerAccount();
+bool isGameServerAccount = steamId.BGameServerAccount();
 ```
 
 ### BPersistentGameServerAccount
@@ -198,7 +197,7 @@ bool BPersistentGameServerAccount()
 
 **用法示例:**
 ```csharp
-bool isPersistent = someSteamID.BPersistentGameServerAccount();
+bool isPersistent = steamId.BPersistentGameServerAccount();
 ```
 
 ### BAnonGameServerAccount
@@ -211,8 +210,7 @@ bool BAnonGameServerAccount()
 
 **用法示例:**
 ```csharp
-CSteamID steamId = CSteamID.CreateFromUint64(123456789);
-bool isAnonServer = steamId.BAnonGameServerAccount();
+bool isAnon = steamId.BAnonGameServerAccount();
 ```
 
 ### BContentServerAccount
@@ -225,7 +223,6 @@ bool BContentServerAccount()
 
 **用法示例:**
 ```csharp
-CSteamID steamId = CSteamID.CreateFromUint64(123456789);
 bool isContentServer = steamId.BContentServerAccount();
 ```
 
@@ -239,8 +236,7 @@ bool BClanAccount()
 
 **用法示例:**
 ```csharp
-CSteamID steamId = SteamUser.GetSteamID();  
-bool isClan = steamId.BClanAccount();
+bool isClanAccount = steamId.BClanAccount();
 ```
 
 ### BChatAccount
@@ -253,7 +249,7 @@ bool BChatAccount()
 
 **用法示例:**
 ```csharp
-bool isChatAccount = someSteamID.BChatAccount();
+bool isChatAccount = steamId.BChatAccount();
 ```
 
 ### IsLobby
@@ -266,8 +262,7 @@ bool IsLobby()
 
 **用法示例:**
 ```csharp
-CSteamID id = GetSomeExistingSteamID();  
-bool isLobby = id.IsLobby();
+bool isLobby = steamId.IsLobby();
 ```
 
 ### BIndividualAccount
@@ -280,7 +275,8 @@ bool BIndividualAccount()
 
 **用法示例:**
 ```csharp
-if (player.m_SteamID.BIndividualAccount()) { /* ... */ }
+bool isIndividual = steamId.BIndividualAccount();
+if (isIndividual) Console.WriteLine("Individual account");
 ```
 
 ### BAnonAccount
@@ -293,7 +289,7 @@ bool BAnonAccount()
 
 **用法示例:**
 ```csharp
-if (steamID.BAnonAccount()) { /* ... */ }
+bool isAnon = steamId.BAnonAccount();
 ```
 
 ### BAnonUserAccount
@@ -306,8 +302,7 @@ bool BAnonUserAccount()
 
 **用法示例:**
 ```csharp
-CSteamID id = SteamUser.GetSteamID();  
-bool isAnon = id.BAnonUserAccount();
+bool isAnon = steamId.BAnonUserAccount();
 ```
 
 ### BConsoleUserAccount
@@ -320,7 +315,7 @@ bool BConsoleUserAccount()
 
 **用法示例:**
 ```csharp
-bool isConsoleUser = someSteamID.BConsoleUserAccount();
+bool isConsole = steamId.BConsoleUserAccount();
 ```
 
 ### SetAccountID
@@ -335,8 +330,7 @@ void SetAccountID(AccountID_t other)
 
 **用法示例:**
 ```csharp
-CSteamID id;  
-id.SetAccountID(12345);
+steamId.SetAccountID(accountId);
 ```
 
 ### SetAccountInstance
@@ -351,8 +345,7 @@ void SetAccountInstance(uint other)
 
 **用法示例:**
 ```csharp
-CSteamID id = SteamUser.GetSteamID();  
-id.SetAccountInstance(1);
+steamId.SetAccountInstance(123u);
 ```
 
 ### SetEAccountType
@@ -367,8 +360,7 @@ void SetEAccountType(EAccountType other)
 
 **用法示例:**
 ```csharp
-CSteamID id;  
-id.SetEAccountType(EAccountType.Individual);
+steamId.SetEAccountType(EAccountType.GameServer);
 ```
 
 ### SetEUniverse
@@ -383,7 +375,7 @@ void SetEUniverse(EUniverse other)
 
 **用法示例:**
 ```csharp
-steamID.SetEUniverse(EUniverse.Public);
+steamId.SetEUniverse(EUniverse.Public);
 ```
 
 ### GetAccountID
@@ -396,8 +388,8 @@ AccountID_t GetAccountID()
 
 **用法示例:**
 ```csharp
-CSteamID steamId = ...; // 已有实例
-AccountID_t id = steamId.GetAccountID();
+AccountID_t accountId = steamId.GetAccountID();
+Console.WriteLine(accountId);
 ```
 
 ### GetUnAccountInstance
@@ -410,7 +402,7 @@ uint GetUnAccountInstance()
 
 **用法示例:**
 ```csharp
-uint instance = player.m_SteamID.GetUnAccountInstance();
+uint unAccountInstance = steamId.GetUnAccountInstance();
 ```
 
 ### GetEAccountType
@@ -423,7 +415,7 @@ EAccountType GetEAccountType()
 
 **用法示例:**
 ```csharp
-EAccountType type = someSteamID.GetEAccountType();
+EAccountType accountType = steamId.GetEAccountType();
 ```
 
 ### GetEUniverse
@@ -436,7 +428,8 @@ EUniverse GetEUniverse()
 
 **用法示例:**
 ```csharp
-EUniverse universe = player.GetSteamID().GetEUniverse();
+EUniverse universe = steamId.GetEUniverse();
+Console.WriteLine(universe);
 ```
 
 ### IsValid
@@ -446,12 +439,6 @@ bool IsValid()
 ```
 
 **返回值:** `bool`
-
-**用法示例:**
-```csharp
-CSteamID id = SteamUser.GetSteamID();  
-bool valid = id.IsValid();
-```
 
 ### GetSteamID64
 
@@ -463,7 +450,7 @@ ulong GetSteamID64()
 
 **用法示例:**
 ```csharp
-ulong id = player.GetSteamID64();
+ulong steam64 = steamId.GetSteamID64();
 ```
 
 ### GetSteamID
@@ -476,7 +463,7 @@ string GetSteamID()
 
 **用法示例:**
 ```csharp
-string id = player.GetSteamID();
+string steamIdStr = steamId.GetSteamID();
 ```
 
 ### GetSteamID3
@@ -489,7 +476,7 @@ string GetSteamID3()
 
 **用法示例:**
 ```csharp
-string id3 = player.GetSteamID3();
+string steamId3 = steamID.GetSteamID3();
 ```
 
 ### GetSteamID32
@@ -502,7 +489,7 @@ uint GetSteamID32()
 
 **用法示例:**
 ```csharp
-uint id = player.GetSteamID32();
+uint steamId32 = steamId.GetSteamID32();
 ```
 
 ### GetSteamIDOnline
@@ -515,7 +502,7 @@ string GetSteamIDOnline()
 
 **用法示例:**
 ```csharp
-string id = player.GetSteamIDOnline();
+var onlineId = steamId.GetSteamIDOnline();
 ```
 
 ### ToString
@@ -525,11 +512,6 @@ string ToString()
 ```
 
 **返回值:** `string`
-
-**用法示例:**
-```csharp
-string idStr = player.m_SteamID.ToString();
-```
 
 ### Equals
 
@@ -565,7 +547,7 @@ operator ulong(CSteamID that)
 
 **用法示例:**
 ```csharp
-CSteamID steamId = (CSteamID)123456789UL;
+ulong steamId64 = (ulong)steamId;
 ```
 
 ### Equals
@@ -594,8 +576,7 @@ int CompareTo(CSteamID other)
 
 **用法示例:**
 ```csharp
-CSteamID id1 = SteamUser.GetSteamID();  
-CSteamID id2 = SteamUser.GetSteamID();  
-int result = id1.CompareTo(id2);
+int result = steamId1.CompareTo(steamId2);
+if (result < 0) Console.WriteLine("steamId1 < steamId2");
 ```
 

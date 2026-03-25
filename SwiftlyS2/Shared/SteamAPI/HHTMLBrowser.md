@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = HHTMLBrowser.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(HHTMLBrowser that)
 
 **用法示例:**
 ```csharp
-uint value = (uint)HHTMLBrowser.someInstance;
+uint hash = HHTMLBrowser.uint(existingBrowser);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(HHTMLBrowser other)
 
 **用法示例:**
 ```csharp
-HHTMLBrowser a = HHTMLBrowser.Default;  
-int result = a.CompareTo(HHTMLBrowser.Empty);
+int result = browser1.CompareTo(browser2);
 ```
 

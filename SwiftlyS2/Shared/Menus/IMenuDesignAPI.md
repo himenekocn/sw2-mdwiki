@@ -16,13 +16,13 @@ IMenuBuilderAPI SetMenuTitle(string? title = null)
 
 **参数:**
 
-- `title` (`string?`) = `null` - 标题文本。传入 null 以清除标题。
+- `title` (`string?`) = `null` - 标题文本。传递 null 以清除标题。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetMenuTitle("主菜单");
+menuBuilder.SetMenuTitle("服务器菜单");
 ```
 
 ### SetMenuTitleVisible
@@ -35,13 +35,13 @@ IMenuBuilderAPI SetMenuTitleVisible(bool visible = true)
 
 **参数:**
 
-- `visible` (`bool`) = `true` - true 表示显示标题，false 表示隐藏标题。默认值为 true。
+- `visible` (`bool`) = `true` - True 表示显示标题，false 表示隐藏标题。默认为 true。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetMenuTitleVisible(false);
+menuBuilder.SetMenuTitleVisible(true);
 ```
 
 ### SetMenuTitleItemCountVisible
@@ -50,17 +50,17 @@ menuBuilder.SetMenuTitleVisible(false);
 IMenuBuilderAPI SetMenuTitleItemCountVisible(bool visible = true)
 ```
 
-控制菜单标题中项目数量的可见性。
+控制菜单标题中物品数量的可见性。
 
 **参数:**
 
-- `visible` (`bool`) = `true` - 为 true 时显示项目数量，为 false 时隐藏。默认值为 true。
+- `visible` (`bool`) = `true` - True 表示显示物品数量，false 表示隐藏。默认值为 true。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetMenuTitleItemCountVisible(true);
+menuDesignAPI.SetMenuTitleItemCountVisible(true);
 ```
 
 ### SetMenuFooterVisible
@@ -73,9 +73,9 @@ IMenuBuilderAPI SetMenuFooterVisible(bool visible = true)
 
 **参数:**
 
-- `visible` (`bool`) = `true` - true 表示显示页脚，false 表示隐藏页脚。默认值为 true。
+- `visible` (`bool`) = `true` - 设为 true 以显示页脚，设为 false 以隐藏页脚。默认为 true。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -92,9 +92,9 @@ IMenuBuilderAPI SetCommentVisible(bool visible = true)
 
 **参数:**
 
-- `visible` (`bool`) = `true` - true 表示显示注释，false 表示隐藏注释。默认值为 true。
+- `visible` (`bool`) = `true` - 设为 true 以显示评论，设为 false 以隐藏评论。默认为 true。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -107,17 +107,17 @@ menuBuilder.SetCommentVisible(true);
 IMenuBuilderAPI SetMaxVisibleItems(int count = 5)
 ```
 
-设置屏幕上一次可见的最大菜单选项数量。
+设置屏幕上一次性可见的菜单选项的最大数量。
 
 **参数:**
 
-- `count` (`int`) = `5` - 最大可见项数。有效范围为 1-5。默认值为 5。
+- `count` (`int`) = `5` - 最大可见物品数量。有效范围为 1-5。默认值为 5。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetMaxVisibleItems(10);
+menuDesignAPI.SetMaxVisibleItems(5);
 ```
 
 ### EnableAutoAdjustVisibleItems
@@ -126,13 +126,13 @@ menuBuilder.SetMaxVisibleItems(10);
 IMenuBuilderAPI EnableAutoAdjustVisibleItems()
 ```
 
-当标题或页脚隐藏时，启用可见项的自动调整。
+当标题或页脚被隐藏时，启用可见项的自动调整。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.EnableAutoAdjustVisibleItems();
+menuDesignAPI.EnableAutoAdjustVisibleItems();
 ```
 
 ### DisableAutoAdjustVisibleItems
@@ -141,9 +141,9 @@ menuBuilder.EnableAutoAdjustVisibleItems();
 IMenuBuilderAPI DisableAutoAdjustVisibleItems()
 ```
 
-当标题或页脚被隐藏时，禁用可见项的自动调整。
+禁用在隐藏标题或页脚时可见项目的自动调整。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -156,13 +156,13 @@ menuBuilder.DisableAutoAdjustVisibleItems();
 IMenuBuilderAPI SetGlobalScrollStyle(MenuOptionScrollStyle style)
 ```
 
-设置所有菜单选项的默认滚动动画样式。
+为所有菜单选项设置默认滚动动画样式。
 
 **参数:**
 
-- `style` (`MenuOptionScrollStyle`) - 要全局应用的滚动样式。
+- `style` (`MenuOptionScrollStyle`) - 要全局应用的滚动条样式。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -179,13 +179,13 @@ IMenuBuilderAPI SetNavigationMarkerColor(string? hexColor = null)
 
 **参数:**
 
-- `hexColor` (`string?`) = `null` - 十六进制格式的颜色（例如，白色为 "#FFFFFF"）。传入 null 以重置为默认值。
+- `hexColor` (`string?`) = `null` - 十六进制格式的颜色（例如，白色的"#FFFFFF"）。传递 null 以重置为默认值。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetNavigationMarkerColor("#FF0000");
+menuDesignAPI.SetNavigationMarkerColor("#FF5733");
 ```
 
 ### SetNavigationMarkerColor
@@ -198,9 +198,9 @@ IMenuBuilderAPI SetNavigationMarkerColor(Natives.Color color)
 
 **参数:**
 
-- `color` (`Natives.Color`) - 要应用于导航标记的 SwiftlyS2 本机颜色。
+- `color` (`Natives.Color`) - SwiftlyS2 应用于导航标记的原生颜色。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -217,13 +217,13 @@ IMenuBuilderAPI SetNavigationMarkerColor(System.Drawing.Color color)
 
 **参数:**
 
-- `color` (`System.Drawing.Color`) - 要应用于导航标记的 System.Drawing 颜色。
+- `color` (`System.Drawing.Color`) - 要应用到导航标记的系统绘制颜色。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetNavigationMarkerColor(Color.Red);
+menuBuilder.SetNavigationMarkerColor(System.Drawing.Color.Blue);
 ```
 
 ### SetMenuFooterColor
@@ -236,9 +236,9 @@ IMenuBuilderAPI SetMenuFooterColor(string? hexColor = null)
 
 **参数:**
 
-- `hexColor` (`string?`) = `null` - 十六进制格式的颜色（例如，红色为“#FF0000”）。传入 null 以重置为默认值。
+- `hexColor` (`string?`) = `null` - 以十六进制格式表示的颜色（例如，红色的"#FF0000"）。传递 null 可重置为默认值。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -255,9 +255,9 @@ IMenuBuilderAPI SetMenuFooterColor(Natives.Color color)
 
 **参数:**
 
-- `color` (`Natives.Color`) - 要应用于页脚的 SwiftlyS2 本机颜色。
+- `color` (`Natives.Color`) - 要应用于页脚的 SwiftlyS2 原生颜色。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -274,13 +274,13 @@ IMenuBuilderAPI SetMenuFooterColor(System.Drawing.Color color)
 
 **参数:**
 
-- `color` (`System.Drawing.Color`) - 要应用于页脚的 System.Drawing 颜色。
+- `color` (`System.Drawing.Color`) - 要应用于页脚的系统绘图颜色。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetMenuFooterColor(Color.Red);
+menuBuilder.SetMenuFooterColor(System.Drawing.Color.Blue);
 ```
 
 ### SetVisualGuideLineColor
@@ -289,13 +289,13 @@ menuBuilder.SetMenuFooterColor(Color.Red);
 IMenuBuilderAPI SetVisualGuideLineColor(string? hexColor = null)
 ```
 
-使用十六进制颜色格式设置视觉参考线的颜色。
+使用十六进制颜色格式设置视觉辅助线的颜色。
 
 **参数:**
 
-- `hexColor` (`string?`) = `null` - 十六进制格式的颜色（例如，白色为 "#FFFFFF"）。传入 null 以重置为默认值。
+- `hexColor` (`string?`) = `null` - 十六进制格式的颜色（例如，白色的"#FFFFFF"）。传递 null 以重置为默认值。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -308,13 +308,13 @@ menuBuilder.SetVisualGuideLineColor("#FF5733");
 IMenuBuilderAPI SetVisualGuideLineColor(Natives.Color color)
 ```
 
-使用 SwiftlyS2 原生颜色设置视觉参考线的颜色。
+使用 SwiftlyS2 原生颜色设置视觉辅助线的颜色。
 
 **参数:**
 
-- `color` (`Natives.Color`) - 要应用于引导线的 SwiftlyS2 本机颜色。
+- `color` (`Natives.Color`) - 应用于引导线的 SwiftlyS2 原生颜色。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -327,17 +327,17 @@ menuBuilder.SetVisualGuideLineColor(Natives.Color.Red);
 IMenuBuilderAPI SetVisualGuideLineColor(System.Drawing.Color color)
 ```
 
-设置视觉参考线的颜色，使用 System.Drawing 颜色。
+使用 System.Drawing 颜色设置视觉引导线的颜色。
 
 **参数:**
 
-- `color` (`System.Drawing.Color`) - 要应用于参考线的 System.Drawing 颜色。
+- `color` (`System.Drawing.Color`) - 应用于辅助线的 System.Drawing 颜色。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetVisualGuideLineColor(Color.Red);
+menuBuilder.SetVisualGuideLineColor(System.Drawing.Color.Red);
 ```
 
 ### SetDisabledColor
@@ -346,13 +346,13 @@ menuBuilder.SetVisualGuideLineColor(Color.Red);
 IMenuBuilderAPI SetDisabledColor(string? hexColor = null)
 ```
 
-设置禁用菜单选项的颜色，使用十六进制颜色格式。
+设置禁用菜单选项的颜色，采用十六进制颜色格式。
 
 **参数:**
 
-- `hexColor` (`string?`) = `null` - 十六进制格式的颜色（例如，灰色为“#808080”）。传入 null 以重置为默认值。
+- `hexColor` (`string?`) = `null` - 十六进制格式的颜色（例如，灰色的"#808080"）。传入 null 可重置为默认值。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
@@ -365,17 +365,17 @@ menuBuilder.SetDisabledColor("#808080");
 IMenuBuilderAPI SetDisabledColor(Natives.Color color)
 ```
 
-设置禁用菜单选项的颜色，使用 SwiftlyS2 原生颜色。
+使用 SwiftlyS2 原生颜色设置禁用菜单选项的颜色。
 
 **参数:**
 
-- `color` (`Natives.Color`) - 要应用于禁用选项的 SwiftlyS2 本机颜色。
+- `color` (`Natives.Color`) - 应用于禁用选项的 SwiftlyS2 原生颜色。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetDisabledColor(Natives.Color.Gray);
+menuBuilder.SetDisabledColor(Natives.Color.Red);
 ```
 
 ### SetDisabledColor
@@ -384,17 +384,17 @@ menuBuilder.SetDisabledColor(Natives.Color.Gray);
 IMenuBuilderAPI SetDisabledColor(System.Drawing.Color color)
 ```
 
-设置禁用菜单选项的颜色，使用 System.Drawing 颜色。
+使用 System.Drawing 颜色设置禁用菜单选项的颜色。
 
 **参数:**
 
-- `color` (`System.Drawing.Color`) - 要应用于禁用选项的 System.Drawing 颜色。
+- `color` (`System.Drawing.Color`) - 应用于禁用选项的 System.Drawing 颜色。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetDisabledColor(Color.Gray);
+menuBuilder.SetDisabledColor(System.Drawing.Color.Gray);
 ```
 
 ### SetDefaultComment
@@ -403,17 +403,17 @@ menuBuilder.SetDisabledColor(Color.Gray);
 IMenuBuilderAPI SetDefaultComment(string comment)
 ```
 
-设置当菜单选项的注释未设置时要使用的默认注释文本。
+设置当菜单选项的 Comment 未设置时所使用的默认注释文本。
 
 **参数:**
 
 - `comment` (`string`) - 默认注释文本。
 
-**返回值:** `IMenuBuilderAPI` - 用于方法链的菜单构建器。
+**返回值:** `IMenuBuilderAPI` - 用于方法链式调用的菜单构建器。
 
 **用法示例:**
 ```csharp
-menuBuilder.SetDefaultComment("默认注释");
+menuDesignAPI.SetDefaultComment("默认注释");
 ```
 
 ### SetGlobalOptionTextStyle
@@ -430,6 +430,6 @@ IMenuBuilderAPI SetGlobalOptionTextStyle(MenuOptionTextStyle style)
 
 **用法示例:**
 ```csharp
-IMenuDesignAPI.SetGlobalOptionTextStyle(MenuOptionTextStyle.Value);
+var builder = menuDesignApi.SetGlobalOptionTextStyle(MenuOptionTextStyle.Value);
 ```
 

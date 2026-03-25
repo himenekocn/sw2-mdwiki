@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string idStr = sessionID.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(RemotePlaySessionID_t that)
 
 **用法示例:**
 ```csharp
-uint sessionId = (uint)RemotePlaySessionID_t.someInstance;
+uint id = RemotePlaySessionID_t.uint(existingSession);
 ```
 
 ### Equals
@@ -92,8 +87,6 @@ int CompareTo(RemotePlaySessionID_t other)
 
 **用法示例:**
 ```csharp
-RemotePlaySessionID_t id1 = RemotePlaySessionID_t.Default;
-RemotePlaySessionID_t id2 = RemotePlaySessionID_t.Default;
-int result = id1.CompareTo(id2);
+int result = existingSession.CompareTo(otherSession);
 ```
 

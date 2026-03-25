@@ -22,12 +22,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-HServerListRequest request = default;
-string result = request.ToString();
-```
-
 ### Equals
 
 ```csharp

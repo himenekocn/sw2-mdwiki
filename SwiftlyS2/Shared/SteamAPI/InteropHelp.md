@@ -53,7 +53,7 @@ string PtrToStringUTF8(IntPtr nativeUtf8)
 
 **用法示例:**
 ```csharp
-string str = InteropHelp.PtrToStringUTF8(someIntPtr);
+string result = InteropHelp.PtrToStringUTF8(nativeUtf8);
 ```
 
 ### ByteArrayToStringUTF8 (静态)
@@ -70,7 +70,7 @@ string ByteArrayToStringUTF8(byte[] buffer)
 
 **用法示例:**
 ```csharp
-string result = InteropHelp.ByteArrayToStringUTF8(new byte[] { 72, 101, 108, 108, 111 });
+byte[] data = GetUtf8Bytes(); string result = InteropHelp.ByteArrayToStringUTF8(data);
 ```
 
 ### StringToByteArrayUTF8 (静态)
@@ -87,8 +87,7 @@ void StringToByteArrayUTF8(string str, byte[] outArrayBuffer, int outArrayBuffer
 
 **用法示例:**
 ```csharp
-byte[] buffer = new byte[1024];
-InteropHelp.StringToByteArrayUTF8("Hello", buffer, buffer.Length);
+byte[] buffer = new byte[100]; InteropHelp.StringToByteArrayUTF8("test", buffer, buffer.Length);
 ```
 
 ### IntPtr (静态)
@@ -105,6 +104,6 @@ operator IntPtr(SteamParamStringArray that)
 
 **用法示例:**
 ```csharp
-IntPtr ptr = InteropHelp.IntPtr(steamParamStringArrayInstance);
+IntPtr ptr = (IntPtr)existingSteamParamStringArray;
 ```
 

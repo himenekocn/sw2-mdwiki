@@ -31,6 +31,6 @@ the change(different from SteamIDUserChange if kicking,  muting, etc. )
 
 **用法示例:**
 ```csharp
-LobbyChatUpdate_t.change(SteamIDUserChange);
+var change = lobbyChatUpdate.change;
 ```
 

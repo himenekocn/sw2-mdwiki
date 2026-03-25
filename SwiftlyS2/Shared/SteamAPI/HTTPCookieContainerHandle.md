@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string cookieString = HTTPCookieContainerHandle.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(HTTPCookieContainerHandle that)
 
 **用法示例:**
 ```csharp
-uint value = (uint)HTTPCookieContainerHandle.someInstance;
+uint handleValue = HTTPCookieContainerHandle.uint(existingHandle);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(HTTPCookieContainerHandle other)
 
 **用法示例:**
 ```csharp
-HTTPCookieContainerHandle a = HTTPCookieContainerHandle.Default;  
-int result = a.CompareTo(HTTPCookieContainerHandle.Empty);
+int result = existingHandle.CompareTo(otherHandle);
 ```
 

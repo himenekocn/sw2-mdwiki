@@ -29,8 +29,7 @@ void Reset()
 
 **用法示例:**
 ```csharp
-CCommand command;
-command.Reset();
+CCommand.Reset();
 ```
 
 ### FindArg
@@ -47,7 +46,7 @@ int FindArg(string name)
 
 **用法示例:**
 ```csharp
-int index = command.FindArg("verbose");
+int index = command.FindArg("-target");
 ```
 
 ### FindArgInt
@@ -65,7 +64,7 @@ int FindArgInt(string name, int defaultVal)
 
 **用法示例:**
 ```csharp
-int value = CCommand.FindArgInt("team", 0);
+int value = cmd.FindArgInt("count", 10);
 ```
 
 ### Tokenize
@@ -82,7 +81,6 @@ bool Tokenize(string commandString)
 
 **用法示例:**
 ```csharp
-CCommand cmd;  
-cmd.Tokenize("player_set_team Team.T");
+bool result = command.Tokenize("say Hello");
 ```
 

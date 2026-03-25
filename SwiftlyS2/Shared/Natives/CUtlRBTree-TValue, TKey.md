@@ -43,7 +43,7 @@ bool LessFunc(ref TValue lhs, ref TValue rhs)
 
 **用法示例:**
 ```csharp
-CUtlRBTree.LessFunc(ref lhsValue, ref rhsValue);
+bool result = tree.LessFunc(ref itemA, ref itemB);
 ```
 
 ### EnsureCapacity
@@ -58,7 +58,6 @@ void EnsureCapacity(TKey num)
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int> tree;  
 tree.EnsureCapacity(10);
 ```
 
@@ -76,7 +75,7 @@ bool IsValidIndex(TKey i)
 
 **用法示例:**
 ```csharp
-bool valid = manager.IsValidIndex(0);
+bool isValid = tree.IsValidIndex(5);
 ```
 
 ### NewNode
@@ -89,8 +88,7 @@ TKey NewNode()
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int> tree;  
-int node = tree.NewNode();
+var newNodeKey = rbTree.NewNode();
 ```
 
 ### FreeNode
@@ -105,8 +103,7 @@ void FreeNode(TKey i)
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int> tree;
-tree.FreeNode(42);
+tree.FreeNode(key);
 ```
 
 ### RotateLeft
@@ -121,7 +118,6 @@ void RotateLeft(TKey elem)
 
 **用法示例:**
 ```csharp
-// 假设已存在 CUtlRBTree 实例 tree 和元素 elem  
 tree.RotateLeft(elem);
 ```
 
@@ -137,8 +133,7 @@ void RotateRight(TKey elem)
 
 **用法示例:**
 ```csharp
-CUtlRBTree tree = GetExistingTree();  
-tree.RotateRight(someKey);
+tree.RotateRight(elem);
 ```
 
 ### InsertRebalance
@@ -153,7 +148,6 @@ void InsertRebalance(TKey elem)
 
 **用法示例:**
 ```csharp
-// 假设已存在 CUtlRBTree 实例 tree 和 TKey 类型的 elem 变量  
 tree.InsertRebalance(elem);
 ```
 
@@ -171,8 +165,7 @@ void LinkToParent(TKey i, TKey parent, bool isLeft)
 
 **用法示例:**
 ```csharp
-// 假设已存在 CUtlRBTree 实例 tree 和有效键值 i、parent
-tree.LinkToParent(i, parent, true);
+tree.LinkToParent(childKey, parentKey, true);
 ```
 
 ### InsertAt
@@ -190,8 +183,7 @@ TKey InsertAt(TKey parent, bool leftchild)
 
 **用法示例:**
 ```csharp
-// 假设已存在 CUtlRBTree 实例 tree 和有效 parent 节点引用
-tree.InsertAt(parentNode, true);
+var newNode = rbTree.InsertAt(existingKey, true);
 ```
 
 ### RemoveRebalance
@@ -206,7 +198,6 @@ void RemoveRebalance(TKey elem)
 
 **用法示例:**
 ```csharp
-// 假设已存在 CUtlRBTree 实例 tree 和元素 elem
 tree.RemoveRebalance(elem);
 ```
 
@@ -222,8 +213,7 @@ void Unlink(TKey elem)
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int> tree = GetExistingTree();  
-tree.Unlink(42);
+tree.Unlink(elem);
 ```
 
 ### Link
@@ -238,8 +228,7 @@ void Link(TKey elem)
 
 **用法示例:**
 ```csharp
-CUtlRBTree tree;
-tree.Link(someKey);
+tree.Link(elem);
 ```
 
 ### FindInsertionPosition
@@ -256,8 +245,7 @@ void FindInsertionPosition(TValue val, out TKey parent, out bool leftchild)
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int, string> tree;  
-tree.FindInsertionPosition(42, out int parent, out bool leftchild);
+tree.FindInsertionPosition(val, out parent, out leftchild);
 ```
 
 ### RemoveAt
@@ -272,8 +260,7 @@ void RemoveAt(TKey elem)
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int> tree;
-tree.RemoveAt(42);
+tree.RemoveAt(elem);
 ```
 
 ### Remove
@@ -290,8 +277,7 @@ bool Remove(TValue value)
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int> tree = GetExistingTree();  
-tree.Remove(42);
+tree.Remove(value);
 ```
 
 ### Find
@@ -308,8 +294,7 @@ TKey Find(TValue value)
 
 **用法示例:**
 ```csharp
-// 假设已存在 CUtlRBTree 实例 tree 和 TValue 类型的 value 变量  
-TKey key = tree.Find(value);
+var key = tree.Find(value);
 ```
 
 ### RemoveAll
@@ -320,8 +305,7 @@ void RemoveAll()
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int> tree;
-tree.RemoveAll();
+existingTree.RemoveAll();
 ```
 
 ### Purge
@@ -332,7 +316,6 @@ void Purge()
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int> tree = default;
 tree.Purge();
 ```
 
@@ -352,7 +335,7 @@ TKey FirstInorder()
 
 **用法示例:**
 ```csharp
-var first = myTree.FirstInorder();
+TKey firstKey = rbTree.FirstInorder();
 ```
 
 ### NextInorder
@@ -369,7 +352,7 @@ TKey NextInorder(TKey i)
 
 **用法示例:**
 ```csharp
-TKey next = tree.NextInorder(currentKey);
+var nextKey = rbTree.NextInorder(currentKey);
 ```
 
 ### PrevInorder
@@ -386,7 +369,7 @@ TKey PrevInorder(TKey i)
 
 **用法示例:**
 ```csharp
-var prev = tree.PrevInorder(currentKey);
+TKey previous = rbTree.PrevInorder(currentKey);
 ```
 
 ### LastInorder
@@ -399,7 +382,7 @@ TKey LastInorder()
 
 **用法示例:**
 ```csharp
-var last = tree.LastInorder();
+TKey lastKey = rbTree.LastInorder();
 ```
 
 ### FirstPreorder
@@ -412,7 +395,7 @@ TKey FirstPreorder()
 
 **用法示例:**
 ```csharp
-TKey first = tree.FirstPreorder();
+var firstKey = rbTree.FirstPreorder();
 ```
 
 ### NextPreorder
@@ -429,7 +412,7 @@ TKey NextPreorder(TKey i)
 
 **用法示例:**
 ```csharp
-TKey next = tree.NextPreorder(currentKey);
+TKey nextNode = rbTree.NextPreorder(currentNode);
 ```
 
 ### LastPreorder
@@ -442,8 +425,7 @@ TKey LastPreorder()
 
 **用法示例:**
 ```csharp
-// 假设 tree 是 CUtlRBTree 的一个实例  
-var last = tree.LastPreorder();
+var lastKey = rbTree.LastPreorder();
 ```
 
 ### FirstPostorder
@@ -456,7 +438,7 @@ TKey FirstPostorder()
 
 **用法示例:**
 ```csharp
-TKey first = tree.FirstPostorder();
+var first = rbTree.FirstPostorder();
 ```
 
 ### NextPostorder
@@ -473,7 +455,7 @@ TKey NextPostorder(TKey i)
 
 **用法示例:**
 ```csharp
-TKey next = tree.NextPostorder(currentKey);
+TKey nextNode = rbTree.NextPostorder(currentNode);
 ```
 
 ### Reinsert
@@ -488,7 +470,7 @@ void Reinsert(TKey i)
 
 **用法示例:**
 ```csharp
-manager.Reinsert(xxx);
+tree.Reinsert(i);
 ```
 
 ### IsValid
@@ -511,7 +493,7 @@ void SetLessFunc(LessFunc func)
 
 **用法示例:**
 ```csharp
-void SetLessFunc(LessFunc func) { /* 示例：manager.SetLessFunc(CompareScores); */ }
+tree.SetLessFunc((x, y) => x < y);
 ```
 
 ### Insert
@@ -528,8 +510,7 @@ TKey Insert(TValue val)
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int, string> tree;
-tree.Insert("hello");
+TKey key = rbTree.Insert(val);
 ```
 
 ### InsertIfNotFound
@@ -546,7 +527,6 @@ TKey InsertIfNotFound(TValue val)
 
 **用法示例:**
 ```csharp
-CUtlRBTree<int, string> tree;
-tree.InsertIfNotFound("hello");
+TKey key = tree.InsertIfNotFound(val);
 ```
 

@@ -1,6 +1,6 @@
 # 📦 SliderMenuOption
 
-表示一个滑块菜单选项，允许在指定范围内选择一个数值。
+表示一个滑块菜单选项，允许在指定范围内选择数值。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -14,7 +14,7 @@
 |------|------|--------|------|
 | `Min` | `float` | get | 获取滑块的最小值。 |
 | `Max` | `float` | get | 获取滑块的最大值。 |
-| `Step` | `float` | get | 获取步进/步退值。 |
+| `Step` | `float` | get | 获取步进增量/减量值。 |
 
 ## ⚙️ 方法
 
@@ -46,13 +46,13 @@ float GetValue(IPlayer player)
 
 **参数:**
 
-- `player` (`IPlayer`) - 要检索其值的玩家。
+- `player` (`IPlayer`) - 要获取其值的玩家。
 
 **返回值:** `float` - 当前滑块值。
 
 **用法示例:**
 ```csharp
-float value = sliderMenuOption.GetValue(player);
+float currentValue = sliderMenuOption.GetValue(player);
 ```
 
 ### SetValue
@@ -66,11 +66,11 @@ void SetValue(IPlayer player, float value)
 **参数:**
 
 - `player` (`IPlayer`) - 要设置其值的玩家。
-- `value` (`float`) - 要设置的值。该值将被限制在 Min 和 Max 之间。
+- `value` (`float`) - 要设置的值。该值将在 Min 和 Max 之间进行钳制。
 
 **用法示例:**
 ```csharp
-sliderMenuOption.SetValue(player, 0.75f);
+sliderMenuOption.SetValue(player, 0.5f);
 ```
 
 ### DecrementValue
@@ -79,11 +79,11 @@ sliderMenuOption.SetValue(player, 0.75f);
 ValueTask DecrementValue(IPlayer player)
 ```
 
-将指定玩家的滑块值按步长递减。如果值低于最小值，则回绕到最大值。
+减少指定玩家滑块的值一个步长。如果值低于最小值，则回绕至最大值。
 
 **参数:**
 
-- `player` (`IPlayer`) - 要递减其值的玩家。
+- `player` (`IPlayer`) - 需要递减其值的目标玩家。
 
 **返回值:** `ValueTask`
 
@@ -98,11 +98,11 @@ await sliderMenuOption.DecrementValue(player);
 ValueTask IncrementValue(IPlayer player)
 ```
 
-将指定玩家的滑块值按步长递增。如果值超过最大值，则回绕到最小值。
+为指定玩家将滑块值增加步长。若值超过最大值，则循环至最小值。
 
 **参数:**
 
-- `player` (`IPlayer`) - 要增加其值的玩家。
+- `player` (`IPlayer`) - 需要增加其值的玩家。
 
 **返回值:** `ValueTask`
 

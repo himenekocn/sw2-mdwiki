@@ -10,6 +10,6 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | 已断开连接的客户端的玩家ID。 |
+| `PlayerId` | `int` | get | 断开连接客户端的玩家 ID。 |
 | `Reason` | `ENetworkDisconnectionReason` | get | 客户端断开连接的原因。 |
 

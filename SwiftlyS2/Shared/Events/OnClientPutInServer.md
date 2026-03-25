@@ -1,6 +1,6 @@
 # 🔗 OnClientPutInServer
 
-当客户端完全被置于服务器中时调用。
+当客户端完全接入服务器时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

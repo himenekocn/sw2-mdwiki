@@ -12,18 +12,18 @@
 CCSWeaponBaseVData? GetWeaponCSDataFromKey(int unknown, string key)
 ```
 
-根据键获取武器vdata。
+根据键值获取武器的 vdata。
 
 **参数:**
 
-- `unknown` (`int`) - 不确定这个参数的用途，但通常情况下其值为 -1。
-- `key` (`string`) - 武器的键（通常为物品索引）。
+- `unknown` (`int`) - 不确定此参数的用途，但通常情况下其值为 -1。
+- `key` (`string`) - 武器的键值（通常为物品索引 idx）。
 
-**返回值:** `CCSWeaponBaseVData?` - 武器 vdata。
+**返回值:** `CCSWeaponBaseVData?` - 武器 vdata（变量数据）。
 
 **用法示例:**
 ```csharp
-CCSWeaponBaseVData? weaponData = helpers.GetWeaponCSDataFromKey(0, "weapon_ak47");
+var weaponData = helpers.GetWeaponCSDataFromKey(0, "weapon_ak47");
 ```
 
 ### GetWeaponCSDataFromKey
@@ -32,17 +32,17 @@ CCSWeaponBaseVData? weaponData = helpers.GetWeaponCSDataFromKey(0, "weapon_ak47"
 CCSWeaponBaseVData? GetWeaponCSDataFromKey(int itemDefinitionIndex)
 ```
 
-从物品定义索引中获取武器vdata。
+从物品定义索引获取武器 VData。
 
 **参数:**
 
 - `itemDefinitionIndex` (`int`) - 武器的物品定义索引。
 
-**返回值:** `CCSWeaponBaseVData?` - 武器 vdata。
+**返回值:** `CCSWeaponBaseVData?` - 武器 vdata（变量数据）。
 
 **用法示例:**
 ```csharp
-IHelpers.GetWeaponCSDataFromKey(1);
+var weaponData = helpers.GetWeaponCSDataFromKey(1);
 ```
 
 ### GetWeaponCSDataFromKey
@@ -51,17 +51,17 @@ IHelpers.GetWeaponCSDataFromKey(1);
 CCSWeaponBaseVData? GetWeaponCSDataFromKey(ItemDefinitionIndex itemDefinitionIndex)
 ```
 
-从物品定义索引中获取武器vdata。
+从物品定义索引获取武器 VData。
 
 **参数:**
 
 - `itemDefinitionIndex` (`ItemDefinitionIndex`) - 武器的物品定义索引。
 
-**返回值:** `CCSWeaponBaseVData?` - 武器 vdata。
+**返回值:** `CCSWeaponBaseVData?` - 武器 vdata（变量数据）。
 
 **用法示例:**
 ```csharp
-IHelpers.GetWeaponCSDataFromKey(ItemDefinitionIndex.AK47);
+var weaponData = helpers.GetWeaponCSDataFromKey(ItemDefinitionIndex.AK47);
 ```
 
 ### GetClassnameByDefinitionIndex
@@ -70,17 +70,17 @@ IHelpers.GetWeaponCSDataFromKey(ItemDefinitionIndex.AK47);
 string? GetClassnameByDefinitionIndex(int itemDefinitionIndex)
 ```
 
-从物品定义索引中获取武器类名。
+根据物品定义索引获取武器类名。
 
 **参数:**
 
 - `itemDefinitionIndex` (`int`) - 武器的物品定义索引。
 
-**返回值:** `string?` - 武器类名（例如 "weapon_awp"），如果未找到则为 null。
+**返回值:** `string?` - 武器类名（例如"weapon_awp"），若未找到则为 null。
 
 **用法示例:**
 ```csharp
-string? className = helpers.GetClassnameByDefinitionIndex(123);
+string? className = helpers.GetClassnameByDefinitionIndex(1);
 ```
 
 ### GetClassnameByDefinitionIndex
@@ -89,17 +89,17 @@ string? className = helpers.GetClassnameByDefinitionIndex(123);
 string? GetClassnameByDefinitionIndex(ItemDefinitionIndex itemDefinitionIndex)
 ```
 
-从物品定义索引中获取武器类名。
+根据物品定义索引获取武器类名。
 
 **参数:**
 
 - `itemDefinitionIndex` (`ItemDefinitionIndex`) - 武器的物品定义索引。
 
-**返回值:** `string?` - 武器类名（例如 "weapon_awp"），如果未找到则为 null。
+**返回值:** `string?` - 武器类名（例如"weapon_awp"），若未找到则为 null。
 
 **用法示例:**
 ```csharp
-string? className = IHelpers.GetClassnameByDefinitionIndex(ItemDefinitionIndex.AK47);
+string? className = helpers.GetClassnameByDefinitionIndex(ItemDefinitionIndex.AK47);
 ```
 
 ### GetDefinitionIndexByClassname
@@ -114,10 +114,10 @@ int? GetDefinitionIndexByClassname(string classname)
 
 - `classname` (`string`) - 武器类名（例如："weapon_awp"）。
 
-**返回值:** `int?` - 项目定义索引，如果未找到则为 null。
+**返回值:** `int?` - 物品定义索引，若未找到则为 null。
 
 **用法示例:**
 ```csharp
-int? index = helpers.GetDefinitionIndexByClassname("weapon_knife");
+int? index = helpers.GetDefinitionIndexByClassname("weapon_ak47");
 ```
 

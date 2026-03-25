@@ -24,6 +24,6 @@ into GetDownloadedLeaderboardEntries()
 
 **用法示例:**
 ```csharp
-LeaderboardScoresDownloaded_t.GetDownloadedLeaderboardEntries()
+var entries = downloaded.GetDownloadedLeaderboardEntries();
 ```
 

@@ -20,7 +20,7 @@
 void SetResult(bool result)
 ```
 
-拦截并修改可用性结果。这将修改可用性结果并停止后续的钩子和原始函数。
+拦截并修改“可使用”结果。这将更改“可使用”状态，并终止后续的钩子函数及原始函数调用。
 
 **参数:**
 
@@ -28,6 +28,6 @@ void SetResult(bool result)
 
 **用法示例:**
 ```csharp
-hook.SetResult(true);
+hookEvent.SetResult(false);
 ```
 

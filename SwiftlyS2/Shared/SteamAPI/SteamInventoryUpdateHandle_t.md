@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-SteamInventoryUpdateHandle_t handle = default;
-string result = handle.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -64,7 +58,7 @@ operator ulong(SteamInventoryUpdateHandle_t that)
 
 **用法示例:**
 ```csharp
-SteamInventoryUpdateHandle_t handle = (SteamInventoryUpdateHandle_t)12345UL;
+ulong handleValue = SteamInventoryUpdateHandle_t.ulong(existingHandle);
 ```
 
 ### Equals
@@ -93,8 +87,6 @@ int CompareTo(SteamInventoryUpdateHandle_t other)
 
 **用法示例:**
 ```csharp
-SteamInventoryUpdateHandle_t handle1 = default;  
-SteamInventoryUpdateHandle_t handle2 = default;  
-int result = handle1.CompareTo(handle2);
+int result = handle.CompareTo(otherHandle);
 ```
 

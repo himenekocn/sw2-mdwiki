@@ -8,9 +8,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ServerIP` | `string?` | get | 服务器的IP地址。 |
-| `WorkshopId` | `string` | get | 获取当前地图的工作坊ID。 |
-| `GlobalVars` | `ref CGlobalVars` | get | 获取对全局变量结构的引用。 |
+| `ServerIP` | `string?` | get | 服务器的 IP 地址。 |
+| `WorkshopId` | `string` | get | 获取当前地图的创意工坊 ID。 |
+| `GlobalVars` | `ref CGlobalVars` | get | 获取全局变量结构的引用。 |
 
 ## ⚙️ 方法
 
@@ -20,13 +20,13 @@
 bool IsMapValid(string map)
 ```
 
-判断指定的地图字符串是否代表服务器文件中的一个有效地图。
+确定指定的地图字符串是否在服务器文件中代表一个有效的地图。
 
 **参数:**
 
-- `map` (`string`) - 要验证的地图字符串。同时也支持创意工坊 ID。
+- `map` (`string`) - 待验证的地图字符串。它同时也支持创意工坊 ID。
 
-**返回值:** `bool` - 如果地图有效，则为 true；否则为 false。
+**返回值:** `bool` - 如果地图有效则为 true；否则为 false。
 
 **用法示例:**
 ```csharp
@@ -43,11 +43,12 @@ void ExecuteCommand(string command)
 
 **参数:**
 
-- `command` (`string`) - 要执行的命令。不能为 null 或空。
+- `command` (`string`) - 要执行的命令。不得为 null 或空。
 
 **用法示例:**
 ```csharp
-engineService.ExecuteCommand("start");
+IEngineService engine;
+engine.ExecuteCommand("sv_restart 1");
 ```
 
 ### ExecuteCommandAsync
@@ -60,13 +61,13 @@ Task ExecuteCommandAsync(string command)
 
 **参数:**
 
-- `command` (`string`) - 要执行的命令。不能为 null 或空。
+- `command` (`string`) - 要执行的命令。不得为 null 或空。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await engineService.ExecuteCommandAsync("start_game");
+await engineService.ExecuteCommandAsync("sv_restart 1");
 ```
 
 ### ExecuteCommandWithBuffer
@@ -79,12 +80,12 @@ void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
 
 **参数:**
 
-- `command` (`string`) - 要执行的命令。不能为 null 或空。
+- `command` (`string`) - 要执行的命令。不得为 null 或空。
 - `bufferCallback` (`Action\<string\>`) - 用于接收命令输出的回调。
 
 **用法示例:**
 ```csharp
-engineService.ExecuteCommandWithBuffer("echo Hello", Console.WriteLine);
+engineService.ExecuteCommandWithBuffer("status", msg => Console.WriteLine(msg));
 ```
 
 ### ExecuteCommandWithBufferAsync
@@ -93,18 +94,18 @@ engineService.ExecuteCommandWithBuffer("echo Hello", Console.WriteLine);
 Task ExecuteCommandWithBufferAsync(string command, Action<string> bufferCallback)
 ```
 
-在当前上下文中，使用缓冲回调异步执行指定的命令字符串。
+在当前上下文中异步执行指定的命令字符串，并采用缓冲区回调。
 
 **参数:**
 
-- `command` (`string`) - 要执行的命令。不能为 null 或空。
+- `command` (`string`) - 要执行的命令。不得为 null 或空。
 - `bufferCallback` (`Action\<string\>`) - 用于接收命令输出的回调。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await engineService.ExecuteCommandWithBufferAsync("status", Console.WriteLine);
+await engineService.ExecuteCommandWithBufferAsync("status", msg => Console.WriteLine(msg));
 ```
 
 ### FindGameSystemByName
@@ -113,16 +114,16 @@ await engineService.ExecuteCommandWithBufferAsync("status", Console.WriteLine);
 nint? FindGameSystemByName(string name)
 ```
 
-按名称查找游戏系统。
+根据名称查找游戏系统。
 
 **参数:**
 
 - `name` (`string`) - 游戏系统的名称。
 
-**返回值:** `nint?` - 游戏系统句柄。如果未找到则为 null。
+**返回值:** `nint?` - 游戏系统句柄。若未找到则为 null。
 
 **用法示例:**
 ```csharp
-nint? result = engineService.FindGameSystemByName("Unity");
+nint? systemId = engineService.FindGameSystemByName("Physics");
 ```
 

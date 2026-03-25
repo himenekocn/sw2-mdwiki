@@ -24,7 +24,7 @@ void ConfigureSharedInterface(IInterfaceManager interfaceManager)
 
 - `interfaceManager` (`IInterfaceManager`)
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### UseSharedInterface
 
@@ -36,7 +36,7 @@ void UseSharedInterface(IInterfaceManager interfaceManager)
 
 - `interfaceManager` (`IInterfaceManager`)
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### OnSharedInterfaceInjected
 
@@ -48,7 +48,7 @@ void OnSharedInterfaceInjected(IInterfaceManager interfaceManager)
 
 - `interfaceManager` (`IInterfaceManager`)
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### OnAllPluginsLoaded
 
@@ -56,7 +56,7 @@ void OnSharedInterfaceInjected(IInterfaceManager interfaceManager)
 void OnAllPluginsLoaded()
 ```
 
-**注意:** 此方法是虚方法，可以在子类中重写 (override)。
+**注意:** 此方法是虚方法,可以在子类中重写 (override).
 
 ### Load
 
@@ -68,7 +68,7 @@ void Load(bool hotReload)
 
 - `hotReload` (`bool`)
 
-**注意:** 此方法是抽象方法，需要在子类中实现 (override)。
+**注意:** 此方法是抽象方法,需要在子类中实现 (override).
 
 ### Unload
 
@@ -76,5 +76,5 @@ void Load(bool hotReload)
 void Unload()
 ```
 
-**注意:** 此方法是抽象方法，需要在子类中实现 (override)。
+**注意:** 此方法是抽象方法,需要在子类中实现 (override).
 

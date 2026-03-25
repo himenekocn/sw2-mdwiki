@@ -10,11 +10,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Name` | `string` | - | 声音事件名称。 |
-| `SourceEntityIndex` | `int` | - | 该声音事件所发出的实体索引。设置为 -1（默认值）将从接收者位置发出声音。 |
-| `Volume` | `float` | - | 声音事件的音量。 |
+| `Name` | `string` | - | 音效事件名称。 |
+| `SourceEntityIndex` | `int` | - | 发出此声音事件实体的索引。设置为 -1（默认值）将从接收者位置发出声音。 |
+| `Volume` | `float` | - | 音效事件的音量。 |
 | `Pitch` | `float` | - | 声音事件的音高。 |
-| `Recipients` | `ref CRecipientFilter` | - | 声音事件的接收者。 |
+| `Recipients` | `ref CRecipientFilter` | - | 声音事件的目标接收者。 |
 
 ## ⚙️ 方法
 
@@ -30,7 +30,7 @@ void SetSourceEntity(CEntityInstance entity)
 
 **用法示例:**
 ```csharp
-soundEvent.SetSourceEntity(player);
+soundEvent.SetSourceEntity(entity);
 ```
 
 ### SetBool
@@ -46,7 +46,7 @@ void SetBool(string fieldName, bool value)
 
 **用法示例:**
 ```csharp
-soundEvent.SetBool("isPlaying", true);
+soundEvent.SetBool("IsPlaying", true);
 ```
 
 ### GetBool
@@ -63,7 +63,7 @@ bool GetBool(string fieldName)
 
 **用法示例:**
 ```csharp
-bool value = soundEvent.GetBool("isPlaying");
+bool isActive = soundEvent.GetBool("IsPlaying");
 ```
 
 ### SetInt32
@@ -79,7 +79,7 @@ void SetInt32(string fieldName, int value)
 
 **用法示例:**
 ```csharp
-soundEvent.SetInt32("volume", 80);
+soundEvent.SetInt32("volume", 75);
 ```
 
 ### GetInt32
@@ -112,7 +112,7 @@ void SetUInt32(string fieldName, uint value)
 
 **用法示例:**
 ```csharp
-soundEvent.SetUInt32("volume", 80u);
+soundEvent.SetUInt32("event_id", 1001);
 ```
 
 ### GetUInt32
@@ -162,7 +162,7 @@ float GetFloat(string fieldName)
 
 **用法示例:**
 ```csharp
-float volume = SoundEvent.GetFloat("volume");
+float volume = soundEvent.GetFloat("volume");
 ```
 
 ### SetFloat3
@@ -180,7 +180,7 @@ void SetFloat3(string fieldName, float x, float y, float z)
 
 **用法示例:**
 ```csharp
-soundEvent.SetFloat3("position", 1.0f, 2.0f, 3.0f);
+soundEvent.SetFloat3("position", 1.0f, 2.5f, -3.0f);
 ```
 
 ### SetFloat3
@@ -196,7 +196,7 @@ void SetFloat3(string fieldName, Vector vec)
 
 **用法示例:**
 ```csharp
-SoundEvent.SetFloat3("position", new Vector(1f, 2f, 3f));
+soundEvent.SetFloat3("volume", existingVector);
 ```
 
 ### GetFloat3
@@ -213,7 +213,7 @@ Vector GetFloat3(string fieldName)
 
 **用法示例:**
 ```csharp
-Vector pos = SoundEvent.GetFloat3("position");
+Vector result = soundEvent.GetFloat3("volume");
 ```
 
 ### Emit
@@ -226,7 +226,7 @@ uint Emit()
 
 **用法示例:**
 ```csharp
-uint eventId = SoundEvent.Emit();
+uint id = soundEvent.Emit();
 ```
 
 ### EmitAsync
@@ -235,13 +235,13 @@ uint eventId = SoundEvent.Emit();
 Task<uint> EmitAsync()
 ```
 
-异步触发声音事件。
+异步触发音效事件。
 
-**返回值:** `Task\<uint\>` - 发出的声音事件 GUID。
+**返回值:** `Task\<uint\>` - 生成的声音事件 GUID。
 
 **用法示例:**
 ```csharp
-uint soundId = await SoundEvent.EmitAsync();
+uint eventId = await soundEvent.EmitAsync();
 ```
 
 ### Dispose

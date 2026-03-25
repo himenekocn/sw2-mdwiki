@@ -23,7 +23,7 @@ bool SendSignal(HSteamNetConnection hConn, ref SteamNetConnectionInfo_t info, In
 
 **用法示例:**
 ```csharp
-bool result = signaling.SendSignal(hConn, ref connectionInfo, messagePtr, messageSize);
+var result = signaling.SendSignal(hConn, ref info, pMsg, cbMsg);
 ```
 
 ### Release
@@ -34,6 +34,6 @@ void Release()
 
 **用法示例:**
 ```csharp
-convar.Release();
+signaling.Release();
 ```
 

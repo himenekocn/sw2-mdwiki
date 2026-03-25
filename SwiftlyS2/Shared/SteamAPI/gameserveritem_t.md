@@ -32,7 +32,7 @@ string GetGameDir()
 
 **用法示例:**
 ```csharp
-string gameDir = gameserveritem.GetGameDir();
+string gameDir = item.GetGameDir();
 ```
 
 ### SetGameDir
@@ -47,7 +47,8 @@ void SetGameDir(string dir)
 
 **用法示例:**
 ```csharp
-gameserveritem.SetGameDir("csgo");
+gameserveritem_t item = serverItem;
+item.SetGameDir("csgo");
 ```
 
 ### GetMap
@@ -60,7 +61,7 @@ string GetMap()
 
 **用法示例:**
 ```csharp
-string map = gameserveritem_t.GetMap();
+string map = item.GetMap();
 ```
 
 ### SetMap
@@ -75,7 +76,8 @@ void SetMap(string map)
 
 **用法示例:**
 ```csharp
-gameserveritem.SetMap("de_dust2");
+gameserveritem_t item = existingItem;
+item.SetMap("de_dust2");
 ```
 
 ### GetGameDescription
@@ -88,7 +90,7 @@ string GetGameDescription()
 
 **用法示例:**
 ```csharp
-string desc = gameserveritem.GetGameDescription();
+string desc = item.GetGameDescription();
 ```
 
 ### SetGameDescription
@@ -103,7 +105,7 @@ void SetGameDescription(string desc)
 
 **用法示例:**
 ```csharp
-gameserveritem.SetGameDescription("Deathmatch Arena");
+serverItem.SetGameDescription("My Server");
 ```
 
 ### GetServerName
@@ -116,7 +118,8 @@ string GetServerName()
 
 **用法示例:**
 ```csharp
-string serverName = gameserveritem_t.GetServerName();
+string serverName = serverItem.GetServerName();
+Console.WriteLine(serverName);
 ```
 
 ### SetServerName
@@ -131,7 +134,7 @@ void SetServerName(string name)
 
 **用法示例:**
 ```csharp
-gameserveritem.SetServerName("My Game Server");
+serverItem.SetServerName("My Server");
 ```
 
 ### GetGameTags
@@ -144,7 +147,7 @@ string GetGameTags()
 
 **用法示例:**
 ```csharp
-string tags = gameserveritem.GetGameTags();
+string tags = gameServerItem.GetGameTags();
 ```
 
 ### SetGameTags
@@ -159,7 +162,7 @@ void SetGameTags(string tags)
 
 **用法示例:**
 ```csharp
-gameserveritem.SetGameTags("fps;multiplayer");
+serverItem.SetGameTags("deathmatch,ranked");
 ```
 
 ### bots
@@ -176,7 +179,7 @@ of bots(i.e simulated players)
 
 **用法示例:**
 ```csharp
-gameserveritem_t.bots();
+int botCount = serverItem.bots();
 ```
 
 ### time
@@ -193,6 +196,6 @@ gameserveritem_t.bots();
 
 **用法示例:**
 ```csharp
-gameserveritem_t.time(1234567890);
+var unixTime = item.time();
 ```
 

@@ -18,7 +18,7 @@ nint Alloc(ulong size)
 
 **返回值:** `nint`
 
-**注意:** 此方法是抽象方法，需要在子类中实现 (override)。
+**注意:** 此方法是抽象方法,需要在子类中实现 (override).
 
 ### Free (静态)
 
@@ -30,5 +30,5 @@ void Free(nint ptr)
 
 - `ptr` (`nint`)
 
-**注意:** 此方法是抽象方法，需要在子类中实现 (override)。
+**注意:** 此方法是抽象方法,需要在子类中实现 (override).
 

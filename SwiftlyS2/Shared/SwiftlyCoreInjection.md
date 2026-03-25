@@ -23,6 +23,6 @@ IServiceCollection AddSwiftly(this IServiceCollection self, ISwiftlyCore core, b
 
 **用法示例:**
 ```csharp
-SwiftlyCoreInjection.AddSwiftly(services, coreInstance, true, false);
+var services = SwiftlyCoreInjection.AddSwiftly(coreInstance, true, true);
 ```
 

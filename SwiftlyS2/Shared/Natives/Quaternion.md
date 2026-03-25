@@ -1,6 +1,6 @@
 # 🏗️ Quaternion
 
-四元数，基本上是4个浮点数。
+四元数，本质上由 4 个浮点数构成。
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 
@@ -34,8 +34,7 @@ System.Numerics.Quaternion ToBuiltin()
 
 **用法示例:**
 ```csharp
-Quaternion q = Quaternion.Identity;
-Quaternion builtin = q.ToBuiltin();
+var builtin = quaternion.ToBuiltin();
 ```
 
 ### FromBuiltin (静态)
@@ -52,6 +51,7 @@ Quaternion FromBuiltin(System.Numerics.Quaternion quaternion)
 
 **用法示例:**
 ```csharp
-Quaternion q = Quaternion.FromBuiltin(new System.Numerics.Quaternion(1, 2, 3, 4));
+var builtin = new System.Numerics.Quaternion(0, 0, 0, 1);
+var swiftlyQuat = Quaternion.FromBuiltin(builtin);
 ```
 

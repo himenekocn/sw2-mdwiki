@@ -1,6 +1,6 @@
 # 🔗 ClientCommandHandler
 
-客户端命令钩子的处理程序。
+客户端命令钩子的处理器。
 
 **命名空间:** `SwiftlyS2.Shared.Commands`
 

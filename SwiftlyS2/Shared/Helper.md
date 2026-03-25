@@ -42,13 +42,14 @@ string Colored(this string text)
 
 **参数:**
 
-- `text` (`this string`) - 要替换颜色代码的文本。
+- `text` (`this string`) - 用于替换颜色代码的文本。
 
 **返回值:** `string` - 已替换颜色代码的文本。
 
 **用法示例:**
 ```csharp
-Helper.Colored("Hello [red]World[/red]")
+string input = "&cHello &fWorld";
+string output = Helper.Colored(input);
 ```
 
 ### AsSchema<T> (静态)
@@ -61,13 +62,13 @@ T AsSchema<T>(nint ptr)
 
 **参数:**
 
-- `ptr` (`nint`) - 指向架构类的指针。
+- `ptr` (`nint`) - 指向模式类的指针。
 
-**返回值:** `T` - 架构类。
+**返回值:** `T` - 模式类。
 
 **用法示例:**
 ```csharp
-var schema = Helper.AsSchema<MySchema>(ptr);
+var schema = Helper.AsSchema<CBasePlayer>(playerPtr);
 ```
 
 ### AsProtobuf<T> (静态)
@@ -76,18 +77,18 @@ var schema = Helper.AsSchema<MySchema>(ptr);
 T AsProtobuf<T>(nint ptr, bool manuallyAllocated)
 ```
 
-将指针转换为 protobuf 类。
+将指针转换为 Protobuf 类。
 
 **参数:**
 
-- `ptr` (`nint`) - 指向 protobuf 类的指针。
+- `ptr` (`nint`) - 指向 Protobuf 类的指针。
 - `manuallyAllocated` (`bool`) - 指针是否为手动分配。
 
-**返回值:** `T` - protobuf 类。
+**返回值:** `T` - Protobuf 类。
 
 **用法示例:**
 ```csharp
-var protobufObj = Helper.AsProtobuf<MyProto>(ptr, true);
+var protobuf = Helper.AsProtobuf<MyProtoClass>(pointer, false);
 ```
 
 ### GetSchemaSize<T> (静态)
@@ -102,6 +103,6 @@ int GetSchemaSize<T>()
 
 **用法示例:**
 ```csharp
-int size = Helper.GetSchemaSize<MySchema>();
+int size = Helper.GetSchemaSize<MySchemaClass>();
 ```
 

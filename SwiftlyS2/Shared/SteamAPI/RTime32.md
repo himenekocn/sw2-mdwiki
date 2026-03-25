@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string timeStr = RTime32.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(RTime32 that)
 
 **用法示例:**
 ```csharp
-uint val = (uint)RTime32.someInstance;
+uint timestamp = RTime32.uint(existingRTime32);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(RTime32 other)
 
 **用法示例:**
 ```csharp
-RTime32 time1 = RTime32.Now;  
-int result = time1.CompareTo(RTime32.Zero);
+int result = existingTime.CompareTo(otherTime);
 ```
 

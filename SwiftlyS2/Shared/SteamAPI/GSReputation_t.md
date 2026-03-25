@@ -32,6 +32,6 @@ Unix epoch(seconds since 1/1/1970)
 
 **用法示例:**
 ```csharp
-long timestamp = GSReputation_t.UnixEpoch();
+long epochSeconds = gsReputation.UnixEpoch();
 ```
 

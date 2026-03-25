@@ -1,6 +1,6 @@
 # 🔌 IMenuOption
 
-表示一个可供玩家显示和交互的菜单选项。
+表示一个可由玩家显示并与之交互的菜单选项。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -14,12 +14,12 @@
 |------|------|--------|------|
 | `Menu` | `IMenuAPI?` | get | 获取此选项所属的菜单。 |
 | `LineCount` | `int` | get | 获取此选项在菜单中请求占用的行数。 |
-| `Text` | `string` | get, set | 获取或设置为此菜单选项显示的文本内容。 |
-| `Comment` | `string` | get, set | 获取或设置为此菜单选项显示的注释内容。 |
-| `MaxWidth` | `float` | get, set | 菜单选项文本的最大显示宽度（以相对单位表示）。 |
-| `Visible` | `bool` | get, set | 获取或设置一个值，该值指示此选项是否在菜单中可见。 |
-| `Enabled` | `bool` | get, set | 获取或设置一个值，该值指示此选项是否可以交互。 |
-| `CloseAfterClick` | `bool` | get | 获取一个值，该值指示在处理完点击后是否应关闭菜单。 |
+| `Text` | `string` | get, set | 获取或设置此菜单选项显示的文本内容。 |
+| `Comment` | `string` | get, set | 获取或设置此菜单选项显示的注释内容。 |
+| `MaxWidth` | `float` | get, set | 菜单选项文本在相对单位下的最大显示宽度。 |
+| `Visible` | `bool` | get, set | 获取或设置一个值，指示此选项是否在菜单中可见。 |
+| `Enabled` | `bool` | get, set | 获取或设置一个值，指示该选项是否可交互。 |
+| `CloseAfterClick` | `bool` | get | 获取一个值，该值指示在处理点击后菜单是否应关闭。 |
 | `Tag` | `object?` | get, set | 获取或设置一个包含此选项相关数据的对象。 |
 | `TextSize` | `MenuOptionTextSize` | get, set | 获取或设置此选项的文本大小。 |
 | `TextStyle` | `MenuOptionTextStyle` | get, set | 获取或设置此选项的文本溢出样式。 |
@@ -37,13 +37,13 @@ bool IsClickTaskCompleted(IPlayer player)
 
 **参数:**
 
-- `player` (`IPlayer`) - 要检查的玩家。
+- `player` (`IPlayer`) - 待检查的玩家。
 
-**返回值:** `bool` - 如果点击任务已完成，则为 true；否则为 false。
+**返回值:** `bool` - 若点击任务已完成则为 true；否则为 false。
 
 **用法示例:**
 ```csharp
-bool completed = menuOption.IsClickTaskCompleted(player);
+bool isCompleted = menuOption.IsClickTaskCompleted(player);
 ```
 
 ### GetVisible
@@ -56,13 +56,13 @@ bool GetVisible(IPlayer player)
 
 **参数:**
 
-- `player` (`IPlayer`) - 要检查其可见性的玩家。
+- `player` (`IPlayer`) - 待检查可见性的玩家。
 
 **返回值:** `bool` - 如果该选项对玩家可见，则为 true；否则为 false。
 
 **用法示例:**
 ```csharp
-return menuOption.GetVisible(player);
+bool isVisible = menuOption.GetVisible(player);
 ```
 
 ### SetVisible
@@ -71,16 +71,16 @@ return menuOption.GetVisible(player);
 void SetVisible(IPlayer player, bool visible)
 ```
 
-设置此选项对特定玩家的可见性。
+为特定玩家设置此选项的可见性。
 
 **参数:**
 
-- `player` (`IPlayer`) - 要设置其可见性的玩家。
-- `visible` (`bool`) - 为 true 时，使该选项对玩家可见；为 false 时，隐藏该选项。
+- `player` (`IPlayer`) - 要设置可见性的玩家。
+- `visible` (`bool`) - 为 true 可使该选项对玩家可见；为 false 则将其隐藏。
 
 **用法示例:**
 ```csharp
-menuOption.SetVisible(player, true);
+menuOption.SetVisible(player, false);
 ```
 
 ### GetEnabled
@@ -93,13 +93,13 @@ bool GetEnabled(IPlayer player)
 
 **参数:**
 
-- `player` (`IPlayer`) - 要检查启用状态的玩家。
+- `player` (`IPlayer`) - 待检查启用状态的玩家。
 
-**返回值:** `bool` - 如果该选项对玩家已启用，则为 true；否则为 false。
+**返回值:** `bool` - 若该选项为玩家启用，则为 true；否则为 false。
 
 **用法示例:**
 ```csharp
-bool enabled = menuOption.GetEnabled(player);
+bool isEnabled = menuOption.GetEnabled(player);
 ```
 
 ### SetEnabled
@@ -108,12 +108,12 @@ bool enabled = menuOption.GetEnabled(player);
 void SetEnabled(IPlayer player, bool enabled)
 ```
 
-为特定玩家设置此选项的启用状态。
+为指定玩家设置此选项的启用状态。
 
 **参数:**
 
 - `player` (`IPlayer`) - 要设置启用状态的玩家。
-- `enabled` (`bool`) - 为 true 时启用该玩家选项；为 false 时禁用该选项。
+- `enabled` (`bool`) - 设为 true 启用玩家选项；设为 false 禁用该选项。
 
 **用法示例:**
 ```csharp
@@ -134,7 +134,7 @@ string GetText(IPlayer player)
 
 **用法示例:**
 ```csharp
-player.GetText();
+string text = menuOption.GetText(player);
 ```
 
 ### GetFormattedHtmlText
@@ -151,7 +151,7 @@ string GetFormattedHtmlText(IPlayer player)
 
 **用法示例:**
 ```csharp
-option.GetFormattedHtmlText(player);
+string html = menuOption.GetFormattedHtmlText(player);
 ```
 
 ### GetDisplayText
@@ -160,18 +160,18 @@ option.GetFormattedHtmlText(player);
 string GetDisplayText(IPlayer player, int displayLine = 0)
 ```
 
-获取此选项的显示文本，该文本应显示给指定的玩家。
+获取该选项针对指定玩家应显示的文本。
 
 **参数:**
 
 - `player` (`IPlayer`) - 请求显示文本的玩家。
 - `displayLine` (`int`) = `0` - 选项的显示行索引。
 
-**返回值:** `string` - 选项的格式化显示文本。
+**返回值:** `string` - 该选项的格式化显示文本。
 
 **用法示例:**
 ```csharp
-return option.GetDisplayText(player, 0);
+string text = menuOption.GetDisplayText(player, 0);
 ```
 
 ### OnValidatingAsync
@@ -180,17 +180,17 @@ return option.GetDisplayText(player, 0);
 ValueTask<bool> OnValidatingAsync(IPlayer player)
 ```
 
-验证指定的玩家是否可以与此选项进行交互。
+验证指定玩家是否能够与该选项进行交互。
 
 **参数:**
 
-- `player` (`IPlayer`) - 要验证的玩家。
+- `player` (`IPlayer`) - 待验证的玩家。
 
-**返回值:** `ValueTask\<bool\>` - 一个表示异步操作的任务。如果验证成功，任务结果为 true；否则为 false。
+**返回值:** `ValueTask\<bool\>` - 一个表示异步操作的 Task。Task 的结果为 true 表示验证成功；否则为 false。
 
 **用法示例:**
 ```csharp
-await menuOption.OnValidatingAsync(player);
+var canInteract = await menuOption.OnValidatingAsync(player);
 ```
 
 ### OnClickAsync
@@ -217,13 +217,13 @@ await menuOption.OnClickAsync(player, true);
 ValueTask OnClickAsync(IPlayer player)
 ```
 
-处理此选项的点击操作。
+处理此选项的点击动作。
 
 **参数:**
 
 - `player` (`IPlayer`) - 点击该选项的玩家。
 
-**返回值:** `ValueTask` - 一个表示异步操作的任务。
+**返回值:** `ValueTask` - 表示异步操作的 Task。
 
 **用法示例:**
 ```csharp

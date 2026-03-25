@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = inventoryResult.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator int(SteamInventoryResult_t that)
 
 **用法示例:**
 ```csharp
-int result = SteamInventoryResult_t(someInstance);
+int resultValue = SteamInventoryResult_t.int(existingResult);
 ```
 
 ### Equals
@@ -92,8 +87,6 @@ int CompareTo(SteamInventoryResult_t other)
 
 **用法示例:**
 ```csharp
-SteamInventoryResult_t result1 = SteamInventoryResult_t.Success;  
-SteamInventoryResult_t result2 = SteamInventoryResult_t.NoInv;  
-int comparison = result1.CompareTo(result2);
+int result = existingResult.CompareTo(otherResult);
 ```
 

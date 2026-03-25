@@ -29,7 +29,7 @@
 
 **用法示例:**
 ```csharp
-CVariant.byte();
+CVariant variant = CVariant.byte((byte)Team.T);
 ```
 
 ### IsVoid
@@ -42,8 +42,7 @@ bool IsVoid()
 
 **用法示例:**
 ```csharp
-CVariant variant;
-bool result = variant.IsVoid();
+bool isVoid = cVariant.IsVoid();
 ```
 
 ### SetBool
@@ -73,7 +72,6 @@ void SetChar(char value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
 variant.SetChar('A');
 ```
 
@@ -89,7 +87,6 @@ void SetShort(short value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
 variant.SetShort(123);
 ```
 
@@ -105,8 +102,7 @@ void SetUShort(ushort value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetUShort(42);
+CVariant variant; variant.SetUShort(123);
 ```
 
 ### SetInt
@@ -121,7 +117,6 @@ void SetInt(int value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
 variant.SetInt(42);
 ```
 
@@ -137,8 +132,7 @@ void SetUInt(uint value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetUInt(42u);
+variant.SetUInt(42);
 ```
 
 ### SetLong
@@ -153,7 +147,7 @@ void SetLong(long value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
+CVariant variant;
 variant.SetLong(12345L);
 ```
 
@@ -169,8 +163,8 @@ void SetULong(ulong value)
 
 **用法示例:**
 ```csharp
-CVariant var;  
-var.SetULong(123456ul);
+CVariant var;
+var.SetULong(1234567890);
 ```
 
 ### SetFloat
@@ -185,7 +179,6 @@ void SetFloat(float value)
 
 **用法示例:**
 ```csharp
-CVariant variant;
 variant.SetFloat(3.14f);
 ```
 
@@ -201,8 +194,7 @@ void SetDouble(double value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetDouble(3.14);
+CVariant variant; variant.SetDouble(3.14);
 ```
 
 ### SetResourceHandle
@@ -217,7 +209,7 @@ void SetResourceHandle(ResourceHandle value)
 
 **用法示例:**
 ```csharp
-convar.SetResourceHandle(ResourceHandle.Invalid);
+variant.SetResourceHandle(handle);
 ```
 
 ### SetUtlStringToken
@@ -232,8 +224,7 @@ void SetUtlStringToken(CUtlStringToken value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetUtlStringToken(CUtlStringToken.Invalid);
+variant.SetUtlStringToken(token);
 ```
 
 ### SetHScript
@@ -248,7 +239,7 @@ void SetHScript(HSCRIPT value)
 
 **用法示例:**
 ```csharp
-convar.SetHScript(HSCRIPT.NULL);
+variant.SetHScript(existingScript);
 ```
 
 ### SetHandle
@@ -263,8 +254,7 @@ void SetHandle(ICHandle value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetHandle(ICHandle.Null);
+variant.SetHandle(handle);
 ```
 
 ### SetString
@@ -279,8 +269,7 @@ void SetString(string value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetString("Hello World");
+variant.SetString("HelloWorld");
 ```
 
 ### SetVector2D
@@ -295,7 +284,7 @@ void SetVector2D(Vector2D value)
 
 **用法示例:**
 ```csharp
-convar.SetVector2D(new Vector2D(1.0f, 2.0f));
+CVariant variant; variant.SetVector2D(new Vector2D(1.0f, 2.0f));
 ```
 
 ### SetVector
@@ -310,8 +299,7 @@ void SetVector(Vector value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetVector(new Vector(1f, 2f, 3f));
+CVariant variant; variant.SetVector(Vector.Zero);
 ```
 
 ### SetVector4D
@@ -326,8 +314,7 @@ void SetVector4D(Vector4D value)
 
 **用法示例:**
 ```csharp
-CVariant var;  
-var.SetVector4D(new Vector4D(1f, 2f, 3f, 4f));
+CVariant variant; variant.SetVector4D(new Vector4D(1.0f, 2.0f, 3.0f, 4.0f));
 ```
 
 ### SetQAngle
@@ -342,8 +329,7 @@ void SetQAngle(QAngle value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetQAngle(new QAngle(0f, 90f, 0f));
+variant.SetQAngle(QAngle.Zero);
 ```
 
 ### SetQuaternion
@@ -358,8 +344,7 @@ void SetQuaternion(Quaternion value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetQuaternion(Quaternion.identity);
+variant.SetQuaternion(Quaternion.Euler(0, 90, 0));
 ```
 
 ### SetColor
@@ -374,8 +359,7 @@ void SetColor(Color value)
 
 **用法示例:**
 ```csharp
-CVariant variant;  
-variant.SetColor(Color.Red);
+cvar.SetColor(Color.Red);
 ```
 
 ### Set<T>
@@ -390,9 +374,7 @@ void Set<T>(T value)
 
 **用法示例:**
 ```csharp
-variant.Set(42);
-variant.Set("hello");
-variant.Set(Team.T);
+CVariant variant; variant.Set(42);
 ```
 
 ### TryGetBool
@@ -409,7 +391,7 @@ bool TryGetBool([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-bool result = convar.TryGetBool(out bool value);
+bool success = variant.TryGetBool(out bool value);
 ```
 
 ### TryGetChar
@@ -426,8 +408,7 @@ bool TryGetChar([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-char c;
-bool success = convar.TryGetChar(out c);
+char value; bool success = variant.TryGetChar(out value);
 ```
 
 ### TryGetInt16
@@ -444,8 +425,7 @@ bool TryGetInt16([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-short value;
-bool success = convar.TryGetInt16(out value);
+if (convar.TryGetInt16(out short value)) { }
 ```
 
 ### TryGetUInt16
@@ -462,8 +442,7 @@ bool TryGetUInt16([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-ushort value;
-bool success = CVariant.TryGetUInt16(out value);
+bool success = variant.TryGetUInt16(out ushort value);
 ```
 
 ### TryGetInt32
@@ -480,8 +459,7 @@ bool TryGetInt32([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-int value;
-bool success = CVariant.TryGetInt32(out value);
+if (variant.TryGetInt32(out int value)) { Console.WriteLine(value); }
 ```
 
 ### TryGetUInt32
@@ -498,8 +476,7 @@ bool TryGetUInt32([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-uint value;
-bool success = CVariant.TryGetUInt32(out value);
+if (variant.TryGetUInt32(out uint value)) { Console.WriteLine(value); }
 ```
 
 ### TryGetInt64
@@ -516,8 +493,7 @@ bool TryGetInt64([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-long value;
-bool success = CVariant.TryGetInt64(out value);
+bool success = variant.TryGetInt64(out long value);
 ```
 
 ### TryGetUInt64
@@ -534,8 +510,7 @@ bool TryGetUInt64([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-ulong value;
-bool success = CVariant.TryGetUInt64(out value);
+if (variant.TryGetUInt64(out ulong value)) { Console.WriteLine(value); }
 ```
 
 ### TryGetFloat
@@ -552,8 +527,7 @@ bool TryGetFloat([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-float value;
-bool success = CVariant.TryGetFloat(out value);
+if (variant.TryGetFloat(out float value)) Console.WriteLine(value);
 ```
 
 ### TryGetDouble
@@ -570,8 +544,7 @@ bool TryGetDouble([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-double value;
-bool success = CVariant.TryGetDouble(out value);
+if (variant.TryGetDouble(out double value)) Console.WriteLine(value);
 ```
 
 ### TryGetResourceHandle
@@ -588,7 +561,6 @@ bool TryGetResourceHandle([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-CVariant variant = default;
 bool success = variant.TryGetResourceHandle(out var handle);
 ```
 
@@ -606,8 +578,7 @@ bool TryGetUtlStringToken([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-CVariant variant = default;
-bool success = variant.TryGetUtlStringToken(out var token);
+bool success = variant.TryGetUtlStringToken(out string token);
 ```
 
 ### TryGetHScript
@@ -624,8 +595,7 @@ bool TryGetHScript([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-CVariant variant = default;
-bool success = variant.TryGetHScript(out HScript script);
+bool success = variant.TryGetHScript(out var hScript);
 ```
 
 ### TryGetCHandle<T>
@@ -642,7 +612,7 @@ bool TryGetCHandle<T>([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-if (variant.TryGetCHandle<int>(out var handle)) { /* use handle */ }
+if (variant.TryGetCHandle<CBasePlayer>(out var handle)) { var player = handle; }
 ```
 
 ### TryGetVector2D
@@ -659,8 +629,7 @@ bool TryGetVector2D([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-Vector2D v;  
-bool success = convar.TryGetVector2D(out v);
+if (variant.TryGetVector2D(out var vector)) { Console.WriteLine(vector); }
 ```
 
 ### TryGetVector
@@ -677,8 +646,7 @@ bool TryGetVector([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-Vector3 position;
-bool success = convar.TryGetVector(out position);
+if (variant.TryGetVector(out var vector)) { }
 ```
 
 ### TryGetVector4D
@@ -695,8 +663,7 @@ bool TryGetVector4D([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-Vector4D v;  
-bool success = convar.TryGetVector4D(out v);
+if (variant.TryGetVector4D(out var vector)) { Console.WriteLine(vector); }
 ```
 
 ### TryGetQAngle
@@ -713,7 +680,6 @@ bool TryGetQAngle([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-CVariant variant = default;
 bool success = variant.TryGetQAngle(out QAngle angle);
 ```
 
@@ -731,8 +697,7 @@ bool TryGetQuaternion([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-CVariant variant = default;
-bool success = variant.TryGetQuaternion(out Quaternion q);
+bool success = variant.TryGetQuaternion(out var quaternion);
 ```
 
 ### TryGetColor
@@ -749,8 +714,7 @@ bool TryGetColor([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-CVariant variant = default;
-bool success = variant.TryGetColor(out Color color);
+if (cVariant.TryGetColor(out var color)) { Console.WriteLine(color); }
 ```
 
 ### TryGetString
@@ -767,8 +731,7 @@ bool TryGetString([MaybeNullWhen(false )
 
 **用法示例:**
 ```csharp
-string result;
-bool success = CVariant.TryGetString("key", out result);
+if (variant.TryGetString(out string? value)) Console.WriteLine(value);
 ```
 
 ### ToString
@@ -787,7 +750,6 @@ void Free()
 
 **用法示例:**
 ```csharp
-CVariant variant = default;
 variant.Free();
 ```
 

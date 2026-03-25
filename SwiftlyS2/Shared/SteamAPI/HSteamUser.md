@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string result = player.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator int(HSteamUser that)
 
 **用法示例:**
 ```csharp
-int value = (int)HSteamUser.someInstance;
+int userId = HSteamUser.int(existingUser);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(HSteamUser other)
 
 **用法示例:**
 ```csharp
-HSteamUser a = SteamAPI.GetLocalPlayer();  
-int result = a.CompareTo(otherUser);
+int result = user.CompareTo(otherUser);
 ```
 

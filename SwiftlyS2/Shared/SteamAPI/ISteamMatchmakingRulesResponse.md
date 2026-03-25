@@ -27,7 +27,7 @@ void RulesResponded(string pchRule, string pchValue)
 
 **用法示例:**
 ```csharp
-ISteamMatchmakingRulesResponse.RulesResponded("map", "de_dust2");
+existingInstance.RulesResponded("game_mode", "competitive");
 ```
 
 ### RulesFailedToRespond
@@ -38,7 +38,7 @@ void RulesFailedToRespond()
 
 **用法示例:**
 ```csharp
-ISteamMatchmakingRulesResponse.RulesFailedToRespond();
+rulesResponse.RulesFailedToRespond();
 ```
 
 ### RulesRefreshComplete
@@ -49,7 +49,7 @@ void RulesRefreshComplete()
 
 **用法示例:**
 ```csharp
-ISteamMatchmakingRulesResponse.RulesRefreshComplete();
+matchmakingRulesResponse.RulesRefreshComplete();
 ```
 
 ### InternalRulesResponded
@@ -65,7 +65,7 @@ void InternalRulesResponded(IntPtr pchRule, IntPtr pchValue)
 
 **用法示例:**
 ```csharp
-ISteamMatchmakingRulesResponse.InternalRulesResponded(IntPtr.Zero, IntPtr.Zero);
+instance.InternalRulesResponded(IntPtr.Zero, IntPtr.Zero);
 ```
 
 ### InternalRulesFailedToRespond
@@ -76,7 +76,7 @@ void InternalRulesFailedToRespond()
 
 **用法示例:**
 ```csharp
-ISteamMatchmakingRulesResponse.InternalRulesFailedToRespond();
+rulesResponse.InternalRulesFailedToRespond();
 ```
 
 ### InternalRulesRefreshComplete
@@ -87,6 +87,7 @@ void InternalRulesRefreshComplete()
 
 **用法示例:**
 ```csharp
-ISteamMatchmakingRulesResponse.InternalRulesRefreshComplete();
+var instance = GetExistingRulesResponse();
+instance.InternalRulesRefreshComplete();
 ```
 

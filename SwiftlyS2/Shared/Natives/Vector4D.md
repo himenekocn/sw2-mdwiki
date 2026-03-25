@@ -32,8 +32,7 @@ System.Numerics.Vector4 ToBuiltin()
 
 **用法示例:**
 ```csharp
-Vector4D v = new Vector4D(1, 2, 3, 4);
-System.Numerics.Vector4 builtin = v.ToBuiltin();
+System.Numerics.Vector4 builtin = vector4D.ToBuiltin();
 ```
 
 ### FromBuiltin (静态)
@@ -50,7 +49,7 @@ Vector4D FromBuiltin(System.Numerics.Vector4 vector)
 
 **用法示例:**
 ```csharp
-Vector4D result = Vector4D.FromBuiltin(new System.Numerics.Vector4(1f, 2f, 3f, 4f));
+var result = Vector4D.FromBuiltin(new System.Numerics.Vector4(1, 2, 3, 4));
 ```
 
 ### Normalize
@@ -61,7 +60,7 @@ void Normalize()
 
 **用法示例:**
 ```csharp
-Vector4D v = new Vector4D(1, 2, 3, 4);  
+Vector4D v = default;
 v.Normalize();
 ```
 
@@ -75,8 +74,7 @@ Vector4D Normalized()
 
 **用法示例:**
 ```csharp
-Vector4D v = new Vector4D(1, 2, 3, 4);
-Vector4D normalizedV = v.Normalized();
+Vector4D result = existingVector.Normalized();
 ```
 
 ### Deconstruct
@@ -94,7 +92,6 @@ void Deconstruct(out float x, out float y, out float z, out float w)
 
 **用法示例:**
 ```csharp
-float x, y, z, w;
-convar.Deconstruct(out x, out y, out z, out w);
+Vector4D vec = Vector4D.UnitW; vec.Deconstruct(out float x, out float y, out float z, out float w);
 ```
 

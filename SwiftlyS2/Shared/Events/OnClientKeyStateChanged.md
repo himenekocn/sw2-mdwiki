@@ -1,6 +1,6 @@
 # 🔗 OnClientKeyStateChanged
 
-当客户端的按键状态发生改变时调用。
+当客户端的按键状态发生变化时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

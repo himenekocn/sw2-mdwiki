@@ -24,11 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-string idStr = RemotePlayCursorID_t.SomeValue.ToString();
-```
-
 ### Equals
 
 ```csharp
@@ -63,7 +58,7 @@ operator uint(RemotePlayCursorID_t that)
 
 **用法示例:**
 ```csharp
-uint id = (uint)RemotePlayCursorID_t.SomeValue;
+uint id = RemotePlayCursorID_t.uint(existingCursorID);
 ```
 
 ### Equals
@@ -92,7 +87,6 @@ int CompareTo(RemotePlayCursorID_t other)
 
 **用法示例:**
 ```csharp
-RemotePlayCursorID_t id1 = RemotePlayCursorID_t.First;  
-int result = id1.CompareTo(RemotePlayCursorID_t.Second);
+int result = existingCursor.CompareTo(otherCursor);
 ```
 

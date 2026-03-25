@@ -24,12 +24,6 @@ string ToString()
 
 **返回值:** `string`
 
-**用法示例:**
-```csharp
-PublishedFileUpdateHandle_t handle = PublishedFileUpdateHandle_t.Invalid;  
-Console.WriteLine(handle.ToString());
-```
-
 ### Equals
 
 ```csharp
@@ -64,8 +58,7 @@ operator ulong(PublishedFileUpdateHandle_t that)
 
 **用法示例:**
 ```csharp
-PublishedFileUpdateHandle_t handle = default;
-ulong value = (ulong)handle;
+ulong handle = PublishedFileUpdateHandle_t.ulong(existingHandle);
 ```
 
 ### Equals
@@ -94,7 +87,6 @@ int CompareTo(PublishedFileUpdateHandle_t other)
 
 **用法示例:**
 ```csharp
-PublishedFileUpdateHandle_t handle1 = default;  
-int result = handle1.CompareTo(handle2);
+int result = handle.CompareTo(otherHandle);
 ```
 

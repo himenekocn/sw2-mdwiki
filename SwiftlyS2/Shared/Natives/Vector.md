@@ -1,6 +1,6 @@
 # 🏗️ Vector
 
-起源2的三维向量。告别C#的混乱。
+Source 2 的三维向量。不再有 CSHARP 混乱。
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 
@@ -33,8 +33,7 @@ Vector3 ToBuiltin()
 
 **用法示例:**
 ```csharp
-Vector v = new Vector(1, 2, 3);  
-Vector3 result = v.ToBuiltin();
+Vector3 builtin = vector.ToBuiltin();
 ```
 
 ### Normalize
@@ -45,8 +44,7 @@ void Normalize()
 
 **用法示例:**
 ```csharp
-Vector v = new Vector(1, 2, 3);  
-v.Normalize();
+var vec = Vector.Zero; vec.Normalize();
 ```
 
 ### Normalized
@@ -59,8 +57,7 @@ Vector Normalized()
 
 **用法示例:**
 ```csharp
-Vector v = new Vector(3, 4);  
-Vector normalizedV = v.Normalized();
+Vector normalizedVec = someVector.Normalized();
 ```
 
 ### Deconstruct
@@ -77,10 +74,7 @@ void Deconstruct(out float x, out float y, out float z)
 
 **用法示例:**
 ```csharp
-Vector v = new(); 
-// 修正：假设已有实例  
-Vector v;  
-v.Deconstruct(out float x, out float y, out float z);
+Vector v = default; v.Deconstruct(out float x, out float y, out float z);
 ```
 
 ### ToQAngles
@@ -89,13 +83,13 @@ v.Deconstruct(out float x, out float y, out float z);
 QAngle ToQAngles()
 ```
 
-将此前向向量转换为欧拉角（俯仰角、偏航角、滚转角）。用法：<c>forward.ToQAngles(out var angles);</c>
+将此前方向向量转换为欧拉 Q 角度（俯仰角、偏航角、翻滚角）。用法：<c>forward.ToQAngles(out var angles);</c>
 
-**返回值:** `QAngle` - 生成的 <see cref="QAngle"/>。
+**返回值:** `QAngle` - 结果 <see cref="QAngle"/>。
 
 **用法示例:**
 ```csharp
-forward.ToQAngles(out var angles);
+QAngle angles = forward.ToQAngles();
 ```
 
 ### Serialize
@@ -108,13 +102,13 @@ string Serialize(IFormatProvider? formatProvider = null)
 
 **参数:**
 
-- `formatProvider` (`IFormatProvider?`) = `null` - 用于字符串的格式提供程序。若为 null，则使用默认提供程序。
+- `formatProvider` (`IFormatProvider?`) = `null` - 要使用的字符串格式提供程序。为 null 时，使用默认提供程序。
 
-**返回值:** `string` - 序列化后的向量字符串。
+**返回值:** `string` - 序列化的向量，以字符串形式存储。
 
 **用法示例:**
 ```csharp
-vector.Serialize(null);
+string serialized = vector.Serialize(null);
 ```
 
 ### Deserialize (静态)
@@ -127,14 +121,14 @@ Vector Deserialize(string input, IFormatProvider? formatProvider = null)
 
 **参数:**
 
-- `input` (`string`) - 序列化后的向量字符串。
-- `formatProvider` (`IFormatProvider?`) = `null` - 用于字符串的格式提供程序。若为 null，则使用默认提供程序。
+- `input` (`string`) - 序列化的向量，以字符串形式存储。
+- `formatProvider` (`IFormatProvider?`) = `null` - 要使用的字符串格式提供程序。为 null 时，使用默认提供程序。
 
-**返回值:** `Vector` - 反序列化向量。
+**返回值:** `Vector` - 反序列化的向量。
 
 **用法示例:**
 ```csharp
-Vector v = Vector.Deserialize("100 200 300", null);
+var vector = Vector.Deserialize("100 200 300", null);
 ```
 
 ### TryDeserialize (静态)
@@ -143,17 +137,17 @@ Vector v = Vector.Deserialize("100 200 300", null);
 bool TryDeserialize([NotNullWhen(true )
 ```
 
-尝试从字符串反序列化向量。示例输入："100 200 300"
+尝试将向量从字符串反序列化。示例输入："100 200 300"
 
 **参数:**
 
 - `` (`[NotNullWhen(true`)
 
-**返回值:** `bool` - 如果反序列化成功，则为 true；否则为 false。
+**返回值:** `bool` - 若反序列化成功则为 true，否则为 false。
 
 **用法示例:**
 ```csharp
-Vector.TryDeserialize("100 200 300", out Vector result);
+string input = "100 200 300"; if (Vector.TryDeserialize(input, out var vector)) { }
 ```
 
 ### TryDeserialize (静态)
@@ -162,17 +156,17 @@ Vector.TryDeserialize("100 200 300", out Vector result);
 bool TryDeserialize([NotNullWhen(true )
 ```
 
-尝试从字符串反序列化向量。示例输入："100 200 300"
+尝试将向量从字符串反序列化。示例输入："100 200 300"
 
 **参数:**
 
 - `` (`[NotNullWhen(true`)
 
-**返回值:** `bool` - 如果反序列化成功，则为 true；否则为 false。
+**返回值:** `bool` - 若反序列化成功则为 true，否则为 false。
 
 **用法示例:**
 ```csharp
-Vector.TryDeserialize("100 200 300", out Vector result);
+string input = "100 200 300"; if (Vector.TryDeserialize(input, out var vector)) { }
 ```
 
 ### Distance2D
@@ -189,8 +183,7 @@ float Distance2D(Vector other)
 
 **用法示例:**
 ```csharp
-Vector a = new Vector(1, 2);  
-float dist = a.Distance2D(new Vector(4, 6));
+float dist = player.Position.Distance2D(target.Position);
 ```
 
 ### Distance2DSquared
@@ -207,8 +200,7 @@ float Distance2DSquared(Vector other)
 
 **用法示例:**
 ```csharp
-Vector a = new Vector(1, 2);  
-float distSq = a.Distance2DSquared(new Vector(4, 6));
+float distSq = myVector.Distance2DSquared(targetVector);
 ```
 
 ### Length2D
@@ -221,8 +213,7 @@ float Length2D()
 
 **用法示例:**
 ```csharp
-Vector v = new Vector(3, 4);
-float len2d = v.Length2D();
+float len = player.Position.Length2D();
 ```
 
 ### Length2DSquared
@@ -235,7 +226,7 @@ float Length2DSquared()
 
 **用法示例:**
 ```csharp
-float lenSq = vector.Length2DSquared();
+float lengthSq = vector.Length2DSquared();
 ```
 
 ### Normalize2D
@@ -246,7 +237,7 @@ void Normalize2D()
 
 **用法示例:**
 ```csharp
-Vector v = Vector.One; v.Normalize2D();
+var v = Vector.Zero; v.Normalize2D();
 ```
 
 ### Normalized2D
@@ -259,7 +250,6 @@ Vector Normalized2D()
 
 **用法示例:**
 ```csharp
-Vector v = new Vector(3, 4);  
-Vector normalized = v.Normalized2D();
+Vector normalized = player.Position.Normalized2D();
 ```
 

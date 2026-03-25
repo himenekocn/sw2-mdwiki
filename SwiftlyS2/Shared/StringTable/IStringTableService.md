@@ -12,17 +12,17 @@
 IStringTable? FindTable(string tableName)
 ```
 
-根据名称查找字符串表。
+通过名称查找字符串表。
 
 **参数:**
 
-- `tableName` (`string`) - 要查找的字符串表的名称。
+- `tableName` (`string`) - 要查找的字符串表名称。
 
-**返回值:** `IStringTable?` - 字符串表，如果未找到字符串表，则为 null。
+**返回值:** `IStringTable?` - 字符串表，若未找到字符串表则为 null。
 
 **用法示例:**
 ```csharp
-IStringTable? table = stringTableService.FindTable("MyTable");
+var table = stringTableService.FindTable("MyTable");
 ```
 
 ### FindTableById
@@ -31,16 +31,16 @@ IStringTable? table = stringTableService.FindTable("MyTable");
 IStringTable? FindTableById(int tableId)
 ```
 
-根据ID查找字符串表。
+根据 ID 查找字符串表。
 
 **参数:**
 
-- `tableId` (`int`) - 要查找的字符串表的 ID。
+- `tableId` (`int`) - 要查找的字符串表 ID。
 
-**返回值:** `IStringTable?` - 字符串表，如果未找到字符串表，则为 null。
+**返回值:** `IStringTable?` - 字符串表，若未找到字符串表则为 null。
 
 **用法示例:**
 ```csharp
-IStringTable? table = stringTableService.FindTableById(123);
+var table = service.FindTableById(1);
 ```
 

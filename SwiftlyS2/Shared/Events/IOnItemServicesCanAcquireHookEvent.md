@@ -8,11 +8,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ItemServices` | `CCSPlayer_ItemServices` | get | 项目服务。 |
+| `ItemServices` | `CCSPlayer_ItemServices` | get | 物品服务。 |
 | `EconItemView` | `CEconItemView` | get | 经济物品视图。 |
-| `WeaponVData` | `CCSWeaponBaseVData?` | get | 如果找到，则为武器 vdata，否则为 null。 |
+| `WeaponVData` | `CCSWeaponBaseVData?` | get | 若找到该武器的 VData，则返回；否则为 null。 |
 | `AcquireMethod` | `AcquireMethod` | get | 获取方法。 |
-| `OriginalResult` | `AcquireResult` | get | CanAcquire 调用的原始结果。 |
+| `OriginalResult` | `AcquireResult` | get | CanAcquire 调用的原始返回结果。 |
 
 ## ⚙️ 方法
 
@@ -22,7 +22,7 @@
 void SetAcquireResult(AcquireResult result)
 ```
 
-拦截并修改获取结果。这将修改获取结果并停止后续的钩子和原始函数。
+拦截并修改获取结果。这将修改获取结果，并阻止后续钩子及原始函数的执行。
 
 **参数:**
 
@@ -30,6 +30,6 @@ void SetAcquireResult(AcquireResult result)
 
 **用法示例:**
 ```csharp
-hook.SetAcquireResult(AcquireResult.Success);
+hookEvent.SetAcquireResult(AcquireResult.Deny);
 ```
 

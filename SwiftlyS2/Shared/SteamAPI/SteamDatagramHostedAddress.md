@@ -21,7 +21,6 @@ void Clear()
 
 **用法示例:**
 ```csharp
-SteamDatagramHostedAddress addr;
-addr.Clear();
+hostedAddress.Clear();
 ```
 

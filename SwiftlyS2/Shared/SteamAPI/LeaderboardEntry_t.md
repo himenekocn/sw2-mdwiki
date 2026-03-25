@@ -25,6 +25,6 @@ use SteamFriends()
 
 **用法示例:**
 ```csharp
-LeaderboardEntry_t.SteamFriends();
+leaderboardEntry.SteamFriends();
 ```
 
