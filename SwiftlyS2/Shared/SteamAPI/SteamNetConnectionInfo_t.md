@@ -1,3 +1,5 @@
+<a id="steamnetconnectioninfo_t"></a>
+
 # 🏗️ SteamNetConnectionInfo_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="convarcallbackdelegate"></a>
+
 # 🔗 ConVarCallbackDelegate
 
 **命名空间:** `SwiftlyS2.Core.Convars`

@@ -1,3 +1,5 @@
+<a id="screenshotready_t"></a>
+
 # 🏗️ ScreenshotReady_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

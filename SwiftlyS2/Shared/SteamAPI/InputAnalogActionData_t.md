@@ -1,3 +1,5 @@
+<a id="inputanalogactiondata_t"></a>
+
 # 🏗️ InputAnalogActionData_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

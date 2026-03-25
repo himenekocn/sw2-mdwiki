@@ -1,3 +1,5 @@
+<a id="musicplayerwantslooped_t"></a>
+
 # 🏗️ MusicPlayerWantsLooped_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

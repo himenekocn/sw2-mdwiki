@@ -1,3 +1,5 @@
+<a id="egamepadtextinputlinemode"></a>
+
 # 📋 EGamepadTextInputLineMode
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

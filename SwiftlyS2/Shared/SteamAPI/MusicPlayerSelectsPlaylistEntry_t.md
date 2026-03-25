@@ -1,3 +1,5 @@
+<a id="musicplayerselectsplaylistentry_t"></a>
+
 # 🏗️ MusicPlayerSelectsPlaylistEntry_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

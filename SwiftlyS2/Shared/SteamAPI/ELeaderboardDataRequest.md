@@ -1,3 +1,5 @@
+<a id="eleaderboarddatarequest"></a>
+
 # 📋 ELeaderboardDataRequest
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="networkaddress"></a>
+
 # 🏗️ NetworkAddress
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

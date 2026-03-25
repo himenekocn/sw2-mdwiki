@@ -1,3 +1,5 @@
+<a id="onweaponservicescanusehook"></a>
+
 # 🔗 OnWeaponServicesCanUseHook
 
 当武器服务可使用挂钩被触发时调用。

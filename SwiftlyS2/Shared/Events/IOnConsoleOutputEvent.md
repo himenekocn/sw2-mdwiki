@@ -1,3 +1,5 @@
+<a id="ionconsoleoutputevent"></a>
+
 # 🔌 IOnConsoleOutputEvent
 
 当接收到控制台输出时调用。

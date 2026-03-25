@@ -1,3 +1,5 @@
+<a id="onconcommandcreated"></a>
+
 # 🔗 OnConCommandCreated
 
 当创建 ConCommand 时调用。

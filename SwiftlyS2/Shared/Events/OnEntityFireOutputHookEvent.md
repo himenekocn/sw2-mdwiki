@@ -1,3 +1,5 @@
+<a id="onentityfireoutputhookevent"></a>
+
 # 🔗 OnEntityFireOutputHookEvent
 
 当实体触发输出时调用。

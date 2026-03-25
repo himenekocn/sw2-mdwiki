@@ -1,3 +1,5 @@
+<a id="steaminventoryresultready_t"></a>
+
 # 🏗️ SteamInventoryResultReady_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

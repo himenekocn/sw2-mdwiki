@@ -1,3 +1,5 @@
+<a id="menuoptionscrollstyle"></a>
+
 # 📋 MenuOptionScrollStyle
 
 定义在选项之间导航时菜单的滚动方式。

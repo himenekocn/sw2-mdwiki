@@ -1,3 +1,5 @@
+<a id="hsteamnetconnection"></a>
+
 # 🏗️ HSteamNetConnection
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

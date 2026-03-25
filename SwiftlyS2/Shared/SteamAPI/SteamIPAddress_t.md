@@ -1,3 +1,5 @@
+<a id="steamipaddress_t"></a>
+
 # 🏗️ SteamIPAddress_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

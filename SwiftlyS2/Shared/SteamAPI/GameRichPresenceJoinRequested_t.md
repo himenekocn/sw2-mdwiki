@@ -1,3 +1,5 @@
+<a id="gamerichpresencejoinrequested_t"></a>
+
 # 🏗️ GameRichPresenceJoinRequested_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

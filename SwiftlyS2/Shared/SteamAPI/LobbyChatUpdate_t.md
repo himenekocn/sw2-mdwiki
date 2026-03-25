@@ -1,3 +1,5 @@
+<a id="lobbychatupdate_t"></a>
+
 # 🏗️ LobbyChatUpdate_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

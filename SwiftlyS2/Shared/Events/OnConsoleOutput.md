@@ -1,3 +1,5 @@
+<a id="onconsoleoutput"></a>
+
 # 🔗 OnConsoleOutput
 
 当接收到控制台输出时调用。

@@ -1,3 +1,5 @@
+<a id="gameserver"></a>
+
 # 📦 GameServer
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

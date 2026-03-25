@@ -1,3 +1,5 @@
+<a id="gcmessageavailable_t"></a>
+
 # 🏗️ GCMessageAvailable_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

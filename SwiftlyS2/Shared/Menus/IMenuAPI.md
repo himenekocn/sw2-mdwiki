@@ -1,3 +1,5 @@
+<a id="imenuapi"></a>
+
 # 🔌 IMenuAPI
 
 表示一个可以向玩家显示的交互式菜单。

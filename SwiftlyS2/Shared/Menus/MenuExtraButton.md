@@ -1,3 +1,5 @@
+<a id="menuextrabutton"></a>
+
 # 📦 MenuExtraButton
 
 表示菜单中的一个额外按钮，按下时执行自定义操作。

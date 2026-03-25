@@ -1,3 +1,5 @@
+<a id="eremotestoragefilepathtype"></a>
+
 # 📋 ERemoteStorageFilePathType
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="eparentalfeature"></a>
+
 # 📋 EParentalFeature
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

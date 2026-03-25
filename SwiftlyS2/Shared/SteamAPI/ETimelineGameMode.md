@@ -1,3 +1,5 @@
+<a id="etimelinegamemode"></a>
+
 # 📋 ETimelineGameMode
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

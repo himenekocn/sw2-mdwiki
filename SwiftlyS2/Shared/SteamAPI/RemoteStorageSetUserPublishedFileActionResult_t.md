@@ -1,3 +1,5 @@
+<a id="remotestoragesetuserpublishedfileactionresult_t"></a>
+
 # 🏗️ RemoteStorageSetUserPublishedFileActionResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

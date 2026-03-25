@@ -1,3 +1,5 @@
+<a id="imenuoption"></a>
+
 # 🔌 IMenuOption
 
 表示一个可由玩家显示并与之交互的菜单选项。

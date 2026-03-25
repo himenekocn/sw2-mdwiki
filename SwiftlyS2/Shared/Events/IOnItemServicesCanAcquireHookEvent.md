@@ -1,3 +1,5 @@
+<a id="ionitemservicescanacquirehookevent"></a>
+
 # 🔌 IOnItemServicesCanAcquireHookEvent
 
 **命名空间:** `SwiftlyS2.Shared.Events`

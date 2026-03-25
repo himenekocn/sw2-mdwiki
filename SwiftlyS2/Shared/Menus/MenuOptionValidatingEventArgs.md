@@ -1,3 +1,5 @@
+<a id="menuoptionvalidatingeventargs"></a>
+
 # 📦 MenuOptionValidatingEventArgs
 
 为菜单选项验证事件提供事件数据。

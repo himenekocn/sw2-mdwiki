@@ -1,3 +1,5 @@
+<a id="itranslationservice"></a>
+
 # 🔌 ITranslationService
 
 **命名空间:** `SwiftlyS2.Shared.Translation`

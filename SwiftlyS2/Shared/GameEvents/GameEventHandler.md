@@ -1,3 +1,5 @@
+<a id="gameeventhandler"></a>
+
 # 📦 GameEventHandler
 
 **命名空间:** `SwiftlyS2.Shared.GameEvents`

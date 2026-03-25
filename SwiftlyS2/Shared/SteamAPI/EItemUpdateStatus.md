@@ -1,3 +1,5 @@
+<a id="eitemupdatestatus"></a>
+
 # 📋 EItemUpdateStatus
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

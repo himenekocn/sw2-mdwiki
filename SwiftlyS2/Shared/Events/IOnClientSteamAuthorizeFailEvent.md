@@ -1,3 +1,5 @@
+<a id="ionclientsteamauthorizefailevent"></a>
+
 # 🔌 IOnClientSteamAuthorizeFailEvent
 
 当客户端的 Steam 授权失败时调用。

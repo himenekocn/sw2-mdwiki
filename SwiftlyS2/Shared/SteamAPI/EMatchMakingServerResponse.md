@@ -1,3 +1,5 @@
+<a id="ematchmakingserverresponse"></a>
+
 # 📋 EMatchMakingServerResponse
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="setuseritemvoteresult_t"></a>
+
 # 🏗️ SetUserItemVoteResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

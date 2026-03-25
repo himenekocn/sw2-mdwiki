@@ -1,3 +1,5 @@
+<a id="remotestoragepublishedfilesubscribed_t"></a>
+
 # 🏗️ RemoteStoragePublishedFileSubscribed_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

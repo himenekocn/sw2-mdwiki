@@ -1,3 +1,5 @@
+<a id="pluginstatus"></a>
+
 # 📋 PluginStatus
 
 **命名空间:** `SwiftlyS2.Shared.Plugins`

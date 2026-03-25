@@ -1,3 +1,5 @@
+<a id="steamgameserverinventory"></a>
+
 # 📦 SteamGameServerInventory
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="gsstatsunloaded_t"></a>
+
 # 🏗️ GSStatsUnloaded_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

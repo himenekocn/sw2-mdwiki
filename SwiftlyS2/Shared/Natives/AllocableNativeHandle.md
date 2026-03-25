@@ -1,3 +1,5 @@
+<a id="allocablenativehandle"></a>
+
 # 📦 AllocableNativeHandle
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

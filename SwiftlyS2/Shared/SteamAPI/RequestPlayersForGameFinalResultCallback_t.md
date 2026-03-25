@@ -1,3 +1,5 @@
+<a id="requestplayersforgamefinalresultcallback_t"></a>
+
 # 🏗️ RequestPlayersForGameFinalResultCallback_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="getvideourlresult_t"></a>
+
 # 🏗️ GetVideoURLResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

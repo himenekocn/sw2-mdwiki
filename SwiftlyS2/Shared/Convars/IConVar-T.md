@@ -1,4 +1,6 @@
-# 🔌 IConVar<T>
+<a id="iconvar-t"></a>
+
+# 🔌 IConVar&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Convars`
 

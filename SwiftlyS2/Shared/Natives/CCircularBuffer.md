@@ -1,3 +1,5 @@
+<a id="ccircularbuffer"></a>
+
 # 🏗️ CCircularBuffer
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

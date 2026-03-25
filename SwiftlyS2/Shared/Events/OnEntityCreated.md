@@ -1,3 +1,5 @@
+<a id="onentitycreated"></a>
+
 # 🔗 OnEntityCreated
 
 在实体创建时调用。

@@ -1,3 +1,5 @@
+<a id="lobbyinvite_t"></a>
+
 # 🏗️ LobbyInvite_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

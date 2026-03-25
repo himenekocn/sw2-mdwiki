@@ -1,3 +1,5 @@
+<a id="crecipientfilter"></a>
+
 # 🏗️ CRecipientFilter
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

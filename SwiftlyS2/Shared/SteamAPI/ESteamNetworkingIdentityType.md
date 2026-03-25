@@ -1,3 +1,5 @@
+<a id="esteamnetworkingidentitytype"></a>
+
 # 📋 ESteamNetworkingIdentityType
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

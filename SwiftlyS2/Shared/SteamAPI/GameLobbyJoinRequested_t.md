@@ -1,3 +1,5 @@
+<a id="gamelobbyjoinrequested_t"></a>
+
 # 🏗️ GameLobbyJoinRequested_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

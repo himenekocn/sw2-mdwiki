@@ -1,3 +1,5 @@
+<a id="steamleaderboardentries_t"></a>
+
 # 🏗️ SteamLeaderboardEntries_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

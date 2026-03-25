@@ -1,3 +1,5 @@
+<a id="inetmessageservice"></a>
+
 # 🔌 INetMessageService
 
 **命名空间:** `SwiftlyS2.Shared.NetMessages`

@@ -1,3 +1,5 @@
+<a id="ep2psessionerror"></a>
+
 # 📋 EP2PSessionError
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

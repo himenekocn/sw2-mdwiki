@@ -1,3 +1,5 @@
+<a id="ehtmlmousecursor"></a>
+
 # 📋 EHTMLMouseCursor
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

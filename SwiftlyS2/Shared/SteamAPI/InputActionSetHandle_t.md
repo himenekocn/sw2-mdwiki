@@ -1,3 +1,5 @@
+<a id="inputactionsethandle_t"></a>
+
 # 🏗️ InputActionSetHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

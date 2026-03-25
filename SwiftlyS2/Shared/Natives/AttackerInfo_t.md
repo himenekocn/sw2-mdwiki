@@ -1,3 +1,5 @@
+<a id="attackerinfo_t"></a>
+
 # 🏗️ AttackerInfo_t
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

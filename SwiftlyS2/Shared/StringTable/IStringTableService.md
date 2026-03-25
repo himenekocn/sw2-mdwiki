@@ -1,3 +1,5 @@
+<a id="istringtableservice"></a>
+
 # 🔌 IStringTableService
 
 **命名空间:** `SwiftlyS2.Shared.StringTable`

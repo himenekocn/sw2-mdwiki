@@ -1,3 +1,5 @@
+<a id="ionentitytouchevent"></a>
+
 # 🔌 IOnEntityTouchEvent
 
 当实体与另一实体接触时调用。

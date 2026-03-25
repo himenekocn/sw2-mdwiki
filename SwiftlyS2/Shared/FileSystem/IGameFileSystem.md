@@ -1,3 +1,5 @@
+<a id="igamefilesystem"></a>
+
 # 🔌 IGameFileSystem
 
 **命名空间:** `SwiftlyS2.Shared.FileSystem`

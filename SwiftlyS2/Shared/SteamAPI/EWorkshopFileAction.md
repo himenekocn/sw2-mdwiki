@@ -1,3 +1,5 @@
+<a id="eworkshopfileaction"></a>
+
 # 📋 EWorkshopFileAction
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="epersonastate"></a>
+
 # 📋 EPersonaState
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,4 +1,6 @@
-# 📦 ManagedCUtlVector<T>
+<a id="managedcutlvector-t"></a>
+
+# 📦 ManagedCUtlVector&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 

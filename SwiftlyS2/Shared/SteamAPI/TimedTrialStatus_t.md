@@ -1,3 +1,5 @@
+<a id="timedtrialstatus_t"></a>
+
 # 🏗️ TimedTrialStatus_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

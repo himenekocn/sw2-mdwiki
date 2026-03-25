@@ -1,4 +1,6 @@
-# 🔌 ITypedProtobuf<T>
+<a id="itypedprotobuf-t"></a>
+
+# 🔌 ITypedProtobuf&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.NetMessages`
 

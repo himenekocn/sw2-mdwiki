@@ -1,3 +1,5 @@
+<a id="onentityendtouch"></a>
+
 # 🔗 OnEntityEndTouch
 
 当实体结束与另一实体的接触时调用。

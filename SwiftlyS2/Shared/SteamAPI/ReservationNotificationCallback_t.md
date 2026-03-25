@@ -1,3 +1,5 @@
+<a id="reservationnotificationcallback_t"></a>
+
 # 🏗️ ReservationNotificationCallback_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

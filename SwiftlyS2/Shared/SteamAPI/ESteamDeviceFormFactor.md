@@ -1,3 +1,5 @@
+<a id="esteamdeviceformfactor"></a>
+
 # 📋 ESteamDeviceFormFactor
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

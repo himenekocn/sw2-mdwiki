@@ -1,3 +1,5 @@
+<a id="igameeventaccessor"></a>
+
 # 🔌 IGameEventAccessor
 
 一个用于访问原生 IGameEvent 的通用访问器。

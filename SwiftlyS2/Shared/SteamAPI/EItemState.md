@@ -1,3 +1,5 @@
+<a id="eitemstate"></a>
+
 # 📋 EItemState
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

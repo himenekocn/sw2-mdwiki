@@ -1,3 +1,5 @@
+<a id="onsteamapiactivated"></a>
+
 # 🔗 OnSteamAPIActivated
 
 当 Steam API 被激活时调用。

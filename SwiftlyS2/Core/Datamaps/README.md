@@ -9,6 +9,8 @@
 - 📦 [DatamapFunctionHookManager](#datamapfunctionhookmanager)
 - 🔗 [StubDelegate](#stubdelegate)
 
+<a id="datamapfunctionhookmanager"></a>
+
 ## 📦 DatamapFunctionHookManager
 
 **命名空间:** `SwiftlyS2.Core.Datamaps`
@@ -71,6 +73,8 @@ if (DatamapFunctionHookManager.TryGetHook((nint)123, out hook)) { }
 
 
 ---
+
+<a id="stubdelegate"></a>
 
 ## 🔗 StubDelegate
 

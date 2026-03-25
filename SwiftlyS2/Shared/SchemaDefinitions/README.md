@@ -2813,6 +2813,8 @@
 - 📋 [vote_create_failed_t](#vote_create_failed_t)
 - 🔌 [vphysics_save_cphysicsbody_t](#vphysics_save_cphysicsbody_t)
 
+<a id="aabb_t"></a>
+
 ## 🔌 AABB_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -2845,6 +2847,8 @@ void MaxBoundsUpdated()
 
 
 ---
+
+<a id="activemodelconfig_t"></a>
 
 ## 🔌 ActiveModelConfig_t
 
@@ -2893,6 +2897,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="aggregateinstancestreamondiskdata_t"></a>
+
 ## 🔌 AggregateInstanceStreamOnDiskData_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -2911,6 +2917,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="aggregateinstancestream_t"></a>
 
 ## 📋 AggregateInstanceStream_t
 
@@ -2933,6 +2941,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="aggregatelodsetup_t"></a>
+
 ## 🔌 AggregateLODSetup_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -2952,6 +2962,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="aggregatemeshinfo_t"></a>
 
 ## 🔌 AggregateMeshInfo_t
 
@@ -2982,6 +2994,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="aggregatertproxysceneobject_t"></a>
+
 ## 🔌 AggregateRTProxySceneObject_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3004,6 +3018,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="aggregatesceneobject_t"></a>
 
 ## 🔌 AggregateSceneObject_t
 
@@ -3032,6 +3048,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="aggregatevertexalbedostreamondiskdata_t"></a>
+
 ## 🔌 AggregateVertexAlbedoStreamOnDiskData_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3049,6 +3067,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="aimcameraopfixedsettings_t"></a>
 
 ## 🔌 AimCameraOpFixedSettings_t
 
@@ -3074,6 +3094,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="aimmatrixblendmode"></a>
+
 ## 📋 AimMatrixBlendMode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3094,6 +3116,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="aimmatrixopfixedsettings_t"></a>
 
 ## 🔌 AimMatrixOpFixedSettings_t
 
@@ -3125,6 +3149,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="ammoflags_t"></a>
+
 ## 📋 AmmoFlags_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3145,6 +3171,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="ammoindex_t"></a>
+
 ## 🔌 AmmoIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3162,6 +3190,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="ammoposition_t"></a>
 
 ## 📋 AmmoPosition_t
 
@@ -3183,6 +3213,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="ammotypeinfo_t"></a>
 
 ## 🔌 AmmoTypeInfo_t
 
@@ -3206,6 +3238,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animcomponentid"></a>
+
 ## 🔌 AnimComponentID
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3223,6 +3257,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="animgraphdebugdrawtype_t"></a>
 
 ## 📋 AnimGraphDebugDrawType_t
 
@@ -3246,6 +3282,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animloopmode_t"></a>
+
 ## 📋 AnimLoopMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3268,6 +3306,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animnodeid"></a>
+
 ## 🔌 AnimNodeID
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3285,6 +3325,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="animnodenetworkmode"></a>
 
 ## 📋 AnimNodeNetworkMode
 
@@ -3305,6 +3347,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animnodeoutputid"></a>
+
 ## 🔌 AnimNodeOutputID
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3322,6 +3366,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="animparambutton_t"></a>
 
 ## 📋 AnimParamButton_t
 
@@ -3353,6 +3399,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animparamid"></a>
+
 ## 🔌 AnimParamID
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3370,6 +3418,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="animparamnetworksetting"></a>
 
 ## 📋 AnimParamNetworkSetting
 
@@ -3390,6 +3440,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="animparamtype_t"></a>
 
 ## 📋 AnimParamType_t
 
@@ -3417,6 +3469,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animparamvectortype_t"></a>
+
 ## 📋 AnimParamVectorType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3439,6 +3493,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animscripthandle"></a>
+
 ## 🔌 AnimScriptHandle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3456,6 +3512,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="animscripttype"></a>
 
 ## 📋 AnimScriptType
 
@@ -3477,6 +3535,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animstateid"></a>
+
 ## 🔌 AnimStateID
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3495,6 +3555,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animtagid"></a>
+
 ## 🔌 AnimTagID
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3512,6 +3574,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="animvaluesource"></a>
 
 ## 📋 AnimValueSource
 
@@ -3567,6 +3631,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animvectorsource"></a>
+
 ## 📋 AnimVectorSource
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3598,6 +3664,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animationalgorithm_t"></a>
+
 ## 📋 AnimationAlgorithm_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3622,6 +3690,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animationdecodedebugdumpelement_t"></a>
+
 ## 🔌 AnimationDecodeDebugDumpElement_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3645,6 +3715,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animationdecodedebugdump_t"></a>
+
 ## 🔌 AnimationDecodeDebugDump_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3663,6 +3735,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="animationprocessingtype_t"></a>
 
 ## 📋 AnimationProcessingType_t
 
@@ -3686,6 +3760,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="animationsnapshotbase_t"></a>
 
 ## 🔌 AnimationSnapshotBase_t
 
@@ -3713,6 +3789,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animationsnapshottype_t"></a>
+
 ## 📋 AnimationSnapshotType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3737,6 +3815,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animationsnapshot_t"></a>
+
 ## 🔌 AnimationSnapshot_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3758,6 +3838,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="animationtype_t"></a>
+
 ## 📋 AnimationType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3778,6 +3860,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="attachmenthandle_t"></a>
+
 ## 🔌 AttachmentHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3795,6 +3879,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="autoroomdoorwaypairs_t"></a>
 
 ## 🔌 AutoRoomDoorwayPairs_t
 
@@ -3814,6 +3900,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="bboxvolumetype_t"></a>
 
 ## 📋 BBoxVolumeType_t
 
@@ -3835,6 +3923,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="bakedlightinginfo_t"></a>
 
 ## 🔌 BakedLightingInfo_t
 
@@ -3864,6 +3954,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="bakedlightinginfo_t__bakedshadowassignment_t"></a>
+
 ## 🔌 BakedLightingInfo_t__BakedShadowAssignment_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3883,6 +3975,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="baseexplosiontypes_t"></a>
 
 ## 📋 BaseExplosionTypes_t
 
@@ -3918,6 +4012,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="basesceneobjectoverride_t"></a>
+
 ## 🔌 BaseSceneObjectOverride_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -3935,6 +4031,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="beamclipstyle_t"></a>
 
 ## 📋 BeamClipStyle_t
 
@@ -3956,6 +4054,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="beamtype_t"></a>
 
 ## 📋 BeamType_t
 
@@ -3981,6 +4081,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="begindeathlifestatetransition_t"></a>
+
 ## 📋 BeginDeathLifeStateTransition_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4000,6 +4102,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="binarynodechildoption"></a>
+
 ## 📋 BinaryNodeChildOption
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4018,6 +4122,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="binarynodetiming"></a>
 
 ## 📋 BinaryNodeTiming
 
@@ -4039,6 +4145,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="blend2dmode"></a>
+
 ## 📋 Blend2DMode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4057,6 +4165,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="blenditem_t"></a>
 
 ## 🔌 BlendItem_t
 
@@ -4081,6 +4191,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="blendkeytype"></a>
+
 ## 📋 BlendKeyType
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4101,6 +4213,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="bloodtype"></a>
 
 ## 📋 BloodType
 
@@ -4128,6 +4242,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="bloomblendmode_t"></a>
+
 ## 📋 BloomBlendMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4148,6 +4264,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="blurfiltertype_t"></a>
+
 ## 📋 BlurFilterType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4166,6 +4284,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="bodysectionauthority_t"></a>
 
 ## 📋 BodySectionAuthority_t
 
@@ -4187,6 +4307,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="bonedemocapturesettings_t"></a>
 
 ## 🔌 BoneDemoCaptureSettings_t
 
@@ -4212,6 +4334,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="bonemaskblendspace"></a>
+
 ## 📋 BoneMaskBlendSpace
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4232,6 +4356,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="bonetransformspace_t"></a>
 
 ## 📋 BoneTransformSpace_t
 
@@ -4254,6 +4380,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="breakablecontentstype_t"></a>
+
 ## 📋 BreakableContentsType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4275,6 +4403,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="brushsolidities_e"></a>
+
 ## 📋 BrushSolidities_e
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4295,6 +4425,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="c4lighteffect_t"></a>
+
 ## 📋 C4LightEffect_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4314,6 +4446,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="cai_changehintgroup"></a>
 
 ## 🔌 CAI_ChangeHintGroup
 
@@ -4337,6 +4471,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="cai_expresser"></a>
 
 ## 🔌 CAI_Expresser
 
@@ -4366,6 +4502,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="cai_expresserwithfollowup"></a>
+
 ## 🔌 CAI_ExpresserWithFollowup
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4380,6 +4518,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="cak47"></a>
+
 ## 🔌 CAK47
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4393,6 +4533,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="cactioncomponentupdater"></a>
 
 ## 🔌 CActionComponentUpdater
 
@@ -4413,6 +4555,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="caddupdatenode"></a>
 
 ## 🔌 CAddUpdateNode
 
@@ -4437,6 +4581,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="caimcameraupdatenode"></a>
 
 ## 🔌 CAimCameraUpdateNode
 
@@ -4465,6 +4611,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="caimconstraint"></a>
+
 ## 🔌 CAimConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4485,6 +4633,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="caimmatrixupdatenode"></a>
 
 ## 🔌 CAimMatrixUpdateNode
 
@@ -4510,6 +4660,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="cambientgeneric"></a>
 
 ## 🔌 CAmbientGeneric
 
@@ -4540,6 +4692,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimactionupdater"></a>
+
 ## 🔌 CAnimActionUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4551,6 +4705,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimactivity"></a>
 
 ## 🔌 CAnimActivity
 
@@ -4573,6 +4729,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimattachment"></a>
+
 ## 🔌 CAnimAttachment
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4594,6 +4752,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimbone"></a>
 
 ## 🔌 CAnimBone
 
@@ -4619,6 +4779,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimbonedifference"></a>
+
 ## 🔌 CAnimBoneDifference
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4641,6 +4803,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimcomponentupdater"></a>
+
 ## 🔌 CAnimComponentUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4662,6 +4826,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimcycle"></a>
+
 ## 🔌 CAnimCycle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4675,6 +4841,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimdata"></a>
 
 ## 🔌 CAnimData
 
@@ -4697,6 +4865,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimdatachanneldesc"></a>
 
 ## 🔌 CAnimDataChannelDesc
 
@@ -4724,6 +4894,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimdecoder"></a>
+
 ## 🔌 CAnimDecoder
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4743,6 +4915,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimdemocapturesettings"></a>
 
 ## 🔌 CAnimDemoCaptureSettings
 
@@ -4776,6 +4950,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimdesc"></a>
+
 ## 🔌 CAnimDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4808,6 +4984,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimdesc_flag"></a>
+
 ## 🔌 CAnimDesc_Flag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4833,6 +5011,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimencodedifference"></a>
+
 ## 🔌 CAnimEncodeDifference
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4857,6 +5037,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimencodedframes"></a>
+
 ## 🔌 CAnimEncodedFrames
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4879,6 +5061,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimenum"></a>
+
 ## 🔌 CAnimEnum
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4896,6 +5080,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimeventdefinition"></a>
 
 ## 🔌 CAnimEventDefinition
 
@@ -4921,6 +5107,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimeventlistener"></a>
+
 ## 🔌 CAnimEventListener
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4935,6 +5123,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimeventlistenerbase"></a>
+
 ## 🔌 CAnimEventListenerBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -4946,6 +5136,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimeventqueuelistener"></a>
 
 ## 🔌 CAnimEventQueueListener
 
@@ -4960,6 +5152,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimfoot"></a>
 
 ## 🔌 CAnimFoot
 
@@ -4983,6 +5177,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimframeblockanim"></a>
+
 ## 🔌 CAnimFrameBlockAnim
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5002,6 +5198,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimframesegment"></a>
 
 ## 🔌 CAnimFrameSegment
 
@@ -5024,6 +5222,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimgraphcontrollerbase"></a>
+
 ## 🔌 CAnimGraphControllerBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5041,6 +5241,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimgraphcontrollermanager"></a>
 
 ## 🔌 CAnimGraphControllerManager
 
@@ -5060,6 +5262,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimgraphdebugreplay"></a>
 
 ## 🔌 CAnimGraphDebugReplay
 
@@ -5083,6 +5287,8 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
+<a id="canimgraphmodelbinding"></a>
+
 ## 🔌 CAnimGraphModelBinding
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5101,6 +5307,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimgraphnetworksettings"></a>
 
 ## 🔌 CAnimGraphNetworkSettings
 
@@ -5121,6 +5329,8 @@ void AssociatedEntityNamesUpdated()
 
 
 ---
+
+<a id="canimgraphnetworkedvariables"></a>
 
 ## 🔌 CAnimGraphNetworkedVariables
 
@@ -5309,6 +5519,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimgraphsettingsgroup"></a>
+
 ## 🔌 CAnimGraphSettingsGroup
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5320,6 +5532,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimgraphsettingsmanager"></a>
 
 ## 🔌 CAnimGraphSettingsManager
 
@@ -5338,6 +5552,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="caniminputdamping"></a>
 
 ## 🔌 CAnimInputDamping
 
@@ -5358,6 +5574,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimkeydata"></a>
 
 ## 🔌 CAnimKeyData
 
@@ -5382,6 +5600,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimlocalhierarchy"></a>
+
 ## 🔌 CAnimLocalHierarchy
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5405,6 +5625,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimmorphdifference"></a>
+
 ## 🔌 CAnimMorphDifference
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5422,6 +5644,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimmotorupdaterbase"></a>
 
 ## 🔌 CAnimMotorUpdaterBase
 
@@ -5441,6 +5665,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimmovement"></a>
 
 ## 🔌 CAnimMovement
 
@@ -5466,6 +5692,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimnodepath"></a>
+
 ## 🔌 CAnimNodePath
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5484,6 +5712,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimparamhandle"></a>
 
 ## 🔌 CAnimParamHandle
 
@@ -5504,6 +5734,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimparamhandlemap"></a>
+
 ## 🔌 CAnimParamHandleMap
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5521,6 +5753,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimparameterbase"></a>
 
 ## 🔌 CAnimParameterBase
 
@@ -5546,6 +5780,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimparametermanagerupdater"></a>
+
 ## 🔌 CAnimParameterManagerUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5569,6 +5805,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimreplayframe"></a>
+
 ## 🔌 CAnimReplayFrame
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5591,6 +5829,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimscriptbase"></a>
+
 ## 🔌 CAnimScriptBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5608,6 +5848,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimscriptcomponentupdater"></a>
 
 ## 🔌 CAnimScriptComponentUpdater
 
@@ -5629,6 +5871,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimscriptmanager"></a>
+
 ## 🔌 CAnimScriptManager
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5646,6 +5890,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimsequenceparams"></a>
 
 ## 🔌 CAnimSequenceParams
 
@@ -5665,6 +5911,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimskeleton"></a>
 
 ## 🔌 CAnimSkeleton
 
@@ -5691,6 +5939,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimstatemachineupdater"></a>
+
 ## 🔌 CAnimStateMachineUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5710,6 +5960,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimtagbase"></a>
 
 ## 🔌 CAnimTagBase
 
@@ -5733,6 +5985,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimtagmanagerupdater"></a>
+
 ## 🔌 CAnimTagManagerUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5750,6 +6004,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimupdatenodebase"></a>
 
 ## 🔌 CAnimUpdateNodeBase
 
@@ -5771,6 +6027,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimupdatenoderef"></a>
+
 ## 🔌 CAnimUpdateNodeRef
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5788,6 +6046,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimupdateshareddata"></a>
 
 ## 🔌 CAnimUpdateSharedData
 
@@ -5816,6 +6076,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimuser"></a>
+
 ## 🔌 CAnimUser
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5835,6 +6097,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimuserdifference"></a>
+
 ## 🔌 CAnimUserDifference
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5853,6 +6117,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimationgraphvisualizeraxis"></a>
 
 ## 🔌 CAnimationGraphVisualizerAxis
 
@@ -5875,6 +6141,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimationgraphvisualizerline"></a>
+
 ## 🔌 CAnimationGraphVisualizerLine
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5896,6 +6164,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimationgraphvisualizerpie"></a>
 
 ## 🔌 CAnimationGraphVisualizerPie
 
@@ -5920,6 +6190,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimationgraphvisualizerprimitivebase"></a>
+
 ## 🔌 CAnimationGraphVisualizerPrimitiveBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5939,6 +6211,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimationgraphvisualizerprimitivetype"></a>
 
 ## 📋 CAnimationGraphVisualizerPrimitiveType
 
@@ -5962,6 +6236,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimationgraphvisualizersphere"></a>
+
 ## 🔌 CAnimationGraphVisualizerSphere
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -5984,6 +6260,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimationgraphvisualizertext"></a>
+
 ## 🔌 CAnimationGraphVisualizerText
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -6005,6 +6283,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="canimationgroup"></a>
 
 ## 🔌 CAnimationGroup
 
@@ -6031,6 +6311,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="cattachment"></a>
+
 ## 🔌 CAttachment
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -6056,6 +6338,8 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="cattributecontainer"></a>
+
 ## 🔌 CAttributeContainer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -6065,6 +6349,8 @@ void LastTeleportTimeUpdated()
 
 
 ---
+
+<a id="cattributelist"></a>
 
 ## 🔌 CAttributeList
 
@@ -6096,6 +6382,8 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 
 ---
 
+<a id="cattributelist"></a>
+
 ## 🔌 CAttributeList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -6105,6 +6393,8 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 
 
 ---
+
+<a id="cattributemanager"></a>
 
 ## 🔌 CAttributeManager
 
@@ -6116,6 +6406,8 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 
 ---
 
+<a id="cattributemanager__cached_attribute_float_t"></a>
+
 ## 🔌 CAttributeManager__cached_attribute_float_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -6125,6 +6417,8 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 
 
 ---
+
+<a id="caudioanimtag"></a>
 
 ## 🔌 CAudioAnimTag
 
@@ -6152,6 +6446,8 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 
 ---
 
+<a id="caudioemphasissample"></a>
+
 ## 🔌 CAudioEmphasisSample
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -6170,6 +6466,8 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 
 
 ---
+
+<a id="caudiomorphdata"></a>
 
 ## 🔌 CAudioMorphData
 
@@ -6194,6 +6492,8 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 
 ---
 
+<a id="caudiophonemetag"></a>
+
 ## 🔌 CAudioPhonemeTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -6213,6 +6513,8 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 
 
 ---
+
+<a id="caudiosentence"></a>
 
 ## 🔌 CAudioSentence
 
@@ -6234,6 +6536,8 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 
 
 ---
+
+<a id="cbarnlight"></a>
 
 ## 🔌 CBarnLight
 
@@ -6783,6 +7087,8 @@ void VisClustersUpdated()
 
 ---
 
+<a id="cbaseanimgraph"></a>
+
 ## 🔌 CBaseAnimGraph
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -6861,6 +7167,8 @@ void RagdollClientSideUpdated()
 
 ---
 
+<a id="cbaseanimgraphanimgraphcontroller"></a>
+
 ## 🔌 CBaseAnimGraphAnimGraphController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -6894,6 +7202,8 @@ void RagdollClientSideUpdated()
 
 
 ---
+
+<a id="cbaseanimgraphcontroller"></a>
 
 ## 🔌 CBaseAnimGraphController
 
@@ -7055,6 +7365,8 @@ void ExternalClipIdsUpdated()
 
 ---
 
+<a id="cbaseanimgraphdestructibleparts_graphcontroller"></a>
+
 ## 🔌 CBaseAnimGraphDestructibleParts_GraphController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -7069,6 +7381,8 @@ void ExternalClipIdsUpdated()
 
 ---
 
+<a id="cbaseanimgraphvariationuserdata"></a>
+
 ## 🔌 CBaseAnimGraphVariationUserData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -7082,6 +7396,8 @@ void ExternalClipIdsUpdated()
 
 
 ---
+
+<a id="cbasebutton"></a>
 
 ## 🔌 CBaseButton
 
@@ -7146,6 +7462,8 @@ void DisplayTextUpdated()
 
 
 ---
+
+<a id="cbasecsgrenade"></a>
 
 ## 🔌 CBaseCSGrenade
 
@@ -7259,6 +7577,8 @@ void SwitchToWeaponAfterThrowUpdated()
 
 ---
 
+<a id="cbasecsgrenadeprojectile"></a>
+
 ## 🔌 CBaseCSGrenadeProjectile
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -7332,6 +7652,8 @@ void ExplodeEffectOriginUpdated()
 
 ---
 
+<a id="cbaseclientuientity"></a>
+
 ## 🔌 CBaseClientUIEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -7391,6 +7713,8 @@ void PanelIDUpdated()
 
 ---
 
+<a id="cbasecombatcharacter"></a>
+
 ## 🔌 CBaseCombatCharacter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -7428,6 +7752,8 @@ void MyWearablesUpdated()
 
 ---
 
+<a id="cbaseconstraint"></a>
+
 ## 🔌 CBaseConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -7450,6 +7776,8 @@ void MyWearablesUpdated()
 
 ---
 
+<a id="cbasedmstart"></a>
+
 ## 🔌 CBaseDMStart
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -7469,6 +7797,8 @@ void MyWearablesUpdated()
 
 
 ---
+
+<a id="cbasedoor"></a>
 
 ## 🔌 CBaseDoor
 
@@ -7524,6 +7854,8 @@ void IsUsableUpdated()
 
 
 ---
+
+<a id="cbaseentity"></a>
 
 ## 🔌 CBaseEntity
 
@@ -7654,6 +7986,8 @@ entity.CollisionRulesChanged();
 
 
 ---
+
+<a id="cbaseentity"></a>
 
 ## 🔌 CBaseEntity
 
@@ -7972,6 +8306,8 @@ void BloodTypeUpdated()
 
 ---
 
+<a id="cbaseentityapi"></a>
+
 ## 🔌 CBaseEntityAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -7983,6 +8319,8 @@ void BloodTypeUpdated()
 
 
 ---
+
+<a id="cbasefilter"></a>
 
 ## 🔌 CBaseFilter
 
@@ -8005,6 +8343,8 @@ void BloodTypeUpdated()
 
 
 ---
+
+<a id="cbaseflex"></a>
 
 ## 🔌 CBaseFlex
 
@@ -8045,6 +8385,8 @@ void LookTargetPositionUpdated()
 
 ---
 
+<a id="cbaseflexalias_funcbaseflex"></a>
+
 ## 🔌 CBaseFlexAlias_funCBaseFlex
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -8058,6 +8400,8 @@ void LookTargetPositionUpdated()
 
 
 ---
+
+<a id="cbasegrenade"></a>
 
 ## 🔌 CBaseGrenade
 
@@ -8124,6 +8468,8 @@ void ThrowerUpdated()
 
 ---
 
+<a id="cbaseissue"></a>
+
 ## 🔌 CBaseIssue
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -8146,6 +8492,8 @@ void ThrowerUpdated()
 
 
 ---
+
+<a id="cbasemodelentity"></a>
 
 ## 🔌 CBaseModelEntity
 
@@ -8328,6 +8676,8 @@ await entity.SetScaleAsync(1.25f);
 
 ---
 
+<a id="cbasemodelentity"></a>
+
 ## 🔌 CBaseModelEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -8489,6 +8839,8 @@ void DisabledHitGroupsUpdated()
 
 ---
 
+<a id="cbasemodelentityapi"></a>
+
 ## 🔌 CBaseModelEntityAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -8500,6 +8852,8 @@ void DisabledHitGroupsUpdated()
 
 
 ---
+
+<a id="cbasemovebehavior"></a>
 
 ## 🔌 CBaseMoveBehavior
 
@@ -8531,6 +8885,8 @@ void DisabledHitGroupsUpdated()
 
 ---
 
+<a id="cbaseplattrain"></a>
+
 ## 🔌 CBasePlatTrain
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -8554,6 +8910,8 @@ void DisabledHitGroupsUpdated()
 
 
 ---
+
+<a id="cbaseplayercontroller"></a>
 
 ## 🔌 CBasePlayerController
 
@@ -8599,6 +8957,8 @@ if (player != null) Console.WriteLine(player);
 
 
 ---
+
+<a id="cbaseplayercontroller"></a>
 
 ## 🔌 CBasePlayerController
 
@@ -8693,6 +9053,8 @@ void DesiredFOVUpdated()
 
 ---
 
+<a id="cbaseplayercontrollerapi"></a>
+
 ## 🔌 CBasePlayerControllerAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -8704,6 +9066,8 @@ void DesiredFOVUpdated()
 
 
 ---
+
+<a id="cbaseplayerpawn"></a>
 
 ## 🔌 CBasePlayerPawn
 
@@ -8780,6 +9144,8 @@ if (player != null) Console.WriteLine(player);
 
 
 ---
+
+<a id="cbaseplayerpawn"></a>
 
 ## 🔌 CBasePlayerPawn
 
@@ -8917,6 +9283,8 @@ void DefaultControllerUpdated()
 
 ---
 
+<a id="cbaseplayervdata"></a>
+
 ## 🔌 CBasePlayerVData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -8950,6 +9318,8 @@ void DefaultControllerUpdated()
 
 ---
 
+<a id="cbaseplayerweapon"></a>
+
 ## 🔌 CBasePlayerWeapon
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -8965,6 +9335,8 @@ void DefaultControllerUpdated()
 
 
 ---
+
+<a id="cbaseplayerweapon"></a>
 
 ## 🔌 CBasePlayerWeapon
 
@@ -9037,6 +9409,8 @@ void ReserveAmmoUpdated()
 
 ---
 
+<a id="cbaseplayerweaponvdata"></a>
+
 ## 🔌 CBasePlayerWeaponVData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9087,6 +9461,8 @@ void ReserveAmmoUpdated()
 
 ---
 
+<a id="cbaseprop"></a>
+
 ## 🔌 CBaseProp
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9109,6 +9485,8 @@ void ReserveAmmoUpdated()
 
 
 ---
+
+<a id="cbasepropdoor"></a>
 
 ## 🔌 CBasePropDoor
 
@@ -9205,6 +9583,8 @@ void MasterUpdated()
 
 ---
 
+<a id="cbasepulsegraphinstance"></a>
+
 ## 🔌 CBasePulseGraphInstance
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9216,6 +9596,8 @@ void MasterUpdated()
 
 
 ---
+
+<a id="cbaserenderersource2"></a>
 
 ## 🔌 CBaseRendererSource2
 
@@ -9299,6 +9681,8 @@ void MasterUpdated()
 
 ---
 
+<a id="cbasetoggle"></a>
+
 ## 🔌 CBaseToggle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9334,6 +9718,8 @@ void MasterUpdated()
 
 ---
 
+<a id="cbasetrailrenderer"></a>
+
 ## 🔌 CBaseTrailRenderer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9359,6 +9745,8 @@ void MasterUpdated()
 
 
 ---
+
+<a id="cbasetrigger"></a>
 
 ## 🔌 CBaseTrigger
 
@@ -9399,6 +9787,8 @@ void DisabledUpdated()
 
 ---
 
+<a id="cbasetriggerapi"></a>
+
 ## 🔌 CBaseTriggerAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9410,6 +9800,8 @@ void DisabledUpdated()
 
 
 ---
+
+<a id="cbeam"></a>
 
 ## 🔌 CBeam
 
@@ -9576,6 +9968,8 @@ void EndPosUpdated()
 
 ---
 
+<a id="cbinaryupdatenode"></a>
+
 ## 🔌 CBinaryUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9601,6 +9995,8 @@ void EndPosUpdated()
 
 ---
 
+<a id="cbindposeupdatenode"></a>
+
 ## 🔌 CBindPoseUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9614,6 +10010,8 @@ void EndPosUpdated()
 
 
 ---
+
+<a id="cblend2dupdatenode"></a>
 
 ## 🔌 CBlend2DUpdateNode
 
@@ -9649,6 +10047,8 @@ void EndPosUpdated()
 
 ---
 
+<a id="cblendcurve"></a>
+
 ## 🔌 CBlendCurve
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9667,6 +10067,8 @@ void EndPosUpdated()
 
 
 ---
+
+<a id="cblendupdatenode"></a>
 
 ## 🔌 CBlendUpdateNode
 
@@ -9700,6 +10102,8 @@ void EndPosUpdated()
 
 ---
 
+<a id="cblockselectionmetricevaluator"></a>
+
 ## 🔌 CBlockSelectionMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9713,6 +10117,8 @@ void EndPosUpdated()
 
 
 ---
+
+<a id="cblood"></a>
 
 ## 🔌 CBlood
 
@@ -9737,6 +10143,8 @@ void EndPosUpdated()
 
 ---
 
+<a id="cbodycomponent"></a>
+
 ## 🔌 CBodyComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9756,6 +10164,8 @@ void EndPosUpdated()
 
 
 ---
+
+<a id="cbodycomponentbaseanimgraph"></a>
 
 ## 🔌 CBodyComponentBaseAnimGraph
 
@@ -9785,6 +10195,8 @@ void AnimationControllerUpdated()
 
 ---
 
+<a id="cbodycomponentbasemodelentity"></a>
+
 ## 🔌 CBodyComponentBaseModelEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9798,6 +10210,8 @@ void AnimationControllerUpdated()
 
 
 ---
+
+<a id="cbodycomponentpoint"></a>
 
 ## 🔌 CBodyComponentPoint
 
@@ -9827,6 +10241,8 @@ void SceneNodeUpdated()
 
 ---
 
+<a id="cbodycomponentskeletoninstance"></a>
+
 ## 🔌 CBodyComponentSkeletonInstance
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9855,6 +10271,8 @@ void SkeletonInstanceUpdated()
 
 ---
 
+<a id="cbodygroupanimtag"></a>
+
 ## 🔌 CBodyGroupAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9876,6 +10294,8 @@ void SkeletonInstanceUpdated()
 
 ---
 
+<a id="cbodygroupsetting"></a>
+
 ## 🔌 CBodyGroupSetting
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9894,6 +10314,8 @@ void SkeletonInstanceUpdated()
 
 
 ---
+
+<a id="cbombtarget"></a>
 
 ## 🔌 CBombTarget
 
@@ -9931,6 +10353,8 @@ void BombPlantedHereUpdated()
 
 ---
 
+<a id="cboneconstraintbase"></a>
+
 ## 🔌 CBoneConstraintBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9942,6 +10366,8 @@ void BombPlantedHereUpdated()
 
 
 ---
+
+<a id="cboneconstraintdottomorph"></a>
 
 ## 🔌 CBoneConstraintDotToMorph
 
@@ -9966,6 +10392,8 @@ void BombPlantedHereUpdated()
 
 ---
 
+<a id="cboneconstraintposespacebone"></a>
+
 ## 🔌 CBoneConstraintPoseSpaceBone
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -9986,6 +10414,8 @@ void BombPlantedHereUpdated()
 
 ---
 
+<a id="cboneconstraintposespacebone__input_t"></a>
+
 ## 🔌 CBoneConstraintPoseSpaceBone__Input_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10004,6 +10434,8 @@ void BombPlantedHereUpdated()
 
 
 ---
+
+<a id="cboneconstraintposespacemorph"></a>
 
 ## 🔌 CBoneConstraintPoseSpaceMorph
 
@@ -10029,6 +10461,8 @@ void BombPlantedHereUpdated()
 
 ---
 
+<a id="cboneconstraintposespacemorph__input_t"></a>
+
 ## 🔌 CBoneConstraintPoseSpaceMorph__Input_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10047,6 +10481,8 @@ void BombPlantedHereUpdated()
 
 
 ---
+
+<a id="cboneconstraintrbf"></a>
 
 ## 🔌 CBoneConstraintRbf
 
@@ -10068,6 +10504,8 @@ void BombPlantedHereUpdated()
 
 
 ---
+
+<a id="cbonemaskupdatenode"></a>
 
 ## 🔌 CBoneMaskUpdateNode
 
@@ -10095,6 +10533,8 @@ void BombPlantedHereUpdated()
 
 ---
 
+<a id="cbonepositionmetricevaluator"></a>
+
 ## 🔌 CBonePositionMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10114,6 +10554,8 @@ void BombPlantedHereUpdated()
 
 
 ---
+
+<a id="cbonevelocitymetricevaluator"></a>
 
 ## 🔌 CBoneVelocityMetricEvaluator
 
@@ -10135,6 +10577,8 @@ void BombPlantedHereUpdated()
 
 ---
 
+<a id="cboolanimparameter"></a>
+
 ## 🔌 CBoolAnimParameter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10154,6 +10598,8 @@ void BombPlantedHereUpdated()
 
 
 ---
+
+<a id="cbot"></a>
 
 ## 🔌 CBot
 
@@ -10184,6 +10630,8 @@ void BombPlantedHereUpdated()
 
 
 ---
+
+<a id="cbreakable"></a>
 
 ## 🔌 CBreakable
 
@@ -10227,6 +10675,8 @@ void CPropDataComponentUpdated()
 
 
 ---
+
+<a id="cbreakableprop"></a>
 
 ## 🔌 CBreakableProp
 
@@ -10288,6 +10738,8 @@ void CPropDataComponentUpdated()
 
 ---
 
+<a id="cbreakablestagehelper"></a>
+
 ## 🔌 CBreakableStageHelper
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10306,6 +10758,8 @@ void CPropDataComponentUpdated()
 
 
 ---
+
+<a id="cbtactionaim"></a>
 
 ## 🔌 CBtActionAim
 
@@ -10338,6 +10792,8 @@ void CPropDataComponentUpdated()
 
 ---
 
+<a id="cbtactioncombatpositioning"></a>
+
 ## 🔌 CBtActionCombatPositioning
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10360,6 +10816,8 @@ void CPropDataComponentUpdated()
 
 
 ---
+
+<a id="cbtactionmoveto"></a>
 
 ## 🔌 CBtActionMoveTo
 
@@ -10394,6 +10852,8 @@ void CPropDataComponentUpdated()
 
 ---
 
+<a id="cbtactionparachutepositioning"></a>
+
 ## 🔌 CBtActionParachutePositioning
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10414,6 +10874,8 @@ void CPropDataComponentUpdated()
 
 ---
 
+<a id="cbtnode"></a>
+
 ## 🔌 CBtNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10425,6 +10887,8 @@ void CPropDataComponentUpdated()
 
 
 ---
+
+<a id="cbtnodecomposite"></a>
 
 ## 🔌 CBtNodeComposite
 
@@ -10439,6 +10903,8 @@ void CPropDataComponentUpdated()
 
 
 ---
+
+<a id="cbtnodecondition"></a>
 
 ## 🔌 CBtNodeCondition
 
@@ -10459,6 +10925,8 @@ void CPropDataComponentUpdated()
 
 
 ---
+
+<a id="cbtnodeconditioninactive"></a>
 
 ## 🔌 CBtNodeConditionInactive
 
@@ -10482,6 +10950,8 @@ void CPropDataComponentUpdated()
 
 ---
 
+<a id="cbtnodedecorator"></a>
+
 ## 🔌 CBtNodeDecorator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10495,6 +10965,8 @@ void CPropDataComponentUpdated()
 
 
 ---
+
+<a id="cbuoyancyhelper"></a>
 
 ## 🔌 CBuoyancyHelper
 
@@ -10523,6 +10995,8 @@ void CPropDataComponentUpdated()
 
 ---
 
+<a id="cbuyzone"></a>
+
 ## 🔌 CBuyZone
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10542,6 +11016,8 @@ void CPropDataComponentUpdated()
 
 
 ---
+
+<a id="cc4"></a>
 
 ## 🔌 CC4
 
@@ -10605,6 +11081,8 @@ void EntitySpottedStateUpdated()
 
 ---
 
+<a id="ccppscriptcomponentupdater"></a>
+
 ## 🔌 CCPPScriptComponentUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10624,6 +11102,8 @@ void EntitySpottedStateUpdated()
 
 
 ---
+
+<a id="ccs2chickengraphcontroller"></a>
 
 ## 🔌 CCS2ChickenGraphController
 
@@ -10653,6 +11133,8 @@ void EntitySpottedStateUpdated()
 
 
 ---
+
+<a id="ccs2weapongraphcontroller"></a>
 
 ## 🔌 CCS2WeaponGraphController
 
@@ -10692,6 +11174,8 @@ void EntitySpottedStateUpdated()
 
 
 ---
+
+<a id="ccsbot"></a>
 
 ## 🔌 CCSBot
 
@@ -10852,6 +11336,8 @@ void EntitySpottedStateUpdated()
 
 ---
 
+<a id="ccsgoplayeranimgraphstate"></a>
+
 ## 🔌 CCSGOPlayerAnimGraphState
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10863,6 +11349,8 @@ void EntitySpottedStateUpdated()
 
 
 ---
+
+<a id="ccsgo_teamintrocharacterposition"></a>
 
 ## 🔌 CCSGO_TeamIntroCharacterPosition
 
@@ -10878,6 +11366,8 @@ void EntitySpottedStateUpdated()
 
 ---
 
+<a id="ccsgo_teamintrocounterterroristposition"></a>
+
 ## 🔌 CCSGO_TeamIntroCounterTerroristPosition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10892,6 +11382,8 @@ void EntitySpottedStateUpdated()
 
 ---
 
+<a id="ccsgo_teamintroterroristposition"></a>
+
 ## 🔌 CCSGO_TeamIntroTerroristPosition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10905,6 +11397,8 @@ void EntitySpottedStateUpdated()
 
 
 ---
+
+<a id="ccsgo_teampreviewcharacterposition"></a>
 
 ## 🔌 CCSGO_TeamPreviewCharacterPosition
 
@@ -10983,6 +11477,8 @@ void WeaponItemUpdated()
 
 ---
 
+<a id="ccsgo_teamselectcharacterposition"></a>
+
 ## 🔌 CCSGO_TeamSelectCharacterPosition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -10996,6 +11492,8 @@ void WeaponItemUpdated()
 
 
 ---
+
+<a id="ccsgo_teamselectcounterterroristposition"></a>
 
 ## 🔌 CCSGO_TeamSelectCounterTerroristPosition
 
@@ -11011,6 +11509,8 @@ void WeaponItemUpdated()
 
 ---
 
+<a id="ccsgo_teamselectterroristposition"></a>
+
 ## 🔌 CCSGO_TeamSelectTerroristPosition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -11024,6 +11524,8 @@ void WeaponItemUpdated()
 
 
 ---
+
+<a id="ccsgo_wingmanintrocharacterposition"></a>
 
 ## 🔌 CCSGO_WingmanIntroCharacterPosition
 
@@ -11039,6 +11541,8 @@ void WeaponItemUpdated()
 
 ---
 
+<a id="ccsgo_wingmanintrocounterterroristposition"></a>
+
 ## 🔌 CCSGO_WingmanIntroCounterTerroristPosition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -11052,6 +11556,8 @@ void WeaponItemUpdated()
 
 
 ---
+
+<a id="ccsgo_wingmanintroterroristposition"></a>
 
 ## 🔌 CCSGO_WingmanIntroTerroristPosition
 
@@ -11067,6 +11573,8 @@ void WeaponItemUpdated()
 
 ---
 
+<a id="ccsgamemoderules"></a>
+
 ## 🔌 CCSGameModeRules
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -11078,6 +11586,8 @@ void WeaponItemUpdated()
 
 
 ---
+
+<a id="ccsgamemoderules_armsrace"></a>
 
 ## 🔌 CCSGameModeRules_ArmsRace
 
@@ -11106,6 +11616,8 @@ void WeaponSequenceUpdated()
 
 
 ---
+
+<a id="ccsgamemoderules_deathmatch"></a>
 
 ## 🔌 CCSGameModeRules_Deathmatch
 
@@ -11149,6 +11661,8 @@ void DMBonusWeaponUpdated()
 
 ---
 
+<a id="ccsgamemoderules_noop"></a>
+
 ## 🔌 CCSGameModeRules_Noop
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -11162,6 +11676,8 @@ void DMBonusWeaponUpdated()
 
 
 ---
+
+<a id="ccsgamerules"></a>
 
 ## 🔌 CCSGameRules
 
@@ -11254,6 +11770,8 @@ Console.WriteLine(viewVectors);
 
 
 ---
+
+<a id="ccsgamerules"></a>
 
 ## 🔌 CCSGameRules
 
@@ -12029,6 +12547,8 @@ void RoundStartCountUpdated()
 
 ---
 
+<a id="ccsgamerulesproxy"></a>
+
 ## 🔌 CCSGameRulesProxy
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12057,6 +12577,8 @@ void GameRulesUpdated()
 
 ---
 
+<a id="ccsminimapboundary"></a>
+
 ## 🔌 CCSMinimapBoundary
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12070,6 +12592,8 @@ void GameRulesUpdated()
 
 
 ---
+
+<a id="ccsobserverpawn"></a>
 
 ## 🔌 CCSObserverPawn
 
@@ -12090,6 +12614,8 @@ void GameRulesUpdated()
 
 ---
 
+<a id="ccsobserverpawn"></a>
+
 ## 🔌 CCSObserverPawn
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12103,6 +12629,8 @@ void GameRulesUpdated()
 
 
 ---
+
+<a id="ccsobserver_cameraservices"></a>
 
 ## 🔌 CCSObserver_CameraServices
 
@@ -12118,6 +12646,8 @@ void GameRulesUpdated()
 
 ---
 
+<a id="ccsobserver_movementservices"></a>
+
 ## 🔌 CCSObserver_MovementServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12131,6 +12661,8 @@ void GameRulesUpdated()
 
 
 ---
+
+<a id="ccsobserver_observerservices"></a>
 
 ## 🔌 CCSObserver_ObserverServices
 
@@ -12146,6 +12678,8 @@ void GameRulesUpdated()
 
 ---
 
+<a id="ccsobserver_useservices"></a>
+
 ## 🔌 CCSObserver_UseServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12160,6 +12694,8 @@ void GameRulesUpdated()
 
 ---
 
+<a id="ccspetplacement"></a>
+
 ## 🔌 CCSPetPlacement
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12173,6 +12709,8 @@ void GameRulesUpdated()
 
 
 ---
+
+<a id="ccsplace"></a>
 
 ## 🔌 CCSPlace
 
@@ -12193,6 +12731,8 @@ void GameRulesUpdated()
 
 
 ---
+
+<a id="ccsplayerbase_cameraservices"></a>
 
 ## 🔌 CCSPlayerBase_CameraServices
 
@@ -12252,6 +12792,8 @@ void ZoomOwnerUpdated()
 
 ---
 
+<a id="ccsplayercontroller"></a>
+
 ## 🔌 CCSPlayerController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12289,6 +12831,8 @@ await player.RespawnAsync();
 
 
 ---
+
+<a id="ccsplayercontroller"></a>
 
 ## 🔌 CCSPlayerController
 
@@ -12721,6 +13265,8 @@ void FireBulletsSeedSynchronizedUpdated()
 
 ---
 
+<a id="ccsplayercontroller_actiontrackingservices"></a>
+
 ## 🔌 CCSPlayerController_ActionTrackingServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12777,6 +13323,8 @@ void TotalRoundDamageDealtUpdated()
 
 ---
 
+<a id="ccsplayercontroller_damageservices"></a>
+
 ## 🔌 CCSPlayerController_DamageServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12811,6 +13359,8 @@ void DamageListUpdated()
 
 
 ---
+
+<a id="ccsplayercontroller_ingamemoneyservices"></a>
 
 ## 🔌 CCSPlayerController_InGameMoneyServices
 
@@ -12863,6 +13413,8 @@ void CashSpentThisRoundUpdated()
 
 ---
 
+<a id="ccsplayercontroller_inventoryservices"></a>
+
 ## 🔌 CCSPlayerController_InventoryServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12878,6 +13430,8 @@ void CashSpentThisRoundUpdated()
 
 
 ---
+
+<a id="ccsplayercontroller_inventoryservices"></a>
 
 ## 🔌 CCSPlayerController_InventoryServices
 
@@ -12958,6 +13512,8 @@ void ServerAuthoritativeWeaponSlotsUpdated()
 
 ---
 
+<a id="ccsplayercontroller_inventoryservices__networkedloadoutslot_t"></a>
+
 ## 🔌 CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -12977,6 +13533,8 @@ void ServerAuthoritativeWeaponSlotsUpdated()
 
 
 ---
+
+<a id="ccsplayerlegacyjump"></a>
 
 ## 🔌 CCSPlayerLegacyJump
 
@@ -13004,6 +13562,8 @@ void OldJumpPressedUpdated()
 
 
 ---
+
+<a id="ccsplayermodernjump"></a>
 
 ## 🔌 CCSPlayerModernJump
 
@@ -13087,6 +13647,8 @@ void LastLandedVelocityZUpdated()
 
 ---
 
+<a id="ccsplayerpawn"></a>
+
 ## 🔌 CCSPlayerPawn
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -13107,6 +13669,8 @@ void LastLandedVelocityZUpdated()
 
 
 ---
+
+<a id="ccsplayerpawn"></a>
 
 ## 🔌 CCSPlayerPawn
 
@@ -13676,6 +14240,8 @@ void EyeAnglesUpdated()
 
 ---
 
+<a id="ccsplayerpawnbase"></a>
+
 ## 🔌 CCSPlayerPawnBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -13766,6 +14332,8 @@ void OriginalControllerUpdated()
 
 ---
 
+<a id="ccsplayerresource"></a>
+
 ## 🔌 CCSPlayerResource
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -13851,6 +14419,8 @@ void EndMatchNextMapAllVotedUpdated()
 
 ---
 
+<a id="ccsplayer_actiontrackingservices"></a>
+
 ## 🔌 CCSPlayer_ActionTrackingServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -13894,6 +14464,8 @@ void WeaponPurchasesThisRoundUpdated()
 
 ---
 
+<a id="ccsplayer_bulletservices"></a>
+
 ## 🔌 CCSPlayer_BulletServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -13921,6 +14493,8 @@ void TotalHitsOnServerUpdated()
 
 
 ---
+
+<a id="ccsplayer_buyservices"></a>
 
 ## 🔌 CCSPlayer_BuyServices
 
@@ -13950,6 +14524,8 @@ void SellbackPurchaseEntriesUpdated()
 
 ---
 
+<a id="ccsplayer_cameraservices"></a>
+
 ## 🔌 CCSPlayer_CameraServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -13964,6 +14540,8 @@ void SellbackPurchaseEntriesUpdated()
 
 ---
 
+<a id="ccsplayer_damagereactservices"></a>
+
 ## 🔌 CCSPlayer_DamageReactServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -13977,6 +14555,8 @@ void SellbackPurchaseEntriesUpdated()
 
 
 ---
+
+<a id="ccsplayer_hostageservices"></a>
 
 ## 🔌 CCSPlayer_HostageServices
 
@@ -14013,6 +14593,8 @@ void CarriedHostagePropUpdated()
 
 ---
 
+<a id="ccsplayer_itemservices"></a>
+
 ## 🔌 CCSPlayer_ItemServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -14047,6 +14629,8 @@ void HasHelmetUpdated()
 
 
 ---
+
+<a id="ccsplayer_movementservices"></a>
 
 ## 🔌 CCSPlayer_MovementServices
 
@@ -14267,6 +14851,8 @@ void WasSurfingUpdated()
 
 ---
 
+<a id="ccsplayer_pingservices"></a>
+
 ## 🔌 CCSPlayer_PingServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -14296,6 +14882,8 @@ void PlayerPingUpdated()
 
 ---
 
+<a id="ccsplayer_radioservices"></a>
+
 ## 🔌 CCSPlayer_RadioServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -14320,6 +14908,8 @@ void PlayerPingUpdated()
 
 ---
 
+<a id="ccsplayer_useservices"></a>
+
 ## 🔌 CCSPlayer_UseServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -14341,6 +14931,8 @@ void PlayerPingUpdated()
 
 
 ---
+
+<a id="ccsplayer_waterservices"></a>
 
 ## 🔌 CCSPlayer_WaterServices
 
@@ -14366,6 +14958,8 @@ void PlayerPingUpdated()
 
 
 ---
+
+<a id="ccsplayer_weaponservices"></a>
 
 ## 🔌 CCSPlayer_WeaponServices
 
@@ -14433,6 +15027,8 @@ void BlockInspectUntilNextGraphUpdateUpdated()
 
 ---
 
+<a id="ccspointpulseapi"></a>
+
 ## 🔌 CCSPointPulseAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -14444,6 +15040,8 @@ void BlockInspectUntilNextGraphUpdateUpdated()
 
 
 ---
+
+<a id="ccspointscriptentity"></a>
 
 ## 🔌 CCSPointScriptEntity
 
@@ -14459,6 +15057,8 @@ void BlockInspectUntilNextGraphUpdateUpdated()
 
 ---
 
+<a id="ccssprite"></a>
+
 ## 🔌 CCSSprite
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -14472,6 +15072,8 @@ void BlockInspectUntilNextGraphUpdateUpdated()
 
 
 ---
+
+<a id="ccsteam"></a>
 
 ## 🔌 CCSTeam
 
@@ -14568,6 +15170,8 @@ void TeamLogoImageUpdated()
 
 ---
 
+<a id="ccsweaponbase"></a>
+
 ## 🔌 CCSWeaponBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -14583,6 +15187,8 @@ void TeamLogoImageUpdated()
 
 
 ---
+
+<a id="ccsweaponbase"></a>
 
 ## 🔌 CCSWeaponBase
 
@@ -14830,6 +15436,8 @@ void LastShakeTimeUpdated()
 
 ---
 
+<a id="ccsweaponbasegun"></a>
+
 ## 🔌 CCSWeaponBaseGun
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -14885,6 +15493,8 @@ void RevolverCylinderIdxUpdated()
 
 ---
 
+<a id="ccsweaponbaseshotgun"></a>
+
 ## 🔌 CCSWeaponBaseShotgun
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -14898,6 +15508,8 @@ void RevolverCylinderIdxUpdated()
 
 
 ---
+
+<a id="ccsweaponbasevdata"></a>
 
 ## 🔌 CCSWeaponBaseVData
 
@@ -15000,6 +15612,8 @@ void RevolverCylinderIdxUpdated()
 
 ---
 
+<a id="ccachedpose"></a>
+
 ## 🔌 CCachedPose
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15020,6 +15634,8 @@ void RevolverCylinderIdxUpdated()
 
 
 ---
+
+<a id="cchangelevel"></a>
 
 ## 🔌 CChangeLevel
 
@@ -15046,6 +15662,8 @@ void RevolverCylinderIdxUpdated()
 
 
 ---
+
+<a id="cchicken"></a>
 
 ## 🔌 CChicken
 
@@ -15114,6 +15732,8 @@ void LeaderUpdated()
 
 ---
 
+<a id="cchoiceupdatenode"></a>
+
 ## 🔌 CChoiceUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15143,6 +15763,8 @@ void LeaderUpdated()
 
 ---
 
+<a id="cchoreoinfotarget"></a>
+
 ## 🔌 CChoreoInfoTarget
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15157,6 +15779,8 @@ void LeaderUpdated()
 
 ---
 
+<a id="cchoreoupdatenode"></a>
+
 ## 🔌 CChoreoUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15170,6 +15794,8 @@ void LeaderUpdated()
 
 
 ---
+
+<a id="ccitadelsoundopvarsetobb"></a>
 
 ## 🔌 CCitadelSoundOpvarSetOBB
 
@@ -15248,6 +15874,8 @@ void AABBDirectionUpdated()
 
 ---
 
+<a id="cclothsettingsanimtag"></a>
+
 ## 🔌 CClothSettingsAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15270,6 +15898,8 @@ void AABBDirectionUpdated()
 
 
 ---
+
+<a id="ccollisionproperty"></a>
 
 ## 🔌 CCollisionProperty
 
@@ -15391,6 +16021,8 @@ void CapsuleRadiusUpdated()
 
 ---
 
+<a id="ccolorcorrection"></a>
+
 ## 🔌 CColorCorrection
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15495,6 +16127,8 @@ void NetlookupFilenameUpdated()
 
 ---
 
+<a id="ccolorcorrectionvolume"></a>
+
 ## 🔌 CColorCorrectionVolume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15548,6 +16182,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="ccommentaryauto"></a>
+
 ## 🔌 CCommentaryAuto
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15569,6 +16205,8 @@ void LookupFilenameUpdated()
 
 
 ---
+
+<a id="ccommentarysystem"></a>
 
 ## 🔌 CCommentarySystem
 
@@ -15597,6 +16235,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="ccommentaryviewposition"></a>
+
 ## 🔌 CCommentaryViewPosition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15610,6 +16250,8 @@ void LookupFilenameUpdated()
 
 
 ---
+
+<a id="ccompressorgroup"></a>
 
 ## 🔌 CCompressorGroup
 
@@ -15645,6 +16287,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="cconcreteanimparameter"></a>
+
 ## 🔌 CConcreteAnimParameter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15670,6 +16314,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="cconstantforcecontroller"></a>
+
 ## 🔌 CConstantForceController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15691,6 +16337,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="cconstraintanchor"></a>
+
 ## 🔌 CConstraintAnchor
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15710,6 +16358,8 @@ void LookupFilenameUpdated()
 
 
 ---
+
+<a id="cconstraintslave"></a>
 
 ## 🔌 CConstraintSlave
 
@@ -15732,6 +16382,8 @@ void LookupFilenameUpdated()
 
 
 ---
+
+<a id="cconstrainttarget"></a>
 
 ## 🔌 CConstraintTarget
 
@@ -15756,6 +16408,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="ccopyrecipientfilter"></a>
+
 ## 🔌 CCopyRecipientFilter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15775,6 +16429,8 @@ void LookupFilenameUpdated()
 
 
 ---
+
+<a id="ccredits"></a>
 
 ## 🔌 CCredits
 
@@ -15798,6 +16454,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="ccurrentrotationvelocitymetricevaluator"></a>
+
 ## 🔌 CCurrentRotationVelocityMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15812,6 +16470,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="ccurrentvelocitymetricevaluator"></a>
+
 ## 🔌 CCurrentVelocityMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15825,6 +16485,8 @@ void LookupFilenameUpdated()
 
 
 ---
+
+<a id="ccyclebase"></a>
 
 ## 🔌 CCycleBase
 
@@ -15843,6 +16505,8 @@ void LookupFilenameUpdated()
 
 
 ---
+
+<a id="ccyclecontrolclipupdatenode"></a>
 
 ## 🔌 CCycleControlClipUpdateNode
 
@@ -15869,6 +16533,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="ccyclecontrolupdatenode"></a>
+
 ## 🔌 CCycleControlUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15891,6 +16557,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="cdeagle"></a>
+
 ## 🔌 CDEagle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15904,6 +16572,8 @@ void LookupFilenameUpdated()
 
 
 ---
+
+<a id="cdspmixgroupmodifier"></a>
 
 ## 🔌 CDSPMixgroupModifier
 
@@ -15928,6 +16598,8 @@ void LookupFilenameUpdated()
 
 ---
 
+<a id="cdsppresetmixgroupmodifiertable"></a>
+
 ## 🔌 CDSPPresetMixgroupModifierTable
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -15945,6 +16617,8 @@ void LookupFilenameUpdated()
 
 
 ---
+
+<a id="cdamagerecord"></a>
 
 ## 🔌 CDamageRecord
 
@@ -16064,6 +16738,8 @@ void KillTypeUpdated()
 
 ---
 
+<a id="cdampedpathanimmotorupdater"></a>
+
 ## 🔌 CDampedPathAnimMotorUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16090,6 +16766,8 @@ void KillTypeUpdated()
 
 ---
 
+<a id="cdampedvaluecomponentupdater"></a>
+
 ## 🔌 CDampedValueComponentUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16109,6 +16787,8 @@ void KillTypeUpdated()
 
 
 ---
+
+<a id="cdampedvalueupdateitem"></a>
 
 ## 🔌 CDampedValueUpdateItem
 
@@ -16130,6 +16810,8 @@ void KillTypeUpdated()
 
 ---
 
+<a id="cdebughistory"></a>
+
 ## 🔌 CDebugHistory
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16149,6 +16831,8 @@ void KillTypeUpdated()
 
 
 ---
+
+<a id="cdebugoverlaycombinedtypes_t"></a>
 
 ## 📋 CDebugOverlayCombinedTypes_t
 
@@ -16170,6 +16854,8 @@ void KillTypeUpdated()
 
 ---
 
+<a id="cdebugoverlayfiltertexttype_t"></a>
+
 ## 📋 CDebugOverlayFilterTextType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16190,6 +16876,8 @@ void KillTypeUpdated()
 
 
 ---
+
+<a id="cdebugoverlayfiltertype_t"></a>
 
 ## 📋 CDebugOverlayFilterType_t
 
@@ -16219,6 +16907,8 @@ void KillTypeUpdated()
 
 ---
 
+<a id="cdecalgroupvdata"></a>
+
 ## 🔌 CDecalGroupVData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16237,6 +16927,8 @@ void KillTypeUpdated()
 
 
 ---
+
+<a id="cdecalinstance"></a>
 
 ## 🔌 CDecalInstance
 
@@ -16282,6 +16974,8 @@ void KillTypeUpdated()
 
 ---
 
+<a id="cdecoygrenade"></a>
+
 ## 🔌 CDecoyGrenade
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16296,6 +16990,8 @@ void KillTypeUpdated()
 
 ---
 
+<a id="cdecoyprojectile"></a>
+
 ## 🔌 CDecoyProjectile
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16305,6 +17001,8 @@ void KillTypeUpdated()
 
 
 ---
+
+<a id="cdecoyprojectile"></a>
 
 ## 🔌 CDecoyProjectile
 
@@ -16337,6 +17035,8 @@ void DecoyShotTickUpdated()
 
 ---
 
+<a id="cdemosettingscomponentupdater"></a>
+
 ## 🔌 CDemoSettingsComponentUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16356,6 +17056,8 @@ void DecoyShotTickUpdated()
 
 
 ---
+
+<a id="cdestructiblepart"></a>
 
 ## 🔌 CDestructiblePart
 
@@ -16380,6 +17082,8 @@ void DecoyShotTickUpdated()
 
 
 ---
+
+<a id="cdestructiblepart_damagelevel"></a>
 
 ## 🔌 CDestructiblePart_DamageLevel
 
@@ -16408,6 +17112,8 @@ void DecoyShotTickUpdated()
 
 ---
 
+<a id="cdestructiblepartscomponent"></a>
+
 ## 🔌 CDestructiblePartsComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16435,6 +17141,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="cdestructiblepartssystemdata"></a>
+
 ## 🔌 CDestructiblePartsSystemData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16454,6 +17162,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="cdirectplaybacktagdata"></a>
+
 ## 🔌 CDirectPlaybackTagData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16472,6 +17182,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="cdirectplaybackupdatenode"></a>
 
 ## 🔌 CDirectPlaybackUpdateNode
 
@@ -16494,6 +17206,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="cdirectionalblendupdatenode"></a>
 
 ## 🔌 CDirectionalBlendUpdateNode
 
@@ -16522,6 +17236,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="cdistanceremainingmetricevaluator"></a>
+
 ## 🔌 CDistanceRemainingMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16548,6 +17264,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="cdrawcullingdata"></a>
+
 ## 🔌 CDrawCullingData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16567,6 +17285,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="cdsppresetmodifierlist"></a>
+
 ## 🔌 CDspPresetModifierList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16585,6 +17305,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="cdynamiclight"></a>
 
 ## 🔌 CDynamicLight
 
@@ -16658,6 +17380,8 @@ void SpotRadiusUpdated()
 
 ---
 
+<a id="cdynamicnavconnectionsvolume"></a>
+
 ## 🔌 CDynamicNavConnectionsVolume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16683,6 +17407,8 @@ void SpotRadiusUpdated()
 
 
 ---
+
+<a id="cdynamicprop"></a>
 
 ## 🔌 CDynamicProp
 
@@ -16739,6 +17465,8 @@ void UseAnimGraphUpdated()
 
 ---
 
+<a id="cdynamicpropalias_cable_dynamic"></a>
+
 ## 🔌 CDynamicPropAlias_cable_dynamic
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16752,6 +17480,8 @@ void UseAnimGraphUpdated()
 
 
 ---
+
+<a id="cdynamicpropalias_dynamic_prop"></a>
 
 ## 🔌 CDynamicPropAlias_dynamic_prop
 
@@ -16767,6 +17497,8 @@ void UseAnimGraphUpdated()
 
 ---
 
+<a id="cdynamicpropalias_prop_dynamic_override"></a>
+
 ## 🔌 CDynamicPropAlias_prop_dynamic_override
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16780,6 +17512,8 @@ void UseAnimGraphUpdated()
 
 
 ---
+
+<a id="ceconentity"></a>
 
 ## 🔌 CEconEntity
 
@@ -16853,6 +17587,8 @@ void FallbackStatTrakUpdated()
 
 ---
 
+<a id="ceconitemattribute"></a>
+
 ## 🔌 CEconItem
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16862,6 +17598,8 @@ void FallbackStatTrakUpdated()
 
 
 ---
+
+<a id="ceconitemview"></a>
 
 ## 🔌 CEconItemView
 
@@ -16963,6 +17701,8 @@ void CustomNameUpdated()
 
 ---
 
+<a id="ceconwearable"></a>
+
 ## 🔌 CEconWearable
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16984,6 +17724,8 @@ void CustomNameUpdated()
 
 ---
 
+<a id="ceditablemotiongraph"></a>
+
 ## 🔌 CEditableMotionGraph
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -16997,6 +17739,8 @@ void CustomNameUpdated()
 
 
 ---
+
+<a id="ceffectdata"></a>
 
 ## 🔌 CEffectData
 
@@ -17164,6 +17908,8 @@ void ExplosionTypeUpdated()
 
 ---
 
+<a id="cemittagactionupdater"></a>
+
 ## 🔌 CEmitTagActionUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17185,6 +17931,8 @@ void ExplosionTypeUpdated()
 
 ---
 
+<a id="cemptyentityinstance"></a>
+
 ## 🔌 CEmptyEntityInstance
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17196,6 +17944,8 @@ void ExplosionTypeUpdated()
 
 
 ---
+
+<a id="cemptygraphcontroller"></a>
 
 ## 🔌 CEmptyGraphController
 
@@ -17211,6 +17961,8 @@ void ExplosionTypeUpdated()
 
 ---
 
+<a id="cenablemotionfixup"></a>
+
 ## 🔌 CEnableMotionFixup
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17225,6 +17977,8 @@ void ExplosionTypeUpdated()
 
 ---
 
+<a id="centityattributetable"></a>
+
 ## 🔌 CEntityAttributeTable
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17234,6 +17988,8 @@ void ExplosionTypeUpdated()
 
 
 ---
+
+<a id="centityblocker"></a>
 
 ## 🔌 CEntityBlocker
 
@@ -17249,6 +18005,8 @@ void ExplosionTypeUpdated()
 
 ---
 
+<a id="centitycomponent"></a>
+
 ## 🔌 CEntityComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17260,6 +18018,8 @@ void ExplosionTypeUpdated()
 
 
 ---
+
+<a id="centitycomponenthelper"></a>
 
 ## 🔌 CEntityComponentHelper
 
@@ -17281,6 +18041,8 @@ void ExplosionTypeUpdated()
 
 
 ---
+
+<a id="centitydissolve"></a>
 
 ## 🔌 CEntityDissolve
 
@@ -17373,6 +18135,8 @@ void MagnitudeUpdated()
 
 ---
 
+<a id="centityflame"></a>
+
 ## 🔌 CEntityFlame
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17416,6 +18180,8 @@ void CheapEffectUpdated()
 
 ---
 
+<a id="centityidentity"></a>
+
 ## 🔌 CEntityIdentity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17432,6 +18198,8 @@ void CheapEffectUpdated()
 
 
 ---
+
+<a id="centityidentity"></a>
 
 ## 🔌 CEntityIdentity
 
@@ -17469,6 +18237,8 @@ void NameStringableIndexUpdated()
 
 
 ---
+
+<a id="centityinstance"></a>
 
 ## 🔌 CEntityInstance
 
@@ -17691,6 +18461,8 @@ await entity.DespawnAsync();
 
 ---
 
+<a id="centityinstance"></a>
+
 ## 🔌 CEntityInstance
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17719,6 +18491,8 @@ void EntityUpdated()
 
 ---
 
+<a id="centitysubclassvdatabase"></a>
+
 ## 🔌 CEntitySubclassVDataBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17730,6 +18504,8 @@ void EntityUpdated()
 
 
 ---
+
+<a id="cenumanimparameter"></a>
 
 ## 🔌 CEnumAnimParameter
 
@@ -17752,6 +18528,8 @@ void EntityUpdated()
 
 
 ---
+
+<a id="cenvbeam"></a>
 
 ## 🔌 CEnvBeam
 
@@ -17791,6 +18569,8 @@ void EntityUpdated()
 
 ---
 
+<a id="cenvbeverage"></a>
+
 ## 🔌 CEnvBeverage
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -17811,6 +18591,8 @@ void EntityUpdated()
 
 
 ---
+
+<a id="cenvcombinedlightprobevolume"></a>
 
 ## 🔌 CEnvCombinedLightProbeVolume
 
@@ -18036,6 +18818,8 @@ void Entity_bEnabledUpdated()
 
 ---
 
+<a id="cenvcombinedlightprobevolumealias_func_combined_light_probe_volume"></a>
+
 ## 🔌 CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18049,6 +18833,8 @@ void Entity_bEnabledUpdated()
 
 
 ---
+
+<a id="cenvcubemap"></a>
 
 ## 🔌 CEnvCubemap
 
@@ -18197,6 +18983,8 @@ void Entity_bEnabledUpdated()
 
 ---
 
+<a id="cenvcubemapbox"></a>
+
 ## 🔌 CEnvCubemapBox
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18210,6 +18998,8 @@ void Entity_bEnabledUpdated()
 
 
 ---
+
+<a id="cenvcubemapfog"></a>
 
 ## 🔌 CEnvCubemapFog
 
@@ -18352,6 +19142,8 @@ void HasHeightFogEndUpdated()
 
 ---
 
+<a id="cenvdecal"></a>
+
 ## 🔌 CEnvDecal
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18436,6 +19228,8 @@ void DepthSortBiasUpdated()
 
 ---
 
+<a id="cenvdetailcontroller"></a>
+
 ## 🔌 CEnvDetailController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18471,6 +19265,8 @@ void FadeEndDistUpdated()
 
 ---
 
+<a id="cenventityigniter"></a>
+
 ## 🔌 CEnvEntityIgniter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18490,6 +19286,8 @@ void FadeEndDistUpdated()
 
 
 ---
+
+<a id="cenventitymaker"></a>
 
 ## 🔌 CEnvEntityMaker
 
@@ -18521,6 +19319,8 @@ void FadeEndDistUpdated()
 
 
 ---
+
+<a id="cenvexplosion"></a>
 
 ## 🔌 CEnvExplosion
 
@@ -18556,6 +19356,8 @@ void FadeEndDistUpdated()
 
 ---
 
+<a id="cenvfade"></a>
+
 ## 🔌 CEnvFade
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18587,6 +19389,8 @@ void FadeColorUpdated()
 
 ---
 
+<a id="cenvglobal"></a>
+
 ## 🔌 CEnvGlobal
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18611,6 +19415,8 @@ void FadeColorUpdated()
 
 ---
 
+<a id="cenvhudhint"></a>
+
 ## 🔌 CEnvHudHint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18630,6 +19436,8 @@ void FadeColorUpdated()
 
 
 ---
+
+<a id="cenvinstructorhint"></a>
 
 ## 🔌 CEnvInstructorHint
 
@@ -18674,6 +19482,8 @@ void FadeColorUpdated()
 
 ---
 
+<a id="cenvinstructorvrhint"></a>
+
 ## 🔌 CEnvInstructorVRHint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18702,6 +19512,8 @@ void FadeColorUpdated()
 
 ---
 
+<a id="cenvlaser"></a>
+
 ## 🔌 CEnvLaser
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18725,6 +19537,8 @@ void FadeColorUpdated()
 
 
 ---
+
+<a id="cenvlightprobevolume"></a>
 
 ## 🔌 CEnvLightProbeVolume
 
@@ -18901,6 +19715,8 @@ void Entity_bEnabledUpdated()
 
 ---
 
+<a id="cenvmuzzleflash"></a>
+
 ## 🔌 CEnvMuzzleFlash
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -18921,6 +19737,8 @@ void Entity_bEnabledUpdated()
 
 
 ---
+
+<a id="cenvparticleglow"></a>
 
 ## 🔌 CEnvParticleGlow
 
@@ -18978,6 +19796,8 @@ void TextureOverrideUpdated()
 
 ---
 
+<a id="cenvshake"></a>
+
 ## 🔌 CEnvShake
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -19006,6 +19826,8 @@ void TextureOverrideUpdated()
 
 
 ---
+
+<a id="cenvsky"></a>
 
 ## 🔌 CEnvSky
 
@@ -19112,6 +19934,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="cenvsoundscape"></a>
+
 ## 🔌 CEnvSoundscape
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -19142,6 +19966,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="cenvsoundscapealias_snd_soundscape"></a>
+
 ## 🔌 CEnvSoundscapeAlias_snd_soundscape
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -19155,6 +19981,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="cenvsoundscapeproxy"></a>
 
 ## 🔌 CEnvSoundscapeProxy
 
@@ -19176,6 +20004,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="cenvsoundscapeproxyalias_snd_soundscape_proxy"></a>
+
 ## 🔌 CEnvSoundscapeProxyAlias_snd_soundscape_proxy
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -19189,6 +20019,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="cenvsoundscapetriggerable"></a>
 
 ## 🔌 CEnvSoundscapeTriggerable
 
@@ -19204,6 +20036,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="cenvsoundscapetriggerablealias_snd_soundscape_triggerable"></a>
+
 ## 🔌 CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -19217,6 +20051,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="cenvspark"></a>
 
 ## 🔌 CEnvSpark
 
@@ -19242,6 +20078,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="cenvsplash"></a>
+
 ## 🔌 CEnvSplash
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -19261,6 +20099,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="cenvtilt"></a>
 
 ## 🔌 CEnvTilt
 
@@ -19285,6 +20125,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="cenvviewpunch"></a>
+
 ## 🔌 CEnvViewPunch
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -19305,6 +20147,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="cenvvolumetricfogcontroller"></a>
 
 ## 🔌 CEnvVolumetricFogController
 
@@ -19573,6 +20417,8 @@ void WindDirectionUpdated()
 
 ---
 
+<a id="cenvvolumetricfogvolume"></a>
+
 ## 🔌 CEnvVolumetricFogVolume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -19720,6 +20566,8 @@ void OverrideNoiseStrengthUpdated()
 
 ---
 
+<a id="cenvwind"></a>
+
 ## 🔌 CEnvWind
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -19747,6 +20595,8 @@ void EnvWindSharedUpdated()
 
 
 ---
+
+<a id="cenvwindcontroller"></a>
 
 ## 🔌 CEnvWindController
 
@@ -19839,6 +20689,8 @@ void IsMasterUpdated()
 
 
 ---
+
+<a id="cenvwindshared"></a>
 
 ## 🔌 CEnvWindShared
 
@@ -19960,6 +20812,8 @@ void LocationUpdated()
 
 ---
 
+<a id="cenvwindvolume"></a>
+
 ## 🔌 CEnvWindVolume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20044,6 +20898,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cexampleschemavdata_monomorphic"></a>
+
 ## 🔌 CExampleSchemaVData_Monomorphic
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20063,6 +20919,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cexampleschemavdata_polymorphicbase"></a>
+
 ## 🔌 CExampleSchemaVData_PolymorphicBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20080,6 +20938,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cexampleschemavdata_polymorphicderiveda"></a>
 
 ## 🔌 CExampleSchemaVData_PolymorphicDerivedA
 
@@ -20101,6 +20961,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cexampleschemavdata_polymorphicderivedb"></a>
+
 ## 🔌 CExampleSchemaVData_PolymorphicDerivedB
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20120,6 +20982,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cexpressionactionupdater"></a>
 
 ## 🔌 CExpressionActionUpdater
 
@@ -20143,6 +21007,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfeindexedjigglebone"></a>
+
 ## 🔌 CFeIndexedJiggleBone
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20162,6 +21028,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cfejigglebone"></a>
 
 ## 🔌 CFeJiggleBone
 
@@ -20215,6 +21083,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfemorphlayer"></a>
+
 ## 🔌 CFeMorphLayer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20239,6 +21109,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfenamedjigglebone"></a>
+
 ## 🔌 CFeNamedJiggleBone
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20260,6 +21132,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfevertexmapbuildarray"></a>
+
 ## 🔌 CFeVertexMapBuildArray
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20277,6 +21151,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cfilterattributeint"></a>
 
 ## 🔌 CFilterAttributeInt
 
@@ -20298,6 +21174,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfilterclass"></a>
+
 ## 🔌 CFilterClass
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20318,6 +21196,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfiltercontext"></a>
+
 ## 🔌 CFilterContext
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20337,6 +21217,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cfilterenemy"></a>
 
 ## 🔌 CFilterEnemy
 
@@ -20362,6 +21244,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfilterlos"></a>
+
 ## 🔌 CFilterLOS
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20375,6 +21259,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cfiltermassgreater"></a>
 
 ## 🔌 CFilterMassGreater
 
@@ -20396,6 +21282,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfiltermodel"></a>
+
 ## 🔌 CFilterModel
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20415,6 +21303,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cfiltermultiple"></a>
 
 ## 🔌 CFilterMultiple
 
@@ -20438,6 +21328,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfiltermultipleapi"></a>
+
 ## 🔌 CFilterMultipleAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20449,6 +21341,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cfiltername"></a>
 
 ## 🔌 CFilterName
 
@@ -20470,6 +21364,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfilterproximity"></a>
+
 ## 🔌 CFilterProximity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20489,6 +21385,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cfilterteam"></a>
 
 ## 🔌 CFilterTeam
 
@@ -20510,6 +21408,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfirecrackerblast"></a>
+
 ## 🔌 CFireCrackerBlast
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20523,6 +21423,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cfiringmodefloat"></a>
 
 ## 🔌 CFiringModeFloat
 
@@ -20542,6 +21444,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cfiringmodeint"></a>
+
 ## 🔌 CFiringModeInt
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20559,6 +21463,8 @@ void WindDirectionVariationMultiplierUpdated()
 
 
 ---
+
+<a id="cfish"></a>
 
 ## 🔌 CFish
 
@@ -20641,6 +21547,8 @@ void WaterLevelUpdated()
 
 ---
 
+<a id="cfishpool"></a>
+
 ## 🔌 CFishPool
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20667,6 +21575,8 @@ void WaterLevelUpdated()
 
 ---
 
+<a id="cflashbang"></a>
+
 ## 🔌 CFlashbang
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20681,6 +21591,8 @@ void WaterLevelUpdated()
 
 ---
 
+<a id="cflashbangprojectile"></a>
+
 ## 🔌 CFlashbangProjectile
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20690,6 +21602,8 @@ void WaterLevelUpdated()
 
 
 ---
+
+<a id="cflashbangprojectile"></a>
 
 ## 🔌 CFlashbangProjectile
 
@@ -20713,6 +21627,8 @@ void WaterLevelUpdated()
 
 ---
 
+<a id="cflexcontroller"></a>
+
 ## 🔌 CFlexController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20734,6 +21650,8 @@ void WaterLevelUpdated()
 
 ---
 
+<a id="cflexdesc"></a>
+
 ## 🔌 CFlexDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20751,6 +21669,8 @@ void WaterLevelUpdated()
 
 
 ---
+
+<a id="cflexop"></a>
 
 ## 🔌 CFlexOp
 
@@ -20771,6 +21691,8 @@ void WaterLevelUpdated()
 
 ---
 
+<a id="cflexrule"></a>
+
 ## 🔌 CFlexRule
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20789,6 +21711,8 @@ void WaterLevelUpdated()
 
 
 ---
+
+<a id="cfloatanimparameter"></a>
 
 ## 🔌 CFloatAnimParameter
 
@@ -20813,6 +21737,8 @@ void WaterLevelUpdated()
 
 ---
 
+<a id="cfloatexponentialmovingaverage"></a>
+
 ## 🔌 CFloatExponentialMovingAverage
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20825,6 +21751,8 @@ void WaterLevelUpdated()
 
 ---
 
+<a id="cfloatmovingaverage"></a>
+
 ## 🔌 CFloatMovingAverage
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20836,6 +21764,8 @@ void WaterLevelUpdated()
 
 
 ---
+
+<a id="cfogcontroller"></a>
 
 ## 🔌 CFogController
 
@@ -20867,6 +21797,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfogtrigger"></a>
+
 ## 🔌 CFogTrigger
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20886,6 +21818,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfogvolume"></a>
 
 ## 🔌 CFogVolume
 
@@ -20911,6 +21845,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfollowattachmentupdatenode"></a>
+
 ## 🔌 CFollowAttachmentUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20930,6 +21866,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfollowpathupdatenode"></a>
 
 ## 🔌 CFollowPathUpdateNode
 
@@ -20963,6 +21901,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfollowtargetupdatenode"></a>
+
 ## 🔌 CFollowTargetUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -20984,6 +21924,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfootadjustmentupdatenode"></a>
 
 ## 🔌 CFootAdjustmentUpdateNode
 
@@ -21013,6 +21955,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfootcycle"></a>
+
 ## 🔌 CFootCycle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21026,6 +21970,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfootcycledefinition"></a>
 
 ## 🔌 CFootCycleDefinition
 
@@ -21053,6 +21999,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfootcyclemetricevaluator"></a>
+
 ## 🔌 CFootCycleMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21072,6 +22020,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfootdefinition"></a>
 
 ## 🔌 CFootDefinition
 
@@ -21099,6 +22049,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfootfallanimtag"></a>
+
 ## 🔌 CFootFallAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21118,6 +22070,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfootlockupdatenode"></a>
 
 ## 🔌 CFootLockUpdateNode
 
@@ -21158,6 +22112,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfootmotion"></a>
+
 ## 🔌 CFootMotion
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21177,6 +22133,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfootpinningupdatenode"></a>
 
 ## 🔌 CFootPinningUpdateNode
 
@@ -21201,6 +22159,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfootpositionmetricevaluator"></a>
+
 ## 🔌 CFootPositionMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21221,6 +22181,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfootsteptriggerupdatenode"></a>
 
 ## 🔌 CFootStepTriggerUpdateNode
 
@@ -21243,6 +22205,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfootstride"></a>
+
 ## 🔌 CFootStride
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21262,6 +22226,8 @@ void FogUpdated()
 
 ---
 
+<a id="cfoottrajectories"></a>
+
 ## 🔌 CFootTrajectories
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21279,6 +22245,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfoottrajectory"></a>
 
 ## 🔌 CFootTrajectory
 
@@ -21299,6 +22267,8 @@ void FogUpdated()
 
 
 ---
+
+<a id="cfootstepcontrol"></a>
 
 ## 🔌 CFootstepControl
 
@@ -21335,6 +22305,8 @@ void DestinationUpdated()
 
 ---
 
+<a id="cfootsteplandedanimtag"></a>
+
 ## 🔌 CFootstepLandedAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21359,6 +22331,8 @@ void DestinationUpdated()
 
 ---
 
+<a id="cfootsteptablehandle"></a>
+
 ## 🔌 CFootstepTableHandle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21370,6 +22344,8 @@ void DestinationUpdated()
 
 
 ---
+
+<a id="cfuncbrush"></a>
 
 ## 🔌 CFuncBrush
 
@@ -21395,6 +22371,8 @@ void DestinationUpdated()
 
 
 ---
+
+<a id="cfuncconveyor"></a>
 
 ## 🔌 CFuncConveyor
 
@@ -21462,6 +22440,8 @@ void ConveyorModels1Updated()
 
 ---
 
+<a id="cfuncelectrifiedvolume"></a>
+
 ## 🔌 CFuncElectrifiedVolume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21493,6 +22473,8 @@ void EffectNameUpdated()
 
 ---
 
+<a id="cfuncillusionary"></a>
+
 ## 🔌 CFuncIllusionary
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21506,6 +22488,8 @@ void EffectNameUpdated()
 
 
 ---
+
+<a id="cfuncinteractionlayerclip"></a>
 
 ## 🔌 CFuncInteractionLayerClip
 
@@ -21528,6 +22512,8 @@ void EffectNameUpdated()
 
 
 ---
+
+<a id="cfuncladder"></a>
 
 ## 🔌 CFuncLadder
 
@@ -21592,6 +22578,8 @@ void FakeLadderUpdated()
 
 ---
 
+<a id="cfuncladderalias_func_useableladder"></a>
+
 ## 🔌 CFuncLadderAlias_func_useableladder
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21605,6 +22593,8 @@ void FakeLadderUpdated()
 
 
 ---
+
+<a id="cfuncmonitor"></a>
 
 ## 🔌 CFuncMonitor
 
@@ -21684,6 +22674,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncmovelinear"></a>
+
 ## 🔌 CFuncMoveLinear
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21716,6 +22708,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncmovelinearalias_momentary_door"></a>
+
 ## 🔌 CFuncMoveLinearAlias_momentary_door
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21729,6 +22723,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncmover"></a>
 
 ## 🔌 CFuncMover
 
@@ -21833,6 +22829,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncmoverapi"></a>
+
 ## 🔌 CFuncMoverAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21844,6 +22842,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncmover__followconstraint_t"></a>
 
 ## 📋 CFuncMover__FollowConstraint_t
 
@@ -21863,6 +22863,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncmover__followentitydirection_t"></a>
 
 ## 📋 CFuncMover__FollowEntityDirection_t
 
@@ -21884,6 +22886,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncmover__move_t"></a>
+
 ## 📋 CFuncMover__Move_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21903,6 +22907,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncmover__orientationupdate_t"></a>
 
 ## 📋 CFuncMover__OrientationUpdate_t
 
@@ -21930,6 +22936,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncmover__transitiontopathnodeaction_t"></a>
+
 ## 📋 CFuncMover__TransitionToPathNodeAction_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21950,6 +22958,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncnavblocker"></a>
 
 ## 🔌 CFuncNavBlocker
 
@@ -21972,6 +22982,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncnavobstruction"></a>
+
 ## 🔌 CFuncNavObstruction
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -21993,6 +23005,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncplat"></a>
+
 ## 🔌 CFuncPlat
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22012,6 +23026,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncplatrot"></a>
 
 ## 🔌 CFuncPlatRot
 
@@ -22034,6 +23050,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncproprespawnzone"></a>
+
 ## 🔌 CFuncPropRespawnZone
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22048,6 +23066,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncretakebarrier"></a>
+
 ## 🔌 CFuncRetakeBarrier
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22061,6 +23081,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncrotating"></a>
 
 ## 🔌 CFuncRotating
 
@@ -22098,6 +23120,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncrotator"></a>
 
 ## 🔌 CFuncRotator
 
@@ -22159,6 +23183,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncrotator__rotate_t"></a>
+
 ## 📋 CFuncRotator__Rotate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22181,6 +23207,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncshatterglass"></a>
 
 ## 🔌 CFuncShatterglass
 
@@ -22227,6 +23255,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfunctanktrain"></a>
+
 ## 🔌 CFuncTankTrain
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22246,6 +23276,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfunctimescale"></a>
 
 ## 🔌 CFuncTimescale
 
@@ -22271,6 +23303,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfunctrackauto"></a>
+
 ## 🔌 CFuncTrackAuto
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22284,6 +23318,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfunctrackchange"></a>
 
 ## 🔌 CFuncTrackChange
 
@@ -22312,6 +23348,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfunctracktrain"></a>
 
 ## 🔌 CFuncTrackTrain
 
@@ -22369,6 +23407,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfunctrain"></a>
+
 ## 🔌 CFuncTrain
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22394,6 +23434,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfunctraincontrols"></a>
+
 ## 🔌 CFuncTrainControls
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22407,6 +23449,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncvphysicsclip"></a>
 
 ## 🔌 CFuncVPhysicsClip
 
@@ -22428,6 +23472,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncvehicleclip"></a>
+
 ## 🔌 CFuncVehicleClip
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22441,6 +23487,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncwall"></a>
 
 ## 🔌 CFuncWall
 
@@ -22462,6 +23510,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuncwalltoggle"></a>
+
 ## 🔌 CFuncWallToggle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22475,6 +23525,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuncwater"></a>
 
 ## 🔌 CFuncWater
 
@@ -22496,6 +23548,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuseprogram"></a>
+
 ## 🔌 CFuseProgram
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22516,6 +23570,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfusesymboltable"></a>
 
 ## 🔌 CFuseSymbolTable
 
@@ -22540,6 +23596,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cfuturefacingmetricevaluator"></a>
+
 ## 🔌 CFutureFacingMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22560,6 +23618,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cfuturevelocitymetricevaluator"></a>
 
 ## 🔌 CFutureVelocityMetricEvaluator
 
@@ -22583,6 +23643,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cgamechoreoservices"></a>
 
 ## 🔌 CGameChoreoServices
 
@@ -22608,6 +23670,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cgameend"></a>
+
 ## 🔌 CGameEnd
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22621,6 +23685,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cgamegibmanager"></a>
 
 ## 🔌 CGameGibManager
 
@@ -22645,6 +23711,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cgamemoney"></a>
+
 ## 🔌 CGameMoney
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22668,6 +23736,8 @@ void Draw3DSkyboxUpdated()
 
 ---
 
+<a id="cgameplayerequip"></a>
+
 ## 🔌 CGamePlayerEquip
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22681,6 +23751,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cgameplayerzone"></a>
 
 ## 🔌 CGamePlayerZone
 
@@ -22704,6 +23776,8 @@ void Draw3DSkyboxUpdated()
 
 
 ---
+
+<a id="cgamerules"></a>
 
 ## 🔌 CGameRules
 
@@ -22749,6 +23823,8 @@ void GamePausedUpdated()
 
 ---
 
+<a id="cgamerulesproxy"></a>
+
 ## 🔌 CGameRulesProxy
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22762,6 +23838,8 @@ void GamePausedUpdated()
 
 
 ---
+
+<a id="cgamescenenode"></a>
 
 ## 🔌 CGameSceneNode
 
@@ -22789,6 +23867,8 @@ CSkeletonInstance skeleton = node.GetSkeletonInstance();
 
 
 ---
+
+<a id="cgamescenenode"></a>
 
 ## 🔌 CGameSceneNode
 
@@ -22878,6 +23958,8 @@ void HierarchyAttachNameUpdated()
 
 ---
 
+<a id="cgamescenenodehandle"></a>
+
 ## 🔌 CGameSceneNodeHandle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22910,6 +23992,8 @@ void NameUpdated()
 
 
 ---
+
+<a id="cgamescriptedmovedata"></a>
 
 ## 🔌 CGameScriptedMoveData
 
@@ -22946,6 +24030,8 @@ void NameUpdated()
 
 ---
 
+<a id="cgamescriptedmovedef_t"></a>
+
 ## 🔌 CGameScriptedMoveDef_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22972,6 +24058,8 @@ void NameUpdated()
 
 ---
 
+<a id="cgametext"></a>
+
 ## 🔌 CGameText
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -22992,6 +24080,8 @@ void NameUpdated()
 
 
 ---
+
+<a id="cgeneralrandomrotation"></a>
 
 ## 🔌 CGeneralRandomRotation
 
@@ -23018,6 +24108,8 @@ void NameUpdated()
 
 ---
 
+<a id="cgeneralspin"></a>
+
 ## 🔌 CGeneralSpin
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23039,6 +24131,8 @@ void NameUpdated()
 
 
 ---
+
+<a id="cgenericconstraint"></a>
 
 ## 🔌 CGenericConstraint
 
@@ -23106,6 +24200,8 @@ void NameUpdated()
 
 
 ---
+
+<a id="cglowproperty"></a>
 
 ## 🔌 CGlowProperty
 
@@ -23190,6 +24286,8 @@ void EligibleForScreenHighlightUpdated()
 
 
 ---
+
+<a id="cgradientfog"></a>
 
 ## 🔌 CGradientFog
 
@@ -23318,6 +24416,8 @@ void IsEnabledUpdated()
 
 ---
 
+<a id="cguntarget"></a>
+
 ## 🔌 CGunTarget
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23340,6 +24440,8 @@ void IsEnabledUpdated()
 
 ---
 
+<a id="chegrenade"></a>
+
 ## 🔌 CHEGrenade
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23354,6 +24456,8 @@ void IsEnabledUpdated()
 
 ---
 
+<a id="chegrenadeprojectile"></a>
+
 ## 🔌 CHEGrenadeProjectile
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23363,6 +24467,8 @@ void IsEnabledUpdated()
 
 
 ---
+
+<a id="chegrenadeprojectile"></a>
 
 ## 🔌 CHEGrenadeProjectile
 
@@ -23378,6 +24484,8 @@ void IsEnabledUpdated()
 
 ---
 
+<a id="chandledummy"></a>
+
 ## 🔌 CHandleDummy
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23391,6 +24499,8 @@ void IsEnabledUpdated()
 
 
 ---
+
+<a id="chandletest"></a>
 
 ## 🔌 CHandleTest
 
@@ -23427,6 +24537,8 @@ void SendHandleUpdated()
 
 ---
 
+<a id="chandshakeanimtagbase"></a>
+
 ## 🔌 CHandshakeAnimTagBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23446,6 +24558,8 @@ void SendHandleUpdated()
 
 
 ---
+
+<a id="chintmessage"></a>
 
 ## 🔌 CHintMessage
 
@@ -23467,6 +24581,8 @@ void SendHandleUpdated()
 
 ---
 
+<a id="chintmessagequeue"></a>
+
 ## 🔌 CHintMessageQueue
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23486,6 +24602,8 @@ void SendHandleUpdated()
 
 
 ---
+
+<a id="chitbox"></a>
 
 ## 🔌 CHitBox
 
@@ -23517,6 +24635,8 @@ void SendHandleUpdated()
 
 ---
 
+<a id="chitboxset"></a>
+
 ## 🔌 CHitBoxSet
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23538,6 +24658,8 @@ void SendHandleUpdated()
 
 ---
 
+<a id="chitboxsetlist"></a>
+
 ## 🔌 CHitBoxSetList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23555,6 +24677,8 @@ void SendHandleUpdated()
 
 
 ---
+
+<a id="chitreactupdatenode"></a>
 
 ## 🔌 CHitReactUpdateNode
 
@@ -23583,6 +24707,8 @@ void SendHandleUpdated()
 
 ---
 
+<a id="chitboxcomponent"></a>
+
 ## 🔌 CHitboxComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23602,6 +24728,8 @@ void SendHandleUpdated()
 
 
 ---
+
+<a id="chostage"></a>
 
 ## 🔌 CHostage
 
@@ -23735,6 +24863,8 @@ void DropStartTimeUpdated()
 
 ---
 
+<a id="chostagealias_info_hostage_spawn"></a>
+
 ## 🔌 CHostageAlias_info_hostage_spawn
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23749,6 +24879,8 @@ void DropStartTimeUpdated()
 
 ---
 
+<a id="chostagecarriableprop"></a>
+
 ## 🔌 CHostageCarriableProp
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23762,6 +24894,8 @@ void DropStartTimeUpdated()
 
 
 ---
+
+<a id="chostageexpressershim"></a>
 
 ## 🔌 CHostageExpresserShim
 
@@ -23783,6 +24917,8 @@ void DropStartTimeUpdated()
 
 ---
 
+<a id="chostagerescuezone"></a>
+
 ## 🔌 CHostageRescueZone
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23797,6 +24933,8 @@ void DropStartTimeUpdated()
 
 ---
 
+<a id="chostagerescuezoneshim"></a>
+
 ## 🔌 CHostageRescueZoneShim
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23810,6 +24948,8 @@ void DropStartTimeUpdated()
 
 
 ---
+
+<a id="cinbuttonstate"></a>
 
 ## 🔌 CInButtonState
 
@@ -23829,6 +24969,8 @@ void DropStartTimeUpdated()
 
 ---
 
+<a id="cinbuttonstate"></a>
+
 ## 🔌 CInButtonState
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23847,6 +24989,8 @@ void DropStartTimeUpdated()
 
 ---
 
+<a id="cincendiarygrenade"></a>
+
 ## 🔌 CIncendiaryGrenade
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23860,6 +25004,8 @@ void DropStartTimeUpdated()
 
 
 ---
+
+<a id="cinferno"></a>
 
 ## 🔌 CInferno
 
@@ -23960,6 +25106,8 @@ void InPostEffectTimeUpdated()
 
 ---
 
+<a id="cinfodata"></a>
+
 ## 🔌 CInfoData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23974,6 +25122,8 @@ void InPostEffectTimeUpdated()
 
 ---
 
+<a id="cinfodeathmatchspawn"></a>
+
 ## 🔌 CInfoDeathmatchSpawn
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -23987,6 +25137,8 @@ void InPostEffectTimeUpdated()
 
 
 ---
+
+<a id="cinfodynamicshadowhint"></a>
 
 ## 🔌 CInfoDynamicShadowHint
 
@@ -24012,6 +25164,8 @@ void InPostEffectTimeUpdated()
 
 ---
 
+<a id="cinfodynamicshadowhintbox"></a>
+
 ## 🔌 CInfoDynamicShadowHintBox
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24032,6 +25186,8 @@ void InPostEffectTimeUpdated()
 
 
 ---
+
+<a id="cinfofan"></a>
 
 ## 🔌 CInfoFan
 
@@ -24082,6 +25238,8 @@ void FanForceCurveStringUpdated()
 
 ---
 
+<a id="cinfogameeventproxy"></a>
+
 ## 🔌 CInfoGameEventProxy
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24103,6 +25261,8 @@ void FanForceCurveStringUpdated()
 
 ---
 
+<a id="cinfoinstructorhintbombtargeta"></a>
+
 ## 🔌 CInfoInstructorHintBombTargetA
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24116,6 +25276,8 @@ void FanForceCurveStringUpdated()
 
 
 ---
+
+<a id="cinfoinstructorhintbombtargetb"></a>
 
 ## 🔌 CInfoInstructorHintBombTargetB
 
@@ -24131,6 +25293,8 @@ void FanForceCurveStringUpdated()
 
 ---
 
+<a id="cinfoinstructorhinthostagerescuezone"></a>
+
 ## 🔌 CInfoInstructorHintHostageRescueZone
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24145,6 +25309,8 @@ void FanForceCurveStringUpdated()
 
 ---
 
+<a id="cinfoinstructorhinttarget"></a>
+
 ## 🔌 CInfoInstructorHintTarget
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24158,6 +25324,8 @@ void FanForceCurveStringUpdated()
 
 
 ---
+
+<a id="cinfointeraction"></a>
 
 ## 🔌 CInfoInteraction
 
@@ -24181,6 +25349,8 @@ void FanForceCurveStringUpdated()
 
 ---
 
+<a id="cinfoladderdismount"></a>
+
 ## 🔌 CInfoLadderDismount
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24195,6 +25365,8 @@ void FanForceCurveStringUpdated()
 
 ---
 
+<a id="cinfolandmark"></a>
+
 ## 🔌 CInfoLandmark
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24208,6 +25380,8 @@ void FanForceCurveStringUpdated()
 
 
 ---
+
+<a id="cinfooffscreenpanoramatexture"></a>
 
 ## 🔌 CInfoOffscreenPanoramaTexture
 
@@ -24295,6 +25469,8 @@ void CSSClassesUpdated()
 
 ---
 
+<a id="cinfoparticletarget"></a>
+
 ## 🔌 CInfoParticleTarget
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24309,6 +25485,8 @@ void CSSClassesUpdated()
 
 ---
 
+<a id="cinfoplayercounterterrorist"></a>
+
 ## 🔌 CInfoPlayerCounterterrorist
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24322,6 +25500,8 @@ void CSSClassesUpdated()
 
 
 ---
+
+<a id="cinfoplayerstart"></a>
 
 ## 🔌 CInfoPlayerStart
 
@@ -24344,6 +25524,8 @@ void CSSClassesUpdated()
 
 ---
 
+<a id="cinfoplayerterrorist"></a>
+
 ## 🔌 CInfoPlayerTerrorist
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24358,6 +25540,8 @@ void CSSClassesUpdated()
 
 ---
 
+<a id="cinfospawngrouplandmark"></a>
+
 ## 🔌 CInfoSpawnGroupLandmark
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24371,6 +25555,8 @@ void CSSClassesUpdated()
 
 
 ---
+
+<a id="cinfospawngrouploadunload"></a>
 
 ## 🔌 CInfoSpawnGroupLoadUnload
 
@@ -24404,6 +25590,8 @@ void CSSClassesUpdated()
 
 ---
 
+<a id="cinfotarget"></a>
+
 ## 🔌 CInfoTarget
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24417,6 +25605,8 @@ void CSSClassesUpdated()
 
 
 ---
+
+<a id="cinfotargetserveronly"></a>
 
 ## 🔌 CInfoTargetServerOnly
 
@@ -24432,6 +25622,8 @@ void CSSClassesUpdated()
 
 ---
 
+<a id="cinfoteleportdestination"></a>
+
 ## 🔌 CInfoTeleportDestination
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24445,6 +25637,8 @@ void CSSClassesUpdated()
 
 
 ---
+
+<a id="cinfovisibilitybox"></a>
 
 ## 🔌 CInfoVisibilityBox
 
@@ -24487,6 +25681,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="cinfoworldlayer"></a>
 
 ## 🔌 CInfoWorldLayer
 
@@ -24540,6 +25736,8 @@ void EntitiesSpawnedUpdated()
 
 ---
 
+<a id="cinputstreamupdatenode"></a>
+
 ## 🔌 CInputStreamUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24553,6 +25751,8 @@ void EntitiesSpawnedUpdated()
 
 
 ---
+
+<a id="cinstancedsceneentity"></a>
 
 ## 🔌 CInstancedSceneEntity
 
@@ -24580,6 +25780,8 @@ void EntitiesSpawnedUpdated()
 
 ---
 
+<a id="cinstructorevententity"></a>
+
 ## 🔌 CInstructorEventEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24601,6 +25803,8 @@ void EntitiesSpawnedUpdated()
 
 
 ---
+
+<a id="cintanimparameter"></a>
 
 ## 🔌 CIntAnimParameter
 
@@ -24624,6 +25828,8 @@ void EntitiesSpawnedUpdated()
 
 ---
 
+<a id="cironsightcontroller"></a>
+
 ## 🔌 CIronSightController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24644,6 +25850,8 @@ void EntitiesSpawnedUpdated()
 
 
 ---
+
+<a id="citem"></a>
 
 ## 🔌 CItem
 
@@ -24672,6 +25880,8 @@ void EntitiesSpawnedUpdated()
 
 ---
 
+<a id="citemassaultsuit"></a>
+
 ## 🔌 CItemAssaultSuit
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24685,6 +25895,8 @@ void EntitiesSpawnedUpdated()
 
 
 ---
+
+<a id="citemdefuser"></a>
 
 ## 🔌 CItemDefuser
 
@@ -24707,6 +25919,8 @@ void EntitiesSpawnedUpdated()
 
 ---
 
+<a id="citemdefuseralias_item_defuser"></a>
+
 ## 🔌 CItemDefuserAlias_item_defuser
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24720,6 +25934,8 @@ void EntitiesSpawnedUpdated()
 
 
 ---
+
+<a id="citemdogtags"></a>
 
 ## 🔌 CItemDogtags
 
@@ -24755,6 +25971,8 @@ void KillingPlayerUpdated()
 
 
 ---
+
+<a id="citemgeneric"></a>
 
 ## 🔌 CItemGeneric
 
@@ -24807,6 +26025,8 @@ void KillingPlayerUpdated()
 
 ---
 
+<a id="citemgenerictriggerhelper"></a>
+
 ## 🔌 CItemGenericTriggerHelper
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24827,6 +26047,8 @@ void KillingPlayerUpdated()
 
 ---
 
+<a id="citemkevlar"></a>
+
 ## 🔌 CItemKevlar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24840,6 +26062,8 @@ void KillingPlayerUpdated()
 
 
 ---
+
+<a id="citemsoda"></a>
 
 ## 🔌 CItemSoda
 
@@ -24855,6 +26079,8 @@ void KillingPlayerUpdated()
 
 ---
 
+<a id="citem_healthshot"></a>
+
 ## 🔌 CItem_Healthshot
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24868,6 +26094,8 @@ void KillingPlayerUpdated()
 
 
 ---
+
+<a id="cjiggleboneupdatenode"></a>
 
 ## 🔌 CJiggleBoneUpdateNode
 
@@ -24888,6 +26116,8 @@ void KillingPlayerUpdated()
 
 
 ---
+
+<a id="cjumphelperupdatenode"></a>
 
 ## 🔌 CJumpHelperUpdateNode
 
@@ -24916,6 +26146,8 @@ void KillingPlayerUpdated()
 
 ---
 
+<a id="ckeepupright"></a>
+
 ## 🔌 CKeepUpright
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24941,6 +26173,8 @@ void KillingPlayerUpdated()
 
 
 ---
+
+<a id="cknife"></a>
 
 ## 🔌 CKnife
 
@@ -24970,6 +26204,8 @@ void FirstAttackUpdated()
 
 ---
 
+<a id="clodcomponentupdater"></a>
+
 ## 🔌 CLODComponentUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -24990,6 +26226,8 @@ void FirstAttackUpdated()
 
 ---
 
+<a id="cleafupdatenode"></a>
+
 ## 🔌 CLeafUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25003,6 +26241,8 @@ void FirstAttackUpdated()
 
 
 ---
+
+<a id="cleanmatrixupdatenode"></a>
 
 ## 🔌 CLeanMatrixUpdateNode
 
@@ -25032,6 +26272,8 @@ void FirstAttackUpdated()
 
 
 ---
+
+<a id="clightcomponent"></a>
 
 ## 🔌 CLightComponent
 
@@ -25538,6 +26780,8 @@ void MinRoughnessUpdated()
 
 ---
 
+<a id="clightdirectionalentity"></a>
+
 ## 🔌 CLightDirectionalEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25551,6 +26795,8 @@ void MinRoughnessUpdated()
 
 
 ---
+
+<a id="clightentity"></a>
 
 ## 🔌 CLightEntity
 
@@ -25580,6 +26826,8 @@ void CLightComponentUpdated()
 
 ---
 
+<a id="clightenvironmententity"></a>
+
 ## 🔌 CLightEnvironmentEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25593,6 +26841,8 @@ void CLightComponentUpdated()
 
 
 ---
+
+<a id="clightorthoentity"></a>
 
 ## 🔌 CLightOrthoEntity
 
@@ -25608,6 +26858,8 @@ void CLightComponentUpdated()
 
 ---
 
+<a id="clightspotentity"></a>
+
 ## 🔌 CLightSpotEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25621,6 +26873,8 @@ void CLightComponentUpdated()
 
 
 ---
+
+<a id="clogicachievement"></a>
 
 ## 🔌 CLogicAchievement
 
@@ -25644,6 +26898,8 @@ void CLightComponentUpdated()
 
 ---
 
+<a id="clogicactiveautosave"></a>
+
 ## 🔌 CLogicActiveAutosave
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25666,6 +26922,8 @@ void CLightComponentUpdated()
 
 
 ---
+
+<a id="clogicauto"></a>
 
 ## 🔌 CLogicAuto
 
@@ -25697,6 +26955,8 @@ void CLightComponentUpdated()
 
 ---
 
+<a id="clogicautosave"></a>
+
 ## 🔌 CLogicAutosave
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25718,6 +26978,8 @@ void CLightComponentUpdated()
 
 
 ---
+
+<a id="clogicbranch"></a>
 
 ## 🔌 CLogicBranch
 
@@ -25741,6 +27003,8 @@ void CLightComponentUpdated()
 
 
 ---
+
+<a id="clogicbranchlist"></a>
 
 ## 🔌 CLogicBranchList
 
@@ -25767,6 +27031,8 @@ void CLightComponentUpdated()
 
 ---
 
+<a id="clogicbranchlist__logicbranchlistenerlaststate_t"></a>
+
 ## 📋 CLogicBranchList__LogicBranchListenerLastState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25787,6 +27053,8 @@ void CLightComponentUpdated()
 
 
 ---
+
+<a id="clogiccase"></a>
 
 ## 🔌 CLogicCase
 
@@ -25813,6 +27081,8 @@ void CLightComponentUpdated()
 
 ---
 
+<a id="clogiccollisionpair"></a>
+
 ## 🔌 CLogicCollisionPair
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25837,6 +27107,8 @@ void CLightComponentUpdated()
 
 
 ---
+
+<a id="clogiccompare"></a>
 
 ## 🔌 CLogicCompare
 
@@ -25863,6 +27135,8 @@ void CLightComponentUpdated()
 
 ---
 
+<a id="clogicdistanceautosave"></a>
+
 ## 🔌 CLogicDistanceAutosave
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25887,6 +27161,8 @@ void CLightComponentUpdated()
 
 
 ---
+
+<a id="clogicdistancecheck"></a>
 
 ## 🔌 CLogicDistanceCheck
 
@@ -25914,6 +27190,8 @@ void CLightComponentUpdated()
 
 ---
 
+<a id="clogiceventlistener"></a>
+
 ## 🔌 CLogicEventListener
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25937,6 +27215,8 @@ void CLightComponentUpdated()
 
 ---
 
+<a id="clogicgameevent"></a>
+
 ## 🔌 CLogicGameEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -25956,6 +27236,8 @@ void CLightComponentUpdated()
 
 
 ---
+
+<a id="clogicgameeventlistener"></a>
 
 ## 🔌 CLogicGameEventListener
 
@@ -25989,6 +27271,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="clogiclinetoentity"></a>
+
 ## 🔌 CLogicLineToEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26011,6 +27295,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="clogicmeasuremovement"></a>
 
 ## 🔌 CLogicMeasureMovement
 
@@ -26039,6 +27325,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="clogicnpccounter"></a>
 
 ## 🔌 CLogicNPCCounter
 
@@ -26107,6 +27395,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="clogicnpccounteraabb"></a>
+
 ## 🔌 CLogicNPCCounterAABB
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26130,6 +27420,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="clogicnpccounterobb"></a>
+
 ## 🔌 CLogicNPCCounterOBB
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26143,6 +27435,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="clogicnavigation"></a>
 
 ## 🔌 CLogicNavigation
 
@@ -26164,6 +27458,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="clogicplayerproxy"></a>
 
 ## 🔌 CLogicPlayerProxy
 
@@ -26189,6 +27485,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="clogicproximity"></a>
+
 ## 🔌 CLogicProximity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26202,6 +27500,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="clogicrelay"></a>
 
 ## 🔌 CLogicRelay
 
@@ -26227,6 +27527,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="clogicrelayapi"></a>
+
 ## 🔌 CLogicRelayAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26238,6 +27540,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="clogicscript"></a>
 
 ## 🔌 CLogicScript
 
@@ -26253,6 +27557,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="clogicalentity"></a>
+
 ## 🔌 CLogicalEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26266,6 +27572,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="clookatupdatenode"></a>
 
 ## 🔌 CLookAtUpdateNode
 
@@ -26291,6 +27599,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="clookcomponentupdater"></a>
 
 ## 🔌 CLookComponentUpdater
 
@@ -26319,6 +27629,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="cmapinfo"></a>
 
 ## 🔌 CMapInfo
 
@@ -26353,6 +27665,8 @@ void EnabledUpdated()
 
 ---
 
+<a id="cmapsharedenvironment"></a>
+
 ## 🔌 CMapSharedEnvironment
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26372,6 +27686,8 @@ void EnabledUpdated()
 
 
 ---
+
+<a id="cmapvetopickcontroller"></a>
 
 ## 🔌 CMapVetoPickController
 
@@ -26508,6 +27824,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmarkupvolume"></a>
+
 ## 🔌 CMarkupVolume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26527,6 +27845,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmarkupvolumetagged"></a>
 
 ## 🔌 CMarkupVolumeTagged
 
@@ -26554,6 +27874,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmarkupvolumetagged_nav"></a>
+
 ## 🔌 CMarkupVolumeTagged_Nav
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26573,6 +27895,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmarkupvolumetagged_navgame"></a>
 
 ## 🔌 CMarkupVolumeTagged_NavGame
 
@@ -26595,6 +27919,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmarkupvolumewithref"></a>
 
 ## 🔌 CMarkupVolumeWithRef
 
@@ -26619,6 +27945,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmaterialattributeanimtag"></a>
+
 ## 🔌 CMaterialAttributeAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26641,6 +27969,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmaterialdrawdescriptor"></a>
 
 ## 🔌 CMaterialDrawDescriptor
 
@@ -26675,6 +28005,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmaterialdrawdescriptor__rigidmeshpart_t"></a>
+
 ## 🔌 CMaterialDrawDescriptor__RigidMeshPart_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26695,6 +28027,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmathcolorblend"></a>
 
 ## 🔌 CMathColorBlend
 
@@ -26719,6 +28053,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmathcounter"></a>
 
 ## 🔌 CMathCounter
 
@@ -26750,6 +28086,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmathremap"></a>
+
 ## 🔌 CMathRemap
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26780,6 +28118,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmeshletdescriptor"></a>
+
 ## 🔌 CMeshletDescriptor
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26802,6 +28142,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmessage"></a>
 
 ## 🔌 CMessage
 
@@ -26828,6 +28170,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmessageentity"></a>
+
 ## 🔌 CMessageEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26852,6 +28196,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmodelconfig"></a>
+
 ## 🔌 CModelConfig
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26873,6 +28219,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmodelconfigelement"></a>
+
 ## 🔌 CModelConfigElement
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26891,6 +28239,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmodelconfigelement_attachedmodel"></a>
 
 ## 🔌 CModelConfigElement_AttachedModel
 
@@ -26924,6 +28274,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmodelconfigelement_command"></a>
+
 ## 🔌 CModelConfigElement_Command
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26945,6 +28297,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmodelconfigelement_randomcolor"></a>
+
 ## 🔌 CModelConfigElement_RandomColor
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -26964,6 +28318,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmodelconfigelement_randompick"></a>
 
 ## 🔌 CModelConfigElement_RandomPick
 
@@ -26986,6 +28342,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmodelconfigelement_setbodygroup"></a>
+
 ## 🔌 CModelConfigElement_SetBodygroup
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27006,6 +28364,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmodelconfigelement_setbodygrouponattachedmodels"></a>
 
 ## 🔌 CModelConfigElement_SetBodygroupOnAttachedModels
 
@@ -27028,6 +28388,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmodelconfigelement_setmaterialgroup"></a>
+
 ## 🔌 CModelConfigElement_SetMaterialGroup
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27047,6 +28409,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmodelconfigelement_setmaterialgrouponattachedmodels"></a>
 
 ## 🔌 CModelConfigElement_SetMaterialGroupOnAttachedModels
 
@@ -27068,6 +28432,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmodelconfigelement_setrendercolor"></a>
+
 ## 🔌 CModelConfigElement_SetRenderColor
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27087,6 +28453,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmodelconfigelement_userpick"></a>
 
 ## 🔌 CModelConfigElement_UserPick
 
@@ -27108,6 +28476,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmodelconfiglist"></a>
+
 ## 🔌 CModelConfigList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27128,6 +28498,8 @@ void PhaseDurationTicksUpdated()
 
 ---
 
+<a id="cmodelpointentity"></a>
+
 ## 🔌 CModelPointEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27141,6 +28513,8 @@ void PhaseDurationTicksUpdated()
 
 
 ---
+
+<a id="cmodelstate"></a>
 
 ## 🔌 CModelState
 
@@ -27199,6 +28573,8 @@ void IdealMotionTypeUpdated()
 
 ---
 
+<a id="cmolotovgrenade"></a>
+
 ## 🔌 CMolotovGrenade
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27213,6 +28589,8 @@ void IdealMotionTypeUpdated()
 
 ---
 
+<a id="cmolotovprojectile"></a>
+
 ## 🔌 CMolotovProjectile
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27222,6 +28600,8 @@ void IdealMotionTypeUpdated()
 
 
 ---
+
+<a id="cmolotovprojectile"></a>
 
 ## 🔌 CMolotovProjectile
 
@@ -27252,6 +28632,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmomentaryrotbutton"></a>
 
 ## 🔌 CMomentaryRotButton
 
@@ -27286,6 +28668,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmoodvdata"></a>
+
 ## 🔌 CMoodVData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27305,6 +28689,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmorphbundledata"></a>
 
 ## 🔌 CMorphBundleData
 
@@ -27326,6 +28712,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmorphconstraint"></a>
 
 ## 🔌 CMorphConstraint
 
@@ -27350,6 +28738,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmorphdata"></a>
+
 ## 🔌 CMorphData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27368,6 +28758,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmorphrectdata"></a>
 
 ## 🔌 CMorphRectData
 
@@ -27390,6 +28782,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmorphsetdata"></a>
 
 ## 🔌 CMorphSetData
 
@@ -27416,6 +28810,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmotiondataset"></a>
+
 ## 🔌 CMotionDataSet
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27434,6 +28830,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmotiongraph"></a>
 
 ## 🔌 CMotionGraph
 
@@ -27459,6 +28857,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmotiongraphconfig"></a>
+
 ## 🔌 CMotionGraphConfig
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27480,6 +28880,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmotiongraphgroup"></a>
 
 ## 🔌 CMotionGraphGroup
 
@@ -27503,6 +28905,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmotiongraphupdatenode"></a>
+
 ## 🔌 CMotionGraphUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27522,6 +28926,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmotionmatchingupdatenode"></a>
 
 ## 🔌 CMotionMatchingUpdateNode
 
@@ -27565,6 +28971,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmotionmetricevaluator"></a>
+
 ## 🔌 CMotionMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27586,6 +28994,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmotionnode"></a>
+
 ## 🔌 CMotionNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27604,6 +29014,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmotionnodeblend1d"></a>
 
 ## 🔌 CMotionNodeBlend1D
 
@@ -27625,6 +29037,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmotionnodesequence"></a>
 
 ## 🔌 CMotionNodeSequence
 
@@ -27648,6 +29062,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmotionsearchdb"></a>
+
 ## 🔌 CMotionSearchDB
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27667,6 +29083,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmotionsearchnode"></a>
 
 ## 🔌 CMotionSearchNode
 
@@ -27690,6 +29108,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmotorcontroller"></a>
+
 ## 🔌 CMotorController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27710,6 +29130,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmovementcomponentupdater"></a>
 
 ## 🔌 CMovementComponentUpdater
 
@@ -27738,6 +29160,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmovementhandshakeanimtag"></a>
+
 ## 🔌 CMovementHandshakeAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27751,6 +29175,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmovementstatsproperty"></a>
 
 ## 🔌 CMovementStatsProperty
 
@@ -27770,6 +29196,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmoverpathnode"></a>
 
 ## 🔌 CMoverPathNode
 
@@ -27794,6 +29222,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmoverupdatenode"></a>
 
 ## 🔌 CMoverUpdateNode
 
@@ -27826,6 +29256,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmultilightproxy"></a>
+
 ## 🔌 CMultiLightProxy
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27853,6 +29285,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmultisource"></a>
+
 ## 🔌 CMultiSource
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27877,6 +29311,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmultiplayrules"></a>
+
 ## 🔌 CMultiplayRules
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27890,6 +29326,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cmultiplayer_expresser"></a>
 
 ## 🔌 CMultiplayer_Expresser
 
@@ -27910,6 +29348,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cnpcphysicshull"></a>
 
 ## 🔌 CNPCPhysicsHull
 
@@ -27936,6 +29376,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cnavhullpresetvdata"></a>
+
 ## 🔌 CNavHullPresetVData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -27953,6 +29395,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cnavhullvdata"></a>
 
 ## 🔌 CNavHullVData
 
@@ -27986,6 +29430,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cnavlinkanimgraphvar"></a>
+
 ## 🔌 CNavLinkAnimgraphVar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28004,6 +29450,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cnavlinkareaentity"></a>
 
 ## 🔌 CNavLinkAreaEntity
 
@@ -28037,6 +29485,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cnavlinkmovementvdata"></a>
+
 ## 🔌 CNavLinkMovementVData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28058,6 +29508,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cnavspaceinfo"></a>
+
 ## 🔌 CNavSpaceInfo
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28072,6 +29524,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cnavvolume"></a>
+
 ## 🔌 CNavVolume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28083,6 +29537,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cnavvolumeall"></a>
 
 ## 🔌 CNavVolumeAll
 
@@ -28097,6 +29553,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cnavvolumebreadthfirstsearch"></a>
 
 ## 🔌 CNavVolumeBreadthFirstSearch
 
@@ -28119,6 +29577,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cnavvolumecalculatedvector"></a>
+
 ## 🔌 CNavVolumeCalculatedVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28133,6 +29593,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cnavvolumemarkupvolume"></a>
+
 ## 🔌 CNavVolumeMarkupVolume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28146,6 +29608,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cnavvolumesphere"></a>
 
 ## 🔌 CNavVolumeSphere
 
@@ -28168,6 +29632,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cnavvolumesphericalshell"></a>
+
 ## 🔌 CNavVolumeSphericalShell
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28187,6 +29653,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cnavvolumevector"></a>
 
 ## 🔌 CNavVolumeVector
 
@@ -28208,6 +29676,8 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cnavwalkable"></a>
+
 ## 🔌 CNavWalkable
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28221,6 +29691,8 @@ void IsIncGrenadeUpdated()
 
 
 ---
+
+<a id="cnetworkorigincellcoordquantizedvector"></a>
 
 ## 🔌 CNetworkOriginCellCoordQuantizedVector
 
@@ -28290,6 +29762,8 @@ void ZUpdated()
 
 ---
 
+<a id="cnetworkoriginquantizedvector"></a>
+
 ## 🔌 CNetworkOriginQuantizedVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28330,6 +29804,8 @@ void ZUpdated()
 
 ---
 
+<a id="cnetworktransmitcomponent"></a>
+
 ## 🔌 CNetworkTransmitComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28347,6 +29823,8 @@ void ZUpdated()
 
 
 ---
+
+<a id="cnetworkvelocityvector"></a>
 
 ## 🔌 CNetworkVelocityVector
 
@@ -28388,6 +29866,8 @@ void ZUpdated()
 
 ---
 
+<a id="cnetworkviewoffsetvector"></a>
+
 ## 🔌 CNetworkViewOffsetVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28427,6 +29907,8 @@ void ZUpdated()
 
 
 ---
+
+<a id="cnetworkedsequenceoperation"></a>
 
 ## 🔌 CNetworkedSequenceOperation
 
@@ -28478,6 +29960,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnewparticleeffect"></a>
 
 ## 🔌 CNewParticleEffect
 
@@ -28531,6 +30015,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmadditiveblendtask"></a>
+
 ## 🔌 CNmAdditiveBlendTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28544,6 +30030,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmaimcsnode__cdefinition"></a>
 
 ## 🔌 CNmAimCSNode__CDefinition
 
@@ -28573,6 +30061,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmaimcstask"></a>
+
 ## 🔌 CNmAimCSTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28586,6 +30076,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmandnode__cdefinition"></a>
 
 ## 🔌 CNmAndNode__CDefinition
 
@@ -28606,6 +30098,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmanimationposenode__cdefinition"></a>
 
 ## 🔌 CNmAnimationPoseNode__CDefinition
 
@@ -28631,6 +30125,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmbitflags"></a>
+
 ## 🔌 CNmBitFlags
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28648,6 +30144,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmblend1dnode__cdefinition"></a>
 
 ## 🔌 CNmBlend1DNode__CDefinition
 
@@ -28668,6 +30166,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmblend2dnode__cdefinition"></a>
 
 ## 🔌 CNmBlend2DNode__CDefinition
 
@@ -28695,6 +30195,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmblendtask"></a>
+
 ## 🔌 CNmBlendTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28709,6 +30211,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmblendtaskbase"></a>
+
 ## 🔌 CNmBlendTaskBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28722,6 +30226,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmbodygroupevent"></a>
 
 ## 🔌 CNmBodyGroupEvent
 
@@ -28743,6 +30249,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmbonemaskblendnode__cdefinition"></a>
 
 ## 🔌 CNmBoneMaskBlendNode__CDefinition
 
@@ -28766,6 +30274,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmbonemasknode__cdefinition"></a>
+
 ## 🔌 CNmBoneMaskNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28785,6 +30295,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmbonemaskselectornode__cdefinition"></a>
 
 ## 🔌 CNmBoneMaskSelectorNode__CDefinition
 
@@ -28811,6 +30323,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmbonemaskswitchnode__cdefinition"></a>
+
 ## 🔌 CNmBoneMaskSwitchNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28835,6 +30349,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmbonemaskvaluenode__cdefinition"></a>
+
 ## 🔌 CNmBoneMaskValueNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28848,6 +30364,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmboneweightlist"></a>
 
 ## 🔌 CNmBoneWeightList
 
@@ -28869,6 +30387,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmboolvaluenode__cdefinition"></a>
+
 ## 🔌 CNmBoolValueNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28882,6 +30402,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmcachedboolnode__cdefinition"></a>
 
 ## 🔌 CNmCachedBoolNode__CDefinition
 
@@ -28904,6 +30426,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmcachedfloatnode__cdefinition"></a>
+
 ## 🔌 CNmCachedFloatNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28924,6 +30448,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmcachedidnode__cdefinition"></a>
 
 ## 🔌 CNmCachedIDNode__CDefinition
 
@@ -28946,6 +30472,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmcachedposereadtask"></a>
+
 ## 🔌 CNmCachedPoseReadTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28960,6 +30488,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmcachedposewritetask"></a>
+
 ## 🔌 CNmCachedPoseWriteTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -28973,6 +30503,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmcachedtargetnode__cdefinition"></a>
 
 ## 🔌 CNmCachedTargetNode__CDefinition
 
@@ -28995,6 +30527,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmcachedvectornode__cdefinition"></a>
+
 ## 🔌 CNmCachedVectorNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29015,6 +30549,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmchainlookatnode__cdefinition"></a>
 
 ## 🔌 CNmChainLookatNode__CDefinition
 
@@ -29041,6 +30577,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmchainlookattask"></a>
 
 ## 🔌 CNmChainLookatTask
 
@@ -29071,6 +30609,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmchainsolvertask"></a>
 
 ## 🔌 CNmChainSolverTask
 
@@ -29103,6 +30643,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmclip"></a>
 
 ## 🔌 CNmClip
 
@@ -29137,6 +30679,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmclipnode__cdefinition"></a>
+
 ## 🔌 CNmClipNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29164,6 +30708,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmclipreferencenode__cdefinition"></a>
+
 ## 🔌 CNmClipReferenceNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29177,6 +30723,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmclipselectornode__cdefinition"></a>
 
 ## 🔌 CNmClipSelectorNode__CDefinition
 
@@ -29199,6 +30747,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmclip__modelspacesamplingchainlink_t"></a>
+
 ## 🔌 CNmClip__ModelSpaceSamplingChainLink_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29218,6 +30768,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmconstboolnode__cdefinition"></a>
 
 ## 🔌 CNmConstBoolNode__CDefinition
 
@@ -29239,6 +30791,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmconstfloatnode__cdefinition"></a>
+
 ## 🔌 CNmConstFloatNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29258,6 +30812,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmconstidnode__cdefinition"></a>
 
 ## 🔌 CNmConstIDNode__CDefinition
 
@@ -29279,6 +30835,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmconsttargetnode__cdefinition"></a>
+
 ## 🔌 CNmConstTargetNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29298,6 +30856,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmconstvectornode__cdefinition"></a>
 
 ## 🔌 CNmConstVectorNode__CDefinition
 
@@ -29319,6 +30879,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmcontrolparameterboolnode__cdefinition"></a>
+
 ## 🔌 CNmControlParameterBoolNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29332,6 +30894,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmcontrolparameterfloatnode__cdefinition"></a>
 
 ## 🔌 CNmControlParameterFloatNode__CDefinition
 
@@ -29347,6 +30911,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmcontrolparameteridnode__cdefinition"></a>
+
 ## 🔌 CNmControlParameterIDNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29360,6 +30926,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmcontrolparametertargetnode__cdefinition"></a>
 
 ## 🔌 CNmControlParameterTargetNode__CDefinition
 
@@ -29375,6 +30943,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmcontrolparametervectornode__cdefinition"></a>
+
 ## 🔌 CNmControlParameterVectorNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29388,6 +30958,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmcurrentsynceventidnode__cdefinition"></a>
 
 ## 🔌 CNmCurrentSyncEventIDNode__CDefinition
 
@@ -29408,6 +30980,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmcurrentsynceventnode__cdefinition"></a>
 
 ## 🔌 CNmCurrentSyncEventNode__CDefinition
 
@@ -29430,6 +31004,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmcurrentsynceventnode__infotype_t"></a>
+
 ## 📋 CNmCurrentSyncEventNode__InfoType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29450,6 +31026,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmdurationscalenode__cdefinition"></a>
+
 ## 🔌 CNmDurationScaleNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29463,6 +31041,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmentityattributeeventbase"></a>
 
 ## 🔌 CNmEntityAttributeEventBase
 
@@ -29484,6 +31064,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmentityattributefloatevent"></a>
+
 ## 🔌 CNmEntityAttributeFloatEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29494,6 +31076,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmentityattributeintevent"></a>
+
 ## 🔌 CNmEntityAttributeIntEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29503,6 +31087,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmevent"></a>
 
 ## 🔌 CNmEvent
 
@@ -29525,6 +31111,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmeventconsumer"></a>
+
 ## 🔌 CNmEventConsumer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29536,6 +31124,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmeventconsumerattributes"></a>
 
 ## 🔌 CNmEventConsumerAttributes
 
@@ -29551,6 +31141,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmeventconsumerlegacy"></a>
+
 ## 🔌 CNmEventConsumerLegacy
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29564,6 +31156,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmeventconsumerparticle"></a>
 
 ## 🔌 CNmEventConsumerParticle
 
@@ -29579,6 +31173,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmeventconsumersound"></a>
+
 ## 🔌 CNmEventConsumerSound
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29592,6 +31188,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmeventrelevance_t"></a>
 
 ## 📋 CNmEventRelevance_t
 
@@ -29613,6 +31211,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmexternalgraphnode__cdefinition"></a>
+
 ## 🔌 CNmExternalGraphNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29626,6 +31226,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmexternalposenode__cdefinition"></a>
 
 ## 🔌 CNmExternalPoseNode__CDefinition
 
@@ -29647,6 +31249,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfixedweightbonemasknode__cdefinition"></a>
+
 ## 🔌 CNmFixedWeightBoneMaskNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29666,6 +31270,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfloatanglemathnode__cdefinition"></a>
 
 ## 🔌 CNmFloatAngleMathNode__CDefinition
 
@@ -29688,6 +31294,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatanglemathnode__operation_t"></a>
+
 ## 📋 CNmFloatAngleMathNode__Operation_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29709,6 +31317,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatclampnode__cdefinition"></a>
+
 ## 🔌 CNmFloatClampNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29729,6 +31339,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfloatcomparisonnode__cdefinition"></a>
 
 ## 🔌 CNmFloatComparisonNode__CDefinition
 
@@ -29754,6 +31366,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatcomparisonnode__comparison_t"></a>
+
 ## 📋 CNmFloatComparisonNode__Comparison_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29776,6 +31390,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatcurveevent"></a>
+
 ## 🔌 CNmFloatCurveEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29796,6 +31412,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfloatcurveeventnode__cdefinition"></a>
 
 ## 🔌 CNmFloatCurveEventNode__CDefinition
 
@@ -29820,6 +31438,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatcurvenode__cdefinition"></a>
+
 ## 🔌 CNmFloatCurveNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29840,6 +31460,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfloateasenode__cdefinition"></a>
 
 ## 🔌 CNmFloatEaseNode__CDefinition
 
@@ -29865,6 +31487,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatmathnode__cdefinition"></a>
+
 ## 🔌 CNmFloatMathNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29889,6 +31513,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfloatmathnode__operator_t"></a>
 
 ## 📋 CNmFloatMathNode__Operator_t
 
@@ -29919,6 +31545,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatrangecomparisonnode__cdefinition"></a>
+
 ## 🔌 CNmFloatRangeComparisonNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29940,6 +31568,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfloatremapnode__cdefinition"></a>
 
 ## 🔌 CNmFloatRemapNode__CDefinition
 
@@ -29963,6 +31593,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatremapnode__remaprange_t"></a>
+
 ## 🔌 CNmFloatRemapNode__RemapRange_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -29981,6 +31613,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfloatselectornode__cdefinition"></a>
 
 ## 🔌 CNmFloatSelectorNode__CDefinition
 
@@ -30006,6 +31640,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatswitchnode__cdefinition"></a>
+
 ## 🔌 CNmFloatSwitchNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30030,6 +31666,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatvaluenode__cdefinition"></a>
+
 ## 🔌 CNmFloatValueNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30043,6 +31681,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfollowbonenode__cdefinition"></a>
 
 ## 🔌 CNmFollowBoneNode__CDefinition
 
@@ -30067,6 +31707,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfollowbonetask"></a>
+
 ## 🔌 CNmFollowBoneTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30080,6 +31722,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfootevent"></a>
 
 ## 🔌 CNmFootEvent
 
@@ -30100,6 +31744,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfooteventconditionnode__cdefinition"></a>
 
 ## 🔌 CNmFootEventConditionNode__CDefinition
 
@@ -30123,6 +31769,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfootstepeventidnode__cdefinition"></a>
+
 ## 🔌 CNmFootstepEventIDNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30143,6 +31791,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmfootstepeventpercentagethroughnode__cdefinition"></a>
 
 ## 🔌 CNmFootstepEventPercentageThroughNode__CDefinition
 
@@ -30166,6 +31816,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmframesnapevent"></a>
+
 ## 🔌 CNmFrameSnapEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30185,6 +31837,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmgraphdefinition"></a>
 
 ## 🔌 CNmGraphDefinition
 
@@ -30216,6 +31870,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmgraphdefinition__externalgraphslot_t"></a>
+
 ## 🔌 CNmGraphDefinition__ExternalGraphSlot_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30234,6 +31890,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmgraphdefinition__externalposeslot_t"></a>
 
 ## 🔌 CNmGraphDefinition__ExternalPoseSlot_t
 
@@ -30254,6 +31912,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmgraphdefinition__referencedgraphslot_t"></a>
+
 ## 🔌 CNmGraphDefinition__ReferencedGraphSlot_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30272,6 +31932,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmgrapheventconditionnode__cdefinition"></a>
 
 ## 🔌 CNmGraphEventConditionNode__CDefinition
 
@@ -30295,6 +31957,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmgrapheventconditionnode__condition_t"></a>
+
 ## 🔌 CNmGraphEventConditionNode__Condition_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30314,6 +31978,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmgraphnode__cdefinition"></a>
+
 ## 🔌 CNmGraphNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30332,6 +31998,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmgraphvariationuserdata"></a>
+
 ## 🔌 CNmGraphVariationUserData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30343,6 +32011,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmidcomparisonnode__cdefinition"></a>
 
 ## 🔌 CNmIDComparisonNode__CDefinition
 
@@ -30366,6 +32036,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmidcomparisonnode__comparison_t"></a>
+
 ## 📋 CNmIDComparisonNode__Comparison_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30384,6 +32056,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmidevent"></a>
 
 ## 🔌 CNmIDEvent
 
@@ -30405,6 +32079,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmideventconditionnode__cdefinition"></a>
 
 ## 🔌 CNmIDEventConditionNode__CDefinition
 
@@ -30428,6 +32104,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmideventnode__cdefinition"></a>
+
 ## 🔌 CNmIDEventNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30449,6 +32127,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmideventpercentagethroughnode__cdefinition"></a>
 
 ## 🔌 CNmIDEventPercentageThroughNode__CDefinition
 
@@ -30472,6 +32152,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmidselectornode__cdefinition"></a>
+
 ## 🔌 CNmIDSelectorNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30493,6 +32175,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmidswitchnode__cdefinition"></a>
 
 ## 🔌 CNmIDSwitchNode__CDefinition
 
@@ -30518,6 +32202,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmidtofloatnode__cdefinition"></a>
+
 ## 🔌 CNmIDToFloatNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30541,6 +32227,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmidvaluenode__cdefinition"></a>
+
 ## 🔌 CNmIDValueNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30554,6 +32242,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmikbody"></a>
 
 ## 🔌 CNmIKBody
 
@@ -30576,6 +32266,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmikeffector"></a>
+
 ## 🔌 CNmIKEffector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30597,6 +32289,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmikjoint"></a>
 
 ## 🔌 CNmIKJoint
 
@@ -30622,6 +32316,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmikrig"></a>
+
 ## 🔌 CNmIKRig
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30641,6 +32337,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmisexternalgraphslotfillednode__cdefinition"></a>
 
 ## 🔌 CNmIsExternalGraphSlotFilledNode__CDefinition
 
@@ -30662,6 +32360,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmisexternalposesetnode__cdefinition"></a>
+
 ## 🔌 CNmIsExternalPoseSetNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30682,6 +32382,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmisinactivebranchconditionnode__cdefinition"></a>
+
 ## 🔌 CNmIsInactiveBranchConditionNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30695,6 +32397,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmistargetsetnode__cdefinition"></a>
 
 ## 🔌 CNmIsTargetSetNode__CDefinition
 
@@ -30715,6 +32419,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmlayerblendnode__cdefinition"></a>
 
 ## 🔌 CNmLayerBlendNode__CDefinition
 
@@ -30737,6 +32443,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmlayerblendnode__layerdefinition_t"></a>
 
 ## 🔌 CNmLayerBlendNode__LayerDefinition_t
 
@@ -30763,6 +32471,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmlegacyevent"></a>
+
 ## 🔌 CNmLegacyEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30783,6 +32493,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmmaterialattributeevent"></a>
 
 ## 🔌 CNmMaterialAttributeEvent
 
@@ -30809,6 +32521,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmmodelspaceblendtask"></a>
+
 ## 🔌 CNmModelSpaceBlendTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30822,6 +32536,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmnotnode__cdefinition"></a>
 
 ## 🔌 CNmNotNode__CDefinition
 
@@ -30843,6 +32559,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmornode__cdefinition"></a>
+
 ## 🔌 CNmOrNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30863,6 +32581,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmorientationwarpevent"></a>
+
 ## 🔌 CNmOrientationWarpEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30876,6 +32596,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmorientationwarpnode__cdefinition"></a>
 
 ## 🔌 CNmOrientationWarpNode__CDefinition
 
@@ -30902,6 +32624,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmoverlayblendtask"></a>
+
 ## 🔌 CNmOverlayBlendTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30915,6 +32639,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmparameterizedblendnode__blendrange_t"></a>
 
 ## 🔌 CNmParameterizedBlendNode__BlendRange_t
 
@@ -30935,6 +32661,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmparameterizedblendnode__cdefinition"></a>
 
 ## 🔌 CNmParameterizedBlendNode__CDefinition
 
@@ -30958,6 +32686,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmparameterizedblendnode__parameterization_t"></a>
+
 ## 🔌 CNmParameterizedBlendNode__Parameterization_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -30976,6 +32706,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmparameterizedclipselectornode__cdefinition"></a>
 
 ## 🔌 CNmParameterizedClipSelectorNode__CDefinition
 
@@ -31001,6 +32733,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmparameterizedselectornode__cdefinition"></a>
+
 ## 🔌 CNmParameterizedSelectorNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31024,6 +32758,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmparticleevent"></a>
 
 ## 🔌 CNmParticleEvent
 
@@ -31057,6 +32793,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmparticleevent__type_t"></a>
+
 ## 📋 CNmParticleEvent__Type_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31075,6 +32813,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmpassthroughnode__cdefinition"></a>
 
 ## 🔌 CNmPassthroughNode__CDefinition
 
@@ -31096,6 +32836,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmposenode__cdefinition"></a>
+
 ## 🔌 CNmPoseNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31110,6 +32852,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmposetask"></a>
+
 ## 🔌 CNmPoseTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31121,6 +32865,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmreferenceposenode__cdefinition"></a>
 
 ## 🔌 CNmReferencePoseNode__CDefinition
 
@@ -31136,6 +32882,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmreferenceposetask"></a>
+
 ## 🔌 CNmReferencePoseTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31149,6 +32897,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmreferencedgraphnode__cdefinition"></a>
 
 ## 🔌 CNmReferencedGraphNode__CDefinition
 
@@ -31170,6 +32920,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmrootmotiondata"></a>
 
 ## 🔌 CNmRootMotionData
 
@@ -31193,6 +32945,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmrootmotiondata__samplingmode_t"></a>
+
 ## 📋 CNmRootMotionData__SamplingMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31211,6 +32965,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmrootmotionevent"></a>
 
 ## 🔌 CNmRootMotionEvent
 
@@ -31231,6 +32987,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmrootmotionoverridenode__cdefinition"></a>
 
 ## 🔌 CNmRootMotionOverrideNode__CDefinition
 
@@ -31258,6 +33016,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmrootmotionoverridenode__overrideflags_t"></a>
+
 ## 📋 CNmRootMotionOverrideNode__OverrideFlags_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31280,6 +33040,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmsampletask"></a>
+
 ## 🔌 CNmSampleTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31293,6 +33055,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmscalenode__cdefinition"></a>
 
 ## 🔌 CNmScaleNode__CDefinition
 
@@ -31315,6 +33079,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmscaletask"></a>
+
 ## 🔌 CNmScaleTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31328,6 +33094,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmselectornode__cdefinition"></a>
 
 ## 🔌 CNmSelectorNode__CDefinition
 
@@ -31349,6 +33117,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmskeleton"></a>
 
 ## 🔌 CNmSkeleton
 
@@ -31373,6 +33143,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmskeleton__secondaryskeleton_t"></a>
+
 ## 🔌 CNmSkeleton__SecondarySkeleton_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31391,6 +33163,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmsnapweaponnode__cdefinition"></a>
 
 ## 🔌 CNmSnapWeaponNode__CDefinition
 
@@ -31414,6 +33188,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmsnapweapontask"></a>
+
 ## 🔌 CNmSnapWeaponTask
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31427,6 +33203,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmsoundevent"></a>
 
 ## 🔌 CNmSoundEvent
 
@@ -31454,6 +33232,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmsoundevent__position_t"></a>
+
 ## 📋 CNmSoundEvent__Position_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31476,6 +33256,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmspeedscalebasenode__cdefinition"></a>
+
 ## 🔌 CNmSpeedScaleBaseNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31497,6 +33279,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmspeedscalenode__cdefinition"></a>
+
 ## 🔌 CNmSpeedScaleNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31510,6 +33294,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmstatecompletedconditionnode__cdefinition"></a>
 
 ## 🔌 CNmStateCompletedConditionNode__CDefinition
 
@@ -31533,6 +33319,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmstatemachinenode__cdefinition"></a>
+
 ## 🔌 CNmStateMachineNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31554,6 +33342,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmstatemachinenode__statedefinition_t"></a>
+
 ## 🔌 CNmStateMachineNode__StateDefinition_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31573,6 +33363,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmstatemachinenode__transitiondefinition_t"></a>
 
 ## 🔌 CNmStateMachineNode__TransitionDefinition_t
 
@@ -31594,6 +33386,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmstatenode__cdefinition"></a>
 
 ## 🔌 CNmStateNode__CDefinition
 
@@ -31625,6 +33419,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmstatenode__timedevent_t"></a>
+
 ## 🔌 CNmStateNode__TimedEvent_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31645,6 +33441,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmstatenode__timedevent_t__comparison_t"></a>
+
 ## 📋 CNmStateNode__TimedEvent_t__Comparison_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31663,6 +33461,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmsynceventindexconditionnode__cdefinition"></a>
 
 ## 🔌 CNmSyncEventIndexConditionNode__CDefinition
 
@@ -31686,6 +33486,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmsynceventindexconditionnode__triggermode_t"></a>
+
 ## 📋 CNmSyncEventIndexConditionNode__TriggerMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31704,6 +33506,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmsynctrack"></a>
 
 ## 🔌 CNmSyncTrack
 
@@ -31724,6 +33528,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmsynctrack__eventmarker_t"></a>
+
 ## 🔌 CNmSyncTrack__EventMarker_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31742,6 +33548,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmsynctrack__event_t"></a>
 
 ## 🔌 CNmSyncTrack__Event_t
 
@@ -31762,6 +33570,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmtarget"></a>
 
 ## 🔌 CNmTarget
 
@@ -31786,6 +33596,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmtargetinfonode__cdefinition"></a>
+
 ## 🔌 CNmTargetInfoNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31807,6 +33619,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmtargetinfonode__info_t"></a>
 
 ## 📋 CNmTargetInfoNode__Info_t
 
@@ -31833,6 +33647,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmtargetoffsetnode__cdefinition"></a>
+
 ## 🔌 CNmTargetOffsetNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31856,6 +33672,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmtargetpointnode__cdefinition"></a>
+
 ## 🔌 CNmTargetPointNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31876,6 +33694,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmtargetselectornode__cdefinition"></a>
 
 ## 🔌 CNmTargetSelectorNode__CDefinition
 
@@ -31902,6 +33722,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmtargetvaluenode__cdefinition"></a>
+
 ## 🔌 CNmTargetValueNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31915,6 +33737,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmtargetwarpevent"></a>
 
 ## 🔌 CNmTargetWarpEvent
 
@@ -31936,6 +33760,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmtargetwarpnode__cdefinition"></a>
 
 ## 🔌 CNmTargetWarpNode__CDefinition
 
@@ -31966,6 +33792,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmtimeconditionnode__cdefinition"></a>
+
 ## 🔌 CNmTimeConditionNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -31990,6 +33818,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmtimeconditionnode__comparisontype_t"></a>
+
 ## 📋 CNmTimeConditionNode__ComparisonType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32009,6 +33839,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmtimeconditionnode__operator_t"></a>
 
 ## 📋 CNmTimeConditionNode__Operator_t
 
@@ -32031,6 +33863,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmtransitionevent"></a>
+
 ## 🔌 CNmTransitionEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32051,6 +33885,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmtransitioneventconditionnode__cdefinition"></a>
 
 ## 🔌 CNmTransitionEventConditionNode__CDefinition
 
@@ -32074,6 +33910,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmtransitionnode__cdefinition"></a>
 
 ## 🔌 CNmTransitionNode__CDefinition
 
@@ -32105,6 +33943,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmtransitionnode__transitionoptions_t"></a>
+
 ## 📋 CNmTransitionNode__TransitionOptions_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32132,6 +33972,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmtwoboneiknode__cdefinition"></a>
+
 ## 🔌 CNmTwoBoneIKNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32157,6 +33999,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmtwoboneiktask"></a>
 
 ## 🔌 CNmTwoBoneIKTask
 
@@ -32187,6 +34031,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmvaluenode__cdefinition"></a>
+
 ## 🔌 CNmValueNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32200,6 +34046,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmvectorcreatenode__cdefinition"></a>
 
 ## 🔌 CNmVectorCreateNode__CDefinition
 
@@ -32224,6 +34072,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmvectorinfonode__cdefinition"></a>
+
 ## 🔌 CNmVectorInfoNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32244,6 +34094,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmvectorinfonode__info_t"></a>
 
 ## 📋 CNmVectorInfoNode__Info_t
 
@@ -32268,6 +34120,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmvectornegatenode__cdefinition"></a>
+
 ## 🔌 CNmVectorNegateNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32288,6 +34142,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmvectorvaluenode__cdefinition"></a>
+
 ## 🔌 CNmVectorValueNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32301,6 +34157,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmvelocitybasedspeedscalenode__cdefinition"></a>
 
 ## 🔌 CNmVelocityBasedSpeedScaleNode__CDefinition
 
@@ -32316,6 +34174,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmvelocityblendnode__cdefinition"></a>
+
 ## 🔌 CNmVelocityBlendNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32329,6 +34189,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmvirtualparameterbonemasknode__cdefinition"></a>
 
 ## 🔌 CNmVirtualParameterBoneMaskNode__CDefinition
 
@@ -32350,6 +34212,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmvirtualparameterboolnode__cdefinition"></a>
+
 ## 🔌 CNmVirtualParameterBoolNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32369,6 +34233,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmvirtualparameterfloatnode__cdefinition"></a>
 
 ## 🔌 CNmVirtualParameterFloatNode__CDefinition
 
@@ -32390,6 +34256,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmvirtualparameteridnode__cdefinition"></a>
+
 ## 🔌 CNmVirtualParameterIDNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32409,6 +34277,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmvirtualparametertargetnode__cdefinition"></a>
 
 ## 🔌 CNmVirtualParameterTargetNode__CDefinition
 
@@ -32430,6 +34300,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmvirtualparametervectornode__cdefinition"></a>
+
 ## 🔌 CNmVirtualParameterVectorNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32450,6 +34322,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmzeroposenode__cdefinition"></a>
+
 ## 🔌 CNmZeroPoseNode__CDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32463,6 +34337,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="cnmzeroposetask"></a>
 
 ## 🔌 CNmZeroPoseTask
 
@@ -32478,6 +34354,8 @@ void WeightUpdated()
 
 ---
 
+<a id="cnullentity"></a>
+
 ## 🔌 CNullEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32491,6 +34369,8 @@ void WeightUpdated()
 
 
 ---
+
+<a id="comnilight"></a>
 
 ## 🔌 COmniLight
 
@@ -32534,6 +34414,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="corientconstraint"></a>
+
 ## 🔌 COrientConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32547,6 +34429,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="corientationwarpupdatenode"></a>
 
 ## 🔌 COrientationWarpUpdateNode
 
@@ -32580,6 +34464,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cornamentprop"></a>
+
 ## 🔌 COrnamentProp
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32599,6 +34485,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cpassignment_t"></a>
 
 ## 🔌 CPAssignment_t
 
@@ -32620,6 +34508,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cpairedsequencecomponentupdater"></a>
+
 ## 🔌 CPairedSequenceComponentUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32633,6 +34523,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cpairedsequenceupdatenode"></a>
 
 ## 🔌 CPairedSequenceUpdateNode
 
@@ -32654,6 +34546,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparamspanupdater"></a>
+
 ## 🔌 CParamSpanUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32672,6 +34566,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparentconstraint"></a>
+
 ## 🔌 CParentConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32685,6 +34581,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticleanimtag"></a>
 
 ## 🔌 CParticleAnimTag
 
@@ -32716,6 +34614,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticlebindingrealpulse"></a>
+
 ## 🔌 CParticleBindingRealPulse
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32729,6 +34629,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlecollectionbindinginstance"></a>
 
 ## 🔌 CParticleCollectionBindingInstance
 
@@ -32744,6 +34646,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticlecollectionfloatinput"></a>
+
 ## 🔌 CParticleCollectionFloatInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32757,6 +34661,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlecollectionrendererfloatinput"></a>
 
 ## 🔌 CParticleCollectionRendererFloatInput
 
@@ -32772,6 +34678,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticlecollectionrenderervecinput"></a>
+
 ## 🔌 CParticleCollectionRendererVecInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32786,6 +34694,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticlecollectionvecinput"></a>
+
 ## 🔌 CParticleCollectionVecInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32799,6 +34709,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlefloatinput"></a>
 
 ## 🔌 CParticleFloatInput
 
@@ -32868,6 +34780,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticlefunction"></a>
+
 ## 🔌 CParticleFunction
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32901,6 +34815,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticlefunctionconstraint"></a>
+
 ## 🔌 CParticleFunctionConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32914,6 +34830,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlefunctionemitter"></a>
 
 ## 🔌 CParticleFunctionEmitter
 
@@ -32935,6 +34853,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticlefunctionforce"></a>
+
 ## 🔌 CParticleFunctionForce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32948,6 +34868,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlefunctioninitializer"></a>
 
 ## 🔌 CParticleFunctionInitializer
 
@@ -32969,6 +34891,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticlefunctionoperator"></a>
+
 ## 🔌 CParticleFunctionOperator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -32982,6 +34906,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlefunctionpreemission"></a>
 
 ## 🔌 CParticleFunctionPreEmission
 
@@ -33002,6 +34928,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlefunctionrenderer"></a>
 
 ## 🔌 CParticleFunctionRenderer
 
@@ -33025,6 +34953,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticleinput"></a>
+
 ## 🔌 CParticleInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33036,6 +34966,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlemasscalculationparameters"></a>
 
 ## 🔌 CParticleMassCalculationParameters
 
@@ -33057,6 +34989,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlemodelinput"></a>
 
 ## 🔌 CParticleModelInput
 
@@ -33080,6 +35014,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cparticleproperty"></a>
+
 ## 🔌 CParticleProperty
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33091,6 +35027,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticleremapfloatinput"></a>
 
 ## 🔌 CParticleRemapFloatInput
 
@@ -33105,6 +35043,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cparticlesystem"></a>
 
 ## 🔌 CParticleSystem
 
@@ -33239,6 +35179,8 @@ void NoRampUpdated()
 
 ---
 
+<a id="cparticlesystemdefinition"></a>
+
 ## 🔌 CParticleSystemDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33323,6 +35265,8 @@ void NoRampUpdated()
 
 ---
 
+<a id="cparticletransforminput"></a>
+
 ## 🔌 CParticleTransformInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33350,6 +35294,8 @@ void NoRampUpdated()
 
 ---
 
+<a id="cparticlevariableref"></a>
+
 ## 🔌 CParticleVariableRef
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33368,6 +35314,8 @@ void NoRampUpdated()
 
 
 ---
+
+<a id="cparticlevecinput"></a>
 
 ## 🔌 CParticleVecInput
 
@@ -33411,6 +35359,8 @@ void NoRampUpdated()
 
 ---
 
+<a id="cparticlevisibilityinputs"></a>
+
 ## 🔌 CParticleVisibilityInputs
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33447,6 +35397,8 @@ void NoRampUpdated()
 
 ---
 
+<a id="cpathanimmotorupdater"></a>
+
 ## 🔌 CPathAnimMotorUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33460,6 +35412,8 @@ void NoRampUpdated()
 
 
 ---
+
+<a id="cpathanimmotorupdaterbase"></a>
 
 ## 🔌 CPathAnimMotorUpdaterBase
 
@@ -33480,6 +35434,8 @@ void NoRampUpdated()
 
 
 ---
+
+<a id="cpathcorner"></a>
 
 ## 🔌 CPathCorner
 
@@ -33503,6 +35459,8 @@ void NoRampUpdated()
 
 ---
 
+<a id="cpathcornercrash"></a>
+
 ## 🔌 CPathCornerCrash
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33516,6 +35474,8 @@ void NoRampUpdated()
 
 
 ---
+
+<a id="cpathhelperupdatenode"></a>
 
 ## 🔌 CPathHelperUpdateNode
 
@@ -33537,6 +35497,8 @@ void NoRampUpdated()
 
 
 ---
+
+<a id="cpathkeyframe"></a>
 
 ## 🔌 CPathKeyFrame
 
@@ -33565,6 +35527,8 @@ void NoRampUpdated()
 
 ---
 
+<a id="cpathmetricevaluator"></a>
+
 ## 🔌 CPathMetricEvaluator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33588,6 +35552,8 @@ void NoRampUpdated()
 
 ---
 
+<a id="cpathmover"></a>
+
 ## 🔌 CPathMover
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33610,6 +35576,8 @@ void NoRampUpdated()
 
 ---
 
+<a id="cpathmoverentityspawn"></a>
+
 ## 🔌 CPathMoverEntitySpawn
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33628,6 +35596,8 @@ void NoRampUpdated()
 
 
 ---
+
+<a id="cpathmoverentityspawner"></a>
 
 ## 🔌 CPathMoverEntitySpawner
 
@@ -33656,6 +35626,8 @@ void NoRampUpdated()
 
 
 ---
+
+<a id="cpathnode"></a>
 
 ## 🔌 CPathNode
 
@@ -33708,6 +35680,8 @@ void StrPathNodeParameterUpdated()
 
 ---
 
+<a id="cpathparameters"></a>
+
 ## 🔌 CPathParameters
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33732,6 +35706,8 @@ void StrPathNodeParameterUpdated()
 
 
 ---
+
+<a id="cpathparticlerope"></a>
 
 ## 🔌 CPathParticleRope
 
@@ -33842,6 +35818,8 @@ void PathNodes_RadiusScaleUpdated()
 
 ---
 
+<a id="cpathparticleropealias_path_particle_rope_clientside"></a>
+
 ## 🔌 CPathParticleRopeAlias_path_particle_rope_clientside
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33856,6 +35834,8 @@ void PathNodes_RadiusScaleUpdated()
 
 ---
 
+<a id="cpathquerycomponent"></a>
+
 ## 🔌 CPathQueryComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33869,6 +35849,8 @@ void PathNodes_RadiusScaleUpdated()
 
 
 ---
+
+<a id="cpathqueryutil"></a>
 
 ## 🔌 CPathQueryUtil
 
@@ -33891,6 +35873,8 @@ void PathNodes_RadiusScaleUpdated()
 
 
 ---
+
+<a id="cpathsimple"></a>
 
 ## 🔌 CPathSimple
 
@@ -33928,6 +35912,8 @@ void PathStringUpdated()
 
 ---
 
+<a id="cpathsimpleapi"></a>
+
 ## 🔌 CPathSimpleAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -33939,6 +35925,8 @@ void PathStringUpdated()
 
 
 ---
+
+<a id="cpathtrack"></a>
 
 ## 🔌 CPathTrack
 
@@ -33967,6 +35955,8 @@ void PathStringUpdated()
 
 
 ---
+
+<a id="cpathwithdynamicnodes"></a>
 
 ## 🔌 CPathWithDynamicNodes
 
@@ -34003,6 +35993,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cperparticlefloatinput"></a>
+
 ## 🔌 CPerParticleFloatInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34017,6 +36009,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cperparticlevecinput"></a>
+
 ## 🔌 CPerParticleVecInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34030,6 +36024,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysballsocket"></a>
 
 ## 🔌 CPhysBallSocket
 
@@ -34055,6 +36051,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysbox"></a>
 
 ## 🔌 CPhysBox
 
@@ -34090,6 +36088,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphysconstraint"></a>
+
 ## 🔌 CPhysConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34122,6 +36122,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphysexplosion"></a>
+
 ## 🔌 CPhysExplosion
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34151,6 +36153,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphysfixed"></a>
+
 ## 🔌 CPhysFixed
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34178,6 +36182,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphysforce"></a>
+
 ## 🔌 CPhysForce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34202,6 +36208,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphyshinge"></a>
 
 ## 🔌 CPhysHinge
 
@@ -34241,6 +36249,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphyshingealias_phys_hinge_local"></a>
+
 ## 🔌 CPhysHingeAlias_phys_hinge_local
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34254,6 +36264,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysimpact"></a>
 
 ## 🔌 CPhysImpact
 
@@ -34276,6 +36288,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphyslength"></a>
 
 ## 🔌 CPhysLength
 
@@ -34300,6 +36314,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysmagnet"></a>
 
 ## 🔌 CPhysMagnet
 
@@ -34331,6 +36347,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysmotor"></a>
 
 ## 🔌 CPhysMotor
 
@@ -34364,6 +36382,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphysmotorapi"></a>
+
 ## 🔌 CPhysMotorAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34375,6 +36395,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphyspulley"></a>
 
 ## 🔌 CPhysPulley
 
@@ -34398,6 +36420,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysslideconstraint"></a>
 
 ## 🔌 CPhysSlideConstraint
 
@@ -34428,6 +36452,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphyssurfaceproperties"></a>
+
 ## 🔌 CPhysSurfaceProperties
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34454,6 +36480,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphyssurfacepropertiesaudio"></a>
+
 ## 🔌 CPhysSurfacePropertiesAudio
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34479,6 +36507,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphyssurfacepropertiesphysics"></a>
+
 ## 🔌 CPhysSurfacePropertiesPhysics
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34501,6 +36531,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphyssurfacepropertiessoundnames"></a>
 
 ## 🔌 CPhysSurfacePropertiesSoundNames
 
@@ -34531,6 +36563,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphyssurfacepropertiesvehicle"></a>
+
 ## 🔌 CPhysSurfacePropertiesVehicle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34549,6 +36583,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysthruster"></a>
 
 ## 🔌 CPhysThruster
 
@@ -34570,6 +36606,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphystorque"></a>
+
 ## 🔌 CPhysTorque
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34589,6 +36627,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphyswheelconstraint"></a>
 
 ## 🔌 CPhysWheelConstraint
 
@@ -34621,6 +36661,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphysicalbutton"></a>
+
 ## 🔌 CPhysicalButton
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34634,6 +36676,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysicsbodygamemarkup"></a>
 
 ## 🔌 CPhysicsBodyGameMarkup
 
@@ -34654,6 +36698,8 @@ void XInitialPathWorldToLocalUpdated()
 
 ---
 
+<a id="cphysicsbodygamemarkupdata"></a>
+
 ## 🔌 CPhysicsBodyGameMarkupData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34671,6 +36717,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysicsentitysolver"></a>
 
 ## 🔌 CPhysicsEntitySolver
 
@@ -34694,6 +36742,8 @@ void XInitialPathWorldToLocalUpdated()
 
 
 ---
+
+<a id="cphysicsprop"></a>
 
 ## 🔌 CPhysicsProp
 
@@ -34763,6 +36813,8 @@ void AwakeUpdated()
 
 ---
 
+<a id="cphysicspropmultiplayer"></a>
+
 ## 🔌 CPhysicsPropMultiplayer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34777,6 +36829,8 @@ void AwakeUpdated()
 
 ---
 
+<a id="cphysicspropoverride"></a>
+
 ## 🔌 CPhysicsPropOverride
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34790,6 +36844,8 @@ void AwakeUpdated()
 
 
 ---
+
+<a id="cphysicsproprespawnable"></a>
 
 ## 🔌 CPhysicsPropRespawnable
 
@@ -34815,6 +36871,8 @@ void AwakeUpdated()
 
 ---
 
+<a id="cphysicsprop__cratetype_t"></a>
+
 ## 📋 CPhysicsProp__CrateType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34834,6 +36892,8 @@ void AwakeUpdated()
 
 ---
 
+<a id="cphysicsshake"></a>
+
 ## 🔌 CPhysicsShake
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34851,6 +36911,8 @@ void AwakeUpdated()
 
 
 ---
+
+<a id="cphysicsspring"></a>
 
 ## 🔌 CPhysicsSpring
 
@@ -34879,6 +36941,8 @@ void AwakeUpdated()
 
 ---
 
+<a id="cphysicswire"></a>
+
 ## 🔌 CPhysicsWire
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -34898,6 +36962,8 @@ void AwakeUpdated()
 
 
 ---
+
+<a id="cplantedc4"></a>
 
 ## 🔌 CPlantedC4
 
@@ -35031,6 +37097,8 @@ void BombDefuserUpdated()
 
 ---
 
+<a id="cplattrigger"></a>
+
 ## 🔌 CPlatTrigger
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35051,6 +37119,8 @@ void BombDefuserUpdated()
 
 ---
 
+<a id="cplayercontrollercomponent"></a>
+
 ## 🔌 CPlayerControllerComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35067,6 +37137,8 @@ void BombDefuserUpdated()
 
 ---
 
+<a id="cplayercontrollercomponent"></a>
+
 ## 🔌 CPlayerControllerComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35078,6 +37150,8 @@ void BombDefuserUpdated()
 
 
 ---
+
+<a id="cplayerinputanimmotorupdater"></a>
 
 ## 🔌 CPlayerInputAnimMotorUpdater
 
@@ -35104,6 +37178,8 @@ void BombDefuserUpdated()
 
 ---
 
+<a id="cplayerpawncomponent"></a>
+
 ## 🔌 CPlayerPawnComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35120,6 +37196,8 @@ void BombDefuserUpdated()
 
 ---
 
+<a id="cplayerpawncomponent"></a>
+
 ## 🔌 CPlayerPawnComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35131,6 +37209,8 @@ void BombDefuserUpdated()
 
 
 ---
+
+<a id="cplayerping"></a>
 
 ## 🔌 CPlayerPing
 
@@ -35187,6 +37267,8 @@ void PlaceNameUpdated()
 
 
 ---
+
+<a id="cplayerspraydecal"></a>
 
 ## 🔌 CPlayerSprayDecal
 
@@ -35314,6 +37396,8 @@ void SignatureUpdated()
 
 ---
 
+<a id="cplayervisibility"></a>
+
 ## 🔌 CPlayerVisibility
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35377,6 +37461,8 @@ void IsEnabledUpdated()
 
 ---
 
+<a id="cplayer_autoaimservices"></a>
+
 ## 🔌 CPlayer_AutoaimServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35390,6 +37476,8 @@ void IsEnabledUpdated()
 
 
 ---
+
+<a id="cplayer_cameraservices"></a>
 
 ## 🔌 CPlayer_CameraServices
 
@@ -35478,6 +37566,8 @@ void PostProcessingVolumesUpdated()
 
 ---
 
+<a id="cplayer_flashlightservices"></a>
+
 ## 🔌 CPlayer_FlashlightServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35491,6 +37581,8 @@ void PostProcessingVolumesUpdated()
 
 
 ---
+
+<a id="cplayer_itemservices"></a>
 
 ## 🔌 CPlayer_ItemServices
 
@@ -35654,6 +37746,8 @@ await itemServices.RemoveItemsAsync();
 
 ---
 
+<a id="cplayer_itemservices"></a>
+
 ## 🔌 CPlayer_ItemServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35667,6 +37761,8 @@ await itemServices.RemoveItemsAsync();
 
 
 ---
+
+<a id="cplayer_movementservices"></a>
 
 ## 🔌 CPlayer_MovementServices
 
@@ -35722,6 +37818,8 @@ void ForceSubtickMoveWhenUpdated()
 
 ---
 
+<a id="cplayer_movementservices_humanoid"></a>
+
 ## 🔌 CPlayer_MovementServices_Humanoid
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35755,6 +37853,8 @@ void FallVelocityUpdated()
 
 
 ---
+
+<a id="cplayer_observerservices"></a>
 
 ## 🔌 CPlayer_ObserverServices
 
@@ -35793,6 +37893,8 @@ void ObserverTargetUpdated()
 
 ---
 
+<a id="cplayer_useservices"></a>
+
 ## 🔌 CPlayer_UseServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35807,6 +37909,8 @@ void ObserverTargetUpdated()
 
 ---
 
+<a id="cplayer_waterservices"></a>
+
 ## 🔌 CPlayer_WaterServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -35820,6 +37924,8 @@ void ObserverTargetUpdated()
 
 
 ---
+
+<a id="cplayer_weaponservices"></a>
 
 ## 🔌 CPlayer_WeaponServices
 
@@ -36367,6 +38473,8 @@ await weaponServices.SelectWeaponByClassAsync<CWeaponAK47>();
 
 ---
 
+<a id="cplayer_weaponservices"></a>
+
 ## 🔌 CPlayer_WeaponServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -36417,6 +38525,8 @@ void AmmoUpdated()
 
 ---
 
+<a id="cpointanglesensor"></a>
+
 ## 🔌 CPointAngleSensor
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -36447,6 +38557,8 @@ void AmmoUpdated()
 
 
 ---
+
+<a id="cpointangularvelocitysensor"></a>
 
 ## 🔌 CPointAngularVelocitySensor
 
@@ -36483,6 +38595,8 @@ void AmmoUpdated()
 
 ---
 
+<a id="cpointbroadcastclientcommand"></a>
+
 ## 🔌 CPointBroadcastClientCommand
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -36496,6 +38610,8 @@ void AmmoUpdated()
 
 
 ---
+
+<a id="cpointcamera"></a>
 
 ## 🔌 CPointCamera
 
@@ -36676,6 +38792,8 @@ void DofTiltToGroundUpdated()
 
 ---
 
+<a id="cpointcameravfov"></a>
+
 ## 🔌 CPointCameraVFOV
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -36695,6 +38813,8 @@ void DofTiltToGroundUpdated()
 
 
 ---
+
+<a id="cpointchildmodifier"></a>
 
 ## 🔌 CPointChildModifier
 
@@ -36716,6 +38836,8 @@ void DofTiltToGroundUpdated()
 
 ---
 
+<a id="cpointclientcommand"></a>
+
 ## 🔌 CPointClientCommand
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -36729,6 +38851,8 @@ void DofTiltToGroundUpdated()
 
 
 ---
+
+<a id="cpointclientuidialog"></a>
 
 ## 🔌 CPointClientUIDialog
 
@@ -36758,6 +38882,8 @@ void ActivatorUpdated()
 
 
 ---
+
+<a id="cpointclientuiworldpanel"></a>
 
 ## 🔌 CPointClientUIWorldPanel
 
@@ -36948,6 +39074,8 @@ void ExplicitImageLayoutUpdated()
 
 ---
 
+<a id="cpointclientuiworldtextpanel"></a>
+
 ## 🔌 CPointClientUIWorldTextPanel
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -36975,6 +39103,8 @@ void MessageTextUpdated()
 
 
 ---
+
+<a id="cpointcommentarynode"></a>
 
 ## 🔌 CPointCommentaryNode
 
@@ -37087,6 +39217,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointconstraint"></a>
+
 ## 🔌 CPointConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37101,6 +39233,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointentity"></a>
+
 ## 🔌 CPointEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37114,6 +39248,8 @@ void ListenedToUpdated()
 
 
 ---
+
+<a id="cpointentityfinder"></a>
 
 ## 🔌 CPointEntityFinder
 
@@ -37141,6 +39277,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointgamestatscounter"></a>
+
 ## 🔌 CPointGamestatsCounter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37162,6 +39300,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointgiveammo"></a>
+
 ## 🔌 CPointGiveAmmo
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37181,6 +39321,8 @@ void ListenedToUpdated()
 
 
 ---
+
+<a id="cpointhurt"></a>
 
 ## 🔌 CPointHurt
 
@@ -37206,6 +39348,8 @@ void ListenedToUpdated()
 
 
 ---
+
+<a id="cpointorient"></a>
 
 ## 🔌 CPointOrient
 
@@ -37233,6 +39377,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointprefab"></a>
+
 ## 🔌 CPointPrefab
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37258,6 +39404,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointproximitysensor"></a>
+
 ## 🔌 CPointProximitySensor
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37280,6 +39428,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointpulse"></a>
+
 ## 🔌 CPointPulse
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37293,6 +39443,8 @@ void ListenedToUpdated()
 
 
 ---
+
+<a id="cpointpush"></a>
 
 ## 🔌 CPointPush
 
@@ -37320,6 +39472,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointservercommand"></a>
+
 ## 🔌 CPointServerCommand
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37333,6 +39487,8 @@ void ListenedToUpdated()
 
 
 ---
+
+<a id="cpointteleport"></a>
 
 ## 🔌 CPointTeleport
 
@@ -37357,6 +39513,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointteleportapi"></a>
+
 ## 🔌 CPointTeleportAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37368,6 +39526,8 @@ void ListenedToUpdated()
 
 
 ---
+
+<a id="cpointtemplate"></a>
 
 ## 🔌 CPointTemplate
 
@@ -37399,6 +39559,8 @@ void ListenedToUpdated()
 
 ---
 
+<a id="cpointtemplateapi"></a>
+
 ## 🔌 CPointTemplateAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37410,6 +39572,8 @@ void ListenedToUpdated()
 
 
 ---
+
+<a id="cpointvalueremapper"></a>
 
 ## 🔌 CPointValueRemapper
 
@@ -37578,6 +39742,8 @@ void InputOffsetUpdated()
 
 ---
 
+<a id="cpointvelocitysensor"></a>
+
 ## 🔌 CPointVelocitySensor
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37602,6 +39768,8 @@ void InputOffsetUpdated()
 
 
 ---
+
+<a id="cpointworldtext"></a>
 
 ## 🔌 CPointWorldText
 
@@ -37736,6 +39904,8 @@ void ReorientModeUpdated()
 
 ---
 
+<a id="cposehandle"></a>
+
 ## 🔌 CPoseHandle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37754,6 +39924,8 @@ void ReorientModeUpdated()
 
 
 ---
+
+<a id="cpostprocessingvolume"></a>
 
 ## 🔌 CPostProcessingVolume
 
@@ -37860,6 +40032,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cprecipitation"></a>
+
 ## 🔌 CPrecipitation
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37874,6 +40048,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cprecipitationblocker"></a>
+
 ## 🔌 CPrecipitationBlocker
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37887,6 +40063,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cprecipitationvdata"></a>
 
 ## 🔌 CPrecipitationVData
 
@@ -37914,6 +40092,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cproductquantizer"></a>
+
 ## 🔌 CProductQuantizer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -37932,6 +40112,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpropdatacomponent"></a>
 
 ## 🔌 CPropDataComponent
 
@@ -37961,6 +40143,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpropdoorrotating"></a>
 
 ## 🔌 CPropDoorRotating
 
@@ -37999,6 +40183,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpropdoorrotatingbreakable"></a>
+
 ## 🔌 CPropDoorRotatingBreakable
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38022,6 +40208,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulseanimfuncs"></a>
+
 ## 🔌 CPulseAnimFuncs
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38034,6 +40222,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsearraylib"></a>
+
 ## 🔌 CPulseArraylib
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38045,6 +40235,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_base"></a>
 
 ## 🔌 CPulseCell_Base
 
@@ -38064,6 +40256,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_baseflow"></a>
+
 ## 🔌 CPulseCell_BaseFlow
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38077,6 +40271,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_baselerp"></a>
 
 ## 🔌 CPulseCell_BaseLerp
 
@@ -38098,6 +40294,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_baselerp__cursorstate_t"></a>
+
 ## 🔌 CPulseCell_BaseLerp__CursorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38117,6 +40315,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_baserequirement"></a>
+
 ## 🔌 CPulseCell_BaseRequirement
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38130,6 +40330,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_basestate"></a>
 
 ## 🔌 CPulseCell_BaseState
 
@@ -38145,6 +40347,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_basevalue"></a>
+
 ## 🔌 CPulseCell_BaseValue
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38159,6 +40363,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_baseyieldinginflow"></a>
+
 ## 🔌 CPulseCell_BaseYieldingInflow
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38172,6 +40378,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_booleanswitchstate"></a>
 
 ## 🔌 CPulseCell_BooleanSwitchState
 
@@ -38196,6 +40404,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_cursorqueue"></a>
+
 ## 🔌 CPulseCell_CursorQueue
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38216,6 +40426,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_examplecriteria"></a>
+
 ## 🔌 CPulseCell_ExampleCriteria
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38229,6 +40441,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_examplecriteria__criteria_t"></a>
 
 ## 🔌 CPulseCell_ExampleCriteria__Criteria_t
 
@@ -38250,6 +40464,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_exampleselector"></a>
+
 ## 🔌 CPulseCell_ExampleSelector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38269,6 +40485,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_firecursors"></a>
 
 ## 🔌 CPulseCell_FireCursors
 
@@ -38293,6 +40511,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_inflow_baseentrypoint"></a>
+
 ## 🔌 CPulseCell_Inflow_BaseEntrypoint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38313,6 +40533,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_inflow_entoutputhandler"></a>
 
 ## 🔌 CPulseCell_Inflow_EntOutputHandler
 
@@ -38336,6 +40558,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_inflow_eventhandler"></a>
+
 ## 🔌 CPulseCell_Inflow_EventHandler
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38356,6 +40580,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_inflow_graphhook"></a>
+
 ## 🔌 CPulseCell_Inflow_GraphHook
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38375,6 +40601,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_inflow_method"></a>
 
 ## 🔌 CPulseCell_Inflow_Method
 
@@ -38399,6 +40627,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_inflow_observablevariablelistener"></a>
+
 ## 🔌 CPulseCell_Inflow_ObservableVariableListener
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38420,6 +40650,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_inflow_wait"></a>
+
 ## 🔌 CPulseCell_Inflow_Wait
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38440,6 +40672,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_inflow_yield"></a>
+
 ## 🔌 CPulseCell_Inflow_Yield
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38459,6 +40693,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_inlinenodeskipselector"></a>
 
 ## 🔌 CPulseCell_InlineNodeSkipSelector
 
@@ -38483,6 +40719,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_intervaltimer"></a>
+
 ## 🔌 CPulseCell_IntervalTimer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38503,6 +40741,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_intervaltimer__cursorstate_t"></a>
 
 ## 🔌 CPulseCell_IntervalTimer__CursorState_t
 
@@ -38526,6 +40766,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_isrequirementvalid"></a>
+
 ## 🔌 CPulseCell_IsRequirementValid
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38539,6 +40781,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_isrequirementvalid__criteria_t"></a>
 
 ## 🔌 CPulseCell_IsRequirementValid__Criteria_t
 
@@ -38557,6 +40801,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_lerpcamerasettings"></a>
 
 ## 🔌 CPulseCell_LerpCameraSettings
 
@@ -38580,6 +40826,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_lerpcamerasettings__cursorstate_t"></a>
+
 ## 🔌 CPulseCell_LerpCameraSettings__CursorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38602,6 +40850,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_limitcount"></a>
+
 ## 🔌 CPulseCell_LimitCount
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38622,6 +40872,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_limitcount__criteria_t"></a>
+
 ## 🔌 CPulseCell_LimitCount__Criteria_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38640,6 +40892,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_limitcount__instancestate_t"></a>
+
 ## 🔌 CPulseCell_LimitCount__InstanceState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38657,6 +40911,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_outflow_cycleordered"></a>
 
 ## 🔌 CPulseCell_Outflow_CycleOrdered
 
@@ -38678,6 +40934,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_outflow_cycleordered__instancestate_t"></a>
+
 ## 🔌 CPulseCell_Outflow_CycleOrdered__InstanceState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38695,6 +40953,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_outflow_cyclerandom"></a>
 
 ## 🔌 CPulseCell_Outflow_CycleRandom
 
@@ -38716,6 +40976,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_outflow_cycleshuffled"></a>
+
 ## 🔌 CPulseCell_Outflow_CycleShuffled
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38736,6 +40998,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_outflow_cycleshuffled__instancestate_t"></a>
+
 ## 🔌 CPulseCell_Outflow_CycleShuffled__InstanceState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38754,6 +41018,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_outflow_listenforanimgraphtag"></a>
 
 ## 🔌 CPulseCell_Outflow_ListenForAnimgraphTag
 
@@ -38777,6 +41043,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_outflow_listenforentityoutput"></a>
 
 ## 🔌 CPulseCell_Outflow_ListenForEntityOutput
 
@@ -38802,6 +41070,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_outflow_listenforentityoutput__cursorstate_t"></a>
+
 ## 🔌 CPulseCell_Outflow_ListenForEntityOutput__CursorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38819,6 +41089,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_outflow_playscenebase"></a>
 
 ## 🔌 CPulseCell_Outflow_PlaySceneBase
 
@@ -38842,6 +41114,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_outflow_playscenebase__cursorstate_t"></a>
+
 ## 🔌 CPulseCell_Outflow_PlaySceneBase__CursorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38860,6 +41134,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_outflow_playsequence"></a>
 
 ## 🔌 CPulseCell_Outflow_PlaySequence
 
@@ -38880,6 +41156,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_outflow_playvcd"></a>
 
 ## 🔌 CPulseCell_Outflow_PlayVCD
 
@@ -38902,6 +41180,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_outflow_scriptedsequence"></a>
 
 ## 🔌 CPulseCell_Outflow_ScriptedSequence
 
@@ -38932,6 +41212,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_outflow_scriptedsequence__cursorstate_t"></a>
+
 ## 🔌 CPulseCell_Outflow_ScriptedSequence__CursorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38949,6 +41231,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_outflow_testexplicityesno"></a>
 
 ## 🔌 CPulseCell_Outflow_TestExplicitYesNo
 
@@ -38971,6 +41255,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_outflow_testrandomyesno"></a>
+
 ## 🔌 CPulseCell_Outflow_TestRandomYesNo
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -38992,6 +41278,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_pickbestoutflowselector"></a>
+
 ## 🔌 CPulseCell_PickBestOutflowSelector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39012,6 +41300,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_playsequence"></a>
 
 ## 🔌 CPulseCell_PlaySequence
 
@@ -39036,6 +41326,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_playsequence__cursorstate_t"></a>
+
 ## 🔌 CPulseCell_PlaySequence__CursorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39053,6 +41345,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_soundeventstart"></a>
 
 ## 🔌 CPulseCell_SoundEventStart
 
@@ -39073,6 +41367,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_step_callexternalmethod"></a>
 
 ## 🔌 CPulseCell_Step_CallExternalMethod
 
@@ -39097,6 +41393,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_step_debuglog"></a>
+
 ## 🔌 CPulseCell_Step_DebugLog
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39110,6 +41408,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_step_entfire"></a>
 
 ## 🔌 CPulseCell_Step_EntFire
 
@@ -39130,6 +41430,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_step_followentity"></a>
 
 ## 🔌 CPulseCell_Step_FollowEntity
 
@@ -39152,6 +41454,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_step_publicoutput"></a>
+
 ## 🔌 CPulseCell_Step_PublicOutput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39171,6 +41475,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_step_setanimgraphparam"></a>
 
 ## 🔌 CPulseCell_Step_SetAnimGraphParam
 
@@ -39192,6 +41498,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_step_testdomaincreatefakeentity"></a>
+
 ## 🔌 CPulseCell_Step_TestDomainCreateFakeEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39206,6 +41514,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_step_testdomaindestroyfakeentity"></a>
+
 ## 🔌 CPulseCell_Step_TestDomainDestroyFakeEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39219,6 +41529,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_step_testdomainentfire"></a>
 
 ## 🔌 CPulseCell_Step_TestDomainEntFire
 
@@ -39240,6 +41552,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_step_testdomaintracepoint"></a>
+
 ## 🔌 CPulseCell_Step_TestDomainTracepoint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39253,6 +41567,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_testwaitwithcursorstate"></a>
 
 ## 🔌 CPulseCell_TestWaitWithCursorState
 
@@ -39276,6 +41592,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_testwaitwithcursorstate__cursorstate_t"></a>
+
 ## 🔌 CPulseCell_TestWaitWithCursorState__CursorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39295,6 +41613,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_test_multiinflow_nodefault"></a>
+
 ## 🔌 CPulseCell_Test_MultiInflow_NoDefault
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39309,6 +41629,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_test_multiinflow_withdefault"></a>
+
 ## 🔌 CPulseCell_Test_MultiInflow_WithDefault
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39322,6 +41644,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_test_multioutflow_withparams"></a>
 
 ## 🔌 CPulseCell_Test_MultiOutflow_WithParams
 
@@ -39343,6 +41667,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_test_multioutflow_withparams_yielding"></a>
 
 ## 🔌 CPulseCell_Test_MultiOutflow_WithParams_Yielding
 
@@ -39368,6 +41694,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_test_multioutflow_withparams_yielding__cursorstate_t"></a>
+
 ## 🔌 CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39386,6 +41714,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_test_noinflow"></a>
+
 ## 🔌 CPulseCell_Test_NoInflow
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39399,6 +41729,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_timeline"></a>
 
 ## 🔌 CPulseCell_Timeline
 
@@ -39423,6 +41755,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_timeline__timelineevent_t"></a>
+
 ## 🔌 CPulseCell_Timeline__TimelineEvent_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39441,6 +41775,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_unknown"></a>
 
 ## 🔌 CPulseCell_Unknown
 
@@ -39462,6 +41798,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_val_testdomainfindentitybyname"></a>
+
 ## 🔌 CPulseCell_Val_TestDomainFindEntityByName
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39476,6 +41814,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_val_testdomaingetentityname"></a>
+
 ## 🔌 CPulseCell_Val_TestDomainGetEntityName
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39489,6 +41829,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_value_curve"></a>
 
 ## 🔌 CPulseCell_Value_Curve
 
@@ -39510,6 +41852,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_value_gradient"></a>
+
 ## 🔌 CPulseCell_Value_Gradient
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39530,6 +41874,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_value_randomfloat"></a>
+
 ## 🔌 CPulseCell_Value_RandomFloat
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39543,6 +41889,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_value_randomint"></a>
 
 ## 🔌 CPulseCell_Value_RandomInt
 
@@ -39558,6 +41906,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_value_testvalue50"></a>
+
 ## 🔌 CPulseCell_Value_TestValue50
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39571,6 +41921,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_waitforcursorswithtag"></a>
 
 ## 🔌 CPulseCell_WaitForCursorsWithTag
 
@@ -39593,6 +41945,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_waitforcursorswithtagbase"></a>
+
 ## 🔌 CPulseCell_WaitForCursorsWithTagBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39614,6 +41968,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecell_waitforcursorswithtagbase__cursorstate_t"></a>
+
 ## 🔌 CPulseCell_WaitForCursorsWithTagBase__CursorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39631,6 +41987,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsecell_waitforobservable"></a>
 
 ## 🔌 CPulseCell_WaitForObservable
 
@@ -39653,6 +42011,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsecursorfuncs"></a>
+
 ## 🔌 CPulseCursorFuncs
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39664,6 +42024,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulseexeccursor"></a>
 
 ## 🔌 CPulseExecCursor
 
@@ -39677,6 +42039,8 @@ void ExposureControlUpdated()
 
 ---
 
+<a id="cpulsefuncs_gameparticlemanager"></a>
+
 ## 🔌 CPulseFuncs_GameParticleManager
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39688,6 +42052,8 @@ void ExposureControlUpdated()
 
 
 ---
+
+<a id="cpulsegameblackboard"></a>
 
 ## 🔌 CPulseGameBlackboard
 
@@ -39724,6 +42090,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsegraphdef"></a>
+
 ## 🔌 CPulseGraphDef
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39755,6 +42123,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsegraphexecutionhistory"></a>
+
 ## 🔌 CPulseGraphExecutionHistory
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39777,6 +42147,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsegraphinstance_gameblackboard"></a>
+
 ## 🔌 CPulseGraphInstance_GameBlackboard
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39790,6 +42162,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulsegraphinstance_serverentity"></a>
 
 ## 🔌 CPulseGraphInstance_ServerEntity
 
@@ -39815,6 +42189,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulsegraphinstance_testdomain"></a>
 
 ## 🔌 CPulseGraphInstance_TestDomain
 
@@ -39844,6 +42220,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsegraphinstance_testdomain_derived"></a>
+
 ## 🔌 CPulseGraphInstance_TestDomain_Derived
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39864,6 +42242,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsegraphinstance_testdomain_fakeentityowner"></a>
+
 ## 🔌 CPulseGraphInstance_TestDomain_FakeEntityOwner
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39877,6 +42257,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulsegraphinstance_testdomain_usereadonlyblackboardview"></a>
 
 ## 🔌 CPulseGraphInstance_TestDomain_UseReadOnlyBlackboardView
 
@@ -39892,6 +42274,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsegraphinstance_turtlegraphics"></a>
+
 ## 🔌 CPulseGraphInstance_TurtleGraphics
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39906,6 +42290,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsemathlib"></a>
+
 ## 🔌 CPulseMathlib
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39918,6 +42304,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsephysicsconstraintsfuncs"></a>
+
 ## 🔌 CPulsePhysicsConstraintsFuncs
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39929,6 +42317,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulseruntimemethodarg"></a>
 
 ## 🔌 CPulseRuntimeMethodArg
 
@@ -39949,6 +42339,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulseservercursor"></a>
 
 ## 🔌 CPulseServerCursor
 
@@ -39971,6 +42363,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulseserverfuncs"></a>
+
 ## 🔌 CPulseServerFuncs
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -39982,6 +42376,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulseserverfuncs_sounds"></a>
 
 ## 🔌 CPulseServerFuncs_Sounds
 
@@ -39995,6 +42391,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsetestfuncs_librarya"></a>
+
 ## 🔌 CPulseTestFuncs_LibraryA
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40007,6 +42405,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulsetestscriptlib"></a>
+
 ## 🔌 CPulseTestScriptLib
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40018,6 +42418,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulseturtlegraphicscursor"></a>
 
 ## 🔌 CPulseTurtleGraphicsCursor
 
@@ -40042,6 +42444,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulse_blackboardreference"></a>
+
 ## 🔌 CPulse_BlackboardReference
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40062,6 +42466,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulse_callinfo"></a>
 
 ## 🔌 CPulse_CallInfo
 
@@ -40086,6 +42492,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulse_chunk"></a>
+
 ## 🔌 CPulse_Chunk
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40097,6 +42505,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulse_constant"></a>
 
 ## 🔌 CPulse_Constant
 
@@ -40116,6 +42526,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulse_domainvalue"></a>
 
 ## 🔌 CPulse_DomainValue
 
@@ -40137,6 +42549,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulse_instructiondebug"></a>
+
 ## 🔌 CPulse_InstructionDebug
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40156,6 +42570,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulse_invokebinding"></a>
 
 ## 🔌 CPulse_InvokeBinding
 
@@ -40179,6 +42595,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulse_outflowconnection"></a>
+
 ## 🔌 CPulse_OutflowConnection
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40199,6 +42617,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulse_outputconnection"></a>
 
 ## 🔌 CPulse_OutputConnection
 
@@ -40221,6 +42641,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulse_publicoutput"></a>
+
 ## 🔌 CPulse_PublicOutput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40239,6 +42661,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulse_registerinfo"></a>
 
 ## 🔌 CPulse_RegisterInfo
 
@@ -40262,6 +42686,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpulse_resumepoint"></a>
+
 ## 🔌 CPulse_ResumePoint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40275,6 +42701,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cpulse_variable"></a>
 
 ## 🔌 CPulse_Variable
 
@@ -40301,6 +42729,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cpushable"></a>
+
 ## 🔌 CPushable
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40314,6 +42744,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cquaternionanimparameter"></a>
 
 ## 🔌 CQuaternionAnimParameter
 
@@ -40335,6 +42767,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="crr_response"></a>
 
 ## 🔌 CRR_Response
 
@@ -40363,6 +42797,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="crr_response__responseenum_t"></a>
+
 ## 📋 CRR_Response__ResponseEnum_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40381,6 +42817,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cragdollanimtag"></a>
 
 ## 🔌 CRagdollAnimTag
 
@@ -40401,6 +42839,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cragdollcomponentupdater"></a>
 
 ## 🔌 CRagdollComponentUpdater
 
@@ -40431,6 +42871,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cragdollconstraint"></a>
+
 ## 🔌 CRagdollConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40459,6 +42901,8 @@ void StrStateBlobUpdated()
 
 ---
 
+<a id="cragdollmagnet"></a>
+
 ## 🔌 CRagdollMagnet
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40481,6 +42925,8 @@ void StrStateBlobUpdated()
 
 
 ---
+
+<a id="cragdollmanager"></a>
 
 ## 🔌 CRagdollManager
 
@@ -40512,6 +42958,8 @@ void CurrentMaxRagdollCountUpdated()
 
 
 ---
+
+<a id="cragdollprop"></a>
 
 ## 🔌 CRagdollProp
 
@@ -40584,6 +43032,8 @@ void BlendWeightUpdated()
 
 ---
 
+<a id="cragdollpropalias_physics_prop_ragdoll"></a>
+
 ## 🔌 CRagdollPropAlias_physics_prop_ragdoll
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40597,6 +43047,8 @@ void BlendWeightUpdated()
 
 
 ---
+
+<a id="cragdollpropattached"></a>
 
 ## 🔌 CRagdollPropAttached
 
@@ -40649,6 +43101,8 @@ void AttachmentPointRagdollSpaceUpdated()
 
 ---
 
+<a id="cragdollupdatenode"></a>
+
 ## 🔌 CRagdollUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40669,6 +43123,8 @@ void AttachmentPointRagdollSpaceUpdated()
 
 
 ---
+
+<a id="crandsimtimer"></a>
 
 ## 🔌 CRandSimTimer
 
@@ -40691,6 +43147,8 @@ void AttachmentPointRagdollSpaceUpdated()
 
 ---
 
+<a id="crandstopwatch"></a>
+
 ## 🔌 CRandStopwatch
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40712,6 +43170,8 @@ void AttachmentPointRagdollSpaceUpdated()
 
 ---
 
+<a id="crandomnumbergeneratorparameters"></a>
+
 ## 🔌 CRandomNumberGeneratorParameters
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40731,6 +43191,8 @@ void AttachmentPointRagdollSpaceUpdated()
 
 ---
 
+<a id="crangefloat"></a>
+
 ## 🔌 CRangeFloat
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40749,6 +43211,8 @@ void AttachmentPointRagdollSpaceUpdated()
 
 ---
 
+<a id="crangeint"></a>
+
 ## 🔌 CRangeInt
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40766,6 +43230,8 @@ void AttachmentPointRagdollSpaceUpdated()
 
 
 ---
+
+<a id="crectlight"></a>
 
 ## 🔌 CRectLight
 
@@ -40795,6 +43261,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cregionsvm"></a>
+
 ## 🔌 CRegionSVM
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40813,6 +43281,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="crelativelocation"></a>
 
 ## 🔌 CRelativeLocation
 
@@ -40835,6 +43305,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cremapfloat"></a>
+
 ## 🔌 CRemapFloat
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40852,6 +43324,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cremapvaluecomponentupdater"></a>
 
 ## 🔌 CRemapValueComponentUpdater
 
@@ -40872,6 +43346,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cremapvalueupdateitem"></a>
 
 ## 🔌 CRemapValueUpdateItem
 
@@ -40896,6 +43372,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="crenderbufferbinding"></a>
+
 ## 🔌 CRenderBufferBinding
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40914,6 +43392,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="crendercomponent"></a>
 
 ## 🔌 CRenderComponent
 
@@ -40937,6 +43417,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="crendergroom"></a>
 
 ## 🔌 CRenderGroom
 
@@ -40969,6 +43451,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="crendermesh"></a>
+
 ## 🔌 CRenderMesh
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -40992,6 +43476,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="crenderskeleton"></a>
+
 ## 🔌 CRenderSkeleton
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41011,6 +43497,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="creplicationparameters"></a>
 
 ## 🔌 CReplicationParameters
 
@@ -41036,6 +43524,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cresponsecriteriaset"></a>
+
 ## 🔌 CResponseCriteriaSet
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41055,6 +43545,8 @@ void ShowLightUpdated()
 
 ---
 
+<a id="cresponsequeue"></a>
+
 ## 🔌 CResponseQueue
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41072,6 +43564,8 @@ void ShowLightUpdated()
 
 
 ---
+
+<a id="cretakegamerules"></a>
 
 ## 🔌 CRetakeGameRules
 
@@ -41134,6 +43628,8 @@ void BombPlanterUpdated()
 
 ---
 
+<a id="crevertsaved"></a>
+
 ## 🔌 CRevertSaved
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41156,6 +43652,8 @@ void BombPlanterUpdated()
 
 ---
 
+<a id="crootupdatenode"></a>
+
 ## 🔌 CRootUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41169,6 +43667,8 @@ void BombPlanterUpdated()
 
 
 ---
+
+<a id="cropekeyframe"></a>
 
 ## 🔌 CRopeKeyframe
 
@@ -41308,6 +43808,8 @@ void EndAttachmentUpdated()
 
 ---
 
+<a id="cropekeyframealias_move_rope"></a>
+
 ## 🔌 CRopeKeyframeAlias_move_rope
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41321,6 +43823,8 @@ void EndAttachmentUpdated()
 
 
 ---
+
+<a id="cropeoverlaphit"></a>
 
 ## 🔌 CRopeOverlapHit
 
@@ -41341,6 +43845,8 @@ void EndAttachmentUpdated()
 
 ---
 
+<a id="crotbutton"></a>
+
 ## 🔌 CRotButton
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41354,6 +43860,8 @@ void EndAttachmentUpdated()
 
 
 ---
+
+<a id="crotdoor"></a>
 
 ## 🔌 CRotDoor
 
@@ -41374,6 +43882,8 @@ void EndAttachmentUpdated()
 
 
 ---
+
+<a id="crotatortarget"></a>
 
 ## 🔌 CRotatorTarget
 
@@ -41396,6 +43906,8 @@ void EndAttachmentUpdated()
 
 ---
 
+<a id="crulebrushentity"></a>
+
 ## 🔌 CRuleBrushEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41409,6 +43921,8 @@ void EndAttachmentUpdated()
 
 
 ---
+
+<a id="cruleentity"></a>
 
 ## 🔌 CRuleEntity
 
@@ -41430,6 +43944,8 @@ void EndAttachmentUpdated()
 
 ---
 
+<a id="crulepointentity"></a>
+
 ## 🔌 CRulePointEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41449,6 +43965,8 @@ void EndAttachmentUpdated()
 
 
 ---
+
+<a id="csadditionalmatchstats_t"></a>
 
 ## 🔌 CSAdditionalMatchStats_t
 
@@ -41481,6 +43999,8 @@ void EndAttachmentUpdated()
 
 ---
 
+<a id="csadditionalperroundstats_t"></a>
+
 ## 🔌 CSAdditionalPerRoundStats_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41508,6 +44028,8 @@ void EndAttachmentUpdated()
 
 
 ---
+
+<a id="csmatchstats_t"></a>
 
 ## 🔌 CSMatchStats_t
 
@@ -41580,6 +44102,8 @@ void EnemyTaserKillsUpdated()
 
 
 ---
+
+<a id="csperroundstats_t"></a>
 
 ## 🔌 CSPerRoundStats_t
 
@@ -41691,6 +44215,8 @@ void EnemiesFlashedUpdated()
 
 ---
 
+<a id="csplayerblockinguseaction_t"></a>
+
 ## 📋 CSPlayerBlockingUseAction_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41715,6 +44241,8 @@ void EnemiesFlashedUpdated()
 
 
 ---
+
+<a id="csplayerstate"></a>
 
 ## 📋 CSPlayerState
 
@@ -41743,6 +44271,8 @@ void EnemiesFlashedUpdated()
 
 ---
 
+<a id="cssdsendframeviewinfo"></a>
+
 ## 🔌 CSSDSEndFrameViewInfo
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41762,6 +44292,8 @@ void EnemiesFlashedUpdated()
 
 ---
 
+<a id="cssdsmsg_endframe"></a>
+
 ## 🔌 CSSDSMsg_EndFrame
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41779,6 +44311,8 @@ void EnemiesFlashedUpdated()
 
 
 ---
+
+<a id="cssdsmsg_layerbase"></a>
 
 ## 🔌 CSSDSMsg_LayerBase
 
@@ -41802,6 +44336,8 @@ void EnemiesFlashedUpdated()
 
 ---
 
+<a id="cssdsmsg_postlayer"></a>
+
 ## 🔌 CSSDSMsg_PostLayer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41816,6 +44352,8 @@ void EnemiesFlashedUpdated()
 
 ---
 
+<a id="cssdsmsg_prelayer"></a>
+
 ## 🔌 CSSDSMsg_PreLayer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41829,6 +44367,8 @@ void EnemiesFlashedUpdated()
 
 
 ---
+
+<a id="cssdsmsg_viewrender"></a>
 
 ## 🔌 CSSDSMsg_ViewRender
 
@@ -41848,6 +44388,8 @@ void EnemiesFlashedUpdated()
 
 
 ---
+
+<a id="cssdsmsg_viewtarget"></a>
 
 ## 🔌 CSSDSMsg_ViewTarget
 
@@ -41876,6 +44418,8 @@ void EnemiesFlashedUpdated()
 
 ---
 
+<a id="cssdsmsg_viewtargetlist"></a>
+
 ## 🔌 CSSDSMsg_ViewTargetList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41895,6 +44439,8 @@ void EnemiesFlashedUpdated()
 
 
 ---
+
+<a id="csweaponcategory"></a>
 
 ## 📋 CSWeaponCategory
 
@@ -41920,6 +44466,8 @@ void EnemiesFlashedUpdated()
 
 ---
 
+<a id="csweaponmode"></a>
+
 ## 📋 CSWeaponMode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -41939,6 +44487,8 @@ void EnemiesFlashedUpdated()
 
 
 ---
+
+<a id="csweaponnameid"></a>
 
 ## 📋 CSWeaponNameID
 
@@ -42023,6 +44573,8 @@ void EnemiesFlashedUpdated()
 
 ---
 
+<a id="csweaponsilencertype"></a>
+
 ## 📋 CSWeaponSilencerType
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42042,6 +44594,8 @@ void EnemiesFlashedUpdated()
 
 
 ---
+
+<a id="csweapontype"></a>
 
 ## 📋 CSWeaponType
 
@@ -42072,6 +44626,8 @@ void EnemiesFlashedUpdated()
 
 
 ---
+
+<a id="csceneentity"></a>
 
 ## 🔌 CSceneEntity
 
@@ -42198,6 +44754,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="csceneentityalias_logic_choreographed_scene"></a>
+
 ## 🔌 CSceneEntityAlias_logic_choreographed_scene
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42211,6 +44769,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="csceneeventinfo"></a>
 
 ## 🔌 CSceneEventInfo
 
@@ -42245,6 +44805,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cscenelistmanager"></a>
+
 ## 🔌 CSceneListManager
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42267,6 +44829,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="csceneobjectdata"></a>
+
 ## 🔌 CSceneObjectData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42286,6 +44850,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="csceneobjectdata__rtproxydrawdescriptor_t"></a>
 
 ## 🔌 CSceneObjectData__RTProxyDrawDescriptor_t
 
@@ -42310,6 +44876,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cscenepayloadvdata"></a>
+
 ## 🔌 CScenePayloadVData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42327,6 +44895,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cscenerequest"></a>
 
 ## 🔌 CSceneRequest
 
@@ -42347,6 +44917,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cschemasysteminternalregistration"></a>
 
 ## 🔌 CSchemaSystemInternalRegistration
 
@@ -42388,6 +44960,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cscriptcomponent"></a>
+
 ## 🔌 CScriptComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42407,6 +44981,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cscriptitem"></a>
 
 ## 🔌 CScriptItem
 
@@ -42428,6 +45004,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cscriptnavblocker"></a>
+
 ## 🔌 CScriptNavBlocker
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42447,6 +45025,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cscripttriggerhurt"></a>
 
 ## 🔌 CScriptTriggerHurt
 
@@ -42468,6 +45048,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cscripttriggermultiple"></a>
+
 ## 🔌 CScriptTriggerMultiple
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42487,6 +45069,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cscripttriggeronce"></a>
 
 ## 🔌 CScriptTriggerOnce
 
@@ -42508,6 +45092,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cscripttriggerpush"></a>
+
 ## 🔌 CScriptTriggerPush
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42528,6 +45114,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cscriptuniformrandomstream"></a>
+
 ## 🔌 CScriptUniformRandomStream
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42546,6 +45134,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cscriptedsequence"></a>
 
 ## 🔌 CScriptedSequence
 
@@ -42643,6 +45233,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cselectorupdatenode"></a>
+
 ## 🔌 CSelectorUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42672,6 +45264,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cseqautolayer"></a>
+
 ## 🔌 CSeqAutoLayer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42695,6 +45289,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cseqautolayerflag"></a>
 
 ## 🔌 CSeqAutoLayerFlag
 
@@ -42721,6 +45317,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cseqbonemasklist"></a>
+
 ## 🔌 CSeqBoneMaskList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42742,6 +45340,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cseqcmdlayer"></a>
 
 ## 🔌 CSeqCmdLayer
 
@@ -42768,6 +45368,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cseqcmdseqdesc"></a>
 
 ## 🔌 CSeqCmdSeqDesc
 
@@ -42798,6 +45400,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cseqiklock"></a>
+
 ## 🔌 CSeqIKLock
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42818,6 +45422,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cseqmultifetch"></a>
 
 ## 🔌 CSeqMultiFetch
 
@@ -42846,6 +45452,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cseqmultifetchflag"></a>
+
 ## 🔌 CSeqMultiFetchFlag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42869,6 +45477,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cseqposeparamdesc"></a>
+
 ## 🔌 CSeqPoseParamDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42890,6 +45500,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cseqposesetting"></a>
 
 ## 🔌 CSeqPoseSetting
 
@@ -42915,6 +45527,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cseqs1seqdesc"></a>
 
 ## 🔌 CSeqS1SeqDesc
 
@@ -42944,6 +45558,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cseqscaleset"></a>
+
 ## 🔌 CSeqScaleSet
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -42965,6 +45581,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cseqseqdescflag"></a>
 
 ## 🔌 CSeqSeqDescFlag
 
@@ -42994,6 +45612,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cseqsynthanimdesc"></a>
+
 ## 🔌 CSeqSynthAnimDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43017,6 +45637,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cseqtransition"></a>
+
 ## 🔌 CSeqTransition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43035,6 +45657,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="csequencefinishedanimtag"></a>
 
 ## 🔌 CSequenceFinishedAnimTag
 
@@ -43055,6 +45679,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="csequencegroupdata"></a>
 
 ## 🔌 CSequenceGroupData
 
@@ -43087,6 +45713,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="csequencetagspans"></a>
+
 ## 🔌 CSequenceTagSpans
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43105,6 +45733,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="csequenceupdatenode"></a>
 
 ## 🔌 CSequenceUpdateNode
 
@@ -43129,6 +45759,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="csequenceupdatenodebase"></a>
+
 ## 🔌 CSequenceUpdateNodeBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43150,6 +45782,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cserveronlyentity"></a>
+
 ## 🔌 CServerOnlyEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43163,6 +45797,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cserveronlymodelentity"></a>
 
 ## 🔌 CServerOnlyModelEntity
 
@@ -43178,6 +45814,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cserveronlypointentity"></a>
+
 ## 🔌 CServerOnlyPointEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43192,6 +45830,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cserverragdolltrigger"></a>
+
 ## 🔌 CServerRagdollTrigger
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43205,6 +45845,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="csetparameteractionupdater"></a>
 
 ## 🔌 CSetParameterActionUpdater
 
@@ -43226,6 +45868,8 @@ void SceneStringIndexUpdated()
 
 
 ---
+
+<a id="cshatterglassshard"></a>
 
 ## 🔌 CShatterGlassShard
 
@@ -43272,6 +45916,8 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="cshatterglassshardphysics"></a>
+
 ## 🔌 CShatterGlassShardPhysics
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43302,6 +45948,8 @@ void ShardDescUpdated()
 
 ---
 
+<a id="cshower"></a>
+
 ## 🔌 CShower
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43315,6 +45963,8 @@ void ShardDescUpdated()
 
 
 ---
+
+<a id="csimtimer"></a>
 
 ## 🔌 CSimTimer
 
@@ -43336,6 +45986,8 @@ void ShardDescUpdated()
 
 ---
 
+<a id="csimplemarkupvolumetagged"></a>
+
 ## 🔌 CSimpleMarkupVolumeTagged
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43349,6 +46001,8 @@ void ShardDescUpdated()
 
 
 ---
+
+<a id="csimplesimtimer"></a>
 
 ## 🔌 CSimpleSimTimer
 
@@ -43369,6 +46023,8 @@ void ShardDescUpdated()
 
 ---
 
+<a id="csimplestopwatch"></a>
+
 ## 🔌 CSimpleStopwatch
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43382,6 +46038,8 @@ void ShardDescUpdated()
 
 
 ---
+
+<a id="csingleframeupdatenode"></a>
 
 ## 🔌 CSingleFrameUpdateNode
 
@@ -43406,6 +46064,8 @@ void ShardDescUpdated()
 
 ---
 
+<a id="csingleplayrules"></a>
+
 ## 🔌 CSingleplayRules
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43426,6 +46086,8 @@ void ShardDescUpdated()
 
 ---
 
+<a id="cskeletonanimationcontroller"></a>
+
 ## 🔌 CSkeletonAnimationController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43445,6 +46107,8 @@ void ShardDescUpdated()
 
 
 ---
+
+<a id="cskeletoninstance"></a>
 
 ## 🔌 CSkeletonInstance
 
@@ -43506,6 +46170,8 @@ void HitboxSetUpdated()
 
 ---
 
+<a id="cskilldamage"></a>
+
 ## 🔌 CSkillDamage
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43526,6 +46192,8 @@ void HitboxSetUpdated()
 
 ---
 
+<a id="cskillfloat"></a>
+
 ## 🔌 CSkillFloat
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43544,6 +46212,8 @@ void HitboxSetUpdated()
 
 ---
 
+<a id="cskillint"></a>
+
 ## 🔌 CSkillInt
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43561,6 +46231,8 @@ void HitboxSetUpdated()
 
 
 ---
+
+<a id="cskycamera"></a>
 
 ## 🔌 CSkyCamera
 
@@ -43599,6 +46271,8 @@ void SkyboxSlotTokenUpdated()
 
 ---
 
+<a id="cskyboxreference"></a>
+
 ## 🔌 CSkyboxReference
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43619,6 +46293,8 @@ void SkyboxSlotTokenUpdated()
 
 
 ---
+
+<a id="cslopecomponentupdater"></a>
 
 ## 🔌 CSlopeComponentUpdater
 
@@ -43646,6 +46322,8 @@ void SkyboxSlotTokenUpdated()
 
 ---
 
+<a id="cslowdownonslopesupdatenode"></a>
+
 ## 🔌 CSlowDownOnSlopesUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43666,6 +46344,8 @@ void SkyboxSlotTokenUpdated()
 
 ---
 
+<a id="csmokegrenade"></a>
+
 ## 🔌 CSmokeGrenade
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43680,6 +46360,8 @@ void SkyboxSlotTokenUpdated()
 
 ---
 
+<a id="csmokegrenadeprojectile"></a>
+
 ## 🔌 CSmokeGrenadeProjectile
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43689,6 +46371,8 @@ void SkyboxSlotTokenUpdated()
 
 
 ---
+
+<a id="csmokegrenadeprojectile"></a>
 
 ## 🔌 CSmokeGrenadeProjectile
 
@@ -43771,6 +46455,8 @@ void VoxelUpdateUpdated()
 
 ---
 
+<a id="csmoothfunc"></a>
+
 ## 🔌 CSmoothFunc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43793,6 +46479,8 @@ void VoxelUpdateUpdated()
 
 ---
 
+<a id="csolveikchainupdatenode"></a>
+
 ## 🔌 CSolveIKChainUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43814,6 +46502,8 @@ void VoxelUpdateUpdated()
 
 ---
 
+<a id="csolveiktargethandle_t"></a>
+
 ## 🔌 CSolveIKTargetHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43832,6 +46522,8 @@ void VoxelUpdateUpdated()
 
 
 ---
+
+<a id="csosgroupactionlimitschema"></a>
 
 ## 🔌 CSosGroupActionLimitSchema
 
@@ -43856,6 +46548,8 @@ void VoxelUpdateUpdated()
 
 
 ---
+
+<a id="csosgroupactionmembercountenvelopeschema"></a>
 
 ## 🔌 CSosGroupActionMemberCountEnvelopeSchema
 
@@ -43884,6 +46578,8 @@ void VoxelUpdateUpdated()
 
 ---
 
+<a id="csosgroupactionschema"></a>
+
 ## 🔌 CSosGroupActionSchema
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43895,6 +46591,8 @@ void VoxelUpdateUpdated()
 
 
 ---
+
+<a id="csosgroupactionsetsoundeventparameterschema"></a>
 
 ## 🔌 CSosGroupActionSetSoundeventParameterSchema
 
@@ -43919,6 +46617,8 @@ void VoxelUpdateUpdated()
 
 
 ---
+
+<a id="csosgroupactionsoundeventclusterschema"></a>
 
 ## 🔌 CSosGroupActionSoundeventClusterSchema
 
@@ -43946,6 +46646,8 @@ void VoxelUpdateUpdated()
 
 ---
 
+<a id="csosgroupactionsoundeventcountschema"></a>
+
 ## 🔌 CSosGroupActionSoundeventCountSchema
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -43966,6 +46668,8 @@ void VoxelUpdateUpdated()
 
 
 ---
+
+<a id="csosgroupactionsoundeventminmaxvaluesschema"></a>
 
 ## 🔌 CSosGroupActionSoundeventMinMaxValuesSchema
 
@@ -43996,6 +46700,8 @@ void VoxelUpdateUpdated()
 
 ---
 
+<a id="csosgroupactionsoundeventpriorityschema"></a>
+
 ## 🔌 CSosGroupActionSoundeventPrioritySchema
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44019,6 +46725,8 @@ void VoxelUpdateUpdated()
 
 ---
 
+<a id="csosgroupactiontimeblocklimitschema"></a>
+
 ## 🔌 CSosGroupActionTimeBlockLimitSchema
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44040,6 +46748,8 @@ void VoxelUpdateUpdated()
 
 ---
 
+<a id="csosgroupactiontimelimitschema"></a>
+
 ## 🔌 CSosGroupActionTimeLimitSchema
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44059,6 +46769,8 @@ void VoxelUpdateUpdated()
 
 
 ---
+
+<a id="csossoundeventgroupschema"></a>
 
 ## 🔌 CSosSoundEventGroupSchema
 
@@ -44092,6 +46804,8 @@ void VoxelUpdateUpdated()
 
 
 ---
+
+<a id="csoundareaentitybase"></a>
 
 ## 🔌 CSoundAreaEntityBase
 
@@ -44135,6 +46849,8 @@ void PosUpdated()
 
 ---
 
+<a id="csoundareaentityorientedbox"></a>
+
 ## 🔌 CSoundAreaEntityOrientedBox
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44170,6 +46886,8 @@ void MaxUpdated()
 
 ---
 
+<a id="csoundareaentitysphere"></a>
+
 ## 🔌 CSoundAreaEntitySphere
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44198,6 +46916,8 @@ void RadiusUpdated()
 
 ---
 
+<a id="csoundcontainerreference"></a>
+
 ## 🔌 CSoundContainerReference
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44217,6 +46937,8 @@ void RadiusUpdated()
 
 
 ---
+
+<a id="csoundcontainerreferencearray"></a>
 
 ## 🔌 CSoundContainerReferenceArray
 
@@ -44238,6 +46960,8 @@ void RadiusUpdated()
 
 ---
 
+<a id="csoundenvelope"></a>
+
 ## 🔌 CSoundEnvelope
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44258,6 +46982,8 @@ void RadiusUpdated()
 
 
 ---
+
+<a id="csoundeventaabbentity"></a>
 
 ## 🔌 CSoundEventAABBEntity
 
@@ -44294,6 +47020,8 @@ void MaxsUpdated()
 
 ---
 
+<a id="csoundeventconeentity"></a>
+
 ## 🔌 CSoundEventConeEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44317,6 +47045,8 @@ void MaxsUpdated()
 
 
 ---
+
+<a id="csoundevententity"></a>
 
 ## 🔌 CSoundEventEntity
 
@@ -44351,6 +47081,8 @@ void MaxsUpdated()
 
 ---
 
+<a id="csoundevententityalias_snd_event_point"></a>
+
 ## 🔌 CSoundEventEntityAlias_snd_event_point
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44364,6 +47096,8 @@ void MaxsUpdated()
 
 
 ---
+
+<a id="csoundeventmetadata"></a>
 
 ## 🔌 CSoundEventMetaData
 
@@ -44382,6 +47116,8 @@ void MaxsUpdated()
 
 
 ---
+
+<a id="csoundeventobbentity"></a>
 
 ## 🔌 CSoundEventOBBEntity
 
@@ -44418,6 +47154,8 @@ void MaxsUpdated()
 
 ---
 
+<a id="csoundeventparameter"></a>
+
 ## 🔌 CSoundEventParameter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44438,6 +47176,8 @@ void MaxsUpdated()
 
 
 ---
+
+<a id="csoundeventpathcornerentity"></a>
 
 ## 🔌 CSoundEventPathCornerEntity
 
@@ -44473,6 +47213,8 @@ void CornerPairsNetworkedUpdated()
 
 ---
 
+<a id="csoundeventsphereentity"></a>
+
 ## 🔌 CSoundEventSphereEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44501,6 +47243,8 @@ void RadiusUpdated()
 
 ---
 
+<a id="csoundinfoheader"></a>
+
 ## 🔌 CSoundInfoHeader
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44512,6 +47256,8 @@ void RadiusUpdated()
 
 
 ---
+
+<a id="csoundopvarsetaabbentity"></a>
 
 ## 🔌 CSoundOpvarSetAABBEntity
 
@@ -44541,6 +47287,8 @@ void RadiusUpdated()
 
 ---
 
+<a id="csoundopvarsetautoroomentity"></a>
+
 ## 🔌 CSoundOpvarSetAutoRoomEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44564,6 +47312,8 @@ void RadiusUpdated()
 
 
 ---
+
+<a id="csoundopvarsetentity"></a>
 
 ## 🔌 CSoundOpvarSetEntity
 
@@ -44592,6 +47342,8 @@ void RadiusUpdated()
 
 ---
 
+<a id="csoundopvarsetobbentity"></a>
+
 ## 🔌 CSoundOpvarSetOBBEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44605,6 +47357,8 @@ void RadiusUpdated()
 
 
 ---
+
+<a id="csoundopvarsetobbwindentity"></a>
 
 ## 🔌 CSoundOpvarSetOBBWindEntity
 
@@ -44633,6 +47387,8 @@ void RadiusUpdated()
 
 ---
 
+<a id="csoundopvarsetpathcornerentity"></a>
+
 ## 🔌 CSoundOpvarSetPathCornerEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44655,6 +47411,8 @@ void RadiusUpdated()
 
 
 ---
+
+<a id="csoundopvarsetpointbase"></a>
 
 ## 🔌 CSoundOpvarSetPointBase
 
@@ -44724,6 +47482,8 @@ void FastRefreshUpdated()
 
 ---
 
+<a id="csoundopvarsetpointentity"></a>
+
 ## 🔌 CSoundOpvarSetPointEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44767,6 +47527,8 @@ void FastRefreshUpdated()
 
 ---
 
+<a id="csoundpatch"></a>
+
 ## 🔌 CSoundPatch
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44797,6 +47559,8 @@ void FastRefreshUpdated()
 
 ---
 
+<a id="csoundstacksave"></a>
+
 ## 🔌 CSoundStackSave
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44816,6 +47580,8 @@ void FastRefreshUpdated()
 
 
 ---
+
+<a id="cspeedscaleupdatenode"></a>
 
 ## 🔌 CSpeedScaleUpdateNode
 
@@ -44837,6 +47603,8 @@ void FastRefreshUpdated()
 
 ---
 
+<a id="cspinupdatebase"></a>
+
 ## 🔌 CSpinUpdateBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -44850,6 +47618,8 @@ void FastRefreshUpdated()
 
 
 ---
+
+<a id="csplineconstraint"></a>
 
 ## 🔌 CSplineConstraint
 
@@ -44883,6 +47653,8 @@ void FastRefreshUpdated()
 
 
 ---
+
+<a id="cspotlightend"></a>
 
 ## 🔌 CSpotlightEnd
 
@@ -44920,6 +47692,8 @@ void RadiusUpdated()
 
 
 ---
+
+<a id="csprite"></a>
 
 ## 🔌 CSprite
 
@@ -45037,6 +47811,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cspritealias_env_glow"></a>
+
 ## 🔌 CSpriteAlias_env_glow
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45051,6 +47827,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cspriteoriented"></a>
+
 ## 🔌 CSpriteOriented
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45064,6 +47842,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="cstanceoverrideupdatenode"></a>
 
 ## 🔌 CStanceOverrideUpdateNode
 
@@ -45088,6 +47868,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cstancescaleupdatenode"></a>
+
 ## 🔌 CStanceScaleUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45108,6 +47890,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cstateactionupdater"></a>
+
 ## 🔌 CStateActionUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45126,6 +47910,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="cstatemachinecomponentupdater"></a>
 
 ## 🔌 CStateMachineComponentUpdater
 
@@ -45146,6 +47932,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="cstatemachineupdatenode"></a>
 
 ## 🔌 CStateMachineUpdateNode
 
@@ -45172,6 +47960,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cstatenodestatedata"></a>
+
 ## 🔌 CStateNodeStateData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45191,6 +47981,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="cstatenodetransitiondata"></a>
 
 ## 🔌 CStateNodeTransitionData
 
@@ -45213,6 +48005,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="cstateupdatedata"></a>
 
 ## 🔌 CStateUpdateData
 
@@ -45241,6 +48035,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cstaticposecache"></a>
+
 ## 🔌 CStaticPoseCache
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45261,6 +48057,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cstaticposecachebuilder"></a>
+
 ## 🔌 CStaticPoseCacheBuilder
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45274,6 +48072,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="cstepsremainingmetricevaluator"></a>
 
 ## 🔌 CStepsRemainingMetricEvaluator
 
@@ -45295,6 +48095,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="cstopatgoalupdatenode"></a>
 
 ## 🔌 CStopAtGoalUpdateNode
 
@@ -45320,6 +48122,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cstopwatch"></a>
+
 ## 🔌 CStopwatch
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45339,6 +48143,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="cstopwatchbase"></a>
 
 ## 🔌 CStopwatchBase
 
@@ -45360,6 +48166,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cstringanimtag"></a>
+
 ## 🔌 CStringAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45373,6 +48181,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="csubtractupdatenode"></a>
 
 ## 🔌 CSubtractUpdateNode
 
@@ -45397,6 +48207,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="csymbolanimparameter"></a>
+
 ## 🔌 CSymbolAnimParameter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45417,6 +48229,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="ctakedamageinfoapi"></a>
+
 ## 🔌 CTakeDamageInfoAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45428,6 +48242,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="ctakedamagesummaryscopeguard"></a>
 
 ## 🔌 CTakeDamageSummaryScopeGuard
 
@@ -45446,6 +48262,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="ctanktargetchange"></a>
 
 ## 🔌 CTankTargetChange
 
@@ -45467,6 +48285,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="ctanktrainai"></a>
 
 ## 🔌 CTankTrainAI
 
@@ -45493,6 +48313,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="ctargetselectorupdatenode"></a>
 
 ## 🔌 CTargetSelectorUpdateNode
 
@@ -45522,6 +48344,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="ctargetwarpupdatenode"></a>
 
 ## 🔌 CTargetWarpUpdateNode
 
@@ -45556,6 +48380,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="ctaskhandshakeanimtag"></a>
+
 ## 🔌 CTaskHandshakeAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45570,6 +48396,8 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="ctaskstatusanimtag"></a>
+
 ## 🔌 CTaskStatusAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45583,6 +48411,8 @@ void HDRColorScaleUpdated()
 
 
 ---
+
+<a id="cteam"></a>
 
 ## 🔌 CTeam
 
@@ -45633,6 +48463,8 @@ void TeamnameUpdated()
 
 ---
 
+<a id="cteamplayrules"></a>
+
 ## 🔌 CTeamplayRules
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45646,6 +48478,8 @@ void TeamnameUpdated()
 
 
 ---
+
+<a id="ctestblendcontainer"></a>
 
 ## 🔌 CTestBlendContainer
 
@@ -45668,6 +48502,8 @@ void TeamnameUpdated()
 
 ---
 
+<a id="ctestdomainderived_cursor"></a>
+
 ## 🔌 CTestDomainDerived_Cursor
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45688,6 +48524,8 @@ void TeamnameUpdated()
 
 
 ---
+
+<a id="ctesteffect"></a>
 
 ## 🔌 CTestEffect
 
@@ -45712,6 +48550,8 @@ void TeamnameUpdated()
 
 
 ---
+
+<a id="ctestpulseio"></a>
 
 ## 🔌 CTestPulseIO
 
@@ -45740,6 +48580,8 @@ void TeamnameUpdated()
 
 ---
 
+<a id="ctestpulseioapi"></a>
+
 ## 🔌 CTestPulseIOAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45751,6 +48593,8 @@ void TeamnameUpdated()
 
 
 ---
+
+<a id="ctexturebasedanimatable"></a>
 
 ## 🔌 CTextureBasedAnimatable
 
@@ -45829,6 +48673,8 @@ void StartFrameUpdated()
 
 ---
 
+<a id="ctilttwistconstraint"></a>
+
 ## 🔌 CTiltTwistConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45849,6 +48695,8 @@ void StartFrameUpdated()
 
 
 ---
+
+<a id="ctimeremainingmetricevaluator"></a>
 
 ## 🔌 CTimeRemainingMetricEvaluator
 
@@ -45872,6 +48720,8 @@ void StartFrameUpdated()
 
 
 ---
+
+<a id="ctimeline"></a>
 
 ## 🔌 CTimeline
 
@@ -45943,6 +48793,8 @@ void StoppedUpdated()
 
 ---
 
+<a id="ctimerentity"></a>
+
 ## 🔌 CTimerEntity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45975,6 +48827,8 @@ void StoppedUpdated()
 
 ---
 
+<a id="ctogglecomponentactionupdater"></a>
+
 ## 🔌 CToggleComponentActionUpdater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -45995,6 +48849,8 @@ void StoppedUpdated()
 
 
 ---
+
+<a id="ctonemapcontroller2"></a>
 
 ## 🔌 CTonemapController2
 
@@ -46052,6 +48908,8 @@ void TonemapEVSmoothingRangeUpdated()
 
 ---
 
+<a id="ctonemapcontroller2alias_env_tonemap_controller2"></a>
+
 ## 🔌 CTonemapController2Alias_env_tonemap_controller2
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46065,6 +48923,8 @@ void TonemapEVSmoothingRangeUpdated()
 
 
 ---
+
+<a id="ctonemaptrigger"></a>
 
 ## 🔌 CTonemapTrigger
 
@@ -46087,6 +48947,8 @@ void TonemapEVSmoothingRangeUpdated()
 
 ---
 
+<a id="ctouchexpansioncomponent"></a>
+
 ## 🔌 CTouchExpansionComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46100,6 +48962,8 @@ void TonemapEVSmoothingRangeUpdated()
 
 
 ---
+
+<a id="ctransitionupdatedata"></a>
 
 ## 🔌 CTransitionUpdateData
 
@@ -46122,6 +48986,8 @@ void TonemapEVSmoothingRangeUpdated()
 
 ---
 
+<a id="ctriggeractiveweapondetect"></a>
+
 ## 🔌 CTriggerActiveWeaponDetect
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46143,6 +49009,8 @@ void TonemapEVSmoothingRangeUpdated()
 
 ---
 
+<a id="ctriggerbombreset"></a>
+
 ## 🔌 CTriggerBombReset
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46156,6 +49024,8 @@ void TonemapEVSmoothingRangeUpdated()
 
 
 ---
+
+<a id="ctriggerbrush"></a>
 
 ## 🔌 CTriggerBrush
 
@@ -46180,6 +49050,8 @@ void TonemapEVSmoothingRangeUpdated()
 
 
 ---
+
+<a id="ctriggerbuoyancy"></a>
 
 ## 🔌 CTriggerBuoyancy
 
@@ -46210,6 +49082,8 @@ void FluidDensityUpdated()
 
 ---
 
+<a id="ctriggercallback"></a>
+
 ## 🔌 CTriggerCallback
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46223,6 +49097,8 @@ void FluidDensityUpdated()
 
 
 ---
+
+<a id="ctriggerdetectbulletfire"></a>
 
 ## 🔌 CTriggerDetectBulletFire
 
@@ -46245,6 +49121,8 @@ void FluidDensityUpdated()
 
 ---
 
+<a id="ctriggerdetectexplosion"></a>
+
 ## 🔌 CTriggerDetectExplosion
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46264,6 +49142,8 @@ void FluidDensityUpdated()
 
 
 ---
+
+<a id="ctriggerfan"></a>
 
 ## 🔌 CTriggerFan
 
@@ -46365,6 +49245,8 @@ void RampTimerUpdated()
 
 ---
 
+<a id="ctriggergameevent"></a>
+
 ## 🔌 CTriggerGameEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46407,6 +49289,8 @@ void StrTriggerIDUpdated()
 
 ---
 
+<a id="ctriggergravity"></a>
+
 ## 🔌 CTriggerGravity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46421,6 +49305,8 @@ void StrTriggerIDUpdated()
 
 ---
 
+<a id="ctriggerhostagereset"></a>
+
 ## 🔌 CTriggerHostageReset
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46434,6 +49320,8 @@ void StrTriggerIDUpdated()
 
 
 ---
+
+<a id="ctriggerhurt"></a>
 
 ## 🔌 CTriggerHurt
 
@@ -46468,6 +49356,8 @@ void StrTriggerIDUpdated()
 
 ---
 
+<a id="ctriggerimpact"></a>
+
 ## 🔌 CTriggerImpact
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46490,6 +49380,8 @@ void StrTriggerIDUpdated()
 
 
 ---
+
+<a id="ctriggerlerpobject"></a>
 
 ## 🔌 CTriggerLerpObject
 
@@ -46525,6 +49417,8 @@ void StrTriggerIDUpdated()
 
 
 ---
+
+<a id="ctriggerlook"></a>
 
 ## 🔌 CTriggerLook
 
@@ -46574,6 +49468,8 @@ void TestAllVisibleOcclusionUpdated()
 
 ---
 
+<a id="ctriggermultiple"></a>
+
 ## 🔌 CTriggerMultiple
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46594,6 +49490,8 @@ void TestAllVisibleOcclusionUpdated()
 
 ---
 
+<a id="ctriggeronce"></a>
+
 ## 🔌 CTriggerOnce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46607,6 +49505,8 @@ void TestAllVisibleOcclusionUpdated()
 
 
 ---
+
+<a id="ctriggerphysics"></a>
 
 ## 🔌 CTriggerPhysics
 
@@ -46720,6 +49620,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="ctriggerproximity"></a>
+
 ## 🔌 CTriggerProximity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46743,6 +49645,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="ctriggerpush"></a>
 
 ## 🔌 CTriggerPush
 
@@ -46770,6 +49674,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="ctriggerremove"></a>
+
 ## 🔌 CTriggerRemove
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46789,6 +49695,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="ctriggersave"></a>
 
 ## 🔌 CTriggerSave
 
@@ -46811,6 +49719,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="ctriggersndsosopvar"></a>
 
 ## 🔌 CTriggerSndSosOpvar
 
@@ -46845,6 +49755,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="ctriggersoundscape"></a>
+
 ## 🔌 CTriggerSoundscape
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46866,6 +49778,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="ctriggerteleport"></a>
 
 ## 🔌 CTriggerTeleport
 
@@ -46890,6 +49804,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="ctriggertogglesave"></a>
+
 ## 🔌 CTriggerToggleSave
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46903,6 +49819,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="ctriggervolume"></a>
 
 ## 🔌 CTriggerVolume
 
@@ -46924,6 +49842,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cturnhelperupdatenode"></a>
 
 ## 🔌 CTurnHelperUpdateNode
 
@@ -46950,6 +49870,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="ctwistconstraint"></a>
+
 ## 🔌 CTwistConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46972,6 +49894,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="ctwoboneikupdatenode"></a>
+
 ## 🔌 CTwoBoneIKUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -46991,6 +49915,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cunaryupdatenode"></a>
 
 ## 🔌 CUnaryUpdateNode
 
@@ -47012,6 +49938,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixadditionaloutput"></a>
+
 ## 🔌 CVMixAdditionalOutput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47029,6 +49957,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixaudiometer"></a>
 
 ## 🔌 CVMixAudioMeter
 
@@ -47049,6 +49979,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixautofilterprocessordesc"></a>
+
 ## 🔌 CVMixAutoFilterProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47068,6 +50000,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixautomaticcontrolinput"></a>
 
 ## 🔌 CVMixAutomaticControlInput
 
@@ -47090,6 +50024,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixbaseprocessordesc"></a>
+
 ## 🔌 CVMixBaseProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47109,6 +50045,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixboxverb2processordesc"></a>
 
 ## 🔌 CVMixBoxverb2ProcessorDesc
 
@@ -47130,6 +50068,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixboxverbprocessordesc"></a>
+
 ## 🔌 CVMixBoxverbProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47149,6 +50089,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixcommand"></a>
 
 ## 🔌 CVMixCommand
 
@@ -47175,6 +50117,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixcontrolinput"></a>
+
 ## 🔌 CVMixControlInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47194,6 +50138,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixcontrolinputarray"></a>
 
 ## 🔌 CVMixControlInputArray
 
@@ -47215,6 +50161,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixcontrolmeter"></a>
+
 ## 🔌 CVMixControlMeter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47234,6 +50182,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixcontroloutput"></a>
 
 ## 🔌 CVMixControlOutput
 
@@ -47255,6 +50205,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixconvolutionprocessordesc"></a>
+
 ## 🔌 CVMixConvolutionProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47275,6 +50227,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixcurveheader"></a>
+
 ## 🔌 CVMixCurveHeader
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47293,6 +50247,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixdelayprocessordesc"></a>
 
 ## 🔌 CVMixDelayProcessorDesc
 
@@ -47314,6 +50270,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixdiffusorprocessordesc"></a>
+
 ## 🔌 CVMixDiffusorProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47333,6 +50291,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixdualcompressorprocessordesc"></a>
 
 ## 🔌 CVMixDualCompressorProcessorDesc
 
@@ -47354,6 +50314,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixdynamics3bandprocessordesc"></a>
+
 ## 🔌 CVMixDynamics3BandProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47373,6 +50335,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixdynamicscompressorprocessordesc"></a>
 
 ## 🔌 CVMixDynamicsCompressorProcessorDesc
 
@@ -47394,6 +50358,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixdynamicsprocessordesc"></a>
+
 ## 🔌 CVMixDynamicsProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47413,6 +50379,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixeq8processordesc"></a>
 
 ## 🔌 CVMixEQ8ProcessorDesc
 
@@ -47434,6 +50402,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixeffectchainprocessordesc"></a>
+
 ## 🔌 CVMixEffectChainProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47453,6 +50423,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixenvelopeprocessordesc"></a>
 
 ## 🔌 CVMixEnvelopeProcessorDesc
 
@@ -47474,6 +50446,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixfilterprocessordesc"></a>
+
 ## 🔌 CVMixFilterProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47493,6 +50467,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixflangerprocessordesc"></a>
 
 ## 🔌 CVMixFlangerProcessorDesc
 
@@ -47514,6 +50490,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixfreeverbprocessordesc"></a>
+
 ## 🔌 CVMixFreeverbProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47533,6 +50511,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixgraphdescdata"></a>
 
 ## 🔌 CVMixGraphDescData
 
@@ -47554,6 +50534,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmiximpulseresponseinput"></a>
+
 ## 🔌 CVMixImpulseResponseInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47567,6 +50549,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixinputbase"></a>
 
 ## 🔌 CVMixInputBase
 
@@ -47585,6 +50569,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixmoddelayprocessordesc"></a>
 
 ## 🔌 CVMixModDelayProcessorDesc
 
@@ -47606,6 +50592,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixnameinput"></a>
+
 ## 🔌 CVMixNameInput
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47625,6 +50613,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixnameinputmeter"></a>
 
 ## 🔌 CVMixNameInputMeter
 
@@ -47646,6 +50636,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixoscprocessordesc"></a>
+
 ## 🔌 CVMixOscProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47665,6 +50657,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixpannerprocessordesc"></a>
 
 ## 🔌 CVMixPannerProcessorDesc
 
@@ -47686,6 +50680,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixpitchshiftprocessordesc"></a>
+
 ## 🔌 CVMixPitchShiftProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47705,6 +50701,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixplatereverbprocessordesc"></a>
 
 ## 🔌 CVMixPlateReverbProcessorDesc
 
@@ -47726,6 +50724,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixpresetdspprocessordesc"></a>
+
 ## 🔌 CVMixPresetDSPProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47745,6 +50745,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixshaperprocessordesc"></a>
 
 ## 🔌 CVMixShaperProcessorDesc
 
@@ -47766,6 +50768,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixsteamaudiodirectprocessordesc"></a>
+
 ## 🔌 CVMixSteamAudioDirectProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47779,6 +50783,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixsteamaudiohrtfprocessordesc"></a>
 
 ## 🔌 CVMixSteamAudioHRTFProcessorDesc
 
@@ -47794,6 +50800,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixsteamaudiohybridreverbprocessordesc"></a>
+
 ## 🔌 CVMixSteamAudioHybridReverbProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47807,6 +50815,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixsteamaudiopathingprocessordesc"></a>
 
 ## 🔌 CVMixSteamAudioPathingProcessorDesc
 
@@ -47822,6 +50832,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixstereodelayprocessordesc"></a>
+
 ## 🔌 CVMixStereoDelayProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47835,6 +50847,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixsubgraphswitchprocessordesc"></a>
 
 ## 🔌 CVMixSubgraphSwitchProcessorDesc
 
@@ -47856,6 +50870,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixutilityprocessordesc"></a>
+
 ## 🔌 CVMixUtilityProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47876,6 +50892,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvmixvocoderprocessordesc"></a>
+
 ## 🔌 CVMixVocoderProcessorDesc
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47895,6 +50913,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvmixvsndinput"></a>
 
 ## 🔌 CVMixVsndInput
 
@@ -47917,6 +50937,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvphysxsurfacepropertieslist"></a>
+
 ## 🔌 CVPhysXSurfacePropertiesList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47934,6 +50956,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvsound"></a>
 
 ## 🔌 CVSound
 
@@ -47963,6 +50987,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvsoundformat_t"></a>
+
 ## 📋 CVSoundFormat_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -47983,6 +51009,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvectoranimparameter"></a>
 
 ## 🔌 CVectorAnimParameter
 
@@ -48006,6 +51034,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvectorexponentialmovingaverage"></a>
+
 ## 🔌 CVectorExponentialMovingAverage
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48018,6 +51048,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvectormovingaverage"></a>
+
 ## 🔌 CVectorMovingAverage
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48029,6 +51061,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvectorquantizer"></a>
 
 ## 🔌 CVectorQuantizer
 
@@ -48049,6 +51083,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvirtualanimparameter"></a>
 
 ## 🔌 CVirtualAnimParameter
 
@@ -48071,6 +51107,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerampeddecayingsinewave"></a>
+
 ## 🔌 CVoiceContainerAmpedDecayingSineWave
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48091,6 +51129,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontaineranalysisbase"></a>
+
 ## 🔌 CVoiceContainerAnalysisBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48110,6 +51150,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerasyncgenerator"></a>
+
 ## 🔌 CVoiceContainerAsyncGenerator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48123,6 +51165,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainerbase"></a>
 
 ## 🔌 CVoiceContainerBase
 
@@ -48142,6 +51186,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainerblender"></a>
 
 ## 🔌 CVoiceContainerBlender
 
@@ -48165,6 +51211,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerdecayingsinewave"></a>
+
 ## 🔌 CVoiceContainerDecayingSineWave
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48186,6 +51234,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerdefault"></a>
+
 ## 🔌 CVoiceContainerDefault
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48199,6 +51249,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainerenum"></a>
 
 ## 🔌 CVoiceContainerEnum
 
@@ -48222,6 +51274,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerenvelope"></a>
+
 ## 🔌 CVoiceContainerEnvelope
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48242,6 +51296,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainerenvelopeanalyzer"></a>
 
 ## 🔌 CVoiceContainerEnvelopeAnalyzer
 
@@ -48265,6 +51321,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainergenerator"></a>
+
 ## 🔌 CVoiceContainerGenerator
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48278,6 +51336,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainergranulator"></a>
 
 ## 🔌 CVoiceContainerGranulator
 
@@ -48304,6 +51364,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerlooptrigger"></a>
+
 ## 🔌 CVoiceContainerLoopTrigger
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48327,6 +51389,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainerloopxfade"></a>
 
 ## 🔌 CVoiceContainerLoopXFade
 
@@ -48355,6 +51419,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainermultiblender"></a>
+
 ## 🔌 CVoiceContainerMultiBlender
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48377,6 +51443,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainernull"></a>
+
 ## 🔌 CVoiceContainerNull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48390,6 +51458,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainerparameterblender"></a>
 
 ## 🔌 CVoiceContainerParameterBlender
 
@@ -48418,6 +51488,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerrandomsampler"></a>
+
 ## 🔌 CVoiceContainerRandomSampler
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48443,6 +51515,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerrealtimefmsinewave"></a>
+
 ## 🔌 CVoiceContainerRealtimeFMSineWave
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48464,6 +51538,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainerselector"></a>
 
 ## 🔌 CVoiceContainerSelector
 
@@ -48487,6 +51563,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerset"></a>
+
 ## 🔌 CVoiceContainerSet
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48507,6 +51585,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainersetelement"></a>
+
 ## 🔌 CVoiceContainerSetElement
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48525,6 +51605,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainershapednoise"></a>
 
 ## 🔌 CVoiceContainerShapedNoise
 
@@ -48554,6 +51636,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerstaticadditivesynth"></a>
+
 ## 🔌 CVoiceContainerStaticAdditiveSynth
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48573,6 +51657,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainerstaticadditivesynth__cgainscaleperinstance"></a>
 
 ## 🔌 CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance
 
@@ -48594,6 +51680,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainerstaticadditivesynth__charmonic"></a>
 
 ## 🔌 CVoiceContainerStaticAdditiveSynth__CHarmonic
 
@@ -48619,6 +51707,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerstaticadditivesynth__ctone"></a>
+
 ## 🔌 CVoiceContainerStaticAdditiveSynth__CTone
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48639,6 +51729,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 ---
 
+<a id="cvoicecontainerswitch"></a>
+
 ## 🔌 CVoiceContainerSwitch
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48658,6 +51750,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvoicecontainertapeplayer"></a>
 
 ## 🔌 CVoiceContainerTapePlayer
 
@@ -48681,6 +51775,8 @@ void ConvertToDebrisWhenPossibleUpdated()
 
 
 ---
+
+<a id="cvotecontroller"></a>
 
 ## 🔌 CVoteController
 
@@ -48747,6 +51843,8 @@ void IsYesNoVoteUpdated()
 
 ---
 
+<a id="cvoxelvisibility"></a>
+
 ## 🔌 CVoxelVisibility
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48777,6 +51875,8 @@ void IsYesNoVoteUpdated()
 
 ---
 
+<a id="cwarpsectionanimtag"></a>
+
 ## 🔌 CWarpSectionAnimTag
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48798,6 +51898,8 @@ void IsYesNoVoteUpdated()
 
 ---
 
+<a id="cwarpsectionanimtagbase"></a>
+
 ## 🔌 CWarpSectionAnimTagBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48812,6 +51914,8 @@ void IsYesNoVoteUpdated()
 
 ---
 
+<a id="cwaterbullet"></a>
+
 ## 🔌 CWaterBullet
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48825,6 +51929,8 @@ void IsYesNoVoteUpdated()
 
 
 ---
+
+<a id="cwaypointhelperupdatenode"></a>
 
 ## 🔌 CWayPointHelperUpdateNode
 
@@ -48850,6 +51956,8 @@ void IsYesNoVoteUpdated()
 
 ---
 
+<a id="cweaponawp"></a>
+
 ## 🔌 CWeaponAWP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48864,6 +51972,8 @@ void IsYesNoVoteUpdated()
 
 ---
 
+<a id="cweaponaug"></a>
+
 ## 🔌 CWeaponAug
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48877,6 +51987,8 @@ void IsYesNoVoteUpdated()
 
 
 ---
+
+<a id="cweaponbaseitem"></a>
 
 ## 🔌 CWeaponBaseItem
 
@@ -48913,6 +52025,8 @@ void RedrawUpdated()
 
 ---
 
+<a id="cweaponbizon"></a>
+
 ## 🔌 CWeaponBizon
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48926,6 +52040,8 @@ void RedrawUpdated()
 
 
 ---
+
+<a id="cweaponcz75a"></a>
 
 ## 🔌 CWeaponCZ75a
 
@@ -48955,6 +52071,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponelite"></a>
+
 ## 🔌 CWeaponElite
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48968,6 +52086,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponfamas"></a>
 
 ## 🔌 CWeaponFamas
 
@@ -48983,6 +52103,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponfiveseven"></a>
+
 ## 🔌 CWeaponFiveSeven
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -48996,6 +52118,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweapong3sg1"></a>
 
 ## 🔌 CWeaponG3SG1
 
@@ -49011,6 +52135,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweapongalilar"></a>
+
 ## 🔌 CWeaponGalilAR
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49024,6 +52150,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponglock"></a>
 
 ## 🔌 CWeaponGlock
 
@@ -49039,6 +52167,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponhkp2000"></a>
+
 ## 🔌 CWeaponHKP2000
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49052,6 +52182,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponm249"></a>
 
 ## 🔌 CWeaponM249
 
@@ -49067,6 +52199,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponm4a1"></a>
+
 ## 🔌 CWeaponM4A1
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49080,6 +52214,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponm4a1silencer"></a>
 
 ## 🔌 CWeaponM4A1Silencer
 
@@ -49095,6 +52231,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponmac10"></a>
+
 ## 🔌 CWeaponMAC10
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49108,6 +52246,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponmp5sd"></a>
 
 ## 🔌 CWeaponMP5SD
 
@@ -49123,6 +52263,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponmp7"></a>
+
 ## 🔌 CWeaponMP7
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49136,6 +52278,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponmp9"></a>
 
 ## 🔌 CWeaponMP9
 
@@ -49151,6 +52295,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponmag7"></a>
+
 ## 🔌 CWeaponMag7
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49164,6 +52310,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponnova"></a>
 
 ## 🔌 CWeaponNOVA
 
@@ -49179,6 +52327,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponnegev"></a>
+
 ## 🔌 CWeaponNegev
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49192,6 +52342,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponp250"></a>
 
 ## 🔌 CWeaponP250
 
@@ -49207,6 +52359,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponp90"></a>
+
 ## 🔌 CWeaponP90
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49220,6 +52374,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponrevolver"></a>
 
 ## 🔌 CWeaponRevolver
 
@@ -49235,6 +52391,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponscar20"></a>
+
 ## 🔌 CWeaponSCAR20
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49248,6 +52406,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweaponsg556"></a>
 
 ## 🔌 CWeaponSG556
 
@@ -49263,6 +52423,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponssg08"></a>
+
 ## 🔌 CWeaponSSG08
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49277,6 +52439,8 @@ void MagazineRemovedUpdated()
 
 ---
 
+<a id="cweaponsawedoff"></a>
+
 ## 🔌 CWeaponSawedoff
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49290,6 +52454,8 @@ void MagazineRemovedUpdated()
 
 
 ---
+
+<a id="cweapontaser"></a>
 
 ## 🔌 CWeaponTaser
 
@@ -49320,6 +52486,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="cweapontec9"></a>
+
 ## 🔌 CWeaponTec9
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49333,6 +52501,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="cweaponump45"></a>
 
 ## 🔌 CWeaponUMP45
 
@@ -49348,6 +52518,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="cweaponuspsilencer"></a>
+
 ## 🔌 CWeaponUSPSilencer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49361,6 +52533,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="cweaponxm1014"></a>
 
 ## 🔌 CWeaponXM1014
 
@@ -49376,6 +52550,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="cworld"></a>
+
 ## 🔌 CWorld
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49389,6 +52565,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="cworldcompositionchunkreferenceelement_t"></a>
 
 ## 🔌 CWorldCompositionChunkReferenceElement_t
 
@@ -49409,6 +52587,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="czeroposeupdatenode"></a>
+
 ## 🔌 CZeroPoseUpdateNode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49422,6 +52602,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_addvectortovector"></a>
 
 ## 🔌 C_INIT_AddVectorToVector
 
@@ -49447,6 +52629,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_agenoise"></a>
 
 ## 🔌 C_INIT_AgeNoise
 
@@ -49474,6 +52658,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_chaoticattractor"></a>
 
 ## 🔌 C_INIT_ChaoticAttractor
 
@@ -49503,6 +52689,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_checkparticleforwater"></a>
+
 ## 🔌 C_INIT_CheckParticleForWater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49525,6 +52713,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_colorlitperparticle"></a>
 
 ## 🔌 C_INIT_ColorLitPerParticle
 
@@ -49552,6 +52742,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_createalongpath"></a>
+
 ## 🔌 C_INIT_CreateAlongPath
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49576,6 +52768,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_createfromcps"></a>
+
 ## 🔌 C_INIT_CreateFromCPs
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49598,6 +52792,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_createfromparentparticles"></a>
 
 ## 🔌 C_INIT_CreateFromParentParticles
 
@@ -49624,6 +52820,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_createfromplanecache"></a>
+
 ## 🔌 C_INIT_CreateFromPlaneCache
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49645,6 +52843,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_createinepitrochoid"></a>
 
 ## 🔌 C_INIT_CreateInEpitrochoid
 
@@ -49675,6 +52875,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_createongrid"></a>
+
 ## 🔌 C_INIT_CreateOnGrid
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49703,6 +52905,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_createonmodel"></a>
 
 ## 🔌 C_INIT_CreateOnModel
 
@@ -49739,6 +52943,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_createonmodelatheight"></a>
+
 ## 🔌 C_INIT_CreateOnModelAtHeight
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49772,6 +52978,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_createparticleimpulse"></a>
+
 ## 🔌 C_INIT_CreateParticleImpulse
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49795,6 +53003,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_createphyllotaxis"></a>
 
 ## 🔌 C_INIT_CreatePhyllotaxis
 
@@ -49829,6 +53039,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_createsequentialpath"></a>
+
 ## 🔌 C_INIT_CreateSequentialPath
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49854,6 +53066,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_createsequentialpathv2"></a>
+
 ## 🔌 C_INIT_CreateSequentialPathV2
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49878,6 +53092,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_createspiralsphere"></a>
 
 ## 🔌 C_INIT_CreateSpiralSphere
 
@@ -49905,6 +53121,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_createwithinbox"></a>
+
 ## 🔌 C_INIT_CreateWithinBox
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -49929,6 +53147,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_createwithincapsuletransform"></a>
 
 ## 🔌 C_INIT_CreateWithinCapsuleTransform
 
@@ -49959,6 +53179,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_createwithinspheretransform"></a>
 
 ## 🔌 C_INIT_CreateWithinSphereTransform
 
@@ -49992,6 +53214,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_creationnoise"></a>
+
 ## 🔌 C_INIT_CreationNoise
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50021,6 +53245,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_distancecull"></a>
+
 ## 🔌 C_INIT_DistanceCull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50042,6 +53268,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_distancetocpinit"></a>
 
 ## 🔌 C_INIT_DistanceToCPInit
 
@@ -50077,6 +53305,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_distancetoneighborcull"></a>
+
 ## 🔌 C_INIT_DistanceToNeighborCull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50103,6 +53333,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_globalscale"></a>
+
 ## 🔌 C_INIT_GlobalScale
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50128,6 +53360,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_inheritfromparentparticles"></a>
+
 ## 🔌 C_INIT_InheritFromParentParticles
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50152,6 +53386,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_inheritvelocity"></a>
+
 ## 🔌 C_INIT_InheritVelocity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50172,6 +53408,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_initfloat"></a>
 
 ## 🔌 C_INIT_InitFloat
 
@@ -50196,6 +53434,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_initfloatcollection"></a>
+
 ## 🔌 C_INIT_InitFloatCollection
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50216,6 +53456,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_initfromcpsnapshot"></a>
 
 ## 🔌 C_INIT_InitFromCPSnapshot
 
@@ -50247,6 +53489,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_initfromparentkilled"></a>
+
 ## 🔌 C_INIT_InitFromParentKilled
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50267,6 +53511,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_initfromvectorfieldsnapshot"></a>
 
 ## 🔌 C_INIT_InitFromVectorFieldSnapshot
 
@@ -50291,6 +53537,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_initskinnedpositionfromcpsnapshot"></a>
 
 ## 🔌 C_INIT_InitSkinnedPositionFromCPSnapshot
 
@@ -50330,6 +53578,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_initvec"></a>
+
 ## 🔌 C_INIT_InitVec
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50354,6 +53604,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_initveccollection"></a>
+
 ## 🔌 C_INIT_InitVecCollection
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50374,6 +53626,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_initialrepulsionvelocity"></a>
 
 ## 🔌 C_INIT_InitialRepulsionVelocity
 
@@ -50407,6 +53661,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_initialsequencefrommodel"></a>
+
 ## 🔌 C_INIT_InitialSequenceFromModel
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50434,6 +53690,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_initialvelocityfromhitbox"></a>
+
 ## 🔌 C_INIT_InitialVelocityFromHitbox
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50457,6 +53715,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_initialvelocitynoise"></a>
 
 ## 🔌 C_INIT_InitialVelocityNoise
 
@@ -50487,6 +53747,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_lifespanfromvelocity"></a>
+
 ## 🔌 C_INIT_LifespanFromVelocity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50514,6 +53776,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_modelcull"></a>
+
 ## 🔌 C_INIT_ModelCull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50537,6 +53801,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_movebetweenpoints"></a>
 
 ## 🔌 C_INIT_MoveBetweenPoints
 
@@ -50564,6 +53830,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_normalaligntocp"></a>
+
 ## 🔌 C_INIT_NormalAlignToCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50584,6 +53852,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_normaloffset"></a>
 
 ## 🔌 C_INIT_NormalOffset
 
@@ -50609,6 +53879,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_offsetvectortovector"></a>
+
 ## 🔌 C_INIT_OffsetVectorToVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50633,6 +53905,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_orient2dreltocp"></a>
+
 ## 🔌 C_INIT_Orient2DRelToCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50655,6 +53929,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_planecull"></a>
+
 ## 🔌 C_INIT_PlaneCull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50676,6 +53952,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_pointlist"></a>
 
 ## 🔌 C_INIT_PointList
 
@@ -50700,6 +53978,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_positionoffset"></a>
 
 ## 🔌 C_INIT_PositionOffset
 
@@ -50726,6 +54006,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_positionoffsettocp"></a>
+
 ## 🔌 C_INIT_PositionOffsetToCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50747,6 +54029,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_positionplaceonground"></a>
 
 ## 🔌 C_INIT_PositionPlaceOnGround
 
@@ -50782,6 +54066,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_positionwarp"></a>
+
 ## 🔌 C_INIT_PositionWarp
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50811,6 +54097,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_positionwarpscalar"></a>
+
 ## 🔌 C_INIT_PositionWarpScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50836,6 +54124,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_quantizefloat"></a>
+
 ## 🔌 C_INIT_QuantizeFloat
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50857,6 +54147,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_radiusfromcpobject"></a>
+
 ## 🔌 C_INIT_RadiusFromCPObject
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50876,6 +54168,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_randomalpha"></a>
 
 ## 🔌 C_INIT_RandomAlpha
 
@@ -50900,6 +54194,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomalphawindowthreshold"></a>
+
 ## 🔌 C_INIT_RandomAlphaWindowThreshold
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50921,6 +54217,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_randomcolor"></a>
 
 ## 🔌 C_INIT_RandomColor
 
@@ -50951,6 +54249,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomlifetime"></a>
+
 ## 🔌 C_INIT_RandomLifeTime
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -50972,6 +54272,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_randommodelsequence"></a>
 
 ## 🔌 C_INIT_RandomModelSequence
 
@@ -50995,6 +54297,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomnamedmodelbodypart"></a>
+
 ## 🔌 C_INIT_RandomNamedModelBodyPart
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51008,6 +54312,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_randomnamedmodelelement"></a>
 
 ## 🔌 C_INIT_RandomNamedModelElement
 
@@ -51034,6 +54340,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomnamedmodelmeshgroup"></a>
+
 ## 🔌 C_INIT_RandomNamedModelMeshGroup
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51048,6 +54356,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomnamedmodelsequence"></a>
+
 ## 🔌 C_INIT_RandomNamedModelSequence
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51061,6 +54371,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_randomradius"></a>
 
 ## 🔌 C_INIT_RandomRadius
 
@@ -51084,6 +54396,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomrotation"></a>
+
 ## 🔌 C_INIT_RandomRotation
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51098,6 +54412,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomrotationspeed"></a>
+
 ## 🔌 C_INIT_RandomRotationSpeed
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51111,6 +54427,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_randomscalar"></a>
 
 ## 🔌 C_INIT_RandomScalar
 
@@ -51135,6 +54453,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomsecondsequence"></a>
+
 ## 🔌 C_INIT_RandomSecondSequence
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51155,6 +54475,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_randomsequence"></a>
 
 ## 🔌 C_INIT_RandomSequence
 
@@ -51180,6 +54502,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomtraillength"></a>
+
 ## 🔌 C_INIT_RandomTrailLength
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51201,6 +54525,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_randomvector"></a>
 
 ## 🔌 C_INIT_RandomVector
 
@@ -51225,6 +54551,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomvectorcomponent"></a>
+
 ## 🔌 C_INIT_RandomVectorComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51248,6 +54576,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_randomyaw"></a>
+
 ## 🔌 C_INIT_RandomYaw
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51261,6 +54591,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_randomyawflip"></a>
 
 ## 🔌 C_INIT_RandomYawFlip
 
@@ -51281,6 +54613,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_remapinitialdirectiontotransformtovector"></a>
 
 ## 🔌 C_INIT_RemapInitialDirectionToTransformToVector
 
@@ -51307,6 +54641,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_remapinitialtransformdirectiontorotation"></a>
+
 ## 🔌 C_INIT_RemapInitialTransformDirectionToRotation
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51329,6 +54665,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_remapinitialvisibilityscalar"></a>
 
 ## 🔌 C_INIT_RemapInitialVisibilityScalar
 
@@ -51354,6 +54692,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_remapnamedmodelbodyparttoscalar"></a>
+
 ## 🔌 C_INIT_RemapNamedModelBodyPartToScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51367,6 +54707,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_remapnamedmodelelementtoscalar"></a>
 
 ## 🔌 C_INIT_RemapNamedModelElementToScalar
 
@@ -51394,6 +54736,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_remapnamedmodelmeshgrouptoscalar"></a>
+
 ## 🔌 C_INIT_RemapNamedModelMeshGroupToScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51407,6 +54751,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_remapnamedmodelsequencetoscalar"></a>
 
 ## 🔌 C_INIT_RemapNamedModelSequenceToScalar
 
@@ -51422,6 +54768,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_remapparticlecounttonamedmodelbodypartscalar"></a>
+
 ## 🔌 C_INIT_RemapParticleCountToNamedModelBodyPartScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51435,6 +54783,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_remapparticlecounttonamedmodelelementscalar"></a>
 
 ## 🔌 C_INIT_RemapParticleCountToNamedModelElementScalar
 
@@ -51459,6 +54809,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_remapparticlecounttonamedmodelmeshgroupscalar"></a>
+
 ## 🔌 C_INIT_RemapParticleCountToNamedModelMeshGroupScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51473,6 +54825,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_remapparticlecounttonamedmodelsequencescalar"></a>
+
 ## 🔌 C_INIT_RemapParticleCountToNamedModelSequenceScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51486,6 +54840,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_remapparticlecounttoscalar"></a>
 
 ## 🔌 C_INIT_RemapParticleCountToScalar
 
@@ -51518,6 +54874,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_remapqanglestorotation"></a>
+
 ## 🔌 C_INIT_RemapQAnglesToRotation
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51537,6 +54895,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_remapscalartovector"></a>
 
 ## 🔌 C_INIT_RemapScalarToVector
 
@@ -51569,6 +54929,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_remaptransformorientationtorotations"></a>
+
 ## 🔌 C_INIT_RemapTransformOrientationToRotations
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51591,6 +54953,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_remaptransformtovector"></a>
 
 ## 🔌 C_INIT_RemapTransformToVector
 
@@ -51624,6 +54988,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_ringwave"></a>
+
 ## 🔌 C_INIT_RingWave
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51654,6 +55020,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_rtenvcull"></a>
+
 ## 🔌 C_INIT_RtEnvCull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51681,6 +55049,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_scalevelocity"></a>
+
 ## 🔌 C_INIT_ScaleVelocity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51700,6 +55070,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_screenspacepositionoftarget"></a>
 
 ## 🔌 C_INIT_ScreenSpacePositionOfTarget
 
@@ -51724,6 +55096,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_sequencefromcp"></a>
+
 ## 🔌 C_INIT_SequenceFromCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51747,6 +55121,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_sequencelifetime"></a>
+
 ## 🔌 C_INIT_SequenceLifeTime
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51766,6 +55142,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_setattributetoscalarexpression"></a>
 
 ## 🔌 C_INIT_SetAttributeToScalarExpression
 
@@ -51792,6 +55170,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_setfloatattributetovectorexpression"></a>
+
 ## 🔌 C_INIT_SetFloatAttributeToVectorExpression
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51816,6 +55196,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_sethitboxtoclosest"></a>
 
 ## 🔌 C_INIT_SetHitboxToClosest
 
@@ -51844,6 +55226,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_sethitboxtomodel"></a>
 
 ## 🔌 C_INIT_SetHitboxToModel
 
@@ -51874,6 +55258,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_setrigidattachment"></a>
+
 ## 🔌 C_INIT_SetRigidAttachment
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -51896,6 +55282,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_setvectorattributetovectorexpression"></a>
 
 ## 🔌 C_INIT_SetVectorAttributeToVectorExpression
 
@@ -51922,6 +55310,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_statuseffect"></a>
 
 ## 🔌 C_INIT_StatusEffect
 
@@ -51959,6 +55349,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_statuseffectcitadel"></a>
 
 ## 🔌 C_INIT_StatusEffectCitadel
 
@@ -51998,6 +55390,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_velocityfromcp"></a>
+
 ## 🔌 C_INIT_VelocityFromCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52021,6 +55415,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_velocityfromnormal"></a>
+
 ## 🔌 C_INIT_VelocityFromNormal
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52042,6 +55438,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_init_velocityradialrandom"></a>
 
 ## 🔌 C_INIT_VelocityRadialRandom
 
@@ -52070,6 +55468,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_init_velocityrandom"></a>
+
 ## 🔌 C_INIT_VelocityRandom
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52096,6 +55496,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_alphadecay"></a>
+
 ## 🔌 C_OP_AlphaDecay
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52115,6 +55517,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_attracttocontrolpoint"></a>
 
 ## 🔌 C_OP_AttractToControlPoint
 
@@ -52141,6 +55545,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_basicmovement"></a>
+
 ## 🔌 C_OP_BasicMovement
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52165,6 +55571,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_boxconstraint"></a>
+
 ## 🔌 C_OP_BoxConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52188,6 +55596,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_cpoffsettopercentagebetweencps"></a>
 
 ## 🔌 C_OP_CPOffsetToPercentageBetweenCPs
 
@@ -52219,6 +55629,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_cpvelocityforce"></a>
+
 ## 🔌 C_OP_CPVelocityForce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52240,7 +55652,9 @@ void FireTimeUpdated()
 
 ---
 
-## 🔌 C_OP_CalculateVector
+<a id="c_op_calculatevectorattribute"></a>
+
+## 🔌 C_OP_CalculateVectorAttribute
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
@@ -52270,6 +55684,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_callback"></a>
+
 ## 🔌 C_OP_Callback
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52283,6 +55699,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_chladniwave"></a>
 
 ## 🔌 C_OP_ChladniWave
 
@@ -52313,6 +55731,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_chooserandomchildreningroup"></a>
+
 ## 🔌 C_OP_ChooseRandomChildrenInGroup
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52333,6 +55753,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_clampscalar"></a>
 
 ## 🔌 C_OP_ClampScalar
 
@@ -52356,6 +55778,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_clampvector"></a>
+
 ## 🔌 C_OP_ClampVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52377,6 +55801,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_clientphysics"></a>
 
 ## 🔌 C_OP_ClientPhysics
 
@@ -52410,6 +55836,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_collidewithparentparticles"></a>
+
 ## 🔌 C_OP_CollideWithParentParticles
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52430,6 +55858,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_collidewithself"></a>
 
 ## 🔌 C_OP_CollideWithSelf
 
@@ -52452,6 +55882,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_coloradjusthsl"></a>
+
 ## 🔌 C_OP_ColorAdjustHSL
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52473,6 +55905,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_colorinterpolate"></a>
 
 ## 🔌 C_OP_ColorInterpolate
 
@@ -52497,6 +55931,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_colorinterpolaterandom"></a>
 
 ## 🔌 C_OP_ColorInterpolateRandom
 
@@ -52523,6 +55959,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_connectparentparticletonearest"></a>
+
 ## 🔌 C_OP_ConnectParentParticleToNearest
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52547,6 +55985,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_constraindistance"></a>
+
 ## 🔌 C_OP_ConstrainDistance
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52570,6 +56010,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_constraindistancetopath"></a>
 
 ## 🔌 C_OP_ConstrainDistanceToPath
 
@@ -52598,6 +56040,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_constraindistancetouserspecifiedpath"></a>
+
 ## 🔌 C_OP_ConstrainDistanceToUserSpecifiedPath
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52622,6 +56066,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_constrainlinelength"></a>
+
 ## 🔌 C_OP_ConstrainLineLength
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52642,6 +56088,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_continuousemitter"></a>
 
 ## 🔌 C_OP_ContinuousEmitter
 
@@ -52674,6 +56122,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_controlpointtoradialscreenspace"></a>
+
 ## 🔌 C_OP_ControlPointToRadialScreenSpace
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52697,6 +56147,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_controlpointlight"></a>
 
 ## 🔌 C_OP_ControlpointLight
 
@@ -52750,6 +56202,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_createparticlesystemrenderer"></a>
+
 ## 🔌 C_OP_CreateParticleSystemRenderer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52773,6 +56227,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_cull"></a>
+
 ## 🔌 C_OP_Cull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52795,6 +56251,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_curlnoiseforce"></a>
 
 ## 🔌 C_OP_CurlNoiseForce
 
@@ -52821,6 +56279,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_cyclescalar"></a>
 
 ## 🔌 C_OP_CycleScalar
 
@@ -52850,6 +56310,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_cylindricaldistancetotransform"></a>
 
 ## 🔌 C_OP_CylindricalDistanceToTransform
 
@@ -52881,6 +56343,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_dampentocp"></a>
+
 ## 🔌 C_OP_DampenToCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52903,6 +56367,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_decay"></a>
+
 ## 🔌 C_OP_Decay
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52924,6 +56390,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_decayclampcount"></a>
+
 ## 🔌 C_OP_DecayClampCount
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52943,6 +56411,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_decaymaintaincount"></a>
 
 ## 🔌 C_OP_DecayMaintainCount
 
@@ -52970,6 +56440,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_decayoffscreen"></a>
+
 ## 🔌 C_OP_DecayOffscreen
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -52989,6 +56461,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_densityforce"></a>
 
 ## 🔌 C_OP_DensityForce
 
@@ -53011,6 +56485,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_differencepreviousparticle"></a>
 
 ## 🔌 C_OP_DifferencePreviousParticle
 
@@ -53040,6 +56516,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_diffusion"></a>
+
 ## 🔌 C_OP_Diffusion
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53062,6 +56540,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_directionbetweenvecstovec"></a>
+
 ## 🔌 C_OP_DirectionBetweenVecsToVec
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53083,6 +56563,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_distancebetweencpstocp"></a>
 
 ## 🔌 C_OP_DistanceBetweenCPsToCP
 
@@ -53118,6 +56600,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_distancebetweentransforms"></a>
+
 ## 🔌 C_OP_DistanceBetweenTransforms
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53150,6 +56634,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_distancebetweenvecs"></a>
+
 ## 🔌 C_OP_DistanceBetweenVecs
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53178,6 +56664,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_distancecull"></a>
+
 ## 🔌 C_OP_DistanceCull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53201,6 +56689,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_distancetotransform"></a>
 
 ## 🔌 C_OP_DistanceToTransform
 
@@ -53236,6 +56726,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_dragrelativetoplane"></a>
+
 ## 🔌 C_OP_DragRelativeToPlane
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53259,6 +56751,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_drivecpfromglobalsoundfloat"></a>
 
 ## 🔌 C_OP_DriveCPFromGlobalSoundFloat
 
@@ -53288,6 +56782,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_enablechildrenfromparentparticlecount"></a>
+
 ## 🔌 C_OP_EnableChildrenFromParentParticleCount
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53313,6 +56809,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_endcapdecay"></a>
+
 ## 🔌 C_OP_EndCapDecay
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53326,6 +56824,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_endcaptimeddecay"></a>
 
 ## 🔌 C_OP_EndCapTimedDecay
 
@@ -53347,6 +56847,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_endcaptimedfreeze"></a>
+
 ## 🔌 C_OP_EndCapTimedFreeze
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53366,6 +56868,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_externalgameimpulseforce"></a>
 
 ## 🔌 C_OP_ExternalGameImpulseForce
 
@@ -53390,6 +56894,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_externalwindforce"></a>
 
 ## 🔌 C_OP_ExternalWindForce
 
@@ -53421,6 +56927,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_fadeandkill"></a>
+
 ## 🔌 C_OP_FadeAndKill
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53447,6 +56955,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_fadeandkillfortracers"></a>
+
 ## 🔌 C_OP_FadeAndKillForTracers
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53472,6 +56982,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_fadein"></a>
+
 ## 🔌 C_OP_FadeIn
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53495,6 +57007,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_fadeinsimple"></a>
+
 ## 🔌 C_OP_FadeInSimple
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53515,6 +57029,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_fadeout"></a>
 
 ## 🔌 C_OP_FadeOut
 
@@ -53541,6 +57057,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_fadeoutsimple"></a>
+
 ## 🔌 C_OP_FadeOutSimple
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53561,6 +57079,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_forcebasedondistancetoplane"></a>
 
 ## 🔌 C_OP_ForceBasedOnDistanceToPlane
 
@@ -53588,6 +57108,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_forcecontrolpointstub"></a>
+
 ## 🔌 C_OP_ForceControlPointStub
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53607,6 +57129,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_gamedecalrenderer"></a>
 
 ## 🔌 C_OP_GameDecalRenderer
 
@@ -53643,6 +57167,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_gameliquidspill"></a>
+
 ## 🔌 C_OP_GameLiquidSpill
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53665,6 +57191,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_globallight"></a>
+
 ## 🔌 C_OP_GlobalLight
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53686,6 +57214,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_hsvshifttocp"></a>
 
 ## 🔌 C_OP_HSVShiftToCP
 
@@ -53710,6 +57240,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_inheritfromparentparticles"></a>
+
 ## 🔌 C_OP_InheritFromParentParticles
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53732,6 +57264,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_inheritfromparentparticlesv2"></a>
 
 ## 🔌 C_OP_InheritFromParentParticlesV2
 
@@ -53759,6 +57293,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_inheritfrompeersystem"></a>
+
 ## 🔌 C_OP_InheritFromPeerSystem
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53781,6 +57317,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_instantaneousemitter"></a>
 
 ## 🔌 C_OP_InstantaneousEmitter
 
@@ -53809,6 +57347,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_interpolateradius"></a>
+
 ## 🔌 C_OP_InterpolateRadius
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53833,6 +57373,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_intraparticleforce"></a>
 
 ## 🔌 C_OP_IntraParticleForce
 
@@ -53860,6 +57402,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_lagcompensation"></a>
+
 ## 🔌 C_OP_LagCompensation
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53883,6 +57427,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_lazycullcomparefloat"></a>
+
 ## 🔌 C_OP_LazyCullCompareFloat
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53904,6 +57450,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_lerpendcapscalar"></a>
 
 ## 🔌 C_OP_LerpEndCapScalar
 
@@ -53927,6 +57475,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_lerpendcapvector"></a>
+
 ## 🔌 C_OP_LerpEndCapVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -53948,6 +57498,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_lerpscalar"></a>
 
 ## 🔌 C_OP_LerpScalar
 
@@ -53971,6 +57523,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_lerptoinitialposition"></a>
 
 ## 🔌 C_OP_LerpToInitialPosition
 
@@ -53996,7 +57550,9 @@ void FireTimeUpdated()
 
 ---
 
-## 🔌 C_OP_LerpToOther
+<a id="c_op_lerptootherattribute"></a>
+
+## 🔌 C_OP_LerpToOtherAttribute
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
@@ -54018,6 +57574,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_lerpvector"></a>
 
 ## 🔌 C_OP_LerpVector
 
@@ -54042,6 +57600,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_lightningsnapshotgenerator"></a>
 
 ## 🔌 C_OP_LightningSnapshotGenerator
 
@@ -54077,6 +57637,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_localaccelerationforce"></a>
+
 ## 🔌 C_OP_LocalAccelerationForce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54098,6 +57660,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_lockpoints"></a>
 
 ## 🔌 C_OP_LockPoints
 
@@ -54123,6 +57687,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_locktobone"></a>
 
 ## 🔌 C_OP_LockToBone
 
@@ -54158,6 +57724,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_locktopointlist"></a>
+
 ## 🔌 C_OP_LockToPointList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54182,6 +57750,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_locktosavedsequentialpath"></a>
+
 ## 🔌 C_OP_LockToSavedSequentialPath
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54205,6 +57775,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_locktosavedsequentialpathv2"></a>
+
 ## 🔌 C_OP_LockToSavedSequentialPathV2
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54227,6 +57799,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_maintainemitter"></a>
 
 ## 🔌 C_OP_MaintainEmitter
 
@@ -54256,6 +57830,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_maintainsequentialpath"></a>
+
 ## 🔌 C_OP_MaintainSequentialPath
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54282,6 +57858,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_maxvelocity"></a>
+
 ## 🔌 C_OP_MaxVelocity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54304,6 +57882,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_modelcull"></a>
 
 ## 🔌 C_OP_ModelCull
 
@@ -54328,6 +57908,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_modeldampenmovement"></a>
 
 ## 🔌 C_OP_ModelDampenMovement
 
@@ -54354,6 +57936,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_modelsurfacesnapshotgenerator"></a>
 
 ## 🔌 C_OP_ModelSurfaceSnapshotGenerator
 
@@ -54384,6 +57968,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_movetohitbox"></a>
+
 ## 🔌 C_OP_MoveToHitbox
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54412,6 +57998,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_movementloopinsidesphere"></a>
+
 ## 🔌 C_OP_MovementLoopInsideSphere
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54435,6 +58023,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_movementmaintainoffset"></a>
+
 ## 🔌 C_OP_MovementMaintainOffset
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54456,6 +58046,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_movementmovealongskinnedcpsnapshot"></a>
 
 ## 🔌 C_OP_MovementMoveAlongSkinnedCPSnapshot
 
@@ -54481,6 +58073,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_movementplaceonground"></a>
 
 ## 🔌 C_OP_MovementPlaceOnGround
 
@@ -54518,6 +58112,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_movementrigidattachtocp"></a>
+
 ## 🔌 C_OP_MovementRigidAttachToCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54543,6 +58139,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_movementrotateparticlearoundaxis"></a>
+
 ## 🔌 C_OP_MovementRotateParticleAroundAxis
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54565,6 +58163,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_movementskinnedpositionfromcpsnapshot"></a>
 
 ## 🔌 C_OP_MovementSkinnedPositionFromCPSnapshot
 
@@ -54597,6 +58197,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_noise"></a>
+
 ## 🔌 C_OP_Noise
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54621,6 +58223,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_noiseemitter"></a>
 
 ## 🔌 C_OP_NoiseEmitter
 
@@ -54656,6 +58260,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_normallock"></a>
+
 ## 🔌 C_OP_NormalLock
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54675,6 +58281,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_normalizevector"></a>
 
 ## 🔌 C_OP_NormalizeVector
 
@@ -54696,6 +58304,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_orient2dreltocp"></a>
 
 ## 🔌 C_OP_Orient2DRelToCP
 
@@ -54720,6 +58330,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_orientto2ddirection"></a>
+
 ## 🔌 C_OP_OrientTo2dDirection
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54741,6 +58353,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_oscillatescalar"></a>
 
 ## 🔌 C_OP_OscillateScalar
 
@@ -54774,6 +58388,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_oscillatescalarsimple"></a>
+
 ## 🔌 C_OP_OscillateScalarSimple
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54797,6 +58413,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_oscillatevector"></a>
 
 ## 🔌 C_OP_OscillateVector
 
@@ -54832,6 +58450,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_oscillatevectorsimple"></a>
+
 ## 🔌 C_OP_OscillateVectorSimple
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54857,6 +58477,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_parentvortices"></a>
+
 ## 🔌 C_OP_ParentVortices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54879,6 +58501,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_perparticleforce"></a>
+
 ## 🔌 C_OP_PerParticleForce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54900,6 +58524,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_percentagebetweentransformlerpcps"></a>
 
 ## 🔌 C_OP_PercentageBetweenTransformLerpCPs
 
@@ -54932,6 +58558,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_percentagebetweentransforms"></a>
+
 ## 🔌 C_OP_PercentageBetweenTransforms
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54961,6 +58589,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_percentagebetweentransformsvector"></a>
+
 ## 🔌 C_OP_PercentageBetweenTransformsVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -54989,6 +58619,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_pinparticletocp"></a>
 
 ## 🔌 C_OP_PinParticleToCP
 
@@ -55023,6 +58655,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_pinropesegmentparticletoparent"></a>
+
 ## 🔌 C_OP_PinRopeSegmentParticleToParent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55044,6 +58678,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_planarconstraint"></a>
 
 ## 🔌 C_OP_PlanarConstraint
 
@@ -55072,6 +58708,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_planecull"></a>
+
 ## 🔌 C_OP_PlaneCull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55095,6 +58733,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_playendcapwhenfinished"></a>
+
 ## 🔌 C_OP_PlayEndCapWhenFinished
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55116,6 +58756,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_pointvectoratnextparticle"></a>
+
 ## 🔌 C_OP_PointVectorAtNextParticle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55136,6 +58778,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_positionlock"></a>
 
 ## 🔌 C_OP_PositionLock
 
@@ -55171,6 +58815,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_quantizecpcomponent"></a>
+
 ## 🔌 C_OP_QuantizeCPComponent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55194,6 +58840,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_quantizefloat"></a>
+
 ## 🔌 C_OP_QuantizeFloat
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55215,6 +58863,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_radiusdecay"></a>
+
 ## 🔌 C_OP_RadiusDecay
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55234,6 +58884,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rampcplinearrandom"></a>
 
 ## 🔌 C_OP_RampCPLinearRandom
 
@@ -55256,6 +58908,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rampscalarlinear"></a>
 
 ## 🔌 C_OP_RampScalarLinear
 
@@ -55284,6 +58938,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_rampscalarlinearsimple"></a>
+
 ## 🔌 C_OP_RampScalarLinearSimple
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55306,6 +58962,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rampscalarspline"></a>
 
 ## 🔌 C_OP_RampScalarSpline
 
@@ -55336,6 +58994,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_rampscalarsplinesimple"></a>
+
 ## 🔌 C_OP_RampScalarSplineSimple
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55360,6 +59020,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_randomforce"></a>
+
 ## 🔌 C_OP_RandomForce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55380,6 +59042,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_readfromneighboringparticle"></a>
 
 ## 🔌 C_OP_ReadFromNeighboringParticle
 
@@ -55405,6 +59069,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_reinitializescalarendcap"></a>
+
 ## 🔌 C_OP_ReinitializeScalarEndCap
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55426,6 +59092,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapaveragehitboxspeedtocp"></a>
 
 ## 🔌 C_OP_RemapAverageHitboxSpeedtoCP
 
@@ -55457,6 +59125,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapaveragescalarvaluetocp"></a>
+
 ## 🔌 C_OP_RemapAverageScalarValuetoCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55482,6 +59152,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapboundingvolumetocp"></a>
+
 ## 🔌 C_OP_RemapBoundingVolumetoCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55506,6 +59178,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapcpvelocitytovector"></a>
+
 ## 🔌 C_OP_RemapCPVelocityToVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55528,6 +59202,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapcptocp"></a>
 
 ## 🔌 C_OP_RemapCPtoCP
 
@@ -55558,6 +59234,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapcptoscalar"></a>
+
 ## 🔌 C_OP_RemapCPtoScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55587,6 +59265,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapcptovector"></a>
 
 ## 🔌 C_OP_RemapCPtoVector
 
@@ -55620,6 +59300,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapcontrolpointdirectiontovector"></a>
+
 ## 🔌 C_OP_RemapControlPointDirectionToVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55641,6 +59323,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapcontrolpointorientationtorotation"></a>
 
 ## 🔌 C_OP_RemapControlPointOrientationToRotation
 
@@ -55665,6 +59349,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapcrossproductoftwovectorstovector"></a>
+
 ## 🔌 C_OP_RemapCrossProductOfTwoVectorsToVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55688,7 +59374,9 @@ void FireTimeUpdated()
 
 ---
 
-## 🔌 C_OP_RemapDensityGradientToVector
+<a id="c_op_remapdensitygradienttovectorattribute"></a>
+
+## 🔌 C_OP_RemapDensityGradientToVectorAttribute
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
@@ -55708,6 +59396,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapdensitytovector"></a>
 
 ## 🔌 C_OP_RemapDensityToVector
 
@@ -55736,6 +59426,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapdirectiontocptovector"></a>
+
 ## 🔌 C_OP_RemapDirectionToCPToVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55762,6 +59454,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapdistancetolinesegmentbase"></a>
+
 ## 🔌 C_OP_RemapDistanceToLineSegmentBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55786,6 +59480,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapdistancetolinesegmenttoscalar"></a>
+
 ## 🔌 C_OP_RemapDistanceToLineSegmentToScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55808,6 +59504,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapdistancetolinesegmenttovector"></a>
+
 ## 🔌 C_OP_RemapDistanceToLineSegmentToVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55829,6 +59527,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapdotproducttocp"></a>
 
 ## 🔌 C_OP_RemapDotProductToCP
 
@@ -55856,6 +59556,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapdotproducttoscalar"></a>
 
 ## 🔌 C_OP_RemapDotProductToScalar
 
@@ -55887,6 +59589,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapexternalwindtocp"></a>
+
 ## 🔌 C_OP_RemapExternalWindToCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55911,6 +59615,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapgravitytovector"></a>
+
 ## 🔌 C_OP_RemapGravityToVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55933,6 +59639,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapmodelvolumetocp"></a>
 
 ## 🔌 C_OP_RemapModelVolumetoCP
 
@@ -55964,6 +59672,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapnamedmodelbodypartendcap"></a>
+
 ## 🔌 C_OP_RemapNamedModelBodyPartEndCap
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55978,6 +59688,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapnamedmodelbodypartoncetimed"></a>
+
 ## 🔌 C_OP_RemapNamedModelBodyPartOnceTimed
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -55991,6 +59703,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapnamedmodelelementendcap"></a>
 
 ## 🔌 C_OP_RemapNamedModelElementEndCap
 
@@ -56017,6 +59731,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapnamedmodelelementoncetimed"></a>
 
 ## 🔌 C_OP_RemapNamedModelElementOnceTimed
 
@@ -56046,6 +59762,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapnamedmodelmeshgroupendcap"></a>
+
 ## 🔌 C_OP_RemapNamedModelMeshGroupEndCap
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56059,6 +59777,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapnamedmodelmeshgrouponcetimed"></a>
 
 ## 🔌 C_OP_RemapNamedModelMeshGroupOnceTimed
 
@@ -56074,6 +59794,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapnamedmodelsequenceendcap"></a>
+
 ## 🔌 C_OP_RemapNamedModelSequenceEndCap
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56088,6 +59810,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapnamedmodelsequenceoncetimed"></a>
+
 ## 🔌 C_OP_RemapNamedModelSequenceOnceTimed
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56101,6 +59825,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapparticlecountonscalarendcap"></a>
 
 ## 🔌 C_OP_RemapParticleCountOnScalarEndCap
 
@@ -56128,6 +59854,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapparticlecounttoscalar"></a>
+
 ## 🔌 C_OP_RemapParticleCountToScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56153,6 +59881,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapscalar"></a>
 
 ## 🔌 C_OP_RemapScalar
 
@@ -56180,6 +59910,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapscalarendcap"></a>
+
 ## 🔌 C_OP_RemapScalarEndCap
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56204,6 +59936,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapscalaroncetimed"></a>
 
 ## 🔌 C_OP_RemapScalarOnceTimed
 
@@ -56232,6 +59966,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapspeed"></a>
+
 ## 🔌 C_OP_RemapSpeed
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56257,6 +59993,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapspeedtocp"></a>
 
 ## 🔌 C_OP_RemapSpeedtoCP
 
@@ -56285,6 +60023,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remaptransformorientationtorotations"></a>
+
 ## 🔌 C_OP_RemapTransformOrientationToRotations
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56307,6 +60047,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remaptransformorientationtoyaw"></a>
 
 ## 🔌 C_OP_RemapTransformOrientationToYaw
 
@@ -56331,6 +60073,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remaptransformtovelocity"></a>
+
 ## 🔌 C_OP_RemapTransformToVelocity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56350,6 +60094,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remaptransformvisibilitytoscalar"></a>
 
 ## 🔌 C_OP_RemapTransformVisibilityToScalar
 
@@ -56378,6 +60124,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remaptransformvisibilitytovector"></a>
+
 ## 🔌 C_OP_RemapTransformVisibilityToVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56405,6 +60153,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapvectorcomponenttoscalar"></a>
+
 ## 🔌 C_OP_RemapVectorComponentToScalar
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56426,6 +60176,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapvectortocp"></a>
 
 ## 🔌 C_OP_RemapVectortoCP
 
@@ -56449,6 +60201,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapvelocitytovector"></a>
+
 ## 🔌 C_OP_RemapVelocityToVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56470,6 +60224,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_remapvisibilityscalar"></a>
 
 ## 🔌 C_OP_RemapVisibilityScalar
 
@@ -56496,6 +60252,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_renderasmodels"></a>
 
 ## 🔌 C_OP_RenderAsModels
 
@@ -56524,6 +60282,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderblobs"></a>
+
 ## 🔌 C_OP_RenderBlobs
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56550,6 +60310,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rendercables"></a>
 
 ## 🔌 C_OP_RenderCables
 
@@ -56591,6 +60353,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderclientphysicsimpulse"></a>
+
 ## 🔌 C_OP_RenderClientPhysicsImpulse
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56613,6 +60377,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderclothforce"></a>
+
 ## 🔌 C_OP_RenderClothForce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56626,6 +60392,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_renderdeferredlight"></a>
 
 ## 🔌 C_OP_RenderDeferredLight
 
@@ -56662,6 +60430,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderflattengrass"></a>
+
 ## 🔌 C_OP_RenderFlattenGrass
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56683,6 +60453,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rendergpuimplicit"></a>
 
 ## 🔌 C_OP_RenderGpuImplicit
 
@@ -56711,6 +60483,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderlightbeam"></a>
+
 ## 🔌 C_OP_RenderLightBeam
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56736,6 +60510,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_renderlights"></a>
 
 ## 🔌 C_OP_RenderLights
 
@@ -56763,6 +60539,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_rendermaterialproxy"></a>
+
 ## 🔌 C_OP_RenderMaterialProxy
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56789,6 +60567,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rendermodels"></a>
 
 ## 🔌 C_OP_RenderModels
 
@@ -56864,6 +60644,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderomni2light"></a>
+
 ## 🔌 C_OP_RenderOmni2Light
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56899,6 +60681,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderpoints"></a>
+
 ## 🔌 C_OP_RenderPoints
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -56918,6 +60702,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_renderpostprocessing"></a>
 
 ## 🔌 C_OP_RenderPostProcessing
 
@@ -56940,6 +60726,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_renderprojected"></a>
 
 ## 🔌 C_OP_RenderProjected
 
@@ -56977,6 +60765,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_renderropes"></a>
 
 ## 🔌 C_OP_RenderRopes
 
@@ -57029,6 +60819,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderscreenshake"></a>
+
 ## 🔌 C_OP_RenderScreenShake
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57057,6 +60849,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderscreenvelocityrotate"></a>
+
 ## 🔌 C_OP_RenderScreenVelocityRotate
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57077,6 +60871,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rendersimplemodelcollection"></a>
 
 ## 🔌 C_OP_RenderSimpleModelCollection
 
@@ -57105,6 +60901,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rendersound"></a>
 
 ## 🔌 C_OP_RenderSound
 
@@ -57136,6 +60934,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rendersprites"></a>
 
 ## 🔌 C_OP_RenderSprites
 
@@ -57186,6 +60986,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderstandardlight"></a>
+
 ## 🔌 C_OP_RenderStandardLight
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57234,6 +61036,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderstatuseffect"></a>
+
 ## 🔌 C_OP_RenderStatusEffect
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57260,6 +61064,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_renderstatuseffectcitadel"></a>
+
 ## 🔌 C_OP_RenderStatusEffectCitadel
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57285,6 +61091,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_rendertext"></a>
+
 ## 🔌 C_OP_RenderText
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57305,6 +61113,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rendertrails"></a>
 
 ## 🔌 C_OP_RenderTrails
 
@@ -57345,6 +61155,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_rendertreeshake"></a>
+
 ## 🔌 C_OP_RenderTreeShake
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57374,6 +61186,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_rendervrhapticevent"></a>
+
 ## 🔌 C_OP_RenderVRHapticEvent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57396,6 +61210,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_repeatedtriggerchildgroup"></a>
 
 ## 🔌 C_OP_RepeatedTriggerChildGroup
 
@@ -57420,6 +61236,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_restartafterduration"></a>
 
 ## 🔌 C_OP_RestartAfterDuration
 
@@ -57446,6 +61264,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_ropespringconstraint"></a>
+
 ## 🔌 C_OP_RopeSpringConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57469,6 +61289,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_rotatevector"></a>
 
 ## 🔌 C_OP_RotateVector
 
@@ -57496,6 +61318,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_rtenvcull"></a>
+
 ## 🔌 C_OP_RtEnvCull
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57522,6 +61346,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_screenspacedistancetoedge"></a>
+
 ## 🔌 C_OP_ScreenSpaceDistanceToEdge
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57544,6 +61370,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_screenspacepositionoftarget"></a>
 
 ## 🔌 C_OP_ScreenSpacePositionOfTarget
 
@@ -57569,6 +61397,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_screenspacerotatetowardtarget"></a>
+
 ## 🔌 C_OP_ScreenSpaceRotateTowardTarget
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57591,6 +61421,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_selectivelyenablechildren"></a>
 
 ## 🔌 C_OP_SelectivelyEnableChildren
 
@@ -57615,6 +61447,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_sequencefrommodel"></a>
 
 ## 🔌 C_OP_SequenceFromModel
 
@@ -57643,6 +61477,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setattributetoscalarexpression"></a>
+
 ## 🔌 C_OP_SetAttributeToScalarExpression
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57668,6 +61504,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcporientationtodirection"></a>
+
 ## 🔌 C_OP_SetCPOrientationToDirection
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57688,6 +61526,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcporientationtogroundnormal"></a>
 
 ## 🔌 C_OP_SetCPOrientationToGroundNormal
 
@@ -57717,6 +61557,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcporientationtopointatcp"></a>
+
 ## 🔌 C_OP_SetCPOrientationToPointAtCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57742,6 +61584,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcptovector"></a>
+
 ## 🔌 C_OP_SetCPtoVector
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57762,6 +61606,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setchildcontrolpoints"></a>
 
 ## 🔌 C_OP_SetChildControlPoints
 
@@ -57789,6 +61635,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointfieldfromvectorexpression"></a>
+
 ## 🔌 C_OP_SetControlPointFieldFromVectorExpression
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57814,6 +61662,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointfieldtoscalarexpression"></a>
 
 ## 🔌 C_OP_SetControlPointFieldToScalarExpression
 
@@ -57841,6 +61691,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointfieldtowater"></a>
+
 ## 🔌 C_OP_SetControlPointFieldToWater
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57863,6 +61715,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointfromobjectscale"></a>
+
 ## 🔌 C_OP_SetControlPointFromObjectScale
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57883,6 +61737,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointorientation"></a>
 
 ## 🔌 C_OP_SetControlPointOrientation
 
@@ -57911,6 +61767,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointorientationtocpvelocity"></a>
+
 ## 🔌 C_OP_SetControlPointOrientationToCPVelocity
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57931,6 +61789,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointpositiontorandomactivecp"></a>
 
 ## 🔌 C_OP_SetControlPointPositionToRandomActiveCP
 
@@ -57955,6 +61815,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointpositiontotimeofdayvalue"></a>
+
 ## 🔌 C_OP_SetControlPointPositionToTimeOfDayValue
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -57976,6 +61838,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointpositions"></a>
 
 ## 🔌 C_OP_SetControlPointPositions
 
@@ -58008,6 +61872,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointrotation"></a>
+
 ## 🔌 C_OP_SetControlPointRotation
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58030,6 +61896,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointtocpvelocity"></a>
 
 ## 🔌 C_OP_SetControlPointToCPVelocity
 
@@ -58056,6 +61924,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointtocenter"></a>
+
 ## 🔌 C_OP_SetControlPointToCenter
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58079,6 +61949,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointtohmd"></a>
+
 ## 🔌 C_OP_SetControlPointToHMD
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58100,6 +61972,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointtohand"></a>
 
 ## 🔌 C_OP_SetControlPointToHand
 
@@ -58123,6 +61997,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointtoimpactpoint"></a>
 
 ## 🔌 C_OP_SetControlPointToImpactPoint
 
@@ -58155,6 +62031,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointtoplayer"></a>
+
 ## 🔌 C_OP_SetControlPointToPlayer
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58177,6 +62055,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointtovectorexpression"></a>
 
 ## 🔌 C_OP_SetControlPointToVectorExpression
 
@@ -58202,6 +62082,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointtowatersurface"></a>
 
 ## 🔌 C_OP_SetControlPointToWaterSurface
 
@@ -58229,6 +62111,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setcontrolpointstomodelparticles"></a>
+
 ## 🔌 C_OP_SetControlPointsToModelParticles
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58254,6 +62138,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setcontrolpointstoparticle"></a>
 
 ## 🔌 C_OP_SetControlPointsToParticle
 
@@ -58282,6 +62168,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setfloat"></a>
+
 ## 🔌 C_OP_SetFloat
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58304,6 +62192,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setfloatattributetovectorexpression"></a>
 
 ## 🔌 C_OP_SetFloatAttributeToVectorExpression
 
@@ -58330,6 +62220,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setfloatcollection"></a>
+
 ## 🔌 C_OP_SetFloatCollection
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58352,6 +62244,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setfromcpsnapshot"></a>
 
 ## 🔌 C_OP_SetFromCPSnapshot
 
@@ -58385,6 +62279,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setgravitytocp"></a>
+
 ## 🔌 C_OP_SetGravityToCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58409,6 +62305,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setparentcontrolpointstochildcp"></a>
+
 ## 🔌 C_OP_SetParentControlPointsToChildCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58432,6 +62330,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setperchildcontrolpoint"></a>
 
 ## 🔌 C_OP_SetPerChildControlPoint
 
@@ -58460,7 +62360,9 @@ void FireTimeUpdated()
 
 ---
 
-## 🔌 C_OP_SetPerChildControlPointFrom
+<a id="c_op_setperchildcontrolpointfromattribute"></a>
+
+## 🔌 C_OP_SetPerChildControlPointFromAttribute
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
@@ -58486,6 +62388,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setrandomcontrolpointposition"></a>
 
 ## 🔌 C_OP_SetRandomControlPointPosition
 
@@ -58514,6 +62418,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setsimulationrate"></a>
+
 ## 🔌 C_OP_SetSimulationRate
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58533,6 +62439,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setsinglecontrolpointposition"></a>
 
 ## 🔌 C_OP_SetSingleControlPointPosition
 
@@ -58557,6 +62465,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_settocp"></a>
+
 ## 🔌 C_OP_SetToCP
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58578,6 +62488,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setuserevent"></a>
 
 ## 🔌 C_OP_SetUserEvent
 
@@ -58602,6 +62514,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setvariable"></a>
 
 ## 🔌 C_OP_SetVariable
 
@@ -58628,6 +62542,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_setvec"></a>
+
 ## 🔌 C_OP_SetVec
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58651,6 +62567,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_setvectorattributetovectorexpression"></a>
 
 ## 🔌 C_OP_SetVectorAttributeToVectorExpression
 
@@ -58678,6 +62596,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_shapematchingconstraint"></a>
+
 ## 🔌 C_OP_ShapeMatchingConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58697,6 +62617,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_snapshotrigidskintobones"></a>
 
 ## 🔌 C_OP_SnapshotRigidSkinToBones
 
@@ -58719,6 +62641,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_snapshotskintobones"></a>
 
 ## 🔌 C_OP_SnapshotSkinToBones
 
@@ -58746,6 +62670,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_spin"></a>
+
 ## 🔌 C_OP_Spin
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58759,6 +62685,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_spinupdate"></a>
 
 ## 🔌 C_OP_SpinUpdate
 
@@ -58774,6 +62702,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_spinyaw"></a>
+
 ## 🔌 C_OP_SpinYaw
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58787,6 +62717,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_springtovectorconstraint"></a>
 
 ## 🔌 C_OP_SpringToVectorConstraint
 
@@ -58812,6 +62744,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_stopaftercpduration"></a>
+
 ## 🔌 C_OP_StopAfterCPDuration
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58833,6 +62767,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_teleportbeam"></a>
 
 ## 🔌 C_OP_TeleportBeam
 
@@ -58864,6 +62800,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_timevaryingforce"></a>
+
 ## 🔌 C_OP_TimeVaryingForce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58886,6 +62824,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_turbulenceforce"></a>
 
 ## 🔌 C_OP_TurbulenceForce
 
@@ -58914,6 +62854,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_twistaroundaxis"></a>
+
 ## 🔌 C_OP_TwistAroundAxis
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -58936,6 +62878,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_updatelightsource"></a>
 
 ## 🔌 C_OP_UpdateLightSource
 
@@ -58961,6 +62905,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_vectorfieldsnapshot"></a>
 
 ## 🔌 C_OP_VectorFieldSnapshot
 
@@ -58990,6 +62936,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_vectornoise"></a>
+
 ## 🔌 C_OP_VectorNoise
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59016,6 +62964,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_velocitydecay"></a>
+
 ## 🔌 C_OP_VelocityDecay
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59035,6 +62985,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_velocitymatchingforce"></a>
 
 ## 🔌 C_OP_VelocityMatchingForce
 
@@ -59060,6 +63012,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_waterimpulserenderer"></a>
 
 ## 🔌 C_OP_WaterImpulseRenderer
 
@@ -59088,6 +63042,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_windforce"></a>
+
 ## 🔌 C_OP_WindForce
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59108,6 +63064,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_worldcollideconstraint"></a>
+
 ## 🔌 C_OP_WorldCollideConstraint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59121,6 +63079,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="c_op_worldtraceconstraint"></a>
 
 ## 🔌 C_OP_WorldTraceConstraint
 
@@ -59168,6 +63128,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="canplaysequence_t"></a>
+
 ## 📋 CanPlaySequence_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59187,6 +63149,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="castspheresatparams_t"></a>
 
 ## 🔌 CastSphereSATParams_t
 
@@ -59211,6 +63175,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="chaintosolvedata_t"></a>
+
 ## 🔌 ChainToSolveData_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59234,6 +63200,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="chatignoretype_t"></a>
+
 ## 📋 ChatIgnoreType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59253,6 +63221,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="chickenactivity"></a>
 
 ## 📋 ChickenActivity
 
@@ -59282,6 +63252,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="choiceblendmethod"></a>
+
 ## 📋 ChoiceBlendMethod
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59300,6 +63272,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="choicechangemethod"></a>
 
 ## 📋 ChoiceChangeMethod
 
@@ -59320,6 +63294,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="choicemethod"></a>
 
 ## 📋 ChoiceMethod
 
@@ -59342,6 +63318,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="choreolookatmode_t"></a>
+
 ## 📋 ChoreoLookAtMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59363,6 +63341,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="choreolookatspeed_t"></a>
+
 ## 📋 ChoreoLookAtSpeed_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59383,6 +63363,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="class_t"></a>
 
 ## 📋 Class_T
 
@@ -59415,6 +63397,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="closestpointtesttype_t"></a>
+
 ## 📋 ClosestPointTestType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59434,6 +63418,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="cluttersceneobject_t"></a>
 
 ## 🔌 ClutterSceneObject_t
 
@@ -59463,6 +63449,8 @@ void FireTimeUpdated()
 
 ---
 
+<a id="cluttertile_t"></a>
+
 ## 🔌 ClutterTile_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59482,6 +63470,8 @@ void FireTimeUpdated()
 
 
 ---
+
+<a id="codegenaabb_t"></a>
 
 ## 🔌 CodeGenAABB_t
 
@@ -59516,6 +63506,8 @@ void MaxBoundsUpdated()
 
 ---
 
+<a id="collisiondetaillayerinfo_t"></a>
+
 ## 🔌 CollisionDetailLayerInfo_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59539,6 +63531,8 @@ void MaxBoundsUpdated()
 
 ---
 
+<a id="collisiondetaillayerinfo_t__name_t"></a>
+
 ## 🔌 CollisionDetailLayerInfo_t__Name_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59558,6 +63552,8 @@ void MaxBoundsUpdated()
 
 ---
 
+<a id="collisiongroupcontext_t"></a>
+
 ## 🔌 CollisionGroupContext_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59575,6 +63571,8 @@ void MaxBoundsUpdated()
 
 
 ---
+
+<a id="configindex"></a>
 
 ## 🔌 ConfigIndex
 
@@ -59595,6 +63593,8 @@ void MaxBoundsUpdated()
 
 ---
 
+<a id="constantinfo_t"></a>
+
 ## 🔌 ConstantInfo_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59614,6 +63614,8 @@ void MaxBoundsUpdated()
 
 
 ---
+
+<a id="constraintsoundinfo"></a>
 
 ## 🔌 ConstraintSoundInfo
 
@@ -59642,6 +63644,8 @@ void MaxBoundsUpdated()
 
 ---
 
+<a id="controlpointreference_t"></a>
+
 ## 🔌 ControlPointReference_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59661,6 +63665,8 @@ void MaxBoundsUpdated()
 
 
 ---
+
+<a id="countdowntimer"></a>
 
 ## 🔌 CountdownTimer
 
@@ -59709,6 +63715,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="covmatrix3"></a>
+
 ## 🔌 CovMatrix3
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59729,6 +63737,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="damagetypes_t"></a>
 
 ## 📋 DamageTypes_t
 
@@ -59769,6 +63779,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="dampingspeedfunction"></a>
+
 ## 📋 DampingSpeedFunction
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59789,6 +63801,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="debugoverlaybits_t"></a>
 
 ## 📋 DebugOverlayBits_t
 
@@ -59847,6 +63861,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="decalflags_t"></a>
+
 ## 📋 DecalFlags_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59868,6 +63884,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="decalgroupoption_t"></a>
 
 ## 🔌 DecalGroupOption_t
 
@@ -59892,6 +63910,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="decalmode_t"></a>
+
 ## 📋 DecalMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59914,6 +63934,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="decalrtencoding_t"></a>
 
 ## 📋 DecalRtEncoding_t
 
@@ -59938,6 +63960,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="destructiblehitgrouptodestroy_t"></a>
+
 ## 🔌 DestructibleHitGroupToDestroy_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -59956,6 +63980,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="destructiblepartdestructiondeathbehavior_t"></a>
 
 ## 📋 DestructiblePartDestructionDeathBehavior_t
 
@@ -59977,6 +64003,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="destructiblepartdestructionrequest_t"></a>
 
 ## 🔌 DestructiblePartDestructionRequest_t
 
@@ -60000,6 +64028,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="detail2combo_t"></a>
 
 ## 📋 Detail2Combo_t
 
@@ -60025,6 +64055,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="detailcombo_t"></a>
+
 ## 📋 DetailCombo_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60046,6 +64078,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="disableshadows_t"></a>
+
 ## 📋 DisableShadows_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60066,6 +64100,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="disposition_t"></a>
 
 ## 📋 Disposition_t
 
@@ -60094,6 +64130,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="doorstate_t"></a>
+
 ## 📋 DoorState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60116,6 +64154,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="dop26_t"></a>
+
 ## 🔌 Dop26_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60133,6 +64173,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="dynamiccontinuouscontactbehavior_t"></a>
 
 ## 📋 DynamicContinuousContactBehavior_t
 
@@ -60153,6 +64195,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="dynamicmeshdeformparams_t"></a>
 
 ## 🔌 DynamicMeshDeformParams_t
 
@@ -60176,6 +64220,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="dynamicvolumedef_t"></a>
 
 ## 🔌 DynamicVolumeDef_t
 
@@ -60202,6 +64248,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="econtributionscoreflag_t"></a>
+
 ## 📋 EContributionScoreFlag_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60222,6 +64270,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="edemoboneselectionmode"></a>
+
 ## 📋 EDemoBoneSelectionMode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60240,6 +64290,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="edestructiblepartdamagepassthroughtype"></a>
 
 ## 📋 EDestructiblePartDamagePassThroughType
 
@@ -60262,6 +64314,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="edestructiblepartradiusdamageapplytype"></a>
+
 ## 📋 EDestructiblePartRadiusDamageApplyType
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60280,6 +64334,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="edestructibleparts_destroyparameterflags"></a>
 
 ## 📋 EDestructibleParts_DestroyParameterFlags
 
@@ -60306,6 +64362,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="eikendeffectorrotationfixupmode"></a>
+
 ## 📋 EIKEndEffectorRotationFixUpMode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60327,6 +64385,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="einbuttonstate"></a>
 
 ## 📋 EInButtonState
 
@@ -60354,6 +64414,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="ekilltypes_t"></a>
+
 ## 📋 EKillTypes_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60378,6 +64440,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="emidinote"></a>
 
 ## 📋 EMidiNote
 
@@ -60409,6 +64473,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="emode_t"></a>
+
 ## 📋 EMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60427,6 +64493,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="eoverrideblocklos_t"></a>
 
 ## 📋 EOverrideBlockLOS_t
 
@@ -60448,6 +64516,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="eproceduralragdollweightindexpropagationmethod"></a>
+
 ## 📋 EProceduralRagdollWeightIndexPropagationMethod
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60466,6 +64536,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="epulsegraphexecutionhistoryflag"></a>
 
 ## 📋 EPulseGraphExecutionHistoryFlag
 
@@ -60490,6 +64562,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="esceneobjectvisualization"></a>
+
 ## 📋 ESceneObjectVisualization
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60513,6 +64587,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="escenerequeststate_t"></a>
+
 ## 📋 ESceneRequestState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60531,6 +64607,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="esilhouettetype_t"></a>
 
 ## 📋 ESilhouetteType_t
 
@@ -60552,6 +64630,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="ewaveform"></a>
 
 ## 📋 EWaveform
 
@@ -60575,6 +64655,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="emptytestscript"></a>
+
 ## 🔌 EmptyTestScript
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60594,6 +64676,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="enginecountdowntimer"></a>
 
 ## 🔌 EngineCountdownTimer
 
@@ -60635,6 +64719,8 @@ void TimescaleUpdated()
 
 ---
 
+<a id="engineloopstate_t"></a>
+
 ## 🔌 EngineLoopState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60655,6 +64741,8 @@ void TimescaleUpdated()
 
 
 ---
+
+<a id="entcomponentinfo_t"></a>
 
 ## 🔌 EntComponentInfo_t
 
@@ -60680,6 +64768,8 @@ void TimescaleUpdated()
 
 ---
 
+<a id="entfindermethod_t"></a>
+
 ## 📋 EntFinderMethod_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60700,6 +64790,8 @@ void TimescaleUpdated()
 
 ---
 
+<a id="entinput_t"></a>
+
 ## 🔌 EntInput_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60712,6 +64804,8 @@ void TimescaleUpdated()
 
 ---
 
+<a id="entoutput_t"></a>
+
 ## 🔌 EntOutput_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60723,6 +64817,8 @@ void TimescaleUpdated()
 
 
 ---
+
+<a id="entityattachmenttype_t"></a>
 
 ## 📋 EntityAttachmentType_t
 
@@ -60744,6 +64840,8 @@ void TimescaleUpdated()
 
 
 ---
+
+<a id="entitydisolvetype_t"></a>
 
 ## 📋 EntityDisolveType_t
 
@@ -60767,6 +64865,8 @@ void TimescaleUpdated()
 
 ---
 
+<a id="entitydistancemode_t"></a>
+
 ## 📋 EntityDistanceMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60787,6 +64887,8 @@ void TimescaleUpdated()
 
 ---
 
+<a id="entitydormancytype_t"></a>
+
 ## 📋 EntityDormancyType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60806,6 +64908,8 @@ void TimescaleUpdated()
 
 
 ---
+
+<a id="entityeffects_t"></a>
 
 ## 📋 EntityEffects_t
 
@@ -60830,6 +64934,8 @@ void TimescaleUpdated()
 
 
 ---
+
+<a id="entityioconnectiondata_t"></a>
 
 ## 🔌 EntityIOConnectionData_t
 
@@ -60856,6 +64962,8 @@ void TimescaleUpdated()
 
 ---
 
+<a id="entityiotargettype_t"></a>
+
 ## 📋 EntityIOTargetType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60877,6 +64985,8 @@ void TimescaleUpdated()
 
 ---
 
+<a id="entitykeyvaluedata_t"></a>
+
 ## 🔌 EntityKeyValueData_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60895,6 +65005,8 @@ void TimescaleUpdated()
 
 
 ---
+
+<a id="entityplatformtypes_t"></a>
 
 ## 📋 EntityPlatformTypes_t
 
@@ -60916,6 +65028,8 @@ void TimescaleUpdated()
 
 ---
 
+<a id="entityrenderattribute_t"></a>
+
 ## 🔌 EntityRenderAttribute_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60925,6 +65039,8 @@ void TimescaleUpdated()
 
 
 ---
+
+<a id="entityspottedstate_t"></a>
 
 ## 🔌 EntitySpottedState_t
 
@@ -60959,6 +65075,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="entitysubclassscope_t"></a>
+
 ## 📋 EntitySubclassScope_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -60979,6 +65097,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventadvancetick_t"></a>
 
 ## 🔌 EventAdvanceTick_t
 
@@ -61003,6 +65123,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventappshutdown_t"></a>
+
 ## 🔌 EventAppShutdown_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61021,6 +65143,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventclientadvancenonrenderedframe_t"></a>
+
 ## 🔌 EventClientAdvanceNonRenderedFrame_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61032,6 +65156,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventclientadvancetick_t"></a>
 
 ## 🔌 EventClientAdvanceTick_t
 
@@ -61046,6 +65172,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventclientframesimulate_t"></a>
 
 ## 🔌 EventClientFrameSimulate_t
 
@@ -61067,6 +65195,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventclientoutput_t"></a>
 
 ## 🔌 EventClientOutput_t
 
@@ -61090,6 +65220,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventclientpausesimulate_t"></a>
+
 ## 🔌 EventClientPauseSimulate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61103,6 +65235,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventclientpollinput_t"></a>
 
 ## 🔌 EventClientPollInput_t
 
@@ -61123,6 +65257,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventclientpollnetworking_t"></a>
+
 ## 🔌 EventClientPollNetworking_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61141,6 +65277,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventclientpostadvancetick_t"></a>
+
 ## 🔌 EventClientPostAdvanceTick_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61154,6 +65292,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventclientpostoutput_t"></a>
 
 ## 🔌 EventClientPostOutput_t
 
@@ -61177,6 +65317,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventclientpostsimulate_t"></a>
+
 ## 🔌 EventClientPostSimulate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61191,6 +65333,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventclientpreoutputparallelwithserver_t"></a>
+
 ## 🔌 EventClientPreOutputParallelWithServer_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61204,6 +65348,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventclientpreoutput_t"></a>
 
 ## 🔌 EventClientPreOutput_t
 
@@ -61228,6 +65374,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventclientpresimulate_t"></a>
+
 ## 🔌 EventClientPreSimulate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61241,6 +65389,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventclientprocessgameinput_t"></a>
 
 ## 🔌 EventClientProcessGameInput_t
 
@@ -61261,6 +65411,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventclientprocessinput_t"></a>
 
 ## 🔌 EventClientProcessInput_t
 
@@ -61283,6 +65435,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventclientprocessnetworking_t"></a>
+
 ## 🔌 EventClientProcessNetworking_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61300,6 +65454,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventclientscenesystemthreadstatechange_t"></a>
 
 ## 🔌 EventClientSceneSystemThreadStateChange_t
 
@@ -61319,6 +65475,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventclientsimulate_t"></a>
+
 ## 🔌 EventClientSimulate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61332,6 +65490,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventframeboundary_t"></a>
 
 ## 🔌 EventFrameBoundary_t
 
@@ -61351,6 +65511,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventmodinitialized_t"></a>
+
 ## 🔌 EventModInitialized_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61362,6 +65524,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventpostadvancetick_t"></a>
 
 ## 🔌 EventPostAdvanceTick_t
 
@@ -61386,6 +65550,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventpostdataupdate_t"></a>
+
 ## 🔌 EventPostDataUpdate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61403,6 +65569,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventpredataupdate_t"></a>
 
 ## 🔌 EventPreDataUpdate_t
 
@@ -61422,6 +65590,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventprofilestorageavailable_t"></a>
+
 ## 🔌 EventProfileStorageAvailable_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61440,6 +65610,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventserveradvancetick_t"></a>
+
 ## 🔌 EventServerAdvanceTick_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61453,6 +65625,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventserverbeginasyncposttickwork_t"></a>
 
 ## 🔌 EventServerBeginAsyncPostTickWork_t
 
@@ -61472,6 +65646,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventserverbeginsimulate_t"></a>
+
 ## 🔌 EventServerBeginSimulate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61486,6 +65662,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventserverendasyncposttickwork_t"></a>
+
 ## 🔌 EventServerEndAsyncPostTickWork_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61497,6 +65675,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventserverendsimulate_t"></a>
 
 ## 🔌 EventServerEndSimulate_t
 
@@ -61516,6 +65696,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventserverpollnetworking_t"></a>
+
 ## 🔌 EventServerPollNetworking_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61529,6 +65711,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventserverpostadvancetick_t"></a>
 
 ## 🔌 EventServerPostAdvanceTick_t
 
@@ -61550,6 +65734,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventserverpostsimulate_t"></a>
+
 ## 🔌 EventServerPostSimulate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61570,6 +65756,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventserverprocessnetworking_t"></a>
+
 ## 🔌 EventServerProcessNetworking_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61584,6 +65772,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventserversimulate_t"></a>
+
 ## 🔌 EventServerSimulate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61597,6 +65787,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventsettime_t"></a>
 
 ## 🔌 EventSetTime_t
 
@@ -61623,6 +65815,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventsimpleloopframeupdate_t"></a>
+
 ## 🔌 EventSimpleLoopFrameUpdate_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61642,6 +65836,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventsimulate_t"></a>
 
 ## 🔌 EventSimulate_t
 
@@ -61663,6 +65859,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="eventsplitscreenstatechanged_t"></a>
+
 ## 🔌 EventSplitScreenStateChanged_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61674,6 +65872,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="eventtypeselection_t"></a>
 
 ## 📋 EventTypeSelection_t
 
@@ -61703,6 +65903,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="explosions"></a>
+
 ## 📋 Explosions
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61723,6 +65925,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="extent"></a>
+
 ## 🔌 Extent
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61742,6 +65946,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="externalanimgraphhandle_t"></a>
+
 ## 🔌 ExternalAnimGraphHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61759,6 +65965,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="externalanimgraphinactivebehavior_t"></a>
 
 ## 📋 ExternalAnimGraphInactiveBehavior_t
 
@@ -61779,6 +65987,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="externalanimgraph_t"></a>
 
 ## 🔌 ExternalAnimGraph_t
 
@@ -61801,6 +66011,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="extravertexstreamoverride_t"></a>
 
 ## 🔌 ExtraVertexStreamOverride_t
 
@@ -61825,6 +66037,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="facingmode"></a>
+
 ## 📋 FacingMode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61847,6 +66061,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fakeentityderiveda_tapi"></a>
+
 ## 🔌 FakeEntityDerivedA_tAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61858,6 +66074,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fakeentityderivedb_tapi"></a>
 
 ## 🔌 FakeEntityDerivedB_tAPI
 
@@ -61871,6 +66089,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fakeentity_tapi"></a>
+
 ## 🔌 FakeEntity_tAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61882,6 +66102,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="feanimstrayradius_t"></a>
 
 ## 🔌 FeAnimStrayRadius_t
 
@@ -61903,6 +66125,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="feantitunnelgroupbuild_t"></a>
+
 ## 🔌 FeAntiTunnelGroupBuild_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61921,6 +66145,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="feantitunnelprobebuild_t"></a>
 
 ## 🔌 FeAntiTunnelProbeBuild_t
 
@@ -61945,6 +66171,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="feantitunnelprobe_t"></a>
 
 ## 🔌 FeAntiTunnelProbe_t
 
@@ -61971,6 +66199,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="feaxialedgebend_t"></a>
+
 ## 🔌 FeAxialEdgeBend_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -61993,6 +66223,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="febandbendlimit_t"></a>
+
 ## 🔌 FeBandBendLimit_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62012,6 +66244,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="feboxrigid_t"></a>
 
 ## 🔌 FeBoxRigid_t
 
@@ -62036,6 +66270,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="febuildboxrigid_t"></a>
+
 ## 🔌 FeBuildBoxRigid_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62057,6 +66293,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="febuildsdfrigid_t"></a>
 
 ## 🔌 FeBuildSDFRigid_t
 
@@ -62080,6 +66318,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="febuildsphererigid_t"></a>
+
 ## 🔌 FeBuildSphereRigid_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62101,6 +66341,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="febuildtaperedcapsulerigid_t"></a>
 
 ## 🔌 FeBuildTaperedCapsuleRigid_t
 
@@ -62124,6 +66366,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fecollisionplane_t"></a>
+
 ## 🔌 FeCollisionPlane_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62145,6 +66389,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fectrloffset_t"></a>
+
 ## 🔌 FeCtrlOffset_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62165,6 +66411,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fectrlosoffset_t"></a>
+
 ## 🔌 FeCtrlOsOffset_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62183,6 +66431,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fectrlsoftoffset_t"></a>
 
 ## 🔌 FeCtrlSoftOffset_t
 
@@ -62205,6 +66455,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fedynkinlink_t"></a>
+
 ## 🔌 FeDynKinLink_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62223,6 +66475,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="feedgedesc_t"></a>
 
 ## 🔌 FeEdgeDesc_t
 
@@ -62243,6 +66497,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="feeffectdesc_t"></a>
 
 ## 🔌 FeEffectDesc_t
 
@@ -62265,6 +66521,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fefitinfluence_t"></a>
+
 ## 🔌 FeFitInfluence_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62284,6 +66542,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fefitmatrix_t"></a>
 
 ## 🔌 FeFitMatrix_t
 
@@ -62307,6 +66567,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fefitweight_t"></a>
+
 ## 🔌 FeFitWeight_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62326,6 +66588,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fefollownode_t"></a>
 
 ## 🔌 FeFollowNode_t
 
@@ -62347,6 +66611,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fehingelimitbuild_t"></a>
+
 ## 🔌 FeHingeLimitBuild_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62367,6 +66633,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fehingelimit_t"></a>
 
 ## 🔌 FeHingeLimit_t
 
@@ -62391,6 +66659,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fekelagerbend2_t"></a>
+
 ## 🔌 FeKelagerBend2_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62411,6 +66681,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="femodelselfcollisionlayer_t"></a>
 
 ## 🔌 FeModelSelfCollisionLayer_t
 
@@ -62433,6 +66705,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="femorphlayerdepr_t"></a>
 
 ## 🔌 FeMorphLayerDepr_t
 
@@ -62459,6 +66733,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fenodebase_t"></a>
+
 ## 🔌 FeNodeBase_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62483,6 +66759,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fenodeintegrator_t"></a>
+
 ## 🔌 FeNodeIntegrator_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62504,6 +66782,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fenodereverseoffset_t"></a>
+
 ## 🔌 FeNodeReverseOffset_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62523,6 +66803,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fenodestraybox_t"></a>
 
 ## 🔌 FeNodeStrayBox_t
 
@@ -62545,6 +66827,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fenodewindbase_t"></a>
+
 ## 🔌 FeNodeWindBase_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62566,6 +66850,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="feproxyvertexmap_t"></a>
+
 ## 🔌 FeProxyVertexMap_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62584,6 +66870,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fequad_t"></a>
 
 ## 🔌 FeQuad_t
 
@@ -62604,6 +66892,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="ferigidcolliderindices_t"></a>
 
 ## 🔌 FeRigidColliderIndices_t
 
@@ -62627,6 +66917,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="ferodconstraint_t"></a>
+
 ## 🔌 FeRodConstraint_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62648,6 +66940,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fesdfrigid_t"></a>
 
 ## 🔌 FeSDFRigid_t
 
@@ -62677,6 +66971,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fesimdanimstrayradius_t"></a>
+
 ## 🔌 FeSimdAnimStrayRadius_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62696,6 +66992,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fesimdnodebase_t"></a>
 
 ## 🔌 FeSimdNodeBase_t
 
@@ -62721,6 +67019,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fesimdquad_t"></a>
+
 ## 🔌 FeSimdQuad_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62742,6 +67042,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fesimdrodconstraintanim_t"></a>
+
 ## 🔌 FeSimdRodConstraintAnim_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62761,6 +67063,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fesimdrodconstraint_t"></a>
 
 ## 🔌 FeSimdRodConstraint_t
 
@@ -62784,6 +67088,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fesimdspringintegrator_t"></a>
+
 ## 🔌 FeSimdSpringIntegrator_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62806,6 +67112,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fesoftparent_t"></a>
+
 ## 🔌 FeSoftParent_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62825,6 +67133,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fesourceedge_t"></a>
+
 ## 🔌 FeSourceEdge_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62842,6 +67152,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fesphererigid_t"></a>
 
 ## 🔌 FeSphereRigid_t
 
@@ -62865,6 +67177,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fespringintegrator_t"></a>
+
 ## 🔌 FeSpringIntegrator_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62887,6 +67201,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="festiffhingebuild_t"></a>
+
 ## 🔌 FeStiffHingeBuild_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62907,6 +67223,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fetaperedcapsulerigid_t"></a>
 
 ## 🔌 FeTaperedCapsuleRigid_t
 
@@ -62930,6 +67248,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fetaperedcapsulestretch_t"></a>
+
 ## 🔌 FeTaperedCapsuleStretch_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62951,6 +67271,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fetreechildren_t"></a>
+
 ## 🔌 FeTreeChildren_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -62968,6 +67290,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fetri_t"></a>
 
 ## 🔌 FeTri_t
 
@@ -62991,6 +67315,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fetwistconstraint_t"></a>
+
 ## 🔌 FeTwistConstraint_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63011,6 +67337,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fevertexmapbuild_t"></a>
 
 ## 🔌 FeVertexMapBuild_t
 
@@ -63034,6 +67362,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fevertexmapdesc_t"></a>
 
 ## 🔌 FeVertexMapDesc_t
 
@@ -63064,6 +67394,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="feweightednode_t"></a>
+
 ## 🔌 FeWeightedNode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63082,6 +67414,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="feworldcollisionparams_t"></a>
 
 ## 🔌 FeWorldCollisionParams_t
 
@@ -63104,6 +67438,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fieldnetworkoption"></a>
+
 ## 📋 FieldNetworkOption
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63124,6 +67460,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="filterdamagetype"></a>
+
 ## 🔌 FilterDamageType
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63143,6 +67481,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="filterhealth"></a>
 
 ## 🔌 FilterHealth
 
@@ -63166,6 +67506,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fixangleset_t"></a>
+
 ## 📋 FixAngleSet_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63185,6 +67527,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="flags_t"></a>
 
 ## 📋 Flags_t
 
@@ -63225,6 +67569,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="flexopcode_t"></a>
 
 ## 📋 FlexOpCode_t
 
@@ -63269,6 +67615,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="floatinputmaterialvariable_t"></a>
+
 ## 🔌 FloatInputMaterialVariable_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63288,6 +67636,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="followattachmentdata"></a>
+
 ## 🔌 FollowAttachmentData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63306,6 +67656,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="followattachmentsettings_t"></a>
 
 ## 🔌 FollowAttachmentSettings_t
 
@@ -63329,6 +67681,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="followtargetopfixedsettings_t"></a>
+
 ## 🔌 FollowTargetOpFixedSettings_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63350,6 +67704,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="footfalltagfoot_t"></a>
 
 ## 📋 FootFallTagFoot_t
 
@@ -63375,6 +67731,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="footfixeddata_t"></a>
 
 ## 🔌 FootFixedData_t
 
@@ -63404,6 +67762,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="footfixedsettings"></a>
+
 ## 🔌 FootFixedSettings
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63430,6 +67790,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="footlockposeopfixedsettings"></a>
 
 ## 🔌 FootLockPoseOpFixedSettings
 
@@ -63466,6 +67828,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="footlocksubvisualization"></a>
+
 ## 📋 FootLockSubVisualization
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63484,6 +67848,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="footpinningposeopfixeddata_t"></a>
 
 ## 🔌 FootPinningPoseOpFixedData_t
 
@@ -63509,6 +67875,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="footpinningtimingsource"></a>
+
 ## 📋 FootPinningTimingSource
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63529,6 +67897,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="footsteptrigger"></a>
+
 ## 🔌 FootStepTrigger
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63548,6 +67918,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="footstepjumpphase_t"></a>
 
 ## 📋 FootstepJumpPhase_t
 
@@ -63570,6 +67942,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="footsteplandedfootsoundtype_t"></a>
+
 ## 📋 FootstepLandedFootSoundType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63590,6 +67964,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="forcedcrouchstate_t"></a>
+
 ## 📋 ForcedCrouchState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63609,6 +67985,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fourcovmatrices3"></a>
 
 ## 🔌 FourCovMatrices3
 
@@ -63631,6 +68009,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fourquaternions"></a>
+
 ## 🔌 FourQuaternions
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63652,6 +68032,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fourvectors2d"></a>
+
 ## 🔌 FourVectors2D
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63671,6 +68053,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="funcdoorspawnpos_t"></a>
+
 ## 📋 FuncDoorSpawnPos_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63689,6 +68073,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="functioninfo_t"></a>
 
 ## 🔌 FunctionInfo_t
 
@@ -63712,6 +68098,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fusefunctionindex_t"></a>
+
 ## 🔌 FuseFunctionIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63729,6 +68117,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fusevariableaccess_t"></a>
 
 ## 📋 FuseVariableAccess_t
 
@@ -63749,6 +68139,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="fusevariableindex_t"></a>
+
 ## 🔌 FuseVariableIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63766,6 +68158,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="fusevariabletype_t"></a>
 
 ## 📋 FuseVariableType_t
 
@@ -63793,6 +68187,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="gameammotypeinfo_t"></a>
+
 ## 🔌 GameAmmoTypeInfo_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63813,6 +68209,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="gameanimeventindex_t"></a>
 
 ## 📋 GameAnimEventIndex_t
 
@@ -63868,6 +68266,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="gametick_t"></a>
+
 ## 🔌 GameTick_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63886,6 +68286,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="gametime_t"></a>
+
 ## 🔌 GameTime_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63903,6 +68305,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="grenadetype_t"></a>
 
 ## 📋 GrenadeType_t
 
@@ -63927,6 +68331,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="hsequence"></a>
+
 ## 🔌 HSequence
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63944,6 +68350,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="handshaketagstate_t"></a>
 
 ## 📋 HandshakeTagState_t
 
@@ -63965,6 +68373,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="handshaketagtype_t"></a>
+
 ## 📋 HandshakeTagType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -63985,6 +68395,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="hierarchytype_t"></a>
 
 ## 📋 HierarchyType_t
 
@@ -64008,6 +68420,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="hitgroup_t"></a>
 
 ## 📋 HitGroup_t
 
@@ -64039,6 +68453,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="hitreactfixedsettings_t"></a>
 
 ## 🔌 HitReactFixedSettings_t
 
@@ -64074,6 +68490,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="hitboxlerptype_t"></a>
+
 ## 📋 HitboxLerpType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64092,6 +68510,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="horizjustification_e"></a>
 
 ## 📋 HorizJustification_e
 
@@ -64114,6 +68534,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="hoverposeflags_t"></a>
+
 ## 📋 HoverPoseFlags_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64133,6 +68555,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="hullflags_t"></a>
 
 ## 🔌 HullFlags_t
 
@@ -64160,6 +68584,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="hull_t"></a>
 
 ## 📋 Hull_t
 
@@ -64190,6 +68616,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="ianimationgraphinstance"></a>
+
 ## 🔌 IAnimationGraphInstance
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64202,6 +68630,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="ichoreoservices"></a>
+
 ## 🔌 IChoreoServices
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64213,6 +68643,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="ichoreoservices__choreostate_t"></a>
 
 ## 📋 IChoreoServices__ChoreoState_t
 
@@ -64238,6 +68670,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="ichoreoservices__scriptstate_t"></a>
+
 ## 📋 IChoreoServices__ScriptState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64260,6 +68694,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="ieconiteminterface"></a>
+
 ## 🔌 IEconItemInterface
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64272,6 +68708,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="ihasattributes"></a>
+
 ## 🔌 IHasAttributes
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64281,6 +68719,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="ikbonenameandindex_t"></a>
 
 ## 🔌 IKBoneNameAndIndex_t
 
@@ -64299,6 +68739,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="ikchannelmode"></a>
 
 ## 📋 IKChannelMode
 
@@ -64320,6 +68762,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="ikdemocapturesettings_t"></a>
 
 ## 🔌 IKDemoCaptureSettings_t
 
@@ -64343,6 +68787,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="iksolversettings_t"></a>
+
 ## 🔌 IKSolverSettings_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64362,6 +68808,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="iksolvertype"></a>
 
 ## 📋 IKSolverType
 
@@ -64386,6 +68834,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="iktargetcoordinatesystem"></a>
+
 ## 📋 IKTargetCoordinateSystem
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64405,6 +68855,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="iktargetsettings_t"></a>
 
 ## 🔌 IKTargetSettings_t
 
@@ -64428,6 +68880,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="iktargetsource"></a>
+
 ## 📋 IKTargetSource
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64448,6 +68902,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="iparticlecollection"></a>
+
 ## 🔌 IParticleCollection
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64459,6 +68915,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="iparticleeffect"></a>
 
 ## 🔌 IParticleEffect
 
@@ -64472,6 +68930,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="iparticlesystemdefinition"></a>
+
 ## 🔌 IParticleSystemDefinition
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64483,6 +68943,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="iphysicsplayercontroller"></a>
 
 ## 🔌 IPhysicsPlayerController
 
@@ -64496,6 +68958,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="iragdoll"></a>
+
 ## 🔌 IRagdoll
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64508,6 +68972,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="iskeletonanimationcontroller"></a>
+
 ## 🔌 ISkeletonAnimationController
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64519,6 +68985,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="ikendeffectortype"></a>
 
 ## 📋 IkEndEffectorType
 
@@ -64538,6 +69006,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="iktargettype"></a>
 
 ## 📋 IkTargetType
 
@@ -64560,6 +69030,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecanimdata"></a>
+
 ## 🔌 InfoForResourceTypeCAnimData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64571,6 +69043,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecanimationgroup"></a>
 
 ## 🔌 InfoForResourceTypeCAnimationGroup
 
@@ -64584,6 +69058,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypeccsgoeconitem"></a>
+
 ## 🔌 InfoForResourceTypeCCSGOEconItem
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64595,6 +69071,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecchoreoscenefilelist"></a>
 
 ## 🔌 InfoForResourceTypeCChoreoSceneFileList
 
@@ -64608,6 +69086,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecchoreosceneresource"></a>
+
 ## 🔌 InfoForResourceTypeCChoreoSceneResource
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64619,6 +69099,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypeccompositematerialkit"></a>
 
 ## 🔌 InfoForResourceTypeCCompositeMaterialKit
 
@@ -64632,6 +69114,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecdotanovelslist"></a>
+
 ## 🔌 InfoForResourceTypeCDOTANovelsList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64643,6 +69127,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecdotapatchnoteslist"></a>
 
 ## 🔌 InfoForResourceTypeCDOTAPatchNotesList
 
@@ -64656,6 +69142,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecdotaitemdefinitionresource"></a>
+
 ## 🔌 InfoForResourceTypeCDotaItemDefinitionResource
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64667,6 +69155,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecentitylump"></a>
 
 ## 🔌 InfoForResourceTypeCEntityLump
 
@@ -64680,6 +69170,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecgcexportableexternaldata"></a>
+
 ## 🔌 InfoForResourceTypeCGcExportableExternalData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64691,6 +69183,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecjavascriptresource"></a>
 
 ## 🔌 InfoForResourceTypeCJavaScriptResource
 
@@ -64704,6 +69198,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecmodel"></a>
+
 ## 🔌 InfoForResourceTypeCModel
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64715,6 +69211,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecmorphsetdata"></a>
 
 ## 🔌 InfoForResourceTypeCMorphSetData
 
@@ -64728,6 +69226,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecnmclip"></a>
+
 ## 🔌 InfoForResourceTypeCNmClip
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64739,6 +69239,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecnmgraphdefinition"></a>
 
 ## 🔌 InfoForResourceTypeCNmGraphDefinition
 
@@ -64752,6 +69254,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecnmikrig"></a>
+
 ## 🔌 InfoForResourceTypeCNmIKRig
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64763,6 +69267,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecnmskeleton"></a>
 
 ## 🔌 InfoForResourceTypeCNmSkeleton
 
@@ -64776,6 +69282,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecpanoramadynamicimages"></a>
+
 ## 🔌 InfoForResourceTypeCPanoramaDynamicImages
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64787,6 +69295,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecpanoramalayout"></a>
 
 ## 🔌 InfoForResourceTypeCPanoramaLayout
 
@@ -64800,6 +69310,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecpanoramastyle"></a>
+
 ## 🔌 InfoForResourceTypeCPanoramaStyle
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64811,6 +69323,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecphysaggregatedata"></a>
 
 ## 🔌 InfoForResourceTypeCPhysAggregateData
 
@@ -64824,6 +69338,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecpostprocessingresource"></a>
+
 ## 🔌 InfoForResourceTypeCPostProcessingResource
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64835,6 +69351,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecrendermesh"></a>
 
 ## 🔌 InfoForResourceTypeCRenderMesh
 
@@ -64848,6 +69366,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecresourcemanifestinternal"></a>
+
 ## 🔌 InfoForResourceTypeCResourceManifestInternal
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64859,6 +69379,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecresponseruleslist"></a>
 
 ## 🔌 InfoForResourceTypeCResponseRulesList
 
@@ -64872,6 +69394,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecsequencegroupdata"></a>
+
 ## 🔌 InfoForResourceTypeCSequenceGroupData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64883,6 +69407,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecsmartprop"></a>
 
 ## 🔌 InfoForResourceTypeCSmartProp
 
@@ -64896,6 +69422,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecsurfacegraph"></a>
+
 ## 🔌 InfoForResourceTypeCSurfaceGraph
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64907,6 +69435,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypectestresourcedata"></a>
 
 ## 🔌 InfoForResourceTypeCTestResourceData
 
@@ -64920,6 +69450,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypectexturebase"></a>
+
 ## 🔌 InfoForResourceTypeCTextureBase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64931,6 +69463,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypectypescriptresource"></a>
 
 ## 🔌 InfoForResourceTypeCTypeScriptResource
 
@@ -64944,6 +69478,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecvdataresource"></a>
+
 ## 🔌 InfoForResourceTypeCVDataResource
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64955,6 +69491,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecvmixlistresource"></a>
 
 ## 🔌 InfoForResourceTypeCVMixListResource
 
@@ -64968,6 +69506,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecvphysxsurfacepropertieslist"></a>
+
 ## 🔌 InfoForResourceTypeCVPhysXSurfacePropertiesList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -64979,6 +69519,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecvsoundeventscriptlist"></a>
 
 ## 🔌 InfoForResourceTypeCVSoundEventScriptList
 
@@ -64992,6 +69534,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecvsoundstackscriptlist"></a>
+
 ## 🔌 InfoForResourceTypeCVSoundStackScriptList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65003,6 +69547,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecvoicecontainerbase"></a>
 
 ## 🔌 InfoForResourceTypeCVoiceContainerBase
 
@@ -65016,6 +69562,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypecvoxelvisibility"></a>
+
 ## 🔌 InfoForResourceTypeCVoxelVisibility
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65027,6 +69575,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypecworldnode"></a>
 
 ## 🔌 InfoForResourceTypeCWorldNode
 
@@ -65040,6 +69590,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypeianimgraphmodelbinding"></a>
+
 ## 🔌 InfoForResourceTypeIAnimGraphModelBinding
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65051,6 +69603,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypeimaterial2"></a>
 
 ## 🔌 InfoForResourceTypeIMaterial2
 
@@ -65064,6 +69618,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypeiparticlesnapshot"></a>
+
 ## 🔌 InfoForResourceTypeIParticleSnapshot
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65075,6 +69631,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypeiparticlesystemdefinition"></a>
 
 ## 🔌 InfoForResourceTypeIParticleSystemDefinition
 
@@ -65088,6 +69646,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypeipulsegraphdef"></a>
+
 ## 🔌 InfoForResourceTypeIPulseGraphDef
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65099,6 +69659,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypeivectorgraphic"></a>
 
 ## 🔌 InfoForResourceTypeIVectorGraphic
 
@@ -65112,6 +69674,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypemanifesttestresource_t"></a>
+
 ## 🔌 InfoForResourceTypeManifestTestResource_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65123,6 +69687,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="infoforresourcetypeproceduraltestresource_t"></a>
 
 ## 🔌 InfoForResourceTypeProceduralTestResource_t
 
@@ -65136,6 +69702,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypevmapresourcedata_t"></a>
+
 ## 🔌 InfoForResourceTypeVMapResourceData_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65148,6 +69716,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="infoforresourcetypeworld_t"></a>
+
 ## 🔌 InfoForResourceTypeWorld_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65159,6 +69729,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="inheritablebooltype_t"></a>
 
 ## 📋 InheritableBoolType_t
 
@@ -65179,6 +69751,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="inputbitmask_t"></a>
 
 ## 📋 InputBitMask_t
 
@@ -65218,6 +69792,8 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="inputlayoutvariation_t"></a>
+
 ## 📋 InputLayoutVariation_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65238,6 +69814,8 @@ void SpottedByMaskUpdated()
 
 
 ---
+
+<a id="intervaltimer"></a>
 
 ## 🔌 IntervalTimer
 
@@ -65272,6 +69850,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="itemflagtypes_t"></a>
+
 ## 📋 ItemFlagTypes_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65298,6 +69878,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="jigglebonesettingslist_t"></a>
+
 ## 🔌 JiggleBoneSettingsList_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65315,6 +69897,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="jigglebonesettings_t"></a>
 
 ## 🔌 JiggleBoneSettings_t
 
@@ -65340,6 +69924,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="jigglebonesimspace"></a>
+
 ## 📋 JiggleBoneSimSpace
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65359,6 +69945,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="jointaxis_t"></a>
 
 ## 📋 JointAxis_t
 
@@ -65381,6 +69969,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="jointmotion_t"></a>
+
 ## 📋 JointMotion_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65401,6 +69991,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="jumpcorrectionmethod"></a>
+
 ## 📋 JumpCorrectionMethod
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65419,6 +70011,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="latchdirtypermission_t"></a>
 
 ## 📋 LatchDirtyPermission_t
 
@@ -65443,6 +70037,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="layoutpositiontype_e"></a>
+
 ## 📋 LayoutPositionType_e
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65463,6 +70059,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="lessonpanellayoutfiletypes_t"></a>
+
 ## 📋 LessonPanelLayoutFileTypes_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65482,6 +70080,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="lifestate_t"></a>
 
 ## 📋 LifeState_t
 
@@ -65506,6 +70106,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="linearrootmotionblendmode_t"></a>
+
 ## 📋 LinearRootMotionBlendMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65526,6 +70128,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="lookatbone_t"></a>
+
 ## 🔌 LookAtBone_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65544,6 +70148,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="lookatopfixedsettings_t"></a>
 
 ## 🔌 LookAtOpFixedSettings_t
 
@@ -65573,6 +70179,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="manifesttestresource_t"></a>
+
 ## 🔌 ManifestTestResource_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65592,6 +70200,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="materialgroup_t"></a>
+
 ## 🔌 MaterialGroup_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65610,6 +70220,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="materialoverride_t"></a>
 
 ## 🔌 MaterialOverride_t
 
@@ -65634,6 +70246,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="materialparambuffer_t"></a>
+
 ## 🔌 MaterialParamBuffer_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65653,6 +70267,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="materialparamfloat_t"></a>
 
 ## 🔌 MaterialParamFloat_t
 
@@ -65674,6 +70290,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="materialparamint_t"></a>
+
 ## 🔌 MaterialParamInt_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65693,6 +70311,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="materialparamstring_t"></a>
 
 ## 🔌 MaterialParamString_t
 
@@ -65714,6 +70334,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="materialparamtexture_t"></a>
+
 ## 🔌 MaterialParamTexture_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65733,6 +70355,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="materialparamvector_t"></a>
 
 ## 🔌 MaterialParamVector_t
 
@@ -65754,6 +70378,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="materialparam_t"></a>
+
 ## 🔌 MaterialParam_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65771,6 +70397,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="materialproxytype_t"></a>
 
 ## 📋 MaterialProxyType_t
 
@@ -65790,6 +70418,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="materialresourcedata_t"></a>
 
 ## 🔌 MaterialResourceData_t
 
@@ -65822,6 +70452,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="materialvariable_t"></a>
+
 ## 🔌 MaterialVariable_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65841,6 +70473,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="materials"></a>
 
 ## 📋 Materials
 
@@ -65871,6 +70505,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="matterialattributetagtype_t"></a>
+
 ## 📋 MatterialAttributeTagType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65889,6 +70525,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="medalrank_t"></a>
 
 ## 📋 MedalRank_t
 
@@ -65911,6 +70549,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="meshdrawprimitiveflags_t"></a>
 
 ## 📋 MeshDrawPrimitiveFlags_t
 
@@ -65937,6 +70577,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="missingparentinheritbehavior_t"></a>
+
 ## 📋 MissingParentInheritBehavior_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65958,6 +70600,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="modelanimgraph2ref_t"></a>
+
 ## 🔌 ModelAnimGraph2Ref_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -65976,6 +70620,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="modelboneflexcomponent_t"></a>
 
 ## 📋 ModelBoneFlexComponent_t
 
@@ -65997,6 +70643,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="modelboneflexdrivercontrol_t"></a>
 
 ## 🔌 ModelBoneFlexDriverControl_t
 
@@ -66020,6 +70668,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="modelboneflexdriver_t"></a>
+
 ## 🔌 ModelBoneFlexDriver_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66039,6 +70689,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="modelconfigattachmenttype_t"></a>
 
 ## 📋 ModelConfigAttachmentType_t
 
@@ -66062,6 +70714,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="modelconfighandle_t"></a>
+
 ## 🔌 ModelConfigHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66079,6 +70733,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="modelembeddedmesh_t"></a>
 
 ## 🔌 ModelEmbeddedMesh_t
 
@@ -66106,6 +70762,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="modelhitboxtype_t"></a>
+
 ## 📋 ModelHitboxType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66126,6 +70784,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="modelmeshbufferdata_t"></a>
 
 ## 🔌 ModelMeshBufferData_t
 
@@ -66156,6 +70816,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="modelmeshbufferusage_t"></a>
+
 ## 📋 ModelMeshBufferUsage_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66180,6 +70842,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="modelreference_t"></a>
+
 ## 🔌 ModelReference_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66198,6 +70862,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="modelskeletondata_t"></a>
 
 ## 🔌 ModelSkeletonData_t
 
@@ -66222,6 +70888,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="modelskeletondata_t__boneflags_t"></a>
 
 ## 📋 ModelSkeletonData_t__BoneFlags_t
 
@@ -66262,6 +70930,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="modifydamagereturn_t"></a>
+
 ## 📋 ModifyDamageReturn_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66280,6 +70950,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="moodanimationlayer_t"></a>
 
 ## 🔌 MoodAnimationLayer_t
 
@@ -66310,6 +70982,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="moodanimation_t"></a>
+
 ## 🔌 MoodAnimation_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66329,6 +71003,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="moodtype_t"></a>
+
 ## 📋 MoodType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66347,6 +71023,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="morphbundletype_t"></a>
 
 ## 📋 MorphBundleType_t
 
@@ -66369,6 +71047,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="morphflexcontrollerremaptype_t"></a>
+
 ## 📋 MorphFlexControllerRemapType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66390,6 +71070,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="motionblenditem"></a>
+
 ## 🔌 MotionBlendItem
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66409,6 +71091,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="motiondbindex"></a>
+
 ## 🔌 MotionDBIndex
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66426,6 +71110,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="motionindex"></a>
 
 ## 🔌 MotionIndex
 
@@ -66445,6 +71131,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="movecollide_t"></a>
 
 ## 📋 MoveCollide_t
 
@@ -66469,6 +71157,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="movelinearauthoredpos_t"></a>
+
 ## 📋 MoveLinearAuthoredPos_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66488,6 +71178,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="movemountingamount_t"></a>
 
 ## 📋 MoveMountingAmount_t
 
@@ -66509,6 +71201,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="movetype_t"></a>
 
 ## 📋 MoveType_t
 
@@ -66541,6 +71235,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="movementcapability_t"></a>
+
 ## 📋 MovementCapability_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66566,6 +71262,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="movementgaitid_t"></a>
+
 ## 🔌 MovementGaitId_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66583,6 +71281,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="npcfollowformation_t"></a>
 
 ## 📋 NPCFollowFormation_t
 
@@ -66606,6 +71306,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="npcphysicshulltype_t"></a>
+
 ## 📋 NPCPhysicsHullType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66627,6 +71329,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="navattributeenum"></a>
 
 ## 📋 NavAttributeEnum
 
@@ -66665,6 +71369,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="navdirtype"></a>
+
 ## 📋 NavDirType
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66687,6 +71393,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="navgravity_t"></a>
+
 ## 🔌 NavGravity_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66705,6 +71413,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="navscopeflags_t"></a>
 
 ## 📋 NavScopeFlags_t
 
@@ -66726,6 +71436,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="navscope_t"></a>
 
 ## 📋 NavScope_t
 
@@ -66749,6 +71461,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmbonemasksetdefinition_t"></a>
+
 ## 🔌 NmBoneMaskSetDefinition_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66768,6 +71482,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmcachedvaluemode_t"></a>
+
 ## 📋 NmCachedValueMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66786,6 +71502,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmcompressionsettings_t"></a>
 
 ## 🔌 NmCompressionSettings_t
 
@@ -66812,6 +71530,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmcompressionsettings_t__quantizationrange_t"></a>
+
 ## 🔌 NmCompressionSettings_t__QuantizationRange_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66830,6 +71550,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmeasingfunction_t"></a>
 
 ## 📋 NmEasingFunction_t
 
@@ -66856,6 +71578,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmeasingoperation_t"></a>
 
 ## 📋 NmEasingOperation_t
 
@@ -66897,6 +71621,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmeventconditionrules_t"></a>
+
 ## 📋 NmEventConditionRules_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66923,6 +71649,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmfloatcurvecompressionsettings_t"></a>
+
 ## 🔌 NmFloatCurveCompressionSettings_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -66941,6 +71669,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmfollowbonemode_t"></a>
 
 ## 📋 NmFollowBoneMode_t
 
@@ -66961,6 +71691,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmfootphasecondition_t"></a>
 
 ## 📋 NmFootPhaseCondition_t
 
@@ -66986,6 +71718,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmfootphase_t"></a>
+
 ## 📋 NmFootPhase_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67008,6 +71742,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmframesnapeventmode_t"></a>
+
 ## 📋 NmFrameSnapEventMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67026,6 +71762,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmgrapheventtypecondition_t"></a>
 
 ## 📋 NmGraphEventTypeCondition_t
 
@@ -67049,6 +71787,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmgraphvaluetype_t"></a>
 
 ## 📋 NmGraphValueType_t
 
@@ -67076,6 +71816,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmikblendmode_t"></a>
+
 ## 📋 NmIKBlendMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67095,6 +71837,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmpercent_t"></a>
+
 ## 🔌 NmPercent_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67112,6 +71856,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmposeblendmode_t"></a>
 
 ## 📋 NmPoseBlendMode_t
 
@@ -67132,6 +71878,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmrootmotionblendmode_t"></a>
 
 ## 📋 NmRootMotionBlendMode_t
 
@@ -67154,6 +71902,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmsynctracktimerange_t"></a>
+
 ## 🔌 NmSyncTrackTimeRange_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67173,6 +71923,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmsynctracktime_t"></a>
+
 ## 🔌 NmSyncTrackTime_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67191,6 +71943,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmtargetwarpalgorithm_t"></a>
 
 ## 📋 NmTargetWarpAlgorithm_t
 
@@ -67212,6 +71966,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nmtargetwarprule_t"></a>
 
 ## 📋 NmTargetWarpRule_t
 
@@ -67235,6 +71991,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmtransitionrulecondition_t"></a>
+
 ## 📋 NmTransitionRuleCondition_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67256,6 +72014,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="nmtransitionrule_t"></a>
+
 ## 📋 NmTransitionRule_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67275,6 +72035,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="nodedata_t"></a>
 
 ## 🔌 NodeData_t
 
@@ -67299,6 +72061,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="objecttypeflags_t"></a>
 
 ## 📋 ObjectTypeFlags_t
 
@@ -67332,6 +72096,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="observerinterpstate_t"></a>
+
 ## 📋 ObserverInterpState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67352,6 +72118,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="observermode_t"></a>
 
 ## 📋 ObserverMode_t
 
@@ -67375,6 +72143,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="oldfeedge_t"></a>
 
 ## 🔌 OldFeEdge_t
 
@@ -67405,6 +72175,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="onframe"></a>
+
 ## 📋 OnFrame
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67424,6 +72196,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="orientationwarpmode_t"></a>
 
 ## 📋 OrientationWarpMode_t
 
@@ -67445,6 +72219,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="orientationwarprootmotionsource_t"></a>
+
 ## 📋 OrientationWarpRootMotionSource_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67464,6 +72240,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="orientationwarptargetoffsetmode_t"></a>
 
 ## 📋 OrientationWarpTargetOffsetMode_t
 
@@ -67486,6 +72264,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="outofpvsupdates_t"></a>
+
 ## 📋 OutOfPVSUpdates_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67506,6 +72286,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="outflowwithrequirements_t"></a>
 
 ## 🔌 OutflowWithRequirements_t
 
@@ -67528,6 +72310,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particle_ehandle__"></a>
+
 ## 🔌 PARTICLE_EHANDLE__
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67545,6 +72329,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="pfnoisemodifier_t"></a>
 
 ## 📋 PFNoiseModifier_t
 
@@ -67566,6 +72352,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="pfnoiseturbulence_t"></a>
 
 ## 📋 PFNoiseTurbulence_t
 
@@ -67590,6 +72378,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="pfnoisetype_t"></a>
+
 ## 📋 PFNoiseType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67610,6 +72400,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="pfuncvisualizationtype_t"></a>
 
 ## 📋 PFuncVisualizationType_t
 
@@ -67634,6 +72426,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="pgdinstruction_t"></a>
 
 ## 🔌 PGDInstruction_t
 
@@ -67664,6 +72458,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="packedaabb_t"></a>
+
 ## 🔌 PackedAABB_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67683,6 +72479,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="paramspansample_t"></a>
+
 ## 🔌 ParamSpanSample_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67701,6 +72499,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="paramspan_t"></a>
 
 ## 🔌 ParamSpan_t
 
@@ -67724,6 +72524,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlealphareferencetype_t"></a>
+
 ## 📋 ParticleAlphaReferenceType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67744,6 +72546,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particleattachment_t"></a>
 
 ## 📋 ParticleAttachment_t
 
@@ -67780,6 +72584,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particleattrboxflags_t"></a>
+
 ## 📋 ParticleAttrBoxFlags_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67804,6 +72610,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particleattributeindex_t"></a>
+
 ## 🔌 ParticleAttributeIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67813,6 +72621,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlechildreninfo_t"></a>
 
 ## 🔌 ParticleChildrenInfo_t
 
@@ -67835,6 +72645,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlecollisiongroup_t"></a>
 
 ## 📋 ParticleCollisionGroup_t
 
@@ -67859,6 +72671,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlecollisionmask_t"></a>
 
 ## 📋 ParticleCollisionMask_t
 
@@ -67887,6 +72701,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlecollisionmode_t"></a>
+
 ## 📋 ParticleCollisionMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67909,6 +72725,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlecolorblendmode_t"></a>
+
 ## 📋 ParticleColorBlendMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67930,6 +72748,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlecolorblendtype_t"></a>
 
 ## 📋 ParticleColorBlendType_t
 
@@ -67961,6 +72781,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlecontrolpointaxis_t"></a>
+
 ## 📋 ParticleControlPointAxis_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -67984,6 +72806,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlecontrolpointconfiguration_t"></a>
+
 ## 🔌 ParticleControlPointConfiguration_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68003,6 +72827,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlecontrolpointdriver_t"></a>
 
 ## 🔌 ParticleControlPointDriver_t
 
@@ -68027,6 +72853,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particledepthfeatheringmode_t"></a>
+
 ## 📋 ParticleDepthFeatheringMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68046,6 +72874,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particledetaillevel_t"></a>
 
 ## 📋 ParticleDetailLevel_t
 
@@ -68068,6 +72898,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particledirectionnoisetype_t"></a>
+
 ## 📋 ParticleDirectionNoiseType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68087,6 +72919,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particleendcapmode_t"></a>
 
 ## 📋 ParticleEndcapMode_t
 
@@ -68108,6 +72942,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particleentitypos_t"></a>
+
 ## 📋 ParticleEntityPos_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68127,6 +72963,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlefallofffunction_t"></a>
 
 ## 📋 ParticleFalloffFunction_t
 
@@ -68148,6 +72986,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlefantype_t"></a>
+
 ## 📋 ParticleFanType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68167,6 +73007,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlefloatbiastype_t"></a>
 
 ## 📋 ParticleFloatBiasType_t
 
@@ -68190,6 +73032,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlefloatinputmode_t"></a>
+
 ## 📋 ParticleFloatInputMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68210,6 +73054,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlefloatmaptype_t"></a>
 
 ## 📋 ParticleFloatMapType_t
 
@@ -68237,6 +73083,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlefloatrandommode_t"></a>
+
 ## 📋 ParticleFloatRandomMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68257,6 +73105,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlefloatroundtype_t"></a>
 
 ## 📋 ParticleFloatRoundType_t
 
@@ -68279,6 +73129,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlefloattype_t"></a>
 
 ## 📋 ParticleFloatType_t
 
@@ -68328,6 +73180,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlefogtype_t"></a>
+
 ## 📋 ParticleFogType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68348,6 +73202,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlehitboxbiastype_t"></a>
+
 ## 📋 ParticleHitboxBiasType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68367,6 +73223,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlehitboxdataselection_t"></a>
+
 ## 📋 ParticleHitboxDataSelection_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68385,6 +73243,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particleimpulsetype_t"></a>
 
 ## 📋 ParticleImpulseType_t
 
@@ -68409,6 +73269,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particleindex_t"></a>
+
 ## 🔌 ParticleIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68426,6 +73288,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlelightbehaviorchoicelist_t"></a>
 
 ## 📋 ParticleLightBehaviorChoiceList_t
 
@@ -68447,6 +73311,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlelightfoglightingmode_t"></a>
+
 ## 📋 ParticleLightFogLightingMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68466,6 +73332,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlelighttypechoicelist_t"></a>
 
 ## 📋 ParticleLightTypeChoiceList_t
 
@@ -68488,6 +73356,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlelightunitchoicelist_t"></a>
+
 ## 📋 ParticleLightUnitChoiceList_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68506,6 +73376,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlelightingquality_t"></a>
 
 ## 📋 ParticleLightingQuality_t
 
@@ -68530,6 +73402,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlelightnintbranchbehavior_t"></a>
+
 ## 📋 ParticleLightnintBranchBehavior_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68548,6 +73422,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particleliquidcontents_t"></a>
 
 ## 📋 ParticleLiquidContents_t
 
@@ -68569,6 +73445,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlemassmode_t"></a>
+
 ## 📋 ParticleMassMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68587,6 +73465,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlemodeltype_t"></a>
 
 ## 📋 ParticleModelType_t
 
@@ -68609,6 +73489,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlenamedvalueconfiguration_t"></a>
 
 ## 🔌 ParticleNamedValueConfiguration_t
 
@@ -68633,6 +73515,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlenamedvaluesource_t"></a>
+
 ## 🔌 ParticleNamedValueSource_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68653,6 +73537,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlenode_t"></a>
 
 ## 🔌 ParticleNode_t
 
@@ -68678,6 +73564,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particleomni2lighttypechoicelist_t"></a>
+
 ## 📋 ParticleOmni2LightTypeChoiceList_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68696,6 +73584,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particleorientationchoicelist_t"></a>
 
 ## 📋 ParticleOrientationChoiceList_t
 
@@ -68720,6 +73610,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particleorientationsetmode_t"></a>
+
 ## 📋 ParticleOrientationSetMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68741,6 +73633,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particleorientationtype_t"></a>
+
 ## 📋 ParticleOrientationType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68761,6 +73655,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particleoutputblendmode_t"></a>
 
 ## 📋 ParticleOutputBlendMode_t
 
@@ -68786,6 +73682,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particleparentsetmode_t"></a>
+
 ## 📋 ParticleParentSetMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68805,6 +73703,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlepindistance_t"></a>
 
 ## 📋 ParticlePinDistance_t
 
@@ -68835,6 +73735,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlepostprocessprioritygroup_t"></a>
+
 ## 📋 ParticlePostProcessPriorityGroup_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68858,6 +73760,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlepreviewbodygroup_t"></a>
+
 ## 🔌 ParticlePreviewBodyGroup_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68876,6 +73780,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlepreviewstate_t"></a>
 
 ## 🔌 ParticlePreviewState_t
 
@@ -68911,6 +73817,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlereplicationmode_t"></a>
+
 ## 📋 ParticleReplicationMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68929,6 +73837,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlerotationlocktype_t"></a>
 
 ## 📋 ParticleRotationLockType_t
 
@@ -68950,6 +73860,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particleselection_t"></a>
+
 ## 📋 ParticleSelection_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68970,6 +73882,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlesequencecropoverride_t"></a>
+
 ## 📋 ParticleSequenceCropOverride_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -68989,6 +73903,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlesetmethod_t"></a>
 
 ## 📋 ParticleSetMethod_t
 
@@ -69013,6 +73929,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlesortingchoicelist_t"></a>
+
 ## 📋 ParticleSortingChoiceList_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69031,6 +73949,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particletexturelayerblendtype_t"></a>
 
 ## 📋 ParticleTextureLayerBlendType_t
 
@@ -69056,6 +73976,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particletopology_t"></a>
+
 ## 📋 ParticleTopology_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69078,6 +74000,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particletracemissbehavior_t"></a>
+
 ## 📋 ParticleTraceMissBehavior_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69097,6 +74021,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particletraceset_t"></a>
 
 ## 📋 ParticleTraceSet_t
 
@@ -69118,6 +74044,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particletransformtype_t"></a>
 
 ## 📋 ParticleTransformType_t
 
@@ -69141,6 +74069,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particlevrhandchoicelist_t"></a>
+
 ## 📋 ParticleVRHandChoiceList_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69161,6 +74091,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="particlevectype_t"></a>
 
 ## 📋 ParticleVecType_t
 
@@ -69199,6 +74131,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="performancemode_t"></a>
+
 ## 📋 PerformanceMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69217,6 +74151,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="permentitylumpdata_t"></a>
 
 ## 🔌 PermEntityLumpData_t
 
@@ -69237,6 +74173,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="permmodeldataanimatedmaterialattribute_t"></a>
+
 ## 🔌 PermModelDataAnimatedMaterialAttribute_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69246,6 +74184,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="permmodeldata_t"></a>
 
 ## 🔌 PermModelData_t
 
@@ -69289,6 +74229,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="permmodelextpart_t"></a>
+
 ## 🔌 PermModelExtPart_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69309,6 +74251,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="permmodelinfo_t"></a>
 
 ## 🔌 PermModelInfo_t
 
@@ -69336,6 +74280,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="permmodelinfo_t__flagenum"></a>
 
 ## 📋 PermModelInfo_t__FlagEnum
 
@@ -69369,6 +74315,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="petgroundtype_t"></a>
+
 ## 📋 PetGroundType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69388,6 +74336,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="physfemodeldesc_t"></a>
 
 ## 🔌 PhysFeModelDesc_t
 
@@ -69516,6 +74466,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="physshapemarkup_t"></a>
+
 ## 🔌 PhysShapeMarkup_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69535,6 +74487,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="physsoftbodydesc_t"></a>
 
 ## 🔌 PhysSoftbodyDesc_t
 
@@ -69559,6 +74513,8 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="physicsparticleid_t"></a>
+
 ## 🔌 PhysicsParticleId_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69576,6 +74532,8 @@ void WorldGroupIdUpdated()
 
 
 ---
+
+<a id="physicsragdollpose_t"></a>
 
 ## 🔌 PhysicsRagdollPose_t
 
@@ -69611,6 +74569,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="playbackmode_t"></a>
+
 ## 📋 PlayBackMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69632,6 +74592,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="playerconnectedstate"></a>
 
 ## 📋 PlayerConnectedState
 
@@ -69657,6 +74619,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="pointcamerasettings_t"></a>
+
 ## 🔌 PointCameraSettings_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69678,6 +74642,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="pointdefinitionwithtimevalues_t"></a>
+
 ## 🔌 PointDefinitionWithTimeValues_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69697,6 +74663,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="pointdefinition_t"></a>
 
 ## 🔌 PointDefinition_t
 
@@ -69718,6 +74686,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="pointorientconstraint_t"></a>
+
 ## 📋 PointOrientConstraint_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69736,6 +74706,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="pointorientgoaldirectiontype_t"></a>
 
 ## 📋 PointOrientGoalDirectionType_t
 
@@ -69759,6 +74731,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="pointtemplateclientonlyentitybehavior_t"></a>
+
 ## 📋 PointTemplateClientOnlyEntityBehavior_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69777,6 +74751,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="pointtemplateownerspawngrouptype_t"></a>
 
 ## 📋 PointTemplateOwnerSpawnGroupType_t
 
@@ -69798,6 +74774,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="pointworldtextjustifyhorizontal_t"></a>
+
 ## 📋 PointWorldTextJustifyHorizontal_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69817,6 +74795,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="pointworldtextjustifyvertical_t"></a>
 
 ## 📋 PointWorldTextJustifyVertical_t
 
@@ -69838,6 +74818,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="pointworldtextreorientmode_t"></a>
+
 ## 📋 PointWorldTextReorientMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69856,6 +74838,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="posetype_t"></a>
 
 ## 📋 PoseType_t
 
@@ -69876,6 +74860,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="postprocessingbloomparameters_t"></a>
 
 ## 🔌 PostProcessingBloomParameters_t
 
@@ -69910,6 +74896,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="postprocessingfogscatteringparameters_t"></a>
+
 ## 🔌 PostProcessingFogScatteringParameters_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69932,6 +74920,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="postprocessinglocalcontrastparameters_t"></a>
+
 ## 🔌 PostProcessingLocalContrastParameters_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -69953,6 +74943,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="postprocessingresource_t"></a>
 
 ## 🔌 PostProcessingResource_t
 
@@ -69983,6 +74975,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="postprocessingtonemapparameters_t"></a>
 
 ## 🔌 PostProcessingTonemapParameters_t
 
@@ -70016,6 +75010,8 @@ void OwnerUpdated()
 
 ---
 
+<a id="postprocessingvignetteparameters_t"></a>
+
 ## 🔌 PostProcessingVignetteParameters_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70038,6 +75034,8 @@ void OwnerUpdated()
 
 
 ---
+
+<a id="predicteddamagetag_t"></a>
 
 ## 🔌 PredictedDamageTag_t
 
@@ -70086,6 +75084,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="previewcharactermode"></a>
+
 ## 📋 PreviewCharacterMode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70113,6 +75113,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="previeweomcelebration"></a>
 
 ## 📋 PreviewEOMCelebration
 
@@ -70155,6 +75157,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="previewweaponstate"></a>
+
 ## 📋 PreviewWeaponState
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70178,6 +75182,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="propdoorrotatingopendirection_e"></a>
+
 ## 📋 PropDoorRotatingOpenDirection_e
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70197,6 +75203,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="propdoorrotatingspawnpos_t"></a>
 
 ## 📋 PropDoorRotatingSpawnPos_t
 
@@ -70218,6 +75226,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulseapifeature_t"></a>
 
 ## 📋 PulseApiFeature_t
 
@@ -70242,6 +75252,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsebestoutflowrules_t"></a>
+
 ## 📋 PulseBestOutflowRules_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70261,6 +75273,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsecollisiongroup_t"></a>
+
 ## 📋 PulseCollisionGroup_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70278,6 +75292,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulsecursorcancelpriority_t"></a>
 
 ## 📋 PulseCursorCancelPriority_t
 
@@ -70300,6 +75316,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsecursorexecresult_t"></a>
+
 ## 📋 PulseCursorExecResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70321,6 +75339,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsecursorid_t"></a>
+
 ## 🔌 PulseCursorID_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70338,6 +75358,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulsecursoryieldtoken_t"></a>
 
 ## 🔌 PulseCursorYieldToken_t
 
@@ -70357,6 +75379,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsedocnodeid_t"></a>
+
 ## 🔌 PulseDocNodeID_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70374,6 +75398,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulsedomainvaluetype_t"></a>
 
 ## 📋 PulseDomainValueType_t
 
@@ -70395,6 +75421,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulsegraphexecutionhistorycursordesc_t"></a>
 
 ## 🔌 PulseGraphExecutionHistoryCursorDesc_t
 
@@ -70418,6 +75446,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsegraphexecutionhistoryentry_t"></a>
+
 ## 🔌 PulseGraphExecutionHistoryEntry_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70440,6 +75470,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsegraphexecutionhistorynodedesc_t"></a>
+
 ## 🔌 PulseGraphExecutionHistoryNodeDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70459,6 +75491,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsegraphinstanceid_t"></a>
+
 ## 🔌 PulseGraphInstanceID_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70476,6 +75510,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulseinstructioncode_t"></a>
 
 ## 📋 PulseInstructionCode_t
 
@@ -70619,6 +75655,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsemethodcallmode_t"></a>
+
 ## 📋 PulseMethodCallMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70637,6 +75675,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulsenpccondition_t"></a>
 
 ## 📋 PulseNPCCondition_t
 
@@ -70660,6 +75700,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsenodedynamicoutflows_t"></a>
+
 ## 🔌 PulseNodeDynamicOutflows_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70677,6 +75719,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulsenodedynamicoutflows_t__dynamicoutflow_t"></a>
 
 ## 🔌 PulseNodeDynamicOutflows_t__DynamicOutflow_t
 
@@ -70696,6 +75740,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulseobservableboolexpression_t"></a>
 
 ## 🔌 PulseObservableBoolExpression_t
 
@@ -70717,6 +75763,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulseregistermap_t"></a>
+
 ## 🔌 PulseRegisterMap_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70737,6 +75785,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulseruntimeblackboardreferenceindex_t"></a>
+
 ## 🔌 PulseRuntimeBlackboardReferenceIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70754,6 +75804,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulseruntimecallinfoindex_t"></a>
 
 ## 🔌 PulseRuntimeCallInfoIndex_t
 
@@ -70773,6 +75825,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulseruntimecellindex_t"></a>
+
 ## 🔌 PulseRuntimeCellIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70790,6 +75844,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulseruntimechunkindex_t"></a>
 
 ## 🔌 PulseRuntimeChunkIndex_t
 
@@ -70809,6 +75865,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulseruntimeconstantindex_t"></a>
+
 ## 🔌 PulseRuntimeConstantIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70826,6 +75884,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulseruntimedomainvalueindex_t"></a>
 
 ## 🔌 PulseRuntimeDomainValueIndex_t
 
@@ -70845,6 +75905,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulseruntimeentrypointindex_t"></a>
+
 ## 🔌 PulseRuntimeEntrypointIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70862,6 +75924,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulseruntimeinvokeindex_t"></a>
 
 ## 🔌 PulseRuntimeInvokeIndex_t
 
@@ -70881,6 +75945,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulseruntimeoutputindex_t"></a>
+
 ## 🔌 PulseRuntimeOutputIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70898,6 +75964,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulseruntimeregisterindex_t"></a>
 
 ## 🔌 PulseRuntimeRegisterIndex_t
 
@@ -70917,6 +75985,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulseruntimestateoffset_t"></a>
+
 ## 🔌 PulseRuntimeStateOffset_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70935,6 +76005,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulseruntimevarindex_t"></a>
+
 ## 🔌 PulseRuntimeVarIndex_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70952,6 +76024,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulsescriptedsequencedata_t"></a>
 
 ## 🔌 PulseScriptedSequenceData_t
 
@@ -70982,6 +76056,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulseselectoroutflowlist_t"></a>
+
 ## 🔌 PulseSelectorOutflowList_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -70999,6 +76075,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulsetestenumcolor_t"></a>
 
 ## 📋 PulseTestEnumColor_t
 
@@ -71022,6 +76100,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsetestenumshape_t"></a>
+
 ## 📋 PulseTestEnumShape_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71042,6 +76122,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsetracecontents_t"></a>
+
 ## 📋 PulseTraceContents_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71060,6 +76142,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="pulsevaluetype_t"></a>
 
 ## 📋 PulseValueType_t
 
@@ -71111,6 +76195,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="pulsevariablekeyssource_t"></a>
+
 ## 📋 PulseVariableKeysSource_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71134,6 +76220,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="questprogress"></a>
+
 ## 🔌 QuestProgress
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71145,6 +76233,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="questprogress__reason"></a>
 
 ## 📋 QuestProgress__Reason
 
@@ -71176,6 +76266,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rtproxyblas_t"></a>
+
 ## 🔌 RTProxyBLAS_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71202,6 +76294,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rtproxyinstanceflags_t"></a>
+
 ## 📋 RTProxyInstanceFlags_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71220,6 +76314,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rtproxyinstanceinfo_t"></a>
 
 ## 🔌 RTProxyInstanceInfo_t
 
@@ -71244,6 +76340,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="ragdollcreationparams_t"></a>
+
 ## 🔌 RagdollCreationParams_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71266,6 +76364,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="ragdollposecontrol"></a>
+
 ## 📋 RagdollPoseControl
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71283,6 +76383,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="relationshipoverride_t"></a>
 
 ## 🔌 RelationshipOverride_t
 
@@ -71305,6 +76407,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="relationship_t"></a>
+
 ## 🔌 Relationship_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71323,6 +76427,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="relativelocationtype_t"></a>
 
 ## 📋 RelativeLocationType_t
 
@@ -71344,6 +76450,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="renderbufferflags_t"></a>
 
 ## 📋 RenderBufferFlags_t
 
@@ -71374,6 +76482,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="renderfx_t"></a>
 
 ## 📋 RenderFx_t
 
@@ -71410,6 +76520,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="renderhairstrandinfo_t"></a>
+
 ## 🔌 RenderHairStrandInfo_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71434,6 +76546,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="renderinputlayoutfield_t"></a>
+
 ## 🔌 RenderInputLayoutField_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71457,6 +76571,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rendermeshslottype_t"></a>
+
 ## 📋 RenderMeshSlotType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71476,6 +76592,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rendermode_t"></a>
 
 ## 📋 RenderMode_t
 
@@ -71498,6 +76616,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rendermodelsubmodelfieldtype_t"></a>
+
 ## 📋 RenderModelSubModelFieldType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71518,6 +76638,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rendermultisampletype_t"></a>
 
 ## 📋 RenderMultisampleType_t
 
@@ -71543,6 +76665,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="renderprimitivetype_t"></a>
 
 ## 📋 RenderPrimitiveType_t
 
@@ -71575,6 +76699,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="renderprojectedmaterial_t"></a>
+
 ## 🔌 RenderProjectedMaterial_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71592,6 +76718,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="renderskeletonbone_t"></a>
 
 ## 🔌 RenderSkeletonBone_t
 
@@ -71615,6 +76743,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="renderslottype_t"></a>
+
 ## 📋 RenderSlotType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71634,6 +76764,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="resetcycleoption"></a>
 
 ## 📋 ResetCycleOption
 
@@ -71657,6 +76789,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="resourceid_t"></a>
+
 ## 🔌 ResourceId_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71674,6 +76808,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="responsecontext_t"></a>
 
 ## 🔌 ResponseContext_t
 
@@ -71694,6 +76830,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="responsefollowup"></a>
 
 ## 🔌 ResponseFollowup
 
@@ -71720,6 +76858,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="responseparams"></a>
+
 ## 🔌 ResponseParams
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71739,6 +76879,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rnblendvertex_t"></a>
 
 ## 🔌 RnBlendVertex_t
 
@@ -71764,6 +76906,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rnbodydesc_t"></a>
 
 ## 🔌 RnBodyDesc_t
 
@@ -71818,6 +76962,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rncapsuledesc_t"></a>
+
 ## 🔌 RnCapsuleDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71838,6 +76984,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rncapsule_t"></a>
+
 ## 🔌 RnCapsule_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71857,6 +77005,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rnface_t"></a>
+
 ## 🔌 RnFace_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71874,6 +77024,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rnhalfedge_t"></a>
 
 ## 🔌 RnHalfEdge_t
 
@@ -71896,6 +77048,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rnhulldesc_t"></a>
+
 ## 🔌 RnHullDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71915,6 +77069,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rnhull_t"></a>
 
 ## 🔌 RnHull_t
 
@@ -71947,6 +77103,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rnmeshdesc_t"></a>
+
 ## 🔌 RnMeshDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -71966,6 +77124,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rnmesh_t"></a>
 
 ## 🔌 RnMesh_t
 
@@ -71995,6 +77155,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rnnode_t"></a>
+
 ## 🔌 RnNode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72016,6 +77178,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rnplane_t"></a>
+
 ## 🔌 RnPlane_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72034,6 +77198,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rnshapedesc_t"></a>
 
 ## 🔌 RnShapeDesc_t
 
@@ -72058,6 +77224,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rnsoftbodycapsule_t"></a>
+
 ## 🔌 RnSoftbodyCapsule_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72078,6 +77246,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rnsoftbodyparticle_t"></a>
+
 ## 🔌 RnSoftbodyParticle_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72095,6 +77265,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rnsoftbodyspring_t"></a>
 
 ## 🔌 RnSoftbodySpring_t
 
@@ -72114,6 +77286,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rnspheredesc_t"></a>
 
 ## 🔌 RnSphereDesc_t
 
@@ -72135,6 +77309,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rntriangle_t"></a>
+
 ## 🔌 RnTriangle_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72152,6 +77328,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rnvertex_t"></a>
 
 ## 🔌 RnVertex_t
 
@@ -72171,6 +77349,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rnwing_t"></a>
+
 ## 🔌 RnWing_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72188,6 +77368,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rotatorhistoryentry_t"></a>
 
 ## 🔌 RotatorHistoryEntry_t
 
@@ -72208,6 +77390,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rotatorqueueentry_t"></a>
+
 ## 🔌 RotatorQueueEntry_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72227,6 +77411,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rotatortargetspace_t"></a>
+
 ## 📋 RotatorTargetSpace_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72245,6 +77431,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rsblendstatedesc_t"></a>
 
 ## 🔌 RsBlendStateDesc_t
 
@@ -72274,6 +77462,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rscomparison_t"></a>
+
 ## 📋 RsComparison_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72299,6 +77489,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rscullmode_t"></a>
+
 ## 📋 RsCullMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72318,6 +77510,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rsdepthstencilstatedesc_t"></a>
 
 ## 🔌 RsDepthStencilStateDesc_t
 
@@ -72340,6 +77534,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="rsfillmode_t"></a>
+
 ## 📋 RsFillMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72358,6 +77554,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rsrasterizerstatedesc_t"></a>
 
 ## 🔌 RsRasterizerStateDesc_t
 
@@ -72382,6 +77580,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rsstencilstatedesc_t"></a>
 
 ## 🔌 RsStencilStateDesc_t
 
@@ -72410,6 +77610,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="rumbleeffect_t"></a>
 
 ## 📋 RumbleEffect_t
 
@@ -72455,6 +77657,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="samplecode"></a>
+
 ## 🔌 SampleCode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72472,6 +77676,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="scalarexpressiontype_t"></a>
 
 ## 📋 ScalarExpressionType_t
 
@@ -72502,6 +77708,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="sceneeventid_t"></a>
+
 ## 🔌 SceneEventId_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72519,6 +77727,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="sceneobject_t"></a>
 
 ## 🔌 SceneObject_t
 
@@ -72551,6 +77761,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="sceneonplayerdeath_t"></a>
+
 ## 📋 SceneOnPlayerDeath_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72570,6 +77782,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="scenerequesthandle_t"></a>
+
 ## 🔌 SceneRequestHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72587,6 +77801,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="sceneviewid_t"></a>
 
 ## 🔌 SceneViewId_t
 
@@ -72606,6 +77822,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="scriptinfo_t"></a>
 
 ## 🔌 ScriptInfo_t
 
@@ -72629,6 +77847,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="scriptedconflictresponse_t"></a>
+
 ## 📋 ScriptedConflictResponse_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72647,6 +77867,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="scriptedheldweaponbehavior_t"></a>
 
 ## 📋 ScriptedHeldWeaponBehavior_t
 
@@ -72668,6 +77890,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="scriptedmoveto_t"></a>
 
 ## 📋 ScriptedMoveTo_t
 
@@ -72692,6 +77916,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="scriptedondeath_t"></a>
+
 ## 📋 ScriptedOnDeath_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72713,6 +77939,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="selectededititeminfo_t"></a>
+
 ## 🔌 SelectedEditItemInfo_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72730,6 +77958,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="selectortagbehavior_t"></a>
 
 ## 📋 SelectorTagBehavior_t
 
@@ -72750,6 +77980,8 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 
 ---
+
+<a id="sellbackpurchaseentry_t"></a>
 
 ## 🔌 SellbackPurchaseEntry_t
 
@@ -72805,6 +78037,8 @@ void ItemUpdated()
 
 ---
 
+<a id="seqcmd_t"></a>
+
 ## 📋 SeqCmd_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72839,6 +78073,8 @@ void ItemUpdated()
 
 ---
 
+<a id="seqposesetting_t"></a>
+
 ## 📋 SeqPoseSetting_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72860,6 +78096,8 @@ void ItemUpdated()
 
 ---
 
+<a id="sequencefinishnotifystate_t"></a>
+
 ## 📋 SequenceFinishNotifyState_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72879,6 +78117,8 @@ void ItemUpdated()
 
 
 ---
+
+<a id="sequencehistory_t"></a>
 
 ## 🔌 SequenceHistory_t
 
@@ -72903,6 +78143,8 @@ void ItemUpdated()
 
 ---
 
+<a id="sequenceweightedlist_t"></a>
+
 ## 🔌 SequenceWeightedList_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72921,6 +78163,8 @@ void ItemUpdated()
 
 
 ---
+
+<a id="serverauthoritativeweaponslot_t"></a>
 
 ## 🔌 ServerAuthoritativeWeaponSlot_t
 
@@ -72962,6 +78206,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="setstatisticexpressiontype_t"></a>
+
 ## 📋 SetStatisticExpressionType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -72987,6 +78233,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="shadowtype_t"></a>
+
 ## 📋 ShadowType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73005,6 +78253,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="shakecommand_t"></a>
 
 ## 📋 ShakeCommand_t
 
@@ -73029,6 +78279,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="shardsolid_t"></a>
+
 ## 📋 ShardSolid_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73047,6 +78299,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="sharedmovementgait_t"></a>
 
 ## 📋 SharedMovementGait_t
 
@@ -73071,6 +78325,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="shatterdamagecause"></a>
+
 ## 📋 ShatterDamageCause
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73093,6 +78349,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="shatterglassstresstype"></a>
+
 ## 📋 ShatterGlassStressType
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73114,6 +78372,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="sheetsequenceintegerid_t"></a>
+
 ## 🔌 SheetSequenceIntegerId_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73132,6 +78392,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="signatureoutflow_continue"></a>
+
 ## 🔌 SignatureOutflow_Continue
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73146,6 +78408,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="signatureoutflow_resume"></a>
+
 ## 🔌 SignatureOutflow_Resume
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73159,6 +78423,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="simpleconstraintsoundprofile"></a>
 
 ## 🔌 SimpleConstraintSoundProfile
 
@@ -73182,6 +78448,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="simpleconstraintsoundprofile__simpleconstraintssoundprofilekeypoints_t"></a>
+
 ## 📋 SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73201,6 +78469,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="skeletonanimcapture_t"></a>
 
 ## 🔌 SkeletonAnimCapture_t
 
@@ -73229,6 +78499,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="skeletonanimcapture_t__bone_t"></a>
+
 ## 🔌 SkeletonAnimCapture_t__Bone_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73249,6 +78521,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="skeletonanimcapture_t__camera_t"></a>
+
 ## 🔌 SkeletonAnimCapture_t__Camera_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73267,6 +78541,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="skeletonanimcapture_t__framestamp_t"></a>
 
 ## 🔌 SkeletonAnimCapture_t__FrameStamp_t
 
@@ -73292,6 +78568,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="skeletonanimcapture_t__frame_t"></a>
 
 ## 🔌 SkeletonAnimCapture_t__Frame_t
 
@@ -73319,6 +78597,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="skeletonbonebounds_t"></a>
+
 ## 🔌 SkeletonBoneBounds_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73337,6 +78617,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="skeletondemodb_t"></a>
 
 ## 🔌 SkeletonDemoDb_t
 
@@ -73358,6 +78640,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="snapshotindextype_t"></a>
+
 ## 📋 SnapshotIndexType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73376,6 +78660,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="solidtype_t"></a>
 
 ## 📋 SolidType_t
 
@@ -73403,6 +78689,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="solveikchainanimnodedebugsetting"></a>
+
 ## 📋 SolveIKChainAnimNodeDebugSetting
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73427,6 +78715,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="solveikchainposeopfixedsettings_t"></a>
+
 ## 🔌 SolveIKChainPoseOpFixedSettings_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73444,6 +78734,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="sosactionlimitsorttype_t"></a>
 
 ## 📋 SosActionLimitSortType_t
 
@@ -73464,6 +78756,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="sosactionsetparamsorttype_t"></a>
+
 ## 📋 SosActionSetParamSortType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73482,6 +78776,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="sosactionstoptype_t"></a>
 
 ## 📋 SosActionStopType_t
 
@@ -73502,6 +78798,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="sosedititeminfo_t"></a>
 
 ## 🔌 SosEditItemInfo_t
 
@@ -73524,6 +78822,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="sosedititemtype_t"></a>
 
 ## 📋 SosEditItemType_t
 
@@ -73548,6 +78848,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="sosgroupfieldbehavior_t"></a>
+
 ## 📋 SosGroupFieldBehavior_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73568,6 +78870,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="sosgrouptype_t"></a>
+
 ## 📋 SosGroupType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73586,6 +78890,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="soundeventstarttype_t"></a>
 
 ## 📋 SoundEventStartType_t
 
@@ -73607,6 +78913,8 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="soundopvartraceresult_t"></a>
+
 ## 🔌 SoundOpvarTraceResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73626,6 +78934,8 @@ void ItemDefIdxUpdated()
 
 
 ---
+
+<a id="soundeventpathcornerpairnetworked_t"></a>
 
 ## 🔌 SoundeventPathCornerPairNetworked_t
 
@@ -73681,6 +78991,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="spawnpoint"></a>
+
 ## 🔌 SpawnPoint
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73702,6 +79014,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="spritecardperparticlescale_t"></a>
 
 ## 📋 SpriteCardPerParticleScale_t
 
@@ -73734,6 +79048,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="spritecardshadertype_t"></a>
+
 ## 📋 SpriteCardShaderType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73752,6 +79068,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="spritecardtexturechannel_t"></a>
 
 ## 📋 SpriteCardTextureChannel_t
 
@@ -73785,6 +79103,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="spritecardtexturetype_t"></a>
+
 ## 📋 SpriteCardTextureType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73814,6 +79134,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="stanceinfo_t"></a>
+
 ## 🔌 StanceInfo_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73833,6 +79155,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="stanceoverridemode"></a>
+
 ## 📋 StanceOverrideMode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73851,6 +79175,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="stancetype_t"></a>
 
 ## 📋 StanceType_t
 
@@ -73874,6 +79200,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="standardlightingattenuationstyle_t"></a>
+
 ## 📋 StandardLightingAttenuationStyle_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73892,6 +79220,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="stateactionbehavior"></a>
 
 ## 📋 StateActionBehavior
 
@@ -73915,6 +79245,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="stepphase"></a>
+
 ## 📋 StepPhase
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73933,6 +79265,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="subclassvdatachangetype_t"></a>
 
 ## 📋 SubclassVDataChangeType_t
 
@@ -73954,6 +79288,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="summarytakedamageinfo_t"></a>
+
 ## 🔌 SummaryTakeDamageInfo_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -73974,6 +79310,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="surroundingboundstype_t"></a>
 
 ## 📋 SurroundingBoundsType_t
 
@@ -74002,6 +79340,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="toggle_state"></a>
+
 ## 📋 TOGGLE_STATE
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74027,6 +79367,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="train_code"></a>
+
 ## 📋 TRAIN_CODE
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74047,6 +79389,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="tagspan_t"></a>
+
 ## 🔌 TagSpan_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74066,6 +79410,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="takedamageflags_t"></a>
 
 ## 📋 TakeDamageFlags_t
 
@@ -74106,6 +79452,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="targetselectoranglemode_t"></a>
+
 ## 📋 TargetSelectorAngleMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74124,6 +79472,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="targetwarpanglemode_t"></a>
 
 ## 📋 TargetWarpAngleMode_t
 
@@ -74144,6 +79494,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="targetwarpcorrectionmethod"></a>
+
 ## 📋 TargetWarpCorrectionMethod
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74162,6 +79514,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="targetwarptimingmethod"></a>
 
 ## 📋 TargetWarpTimingMethod
 
@@ -74182,6 +79536,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="testinputoutputcombinationsenum_t"></a>
+
 ## 📋 TestInputOutputCombinationsEnum_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74201,6 +79557,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="texturecontrols_t"></a>
 
 ## 🔌 TextureControls_t
 
@@ -74235,6 +79593,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="texturegroup_t"></a>
+
 ## 🔌 TextureGroup_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74261,6 +79621,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="texturerepetitionmode_t"></a>
+
 ## 📋 TextureRepetitionMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74279,6 +79641,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="threestate_t"></a>
 
 ## 📋 ThreeState_t
 
@@ -74299,6 +79663,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="timelinecompression_t"></a>
 
 ## 📋 TimelineCompression_t
 
@@ -74322,6 +79688,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="touch_t"></a>
+
 ## 📋 Touch_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74344,6 +79712,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="tracesettings_t"></a>
+
 ## 🔌 TraceSettings_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74362,6 +79732,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="trackorientationtype_t"></a>
 
 ## 📋 TrackOrientationType_t
 
@@ -74382,6 +79754,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="trainorientationtype_t"></a>
 
 ## 📋 TrainOrientationType_t
 
@@ -74404,6 +79778,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="trainvelocitytype_t"></a>
+
 ## 📋 TrainVelocityType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74423,6 +79799,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="twoboneiksettings_t"></a>
 
 ## 🔌 TwoBoneIKSettings_t
 
@@ -74456,6 +79834,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmapresourcedata_t"></a>
+
 ## 🔌 VMapResourceData_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74467,6 +79847,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixautofilterdesc_t"></a>
 
 ## 🔌 VMixAutoFilterDesc_t
 
@@ -74492,6 +79874,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixboxverb2desc_t"></a>
 
 ## 🔌 VMixBoxverb2Desc_t
 
@@ -74527,6 +79911,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixboxverbdesc_t"></a>
+
 ## 🔌 VMixBoxverbDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74561,6 +79947,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixchanneloperation_t"></a>
+
 ## 📋 VMixChannelOperation_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74583,6 +79971,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixconvolutiondesc_t"></a>
 
 ## 🔌 VMixConvolutionDesc_t
 
@@ -74609,6 +79999,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixdelaydesc_t"></a>
+
 ## 🔌 VMixDelayDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74633,6 +80025,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixdiffusordesc_t"></a>
+
 ## 🔌 VMixDiffusorDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74653,6 +80047,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixdualcompressordesc_t"></a>
 
 ## 🔌 VMixDualCompressorDesc_t
 
@@ -74675,6 +80071,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixdynamics3banddesc_t"></a>
 
 ## 🔌 VMixDynamics3BandDesc_t
 
@@ -74703,6 +80101,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixdynamicsband_t"></a>
+
 ## 🔌 VMixDynamicsBand_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74730,6 +80130,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixdynamicscompressordesc_t"></a>
+
 ## 🔌 VMixDynamicsCompressorDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74755,6 +80157,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixdynamicsdesc_t"></a>
 
 ## 🔌 VMixDynamicsDesc_t
 
@@ -74785,6 +80189,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixeq8desc_t"></a>
+
 ## 🔌 VMixEQ8Desc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74803,6 +80209,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixeffectchaindesc_t"></a>
+
 ## 🔌 VMixEffectChainDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74820,6 +80228,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixenvelopedesc_t"></a>
 
 ## 🔌 VMixEnvelopeDesc_t
 
@@ -74840,6 +80250,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixfilterdesc_t"></a>
 
 ## 🔌 VMixFilterDesc_t
 
@@ -74863,6 +80275,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixfilterslope_t"></a>
 
 ## 📋 VMixFilterSlope_t
 
@@ -74889,6 +80303,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixfiltertype_t"></a>
 
 ## 📋 VMixFilterType_t
 
@@ -74917,6 +80333,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixflangerdesc_t"></a>
+
 ## 🔌 VMixFlangerDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74943,6 +80361,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixfreeverbdesc_t"></a>
+
 ## 🔌 VMixFreeverbDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -74963,6 +80383,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixgraphcommandid_t"></a>
 
 ## 📋 VMixGraphCommandID_t
 
@@ -75020,6 +80442,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixlfoshape_t"></a>
+
 ## 📋 VMixLFOShape_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75041,6 +80465,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixmoddelaydesc_t"></a>
 
 ## 🔌 VMixModDelayDesc_t
 
@@ -75068,6 +80494,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixoscdesc_t"></a>
+
 ## 🔌 VMixOscDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75088,6 +80516,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixpannerdesc_t"></a>
+
 ## 🔌 VMixPannerDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75107,6 +80537,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixpannertype_t"></a>
+
 ## 📋 VMixPannerType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75125,6 +80557,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixpitchshiftdesc_t"></a>
 
 ## 🔌 VMixPitchShiftDesc_t
 
@@ -75146,6 +80580,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixplateverbdesc_t"></a>
 
 ## 🔌 VMixPlateverbDesc_t
 
@@ -75171,6 +80607,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixpresetdspdesc_t"></a>
+
 ## 🔌 VMixPresetDSPDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75188,6 +80626,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixprocessortype_t"></a>
 
 ## 📋 VMixProcessorType_t
 
@@ -75238,6 +80678,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixshaperdesc_t"></a>
+
 ## 🔌 VMixShaperDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75259,6 +80701,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixsubgraphswitchdesc_t"></a>
 
 ## 🔌 VMixSubgraphSwitchDesc_t
 
@@ -75283,6 +80727,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vmixsubgraphswitchinterpolationtype_t"></a>
+
 ## 📋 VMixSubgraphSwitchInterpolationType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75302,6 +80748,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixutilitydesc_t"></a>
 
 ## 🔌 VMixUtilityDesc_t
 
@@ -75325,6 +80773,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vmixvocoderdesc_t"></a>
 
 ## 🔌 VMixVocoderDesc_t
 
@@ -75352,6 +80802,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vphysxaggregatedata_t"></a>
 
 ## 🔌 VPhysXAggregateData_t
 
@@ -75387,6 +80839,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vphysxaggregatedata_t__vphysxflagenum_t"></a>
+
 ## 📋 VPhysXAggregateData_t__VPhysXFlagEnum_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75406,6 +80860,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vphysxbodypart_t"></a>
 
 ## 🔌 VPhysXBodyPart_t
 
@@ -75436,6 +80892,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vphysxbodypart_t__vphysxflagenum_t"></a>
+
 ## 📋 VPhysXBodyPart_t__VPhysXFlagEnum_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75459,6 +80917,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vphysxcollisionattributes_t"></a>
+
 ## 🔌 VPhysXCollisionAttributes_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75468,6 +80928,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vphysxconstraint2_t"></a>
 
 ## 🔌 VPhysXConstraint2_t
 
@@ -75489,6 +80951,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vphysxconstraintparams_t"></a>
 
 ## 🔌 VPhysXConstraintParams_t
 
@@ -75553,6 +81017,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vphysxconstraintparams_t__enumflags0_t"></a>
+
 ## 📋 VPhysXConstraintParams_t__EnumFlags0_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75573,6 +81039,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vphysxjoint_t"></a>
 
 ## 🔌 VPhysXJoint_t
 
@@ -75621,6 +81089,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vphysxjoint_t__flags_t"></a>
+
 ## 📋 VPhysXJoint_t__Flags_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75641,6 +81111,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vphysxrange_t"></a>
+
 ## 🔌 VPhysXRange_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75659,6 +81131,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vphysics2shapedef_t"></a>
 
 ## 🔌 VPhysics2ShapeDef_t
 
@@ -75682,6 +81156,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vphysicscollisionattribute_t"></a>
+
 ## 🔌 VPhysicsCollisionAttribute_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75691,6 +81167,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="valueremapperhapticstype_t"></a>
 
 ## 📋 ValueRemapperHapticsType_t
 
@@ -75711,6 +81189,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="valueremapperinputtype_t"></a>
+
 ## 📋 ValueRemapperInputType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75729,6 +81209,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="valueremappermomentumtype_t"></a>
 
 ## 📋 ValueRemapperMomentumType_t
 
@@ -75751,6 +81233,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="valueremapperoutputtype_t"></a>
+
 ## 📋 ValueRemapperOutputType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75772,6 +81256,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="valueremapperratchettype_t"></a>
+
 ## 📋 ValueRemapperRatchetType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75790,6 +81276,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="variableinfo_t"></a>
 
 ## 🔌 VariableInfo_t
 
@@ -75814,6 +81302,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vecinputmaterialvariable_t"></a>
+
 ## 🔌 VecInputMaterialVariable_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75832,6 +81322,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vectorexpressiontype_t"></a>
 
 ## 📋 VectorExpressionType_t
 
@@ -75860,6 +81352,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vectorfloatexpressiontype_t"></a>
+
 ## 📋 VectorFloatExpressionType_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75884,6 +81378,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="velocitymetricmode"></a>
+
 ## 📋 VelocityMetricMode
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75904,6 +81400,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="velocitysampler"></a>
+
 ## 🔌 VelocitySampler
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75923,6 +81421,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vertjustification_e"></a>
 
 ## 📋 VertJustification_e
 
@@ -75945,6 +81445,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vertexalbedoformat_t"></a>
+
 ## 📋 VertexAlbedoFormat_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75965,6 +81467,8 @@ void P2PctUpdated()
 
 ---
 
+<a id="vertexpositioncolor_t"></a>
+
 ## 🔌 VertexPositionColor_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -75982,6 +81486,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="vertexpositionnormal_t"></a>
 
 ## 🔌 VertexPositionNormal_t
 
@@ -76001,6 +81507,8 @@ void P2PctUpdated()
 
 
 ---
+
+<a id="viewangleserverchange_t"></a>
 
 ## 🔌 ViewAngleServerChange_t
 
@@ -76042,6 +81550,8 @@ void IndexUpdated()
 
 ---
 
+<a id="viewfademode_t"></a>
+
 ## 📋 ViewFadeMode_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76062,6 +81572,8 @@ void IndexUpdated()
 
 ---
 
+<a id="voxelvisblockoffset_t"></a>
+
 ## 🔌 VoxelVisBlockOffset_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76080,6 +81592,8 @@ void IndexUpdated()
 
 
 ---
+
+<a id="vsinputsignatureelement_t"></a>
 
 ## 🔌 VsInputSignatureElement_t
 
@@ -76102,6 +81616,8 @@ void IndexUpdated()
 
 ---
 
+<a id="vsinputsignature_t"></a>
+
 ## 🔌 VsInputSignature_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76120,6 +81636,8 @@ void IndexUpdated()
 
 
 ---
+
+<a id="waterlevel_t"></a>
 
 ## 📋 WaterLevel_t
 
@@ -76145,6 +81663,8 @@ void IndexUpdated()
 
 ---
 
+<a id="waterwheeldrag_t"></a>
+
 ## 🔌 WaterWheelDrag_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76164,6 +81684,8 @@ void IndexUpdated()
 
 ---
 
+<a id="waterwheelfrictionscale_t"></a>
+
 ## 🔌 WaterWheelFrictionScale_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76182,6 +81704,8 @@ void IndexUpdated()
 
 
 ---
+
+<a id="weaponattacktype_t"></a>
 
 ## 📋 WeaponAttackType_t
 
@@ -76203,6 +81727,8 @@ void IndexUpdated()
 
 
 ---
+
+<a id="weapongameplayanimstate"></a>
 
 ## 📋 WeaponGameplayAnimState
 
@@ -76251,6 +81777,8 @@ void IndexUpdated()
 
 ---
 
+<a id="weaponpurchasecount_t"></a>
+
 ## 🔌 WeaponPurchaseCount_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76284,6 +81812,8 @@ void CountUpdated()
 
 ---
 
+<a id="weaponpurchasetracker_t"></a>
+
 ## 🔌 WeaponPurchaseTracker_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76309,6 +81839,8 @@ void WeaponPurchasesUpdated()
 
 
 ---
+
+<a id="weaponsound_t"></a>
 
 ## 📋 WeaponSound_t
 
@@ -76352,6 +81884,8 @@ void WeaponPurchasesUpdated()
 
 ---
 
+<a id="weaponswitchreason_t"></a>
+
 ## 📋 WeaponSwitchReason_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76374,6 +81908,8 @@ void WeaponPurchasesUpdated()
 
 ---
 
+<a id="weightlist"></a>
+
 ## 🔌 WeightList
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76392,6 +81928,8 @@ void WeaponPurchasesUpdated()
 
 
 ---
+
+<a id="worldbuilderparams_t"></a>
 
 ## 🔌 WorldBuilderParams_t
 
@@ -76416,6 +81954,8 @@ void WeaponPurchasesUpdated()
 
 ---
 
+<a id="worldnodeondiskbufferdata_t"></a>
+
 ## 🔌 WorldNodeOnDiskBufferData_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76436,6 +81976,8 @@ void WeaponPurchasesUpdated()
 
 
 ---
+
+<a id="worldnode_t"></a>
 
 ## 🔌 WorldNode_t
 
@@ -76469,6 +82011,8 @@ void WeaponPurchasesUpdated()
 
 ---
 
+<a id="worldtextpanelhorizontalalign_t"></a>
+
 ## 📋 WorldTextPanelHorizontalAlign_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76488,6 +82032,8 @@ void WeaponPurchasesUpdated()
 
 
 ---
+
+<a id="worldtextpanelorientation_t"></a>
 
 ## 📋 WorldTextPanelOrientation_t
 
@@ -76509,6 +82055,8 @@ void WeaponPurchasesUpdated()
 
 ---
 
+<a id="worldtextpanelverticalalign_t"></a>
+
 ## 📋 WorldTextPanelVerticalAlign_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76528,6 +82076,8 @@ void WeaponPurchasesUpdated()
 
 
 ---
+
+<a id="world_t"></a>
 
 ## 🔌 World_t
 
@@ -76550,6 +82100,8 @@ void WeaponPurchasesUpdated()
 
 ---
 
+<a id="wrappedphysicsjoint_t"></a>
+
 ## 🔌 WrappedPhysicsJoint_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76561,6 +82113,8 @@ void WeaponPurchasesUpdated()
 
 
 ---
+
+<a id="attributeprovidertypes_t"></a>
 
 ## 📋 attributeprovidertypes_t
 
@@ -76580,6 +82134,8 @@ void WeaponPurchasesUpdated()
 
 
 ---
+
+<a id="audioparams_t"></a>
 
 ## 🔌 audioparams_t
 
@@ -76635,6 +82191,8 @@ void SoundEventHashUpdated()
 
 ---
 
+<a id="constraint_axislimit_t"></a>
+
 ## 🔌 constraint_axislimit_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76655,6 +82213,8 @@ void SoundEventHashUpdated()
 
 
 ---
+
+<a id="constraint_breakableparams_t"></a>
 
 ## 🔌 constraint_breakableparams_t
 
@@ -76678,6 +82238,8 @@ void SoundEventHashUpdated()
 
 ---
 
+<a id="constraint_hingeparams_t"></a>
+
 ## 🔌 constraint_hingeparams_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76699,6 +82261,8 @@ void SoundEventHashUpdated()
 
 ---
 
+<a id="doorcheck_e"></a>
+
 ## 📋 doorCheck_e
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76718,6 +82282,8 @@ void SoundEventHashUpdated()
 
 
 ---
+
+<a id="dynpitchvol_base_t"></a>
 
 ## 🔌 dynpitchvol_base_t
 
@@ -76761,6 +82327,8 @@ void SoundEventHashUpdated()
 
 ---
 
+<a id="dynpitchvol_t"></a>
+
 ## 🔌 dynpitchvol_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76774,6 +82342,8 @@ void SoundEventHashUpdated()
 
 
 ---
+
+<a id="esplinepushtype"></a>
 
 ## 📋 eSplinePushType
 
@@ -76794,6 +82364,8 @@ void SoundEventHashUpdated()
 
 
 ---
+
+<a id="fieldtype_t"></a>
 
 ## 📋 fieldtype_t
 
@@ -76894,6 +82466,8 @@ void SoundEventHashUpdated()
 
 ---
 
+<a id="filter_t"></a>
+
 ## 📋 filter_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -76912,6 +82486,8 @@ void SoundEventHashUpdated()
 
 
 ---
+
+<a id="fogparams_t"></a>
 
 ## 🔌 fogparams_t
 
@@ -77095,6 +82671,8 @@ void BlendUpdated()
 
 ---
 
+<a id="fogplayerparams_t"></a>
+
 ## 🔌 fogplayerparams_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77134,6 +82712,8 @@ void CtrlUpdated()
 
 ---
 
+<a id="gear_slot_t"></a>
+
 ## 📋 gear_slot_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77168,6 +82748,8 @@ void CtrlUpdated()
 
 ---
 
+<a id="hudtextparms_t"></a>
+
 ## 🔌 hudtextparms_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77191,6 +82773,8 @@ void CtrlUpdated()
 
 ---
 
+<a id="lerpdata_t"></a>
+
 ## 🔌 lerpdata_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77213,6 +82797,8 @@ void CtrlUpdated()
 
 
 ---
+
+<a id="loadout_slot_t"></a>
 
 ## 📋 loadout_slot_t
 
@@ -77305,6 +82891,8 @@ void CtrlUpdated()
 
 ---
 
+<a id="locksound_t"></a>
+
 ## 🔌 locksound_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77325,6 +82913,8 @@ void CtrlUpdated()
 
 ---
 
+<a id="magnetted_objects_t"></a>
+
 ## 🔌 magnetted_objects_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77343,6 +82933,8 @@ void CtrlUpdated()
 
 ---
 
+<a id="navproperties_t"></a>
+
 ## 📋 navproperties_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77360,6 +82952,8 @@ void CtrlUpdated()
 
 
 ---
+
+<a id="ragdoll_t"></a>
 
 ## 🔌 ragdoll_t
 
@@ -77383,6 +82977,8 @@ void CtrlUpdated()
 
 ---
 
+<a id="ragdollelement_t"></a>
+
 ## 🔌 ragdollelement_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77404,6 +83000,8 @@ void CtrlUpdated()
 
 ---
 
+<a id="ragdollhierarchyjoint_t"></a>
+
 ## 🔌 ragdollhierarchyjoint_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77422,6 +83020,8 @@ void CtrlUpdated()
 
 
 ---
+
+<a id="shard_model_desc_t"></a>
 
 ## 🔌 shard_model_desc_t
 
@@ -77533,6 +83133,8 @@ void SurfacePropStringTokenUpdated()
 
 ---
 
+<a id="sky3dparams_t"></a>
+
 ## 🔌 sky3dparams_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77594,6 +83196,8 @@ void WorldGroupIDUpdated()
 
 ---
 
+<a id="sndopvarlatchdata_t"></a>
+
 ## 🔌 sndopvarlatchdata_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77615,6 +83219,8 @@ void WorldGroupIDUpdated()
 
 
 ---
+
+<a id="soundlevel_t"></a>
 
 ## 📋 soundlevel_t
 
@@ -77663,6 +83269,8 @@ void WorldGroupIDUpdated()
 
 ---
 
+<a id="thinkfunc_t"></a>
+
 ## 🔌 thinkfunc_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
@@ -77683,6 +83291,8 @@ void WorldGroupIDUpdated()
 
 
 ---
+
+<a id="vote_create_failed_t"></a>
 
 ## 📋 vote_create_failed_t
 
@@ -77735,6 +83345,8 @@ void WorldGroupIDUpdated()
 
 
 ---
+
+<a id="vphysics_save_cphysicsbody_t"></a>
 
 ## 🔌 vphysics_save_cphysicsbody_t
 

@@ -1,3 +1,5 @@
+<a id="pluginreloadmethod"></a>
+
 # 📋 PluginReloadMethod
 
 **命名空间:** `SwiftlyS2.Shared.Plugins`

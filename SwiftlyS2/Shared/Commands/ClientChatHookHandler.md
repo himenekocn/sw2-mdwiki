@@ -1,3 +1,5 @@
+<a id="clientchathookhandler"></a>
+
 # 📦 ClientChatHookHandler
 
 **命名空间:** `SwiftlyS2.Shared.Commands`

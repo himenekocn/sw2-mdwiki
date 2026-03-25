@@ -1,3 +1,5 @@
+<a id="fixedptrbuffer64"></a>
+
 # 🏗️ FixedPtrBuffer64
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

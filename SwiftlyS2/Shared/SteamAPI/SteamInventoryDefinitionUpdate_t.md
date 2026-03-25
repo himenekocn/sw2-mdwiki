@@ -1,3 +1,5 @@
+<a id="steaminventorydefinitionupdate_t"></a>
+
 # 🏗️ SteamInventoryDefinitionUpdate_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="onentitystarttouch"></a>
+
 # 🔗 OnEntityStartTouch
 
 当实体开始接触另一个实体时调用。

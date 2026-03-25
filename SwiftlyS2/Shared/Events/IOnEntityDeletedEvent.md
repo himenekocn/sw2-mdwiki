@@ -1,3 +1,5 @@
+<a id="ionentitydeletedevent"></a>
+
 # 🔌 IOnEntityDeletedEvent
 
 当实体被删除时调用。

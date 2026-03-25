@@ -1,3 +1,5 @@
+<a id="ionentityfireoutputhookevent"></a>
+
 # 🔌 IOnEntityFireOutputHookEvent
 
 当实体身份标识触发输出时调用。

@@ -1,3 +1,5 @@
+<a id="targetsearchmode"></a>
+
 # 📋 TargetSearchMode
 
 **命名空间:** `SwiftlyS2.Shared.Players`

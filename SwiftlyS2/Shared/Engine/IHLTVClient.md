@@ -1,3 +1,5 @@
+<a id="ihltvclient"></a>
+
 # 🔌 IHLTVClient
 
 **命名空间:** `SwiftlyS2.Shared.Engine`

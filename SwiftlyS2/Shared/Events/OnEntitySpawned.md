@@ -1,3 +1,5 @@
+<a id="onentityspawned"></a>
+
 # 🔗 OnEntitySpawned
 
 当实体被生成时调用。

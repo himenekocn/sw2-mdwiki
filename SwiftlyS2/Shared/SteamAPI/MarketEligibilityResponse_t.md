@@ -1,3 +1,5 @@
+<a id="marketeligibilityresponse_t"></a>
+
 # 🏗️ MarketEligibilityResponse_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="idatabaseservice"></a>
+
 # 🔌 IDatabaseService
 
 **命名空间:** `SwiftlyS2.Shared.Database`

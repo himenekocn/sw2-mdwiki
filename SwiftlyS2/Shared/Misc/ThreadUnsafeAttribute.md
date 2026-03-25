@@ -1,3 +1,5 @@
+<a id="threadunsafeattribute"></a>
+
 # 📦 ThreadUnsafe
 
 **命名空间:** `SwiftlyS2.Shared.Misc`

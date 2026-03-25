@@ -1,3 +1,5 @@
+<a id="internaladdplayertolist"></a>
+
 # 🔗 InternalAddPlayerToList
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

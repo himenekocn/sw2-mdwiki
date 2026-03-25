@@ -1,3 +1,5 @@
+<a id="iregistratorservice"></a>
+
 # 🔌 IRegistratorService
 
 **命名空间:** `SwiftlyS2.Shared.Services`

@@ -1,3 +1,5 @@
+<a id="ionmovementservicesruncommandhookevent"></a>
+
 # 🔌 IOnMovementServicesRunCommandHookEvent
 
 当移动服务运行命令钩子被触发时调用。

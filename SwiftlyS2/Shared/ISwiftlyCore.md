@@ -1,3 +1,5 @@
+<a id="iswiftlycore"></a>
+
 # 🔌 ISwiftlyCore
 
 SwiftlyS2 框架的核心接口。

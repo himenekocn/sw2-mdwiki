@@ -1,3 +1,5 @@
+<a id="eugccontentdescriptorid"></a>
+
 # 📋 EUGCContentDescriptorID
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,4 +1,6 @@
-# 🔌 ISchemaClassFixedArray<T>
+<a id="ischemaclassfixedarray-t"></a>
+
+# 🔌 ISchemaClassFixedArray&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Schemas`
 

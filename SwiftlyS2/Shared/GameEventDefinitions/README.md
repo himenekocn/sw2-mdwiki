@@ -283,6 +283,8 @@
 - 🔌 [EventWriteGameTitledata](#eventwritegametitledata)
 - 🔌 [EventWriteProfileData](#eventwriteprofiledata)
 
+<a id="eventachievementearned"></a>
+
 ## 🔌 EventAchievementEarned
 
 事件 "achievement_earned"（成就已获得）
@@ -306,6 +308,8 @@
 
 ---
 
+<a id="eventachievementearnedlocal"></a>
+
 ## 🔌 EventAchievementEarnedLocal
 
 事件"achievement_earned_local"
@@ -326,6 +330,8 @@
 
 
 ---
+
+<a id="eventachievementevent"></a>
 
 ## 🔌 EventAchievementEvent
 
@@ -349,6 +355,8 @@
 
 ---
 
+<a id="eventachievementinfoloaded"></a>
+
 ## 🔌 EventAchievementInfoLoaded
 
 事件“成就信息已加载”
@@ -363,6 +371,8 @@
 
 ---
 
+<a id="eventachievementwritefailed"></a>
+
 ## 🔌 EventAchievementWriteFailed
 
 事件“成就写入失败”
@@ -376,6 +386,8 @@
 
 
 ---
+
+<a id="eventaddbullethitmarker"></a>
 
 ## 🔌 EventAddBulletHitMarker
 
@@ -410,6 +422,8 @@
 
 ---
 
+<a id="eventaddplayersonaricon"></a>
+
 ## 🔌 EventAddPlayerSonarIcon
 
 事件 "add_player_sonar_icon"
@@ -435,6 +449,8 @@
 
 ---
 
+<a id="eventammopickup"></a>
+
 ## 🔌 EventAmmoPickup
 
 事件"ammo_pickup"
@@ -459,6 +475,8 @@
 
 ---
 
+<a id="eventammorefill"></a>
+
 ## 🔌 EventAmmoRefill
 
 事件"ammo_refill"
@@ -482,6 +500,8 @@
 
 ---
 
+<a id="eventannouncephaseend"></a>
+
 ## 🔌 EventAnnouncePhaseEnd
 
 事件“宣布阶段结束”
@@ -496,6 +516,8 @@
 
 ---
 
+<a id="eventbeginnewmatch"></a>
+
 ## 🔌 EventBeginNewMatch
 
 事件"begin_new_match"
@@ -509,6 +531,8 @@
 
 
 ---
+
+<a id="eventbombabortdefuse"></a>
 
 ## 🔌 EventBombAbortdefuse
 
@@ -531,6 +555,8 @@
 
 
 ---
+
+<a id="eventbombabortplant"></a>
 
 ## 🔌 EventBombAbortplant
 
@@ -555,6 +581,8 @@
 
 ---
 
+<a id="eventbombbeep"></a>
+
 ## 🔌 EventBombBeep
 
 事件 "bomb_beep"
@@ -574,6 +602,8 @@
 
 
 ---
+
+<a id="eventbombbegindefuse"></a>
 
 ## 🔌 EventBombBegindefuse
 
@@ -598,6 +628,8 @@
 
 ---
 
+<a id="eventbombbeginplant"></a>
+
 ## 🔌 EventBombBeginplant
 
 事件 "bomb_beginplant"
@@ -620,6 +652,8 @@
 
 
 ---
+
+<a id="eventbombdefused"></a>
 
 ## 🔌 EventBombDefused
 
@@ -644,6 +678,8 @@
 
 ---
 
+<a id="eventbombdropped"></a>
+
 ## 🔌 EventBombDropped
 
 事件 "bomb_dropped"（炸弹已投放）
@@ -666,6 +702,8 @@
 
 
 ---
+
+<a id="eventbombexploded"></a>
 
 ## 🔌 EventBombExploded
 
@@ -690,6 +728,8 @@
 
 ---
 
+<a id="eventbombpickup"></a>
+
 ## 🔌 EventBombPickup
 
 事件"bomb_pickup"
@@ -711,6 +751,8 @@
 
 
 ---
+
+<a id="eventbombplanted"></a>
 
 ## 🔌 EventBombPlanted
 
@@ -735,6 +777,8 @@
 
 ---
 
+<a id="eventbonusupdated"></a>
+
 ## 🔌 EventBonusUpdated
 
 事件"bonus_updated"
@@ -757,6 +801,8 @@
 
 
 ---
+
+<a id="eventbottakeover"></a>
 
 ## 🔌 EventBotTakeover
 
@@ -786,6 +832,8 @@
 
 ---
 
+<a id="eventbreakbreakable"></a>
+
 ## 🔌 EventBreakBreakable
 
 事件 "break_breakable"
@@ -809,6 +857,8 @@
 
 
 ---
+
+<a id="eventbreakprop"></a>
 
 ## 🔌 EventBreakProp
 
@@ -836,6 +886,8 @@
 
 ---
 
+<a id="eventbrokenbreakable"></a>
+
 ## 🔌 EventBrokenBreakable
 
 事件 "broken_breakable"
@@ -859,6 +911,8 @@
 
 
 ---
+
+<a id="eventbulletdamage"></a>
 
 ## 🔌 EventBulletDamage
 
@@ -907,6 +961,8 @@
 
 ---
 
+<a id="eventbulletimpact"></a>
+
 ## 🔌 EventBulletImpact
 
 事件 "bullet_impact"
@@ -932,6 +988,8 @@
 
 ---
 
+<a id="eventbuymenuclose"></a>
+
 ## 🔌 EventBuymenuClose
 
 事件 "buymenu_close"
@@ -954,6 +1012,8 @@
 
 ---
 
+<a id="eventbuymenuopen"></a>
+
 ## 🔌 EventBuymenuOpen
 
 事件"buymenu_open"
@@ -967,6 +1027,8 @@
 
 
 ---
+
+<a id="eventbuytimeended"></a>
 
 ## 🔌 EventBuytimeEnded
 
@@ -982,6 +1044,8 @@
 
 ---
 
+<a id="eventcartupdated"></a>
+
 ## 🔌 EventCartUpdated
 
 事件"cart_updated"
@@ -995,6 +1059,8 @@
 
 
 ---
+
+<a id="eventchoppersincomingwarning"></a>
 
 ## 🔌 EventChoppersIncomingWarning
 
@@ -1016,6 +1082,8 @@
 
 ---
 
+<a id="eventclientdisconnect"></a>
+
 ## 🔌 EventClientDisconnect
 
 事件"client_disconnect"
@@ -1030,6 +1098,8 @@
 
 ---
 
+<a id="eventclientloadoutchanged"></a>
+
 ## 🔌 EventClientLoadoutChanged
 
 事件“客户端装备配置已更改”
@@ -1043,6 +1113,8 @@
 
 
 ---
+
+<a id="eventclientsidelessonclosed"></a>
 
 ## 🔌 EventClientsideLessonClosed
 
@@ -1064,6 +1136,8 @@
 
 ---
 
+<a id="eventclientsidereloadcustomecon"></a>
+
 ## 🔌 EventClientsideReloadCustomEcon
 
 事件 "客户端端重新加载自定义经济"
@@ -1084,6 +1158,8 @@
 
 ---
 
+<a id="eventcoregameevents"></a>
+
 ## 🔌 EventCoreGameEvents
 
 事件：“核心游戏事件”
@@ -1097,6 +1173,8 @@
 
 
 ---
+
+<a id="eventcsgamedisconnected"></a>
 
 ## 🔌 EventCsGameDisconnected
 
@@ -1112,6 +1190,8 @@
 
 ---
 
+<a id="eventcsintermission"></a>
+
 ## 🔌 EventCsIntermission
 
 事件"cs_intermission"
@@ -1125,6 +1205,8 @@
 
 
 ---
+
+<a id="eventcsmatchendrestart"></a>
 
 ## 🔌 EventCsMatchEndRestart
 
@@ -1140,6 +1222,8 @@
 
 ---
 
+<a id="eventcsprerestart"></a>
+
 ## 🔌 EventCsPreRestart
 
 事件"cs_pre_restart"
@@ -1153,6 +1237,8 @@
 
 
 ---
+
+<a id="eventcsprevnextspectator"></a>
 
 ## 🔌 EventCsPrevNextSpectator
 
@@ -1174,6 +1260,8 @@
 
 ---
 
+<a id="eventcsroundfinalbeep"></a>
+
 ## 🔌 EventCsRoundFinalBeep
 
 事件 "cs_round_final_beep"
@@ -1187,6 +1275,8 @@
 
 
 ---
+
+<a id="eventcsroundstartbeep"></a>
 
 ## 🔌 EventCsRoundStartBeep
 
@@ -1202,6 +1292,8 @@
 
 ---
 
+<a id="eventcswinpanelmatch"></a>
+
 ## 🔌 EventCsWinPanelMatch
 
 事件"cs_win_panel_match"
@@ -1215,6 +1307,8 @@
 
 
 ---
+
+<a id="eventcswinpanelround"></a>
 
 ## 🔌 EventCsWinPanelRound
 
@@ -1246,6 +1340,8 @@
 
 ---
 
+<a id="eventcstrikeevents"></a>
+
 ## 🔌 EventCstrikeevents
 
 事件"cstrikeevents"
@@ -1259,6 +1355,8 @@
 
 
 ---
+
+<a id="eventdecoydetonate"></a>
 
 ## 🔌 EventDecoyDetonate
 
@@ -1286,6 +1384,8 @@
 
 ---
 
+<a id="eventdecoyfiring"></a>
+
 ## 🔌 EventDecoyFiring
 
 事件"decoy_firing"
@@ -1311,6 +1411,8 @@
 
 
 ---
+
+<a id="eventdecoystarted"></a>
 
 ## 🔌 EventDecoyStarted
 
@@ -1338,6 +1440,8 @@
 
 ---
 
+<a id="eventdefuserdropped"></a>
+
 ## 🔌 EventDefuserDropped
 
 事件 "defuser_dropped"
@@ -1357,6 +1461,8 @@
 
 
 ---
+
+<a id="eventdefuserpickup"></a>
 
 ## 🔌 EventDefuserPickup
 
@@ -1381,6 +1487,8 @@
 
 ---
 
+<a id="eventdemoskip"></a>
+
 ## 🔌 EventDemoSkip
 
 事件"demo_skip"
@@ -1402,6 +1510,8 @@
 
 ---
 
+<a id="eventdemostart"></a>
+
 ## 🔌 EventDemoStart
 
 事件 "demo_start"
@@ -1416,6 +1526,8 @@
 
 ---
 
+<a id="eventdemostop"></a>
+
 ## 🔌 EventDemoStop
 
 事件"demo_stop"
@@ -1429,6 +1541,8 @@
 
 
 ---
+
+<a id="eventdifficultychanged"></a>
 
 ## 🔌 EventDifficultyChanged
 
@@ -1452,6 +1566,8 @@
 
 ---
 
+<a id="eventdmbonusweaponstart"></a>
+
 ## 🔌 EventDmBonusWeaponStart
 
 事件 "dm_bonus_weapon_start"
@@ -1473,6 +1589,8 @@
 
 ---
 
+<a id="eventdoorbreak"></a>
+
 ## 🔌 EventDoorBreak
 
 事件 "door_break"
@@ -1493,6 +1611,8 @@
 
 
 ---
+
+<a id="eventdoorclose"></a>
 
 ## 🔌 EventDoorClose
 
@@ -1517,6 +1637,8 @@
 
 ---
 
+<a id="eventdoorclosed"></a>
+
 ## 🔌 EventDoorClosed
 
 事件“门已关闭”
@@ -1539,6 +1661,8 @@
 
 
 ---
+
+<a id="eventdoormoving"></a>
 
 ## 🔌 EventDoorMoving
 
@@ -1563,6 +1687,8 @@
 
 ---
 
+<a id="eventdooropen"></a>
+
 ## 🔌 EventDoorOpen
 
 事件 "door_open"
@@ -1586,6 +1712,8 @@
 
 ---
 
+<a id="eventdroneaboveroof"></a>
+
 ## 🔌 EventDroneAboveRoof
 
 事件"drone_above_roof"
@@ -1608,6 +1736,8 @@
 
 
 ---
+
+<a id="eventdronecargodetached"></a>
 
 ## 🔌 EventDroneCargoDetached
 
@@ -1633,6 +1763,8 @@
 
 ---
 
+<a id="eventdronedispatched"></a>
+
 ## 🔌 EventDroneDispatched
 
 事件"drone_dispatched"
@@ -1657,6 +1789,8 @@
 
 ---
 
+<a id="eventdronegunattack"></a>
+
 ## 🔌 EventDronegunAttack
 
 事件 "dronegun_attack"
@@ -1679,6 +1813,8 @@
 
 ---
 
+<a id="eventdropratemodified"></a>
+
 ## 🔌 EventDropRateModified
 
 事件"drop_rate_modified"
@@ -1693,6 +1829,8 @@
 
 ---
 
+<a id="eventdynamicshadowlightchanged"></a>
+
 ## 🔌 EventDynamicShadowLightChanged
 
 事件 "dynamic_shadow_light_changed"
@@ -1706,6 +1844,8 @@
 
 
 ---
+
+<a id="eventdziteminteraction"></a>
 
 ## 🔌 EventDzItemInteraction
 
@@ -1731,6 +1871,8 @@
 
 ---
 
+<a id="eventenablerestartvoting"></a>
+
 ## 🔌 EventEnableRestartVoting
 
 事件"enable_restart_voting"
@@ -1751,6 +1893,8 @@
 
 ---
 
+<a id="eventendmatchcmmstartrevealitems"></a>
+
 ## 🔌 EventEndmatchCmmStartRevealItems
 
 事件 "endmatch_cmm_start_reveal_items"
@@ -1764,6 +1908,8 @@
 
 
 ---
+
+<a id="eventendmatchmapvoteselectingmap"></a>
 
 ## 🔌 EventEndmatchMapvoteSelectingMap
 
@@ -1795,6 +1941,8 @@
 
 ---
 
+<a id="evententerbombzone"></a>
+
 ## 🔌 EventEnterBombzone
 
 事件"enter_bombzone"
@@ -1819,6 +1967,8 @@
 
 ---
 
+<a id="evententerbuyzone"></a>
+
 ## 🔌 EventEnterBuyzone
 
 事件"enter_buyzone"
@@ -1842,6 +1992,8 @@
 
 ---
 
+<a id="evententerrescuezone"></a>
+
 ## 🔌 EventEnterRescueZone
 
 事件“进入救援区域”
@@ -1863,6 +2015,8 @@
 
 
 ---
+
+<a id="evententitykilled"></a>
 
 ## 🔌 EventEntityKilled
 
@@ -1886,6 +2040,8 @@
 
 
 ---
+
+<a id="evententityvisible"></a>
 
 ## 🔌 EventEntityVisible
 
@@ -1912,6 +2068,8 @@
 
 ---
 
+<a id="eventeventticketmodified"></a>
+
 ## 🔌 EventEventTicketModified
 
 事件 "event_ticket_modified"
@@ -1925,6 +2083,8 @@
 
 
 ---
+
+<a id="eventexitbombzone"></a>
 
 ## 🔌 EventExitBombzone
 
@@ -1950,6 +2110,8 @@
 
 ---
 
+<a id="eventexitbuyzone"></a>
+
 ## 🔌 EventExitBuyzone
 
 事件“退出购买区域”
@@ -1973,6 +2135,8 @@
 
 ---
 
+<a id="eventexitrescuezone"></a>
+
 ## 🔌 EventExitRescueZone
 
 事件 "exit_rescue_zone"
@@ -1995,6 +2159,8 @@
 
 ---
 
+<a id="eventfinalestart"></a>
+
 ## 🔌 EventFinaleStart
 
 事件"finale_start"
@@ -2014,6 +2180,8 @@
 
 
 ---
+
+<a id="eventfirstbombsincomingwarning"></a>
 
 ## 🔌 EventFirstbombsIncomingWarning
 
@@ -2035,6 +2203,8 @@
 
 ---
 
+<a id="eventflareignitenpc"></a>
+
 ## 🔌 EventFlareIgniteNpc
 
 事件"flare_ignite_npc"
@@ -2054,6 +2224,8 @@
 
 
 ---
+
+<a id="eventflashbangdetonate"></a>
 
 ## 🔌 EventFlashbangDetonate
 
@@ -2081,6 +2253,8 @@
 
 ---
 
+<a id="eventgameend"></a>
+
 ## 🔌 EventGameEnd
 
 事件"game_end"：游戏结束
@@ -2101,6 +2275,8 @@
 
 ---
 
+<a id="eventgameinit"></a>
+
 ## 🔌 EventGameInit
 
 当新游戏启动时发送"game_init"事件
@@ -2114,6 +2290,8 @@
 
 
 ---
+
+<a id="eventgamemessage"></a>
 
 ## 🔌 EventGameMessage
 
@@ -2136,6 +2314,8 @@
 
 ---
 
+<a id="eventgamenewmap"></a>
+
 ## 🔌 EventGameNewmap
 
 事件 "game_newmap" 在新地图完全加载时发送。
@@ -2157,6 +2337,8 @@
 
 ---
 
+<a id="eventgamephasechanged"></a>
+
 ## 🔌 EventGamePhaseChanged
 
 事件 "game_phase_changed"（游戏阶段变更）
@@ -2176,6 +2358,8 @@
 
 
 ---
+
+<a id="eventgamestart"></a>
 
 ## 🔌 EventGameStart
 
@@ -2200,6 +2384,8 @@
 
 ---
 
+<a id="eventgameevents"></a>
+
 ## 🔌 EventGameevents
 
 事件 "gameevents"
@@ -2213,6 +2399,8 @@
 
 
 ---
+
+<a id="eventgameinstructordraw"></a>
 
 ## 🔌 EventGameinstructorDraw
 
@@ -2228,6 +2416,8 @@
 
 ---
 
+<a id="eventgameinstructornodraw"></a>
+
 ## 🔌 EventGameinstructorNodraw
 
 事件 "gameinstructor_nodraw"
@@ -2241,6 +2431,8 @@
 
 
 ---
+
+<a id="eventgameuihidden"></a>
 
 ## 🔌 EventGameuiHidden
 
@@ -2256,6 +2448,8 @@
 
 ---
 
+<a id="eventgcconnected"></a>
+
 ## 🔌 EventGcConnected
 
 事件 "gc_connected"
@@ -2269,6 +2463,8 @@
 
 
 ---
+
+<a id="eventggkilledenemy"></a>
 
 ## 🔌 EventGgKilledEnemy
 
@@ -2298,6 +2494,8 @@
 
 ---
 
+<a id="eventgrenadebounce"></a>
+
 ## 🔌 EventGrenadeBounce
 
 事件"grenade_bounce"
@@ -2319,6 +2517,8 @@
 
 
 ---
+
+<a id="eventgrenadethrown"></a>
 
 ## 🔌 EventGrenadeThrown
 
@@ -2343,6 +2543,8 @@
 
 ---
 
+<a id="eventguardianwaverestart"></a>
+
 ## 🔌 EventGuardianWaveRestart
 
 事件"guardian_wave_restart"
@@ -2356,6 +2558,8 @@
 
 
 ---
+
+<a id="eventhegrenadedetonate"></a>
 
 ## 🔌 EventHegrenadeDetonate
 
@@ -2383,6 +2587,8 @@
 
 ---
 
+<a id="eventhelicoptergrenadepuntmiss"></a>
+
 ## 🔌 EventHelicopterGrenadePuntMiss
 
 事件"helicopter_grenade_punt_miss"
@@ -2397,6 +2603,8 @@
 
 ---
 
+<a id="eventhidedeathpanel"></a>
+
 ## 🔌 EventHideDeathpanel
 
 事件 "hide_deathpanel"
@@ -2410,6 +2618,8 @@
 
 
 ---
+
+<a id="eventhltvcameraman"></a>
 
 ## 🔌 EventHltvCameraman
 
@@ -2433,6 +2643,8 @@
 
 ---
 
+<a id="eventhltvchangedmode"></a>
+
 ## 🔌 EventHltvChangedMode
 
 事件"hltv_changed_mode"
@@ -2454,6 +2666,8 @@
 
 
 ---
+
+<a id="eventhltvchase"></a>
 
 ## 🔌 EventHltvChase
 
@@ -2485,6 +2699,8 @@
 
 ---
 
+<a id="eventhltvchat"></a>
+
 ## 🔌 EventHltvChat
 
 事件"hltv_chat"：由观众发送的HLTV聊天消息
@@ -2505,6 +2721,8 @@
 
 
 ---
+
+<a id="eventhltvfixed"></a>
 
 ## 🔌 EventHltvFixed
 
@@ -2535,6 +2753,8 @@
 
 ---
 
+<a id="eventhltvmessage"></a>
+
 ## 🔌 EventHltvMessage
 
 事件"hltv_message"：由管理员发送的 HLTV 消息
@@ -2554,6 +2774,8 @@
 
 
 ---
+
+<a id="eventhltvrankcamera"></a>
 
 ## 🔌 EventHltvRankCamera
 
@@ -2578,6 +2800,8 @@
 
 
 ---
+
+<a id="eventhltvrankentity"></a>
 
 ## 🔌 EventHltvRankEntity
 
@@ -2605,6 +2829,8 @@
 
 ---
 
+<a id="eventhltvreplay"></a>
+
 ## 🔌 EventHltvReplay
 
 事件"hltv_replay"
@@ -2626,6 +2852,8 @@
 
 ---
 
+<a id="eventhltvreplaystatus"></a>
+
 ## 🔌 EventHltvReplayStatus
 
 事件"hltv_replay_status"
@@ -2645,6 +2873,8 @@
 
 
 ---
+
+<a id="eventhltvstatus"></a>
 
 ## 🔌 EventHltvStatus
 
@@ -2669,6 +2899,8 @@
 
 ---
 
+<a id="eventhltvtitle"></a>
+
 ## 🔌 EventHltvTitle
 
 事件"hltv_title"
@@ -2688,6 +2920,8 @@
 
 
 ---
+
+<a id="eventhltvversioninfo"></a>
 
 ## 🔌 EventHltvVersioninfo
 
@@ -2709,6 +2943,8 @@
 
 ---
 
+<a id="eventhostagecallforhelp"></a>
+
 ## 🔌 EventHostageCallForHelp
 
 事件“人质呼救”
@@ -2728,6 +2964,8 @@
 
 
 ---
+
+<a id="eventhostagefollows"></a>
 
 ## 🔌 EventHostageFollows
 
@@ -2752,6 +2990,8 @@
 
 ---
 
+<a id="eventhostagehurt"></a>
+
 ## 🔌 EventHostageHurt
 
 事件"人质受伤”
@@ -2775,6 +3015,8 @@
 
 ---
 
+<a id="eventhostagekilled"></a>
+
 ## 🔌 EventHostageKilled
 
 事件“人质被击杀”
@@ -2797,6 +3039,8 @@
 
 
 ---
+
+<a id="eventhostagerescued"></a>
 
 ## 🔌 EventHostageRescued
 
@@ -2822,6 +3066,8 @@
 
 ---
 
+<a id="eventhostagerescuedall"></a>
+
 ## 🔌 EventHostageRescuedAll
 
 事件"hostage_rescued_all"（人质全部获救）
@@ -2835,6 +3081,8 @@
 
 
 ---
+
+<a id="eventhostagestopsfollowing"></a>
 
 ## 🔌 EventHostageStopsFollowing
 
@@ -2859,6 +3107,8 @@
 
 ---
 
+<a id="eventhostnamechanged"></a>
+
 ## 🔌 EventHostnameChanged
 
 事件 "hostname_changed"
@@ -2878,6 +3128,8 @@
 
 
 ---
+
+<a id="eventinfernoexpire"></a>
 
 ## 🔌 EventInfernoExpire
 
@@ -2902,6 +3154,8 @@
 
 ---
 
+<a id="eventinfernoextinguish"></a>
+
 ## 🔌 EventInfernoExtinguish
 
 事件"inferno_extinguish"
@@ -2924,6 +3178,8 @@
 
 
 ---
+
+<a id="eventinfernostartburn"></a>
 
 ## 🔌 EventInfernoStartburn
 
@@ -2948,6 +3204,8 @@
 
 ---
 
+<a id="eventinspectweapon"></a>
+
 ## 🔌 EventInspectWeapon
 
 事件"inspect_weapon"
@@ -2969,6 +3227,8 @@
 
 
 ---
+
+<a id="eventinstructorcloselesson"></a>
 
 ## 🔌 EventInstructorCloseLesson
 
@@ -2992,6 +3252,8 @@
 
 
 ---
+
+<a id="eventinstructorserverhintcreate"></a>
 
 ## 🔌 EventInstructorServerHintCreate
 
@@ -3044,6 +3306,8 @@
 
 ---
 
+<a id="eventinstructorserverhintstop"></a>
+
 ## 🔌 EventInstructorServerHintStop
 
 事件"instructor_server_hint_stop"销毁服务器/地图创建的提示
@@ -3064,6 +3328,8 @@
 
 
 ---
+
+<a id="eventinstructorstartlesson"></a>
 
 ## 🔌 EventInstructorStartLesson
 
@@ -3092,6 +3358,8 @@
 
 ---
 
+<a id="eventinventoryupdated"></a>
+
 ## 🔌 EventInventoryUpdated
 
 事件 "inventory_updated"
@@ -3112,6 +3380,8 @@
 
 
 ---
+
+<a id="eventitemequip"></a>
 
 ## 🔌 EventItemEquip
 
@@ -3143,6 +3413,8 @@
 
 ---
 
+<a id="eventitempickup"></a>
+
 ## 🔌 EventItemPickup
 
 事件 "item_pickup"
@@ -3167,6 +3439,8 @@
 
 
 ---
+
+<a id="eventitempickupfailed"></a>
 
 ## 🔌 EventItemPickupFailed
 
@@ -3193,6 +3467,8 @@
 
 ---
 
+<a id="eventitempickupslerp"></a>
+
 ## 🔌 EventItemPickupSlerp
 
 事件"item_pickup_slerp"
@@ -3216,6 +3492,8 @@
 
 
 ---
+
+<a id="eventitempurchase"></a>
 
 ## 🔌 EventItemPurchase
 
@@ -3242,6 +3520,8 @@
 
 ---
 
+<a id="eventitemremove"></a>
+
 ## 🔌 EventItemRemove
 
 事件"item_remove"
@@ -3266,6 +3546,8 @@
 
 ---
 
+<a id="eventitemschemainitialized"></a>
+
 ## 🔌 EventItemSchemaInitialized
 
 事件"item_schema_initialized"
@@ -3279,6 +3561,8 @@
 
 
 ---
+
+<a id="eventjointeamfailed"></a>
 
 ## 🔌 EventJointeamFailed
 
@@ -3303,6 +3587,8 @@
 
 ---
 
+<a id="eventlocalplayercontrollerteam"></a>
+
 ## 🔌 EventLocalPlayerControllerTeam
 
 事件"本地玩家控制器队伍”
@@ -3316,6 +3602,8 @@
 
 
 ---
+
+<a id="eventlocalplayerpawnchanged"></a>
 
 ## 🔌 EventLocalPlayerPawnChanged
 
@@ -3331,6 +3619,8 @@
 
 ---
 
+<a id="eventlocalplayerteam"></a>
+
 ## 🔌 EventLocalPlayerTeam
 
 事件 "local_player_team"
@@ -3344,6 +3634,8 @@
 
 
 ---
+
+<a id="eventlootcrateopened"></a>
 
 ## 🔌 EventLootCrateOpened
 
@@ -3367,6 +3659,8 @@
 
 
 ---
+
+<a id="eventlootcratevisible"></a>
 
 ## 🔌 EventLootCrateVisible
 
@@ -3392,6 +3686,8 @@
 
 ---
 
+<a id="eventmapshutdown"></a>
+
 ## 🔌 EventMapShutdown
 
 事件 "map_shutdown"
@@ -3406,6 +3702,8 @@
 
 ---
 
+<a id="eventmaptransition"></a>
+
 ## 🔌 EventMapTransition
 
 事件"map_transition"
@@ -3419,6 +3717,8 @@
 
 
 ---
+
+<a id="eventmatchendconditions"></a>
 
 ## 🔌 EventMatchEndConditions
 
@@ -3443,6 +3743,8 @@
 
 ---
 
+<a id="eventmaterialdefaultcomplete"></a>
+
 ## 🔌 EventMaterialDefaultComplete
 
 事件"material_default_complete"
@@ -3456,6 +3758,8 @@
 
 
 ---
+
+<a id="eventmbinputlockcancel"></a>
 
 ## 🔌 EventMbInputLockCancel
 
@@ -3471,6 +3775,8 @@
 
 ---
 
+<a id="eventmbinputlocksuccess"></a>
+
 ## 🔌 EventMbInputLockSuccess
 
 事件"mb_input_lock_success"
@@ -3484,6 +3790,8 @@
 
 
 ---
+
+<a id="eventmolotovdetonate"></a>
 
 ## 🔌 EventMolotovDetonate
 
@@ -3510,6 +3818,8 @@
 
 ---
 
+<a id="eventnavblocked"></a>
+
 ## 🔌 EventNavBlocked
 
 事件"nav_blocked"
@@ -3531,6 +3841,8 @@
 
 ---
 
+<a id="eventnavgenerate"></a>
+
 ## 🔌 EventNavGenerate
 
 事件"nav_generate"
@@ -3544,6 +3856,8 @@
 
 
 ---
+
+<a id="eventnextlevelchanged"></a>
 
 ## 🔌 EventNextlevelChanged
 
@@ -3566,6 +3880,8 @@
 
 
 ---
+
+<a id="eventopencrateinstr"></a>
 
 ## 🔌 EventOpenCrateInstr
 
@@ -3590,6 +3906,8 @@
 
 
 ---
+
+<a id="eventotherdeath"></a>
 
 ## 🔌 EventOtherDeath
 
@@ -3622,6 +3940,8 @@
 
 ---
 
+<a id="eventparachutedeploy"></a>
+
 ## 🔌 EventParachuteDeploy
 
 事件"parachute_deploy"（降落伞部署）
@@ -3643,6 +3963,8 @@
 
 
 ---
+
+<a id="eventparachutepickup"></a>
 
 ## 🔌 EventParachutePickup
 
@@ -3666,6 +3988,8 @@
 
 ---
 
+<a id="eventphysgunpickup"></a>
+
 ## 🔌 EventPhysgunPickup
 
 事件"physgun_pickup"
@@ -3685,6 +4009,8 @@
 
 
 ---
+
+<a id="eventplayeractivate"></a>
 
 ## 🔌 EventPlayerActivate
 
@@ -3707,6 +4033,8 @@
 
 
 ---
+
+<a id="eventplayeravengedteammate"></a>
 
 ## 🔌 EventPlayerAvengedTeammate
 
@@ -3732,6 +4060,8 @@
 
 
 ---
+
+<a id="eventplayerblind"></a>
 
 ## 🔌 EventPlayerBlind
 
@@ -3760,6 +4090,8 @@
 
 ---
 
+<a id="eventplayerchangename"></a>
+
 ## 🔌 EventPlayerChangename
 
 事件 "player_changename"
@@ -3783,6 +4115,8 @@
 
 
 ---
+
+<a id="eventplayerchat"></a>
 
 ## 🔌 EventPlayerChat
 
@@ -3808,6 +4142,8 @@
 
 
 ---
+
+<a id="eventplayerconnect"></a>
 
 ## 🔌 EventPlayerConnect
 
@@ -3835,6 +4171,8 @@
 
 ---
 
+<a id="eventplayerconnectfull"></a>
+
 ## 🔌 EventPlayerConnectFull
 
 事件"player_connect_full"：玩家已在连接序列中发送最终消息
@@ -3856,6 +4194,8 @@
 
 
 ---
+
+<a id="eventplayerdeath"></a>
 
 ## 🔌 EventPlayerDeath
 
@@ -3904,6 +4244,8 @@
 
 ---
 
+<a id="eventplayerdecal"></a>
+
 ## 🔌 EventPlayerDecal
 
 事件 "player_decal"
@@ -3925,6 +4267,8 @@
 
 
 ---
+
+<a id="eventplayerdisconnect"></a>
 
 ## 🔌 EventPlayerDisconnect
 
@@ -3953,6 +4297,8 @@
 
 ---
 
+<a id="eventplayerfalldamage"></a>
+
 ## 🔌 EventPlayerFalldamage
 
 事件“玩家坠落伤害”
@@ -3976,6 +4322,8 @@
 
 ---
 
+<a id="eventplayerfootstep"></a>
+
 ## 🔌 EventPlayerFootstep
 
 事件"player_footstep"
@@ -3997,6 +4345,8 @@
 
 
 ---
+
+<a id="eventplayerfullupdate"></a>
 
 ## 🔌 EventPlayerFullUpdate
 
@@ -4021,6 +4371,8 @@
 
 ---
 
+<a id="eventplayergivenc4"></a>
+
 ## 🔌 EventPlayerGivenC4
 
 事件"player_given_c4"
@@ -4043,6 +4395,8 @@
 
 ---
 
+<a id="eventplayerhintmessage"></a>
+
 ## 🔌 EventPlayerHintmessage
 
 事件 "player_hintmessage"
@@ -4062,6 +4416,8 @@
 
 
 ---
+
+<a id="eventplayerhurt"></a>
 
 ## 🔌 EventPlayerHurt
 
@@ -4094,6 +4450,8 @@
 
 ---
 
+<a id="eventplayerinfo"></a>
+
 ## 🔌 EventPlayerInfo
 
 事件"player_info"：玩家更改了其名称
@@ -4119,6 +4477,8 @@
 
 ---
 
+<a id="eventplayerjump"></a>
+
 ## 🔌 EventPlayerJump
 
 事件 "player_jump"
@@ -4140,6 +4500,8 @@
 
 
 ---
+
+<a id="eventplayerping"></a>
 
 ## 🔌 EventPlayerPing
 
@@ -4168,6 +4530,8 @@
 
 ---
 
+<a id="eventplayerpingstop"></a>
+
 ## 🔌 EventPlayerPingStop
 
 事件"player_ping_stop"
@@ -4187,6 +4551,8 @@
 
 
 ---
+
+<a id="eventplayerradio"></a>
 
 ## 🔌 EventPlayerRadio
 
@@ -4211,6 +4577,8 @@
 
 ---
 
+<a id="eventplayerresetvote"></a>
+
 ## 🔌 EventPlayerResetVote
 
 事件 "player_reset_vote"
@@ -4233,6 +4601,8 @@
 
 
 ---
+
+<a id="eventplayerscore"></a>
 
 ## 🔌 EventPlayerScore
 
@@ -4259,6 +4629,8 @@
 
 ---
 
+<a id="eventplayershoot"></a>
+
 ## 🔌 EventPlayerShoot
 
 事件 "player_shoot"：玩家开火射击其武器。
@@ -4282,6 +4654,8 @@
 
 
 ---
+
+<a id="eventplayersound"></a>
 
 ## 🔌 EventPlayerSound
 
@@ -4308,6 +4682,8 @@
 
 ---
 
+<a id="eventplayerspawn"></a>
+
 ## 🔌 EventPlayerSpawn
 
 事件 "player_spawn"：玩家在游戏中生成
@@ -4329,6 +4705,8 @@
 
 
 ---
+
+<a id="eventplayerspawned"></a>
 
 ## 🔌 EventPlayerSpawned
 
@@ -4353,6 +4731,8 @@
 
 ---
 
+<a id="eventplayerstatsupdated"></a>
+
 ## 🔌 EventPlayerStatsUpdated
 
 事件"player_stats_updated"
@@ -4372,6 +4752,8 @@
 
 
 ---
+
+<a id="eventplayerteam"></a>
 
 ## 🔌 EventPlayerTeam
 
@@ -4401,6 +4783,8 @@
 
 ---
 
+<a id="eventragdolldissolved"></a>
+
 ## 🔌 EventRagdollDissolved
 
 事件 "ragdoll_dissolved"
@@ -4420,6 +4804,8 @@
 
 
 ---
+
+<a id="eventreadgametitledata"></a>
 
 ## 🔌 EventReadGameTitledata
 
@@ -4441,6 +4827,8 @@
 
 ---
 
+<a id="eventrepostxboxachievements"></a>
+
 ## 🔌 EventRepostXboxAchievements
 
 事件 "repost_xbox_achievements"
@@ -4460,6 +4848,8 @@
 
 
 ---
+
+<a id="eventresetgametitledata"></a>
 
 ## 🔌 EventResetGameTitledata
 
@@ -4481,6 +4871,8 @@
 
 ---
 
+<a id="eventroundannouncefinal"></a>
+
 ## 🔌 EventRoundAnnounceFinal
 
 事件 "round_announce_final"（回合最终播报）
@@ -4494,6 +4886,8 @@
 
 
 ---
+
+<a id="eventroundannouncelastroundhalf"></a>
 
 ## 🔌 EventRoundAnnounceLastRoundHalf
 
@@ -4509,6 +4903,8 @@
 
 ---
 
+<a id="eventroundannouncematchpoint"></a>
+
 ## 🔌 EventRoundAnnounceMatchPoint
 
 事件"round_announce_match_point"（宣布赛点）
@@ -4522,6 +4918,8 @@
 
 
 ---
+
+<a id="eventroundannouncematchstart"></a>
 
 ## 🔌 EventRoundAnnounceMatchStart
 
@@ -4537,6 +4935,8 @@
 
 ---
 
+<a id="eventroundannouncewarmup"></a>
+
 ## 🔌 EventRoundAnnounceWarmup
 
 事件“回合预热宣告”
@@ -4550,6 +4950,8 @@
 
 
 ---
+
+<a id="eventroundend"></a>
 
 ## 🔌 EventRoundEnd
 
@@ -4577,6 +4979,8 @@
 
 ---
 
+<a id="eventroundenduploadstats"></a>
+
 ## 🔌 EventRoundEndUploadStats
 
 事件 "round_end_upload_stats"
@@ -4591,6 +4995,8 @@
 
 ---
 
+<a id="eventroundfreezeend"></a>
+
 ## 🔌 EventRoundFreezeEnd
 
 事件“回合冻结结束”
@@ -4604,6 +5010,8 @@
 
 
 ---
+
+<a id="eventroundmvp"></a>
 
 ## 🔌 EventRoundMvp
 
@@ -4632,6 +5040,8 @@
 
 ---
 
+<a id="eventroundofficiallyended"></a>
+
 ## 🔌 EventRoundOfficiallyEnded
 
 事件"round_officially_ended"
@@ -4645,6 +5055,8 @@
 
 
 ---
+
+<a id="eventroundpoststart"></a>
 
 ## 🔌 EventRoundPoststart
 
@@ -4660,6 +5072,8 @@
 
 ---
 
+<a id="eventroundprestart"></a>
+
 ## 🔌 EventRoundPrestart
 
 事件"round_prestart"在所有其他回合重启动作之前发送
@@ -4673,6 +5087,8 @@
 
 
 ---
+
+<a id="eventroundstart"></a>
 
 ## 🔌 EventRoundStart
 
@@ -4696,6 +5112,8 @@
 
 ---
 
+<a id="eventroundstartpostnav"></a>
+
 ## 🔌 EventRoundStartPostNav
 
 事件 "round_start_post_nav"（回合开始导航后）
@@ -4709,6 +5127,8 @@
 
 
 ---
+
+<a id="eventroundstartpreentity"></a>
 
 ## 🔌 EventRoundStartPreEntity
 
@@ -4724,6 +5144,8 @@
 
 ---
 
+<a id="eventroundtimewarning"></a>
+
 ## 🔌 EventRoundTimeWarning
 
 事件 "round_time_warning"（回合时间警告）
@@ -4737,6 +5159,8 @@
 
 
 ---
+
+<a id="eventseasoncoinlevelup"></a>
 
 ## 🔌 EventSeasoncoinLevelup
 
@@ -4762,6 +5186,8 @@
 
 ---
 
+<a id="eventservercvar"></a>
+
 ## 🔌 EventServerCvar
 
 事件"server_cvar"：服务器控制台变量已更改
@@ -4783,6 +5209,8 @@
 
 ---
 
+<a id="eventservermessage"></a>
+
 ## 🔌 EventServerMessage
 
 事件 "server_message" 通用服务器消息
@@ -4802,6 +5230,8 @@
 
 
 ---
+
+<a id="eventserverpreshutdown"></a>
 
 ## 🔌 EventServerPreShutdown
 
@@ -4823,6 +5253,8 @@
 
 ---
 
+<a id="eventservershutdown"></a>
+
 ## 🔌 EventServerShutdown
 
 事件"server_shutdown"：服务器关闭
@@ -4842,6 +5274,8 @@
 
 
 ---
+
+<a id="eventserverspawn"></a>
 
 ## 🔌 EventServerSpawn
 
@@ -4872,6 +5306,8 @@
 
 ---
 
+<a id="eventsetinstructorgroupenabled"></a>
+
 ## 🔌 EventSetInstructorGroupEnabled
 
 事件 "set_instructor_group_enabled"
@@ -4892,6 +5328,8 @@
 
 
 ---
+
+<a id="eventsfuievent"></a>
 
 ## 🔌 EventSfuievent
 
@@ -4914,6 +5352,8 @@
 
 
 ---
+
+<a id="eventshowdeathpanel"></a>
 
 ## 🔌 EventShowDeathpanel
 
@@ -4945,6 +5385,8 @@
 
 ---
 
+<a id="eventshowsurvivalrespawnstatus"></a>
+
 ## 🔌 EventShowSurvivalRespawnStatus
 
 事件"show_survival_respawn_status"
@@ -4969,6 +5411,8 @@
 
 ---
 
+<a id="eventsilencerdetach"></a>
+
 ## 🔌 EventSilencerDetach
 
 事件“消音器脱离”
@@ -4990,6 +5434,8 @@
 
 
 ---
+
+<a id="eventsilenceroff"></a>
 
 ## 🔌 EventSilencerOff
 
@@ -5013,6 +5459,8 @@
 
 ---
 
+<a id="eventsilenceron"></a>
+
 ## 🔌 EventSilencerOn
 
 事件"silencer_on"
@@ -5034,6 +5482,8 @@
 
 
 ---
+
+<a id="eventsmokebeaconparadrop"></a>
 
 ## 🔌 EventSmokeBeaconParadrop
 
@@ -5057,6 +5507,8 @@
 
 
 ---
+
+<a id="eventsmokegrenadedetonate"></a>
 
 ## 🔌 EventSmokegrenadeDetonate
 
@@ -5084,6 +5536,8 @@
 
 ---
 
+<a id="eventsmokegrenadeexpired"></a>
+
 ## 🔌 EventSmokegrenadeExpired
 
 事件"烟雾弹已过期”
@@ -5110,6 +5564,8 @@
 
 ---
 
+<a id="eventspecmodeupdated"></a>
+
 ## 🔌 EventSpecModeUpdated
 
 事件 "spec_mode_updated"
@@ -5131,6 +5587,8 @@
 
 
 ---
+
+<a id="eventspectargetupdated"></a>
 
 ## 🔌 EventSpecTargetUpdated
 
@@ -5155,6 +5613,8 @@
 
 ---
 
+<a id="eventstarthalftime"></a>
+
 ## 🔌 EventStartHalftime
 
 事件 "start_halftime"
@@ -5168,6 +5628,8 @@
 
 
 ---
+
+<a id="eventstartvote"></a>
 
 ## 🔌 EventStartVote
 
@@ -5193,6 +5655,8 @@
 
 ---
 
+<a id="eventstorepricesheetupdated"></a>
+
 ## 🔌 EventStorePricesheetUpdated
 
 事件 "store_pricesheet_updated"
@@ -5206,6 +5670,8 @@
 
 
 ---
+
+<a id="eventsurvivalannouncephase"></a>
 
 ## 🔌 EventSurvivalAnnouncePhase
 
@@ -5226,6 +5692,8 @@
 
 
 ---
+
+<a id="eventsurvivalnorespawnsfinal"></a>
 
 ## 🔌 EventSurvivalNoRespawnsFinal
 
@@ -5249,6 +5717,8 @@
 
 ---
 
+<a id="eventsurvivalnorespawnswarning"></a>
+
 ## 🔌 EventSurvivalNoRespawnsWarning
 
 事件"survival_no_respawns_warning"（生存模式无重生警告）
@@ -5271,6 +5741,8 @@
 
 ---
 
+<a id="eventsurvivalparadropbreak"></a>
+
 ## 🔌 EventSurvivalParadropBreak
 
 事件"survival_paradrop_break"
@@ -5291,6 +5763,8 @@
 
 ---
 
+<a id="eventsurvivalparadropspawn"></a>
+
 ## 🔌 EventSurvivalParadropSpawn
 
 事件 "survival_paradrop_spawn"
@@ -5310,6 +5784,8 @@
 
 
 ---
+
+<a id="eventsurvivalteammaterespawn"></a>
 
 ## 🔌 EventSurvivalTeammateRespawn
 
@@ -5332,6 +5808,8 @@
 
 
 ---
+
+<a id="eventswitchteam"></a>
 
 ## 🔌 EventSwitchTeam
 
@@ -5356,6 +5834,8 @@
 
 
 ---
+
+<a id="eventtagrenadedetonate"></a>
 
 ## 🔌 EventTagrenadeDetonate
 
@@ -5383,6 +5863,8 @@
 
 ---
 
+<a id="eventteaminfo"></a>
+
 ## 🔌 EventTeamInfo
 
 事件"team_info"：团队信息
@@ -5404,6 +5886,8 @@
 
 ---
 
+<a id="eventteamintroend"></a>
+
 ## 🔌 EventTeamIntroEnd
 
 事件 "team_intro_end"
@@ -5418,6 +5902,8 @@
 
 ---
 
+<a id="eventteamintrostart"></a>
+
 ## 🔌 EventTeamIntroStart
 
 事件"team_intro_start"
@@ -5431,6 +5917,8 @@
 
 
 ---
+
+<a id="eventteamscore"></a>
 
 ## 🔌 EventTeamScore
 
@@ -5452,6 +5940,8 @@
 
 
 ---
+
+<a id="eventteamchangepending"></a>
 
 ## 🔌 EventTeamchangePending
 
@@ -5476,6 +5966,8 @@
 
 ---
 
+<a id="eventteamplaybroadcastaudio"></a>
+
 ## 🔌 EventTeamplayBroadcastAudio
 
 事件"teamplay_broadcast_audio"会向队伍中的每位成员播放一段声音。
@@ -5497,6 +5989,8 @@
 
 ---
 
+<a id="eventteamplayroundstart"></a>
+
 ## 🔌 EventTeamplayRoundStart
 
 事件 "teamplay_round_start"：回合重新开始
@@ -5516,6 +6010,8 @@
 
 
 ---
+
+<a id="eventtournamentreward"></a>
 
 ## 🔌 EventTournamentReward
 
@@ -5539,6 +6035,8 @@
 
 ---
 
+<a id="eventtrialtimeexpired"></a>
+
 ## 🔌 EventTrialTimeExpired
 
 事件"trial_time_expired"
@@ -5561,6 +6059,8 @@
 
 ---
 
+<a id="eventugcfiledownloadfinished"></a>
+
 ## 🔌 EventUgcFileDownloadFinished
 
 事件“ugc_file_download_finished"
@@ -5580,6 +6080,8 @@
 
 
 ---
+
+<a id="eventugcfiledownloadstart"></a>
 
 ## 🔌 EventUgcFileDownloadStart
 
@@ -5602,6 +6104,8 @@
 
 ---
 
+<a id="eventugcmapdownloaderror"></a>
+
 ## 🔌 EventUgcMapDownloadError
 
 事件 "ugc_map_download_error"（创意工坊地图下载错误）
@@ -5623,6 +6127,8 @@
 
 ---
 
+<a id="eventugcmapinforeceived"></a>
+
 ## 🔌 EventUgcMapInfoReceived
 
 事件 "ugc_map_info_received"
@@ -5642,6 +6148,8 @@
 
 
 ---
+
+<a id="eventugcmapunsubscribed"></a>
 
 ## 🔌 EventUgcMapUnsubscribed
 
@@ -5663,6 +6171,8 @@
 
 ---
 
+<a id="eventupdatematchmakingstats"></a>
+
 ## 🔌 EventUpdateMatchmakingStats
 
 事件"update_matchmaking_stats"
@@ -5677,6 +6187,8 @@
 
 ---
 
+<a id="eventuserdatadownloaded"></a>
+
 ## 🔌 EventUserDataDownloaded
 
 事件"user_data_downloaded"在从 Steam 或 XBox Live 下载成就/统计数据时触发
@@ -5690,6 +6202,8 @@
 
 
 ---
+
+<a id="eventvipescaped"></a>
 
 ## 🔌 EventVipEscaped
 
@@ -5712,6 +6226,8 @@
 
 
 ---
+
+<a id="eventvipkilled"></a>
 
 ## 🔌 EventVipKilled
 
@@ -5738,6 +6254,8 @@
 
 ---
 
+<a id="eventvotecast"></a>
+
 ## 🔌 EventVoteCast
 
 事件"vote_cast"
@@ -5762,6 +6280,8 @@
 
 ---
 
+<a id="eventvotecastno"></a>
+
 ## 🔌 EventVoteCastNo
 
 事件“投票未通过”
@@ -5783,6 +6303,8 @@
 
 ---
 
+<a id="eventvotecastyes"></a>
+
 ## 🔌 EventVoteCastYes
 
 事件 "vote_cast_yes"（投票投赞成票）
@@ -5803,6 +6325,8 @@
 
 
 ---
+
+<a id="eventvotechanged"></a>
 
 ## 🔌 EventVoteChanged
 
@@ -5831,6 +6355,8 @@
 
 ---
 
+<a id="eventvoteended"></a>
+
 ## 🔌 EventVoteEnded
 
 事件"vote_ended"
@@ -5844,6 +6370,8 @@
 
 
 ---
+
+<a id="eventvotefailed"></a>
 
 ## 🔌 EventVoteFailed
 
@@ -5864,6 +6392,8 @@
 
 
 ---
+
+<a id="eventvoteoptions"></a>
 
 ## 🔌 EventVoteOptions
 
@@ -5890,6 +6420,8 @@
 
 ---
 
+<a id="eventvotepassed"></a>
+
 ## 🔌 EventVotePassed
 
 事件 "vote_passed"
@@ -5911,6 +6443,8 @@
 
 
 ---
+
+<a id="eventvotestarted"></a>
 
 ## 🔌 EventVoteStarted
 
@@ -5936,6 +6470,8 @@
 
 ---
 
+<a id="eventwarmupend"></a>
+
 ## 🔌 EventWarmupEnd
 
 事件"warmup_end"
@@ -5949,6 +6485,8 @@
 
 
 ---
+
+<a id="eventweaponfire"></a>
 
 ## 🔌 EventWeaponFire
 
@@ -5974,6 +6512,8 @@
 
 ---
 
+<a id="eventweaponfireonempty"></a>
+
 ## 🔌 EventWeaponFireOnEmpty
 
 事件“武器在空仓时开火”
@@ -5997,6 +6537,8 @@
 
 ---
 
+<a id="eventweaponreload"></a>
+
 ## 🔌 EventWeaponReload
 
 事件"weapon_reload"
@@ -6018,6 +6560,8 @@
 
 
 ---
+
+<a id="eventweaponzoom"></a>
 
 ## 🔌 EventWeaponZoom
 
@@ -6041,6 +6585,8 @@
 
 ---
 
+<a id="eventweaponzoomrifle"></a>
+
 ## 🔌 EventWeaponZoomRifle
 
 事件 "weapon_zoom_rifle"
@@ -6062,6 +6608,8 @@
 
 
 ---
+
+<a id="eventweaponhudselection"></a>
 
 ## 🔌 EventWeaponhudSelection
 
@@ -6087,6 +6635,8 @@
 
 ---
 
+<a id="eventwritegametitledata"></a>
+
 ## 🔌 EventWriteGameTitledata
 
 事件 "write_game_titledata" 将用户标题数据写入个人资料
@@ -6106,6 +6656,8 @@
 
 
 ---
+
+<a id="eventwriteprofiledata"></a>
 
 ## 🔌 EventWriteProfileData
 

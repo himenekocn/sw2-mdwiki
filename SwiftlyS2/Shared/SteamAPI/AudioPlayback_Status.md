@@ -1,3 +1,5 @@
+<a id="audioplayback_status"></a>
+
 # 📋 AudioPlayback_Status
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

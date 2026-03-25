@@ -1,3 +1,5 @@
+<a id="p2psessionrequest_t"></a>
+
 # 🏗️ P2PSessionRequest_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

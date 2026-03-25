@@ -1,3 +1,5 @@
+<a id="ebroadcastuploadresult"></a>
+
 # 📋 EBroadcastUploadResult
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

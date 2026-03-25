@@ -1,3 +1,5 @@
+<a id="hauthticket"></a>
+
 # 🏗️ HAuthTicket
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

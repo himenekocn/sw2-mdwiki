@@ -1,3 +1,5 @@
+<a id="helper"></a>
+
 # 📦 Helper
 
 **命名空间:** `SwiftlyS2.Shared`

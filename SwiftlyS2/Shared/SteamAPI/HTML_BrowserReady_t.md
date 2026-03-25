@@ -1,3 +1,5 @@
+<a id="html_browserready_t"></a>
+
 # 🏗️ HTML_BrowserReady_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

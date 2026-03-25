@@ -221,10 +221,12 @@
 - 🔌 [IDHookCVoteControllerVoteControllerThink](#idhookcvotecontrollervotecontrollerthink)
 - 🔌 [IDHookCWaterBulletBulletThink](#idhookcwaterbulletbulletthink)
 - 🔌 [IDatamapFunctionHookContext](#idatamapfunctionhookcontext)
-- 🔌 [IDatamapFunctionHookContext&lt;T&gt;](#idatamapfunctionhookcontext)
+- 🔌 [IDatamapFunctionHookContext&lt;T&gt;](#idatamapfunctionhookcontext-t)
 - 🔌 [IDatamapFunctionService](#idatamapfunctionservice)
 - 🔌 [IDatamapFunctionService](#idatamapfunctionservice)
 - 🔌 [IDatamapService](#idatamapservice)
+
+<a id="datamaphookattribute"></a>
 
 ## 📦 DatamapHook
 
@@ -250,6 +252,8 @@
 
 ---
 
+<a id="idhookcambientgenericrampthink"></a>
+
 ## 🔌 IDHookCAmbientGenericRampThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -261,6 +265,8 @@
 
 
 ---
+
+<a id="idhookcbarnlightthink_applylightstylestotargets"></a>
 
 ## 🔌 IDHookCBarnLightThink_ApplyLightStylesToTargets
 
@@ -274,6 +280,8 @@
 
 ---
 
+<a id="idhookcbarnlightthink_lightstyleevent"></a>
+
 ## 🔌 IDHookCBarnLightThink_LightStyleEvent
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -285,6 +293,8 @@
 
 
 ---
+
+<a id="idhookcbarnlightthink_setnextqueuedlightstyle"></a>
 
 ## 🔌 IDHookCBarnLightThink_SetNextQueuedLightStyle
 
@@ -298,6 +308,8 @@
 
 ---
 
+<a id="idhookcbaseanimgraphchoreoservicesthink"></a>
+
 ## 🔌 IDHookCBaseAnimGraphChoreoServicesThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -309,6 +321,8 @@
 
 
 ---
+
+<a id="idhookcbasebuttonactivatetouch"></a>
 
 ## 🔌 IDHookCBaseButtonActivateTouch
 
@@ -322,6 +336,8 @@
 
 ---
 
+<a id="idhookcbasebuttonbuttonbackhome"></a>
+
 ## 🔌 IDHookCBaseButtonButtonBackHome
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -333,6 +349,8 @@
 
 
 ---
+
+<a id="idhookcbasebuttonbuttonreturn"></a>
 
 ## 🔌 IDHookCBaseButtonButtonReturn
 
@@ -346,6 +364,8 @@
 
 ---
 
+<a id="idhookcbasebuttonbuttonspark"></a>
+
 ## 🔌 IDHookCBaseButtonButtonSpark
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -357,6 +377,8 @@
 
 
 ---
+
+<a id="idhookcbasebuttonbuttontouch"></a>
 
 ## 🔌 IDHookCBaseButtonButtonTouch
 
@@ -370,6 +392,8 @@
 
 ---
 
+<a id="idhookcbasebuttonbuttonuse"></a>
+
 ## 🔌 IDHookCBaseButtonButtonUse
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -381,6 +405,8 @@
 
 
 ---
+
+<a id="idhookcbasebuttontriggerandwait"></a>
 
 ## 🔌 IDHookCBaseButtonTriggerAndWait
 
@@ -394,6 +420,8 @@
 
 ---
 
+<a id="idhookcbasecsgrenadeprojectiledangersoundthink"></a>
+
 ## 🔌 IDHookCBaseCSGrenadeProjectileDangerSoundThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -405,6 +433,8 @@
 
 
 ---
+
+<a id="idhookcbasedoorcloseareaportalsthink"></a>
 
 ## 🔌 IDHookCBaseDoorCloseAreaPortalsThink
 
@@ -418,6 +448,8 @@
 
 ---
 
+<a id="idhookcbasedoordoorgodown"></a>
+
 ## 🔌 IDHookCBaseDoorDoorGoDown
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -429,6 +461,8 @@
 
 
 ---
+
+<a id="idhookcbasedoordoorgoup"></a>
 
 ## 🔌 IDHookCBaseDoorDoorGoUp
 
@@ -442,6 +476,8 @@
 
 ---
 
+<a id="idhookcbasedoordoorhitbottom"></a>
+
 ## 🔌 IDHookCBaseDoorDoorHitBottom
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -453,6 +489,8 @@
 
 
 ---
+
+<a id="idhookcbasedoordoorhittop"></a>
 
 ## 🔌 IDHookCBaseDoorDoorHitTop
 
@@ -466,6 +504,8 @@
 
 ---
 
+<a id="idhookcbasedoordoortouch"></a>
+
 ## 🔌 IDHookCBaseDoorDoorTouch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -477,6 +517,8 @@
 
 
 ---
+
+<a id="idhookcbasedoormovingsoundthink"></a>
 
 ## 🔌 IDHookCBaseDoorMovingSoundThink
 
@@ -490,6 +532,8 @@
 
 ---
 
+<a id="idhookcbaseentityclearnavignorecontentsthink"></a>
+
 ## 🔌 IDHookCBaseEntityClearNavIgnoreContentsThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -501,6 +545,8 @@
 
 
 ---
+
+<a id="idhookcbaseentityfakescriptthinkfunc"></a>
 
 ## 🔌 IDHookCBaseEntityFakeScriptThinkFunc
 
@@ -514,6 +560,8 @@
 
 ---
 
+<a id="idhookcbaseentitysub_callusetoggle"></a>
+
 ## 🔌 IDHookCBaseEntitySUB_CallUseToggle
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -525,6 +573,8 @@
 
 
 ---
+
+<a id="idhookcbaseentitysub_donothing"></a>
 
 ## 🔌 IDHookCBaseEntitySUB_DoNothing
 
@@ -538,6 +588,8 @@
 
 ---
 
+<a id="idhookcbaseentitysub_killself"></a>
+
 ## 🔌 IDHookCBaseEntitySUB_KillSelf
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -549,6 +601,8 @@
 
 
 ---
+
+<a id="idhookcbaseentitysub_killselfifuncarried"></a>
 
 ## 🔌 IDHookCBaseEntitySUB_KillSelfIfUncarried
 
@@ -562,6 +616,8 @@
 
 ---
 
+<a id="idhookcbaseentitysub_remove"></a>
+
 ## 🔌 IDHookCBaseEntitySUB_Remove
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -573,6 +629,8 @@
 
 
 ---
+
+<a id="idhookcbaseentitysub_removeifuncarried"></a>
 
 ## 🔌 IDHookCBaseEntitySUB_RemoveIfUncarried
 
@@ -586,6 +644,8 @@
 
 ---
 
+<a id="idhookcbaseentitysub_vanish"></a>
+
 ## 🔌 IDHookCBaseEntitySUB_Vanish
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -597,6 +657,8 @@
 
 
 ---
+
+<a id="idhookcbaseflexprocesssceneeventsthink"></a>
 
 ## 🔌 IDHookCBaseFlexProcessSceneEventsThink
 
@@ -610,6 +672,8 @@
 
 ---
 
+<a id="idhookcbasegrenadebouncetouch"></a>
+
 ## 🔌 IDHookCBaseGrenadeBounceTouch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -621,6 +685,8 @@
 
 
 ---
+
+<a id="idhookcbasegrenadedangersoundthink"></a>
 
 ## 🔌 IDHookCBaseGrenadeDangerSoundThink
 
@@ -634,6 +700,8 @@
 
 ---
 
+<a id="idhookcbasegrenadedetonate"></a>
+
 ## 🔌 IDHookCBaseGrenadeDetonate
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -645,6 +713,8 @@
 
 
 ---
+
+<a id="idhookcbasegrenadedetonateuse"></a>
 
 ## 🔌 IDHookCBaseGrenadeDetonateUse
 
@@ -658,6 +728,8 @@
 
 ---
 
+<a id="idhookcbasegrenadeexplodetouch"></a>
+
 ## 🔌 IDHookCBaseGrenadeExplodeTouch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -669,6 +741,8 @@
 
 
 ---
+
+<a id="idhookcbasegrenadepredetonate"></a>
 
 ## 🔌 IDHookCBaseGrenadePreDetonate
 
@@ -682,6 +756,8 @@
 
 ---
 
+<a id="idhookcbasegrenadeslidetouch"></a>
+
 ## 🔌 IDHookCBaseGrenadeSlideTouch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -693,6 +769,8 @@
 
 
 ---
+
+<a id="idhookcbasegrenadesmoke"></a>
 
 ## 🔌 IDHookCBaseGrenadeSmoke
 
@@ -706,6 +784,8 @@
 
 ---
 
+<a id="idhookcbasegrenadetumblethink"></a>
+
 ## 🔌 IDHookCBaseGrenadeTumbleThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -717,6 +797,8 @@
 
 
 ---
+
+<a id="idhookcbasemodelentitysub_dissolveifuncarried"></a>
 
 ## 🔌 IDHookCBaseModelEntitySUB_DissolveIfUncarried
 
@@ -730,6 +812,8 @@
 
 ---
 
+<a id="idhookcbasemodelentitysub_fadeout"></a>
+
 ## 🔌 IDHookCBaseModelEntitySUB_FadeOut
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -741,6 +825,8 @@
 
 
 ---
+
+<a id="idhookcbasemodelentitysub_performshadowfadein"></a>
 
 ## 🔌 IDHookCBaseModelEntitySUB_PerformShadowFadeIn
 
@@ -754,6 +840,8 @@
 
 ---
 
+<a id="idhookcbasemodelentitysub_performshadowfadeout"></a>
+
 ## 🔌 IDHookCBaseModelEntitySUB_PerformShadowFadeOut
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -765,6 +853,8 @@
 
 
 ---
+
+<a id="idhookcbasemodelentitysub_startfadeout"></a>
 
 ## 🔌 IDHookCBaseModelEntitySUB_StartFadeOut
 
@@ -778,6 +868,8 @@
 
 ---
 
+<a id="idhookcbasemodelentitysub_startfadeoutinstant"></a>
+
 ## 🔌 IDHookCBaseModelEntitySUB_StartFadeOutInstant
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -789,6 +881,8 @@
 
 
 ---
+
+<a id="idhookcbasemodelentitysub_startshadowfadein"></a>
 
 ## 🔌 IDHookCBaseModelEntitySUB_StartShadowFadeIn
 
@@ -802,6 +896,8 @@
 
 ---
 
+<a id="idhookcbasemodelentitysub_startshadowfadeout"></a>
+
 ## 🔌 IDHookCBaseModelEntitySUB_StartShadowFadeOut
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -813,6 +909,8 @@
 
 
 ---
+
+<a id="idhookcbasemodelentitysub_stopshadowfade"></a>
 
 ## 🔌 IDHookCBaseModelEntitySUB_StopShadowFade
 
@@ -826,6 +924,8 @@
 
 ---
 
+<a id="idhookcbasepropdoordisableareaportalthink"></a>
+
 ## 🔌 IDHookCBasePropDoorDisableAreaPortalThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -837,6 +937,8 @@
 
 
 ---
+
+<a id="idhookcbasepropdoordoorautoclosethink"></a>
 
 ## 🔌 IDHookCBasePropDoorDoorAutoCloseThink
 
@@ -850,6 +952,8 @@
 
 ---
 
+<a id="idhookcbasepropdoordoorclosemovedone"></a>
+
 ## 🔌 IDHookCBasePropDoorDoorCloseMoveDone
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -861,6 +965,8 @@
 
 
 ---
+
+<a id="idhookcbasepropdoordooropenmovedone"></a>
 
 ## 🔌 IDHookCBasePropDoorDoorOpenMoveDone
 
@@ -874,6 +980,8 @@
 
 ---
 
+<a id="idhookcbombtargetcbombtargetshim_bombtargetuse"></a>
+
 ## 🔌 IDHookCBombTargetCBombTargetShim_BombTargetUse
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -885,6 +993,8 @@
 
 
 ---
+
+<a id="idhookcbombtargetcbombtargetshim_touch"></a>
 
 ## 🔌 IDHookCBombTargetCBombTargetShim_Touch
 
@@ -898,6 +1008,8 @@
 
 ---
 
+<a id="idhookcbreakabledie"></a>
+
 ## 🔌 IDHookCBreakableDie
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -909,6 +1021,8 @@
 
 
 ---
+
+<a id="idhookcbreakablepropbreakthink"></a>
 
 ## 🔌 IDHookCBreakablePropBreakThink
 
@@ -922,6 +1036,8 @@
 
 ---
 
+<a id="idhookcbreakablepropramptodefaultfadescale"></a>
+
 ## 🔌 IDHookCBreakablePropRampToDefaultFadeScale
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -933,6 +1049,8 @@
 
 
 ---
+
+<a id="idhookccsplayercontrollerinventoryupdatethink"></a>
 
 ## 🔌 IDHookCCSPlayerControllerInventoryUpdateThink
 
@@ -946,6 +1064,8 @@
 
 ---
 
+<a id="idhookccsplayercontrollerplayerforceteamthink"></a>
+
 ## 🔌 IDHookCCSPlayerControllerPlayerForceTeamThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -957,6 +1077,8 @@
 
 
 ---
+
+<a id="idhookccsplayercontrollerresetforceteamthink"></a>
 
 ## 🔌 IDHookCCSPlayerControllerResetForceTeamThink
 
@@ -970,6 +1092,8 @@
 
 ---
 
+<a id="idhookccsplayercontrollerresourcedatathink"></a>
+
 ## 🔌 IDHookCCSPlayerControllerResourceDataThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -981,6 +1105,8 @@
 
 
 ---
+
+<a id="idhookccsplayerpawncheckstuffthink"></a>
 
 ## 🔌 IDHookCCSPlayerPawnCheckStuffThink
 
@@ -994,6 +1120,8 @@
 
 ---
 
+<a id="idhookccsplayerpawnpushawaythink"></a>
+
 ## 🔌 IDHookCCSPlayerPawnPushawayThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1005,6 +1133,8 @@
 
 
 ---
+
+<a id="idhookccsplayerresourceresourcethink"></a>
 
 ## 🔌 IDHookCCSPlayerResourceResourceThink
 
@@ -1018,6 +1148,8 @@
 
 ---
 
+<a id="idhookccsweaponbasedefaulttouch"></a>
+
 ## 🔌 IDHookCCSWeaponBaseDefaultTouch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1029,6 +1161,8 @@
 
 
 ---
+
+<a id="idhookccsweaponbaseremoveunownedweaponthink"></a>
 
 ## 🔌 IDHookCCSWeaponBaseRemoveUnownedWeaponThink
 
@@ -1042,6 +1176,8 @@
 
 ---
 
+<a id="idhookcchickenchickenthink"></a>
+
 ## 🔌 IDHookCChickenChickenThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1053,6 +1189,8 @@
 
 
 ---
+
+<a id="idhookcchickenchickentouch"></a>
 
 ## 🔌 IDHookCChickenChickenTouch
 
@@ -1066,6 +1204,8 @@
 
 ---
 
+<a id="idhookcchickenchickenuse"></a>
+
 ## 🔌 IDHookCChickenChickenUse
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1077,6 +1217,8 @@
 
 
 ---
+
+<a id="idhookccolorcorrectionfadeinthink"></a>
 
 ## 🔌 IDHookCColorCorrectionFadeInThink
 
@@ -1090,6 +1232,8 @@
 
 ---
 
+<a id="idhookccolorcorrectionfadeoutthink"></a>
+
 ## 🔌 IDHookCColorCorrectionFadeOutThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1101,6 +1245,8 @@
 
 
 ---
+
+<a id="idhookccolorcorrectionvolumethinkfunc"></a>
 
 ## 🔌 IDHookCColorCorrectionVolumeThinkFunc
 
@@ -1114,6 +1260,8 @@
 
 ---
 
+<a id="idhookcdecoyprojectilegunfirethink"></a>
+
 ## 🔌 IDHookCDecoyProjectileGunfireThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1125,6 +1273,8 @@
 
 
 ---
+
+<a id="idhookcdecoyprojectilethink_detonate"></a>
 
 ## 🔌 IDHookCDecoyProjectileThink_Detonate
 
@@ -1138,6 +1288,8 @@
 
 ---
 
+<a id="idhookcdynamiclightdynamiclightthink"></a>
+
 ## 🔌 IDHookCDynamicLightDynamicLightThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1149,6 +1301,8 @@
 
 
 ---
+
+<a id="idhookcdynamicpropanimthink"></a>
 
 ## 🔌 IDHookCDynamicPropAnimThink
 
@@ -1162,6 +1316,8 @@
 
 ---
 
+<a id="idhookcentitydissolvedissolvethink"></a>
+
 ## 🔌 IDHookCEntityDissolveDissolveThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1173,6 +1329,8 @@
 
 
 ---
+
+<a id="idhookcentitydissolveelectrocutethink"></a>
 
 ## 🔌 IDHookCEntityDissolveElectrocuteThink
 
@@ -1186,6 +1344,8 @@
 
 ---
 
+<a id="idhookcentityflameflamethink"></a>
+
 ## 🔌 IDHookCEntityFlameFlameThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1197,6 +1357,8 @@
 
 
 ---
+
+<a id="idhookcenvbeamstrikethink"></a>
 
 ## 🔌 IDHookCEnvBeamStrikeThink
 
@@ -1210,6 +1372,8 @@
 
 ---
 
+<a id="idhookcenvbeamupdatethink"></a>
+
 ## 🔌 IDHookCEnvBeamUpdateThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1221,6 +1385,8 @@
 
 
 ---
+
+<a id="idhookcenventitymakercheckspawnthink"></a>
 
 ## 🔌 IDHookCEnvEntityMakerCheckSpawnThink
 
@@ -1234,6 +1400,8 @@
 
 ---
 
+<a id="idhookcenvlaserstrikethink"></a>
+
 ## 🔌 IDHookCEnvLaserStrikeThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1245,6 +1413,8 @@
 
 
 ---
+
+<a id="idhookcenvsparksparkthink"></a>
 
 ## 🔌 IDHookCEnvSparkSparkThink
 
@@ -1258,6 +1428,8 @@
 
 ---
 
+<a id="idhookcenvwindcontrollerwindthink"></a>
+
 ## 🔌 IDHookCEnvWindControllerWindThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1269,6 +1441,8 @@
 
 
 ---
+
+<a id="idhookcenvwindwindthink"></a>
 
 ## 🔌 IDHookCEnvWindWindThink
 
@@ -1282,6 +1456,8 @@
 
 ---
 
+<a id="idhookcfishpoolupdate"></a>
+
 ## 🔌 IDHookCFishPoolUpdate
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1293,6 +1469,8 @@
 
 
 ---
+
+<a id="idhookcfogcontrollersetlerpvalues"></a>
 
 ## 🔌 IDHookCFogControllerSetLerpValues
 
@@ -1306,6 +1484,8 @@
 
 ---
 
+<a id="idhookcfuncmovelinearnavmovablethink"></a>
+
 ## 🔌 IDHookCFuncMoveLinearNavMovableThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1317,6 +1497,8 @@
 
 
 ---
+
+<a id="idhookcfuncmovelinearnavobstaclethink"></a>
 
 ## 🔌 IDHookCFuncMoveLinearNavObstacleThink
 
@@ -1330,6 +1512,8 @@
 
 ---
 
+<a id="idhookcfuncmovelinearstopmovesound"></a>
+
 ## 🔌 IDHookCFuncMoveLinearStopMoveSound
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1341,6 +1525,8 @@
 
 
 ---
+
+<a id="idhookcfuncmoverlerptonewposition"></a>
 
 ## 🔌 IDHookCFuncMoverLerpToNewPosition
 
@@ -1354,6 +1540,8 @@
 
 ---
 
+<a id="idhookcfuncplatcallgodown"></a>
+
 ## 🔌 IDHookCFuncPlatCallGoDown
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1365,6 +1553,8 @@
 
 
 ---
+
+<a id="idhookcfuncplatcallhitbottom"></a>
 
 ## 🔌 IDHookCFuncPlatCallHitBottom
 
@@ -1378,6 +1568,8 @@
 
 ---
 
+<a id="idhookcfuncplatcallhittop"></a>
+
 ## 🔌 IDHookCFuncPlatCallHitTop
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1389,6 +1581,8 @@
 
 
 ---
+
+<a id="idhookcfuncplatplatuse"></a>
 
 ## 🔌 IDHookCFuncPlatPlatUse
 
@@ -1402,6 +1596,8 @@
 
 ---
 
+<a id="idhookcfuncrotatinghurttouch"></a>
+
 ## 🔌 IDHookCFuncRotatingHurtTouch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1413,6 +1609,8 @@
 
 
 ---
+
+<a id="idhookcfuncrotatingreversemove"></a>
 
 ## 🔌 IDHookCFuncRotatingReverseMove
 
@@ -1426,6 +1624,8 @@
 
 ---
 
+<a id="idhookcfuncrotatingrotatemove"></a>
+
 ## 🔌 IDHookCFuncRotatingRotateMove
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1437,6 +1637,8 @@
 
 
 ---
+
+<a id="idhookcfuncrotatingrotatinguse"></a>
 
 ## 🔌 IDHookCFuncRotatingRotatingUse
 
@@ -1450,6 +1652,8 @@
 
 ---
 
+<a id="idhookcfuncrotatingspindownmove"></a>
+
 ## 🔌 IDHookCFuncRotatingSpinDownMove
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1461,6 +1665,8 @@
 
 
 ---
+
+<a id="idhookcfuncrotatingspinupmove"></a>
 
 ## 🔌 IDHookCFuncRotatingSpinUpMove
 
@@ -1474,6 +1680,8 @@
 
 ---
 
+<a id="idhookcfuncrotatorrotatethink"></a>
+
 ## 🔌 IDHookCFuncRotatorRotateThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1485,6 +1693,8 @@
 
 
 ---
+
+<a id="idhookcfuncshatterglassglassthink"></a>
 
 ## 🔌 IDHookCFuncShatterglassGlassThink
 
@@ -1498,6 +1708,8 @@
 
 ---
 
+<a id="idhookcfunctrackchangefind"></a>
+
 ## 🔌 IDHookCFuncTrackChangeFind
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1509,6 +1721,8 @@
 
 
 ---
+
+<a id="idhookcfunctracktraindeadend"></a>
 
 ## 🔌 IDHookCFuncTrackTrainDeadEnd
 
@@ -1522,6 +1736,8 @@
 
 ---
 
+<a id="idhookcfunctracktrainfind"></a>
+
 ## 🔌 IDHookCFuncTrackTrainFind
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1533,6 +1749,8 @@
 
 
 ---
+
+<a id="idhookcfunctracktrainnearestpath"></a>
 
 ## 🔌 IDHookCFuncTrackTrainNearestPath
 
@@ -1546,6 +1764,8 @@
 
 ---
 
+<a id="idhookcfunctracktrainnext"></a>
+
 ## 🔌 IDHookCFuncTrackTrainNext
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1557,6 +1777,8 @@
 
 
 ---
+
+<a id="idhookcfunctraincontrolsfind"></a>
 
 ## 🔌 IDHookCFuncTrainControlsFind
 
@@ -1570,6 +1792,8 @@
 
 ---
 
+<a id="idhookcfunctrainnext"></a>
+
 ## 🔌 IDHookCFuncTrainNext
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1581,6 +1805,8 @@
 
 
 ---
+
+<a id="idhookcfunctrainwait"></a>
 
 ## 🔌 IDHookCFuncTrainWait
 
@@ -1594,6 +1820,8 @@
 
 ---
 
+<a id="idhookcgenericconstraintupdatethink"></a>
+
 ## 🔌 IDHookCGenericConstraintUpdateThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1605,6 +1833,8 @@
 
 
 ---
+
+<a id="idhookcguntargetnext"></a>
 
 ## 🔌 IDHookCGunTargetNext
 
@@ -1618,6 +1848,8 @@
 
 ---
 
+<a id="idhookcguntargetstart"></a>
+
 ## 🔌 IDHookCGunTargetStart
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1629,6 +1861,8 @@
 
 
 ---
+
+<a id="idhookcguntargetwait"></a>
 
 ## 🔌 IDHookCGunTargetWait
 
@@ -1642,6 +1876,8 @@
 
 ---
 
+<a id="idhookchostagehostagethink"></a>
+
 ## 🔌 IDHookCHostageHostageThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1653,6 +1889,8 @@
 
 
 ---
+
+<a id="idhookchostagehostageuse"></a>
 
 ## 🔌 IDHookCHostageHostageUse
 
@@ -1666,6 +1904,8 @@
 
 ---
 
+<a id="idhookchostagerescuezonechostagerescuezoneshim_touch"></a>
+
 ## 🔌 IDHookCHostageRescueZoneCHostageRescueZoneShim_Touch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1677,6 +1917,8 @@
 
 
 ---
+
+<a id="idhookcinfernoinfernothink"></a>
 
 ## 🔌 IDHookCInfernoInfernoThink
 
@@ -1690,6 +1932,8 @@
 
 ---
 
+<a id="idhookcinfospawngrouploadunloadspawngrouploadingthink"></a>
+
 ## 🔌 IDHookCInfoSpawnGroupLoadUnloadSpawnGroupLoadingThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1701,6 +1945,8 @@
 
 
 ---
+
+<a id="idhookcinfospawngrouploadunloadspawngroupunloadingthink"></a>
 
 ## 🔌 IDHookCInfoSpawnGroupLoadUnloadSpawnGroupUnloadingThink
 
@@ -1714,6 +1960,8 @@
 
 ---
 
+<a id="idhookcitemcometorest"></a>
+
 ## 🔌 IDHookCItemComeToRest
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1725,6 +1973,8 @@
 
 
 ---
+
+<a id="idhookcitemdefuseractivatethink"></a>
 
 ## 🔌 IDHookCItemDefuserActivateThink
 
@@ -1738,6 +1988,8 @@
 
 ---
 
+<a id="idhookcitemdefuserdefusertouch"></a>
+
 ## 🔌 IDHookCItemDefuserDefuserTouch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1749,6 +2001,8 @@
 
 
 ---
+
+<a id="idhookcitemgenericitemgenerictouch"></a>
 
 ## 🔌 IDHookCItemGenericItemGenericTouch
 
@@ -1762,6 +2016,8 @@
 
 ---
 
+<a id="idhookcitemgenerictriggerhelperitemgenerictriggerhelpertouch"></a>
+
 ## 🔌 IDHookCItemGenericTriggerHelperItemGenericTriggerHelperTouch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1773,6 +2029,8 @@
 
 
 ---
+
+<a id="idhookcitemitemtouch"></a>
 
 ## 🔌 IDHookCItemItemTouch
 
@@ -1786,6 +2044,8 @@
 
 ---
 
+<a id="idhookcitemmaterialize"></a>
+
 ## 🔌 IDHookCItemMaterialize
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1797,6 +2057,8 @@
 
 
 ---
+
+<a id="idhookcitemsodacanthink"></a>
 
 ## 🔌 IDHookCItemSodaCanThink
 
@@ -1810,6 +2072,8 @@
 
 ---
 
+<a id="idhookclogicactiveautosavesavethink"></a>
+
 ## 🔌 IDHookCLogicActiveAutosaveSaveThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1821,6 +2085,8 @@
 
 
 ---
+
+<a id="idhookclogicdistanceautosavesavethink"></a>
 
 ## 🔌 IDHookCLogicDistanceAutosaveSaveThink
 
@@ -1834,6 +2100,8 @@
 
 ---
 
+<a id="idhookclogicmeasuremovementmeasurethink"></a>
+
 ## 🔌 IDHookCLogicMeasureMovementMeasureThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1845,6 +2113,8 @@
 
 
 ---
+
+<a id="idhookclogicnpccountersetnpccounterthink"></a>
 
 ## 🔌 IDHookCLogicNPCCounterSetNPCCounterThink
 
@@ -1858,6 +2128,8 @@
 
 ---
 
+<a id="idhookcmapvetopickcontrollervotecontrollerthink"></a>
+
 ## 🔌 IDHookCMapVetoPickControllerVoteControllerThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1869,6 +2141,8 @@
 
 
 ---
+
+<a id="idhookcmomentaryrotbuttonreturnmovedone"></a>
 
 ## 🔌 IDHookCMomentaryRotButtonReturnMoveDone
 
@@ -1882,6 +2156,8 @@
 
 ---
 
+<a id="idhookcmomentaryrotbuttonsetpositionmovedone"></a>
+
 ## 🔌 IDHookCMomentaryRotButtonSetPositionMoveDone
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1893,6 +2169,8 @@
 
 
 ---
+
+<a id="idhookcmomentaryrotbuttonupdatethink"></a>
 
 ## 🔌 IDHookCMomentaryRotButtonUpdateThink
 
@@ -1906,6 +2184,8 @@
 
 ---
 
+<a id="idhookcmomentaryrotbuttonusemovedone"></a>
+
 ## 🔌 IDHookCMomentaryRotButtonUseMoveDone
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1917,6 +2197,8 @@
 
 
 ---
+
+<a id="idhookcmultilightproxyapproachbrightnessthink"></a>
 
 ## 🔌 IDHookCMultiLightProxyApproachBrightnessThink
 
@@ -1930,6 +2212,8 @@
 
 ---
 
+<a id="idhookcmultilightproxyrestoreflashlightthink"></a>
+
 ## 🔌 IDHookCMultiLightProxyRestoreFlashlightThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1941,6 +2225,8 @@
 
 
 ---
+
+<a id="idhookcmultisourceregister"></a>
 
 ## 🔌 IDHookCMultiSourceRegister
 
@@ -1954,6 +2240,8 @@
 
 ---
 
+<a id="idhookcparticlesystemstartparticlesystemthink"></a>
+
 ## 🔌 IDHookCParticleSystemStartParticleSystemThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1965,6 +2253,8 @@
 
 
 ---
+
+<a id="idhookcpathmoverentityspawnerspawnthink"></a>
 
 ## 🔌 IDHookCPathMoverEntitySpawnerSpawnThink
 
@@ -1978,6 +2268,8 @@
 
 ---
 
+<a id="idhookcpathnodeparentedmovethink"></a>
+
 ## 🔌 IDHookCPathNodeParentedMoveThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -1989,6 +2281,8 @@
 
 
 ---
+
+<a id="idhookcphysforceforceoff"></a>
 
 ## 🔌 IDHookCPhysForceForceOff
 
@@ -2002,6 +2296,8 @@
 
 ---
 
+<a id="idhookcphysforceinitialthink"></a>
+
 ## 🔌 IDHookCPhysForceInitialThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2013,6 +2309,8 @@
 
 
 ---
+
+<a id="idhookcphyshingelimitthink"></a>
 
 ## 🔌 IDHookCPhysHingeLimitThink
 
@@ -2026,6 +2324,8 @@
 
 ---
 
+<a id="idhookcphyshingemovethink"></a>
+
 ## 🔌 IDHookCPhysHingeMoveThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2037,6 +2337,8 @@
 
 
 ---
+
+<a id="idhookcphyshingesoundthink"></a>
 
 ## 🔌 IDHookCPhysHingeSoundThink
 
@@ -2050,6 +2352,8 @@
 
 ---
 
+<a id="idhookcphysimpactpointatentity"></a>
+
 ## 🔌 IDHookCPhysImpactPointAtEntity
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2061,6 +2365,8 @@
 
 
 ---
+
+<a id="idhookcphysslideconstraintsoundthink"></a>
 
 ## 🔌 IDHookCPhysSlideConstraintSoundThink
 
@@ -2074,6 +2380,8 @@
 
 ---
 
+<a id="idhookcphysicalbuttonbuttonbackhome"></a>
+
 ## 🔌 IDHookCPhysicalButtonButtonBackHome
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2085,6 +2393,8 @@
 
 
 ---
+
+<a id="idhookcphysicalbuttonbuttontouch"></a>
 
 ## 🔌 IDHookCPhysicalButtonButtonTouch
 
@@ -2098,6 +2408,8 @@
 
 ---
 
+<a id="idhookcphysicalbuttonphysicsthink"></a>
+
 ## 🔌 IDHookCPhysicalButtonPhysicsThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2109,6 +2421,8 @@
 
 
 ---
+
+<a id="idhookcphysicalbuttontriggerandwait"></a>
 
 ## 🔌 IDHookCPhysicalButtonTriggerAndWait
 
@@ -2122,6 +2436,8 @@
 
 ---
 
+<a id="idhookcphysicspropclearflagsthink"></a>
+
 ## 🔌 IDHookCPhysicsPropClearFlagsThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2133,6 +2449,8 @@
 
 
 ---
+
+<a id="idhookcphysicsproprespawnablematerialize"></a>
 
 ## 🔌 IDHookCPhysicsPropRespawnableMaterialize
 
@@ -2146,6 +2464,8 @@
 
 ---
 
+<a id="idhookcplantedc4c4think"></a>
+
 ## 🔌 IDHookCPlantedC4C4Think
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2157,6 +2477,8 @@
 
 
 ---
+
+<a id="idhookcpointcommentarynodeacculumateplaytimethink"></a>
 
 ## 🔌 IDHookCPointCommentaryNodeAcculumatePlayTimeThink
 
@@ -2170,6 +2492,8 @@
 
 ---
 
+<a id="idhookcpointcommentarynodespinthink"></a>
+
 ## 🔌 IDHookCPointCommentaryNodeSpinThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2181,6 +2505,8 @@
 
 
 ---
+
+<a id="idhookcpointcommentarynodeupdateviewpostthink"></a>
 
 ## 🔌 IDHookCPointCommentaryNodeUpdateViewPostThink
 
@@ -2194,6 +2520,8 @@
 
 ---
 
+<a id="idhookcpointcommentarynodeupdateviewthink"></a>
+
 ## 🔌 IDHookCPointCommentaryNodeUpdateViewThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2205,6 +2533,8 @@
 
 
 ---
+
+<a id="idhookcpointhurthurtthink"></a>
 
 ## 🔌 IDHookCPointHurtHurtThink
 
@@ -2218,6 +2548,8 @@
 
 ---
 
+<a id="idhookcpointorientreorientthink"></a>
+
 ## 🔌 IDHookCPointOrientReorientThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2229,6 +2561,8 @@
 
 
 ---
+
+<a id="idhookcpointpushpushthink"></a>
 
 ## 🔌 IDHookCPointPushPushThink
 
@@ -2242,6 +2576,8 @@
 
 ---
 
+<a id="idhookcpointvalueremapperupdatethink"></a>
+
 ## 🔌 IDHookCPointValueRemapperUpdateThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2253,6 +2589,8 @@
 
 
 ---
+
+<a id="idhookcragdollpropattacheditemsthink"></a>
 
 ## 🔌 IDHookCRagdollPropAttachedItemsThink
 
@@ -2266,6 +2604,8 @@
 
 ---
 
+<a id="idhookcragdollpropclearflagsthink"></a>
+
 ## 🔌 IDHookCRagdollPropClearFlagsThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2277,6 +2617,8 @@
 
 
 ---
+
+<a id="idhookcragdollpropfadeoutthink"></a>
 
 ## 🔌 IDHookCRagdollPropFadeOutThink
 
@@ -2290,6 +2632,8 @@
 
 ---
 
+<a id="idhookcragdollpropsetdebristhink"></a>
+
 ## 🔌 IDHookCRagdollPropSetDebrisThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2301,6 +2645,8 @@
 
 
 ---
+
+<a id="idhookcragdollpropsettlethink"></a>
 
 ## 🔌 IDHookCRagdollPropSettleThink
 
@@ -2314,6 +2660,8 @@
 
 ---
 
+<a id="idhookcrevertsavedloadthink"></a>
+
 ## 🔌 IDHookCRevertSavedLoadThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2325,6 +2673,8 @@
 
 
 ---
+
+<a id="idhookcscriptedsequencescriptthink"></a>
 
 ## 🔌 IDHookCScriptedSequenceScriptThink
 
@@ -2338,6 +2688,8 @@
 
 ---
 
+<a id="idhookcsmokegrenadeprojectilethink_buildingsmokevolume"></a>
+
 ## 🔌 IDHookCSmokeGrenadeProjectileThink_BuildingSmokeVolume
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2349,6 +2701,8 @@
 
 
 ---
+
+<a id="idhookcsmokegrenadeprojectilethink_detonate"></a>
 
 ## 🔌 IDHookCSmokeGrenadeProjectileThink_Detonate
 
@@ -2362,6 +2716,8 @@
 
 ---
 
+<a id="idhookcsmokegrenadeprojectilethink_remove"></a>
+
 ## 🔌 IDHookCSmokeGrenadeProjectileThink_Remove
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2373,6 +2729,8 @@
 
 
 ---
+
+<a id="idhookcsmokegrenadeprojectilethink_update"></a>
 
 ## 🔌 IDHookCSmokeGrenadeProjectileThink_Update
 
@@ -2386,6 +2744,8 @@
 
 ---
 
+<a id="idhookcsoundeventconeentitysoundeventconethink"></a>
+
 ## 🔌 IDHookCSoundEventConeEntitySoundEventConeThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2397,6 +2757,8 @@
 
 
 ---
+
+<a id="idhookcsoundevententitysoundfinishedthink"></a>
 
 ## 🔌 IDHookCSoundEventEntitySoundFinishedThink
 
@@ -2410,6 +2772,8 @@
 
 ---
 
+<a id="idhookcsoundeventobbentitysoundeventobbthink"></a>
+
 ## 🔌 IDHookCSoundEventOBBEntitySoundEventOBBThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2421,6 +2785,8 @@
 
 
 ---
+
+<a id="idhookcsoundeventpathcornerentitysoundeventpathcornerthink"></a>
 
 ## 🔌 IDHookCSoundEventPathCornerEntitySoundEventPathCornerThink
 
@@ -2434,6 +2800,8 @@
 
 ---
 
+<a id="idhookcsoundeventsphereentitysoundeventspherethink"></a>
+
 ## 🔌 IDHookCSoundEventSphereEntitySoundEventSphereThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2445,6 +2813,8 @@
 
 
 ---
+
+<a id="idhookcsoundopvarsetaabbentitysetopvarthink"></a>
 
 ## 🔌 IDHookCSoundOpvarSetAABBEntitySetOpvarThink
 
@@ -2458,6 +2828,8 @@
 
 ---
 
+<a id="idhookcsoundopvarsetautoroomentitysetopvarthink"></a>
+
 ## 🔌 IDHookCSoundOpvarSetAutoRoomEntitySetOpvarThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2469,6 +2841,8 @@
 
 
 ---
+
+<a id="idhookcsoundopvarsetobbentitysetopvarthink"></a>
 
 ## 🔌 IDHookCSoundOpvarSetOBBEntitySetOpvarThink
 
@@ -2482,6 +2856,8 @@
 
 ---
 
+<a id="idhookcsoundopvarsetobbwindentitysetopvarthink"></a>
+
 ## 🔌 IDHookCSoundOpvarSetOBBWindEntitySetOpvarThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2493,6 +2869,8 @@
 
 
 ---
+
+<a id="idhookcsoundopvarsetpathcornerentitysetopvarthink"></a>
 
 ## 🔌 IDHookCSoundOpvarSetPathCornerEntitySetOpvarThink
 
@@ -2506,6 +2884,8 @@
 
 ---
 
+<a id="idhookcsoundopvarsetpointbasesetopvarthink"></a>
+
 ## 🔌 IDHookCSoundOpvarSetPointBaseSetOpvarThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2517,6 +2897,8 @@
 
 
 ---
+
+<a id="idhookcsoundopvarsetpointentitysetopvarthink"></a>
 
 ## 🔌 IDHookCSoundOpvarSetPointEntitySetOpvarThink
 
@@ -2530,6 +2912,8 @@
 
 ---
 
+<a id="idhookcsplineconstrainttransitionthink"></a>
+
 ## 🔌 IDHookCSplineConstraintTransitionThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2541,6 +2925,8 @@
 
 
 ---
+
+<a id="idhookcspriteanimatethink"></a>
 
 ## 🔌 IDHookCSpriteAnimateThink
 
@@ -2554,6 +2940,8 @@
 
 ---
 
+<a id="idhookcspriteanimateuntildead"></a>
+
 ## 🔌 IDHookCSpriteAnimateUntilDead
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2565,6 +2953,8 @@
 
 
 ---
+
+<a id="idhookcspritebeginfadeoutthink"></a>
 
 ## 🔌 IDHookCSpriteBeginFadeOutThink
 
@@ -2578,6 +2968,8 @@
 
 ---
 
+<a id="idhookcspriteexpandthink"></a>
+
 ## 🔌 IDHookCSpriteExpandThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2589,6 +2981,8 @@
 
 
 ---
+
+<a id="idhookctriggeractiveweapondetectactiveweaponthink"></a>
 
 ## 🔌 IDHookCTriggerActiveWeaponDetectActiveWeaponThink
 
@@ -2602,6 +2996,8 @@
 
 ---
 
+<a id="idhookctriggerfanpushthink"></a>
+
 ## 🔌 IDHookCTriggerFanPushThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2613,6 +3009,8 @@
 
 
 ---
+
+<a id="idhookctriggergravitygravitytouch"></a>
 
 ## 🔌 IDHookCTriggerGravityGravityTouch
 
@@ -2626,6 +3024,8 @@
 
 ---
 
+<a id="idhookctriggerhurthurtthink"></a>
+
 ## 🔌 IDHookCTriggerHurtHurtThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2637,6 +3037,8 @@
 
 
 ---
+
+<a id="idhookctriggerhurtnavthink"></a>
 
 ## 🔌 IDHookCTriggerHurtNavThink
 
@@ -2650,6 +3052,8 @@
 
 ---
 
+<a id="idhookctriggerhurtradiationthink"></a>
+
 ## 🔌 IDHookCTriggerHurtRadiationThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2661,6 +3065,8 @@
 
 
 ---
+
+<a id="idhookctriggerimpactdisable"></a>
 
 ## 🔌 IDHookCTriggerImpactDisable
 
@@ -2674,6 +3080,8 @@
 
 ---
 
+<a id="idhookctriggerlerpobjectattachedentitythink"></a>
+
 ## 🔌 IDHookCTriggerLerpObjectAttachedEntityThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2685,6 +3093,8 @@
 
 
 ---
+
+<a id="idhookctriggerlerpobjectlerpthink"></a>
 
 ## 🔌 IDHookCTriggerLerpObjectLerpThink
 
@@ -2698,6 +3108,8 @@
 
 ---
 
+<a id="idhookctriggerlerpobjectunsetwaitforentity"></a>
+
 ## 🔌 IDHookCTriggerLerpObjectUnsetWaitForEntity
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2709,6 +3121,8 @@
 
 
 ---
+
+<a id="idhookctriggerlooktimeoutthink"></a>
 
 ## 🔌 IDHookCTriggerLookTimeoutThink
 
@@ -2722,6 +3136,8 @@
 
 ---
 
+<a id="idhookctriggermultiplemultitouch"></a>
+
 ## 🔌 IDHookCTriggerMultipleMultiTouch
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2733,6 +3149,8 @@
 
 
 ---
+
+<a id="idhookctriggermultiplemultiwaitover"></a>
 
 ## 🔌 IDHookCTriggerMultipleMultiWaitOver
 
@@ -2746,6 +3164,8 @@
 
 ---
 
+<a id="idhookctriggerproximitymeasurethink"></a>
+
 ## 🔌 IDHookCTriggerProximityMeasureThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2757,6 +3177,8 @@
 
 
 ---
+
+<a id="idhookctriggersndsosopvarsndsostriggeropvarwaitover"></a>
 
 ## 🔌 IDHookCTriggerSndSosOpvarSndSosTriggerOpvarWaitOver
 
@@ -2770,6 +3192,8 @@
 
 ---
 
+<a id="idhookctriggersoundscapeplayerupdatethink"></a>
+
 ## 🔌 IDHookCTriggerSoundscapePlayerUpdateThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2781,6 +3205,8 @@
 
 
 ---
+
+<a id="idhookcvotecontrollervotecontrollerthink"></a>
 
 ## 🔌 IDHookCVoteControllerVoteControllerThink
 
@@ -2794,6 +3220,8 @@
 
 ---
 
+<a id="idhookcwaterbulletbulletthink"></a>
+
 ## 🔌 IDHookCWaterBulletBulletThink
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2806,6 +3234,8 @@
 
 ---
 
+<a id="idatamapfunctionhookcontext"></a>
+
 ## 🔌 IDatamapFunctionHookContext
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
@@ -2816,7 +3246,9 @@
 
 ---
 
-## 🔌 IDatamapFunctionHookContext<T>
+<a id="idatamapfunctionhookcontext-t"></a>
+
+## 🔌 IDatamapFunctionHookContext&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Datamaps`
 
@@ -2836,15 +3268,7 @@
 
 ---
 
-## 🔌 IDatamapFunctionService
-
-**命名空间:** `SwiftlyS2.Shared.Datamaps`
-
-**类型:** `interface`
-
-
-
----
+<a id="idatamapfunctionservice"></a>
 
 ## 🔌 IDatamapFunctionService
 
@@ -2855,6 +3279,20 @@
 
 
 ---
+
+<a id="idatamapfunctionservice"></a>
+
+## 🔌 IDatamapFunctionService
+
+**命名空间:** `SwiftlyS2.Shared.Datamaps`
+
+**类型:** `interface`
+
+
+
+---
+
+<a id="idatamapservice"></a>
 
 ## 🔌 IDatamapService
 

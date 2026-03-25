@@ -1,3 +1,5 @@
+<a id="emarketnotallowedreasonflags"></a>
+
 # 📋 EMarketNotAllowedReasonFlags
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

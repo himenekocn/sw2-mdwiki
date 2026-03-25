@@ -1,3 +1,5 @@
+<a id="acquireresult"></a>
+
 # 📋 AcquireResult
 
 **命名空间:** `SwiftlyS2.Shared.Misc`

@@ -1,3 +1,5 @@
+<a id="esteampartybeaconlocationtype"></a>
+
 # 📋 ESteamPartyBeaconLocationType
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

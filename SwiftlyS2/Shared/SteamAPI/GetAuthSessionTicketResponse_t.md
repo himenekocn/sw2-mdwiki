@@ -1,3 +1,5 @@
+<a id="getauthsessionticketresponse_t"></a>
+
 # 🏗️ GetAuthSessionTicketResponse_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

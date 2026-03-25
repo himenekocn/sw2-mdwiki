@@ -1,3 +1,5 @@
+<a id="clientcommandhandler"></a>
+
 # 🔗 ClientCommandHandler
 
 客户端命令钩子的处理器。

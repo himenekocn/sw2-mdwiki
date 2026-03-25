@@ -1,3 +1,5 @@
+<a id="ccommand"></a>
+
 # 🏗️ CCommand
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

@@ -1,3 +1,5 @@
+<a id="iunmanagedmemory"></a>
+
 # 🔌 IUnmanagedMemory
 
 **命名空间:** `SwiftlyS2.Shared.Memory`

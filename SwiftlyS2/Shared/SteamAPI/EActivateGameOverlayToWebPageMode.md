@@ -1,3 +1,5 @@
+<a id="eactivategameoverlaytowebpagemode"></a>
+
 # 📋 EActivateGameOverlayToWebPageMode
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

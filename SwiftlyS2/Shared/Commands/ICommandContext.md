@@ -1,3 +1,5 @@
+<a id="icommandcontext"></a>
+
 # 🔌 ICommandContext
 
 **命名空间:** `SwiftlyS2.Shared.Commands`

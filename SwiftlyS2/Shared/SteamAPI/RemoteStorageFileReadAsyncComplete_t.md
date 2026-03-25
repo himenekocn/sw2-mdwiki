@@ -1,3 +1,5 @@
+<a id="remotestoragefilereadasynccomplete_t"></a>
+
 # 🏗️ RemoteStorageFileReadAsyncComplete_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="hscript"></a>
+
 # 🏗️ HSCRIPT
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

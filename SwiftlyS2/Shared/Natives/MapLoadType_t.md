@@ -1,3 +1,5 @@
+<a id="maploadtype_t"></a>
+
 # 📋 MapLoadType_t
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

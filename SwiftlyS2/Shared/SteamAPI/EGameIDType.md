@@ -1,3 +1,5 @@
+<a id="egameidtype"></a>
+
 # 📋 EGameIDType
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

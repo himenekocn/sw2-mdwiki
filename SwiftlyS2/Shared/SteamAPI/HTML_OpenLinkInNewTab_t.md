@@ -1,3 +1,5 @@
+<a id="html_openlinkinnewtab_t"></a>
+
 # 🏗️ HTML_OpenLinkInNewTab_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

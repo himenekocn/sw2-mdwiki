@@ -1,3 +1,5 @@
+<a id="html_searchresults_t"></a>
+
 # 🏗️ HTML_SearchResults_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

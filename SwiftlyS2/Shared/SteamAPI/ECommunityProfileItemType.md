@@ -1,3 +1,5 @@
+<a id="ecommunityprofileitemtype"></a>
+
 # 📋 ECommunityProfileItemType
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

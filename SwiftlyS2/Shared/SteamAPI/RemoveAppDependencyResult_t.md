@@ -1,3 +1,5 @@
+<a id="removeappdependencyresult_t"></a>
+
 # 🏗️ RemoveAppDependencyResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

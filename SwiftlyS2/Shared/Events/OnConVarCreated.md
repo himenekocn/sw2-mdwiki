@@ -1,3 +1,5 @@
+<a id="onconvarcreated"></a>
+
 # 🔗 OnConVarCreated
 
 在创建 ConVar 时被调用。

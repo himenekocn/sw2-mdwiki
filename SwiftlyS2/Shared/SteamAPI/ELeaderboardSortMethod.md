@@ -1,3 +1,5 @@
+<a id="eleaderboardsortmethod"></a>
+
 # 📋 ELeaderboardSortMethod
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

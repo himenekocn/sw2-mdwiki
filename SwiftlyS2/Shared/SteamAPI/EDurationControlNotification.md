@@ -1,3 +1,5 @@
+<a id="edurationcontrolnotification"></a>
+
 # 📋 EDurationControlNotification
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

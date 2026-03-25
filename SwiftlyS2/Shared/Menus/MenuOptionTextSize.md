@@ -1,3 +1,5 @@
+<a id="menuoptiontextsize"></a>
+
 # 📋 MenuOptionTextSize
 
 定义菜单项可用的文本大小选项。

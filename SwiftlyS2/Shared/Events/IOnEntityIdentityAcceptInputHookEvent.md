@@ -1,3 +1,5 @@
+<a id="ionentityidentityacceptinputhookevent"></a>
+
 # 🔌 IOnEntityIdentityAcceptInputHookEvent
 
 当实体身份接受输入钩子被触发时调用。

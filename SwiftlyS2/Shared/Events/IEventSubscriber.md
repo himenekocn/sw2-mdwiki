@@ -1,3 +1,5 @@
+<a id="ieventsubscriber"></a>
+
 # 🔌 IEventSubscriber
 
 自定义事件订阅器接口。

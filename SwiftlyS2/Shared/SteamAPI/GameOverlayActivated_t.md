@@ -1,3 +1,5 @@
+<a id="gameoverlayactivated_t"></a>
+
 # 🏗️ GameOverlayActivated_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

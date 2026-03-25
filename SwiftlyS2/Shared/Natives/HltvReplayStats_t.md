@@ -1,3 +1,5 @@
+<a id="hltvreplaystats_t"></a>
+
 # 🏗️ HltvReplayStats_t
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

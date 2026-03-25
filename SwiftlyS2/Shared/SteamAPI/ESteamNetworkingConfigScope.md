@@ -1,3 +1,5 @@
+<a id="esteamnetworkingconfigscope"></a>
+
 # 📋 ESteamNetworkingConfigScope
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

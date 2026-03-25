@@ -1,3 +1,5 @@
+<a id="esteamipv6connectivitystate"></a>
+
 # 📋 ESteamIPv6ConnectivityState
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="inputhandle_t"></a>
+
 # 🏗️ InputHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

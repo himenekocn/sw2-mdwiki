@@ -1,3 +1,5 @@
+<a id="menuoptiontextstyle"></a>
+
 # 📋 MenuOptionTextStyle
 
 定义菜单选项的水平文本溢出行为。

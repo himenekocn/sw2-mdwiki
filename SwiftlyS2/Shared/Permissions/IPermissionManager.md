@@ -1,3 +1,5 @@
+<a id="ipermissionmanager"></a>
+
 # 🔌 IPermissionManager
 
 **命名空间:** `SwiftlyS2.Shared.Permissions`

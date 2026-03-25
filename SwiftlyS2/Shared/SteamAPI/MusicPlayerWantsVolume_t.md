@@ -1,3 +1,5 @@
+<a id="musicplayerwantsvolume_t"></a>
+
 # 🏗️ MusicPlayerWantsVolume_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

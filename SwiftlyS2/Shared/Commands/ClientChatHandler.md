@@ -1,3 +1,5 @@
+<a id="clientchathandler"></a>
+
 # 🔗 ClientChatHandler
 
 客户端聊天钩子的处理器。

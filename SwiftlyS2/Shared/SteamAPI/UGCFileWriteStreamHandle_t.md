@@ -1,3 +1,5 @@
+<a id="ugcfilewritestreamhandle_t"></a>
+
 # 🏗️ UGCFileWriteStreamHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

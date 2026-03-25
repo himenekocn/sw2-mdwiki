@@ -1,3 +1,5 @@
+<a id="ischedulerservice"></a>
+
 # 🔌 ISchedulerService
 
 **命名空间:** `SwiftlyS2.Shared.Scheduler`

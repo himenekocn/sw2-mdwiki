@@ -1,3 +1,5 @@
+<a id="remotestorageunsubscribepublishedfileresult_t"></a>
+
 # 🏗️ RemoteStorageUnsubscribePublishedFileResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

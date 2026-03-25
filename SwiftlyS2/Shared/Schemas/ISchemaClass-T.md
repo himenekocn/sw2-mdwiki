@@ -1,4 +1,6 @@
-# 🔌 ISchemaClass<T>
+<a id="ischemaclass-t"></a>
+
+# 🔌 ISchemaClass&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Schemas`
 

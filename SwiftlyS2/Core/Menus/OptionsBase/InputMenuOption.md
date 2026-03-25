@@ -1,3 +1,5 @@
+<a id="inputmenuoption"></a>
+
 # 📦 InputMenuOption
 
 表示允许玩家输入文本的菜单选项。

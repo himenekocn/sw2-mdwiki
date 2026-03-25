@@ -1,3 +1,5 @@
+<a id="convarflags"></a>
+
 # 📋 ConvarFlags
 
 **命名空间:** `SwiftlyS2.Shared.Convars`

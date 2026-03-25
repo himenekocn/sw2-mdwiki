@@ -1,3 +1,5 @@
+<a id="constants"></a>
+
 # 📦 Constants
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

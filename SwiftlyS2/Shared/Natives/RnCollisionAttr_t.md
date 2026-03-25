@@ -1,3 +1,5 @@
+<a id="rncollisionattr_t"></a>
+
 # 🏗️ RnCollisionAttr_t
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

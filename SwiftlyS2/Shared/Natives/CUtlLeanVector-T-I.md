@@ -1,4 +1,6 @@
-# 🏗️ CUtlLeanVector<T, I>
+<a id="cutlleanvector-t-i"></a>
+
+# 🏗️ CUtlLeanVector&lt;T, I&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 

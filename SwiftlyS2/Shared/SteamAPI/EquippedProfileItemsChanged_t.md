@@ -1,3 +1,5 @@
+<a id="equippedprofileitemschanged_t"></a>
+
 # 🏗️ EquippedProfileItemsChanged_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

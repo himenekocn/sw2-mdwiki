@@ -1,3 +1,5 @@
+<a id="httprequesthandle"></a>
+
 # 🏗️ HTTPRequestHandle
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

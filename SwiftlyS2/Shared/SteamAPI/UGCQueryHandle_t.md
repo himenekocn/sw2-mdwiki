@@ -1,3 +1,5 @@
+<a id="ugcqueryhandle_t"></a>
+
 # 🏗️ UGCQueryHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

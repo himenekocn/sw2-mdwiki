@@ -1,3 +1,5 @@
+<a id="igameeventservice"></a>
+
 # 🔌 IGameEventService
 
 插件作用域的服务，用于管理游戏事件。

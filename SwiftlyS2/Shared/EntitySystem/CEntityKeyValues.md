@@ -1,3 +1,5 @@
+<a id="centitykeyvalues"></a>
+
 # 📦 CEntityKeyValues
 
 **命名空间:** `SwiftlyS2.Shared.EntitySystem`

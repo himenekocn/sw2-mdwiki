@@ -1,3 +1,5 @@
+<a id="ihelpers"></a>
+
 # 🔌 IHelpers
 
 **命名空间:** `SwiftlyS2.Shared.Helpers`

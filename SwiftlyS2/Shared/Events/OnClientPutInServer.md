@@ -1,3 +1,5 @@
+<a id="onclientputinserver"></a>
+
 # 🔗 OnClientPutInServer
 
 当客户端完全接入服务器时调用。

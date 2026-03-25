@@ -1,3 +1,5 @@
+<a id="collisionfunctionmask_t"></a>
+
 # 📋 CollisionFunctionMask_t
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

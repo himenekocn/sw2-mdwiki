@@ -1,3 +1,5 @@
+<a id="encryptedappticketresponse_t"></a>
+
 # 🏗️ EncryptedAppTicketResponse_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

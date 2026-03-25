@@ -1,3 +1,5 @@
+<a id="cgameid"></a>
+
 # 🏗️ CGameID
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

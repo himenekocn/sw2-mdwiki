@@ -1,3 +1,5 @@
+<a id="steamremoteplaytogetherguestinvite_t"></a>
+
 # 🏗️ SteamRemotePlayTogetherGuestInvite_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

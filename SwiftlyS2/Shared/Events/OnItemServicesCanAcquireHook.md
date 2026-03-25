@@ -1,3 +1,5 @@
+<a id="onitemservicescanacquirehook"></a>
+
 # 🔗 OnItemServicesCanAcquireHook
 
 当物品服务获取钩子被触发时调用。

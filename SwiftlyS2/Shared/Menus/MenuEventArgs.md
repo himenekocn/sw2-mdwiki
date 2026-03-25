@@ -1,3 +1,5 @@
+<a id="menueventargs"></a>
+
 # 📦 MenuEventArgs
 
 为菜单相关事件提供事件数据。

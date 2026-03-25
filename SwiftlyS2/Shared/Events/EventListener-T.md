@@ -1,16 +1,18 @@
-# 📦 EventListener<T>
+<a id="eventlistener-t"></a>
+
+# 📦 EventListener&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
 **类型:** `class`
 
-**用法:** `EventListener<T>`
+**用法:** `EventListener&lt;T&gt;`
 
 ## 🏷️ 属性用法
 
 ### 构造函数
 
 ```csharp
-[EventListener<T>]
+[EventListener&lt;T&gt;]
 ```
 

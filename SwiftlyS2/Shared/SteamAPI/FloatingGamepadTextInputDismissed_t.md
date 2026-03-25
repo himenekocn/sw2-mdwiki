@@ -1,3 +1,5 @@
+<a id="floatinggamepadtextinputdismissed_t"></a>
+
 # 🏗️ FloatingGamepadTextInputDismissed_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

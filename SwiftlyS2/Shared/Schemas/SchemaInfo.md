@@ -1,3 +1,5 @@
+<a id="schemainfo"></a>
+
 # 📦 SchemaInfo
 
 **命名空间:** `SwiftlyS2.Shared.Schemas`

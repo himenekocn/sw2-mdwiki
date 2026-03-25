@@ -1,3 +1,5 @@
+<a id="ionentityspawnedevent"></a>
+
 # 🔌 IOnEntitySpawnedEvent
 
 当实体被生成时调用。

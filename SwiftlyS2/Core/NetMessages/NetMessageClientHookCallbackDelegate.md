@@ -1,3 +1,5 @@
+<a id="netmessageclienthookcallbackdelegate"></a>
+
 # 🔗 NetMessageClientHookCallbackDelegate
 
 **命名空间:** `SwiftlyS2.Core.NetMessages`

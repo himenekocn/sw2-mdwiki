@@ -1,3 +1,5 @@
+<a id="hserverquery"></a>
+
 # 🏗️ HServerQuery
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="volumehaschanged_t"></a>
+
 # 🏗️ VolumeHasChanged_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="endgameresultcallback_t"></a>
+
 # 🏗️ EndGameResultCallback_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

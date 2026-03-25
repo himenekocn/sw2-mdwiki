@@ -1,3 +1,5 @@
+<a id="timelineeventhandle_t"></a>
+
 # 🏗️ TimelineEventHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

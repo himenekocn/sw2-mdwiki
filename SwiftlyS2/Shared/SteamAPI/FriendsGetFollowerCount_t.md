@@ -1,3 +1,5 @@
+<a id="friendsgetfollowercount_t"></a>
+
 # 🏗️ FriendsGetFollowerCount_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="eoverlaytostoreflag"></a>
+
 # 📋 EOverlayToStoreFlag
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

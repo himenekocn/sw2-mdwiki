@@ -1,3 +1,5 @@
+<a id="menuoptionbase"></a>
+
 # 📦 MenuOptionBase
 
 为具有事件驱动行为的菜单选项提供基础实现。

@@ -1,3 +1,5 @@
+<a id="inativehandle"></a>
+
 # 🔌 INativeHandle
 
 来自 Swiftly C++ 原生侧的原生句柄，由游戏分配或借用。

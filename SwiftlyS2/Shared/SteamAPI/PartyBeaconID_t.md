@@ -1,3 +1,5 @@
+<a id="partybeaconid_t"></a>
+
 # 🏗️ PartyBeaconID_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

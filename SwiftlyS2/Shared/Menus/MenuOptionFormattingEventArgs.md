@@ -1,3 +1,5 @@
+<a id="menuoptionformattingeventargs"></a>
+
 # 📦 MenuOptionFormattingEventArgs
 
 为菜单选项 HTML 格式化事件提供事件数据。

@@ -1,3 +1,5 @@
+<a id="egcresults"></a>
+
 # 📋 EGCResults
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="html_browserrestarted_t"></a>
+
 # 🏗️ HTML_BrowserRestarted_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

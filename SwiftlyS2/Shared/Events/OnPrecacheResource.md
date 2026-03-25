@@ -1,3 +1,5 @@
+<a id="onprecacheresource"></a>
+
 # 🔗 OnPrecacheResource
 
 在资源预缓存时调用。

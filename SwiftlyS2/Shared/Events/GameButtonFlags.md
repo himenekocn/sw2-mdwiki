@@ -1,3 +1,5 @@
+<a id="gamebuttonflags"></a>
+
 # 📋 GameButtonFlags
 
 **命名空间:** `SwiftlyS2.Shared.Events`

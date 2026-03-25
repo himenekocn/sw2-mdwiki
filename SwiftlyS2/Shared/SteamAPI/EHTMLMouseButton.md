@@ -1,3 +1,5 @@
+<a id="ehtmlmousebutton"></a>
+
 # 📋 EHTMLMouseButton
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

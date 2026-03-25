@@ -1,3 +1,5 @@
+<a id="musicplayerselectsqueueentry_t"></a>
+
 # 🏗️ MusicPlayerSelectsQueueEntry_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

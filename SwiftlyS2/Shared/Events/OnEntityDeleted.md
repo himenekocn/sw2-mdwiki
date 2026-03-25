@@ -1,3 +1,5 @@
+<a id="onentitydeleted"></a>
+
 # 🔗 OnEntityDeleted
 
 当实体被删除时调用。

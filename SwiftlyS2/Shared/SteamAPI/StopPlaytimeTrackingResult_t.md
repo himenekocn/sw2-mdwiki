@@ -1,3 +1,5 @@
+<a id="stopplaytimetrackingresult_t"></a>
+
 # 🏗️ StopPlaytimeTrackingResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

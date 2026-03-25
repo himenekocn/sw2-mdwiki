@@ -1,3 +1,5 @@
+<a id="rnqueryshapeattr_t"></a>
+
 # 🏗️ RnQueryShapeAttr_t
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

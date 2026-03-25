@@ -1,3 +1,5 @@
+<a id="html_urlchanged_t"></a>
+
 # 🏗️ HTML_URLChanged_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

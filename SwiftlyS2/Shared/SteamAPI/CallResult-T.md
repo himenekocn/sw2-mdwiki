@@ -1,4 +1,6 @@
-# 📦 CallResult<T>
+<a id="callresult-t"></a>
+
+# 📦 CallResult&lt;T&gt;
 
 表示一个自动管理其生命周期的 Steam 调用结果。
 

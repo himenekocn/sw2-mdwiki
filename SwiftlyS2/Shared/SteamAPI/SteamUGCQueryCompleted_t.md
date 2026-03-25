@@ -1,3 +1,5 @@
+<a id="steamugcquerycompleted_t"></a>
+
 # 🏗️ SteamUGCQueryCompleted_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

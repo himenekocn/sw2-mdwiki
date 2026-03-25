@@ -1,3 +1,5 @@
+<a id="clientnetmessagehandler"></a>
+
 # 📦 ClientNetMessageHandler
 
 **命名空间:** `SwiftlyS2.Shared.NetMessages`

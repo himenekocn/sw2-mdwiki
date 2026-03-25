@@ -837,6 +837,8 @@
 - 🔌 [XpProgressData](#xpprogressdata)
 - 📋 [eRollType](#erolltype)
 
+<a id="accountactivity"></a>
+
 ## 🔌 AccountActivity
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -858,6 +860,8 @@
 
 ---
 
+<a id="bidirectional_messages"></a>
+
 ## 📋 Bidirectional_Messages
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -877,6 +881,8 @@
 
 ---
 
+<a id="bidirectional_messages_lowfrequency"></a>
+
 ## 📋 Bidirectional_Messages_LowFrequency
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -893,6 +899,8 @@
 
 
 ---
+
+<a id="c2s_connection_message"></a>
 
 ## 🔌 C2S_CONNECTION_Message
 
@@ -912,6 +920,8 @@
 
 
 ---
+
+<a id="c2s_connect_message"></a>
 
 ## 🔌 C2S_CONNECT_Message
 
@@ -940,6 +950,8 @@
 
 ---
 
+<a id="c2s_connect_sameprocesscheck"></a>
+
 ## 🔌 C2S_CONNECT_SameProcessCheck
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -959,6 +971,8 @@
 
 ---
 
+<a id="cattribute_string"></a>
+
 ## 🔌 CAttribute_String
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -968,6 +982,8 @@
 
 
 ---
+
+<a id="cbaseusercmdexecutionnotes"></a>
 
 ## 🔌 CBaseUserCmdExecutionNotes
 
@@ -986,6 +1002,8 @@
 
 
 ---
+
+<a id="cbaseusercmdpb"></a>
 
 ## 🔌 CBaseUserCmdPB
 
@@ -1023,6 +1041,8 @@
 
 ---
 
+<a id="cbidirmsg_predictionevent"></a>
+
 ## 🔌 CBidirMsg_PredictionEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1044,6 +1064,8 @@
 
 ---
 
+<a id="cbidirmsg_predictionevent_esynctype"></a>
+
 ## 📋 CBidirMsg_PredictionEvent_ESyncType
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1060,6 +1082,8 @@
 
 
 ---
+
+<a id="cbidirmsg_rebroadcastgameevent"></a>
 
 ## 🔌 CBidirMsg_RebroadcastGameEvent
 
@@ -1082,6 +1106,8 @@
 
 ---
 
+<a id="cbidirmsg_rebroadcastsource"></a>
+
 ## 🔌 CBidirMsg_RebroadcastSource
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1099,6 +1125,8 @@
 
 
 ---
+
+<a id="cclcmsg_baselineack"></a>
 
 ## 🔌 CCLCMsg_BaselineAck
 
@@ -1120,6 +1148,8 @@
 
 
 ---
+
+<a id="cclcmsg_clientinfo"></a>
 
 ## 🔌 CCLCMsg_ClientInfo
 
@@ -1145,6 +1175,8 @@
 
 ---
 
+<a id="cclcmsg_cmdkeyvalues"></a>
+
 ## 🔌 CCLCMsg_CmdKeyValues
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1164,6 +1196,8 @@
 
 
 ---
+
+<a id="cclcmsg_diagnostic"></a>
 
 ## 🔌 CCLCMsg_Diagnostic
 
@@ -1188,6 +1222,8 @@
 
 
 ---
+
+<a id="cclcmsg_hltvfixupoperatortick"></a>
 
 ## 🔌 CCLCMsg_HltvFixupOperatorTick
 
@@ -1214,6 +1250,8 @@
 
 ---
 
+<a id="cclcmsg_hltvreplay"></a>
+
 ## 🔌 CCLCMsg_HltvReplay
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1238,6 +1276,8 @@
 
 ---
 
+<a id="cclcmsg_listenevents"></a>
+
 ## 🔌 CCLCMsg_ListenEvents
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1255,6 +1295,8 @@
 
 
 ---
+
+<a id="cclcmsg_loadingprogress"></a>
 
 ## 🔌 CCLCMsg_LoadingProgress
 
@@ -1275,6 +1317,8 @@
 
 
 ---
+
+<a id="cclcmsg_move"></a>
 
 ## 🔌 CCLCMsg_Move
 
@@ -1297,6 +1341,8 @@
 
 ---
 
+<a id="cclcmsg_rconserverdetails"></a>
+
 ## 🔌 CCLCMsg_RconServerDetails
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1316,6 +1362,8 @@
 
 
 ---
+
+<a id="cclcmsg_requestpause"></a>
 
 ## 🔌 CCLCMsg_RequestPause
 
@@ -1337,6 +1385,8 @@
 
 
 ---
+
+<a id="cclcmsg_respondcvarvalue"></a>
 
 ## 🔌 CCLCMsg_RespondCvarValue
 
@@ -1361,6 +1411,8 @@
 
 ---
 
+<a id="cclcmsg_serverstatus"></a>
+
 ## 🔌 CCLCMsg_ServerStatus
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1380,6 +1432,8 @@
 
 
 ---
+
+<a id="cclcmsg_splitplayerconnect"></a>
 
 ## 🔌 CCLCMsg_SplitPlayerConnect
 
@@ -1401,6 +1455,8 @@
 
 ---
 
+<a id="cclcmsg_splitplayerdisconnect"></a>
+
 ## 🔌 CCLCMsg_SplitPlayerDisconnect
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1420,6 +1476,8 @@
 
 
 ---
+
+<a id="cclcmsg_voicedata"></a>
 
 ## 🔌 CCLCMsg_VoiceData
 
@@ -1443,6 +1501,8 @@
 
 ---
 
+<a id="ccspredictionevent_addaimpunch"></a>
+
 ## 🔌 CCSPredictionEvent_AddAimPunch
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1462,6 +1522,8 @@
 
 
 ---
+
+<a id="ccspredictionevent_damagetag"></a>
 
 ## 🔌 CCSPredictionEvent_DamageTag
 
@@ -1483,6 +1545,8 @@
 
 ---
 
+<a id="ccsusrmsgprematchsaytext"></a>
+
 ## 🔌 CCSUsrMsgPreMatchSayText
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1502,6 +1566,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_achievementevent"></a>
 
 ## 🔌 CCSUsrMsg_AchievementEvent
 
@@ -1525,6 +1591,8 @@
 
 ---
 
+<a id="ccsusrmsg_adjustmoney"></a>
+
 ## 🔌 CCSUsrMsg_AdjustMoney
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1544,6 +1612,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_ammodenied"></a>
 
 ## 🔌 CCSUsrMsg_AmmoDenied
 
@@ -1565,6 +1635,8 @@
 
 ---
 
+<a id="ccsusrmsg_bartime"></a>
+
 ## 🔌 CCSUsrMsg_BarTime
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1584,6 +1656,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_callvotefailed"></a>
 
 ## 🔌 CCSUsrMsg_CallVoteFailed
 
@@ -1606,6 +1680,8 @@
 
 ---
 
+<a id="ccsusrmsg_clientinfo"></a>
+
 ## 🔌 CCSUsrMsg_ClientInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1625,6 +1701,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_closecaption"></a>
 
 ## 🔌 CCSUsrMsg_CloseCaption
 
@@ -1649,6 +1727,8 @@
 
 ---
 
+<a id="ccsusrmsg_closecaptiondirect"></a>
+
 ## 🔌 CCSUsrMsg_CloseCaptionDirect
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1671,6 +1751,8 @@
 
 ---
 
+<a id="ccsusrmsg_counterstrafe"></a>
+
 ## 🔌 CCSUsrMsg_CounterStrafe
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1692,6 +1774,8 @@
 
 ---
 
+<a id="ccsusrmsg_currentroundodds"></a>
+
 ## 🔌 CCSUsrMsg_CurrentRoundOdds
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1712,6 +1796,8 @@
 
 ---
 
+<a id="ccsusrmsg_currenttimescale"></a>
+
 ## 🔌 CCSUsrMsg_CurrentTimescale
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1731,6 +1817,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_damage"></a>
 
 ## 🔌 CCSUsrMsg_Damage
 
@@ -1753,6 +1841,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_damageprediction"></a>
 
 ## 🔌 CCSUsrMsg_DamagePrediction
 
@@ -1781,6 +1871,8 @@
 
 ---
 
+<a id="ccsusrmsg_deepstats"></a>
+
 ## 🔌 CCSUsrMsg_DeepStats
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1800,6 +1892,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_desiredtimescale"></a>
 
 ## 🔌 CCSUsrMsg_DesiredTimescale
 
@@ -1824,6 +1918,8 @@
 
 ---
 
+<a id="ccsusrmsg_disconnecttolobby"></a>
+
 ## 🔌 CCSUsrMsg_DisconnectToLobby
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1843,6 +1939,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_endofmatchallplayersdata"></a>
 
 ## 🔌 CCSUsrMsg_EndOfMatchAllPlayersData
 
@@ -1865,6 +1963,8 @@
 
 ---
 
+<a id="ccsusrmsg_endofmatchallplayersdata_accolade"></a>
+
 ## 🔌 CCSUsrMsg_EndOfMatchAllPlayersData_Accolade
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1884,6 +1984,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_endofmatchallplayersdata_playerdata"></a>
 
 ## 🔌 CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData
 
@@ -1910,6 +2012,8 @@
 
 ---
 
+<a id="ccsusrmsg_entityoutlinehighlight"></a>
+
 ## 🔌 CCSUsrMsg_EntityOutlineHighlight
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1930,6 +2034,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_fade"></a>
 
 ## 🔌 CCSUsrMsg_Fade
 
@@ -1954,6 +2060,8 @@
 
 ---
 
+<a id="ccsusrmsg_gametitle"></a>
+
 ## 🔌 CCSUsrMsg_GameTitle
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -1973,6 +2081,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_geiger"></a>
 
 ## 🔌 CCSUsrMsg_Geiger
 
@@ -1994,6 +2104,8 @@
 
 ---
 
+<a id="ccsusrmsg_hinttext"></a>
+
 ## 🔌 CCSUsrMsg_HintText
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2013,6 +2125,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_hudmsg"></a>
 
 ## 🔌 CCSUsrMsg_HudMsg
 
@@ -2043,6 +2157,8 @@
 
 ---
 
+<a id="ccsusrmsg_hudtext"></a>
+
 ## 🔌 CCSUsrMsg_HudText
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2063,6 +2179,8 @@
 
 ---
 
+<a id="ccsusrmsg_itemdrop"></a>
+
 ## 🔌 CCSUsrMsg_ItemDrop
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2081,6 +2199,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_itempickup"></a>
 
 ## 🔌 CCSUsrMsg_ItemPickup
 
@@ -2102,6 +2222,8 @@
 
 ---
 
+<a id="ccsusrmsg_keyhinttext"></a>
+
 ## 🔌 CCSUsrMsg_KeyHintText
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2121,6 +2243,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_killcam"></a>
 
 ## 🔌 CCSUsrMsg_KillCam
 
@@ -2144,6 +2268,8 @@
 
 ---
 
+<a id="ccsusrmsg_markachievement"></a>
+
 ## 🔌 CCSUsrMsg_MarkAchievement
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2163,6 +2289,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_matchendconditions"></a>
 
 ## 🔌 CCSUsrMsg_MatchEndConditions
 
@@ -2187,6 +2315,8 @@
 
 ---
 
+<a id="ccsusrmsg_matchstatsupdate"></a>
+
 ## 🔌 CCSUsrMsg_MatchStatsUpdate
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2207,6 +2337,8 @@
 
 ---
 
+<a id="ccsusrmsg_playerdecaldigitalsignature"></a>
+
 ## 🔌 CCSUsrMsg_PlayerDecalDigitalSignature
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2226,6 +2358,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_playerstatsupdate"></a>
 
 ## 🔌 CCSUsrMsg_PlayerStatsUpdate
 
@@ -2250,6 +2384,8 @@
 
 ---
 
+<a id="ccsusrmsg_playerstatsupdate_stat"></a>
+
 ## 🔌 CCSUsrMsg_PlayerStatsUpdate_Stat
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2268,6 +2404,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_postrounddamagereport"></a>
 
 ## 🔌 CCSUsrMsg_PostRoundDamageReport
 
@@ -2295,6 +2433,8 @@
 
 ---
 
+<a id="ccsusrmsg_processspottedentityupdate"></a>
+
 ## 🔌 CCSUsrMsg_ProcessSpottedEntityUpdate
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2315,6 +2455,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_processspottedentityupdate_spottedentityupdate"></a>
 
 ## 🔌 CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate
 
@@ -2342,6 +2484,8 @@
 
 ---
 
+<a id="ccsusrmsg_questprogress"></a>
+
 ## 🔌 CCSUsrMsg_QuestProgress
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2364,6 +2508,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_radiotext"></a>
 
 ## 🔌 CCSUsrMsg_RadioText
 
@@ -2388,6 +2534,8 @@
 
 ---
 
+<a id="ccsusrmsg_rawaudio"></a>
+
 ## 🔌 CCSUsrMsg_RawAudio
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2411,6 +2559,8 @@
 
 ---
 
+<a id="ccsusrmsg_recurringmissionschema"></a>
+
 ## 🔌 CCSUsrMsg_RecurringMissionSchema
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2431,6 +2581,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_reloadeffect"></a>
 
 ## 🔌 CCSUsrMsg_ReloadEffect
 
@@ -2456,6 +2608,8 @@
 
 ---
 
+<a id="ccsusrmsg_reporthit"></a>
+
 ## 🔌 CCSUsrMsg_ReportHit
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2479,6 +2633,8 @@
 
 ---
 
+<a id="ccsusrmsg_requeststate"></a>
+
 ## 🔌 CCSUsrMsg_RequestState
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2499,6 +2655,8 @@
 
 ---
 
+<a id="ccsusrmsg_resethud"></a>
+
 ## 🔌 CCSUsrMsg_ResetHud
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2518,6 +2676,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_roundbackupfilenames"></a>
 
 ## 🔌 CCSUsrMsg_RoundBackupFilenames
 
@@ -2542,6 +2702,8 @@
 
 ---
 
+<a id="ccsusrmsg_roundendreportdata"></a>
+
 ## 🔌 CCSUsrMsg_RoundEndReportData
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2563,6 +2725,8 @@
 
 ---
 
+<a id="ccsusrmsg_roundendreportdata_initialconditions"></a>
+
 ## 🔌 CCSUsrMsg_RoundEndReportData_InitialConditions
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2582,6 +2746,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_roundendreportdata_rerevent"></a>
 
 ## 🔌 CCSUsrMsg_RoundEndReportData_RerEvent
 
@@ -2607,6 +2773,8 @@
 
 ---
 
+<a id="ccsusrmsg_roundendreportdata_rerevent_damage"></a>
+
 ## 🔌 CCSUsrMsg_RoundEndReportData_RerEvent_Damage
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2630,6 +2798,8 @@
 
 ---
 
+<a id="ccsusrmsg_roundendreportdata_rerevent_objective"></a>
+
 ## 🔌 CCSUsrMsg_RoundEndReportData_RerEvent_Objective
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2647,6 +2817,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_roundendreportdata_rerevent_victim"></a>
 
 ## 🔌 CCSUsrMsg_RoundEndReportData_RerEvent_Victim
 
@@ -2671,6 +2843,8 @@
 
 ---
 
+<a id="ccsusrmsg_rumble"></a>
+
 ## 🔌 CCSUsrMsg_Rumble
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2692,6 +2866,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_ssui"></a>
 
 ## 🔌 CCSUsrMsg_SSUI
 
@@ -2715,6 +2891,8 @@
 
 ---
 
+<a id="ccsusrmsg_scoreleaderboarddata"></a>
+
 ## 🔌 CCSUsrMsg_ScoreLeaderboardData
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2735,6 +2913,8 @@
 
 ---
 
+<a id="ccsusrmsg_sendaudio"></a>
+
 ## 🔌 CCSUsrMsg_SendAudio
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2754,6 +2934,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_sendlastkillerdamagetoclient"></a>
 
 ## 🔌 CCSUsrMsg_SendLastKillerDamageToClient
 
@@ -2780,6 +2962,8 @@
 
 ---
 
+<a id="ccsusrmsg_sendplayeritemdrops"></a>
+
 ## 🔌 CCSUsrMsg_SendPlayerItemDrops
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2799,6 +2983,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_sendplayeritemfound"></a>
 
 ## 🔌 CCSUsrMsg_SendPlayerItemFound
 
@@ -2821,6 +3007,8 @@
 
 ---
 
+<a id="ccsusrmsg_sendplayerloadout"></a>
+
 ## 🔌 CCSUsrMsg_SendPlayerLoadout
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2842,6 +3030,8 @@
 
 ---
 
+<a id="ccsusrmsg_sendplayerloadout_loadoutitem"></a>
+
 ## 🔌 CCSUsrMsg_SendPlayerLoadout_LoadoutItem
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2861,6 +3051,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_serverrankrevealall"></a>
 
 ## 🔌 CCSUsrMsg_ServerRankRevealAll
 
@@ -2883,6 +3075,8 @@
 
 ---
 
+<a id="ccsusrmsg_serverrankupdate"></a>
+
 ## 🔌 CCSUsrMsg_ServerRankUpdate
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2902,6 +3096,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_serverrankupdate_rankupdate"></a>
 
 ## 🔌 CCSUsrMsg_ServerRankUpdate_RankUpdate
 
@@ -2926,6 +3122,8 @@
 
 ---
 
+<a id="ccsusrmsg_shake"></a>
+
 ## 🔌 CCSUsrMsg_Shake
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2948,6 +3146,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_shootinfo"></a>
 
 ## 🔌 CCSUsrMsg_ShootInfo
 
@@ -2972,6 +3172,8 @@
 
 ---
 
+<a id="ccsusrmsg_showmenu"></a>
+
 ## 🔌 CCSUsrMsg_ShowMenu
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -2994,6 +3196,8 @@
 
 ---
 
+<a id="ccsusrmsg_stopspectatormode"></a>
+
 ## 🔌 CCSUsrMsg_StopSpectatorMode
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3013,6 +3217,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_survivalstats"></a>
 
 ## 🔌 CCSUsrMsg_SurvivalStats
 
@@ -3038,6 +3244,8 @@
 
 ---
 
+<a id="ccsusrmsg_survivalstats_damage"></a>
+
 ## 🔌 CCSUsrMsg_SurvivalStats_Damage
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3060,6 +3268,8 @@
 
 ---
 
+<a id="ccsusrmsg_survivalstats_fact"></a>
+
 ## 🔌 CCSUsrMsg_SurvivalStats_Fact
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3081,6 +3291,8 @@
 
 ---
 
+<a id="ccsusrmsg_survivalstats_placement"></a>
+
 ## 🔌 CCSUsrMsg_SurvivalStats_Placement
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3101,6 +3313,8 @@
 
 ---
 
+<a id="ccsusrmsg_train"></a>
+
 ## 🔌 CCSUsrMsg_Train
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3120,6 +3334,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_updatescreenhealthbar"></a>
 
 ## 🔌 CCSUsrMsg_UpdateScreenHealthBar
 
@@ -3144,6 +3360,8 @@
 
 ---
 
+<a id="ccsusrmsg_vguimenu"></a>
+
 ## 🔌 CCSUsrMsg_VGUIMenu
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3166,6 +3384,8 @@
 
 ---
 
+<a id="ccsusrmsg_vguimenu_keys"></a>
+
 ## 🔌 CCSUsrMsg_VGUIMenu_Keys
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3184,6 +3404,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_voicemask"></a>
 
 ## 🔌 CCSUsrMsg_VoiceMask
 
@@ -3206,6 +3428,8 @@
 
 ---
 
+<a id="ccsusrmsg_voicemask_playermask"></a>
+
 ## 🔌 CCSUsrMsg_VoiceMask_PlayerMask
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3225,6 +3449,8 @@
 
 ---
 
+<a id="ccsusrmsg_votefailed"></a>
+
 ## 🔌 CCSUsrMsg_VoteFailed
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3243,6 +3469,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_votepass"></a>
 
 ## 🔌 CCSUsrMsg_VotePass
 
@@ -3267,6 +3495,8 @@
 
 ---
 
+<a id="ccsusrmsg_votesetup"></a>
+
 ## 🔌 CCSUsrMsg_VoteSetup
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3286,6 +3516,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_votestart"></a>
 
 ## 🔌 CCSUsrMsg_VoteStart
 
@@ -3314,6 +3546,8 @@
 
 ---
 
+<a id="ccsusrmsg_weaponsound"></a>
+
 ## 🔌 CCSUsrMsg_WeaponSound
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3340,6 +3574,8 @@
 
 ---
 
+<a id="ccsusrmsg_xrankget"></a>
+
 ## 🔌 CCSUsrMsg_XRankGet
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3360,6 +3596,8 @@
 
 
 ---
+
+<a id="ccsusrmsg_xrankupd"></a>
 
 ## 🔌 CCSUsrMsg_XRankUpd
 
@@ -3383,6 +3621,8 @@
 
 ---
 
+<a id="ccsusrmsg_xpupdate"></a>
+
 ## 🔌 CCSUsrMsg_XpUpdate
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3402,6 +3642,8 @@
 
 
 ---
+
+<a id="cchinaagreementsessions_startagreementsessioningame_request"></a>
 
 ## 🔌 CChinaAgreementSessions_StartAgreementSessionInGame_Request
 
@@ -3423,6 +3665,8 @@
 
 ---
 
+<a id="cchinaagreementsessions_startagreementsessioningame_response"></a>
+
 ## 🔌 CChinaAgreementSessions_StartAgreementSessionInGame_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3440,6 +3684,8 @@
 
 
 ---
+
+<a id="cclientheaderoverwatchevidence"></a>
 
 ## 🔌 CClientHeaderOverwatchEvidence
 
@@ -3459,6 +3705,8 @@
 
 
 ---
+
+<a id="cclientmsg_clientuievent"></a>
 
 ## 🔌 CClientMsg_ClientUIEvent
 
@@ -3482,6 +3730,8 @@
 
 ---
 
+<a id="cclientmsg_customgameevent"></a>
+
 ## 🔌 CClientMsg_CustomGameEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3500,6 +3750,8 @@
 
 
 ---
+
+<a id="cclientmsg_customgameeventbounce"></a>
 
 ## 🔌 CClientMsg_CustomGameEventBounce
 
@@ -3521,6 +3773,8 @@
 
 ---
 
+<a id="cclientmsg_devpalettevisibilitychangedevent"></a>
+
 ## 🔌 CClientMsg_DevPaletteVisibilityChangedEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3538,6 +3792,8 @@
 
 
 ---
+
+<a id="cclientmsg_listenforresponsefound"></a>
 
 ## 🔌 CClientMsg_ListenForResponseFound
 
@@ -3557,6 +3813,8 @@
 
 ---
 
+<a id="cclientmsg_rotateanchor"></a>
+
 ## 🔌 CClientMsg_RotateAnchor
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3574,6 +3832,8 @@
 
 
 ---
+
+<a id="cclientmsg_worlduicontrollerhaspanelchangedevent"></a>
 
 ## 🔌 CClientMsg_WorldUIControllerHasPanelChangedEvent
 
@@ -3595,6 +3855,8 @@
 
 ---
 
+<a id="ccommunity_gamepersonaldatacategoryinfo"></a>
+
 ## 🔌 CCommunity_GamePersonalDataCategoryInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3615,6 +3877,8 @@
 
 ---
 
+<a id="ccommunity_getgamepersonaldatacategories_request"></a>
+
 ## 🔌 CCommunity_GetGamePersonalDataCategories_Request
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3632,6 +3896,8 @@
 
 
 ---
+
+<a id="ccommunity_getgamepersonaldatacategories_response"></a>
 
 ## 🔌 CCommunity_GetGamePersonalDataCategories_Response
 
@@ -3651,6 +3917,8 @@
 
 
 ---
+
+<a id="ccommunity_getgamepersonaldataentries_request"></a>
 
 ## 🔌 CCommunity_GetGamePersonalDataEntries_Request
 
@@ -3673,6 +3941,8 @@
 
 ---
 
+<a id="ccommunity_getgamepersonaldataentries_response"></a>
+
 ## 🔌 CCommunity_GetGamePersonalDataEntries_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3694,6 +3964,8 @@
 
 ---
 
+<a id="ccommunity_terminategamepersonaldataentries_request"></a>
+
 ## 🔌 CCommunity_TerminateGamePersonalDataEntries_Request
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3713,6 +3985,8 @@
 
 ---
 
+<a id="ccommunity_terminategamepersonaldataentries_response"></a>
+
 ## 🔌 CCommunity_TerminateGamePersonalDataEntries_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3730,6 +4004,8 @@
 
 
 ---
+
+<a id="cdatagccstrike15_v2_matchinfo"></a>
 
 ## 🔌 CDataGCCStrike15_v2_MatchInfo
 
@@ -3752,6 +4028,8 @@
 
 
 ---
+
+<a id="cdatagccstrike15_v2_tournamentgroup"></a>
 
 ## 🔌 CDataGCCStrike15_v2_TournamentGroup
 
@@ -3780,6 +4058,8 @@
 
 ---
 
+<a id="cdatagccstrike15_v2_tournamentgroupteam"></a>
+
 ## 🔌 CDataGCCStrike15_v2_TournamentGroupTeam
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3800,6 +4080,8 @@
 
 ---
 
+<a id="cdatagccstrike15_v2_tournamentgroup_picks"></a>
+
 ## 🔌 CDataGCCStrike15_v2_TournamentGroup_Picks
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3817,6 +4099,8 @@
 
 
 ---
+
+<a id="cdatagccstrike15_v2_tournamentinfo"></a>
 
 ## 🔌 CDataGCCStrike15_v2_TournamentInfo
 
@@ -3837,6 +4121,8 @@
 
 
 ---
+
+<a id="cdatagccstrike15_v2_tournamentmatchdraft"></a>
 
 ## 🔌 CDataGCCStrike15_v2_TournamentMatchDraft
 
@@ -3875,6 +4161,8 @@
 
 ---
 
+<a id="cdatagccstrike15_v2_tournamentmatchdraft_entry"></a>
+
 ## 🔌 CDataGCCStrike15_v2_TournamentMatchDraft_Entry
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3893,6 +4181,8 @@
 
 
 ---
+
+<a id="cdatagccstrike15_v2_tournamentsection"></a>
 
 ## 🔌 CDataGCCStrike15_v2_TournamentSection
 
@@ -3914,6 +4204,8 @@
 
 
 ---
+
+<a id="cdemoanimationdata"></a>
 
 ## 🔌 CDemoAnimationData
 
@@ -3937,6 +4229,8 @@
 
 ---
 
+<a id="cdemoanimationheader"></a>
+
 ## 🔌 CDemoAnimationHeader
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3957,6 +4251,8 @@
 
 ---
 
+<a id="cdemoclassinfo"></a>
+
 ## 🔌 CDemoClassInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -3974,6 +4270,8 @@
 
 
 ---
+
+<a id="cdemoclassinfo_class_t"></a>
 
 ## 🔌 CDemoClassInfo_class_t
 
@@ -3995,6 +4293,8 @@
 
 ---
 
+<a id="cdemoconsolecmd"></a>
+
 ## 🔌 CDemoConsoleCmd
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4012,6 +4312,8 @@
 
 
 ---
+
+<a id="cdemocustomdata"></a>
 
 ## 🔌 CDemoCustomData
 
@@ -4032,6 +4334,8 @@
 
 ---
 
+<a id="cdemocustomdatacallbacks"></a>
+
 ## 🔌 CDemoCustomDataCallbacks
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4049,6 +4353,8 @@
 
 
 ---
+
+<a id="cdemofileheader"></a>
 
 ## 🔌 CDemoFileHeader
 
@@ -4082,6 +4388,8 @@
 
 ---
 
+<a id="cdemofileinfo"></a>
+
 ## 🔌 CDemoFileInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4103,6 +4411,8 @@
 
 ---
 
+<a id="cdemofullpacket"></a>
+
 ## 🔌 CDemoFullPacket
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4122,6 +4432,8 @@
 
 ---
 
+<a id="cdemopacket"></a>
+
 ## 🔌 CDemoPacket
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4139,6 +4451,8 @@
 
 
 ---
+
+<a id="cdemorecovery"></a>
 
 ## 🔌 CDemoRecovery
 
@@ -4159,6 +4473,8 @@
 
 ---
 
+<a id="cdemorecovery_demoinitialspawngroupentry"></a>
+
 ## 🔌 CDemoRecovery_DemoInitialSpawnGroupEntry
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4177,6 +4493,8 @@
 
 
 ---
+
+<a id="cdemosavegame"></a>
 
 ## 🔌 CDemoSaveGame
 
@@ -4199,6 +4517,8 @@
 
 ---
 
+<a id="cdemosendtables"></a>
+
 ## 🔌 CDemoSendTables
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4216,6 +4536,8 @@
 
 
 ---
+
+<a id="cdemospawngroups"></a>
 
 ## 🔌 CDemoSpawnGroups
 
@@ -4235,6 +4557,8 @@
 
 ---
 
+<a id="cdemospawngroupshltvbroadcast"></a>
+
 ## 🔌 CDemoSpawnGroupsHLTVBroadcast
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4253,6 +4577,8 @@
 
 ---
 
+<a id="cdemostop"></a>
+
 ## 🔌 CDemoStop
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4264,6 +4590,8 @@
 
 
 ---
+
+<a id="cdemostringtables"></a>
 
 ## 🔌 CDemoStringTables
 
@@ -4283,6 +4611,8 @@
 
 ---
 
+<a id="cdemostringtables_items_t"></a>
+
 ## 🔌 CDemoStringTables_items_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4301,6 +4631,8 @@
 
 
 ---
+
+<a id="cdemostringtables_table_t"></a>
 
 ## 🔌 CDemoStringTables_table_t
 
@@ -4323,6 +4655,8 @@
 
 ---
 
+<a id="cdemosynctick"></a>
+
 ## 🔌 CDemoSyncTick
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4334,6 +4668,8 @@
 
 
 ---
+
+<a id="cdemousercmd"></a>
 
 ## 🔌 CDemoUserCmd
 
@@ -4353,6 +4689,8 @@
 
 
 ---
+
+<a id="ceconitempreviewdatablock"></a>
 
 ## 🔌 CEconItemPreviewDataBlock
 
@@ -4394,6 +4732,8 @@
 
 ---
 
+<a id="ceconitempreviewdatablock_sticker"></a>
+
 ## 🔌 CEconItemPreviewDataBlock_Sticker
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4423,6 +4763,8 @@
 
 ---
 
+<a id="cenginegotvsyncpacket"></a>
+
 ## 🔌 CEngineGotvSyncPacket
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4450,6 +4792,8 @@
 
 ---
 
+<a id="centitymessagedospark"></a>
+
 ## 🔌 CEntityMessageDoSpark
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4475,6 +4819,8 @@
 
 ---
 
+<a id="centitymessagefixangle"></a>
+
 ## 🔌 CEntityMessageFixAngle
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4495,6 +4841,8 @@
 
 ---
 
+<a id="centitymessageplayjingle"></a>
+
 ## 🔌 CEntityMessagePlayJingle
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4512,6 +4860,8 @@
 
 
 ---
+
+<a id="centitymessagepropagateforce"></a>
 
 ## 🔌 CEntityMessagePropagateForce
 
@@ -4532,6 +4882,8 @@
 
 ---
 
+<a id="centitymessageremovealldecals"></a>
+
 ## 🔌 CEntityMessageRemoveAllDecals
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4550,6 +4902,8 @@
 
 
 ---
+
+<a id="centitymessagescreenoverlay"></a>
 
 ## 🔌 CEntityMessageScreenOverlay
 
@@ -4570,6 +4924,8 @@
 
 ---
 
+<a id="centitymsg"></a>
+
 ## 🔌 CEntityMsg
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4587,6 +4943,8 @@
 
 
 ---
+
+<a id="cgcstorepurchaseinit_lineitem"></a>
 
 ## 🔌 CGCStorePurchaseInit_LineItem
 
@@ -4610,6 +4968,8 @@
 
 ---
 
+<a id="cgctogcmsgmasterack"></a>
+
 ## 🔌 CGCToGCMsgMasterAck
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4629,6 +4989,8 @@
 
 ---
 
+<a id="cgctogcmsgmasterack_response"></a>
+
 ## 🔌 CGCToGCMsgMasterAck_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4647,6 +5009,8 @@
 
 ---
 
+<a id="cgctogcmsgmasterstartupcomplete"></a>
+
 ## 🔌 CGCToGCMsgMasterStartupComplete
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4658,6 +5022,8 @@
 
 
 ---
+
+<a id="cgctogcmsgrouted"></a>
 
 ## 🔌 CGCToGCMsgRouted
 
@@ -4680,6 +5046,8 @@
 
 ---
 
+<a id="cgctogcmsgroutedreply"></a>
+
 ## 🔌 CGCToGCMsgRoutedReply
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4698,6 +5066,8 @@
 
 
 ---
+
+<a id="cgameinfo"></a>
 
 ## 🔌 CGameInfo
 
@@ -4718,6 +5088,8 @@
 
 ---
 
+<a id="cgameinfo_ccsgameinfo"></a>
+
 ## 🔌 CGameInfo_CCSGameInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4735,6 +5107,8 @@
 
 
 ---
+
+<a id="cgameinfo_cdotagameinfo"></a>
 
 ## 🔌 CGameInfo_CDotaGameInfo
 
@@ -4764,6 +5138,8 @@
 
 ---
 
+<a id="cgameinfo_cdotagameinfo_cheroselectevent"></a>
+
 ## 🔌 CGameInfo_CDotaGameInfo_CHeroSelectEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4783,6 +5159,8 @@
 
 
 ---
+
+<a id="cgameinfo_cdotagameinfo_cplayerinfo"></a>
 
 ## 🔌 CGameInfo_CDotaGameInfo_CPlayerInfo
 
@@ -4806,6 +5184,8 @@
 
 ---
 
+<a id="cgameservers_aggregationquery_request"></a>
+
 ## 🔌 CGameServers_AggregationQuery_Request
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4825,6 +5205,8 @@
 
 ---
 
+<a id="cgameservers_aggregationquery_response"></a>
+
 ## 🔌 CGameServers_AggregationQuery_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4842,6 +5224,8 @@
 
 
 ---
+
+<a id="cgameservers_aggregationquery_response_group"></a>
 
 ## 🔌 CGameServers_AggregationQuery_Response_Group
 
@@ -4867,6 +5251,8 @@
 
 ---
 
+<a id="cinbuttonstatepb"></a>
+
 ## 🔌 CInButtonStatePB
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4886,6 +5272,8 @@
 
 
 ---
+
+<a id="clc_messages"></a>
 
 ## 📋 CLC_Messages
 
@@ -4915,6 +5303,8 @@
 
 
 ---
+
+<a id="cmsgaccountdetails"></a>
 
 ## 🔌 CMsgAccountDetails
 
@@ -4951,6 +5341,8 @@
 
 ---
 
+<a id="cmsgacknowledgerentalexpiration"></a>
+
 ## 🔌 CMsgAcknowledgeRentalExpiration
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -4968,6 +5360,8 @@
 
 
 ---
+
+<a id="cmsgadjustequipslot"></a>
 
 ## 🔌 CMsgAdjustEquipSlot
 
@@ -4989,6 +5383,8 @@
 
 ---
 
+<a id="cmsgadjustequipslots"></a>
+
 ## 🔌 CMsgAdjustEquipSlots
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5007,6 +5403,8 @@
 
 
 ---
+
+<a id="cmsgapplyeggessence"></a>
 
 ## 🔌 CMsgApplyEggEssence
 
@@ -5027,6 +5425,8 @@
 
 ---
 
+<a id="cmsgapplypennantupgrade"></a>
+
 ## 🔌 CMsgApplyPennantUpgrade
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5045,6 +5445,8 @@
 
 
 ---
+
+<a id="cmsgapplystattrakswap"></a>
 
 ## 🔌 CMsgApplyStatTrakSwap
 
@@ -5065,6 +5467,8 @@
 
 
 ---
+
+<a id="cmsgapplysticker"></a>
 
 ## 🔌 CMsgApplySticker
 
@@ -5094,6 +5498,8 @@
 
 ---
 
+<a id="cmsgapplystrangepart"></a>
+
 ## 🔌 CMsgApplyStrangePart
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5112,6 +5518,8 @@
 
 
 ---
+
+<a id="cmsgcstrike15welcome"></a>
 
 ## 🔌 CMsgCStrike15Welcome
 
@@ -5137,6 +5545,8 @@
 
 ---
 
+<a id="cmsgcasketitem"></a>
+
 ## 🔌 CMsgCasketItem
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5155,6 +5565,8 @@
 
 
 ---
+
+<a id="cmsgcleardecalsforentityevent"></a>
 
 ## 🔌 CMsgClearDecalsForEntityEvent
 
@@ -5177,6 +5589,8 @@
 
 ---
 
+<a id="cmsgclearentitydecalsevent"></a>
+
 ## 🔌 CMsgClearEntityDecalsEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5197,6 +5611,8 @@
 
 ---
 
+<a id="cmsgclearworlddecalsevent"></a>
+
 ## 🔌 CMsgClearWorldDecalsEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5216,6 +5632,8 @@
 
 
 ---
+
+<a id="cmsgclienthello"></a>
 
 ## 🔌 CMsgClientHello
 
@@ -5242,6 +5660,8 @@
 
 
 ---
+
+<a id="cmsgclientwelcome"></a>
 
 ## 🔌 CMsgClientWelcome
 
@@ -5271,6 +5691,8 @@
 
 ---
 
+<a id="cmsgclientwelcome_location"></a>
+
 ## 🔌 CMsgClientWelcome_Location
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5291,6 +5713,8 @@
 
 ---
 
+<a id="cmsgconvarvalue"></a>
+
 ## 🔌 CMsgConVarValue
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5309,6 +5733,8 @@
 
 
 ---
+
+<a id="cmsgconnectionstatus"></a>
 
 ## 🔌 CMsgConnectionStatus
 
@@ -5333,6 +5759,8 @@
 
 ---
 
+<a id="cmsgconsumableexhausted"></a>
+
 ## 🔌 CMsgConsumableExhausted
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5350,6 +5778,8 @@
 
 
 ---
+
+<a id="cmsgcsgosteamuserstatchange"></a>
 
 ## 🔌 CMsgCsgoSteamUserStatChange
 
@@ -5371,6 +5801,8 @@
 
 ---
 
+<a id="cmsgdevnewitemrequest"></a>
+
 ## 🔌 CMsgDevNewItemRequest
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5389,6 +5821,8 @@
 
 
 ---
+
+<a id="cmsgeffectdata"></a>
 
 ## 🔌 CMsgEffectData
 
@@ -5426,6 +5860,8 @@
 
 ---
 
+<a id="cmsggcbannedword"></a>
+
 ## 🔌 CMsgGCBannedWord
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5446,6 +5882,8 @@
 
 ---
 
+<a id="cmsggcbannedwordlistrequest"></a>
+
 ## 🔌 CMsgGCBannedWordListRequest
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5465,6 +5903,8 @@
 
 ---
 
+<a id="cmsggcbannedwordlistresponse"></a>
+
 ## 🔌 CMsgGCBannedWordListResponse
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5483,6 +5923,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_clientdeepstats"></a>
 
 ## 🔌 CMsgGCCStrike15_ClientDeepStats
 
@@ -5504,6 +5946,8 @@
 
 ---
 
+<a id="cmsggccstrike15_clientdeepstats_deepstatsmatch"></a>
+
 ## 🔌 CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5522,6 +5966,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_clientdeepstats_deepstatsrange"></a>
 
 ## 🔌 CMsgGCCStrike15_ClientDeepStats_DeepStatsRange
 
@@ -5543,6 +5989,8 @@
 
 ---
 
+<a id="cmsggccstrike15_gotvsyncpacket"></a>
+
 ## 🔌 CMsgGCCStrike15_GotvSyncPacket
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5561,6 +6009,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_accountprivacysettings"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_AccountPrivacySettings
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5578,6 +6028,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_accountprivacysettings_setting"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_AccountPrivacySettings_Setting
 
@@ -5598,6 +6050,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_account_requestcoplays"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Account_RequestCoPlays
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5616,6 +6070,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_account_requestcoplays_player"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_Account_RequestCoPlays_Player
 
@@ -5637,6 +6093,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_acknowledgepenalty"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_AcknowledgePenalty
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5655,6 +6113,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_betaenrollment"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_BetaEnrollment
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5672,6 +6132,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_client2gceconpreviewdatablockrequest"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest
 
@@ -5694,6 +6156,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_client2gceconpreviewdatablockresponse"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5711,6 +6175,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_client2gcrequestprestigecoin"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_Client2GCRequestPrestigeCoin
 
@@ -5733,6 +6199,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_client2gcstreamunlock"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Client2GCStreamUnlock
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5751,6 +6219,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_client2gctextmsg"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_Client2GCTextMsg
 
@@ -5771,6 +6241,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_client2gcackxpshoptracks"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Client2GcAckXPShopTracks
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5782,6 +6254,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientaccountbalance"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientAccountBalance
 
@@ -5802,6 +6276,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientauthkeycode"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientAuthKeyCode
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5820,6 +6296,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientcommendplayer"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientCommendPlayer
 
@@ -5842,6 +6320,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientgcrankupdate"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientGCRankUpdate
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5859,6 +6339,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientlogonfatalerror"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientLogonFatalError
 
@@ -5880,6 +6362,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientnetworkconfig"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientNetworkConfig
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5897,6 +6381,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientpartyjoinrelay"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientPartyJoinRelay
 
@@ -5917,6 +6403,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientpartywarning"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientPartyWarning
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5934,6 +6422,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientpartywarning_entry"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientPartyWarning_Entry
 
@@ -5954,6 +6444,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientperfreport"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientPerfReport
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -5971,6 +6463,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientperfreport_entry"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientPerfReport_Entry
 
@@ -5995,6 +6489,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientplayerdecalsign"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientPlayerDecalSign
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6013,6 +6509,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientpollstate"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientPollState
 
@@ -6033,6 +6531,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientreportplayer"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientReportPlayer
 
@@ -6060,6 +6560,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientreportresponse"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientReportResponse
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6083,6 +6585,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientreportserver"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientReportServer
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6105,6 +6609,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientreportvalidation"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientReportValidation
 
@@ -6143,6 +6649,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientrequestjoinfrienddata"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientRequestJoinFriendData
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6165,6 +6673,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientrequestjoinserverdata"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientRequestJoinServerData
 
@@ -6190,6 +6700,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientrequestoffers"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientRequestOffers
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6201,6 +6713,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientrequestplayersprofile"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientRequestPlayersProfile
 
@@ -6223,6 +6737,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientrequestsouvenir"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientRequestSouvenir
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6242,6 +6758,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientrequestwatchinfofriends"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientRequestWatchInfoFriends
 
@@ -6266,6 +6784,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientsubmitsurveyvote"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientSubmitSurveyVote
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6284,6 +6804,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clienttogcchat"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientToGCChat
 
@@ -6304,6 +6826,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clienttogcrequestelevate"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ClientToGCRequestElevate
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6321,6 +6845,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clienttogcrequestticket"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientToGCRequestTicket
 
@@ -6342,6 +6868,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientvarvaluenotificationinfo"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientVarValueNotificationInfo
 
@@ -6365,6 +6893,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_fantasy"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Fantasy
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6383,6 +6913,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_fantasy_fantasyslot"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_Fantasy_FantasySlot
 
@@ -6404,6 +6936,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_fantasy_fantasyteam"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Fantasy_FantasyTeam
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6422,6 +6956,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_gc2clientinitsystem"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_GC2ClientInitSystem
 
@@ -6448,6 +6984,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_gc2clientinitsystem_response"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_GC2ClientInitSystem_Response
 
@@ -6476,6 +7014,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_gc2clientnotifyxpshop"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_GC2ClientNotifyXPShop
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6496,6 +7036,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_gc2clientrefusesecuremode"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_GC2ClientRefuseSecureMode
 
@@ -6523,6 +7065,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_gc2clientrequestvalidation"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_GC2ClientRequestValidation
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6541,6 +7085,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_gc2clienttextmsg"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_GC2ClientTextMsg
 
@@ -6561,6 +7107,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_gc2clienttournamentinfo"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_GC2ClientTournamentInfo
 
@@ -6583,6 +7131,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_gc2serverreservationupdate"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_GC2ServerReservationUpdate
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6601,6 +7151,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_gctoclientchat"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_GCToClientChat
 
@@ -6621,6 +7173,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_geteventfavorites_request"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_GetEventFavorites_Request
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6638,6 +7192,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_geteventfavorites_response"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_GetEventFavorites_Response
 
@@ -6659,6 +7215,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_giftsleaderboardrequest"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_GiftsLeaderboardRequest
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6670,6 +7228,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_giftsleaderboardresponse"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_GiftsLeaderboardResponse
 
@@ -6693,6 +7253,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_giftsleaderboardresponse_giftleaderboardentry"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6712,6 +7274,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchendrewarddropsnotification"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchEndRewardDropsNotification
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6729,6 +7293,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchendrunrewarddrops"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchEndRunRewardDrops
 
@@ -6748,6 +7314,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchlist"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchList
 
@@ -6772,6 +7340,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchlistrequestcurrentlivegames"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchListRequestCurrentLiveGames
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6783,6 +7353,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchlistrequestfullgameinfo"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchListRequestFullGameInfo
 
@@ -6804,6 +7376,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchlistrequestlivegameforuser"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchListRequestLiveGameForUser
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6821,6 +7395,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchlistrequestrecentusergames"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchListRequestRecentUserGames
 
@@ -6840,6 +7416,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchlistrequesttournamentgames"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchListRequestTournamentGames
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6857,6 +7435,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchlisttournamentoperatormgmt"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt
 
@@ -6878,6 +7458,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchmakingclient2gchello"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingClient2GCHello
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6889,6 +7471,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchmakingclient2serverping"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingClient2ServerPing
 
@@ -6916,6 +7500,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchmakinggc2clientabandon"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingGC2ClientAbandon
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -6936,6 +7522,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchmakinggc2clienthello"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingGC2ClientHello
 
@@ -6974,6 +7562,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchmakinggc2clientreserve"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7000,6 +7590,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchmakinggc2clientsearchstats"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingGC2ClientSearchStats
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7021,6 +7613,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchmakinggc2clientupdate"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate
 
@@ -7055,6 +7649,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchmakinggc2clientupdate_note"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7076,6 +7672,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchmakinggc2serverconfirm"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7096,6 +7694,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchmakinggc2serverreserve"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve
 
@@ -7135,6 +7735,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchmakingoperator2gcblogupdate"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7152,6 +7754,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchmakingserverreservationresponse"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingServerReservationResponse
 
@@ -7188,6 +7792,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchmakingserverroundstats"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingServerRoundStats
 
@@ -7238,6 +7844,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchmakingserverroundstats_dropinfo"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7255,6 +7863,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_matchmakingstart"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingStart
 
@@ -7281,6 +7891,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_matchmakingstop"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_MatchmakingStop
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7298,6 +7910,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_party_invite"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_Party_Invite
 
@@ -7317,6 +7931,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_party_register"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_Party_Register
 
@@ -7344,6 +7960,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_party_search"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Party_Search
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7367,6 +7985,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_party_searchresults"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Party_SearchResults
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7384,6 +8004,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_party_searchresults_entry"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_Party_SearchResults_Entry
 
@@ -7408,6 +8030,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_playeroverwatchcaseassignment"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment
 
@@ -7437,6 +8061,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_playeroverwatchcasestatus"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_PlayerOverwatchCaseStatus
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7455,6 +8081,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_playeroverwatchcaseupdate"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_PlayerOverwatchCaseUpdate
 
@@ -7481,6 +8109,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_playersprofile"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_PlayersProfile
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7500,6 +8130,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_predictions"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Predictions
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7518,6 +8150,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_predictions_groupmatchteampick"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick
 
@@ -7541,6 +8175,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_premierseasonsummary"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_PremierSeasonSummary
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7561,6 +8197,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_premierseasonsummary_datapermap"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerMap
 
@@ -7592,6 +8230,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_premierseasonsummary_dataperweek"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7612,6 +8252,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_server2gcclientvalidate"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_Server2GCClientValidate
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7629,6 +8271,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_servernotificationforuserpenalty"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ServerNotificationForUserPenalty
 
@@ -7651,6 +8295,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_servervarvaluenotificationinfo"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_ServerVarValueNotificationInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7672,6 +8318,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_seteventfavorite"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_SetEventFavorite
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7691,6 +8339,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_setplayerleaderboardsafename"></a>
+
 ## 🔌 CMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7708,6 +8358,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_watchinfousers"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_WatchInfoUsers
 
@@ -7730,6 +8382,8 @@
 
 ---
 
+<a id="cmsggcclientdisplaynotification"></a>
+
 ## 🔌 CMsgGCClientDisplayNotification
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7751,6 +8405,8 @@
 
 ---
 
+<a id="cmsggcclientversionupdated"></a>
+
 ## 🔌 CMsgGCClientVersionUpdated
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7768,6 +8424,8 @@
 
 
 ---
+
+<a id="cmsggccollectitem"></a>
 
 ## 🔌 CMsgGCCollectItem
 
@@ -7788,6 +8446,8 @@
 
 ---
 
+<a id="cmsggccstrike15_v2_clientredeemfreereward"></a>
+
 ## 🔌 CMsgGCCstrike15_v2_ClientRedeemFreeReward
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7807,6 +8467,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_clientredeemmissionreward"></a>
 
 ## 🔌 CMsgGCCstrike15_v2_ClientRedeemMissionReward
 
@@ -7829,6 +8491,8 @@
 
 
 ---
+
+<a id="cmsggccstrike15_v2_gc2servernotifyxprewarded"></a>
 
 ## 🔌 CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded
 
@@ -7857,6 +8521,8 @@
 
 ---
 
+<a id="cmsggcdev_schemareservationrequest"></a>
+
 ## 🔌 CMsgGCDev_SchemaReservationRequest
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7878,6 +8544,8 @@
 
 ---
 
+<a id="cmsggcerror"></a>
+
 ## 🔌 CMsgGCError
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7895,6 +8563,8 @@
 
 
 ---
+
+<a id="cmsggcgifteditems"></a>
 
 ## 🔌 CMsgGCGiftedItems
 
@@ -7918,6 +8588,8 @@
 
 ---
 
+<a id="cmsggchaccountphonenumberchange"></a>
+
 ## 🔌 CMsgGCHAccountPhoneNumberChange
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7940,6 +8612,8 @@
 
 ---
 
+<a id="cmsggchinviteusertolobby"></a>
+
 ## 🔌 CMsgGCHInviteUserToLobby
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -7960,6 +8634,8 @@
 
 
 ---
+
+<a id="cmsggchrecurringsubscriptionstatuschange"></a>
 
 ## 🔌 CMsgGCHRecurringSubscriptionStatusChange
 
@@ -7982,6 +8658,8 @@
 
 ---
 
+<a id="cmsggchvacverificationchange"></a>
+
 ## 🔌 CMsgGCHVacVerificationChange
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8001,6 +8679,8 @@
 
 
 ---
+
+<a id="cmsggcincrementkillcountresponse"></a>
 
 ## 🔌 CMsgGCIncrementKillCountResponse
 
@@ -8023,6 +8703,8 @@
 
 ---
 
+<a id="cmsggcitemcustomizationnotification"></a>
+
 ## 🔌 CMsgGCItemCustomizationNotification
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8043,6 +8725,8 @@
 
 ---
 
+<a id="cmsggcitempreviewitemboughtnotification"></a>
+
 ## 🔌 CMsgGCItemPreviewItemBoughtNotification
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8060,6 +8744,8 @@
 
 
 ---
+
+<a id="cmsggcmultiplexmessage"></a>
 
 ## 🔌 CMsgGCMultiplexMessage
 
@@ -8082,6 +8768,8 @@
 
 ---
 
+<a id="cmsggcmultiplexmessage_response"></a>
+
 ## 🔌 CMsgGCMultiplexMessage_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8099,6 +8787,8 @@
 
 
 ---
+
+<a id="cmsggcnameitemnotification"></a>
 
 ## 🔌 CMsgGCNameItemNotification
 
@@ -8119,6 +8809,8 @@
 
 
 ---
+
+<a id="cmsggcreportabuse"></a>
 
 ## 🔌 CMsgGCReportAbuse
 
@@ -8144,6 +8836,8 @@
 
 ---
 
+<a id="cmsggcreportabuseresponse"></a>
+
 ## 🔌 CMsgGCReportAbuseResponse
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8164,6 +8858,8 @@
 
 ---
 
+<a id="cmsggcrequestannouncements"></a>
+
 ## 🔌 CMsgGCRequestAnnouncements
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8175,6 +8871,8 @@
 
 
 ---
+
+<a id="cmsggcrequestannouncementsresponse"></a>
 
 ## 🔌 CMsgGCRequestAnnouncementsResponse
 
@@ -8197,6 +8895,8 @@
 
 ---
 
+<a id="cmsggcrequestsessionip"></a>
+
 ## 🔌 CMsgGCRequestSessionIP
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8214,6 +8914,8 @@
 
 
 ---
+
+<a id="cmsggcrequestsessionipresponse"></a>
 
 ## 🔌 CMsgGCRequestSessionIPResponse
 
@@ -8233,6 +8935,8 @@
 
 ---
 
+<a id="cmsggcserverversionupdated"></a>
+
 ## 🔌 CMsgGCServerVersionUpdated
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8250,6 +8954,8 @@
 
 
 ---
+
+<a id="cmsggcshowitemspickedup"></a>
 
 ## 🔌 CMsgGCShowItemsPickedUp
 
@@ -8269,6 +8975,8 @@
 
 ---
 
+<a id="cmsggcstorepurchasecancel"></a>
+
 ## 🔌 CMsgGCStorePurchaseCancel
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8286,6 +8994,8 @@
 
 
 ---
+
+<a id="cmsggcstorepurchasecancelresponse"></a>
 
 ## 🔌 CMsgGCStorePurchaseCancelResponse
 
@@ -8305,6 +9015,8 @@
 
 ---
 
+<a id="cmsggcstorepurchasefinalize"></a>
+
 ## 🔌 CMsgGCStorePurchaseFinalize
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8322,6 +9034,8 @@
 
 
 ---
+
+<a id="cmsggcstorepurchasefinalizeresponse"></a>
 
 ## 🔌 CMsgGCStorePurchaseFinalizeResponse
 
@@ -8341,6 +9055,8 @@
 
 
 ---
+
+<a id="cmsggcstorepurchaseinit"></a>
 
 ## 🔌 CMsgGCStorePurchaseInit
 
@@ -8363,6 +9079,8 @@
 
 ---
 
+<a id="cmsggcstorepurchaseinitresponse"></a>
+
 ## 🔌 CMsgGCStorePurchaseInitResponse
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8384,6 +9102,8 @@
 
 ---
 
+<a id="cmsggctoclientsteamdatagramticket"></a>
+
 ## 🔌 CMsgGCToClientSteamDatagramTicket
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8401,6 +9121,8 @@
 
 
 ---
+
+<a id="cmsggctogcbannedwordlistbroadcast"></a>
 
 ## 🔌 CMsgGCToGCBannedWordListBroadcast
 
@@ -8420,6 +9142,8 @@
 
 ---
 
+<a id="cmsggctogcbannedwordlistupdated"></a>
+
 ## 🔌 CMsgGCToGCBannedWordListUpdated
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8438,6 +9162,8 @@
 
 ---
 
+<a id="cmsggctogcbroadcastconsolecommand"></a>
+
 ## 🔌 CMsgGCToGCBroadcastConsoleCommand
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8455,6 +9181,8 @@
 
 
 ---
+
+<a id="cmsggctogcdirtymultiplesdocache"></a>
 
 ## 🔌 CMsgGCToGCDirtyMultipleSDOCache
 
@@ -8475,6 +9203,8 @@
 
 ---
 
+<a id="cmsggctogcdirtysdocache"></a>
+
 ## 🔌 CMsgGCToGCDirtySDOCache
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8494,6 +9224,8 @@
 
 ---
 
+<a id="cmsggctogcistrustedserver"></a>
+
 ## 🔌 CMsgGCToGCIsTrustedServer
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8512,6 +9244,8 @@
 
 ---
 
+<a id="cmsggctogcistrustedserverresponse"></a>
+
 ## 🔌 CMsgGCToGCIsTrustedServerResponse
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8529,6 +9263,8 @@
 
 
 ---
+
+<a id="cmsggctogcrequestpassportitemgrant"></a>
 
 ## 🔌 CMsgGCToGCRequestPassportItemGrant
 
@@ -8550,6 +9286,8 @@
 
 ---
 
+<a id="cmsggctogcupdatesqlkeyvalue"></a>
+
 ## 🔌 CMsgGCToGCUpdateSQLKeyValue
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8568,6 +9306,8 @@
 
 ---
 
+<a id="cmsggctogcwebapiaccountchanged"></a>
+
 ## 🔌 CMsgGCToGCWebAPIAccountChanged
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8579,6 +9319,8 @@
 
 
 ---
+
+<a id="cmsggcupdatesessionip"></a>
 
 ## 🔌 CMsgGCUpdateSessionIP
 
@@ -8599,6 +9341,8 @@
 
 ---
 
+<a id="cmsggcusertracktimeplayedconsecutively"></a>
+
 ## 🔌 CMsgGCUserTrackTimePlayedConsecutively
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8616,6 +9360,8 @@
 
 
 ---
+
+<a id="cmsggc_globalgame_play"></a>
 
 ## 🔌 CMsgGC_GlobalGame_Play
 
@@ -8637,6 +9383,8 @@
 
 ---
 
+<a id="cmsggc_globalgame_subscribe"></a>
+
 ## 🔌 CMsgGC_GlobalGame_Subscribe
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8655,6 +9403,8 @@
 
 ---
 
+<a id="cmsggc_globalgame_unsubscribe"></a>
+
 ## 🔌 CMsgGC_GlobalGame_Unsubscribe
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8672,6 +9422,8 @@
 
 
 ---
+
+<a id="cmsggc_serverquestupdatedata"></a>
 
 ## 🔌 CMsgGC_ServerQuestUpdateData
 
@@ -8694,6 +9446,8 @@
 
 
 ---
+
+<a id="cmsggameserverinfo"></a>
 
 ## 🔌 CMsgGameServerInfo
 
@@ -8730,6 +9484,8 @@
 
 ---
 
+<a id="cmsggameserverinfo_servertype"></a>
+
 ## 📋 CMsgGameServerInfo_ServerType
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8747,6 +9503,8 @@
 
 
 ---
+
+<a id="cmsgipcaddress"></a>
 
 ## 🔌 CMsgIPCAddress
 
@@ -8767,6 +9525,8 @@
 
 ---
 
+<a id="cmsgincrementkillcountattribute"></a>
+
 ## 🔌 CMsgIncrementKillCount
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8776,6 +9536,8 @@
 
 
 ---
+
+<a id="cmsginvitationcreated"></a>
 
 ## 🔌 CMsgInvitationCreated
 
@@ -8795,6 +9557,8 @@
 
 
 ---
+
+<a id="cmsginvitetoparty"></a>
 
 ## 🔌 CMsgInviteToParty
 
@@ -8816,6 +9580,8 @@
 
 ---
 
+<a id="cmsgitemacknowledged"></a>
+
 ## 🔌 CMsgItemAcknowledged
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8833,6 +9599,8 @@
 
 
 ---
+
+<a id="cmsgitemacknowledged__deprecated"></a>
 
 ## 🔌 CMsgItemAcknowledged__DEPRECATED
 
@@ -8858,6 +9626,8 @@
 
 ---
 
+<a id="cmsgkickfromparty"></a>
+
 ## 🔌 CMsgKickFromParty
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8875,6 +9645,8 @@
 
 
 ---
+
+<a id="cmsglanserveravailable"></a>
 
 ## 🔌 CMsgLANServerAvailable
 
@@ -8894,6 +9666,8 @@
 
 ---
 
+<a id="cmsgleaveparty"></a>
+
 ## 🔌 CMsgLeaveParty
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8905,6 +9679,8 @@
 
 
 ---
+
+<a id="cmsglegacysource1clientwelcome"></a>
 
 ## 🔌 CMsgLegacySource1ClientWelcome
 
@@ -8934,6 +9710,8 @@
 
 ---
 
+<a id="cmsglegacysource1clientwelcome_location"></a>
+
 ## 🔌 CMsgLegacySource1ClientWelcome_Location
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8954,6 +9732,8 @@
 
 ---
 
+<a id="cmsgmodifyitemattribute"></a>
+
 ## 🔌 CMsgModifyItem
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -8963,6 +9743,8 @@
 
 
 ---
+
+<a id="cmsgopencrate"></a>
 
 ## 🔌 CMsgOpenCrate
 
@@ -8985,6 +9767,8 @@
 
 ---
 
+<a id="cmsgpartyinviteresponse"></a>
+
 ## 🔌 CMsgPartyInviteResponse
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9005,6 +9789,8 @@
 
 
 ---
+
+<a id="cmsgplacedecalevent"></a>
 
 ## 🔌 CMsgPlaceDecalEvent
 
@@ -9038,6 +9824,8 @@
 
 ---
 
+<a id="cmsgplayerbullethit"></a>
+
 ## 🔌 CMsgPlayerBulletHit
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9062,6 +9850,8 @@
 
 ---
 
+<a id="cmsgplayerinfo"></a>
+
 ## 🔌 CMsgPlayerInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9084,6 +9874,8 @@
 
 
 ---
+
+<a id="cmsgprotobufheader"></a>
 
 ## 🔌 CMsgProtoBufHeader
 
@@ -9113,6 +9905,8 @@
 
 ---
 
+<a id="cmsgqangle"></a>
+
 ## 🔌 CMsgQAngle
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9132,6 +9926,8 @@
 
 
 ---
+
+<a id="cmsgquaternion"></a>
 
 ## 🔌 CMsgQuaternion
 
@@ -9154,6 +9950,8 @@
 
 ---
 
+<a id="cmsgrgba"></a>
+
 ## 🔌 CMsgRGBA
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9175,6 +9973,8 @@
 
 ---
 
+<a id="cmsgrecurringmissionschema"></a>
+
 ## 🔌 CMsgRecurringMissionSchema
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9192,6 +9992,8 @@
 
 
 ---
+
+<a id="cmsgrecurringmissionschema_missiontemplatelist"></a>
 
 ## 🔌 CMsgRecurringMissionSchema_MissionTemplateList
 
@@ -9211,6 +10013,8 @@
 
 
 ---
+
+<a id="cmsgreplayuploadedtoyoutube"></a>
 
 ## 🔌 CMsgReplayUploadedToYouTube
 
@@ -9232,6 +10036,8 @@
 
 ---
 
+<a id="cmsgreplicateconvars"></a>
+
 ## 🔌 CMsgReplicateConVars
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9250,6 +10056,8 @@
 
 ---
 
+<a id="cmsgrequestinventoryrefresh"></a>
+
 ## 🔌 CMsgRequestInventoryRefresh
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9261,6 +10069,8 @@
 
 
 ---
+
+<a id="cmsgrequestrecurringmissionschedule"></a>
 
 ## 🔌 CMsgRequestRecurringMissionSchedule
 
@@ -9274,6 +10084,8 @@
 
 ---
 
+<a id="cmsgsdonomemcached"></a>
+
 ## 🔌 CMsgSDONoMemcached
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9285,6 +10097,8 @@
 
 
 ---
+
+<a id="cmsgsocachehaveversion"></a>
 
 ## 🔌 CMsgSOCacheHaveVersion
 
@@ -9304,6 +10118,8 @@
 
 
 ---
+
+<a id="cmsgsocachesubscribed"></a>
 
 ## 🔌 CMsgSOCacheSubscribed
 
@@ -9325,6 +10141,8 @@
 
 ---
 
+<a id="cmsgsocachesubscribed_subscribedtype"></a>
+
 ## 🔌 CMsgSOCacheSubscribed_SubscribedType
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9343,6 +10161,8 @@
 
 
 ---
+
+<a id="cmsgsocachesubscriptioncheck"></a>
 
 ## 🔌 CMsgSOCacheSubscriptionCheck
 
@@ -9363,6 +10183,8 @@
 
 ---
 
+<a id="cmsgsocachesubscriptionrefresh"></a>
+
 ## 🔌 CMsgSOCacheSubscriptionRefresh
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9380,6 +10202,8 @@
 
 
 ---
+
+<a id="cmsgsocacheunsubscribed"></a>
 
 ## 🔌 CMsgSOCacheUnsubscribed
 
@@ -9399,6 +10223,8 @@
 
 ---
 
+<a id="cmsgsocacheversion"></a>
+
 ## 🔌 CMsgSOCacheVersion
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9416,6 +10242,8 @@
 
 
 ---
+
+<a id="cmsgsoidowner"></a>
 
 ## 🔌 CMsgSOIDOwner
 
@@ -9435,6 +10263,8 @@
 
 
 ---
+
+<a id="cmsgsomultipleobjects"></a>
 
 ## 🔌 CMsgSOMultipleObjects
 
@@ -9456,6 +10286,8 @@
 
 ---
 
+<a id="cmsgsomultipleobjects_singleobject"></a>
+
 ## 🔌 CMsgSOMultipleObjects_SingleObject
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9474,6 +10306,8 @@
 
 
 ---
+
+<a id="cmsgsosingleobject"></a>
 
 ## 🔌 CMsgSOSingleObject
 
@@ -9496,6 +10330,8 @@
 
 ---
 
+<a id="cmsgserializedsocache"></a>
+
 ## 🔌 CMsgSerializedSOCache
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9515,6 +10351,8 @@
 
 
 ---
+
+<a id="cmsgserializedsocache_cache"></a>
 
 ## 🔌 CMsgSerializedSOCache_Cache
 
@@ -9537,6 +10375,8 @@
 
 ---
 
+<a id="cmsgserializedsocache_cache_version"></a>
+
 ## 🔌 CMsgSerializedSOCache_Cache_Version
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9555,6 +10395,8 @@
 
 
 ---
+
+<a id="cmsgserializedsocache_typecache"></a>
 
 ## 🔌 CMsgSerializedSOCache_TypeCache
 
@@ -9576,6 +10418,8 @@
 
 ---
 
+<a id="cmsgserveravailable"></a>
+
 ## 🔌 CMsgServerAvailable
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9587,6 +10431,8 @@
 
 
 ---
+
+<a id="cmsgserverhello"></a>
 
 ## 🔌 CMsgServerHello
 
@@ -9612,6 +10458,8 @@
 
 
 ---
+
+<a id="cmsgservernetworkstats"></a>
 
 ## 🔌 CMsgServerNetworkStats
 
@@ -9655,6 +10503,8 @@
 
 ---
 
+<a id="cmsgservernetworkstats_player"></a>
+
 ## 🔌 CMsgServerNetworkStats_Player
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9680,6 +10530,8 @@
 
 ---
 
+<a id="cmsgservernetworkstats_port"></a>
+
 ## 🔌 CMsgServerNetworkStats_Port
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9698,6 +10550,8 @@
 
 
 ---
+
+<a id="cmsgserverpeer"></a>
 
 ## 🔌 CMsgServerPeer
 
@@ -9722,6 +10576,8 @@
 
 ---
 
+<a id="cmsgserverusercmd"></a>
+
 ## 🔌 CMsgServerUserCmd
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9744,6 +10600,8 @@
 
 ---
 
+<a id="cmsgsetitempositions"></a>
+
 ## 🔌 CMsgSetItemPositions
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9761,6 +10619,8 @@
 
 
 ---
+
+<a id="cmsgsetitempositions_itemposition"></a>
 
 ## 🔌 CMsgSetItemPositions_ItemPosition
 
@@ -9782,6 +10642,8 @@
 
 ---
 
+<a id="cmsgsortitems"></a>
+
 ## 🔌 CMsgSortItems
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9799,6 +10661,8 @@
 
 
 ---
+
+<a id="cmsgsossetlibrarystackfields"></a>
 
 ## 🔌 CMsgSosSetLibraryStackFields
 
@@ -9821,6 +10685,8 @@
 
 ---
 
+<a id="cmsgsossetsoundeventparams"></a>
+
 ## 🔌 CMsgSosSetSoundEventParams
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9841,6 +10707,8 @@
 
 
 ---
+
+<a id="cmsgsosstartsoundevent"></a>
 
 ## 🔌 CMsgSosStartSoundEvent
 
@@ -9867,6 +10735,8 @@
 
 ---
 
+<a id="cmsgsosstopsoundevent"></a>
+
 ## 🔌 CMsgSosStopSoundEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9886,6 +10756,8 @@
 
 
 ---
+
+<a id="cmsgsosstopsoundeventhash"></a>
 
 ## 🔌 CMsgSosStopSoundEventHash
 
@@ -9907,6 +10779,8 @@
 
 
 ---
+
+<a id="cmsgsource1legacygameevent"></a>
 
 ## 🔌 CMsgSource1LegacyGameEvent
 
@@ -9930,6 +10804,8 @@
 
 ---
 
+<a id="cmsgsource1legacygameeventlist"></a>
+
 ## 🔌 CMsgSource1LegacyGameEventList
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9949,6 +10825,8 @@
 
 
 ---
+
+<a id="cmsgsource1legacygameeventlist_descriptor_t"></a>
 
 ## 🔌 CMsgSource1LegacyGameEventList_descriptor_t
 
@@ -9970,6 +10848,8 @@
 
 ---
 
+<a id="cmsgsource1legacygameeventlist_key_t"></a>
+
 ## 🔌 CMsgSource1LegacyGameEventList_key_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -9988,6 +10868,8 @@
 
 
 ---
+
+<a id="cmsgsource1legacygameevent_key_t"></a>
 
 ## 🔌 CMsgSource1LegacyGameEvent_key_t
 
@@ -10014,6 +10896,8 @@
 
 ---
 
+<a id="cmsgsource1legacylistenevents"></a>
+
 ## 🔌 CMsgSource1LegacyListenEvents
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10034,6 +10918,8 @@
 
 
 ---
+
+<a id="cmsgsource2networkflowquality"></a>
 
 ## 🔌 CMsgSource2NetworkFlowQuality
 
@@ -10096,6 +10982,8 @@
 
 ---
 
+<a id="cmsgsource2perfintervalsample"></a>
+
 ## 🔌 CMsgSource2PerfIntervalSample
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10119,6 +11007,8 @@
 
 ---
 
+<a id="cmsgsource2perfintervalsample_tag"></a>
+
 ## 🔌 CMsgSource2PerfIntervalSample_Tag
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10137,6 +11027,8 @@
 
 
 ---
+
+<a id="cmsgsource2systemspecs"></a>
 
 ## 🔌 CMsgSource2SystemSpecs
 
@@ -10169,6 +11061,8 @@
 
 ---
 
+<a id="cmsgsource2vproflitereport"></a>
+
 ## 🔌 CMsgSource2VProfLiteReport
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10188,6 +11082,8 @@
 
 
 ---
+
+<a id="cmsgsource2vproflitereportitem"></a>
 
 ## 🔌 CMsgSource2VProfLiteReportItem
 
@@ -10224,6 +11120,8 @@
 
 ---
 
+<a id="cmsgstoregetuserdata"></a>
+
 ## 🔌 CMsgStoreGetUserData
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10242,6 +11140,8 @@
 
 
 ---
+
+<a id="cmsgstoregetuserdataresponse"></a>
 
 ## 🔌 CMsgStoreGetUserDataResponse
 
@@ -10265,6 +11165,8 @@
 
 ---
 
+<a id="cmsgsystembroadcast"></a>
+
 ## 🔌 CMsgSystemBroadcast
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10282,6 +11184,8 @@
 
 
 ---
+
+<a id="cmsgtearmorricochet"></a>
 
 ## 🔌 CMsgTEArmorRicochet
 
@@ -10303,6 +11207,8 @@
 
 
 ---
+
+<a id="cmsgtebasebeam"></a>
 
 ## 🔌 CMsgTEBaseBeam
 
@@ -10333,6 +11239,8 @@
 
 ---
 
+<a id="cmsgtebeamentpoint"></a>
+
 ## 🔌 CMsgTEBeamEntPoint
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10357,6 +11265,8 @@
 
 ---
 
+<a id="cmsgtebeaments"></a>
+
 ## 🔌 CMsgTEBeamEnts
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10378,6 +11288,8 @@
 
 
 ---
+
+<a id="cmsgtebeampoints"></a>
 
 ## 🔌 CMsgTEBeamPoints
 
@@ -10401,6 +11313,8 @@
 
 ---
 
+<a id="cmsgtebeamring"></a>
+
 ## 🔌 CMsgTEBeamRing
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10422,6 +11336,8 @@
 
 
 ---
+
+<a id="cmsgtebloodstream"></a>
 
 ## 🔌 CMsgTEBloodStream
 
@@ -10445,6 +11361,8 @@
 
 
 ---
+
+<a id="cmsgtebubbletrail"></a>
 
 ## 🔌 CMsgTEBubbleTrail
 
@@ -10470,6 +11388,8 @@
 
 ---
 
+<a id="cmsgtebubbles"></a>
+
 ## 🔌 CMsgTEBubbles
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10493,6 +11413,8 @@
 
 
 ---
+
+<a id="cmsgtedecal"></a>
 
 ## 🔌 CMsgTEDecal
 
@@ -10518,6 +11440,8 @@
 
 ---
 
+<a id="cmsgtedust"></a>
+
 ## 🔌 CMsgTEDust
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10541,6 +11465,8 @@
 
 ---
 
+<a id="cmsgteeffectdispatch"></a>
+
 ## 🔌 CMsgTEEffectDispatch
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10560,6 +11486,8 @@
 
 
 ---
+
+<a id="cmsgteenergysplash"></a>
 
 ## 🔌 CMsgTEEnergySplash
 
@@ -10582,6 +11510,8 @@
 
 
 ---
+
+<a id="cmsgteexplosion"></a>
 
 ## 🔌 CMsgTEExplosion
 
@@ -10612,6 +11542,8 @@
 
 
 ---
+
+<a id="cmsgtefirebullets"></a>
 
 ## 🔌 CMsgTEFireBullets
 
@@ -10651,6 +11583,8 @@
 
 ---
 
+<a id="cmsgtefirebullets_extra"></a>
+
 ## 🔌 CMsgTEFireBullets_Extra
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10676,6 +11610,8 @@
 
 ---
 
+<a id="cmsgtefizz"></a>
+
 ## 🔌 CMsgTEFizz
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10697,6 +11633,8 @@
 
 
 ---
+
+<a id="cmsgteglowsprite"></a>
 
 ## 🔌 CMsgTEGlowSprite
 
@@ -10721,6 +11659,8 @@
 
 ---
 
+<a id="cmsgteimpact"></a>
+
 ## 🔌 CMsgTEImpact
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10743,6 +11683,8 @@
 
 ---
 
+<a id="cmsgtelargefunnel"></a>
+
 ## 🔌 CMsgTELargeFunnel
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10763,6 +11705,8 @@
 
 
 ---
+
+<a id="cmsgtemuzzleflash"></a>
 
 ## 🔌 CMsgTEMuzzleFlash
 
@@ -10786,6 +11730,8 @@
 
 
 ---
+
+<a id="cmsgtephysicsprop"></a>
 
 ## 🔌 CMsgTEPhysicsProp
 
@@ -10819,6 +11765,8 @@
 
 ---
 
+<a id="cmsgteplayeranimevent"></a>
+
 ## 🔌 CMsgTEPlayerAnimEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10841,6 +11789,8 @@
 
 ---
 
+<a id="cmsgteradioicon"></a>
+
 ## 🔌 CMsgTERadioIcon
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10858,6 +11808,8 @@
 
 
 ---
+
+<a id="cmsgteshattersurface"></a>
 
 ## 🔌 CMsgTEShatterSurface
 
@@ -10888,6 +11840,8 @@
 
 ---
 
+<a id="cmsgtesmoke"></a>
+
 ## 🔌 CMsgTESmoke
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10908,6 +11862,8 @@
 
 
 ---
+
+<a id="cmsgtesparks"></a>
 
 ## 🔌 CMsgTESparks
 
@@ -10932,6 +11888,8 @@
 
 ---
 
+<a id="cmsgteworlddecal"></a>
+
 ## 🔌 CMsgTEWorldDecal
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10954,6 +11912,8 @@
 
 ---
 
+<a id="cmsgtransform"></a>
+
 ## 🔌 CMsgTransform
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10974,6 +11934,8 @@
 
 ---
 
+<a id="cmsgupdateitemschema"></a>
+
 ## 🔌 CMsgUpdateItemSchema
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -10993,6 +11955,8 @@
 
 
 ---
+
+<a id="cmsguseitem"></a>
 
 ## 🔌 CMsgUseItem
 
@@ -11016,6 +11980,8 @@
 
 ---
 
+<a id="cmsgvdebuggamesessionidevent"></a>
+
 ## 🔌 CMsgVDebugGameSessionIDEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11036,6 +12002,8 @@
 
 
 ---
+
+<a id="cmsgvector"></a>
 
 ## 🔌 CMsgVector
 
@@ -11058,6 +12026,8 @@
 
 ---
 
+<a id="cmsgvector2d"></a>
+
 ## 🔌 CMsgVector2D
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11076,6 +12046,8 @@
 
 
 ---
+
+<a id="cmsgvoiceaudio"></a>
 
 ## 🔌 CMsgVoiceAudio
 
@@ -11103,6 +12075,8 @@
 
 ---
 
+<a id="cmsg_cvars"></a>
+
 ## 🔌 CMsg_CVars
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11120,6 +12094,8 @@
 
 
 ---
+
+<a id="cmsg_cvars_cvar"></a>
 
 ## 🔌 CMsg_CVars_CVar
 
@@ -11139,6 +12115,8 @@
 
 
 ---
+
+<a id="cnetmsg_debugoverlay"></a>
 
 ## 🔌 CNETMsg_DebugOverlay
 
@@ -11167,6 +12145,8 @@
 
 ---
 
+<a id="cnetmsg_nop"></a>
+
 ## 🔌 CNETMsg_NOP
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11180,6 +12160,8 @@
 
 
 ---
+
+<a id="cnetmsg_setconvar"></a>
 
 ## 🔌 CNETMsg_SetConVar
 
@@ -11200,6 +12182,8 @@
 
 
 ---
+
+<a id="cnetmsg_signonstate"></a>
 
 ## 🔌 CNETMsg_SignonState
 
@@ -11225,6 +12209,8 @@
 
 
 ---
+
+<a id="cnetmsg_spawngroup_load"></a>
 
 ## 🔌 CNETMsg_SpawnGroup_Load
 
@@ -11265,6 +12251,8 @@
 
 ---
 
+<a id="cnetmsg_spawngroup_loadcompleted"></a>
+
 ## 🔌 CNETMsg_SpawnGroup_LoadCompleted
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11284,6 +12272,8 @@
 
 
 ---
+
+<a id="cnetmsg_spawngroup_manifestupdate"></a>
 
 ## 🔌 CNETMsg_SpawnGroup_ManifestUpdate
 
@@ -11307,6 +12297,8 @@
 
 ---
 
+<a id="cnetmsg_spawngroup_setcreationtick"></a>
+
 ## 🔌 CNETMsg_SpawnGroup_SetCreationTick
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11328,6 +12320,8 @@
 
 
 ---
+
+<a id="cnetmsg_spawngroup_unload"></a>
 
 ## 🔌 CNETMsg_SpawnGroup_Unload
 
@@ -11351,6 +12345,8 @@
 
 ---
 
+<a id="cnetmsg_splitscreenuser"></a>
+
 ## 🔌 CNETMsg_SplitScreenUser
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11370,6 +12366,8 @@
 
 
 ---
+
+<a id="cnetmsg_stringcmd"></a>
 
 ## 🔌 CNETMsg_StringCmd
 
@@ -11391,6 +12389,8 @@
 
 
 ---
+
+<a id="cnetmsg_tick"></a>
 
 ## 🔌 CNETMsg_Tick
 
@@ -11421,6 +12421,8 @@
 
 ---
 
+<a id="cp2p_ping"></a>
+
 ## 🔌 CP2P_Ping
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11440,6 +12442,8 @@
 
 ---
 
+<a id="cp2p_textmessage"></a>
+
 ## 🔌 CP2P_TextMessage
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11457,6 +12461,8 @@
 
 
 ---
+
+<a id="cp2p_vravatarposition"></a>
 
 ## 🔌 CP2P_VRAvatarPosition
 
@@ -11479,6 +12485,8 @@
 
 ---
 
+<a id="cp2p_vravatarposition_corientation"></a>
+
 ## 🔌 CP2P_VRAvatarPosition_COrientation
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11497,6 +12505,8 @@
 
 
 ---
+
+<a id="cp2p_voice"></a>
 
 ## 🔌 CP2P_Voice
 
@@ -11517,6 +12527,8 @@
 
 ---
 
+<a id="cp2p_voice_handler_flags"></a>
+
 ## 📋 CP2P_Voice_Handler_Flags
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11532,6 +12544,8 @@
 
 
 ---
+
+<a id="cp2p_watchsynchronization"></a>
 
 ## 🔌 CP2P_WatchSynchronization
 
@@ -11558,6 +12572,8 @@
 
 ---
 
+<a id="cprematchinfodata"></a>
+
 ## 🔌 CPreMatchInfoData
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11579,6 +12595,8 @@
 
 ---
 
+<a id="cprematchinfodata_teamstats"></a>
+
 ## 🔌 CPreMatchInfoData_TeamStats
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11598,6 +12616,8 @@
 
 
 ---
+
+<a id="cpredictionevent_diagnostic"></a>
 
 ## 🔌 CPredictionEvent_Diagnostic
 
@@ -11620,6 +12640,8 @@
 
 ---
 
+<a id="cpredictionevent_stringcommand"></a>
+
 ## 🔌 CPredictionEvent_StringCommand
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11637,6 +12659,8 @@
 
 
 ---
+
+<a id="cpredictionevent_teleport"></a>
 
 ## 🔌 CPredictionEvent_Teleport
 
@@ -11658,6 +12682,8 @@
 
 ---
 
+<a id="cproductinfo_setrichpresencelocalization_request"></a>
+
 ## 🔌 CProductInfo_SetRichPresenceLocalization_Request
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11678,6 +12704,8 @@
 
 ---
 
+<a id="cproductinfo_setrichpresencelocalization_request_languagesection"></a>
+
 ## 🔌 CProductInfo_SetRichPresenceLocalization_Request_LanguageSection
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11696,6 +12724,8 @@
 
 
 ---
+
+<a id="cproductinfo_setrichpresencelocalization_request_token"></a>
 
 ## 🔌 CProductInfo_SetRichPresenceLocalization_Request_Token
 
@@ -11716,6 +12746,8 @@
 
 ---
 
+<a id="cproductinfo_setrichpresencelocalization_response"></a>
+
 ## 🔌 CProductInfo_SetRichPresenceLocalization_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11727,6 +12759,8 @@
 
 
 ---
+
+<a id="cquest_publisheraddcommunityitemstoplayer_request"></a>
 
 ## 🔌 CQuest_PublisherAddCommunityItemsToPlayer_Request
 
@@ -11752,6 +12786,8 @@
 
 ---
 
+<a id="cquest_publisheraddcommunityitemstoplayer_request_attribute"></a>
+
 ## 🔌 CQuest_PublisherAddCommunityItemsToPlayer_Request_
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11761,6 +12797,8 @@
 
 
 ---
+
+<a id="cquest_publisheraddcommunityitemstoplayer_response"></a>
 
 ## 🔌 CQuest_PublisherAddCommunityItemsToPlayer_Response
 
@@ -11780,6 +12818,8 @@
 
 
 ---
+
+<a id="csgoinputhistoryentrypb"></a>
 
 ## 🔌 CSGOInputHistoryEntryPB
 
@@ -11813,6 +12853,8 @@
 
 ---
 
+<a id="csgointerpolationinfopb"></a>
+
 ## 🔌 CSGOInterpolationInfoPB
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11833,6 +12875,8 @@
 
 ---
 
+<a id="csgointerpolationinfopb_cl"></a>
+
 ## 🔌 CSGOInterpolationInfoPB_CL
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11850,6 +12894,8 @@
 
 
 ---
+
+<a id="csgousercmdpb"></a>
 
 ## 🔌 CSGOUserCmdPB
 
@@ -11876,6 +12922,8 @@
 
 ---
 
+<a id="csoaccountitempersonalstore"></a>
+
 ## 🔌 CSOAccountItemPersonalStore
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11896,6 +12944,8 @@
 
 ---
 
+<a id="csoaccountkeychainremovetoolcharges"></a>
+
 ## 🔌 CSOAccountKeychainRemoveToolCharges
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11913,6 +12963,8 @@
 
 
 ---
+
+<a id="csoaccountrecurringmission"></a>
 
 ## 🔌 CSOAccountRecurringMission
 
@@ -11935,6 +12987,8 @@
 
 ---
 
+<a id="csoaccountrecurringsubscription"></a>
+
 ## 🔌 CSOAccountRecurringSubscription
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11953,6 +13007,8 @@
 
 
 ---
+
+<a id="csoaccountseasonaloperation"></a>
 
 ## 🔌 CSOAccountSeasonalOperation
 
@@ -11978,6 +13034,8 @@
 
 ---
 
+<a id="csoaccountxpshop"></a>
+
 ## 🔌 CSOAccountXpShop
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -11997,6 +13055,8 @@
 
 
 ---
+
+<a id="csoaccountxpshopbids"></a>
 
 ## 🔌 CSOAccountXpShopBids
 
@@ -12019,6 +13079,8 @@
 
 ---
 
+<a id="csoeconclaimcode"></a>
+
 ## 🔌 CSOEconClaimCode
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12040,6 +13102,8 @@
 
 ---
 
+<a id="csoeconcoupon"></a>
+
 ## 🔌 CSOEconCoupon
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12059,6 +13123,8 @@
 
 
 ---
+
+<a id="csoeconequipslot"></a>
 
 ## 🔌 CSOEconEquipSlot
 
@@ -12082,6 +13148,8 @@
 
 ---
 
+<a id="csoecongameaccountclient"></a>
+
 ## 🔌 CSOEconGameAccountClient
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12104,6 +13172,8 @@
 
 
 ---
+
+<a id="csoeconitem"></a>
 
 ## 🔌 CSOEconItem
 
@@ -12140,6 +13210,8 @@
 
 ---
 
+<a id="csoeconitemattribute"></a>
+
 ## 🔌 CSOEconItem
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12149,6 +13221,8 @@
 
 
 ---
+
+<a id="csoeconitemdropratebonus"></a>
 
 ## 🔌 CSOEconItemDropRateBonus
 
@@ -12173,6 +13247,8 @@
 
 ---
 
+<a id="csoeconitemequipped"></a>
+
 ## 🔌 CSOEconItemEquipped
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12191,6 +13267,8 @@
 
 
 ---
+
+<a id="csoeconitemeventticket"></a>
 
 ## 🔌 CSOEconItemEventTicket
 
@@ -12212,6 +13290,8 @@
 
 ---
 
+<a id="csoeconitemleagueviewpass"></a>
+
 ## 🔌 CSOEconItemLeagueViewPass
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12232,6 +13312,8 @@
 
 
 ---
+
+<a id="csoeconrentalhistory"></a>
 
 ## 🔌 CSOEconRentalHistory
 
@@ -12255,6 +13337,8 @@
 
 ---
 
+<a id="csogameaccountsteamchina"></a>
+
 ## 🔌 CSOGameAccountSteamChina
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12274,6 +13358,8 @@
 
 
 ---
+
+<a id="csoitemcriteria"></a>
 
 ## 🔌 CSOItemCriteria
 
@@ -12303,6 +13389,8 @@
 
 ---
 
+<a id="csoitemcriteriacondition"></a>
+
 ## 🔌 CSOItemCriteriaCondition
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12324,6 +13412,8 @@
 
 
 ---
+
+<a id="csoitemrecipe"></a>
 
 ## 🔌 CSOItemRecipe
 
@@ -12361,6 +13451,8 @@
 
 ---
 
+<a id="csolobbyinvite"></a>
+
 ## 🔌 CSOLobbyInvite
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12381,6 +13473,8 @@
 
 ---
 
+<a id="csopartyinvite"></a>
+
 ## 🔌 CSOPartyInvite
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12400,6 +13494,8 @@
 
 
 ---
+
+<a id="csopersonadatapublic"></a>
 
 ## 🔌 CSOPersonaDataPublic
 
@@ -12423,6 +13519,8 @@
 
 ---
 
+<a id="csoquestprogress"></a>
+
 ## 🔌 CSOQuestProgress
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12442,6 +13540,8 @@
 
 
 ---
+
+<a id="csovolatileitemclaimedrewards"></a>
 
 ## 🔌 CSOVolatileItemClaimedRewards
 
@@ -12463,6 +13563,8 @@
 
 ---
 
+<a id="csovolatileitemoffer"></a>
+
 ## 🔌 CSOVolatileItemOffer
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12483,6 +13585,8 @@
 
 ---
 
+<a id="csvcmsglist_gameevents"></a>
+
 ## 🔌 CSVCMsgList_GameEvents
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12500,6 +13604,8 @@
 
 
 ---
+
+<a id="csvcmsglist_gameevents_event_t"></a>
 
 ## 🔌 CSVCMsgList_GameEvents_event_t
 
@@ -12519,6 +13625,8 @@
 
 
 ---
+
+<a id="csvcmsg_bspdecal"></a>
 
 ## 🔌 CSVCMsg_BSPDecal
 
@@ -12544,6 +13652,8 @@
 
 ---
 
+<a id="csvcmsg_broadcast_command"></a>
+
 ## 🔌 CSVCMsg_Broadcast_Command
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12563,6 +13673,8 @@
 
 
 ---
+
+<a id="csvcmsg_classinfo"></a>
 
 ## 🔌 CSVCMsg_ClassInfo
 
@@ -12585,6 +13697,8 @@
 
 ---
 
+<a id="csvcmsg_classinfo_class_t"></a>
+
 ## 🔌 CSVCMsg_ClassInfo_class_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12603,6 +13717,8 @@
 
 
 ---
+
+<a id="csvcmsg_clearallstringtables"></a>
 
 ## 🔌 CSVCMsg_ClearAllStringTables
 
@@ -12625,6 +13741,8 @@
 
 ---
 
+<a id="csvcmsg_cmdkeyvalues"></a>
+
 ## 🔌 CSVCMsg_CmdKeyValues
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12644,6 +13762,8 @@
 
 
 ---
+
+<a id="csvcmsg_createstringtable"></a>
 
 ## 🔌 CSVCMsg_CreateStringTable
 
@@ -12674,6 +13794,8 @@
 
 ---
 
+<a id="csvcmsg_crosshairangle"></a>
+
 ## 🔌 CSVCMsg_CrosshairAngle
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12691,6 +13813,8 @@
 
 
 ---
+
+<a id="csvcmsg_fixangle"></a>
 
 ## 🔌 CSVCMsg_FixAngle
 
@@ -12710,6 +13834,8 @@
 
 
 ---
+
+<a id="csvcmsg_flattenedserializer"></a>
 
 ## 🔌 CSVCMsg_FlattenedSerializer
 
@@ -12732,6 +13858,8 @@
 
 
 ---
+
+<a id="csvcmsg_fullframesplit"></a>
 
 ## 🔌 CSVCMsg_FullFrameSplit
 
@@ -12756,6 +13884,8 @@
 
 ---
 
+<a id="csvcmsg_gameevent"></a>
+
 ## 🔌 CSVCMsg_GameEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12776,6 +13906,8 @@
 
 ---
 
+<a id="csvcmsg_gameeventlist"></a>
+
 ## 🔌 CSVCMsg_GameEventList
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12793,6 +13925,8 @@
 
 
 ---
+
+<a id="csvcmsg_gameeventlist_descriptor_t"></a>
 
 ## 🔌 CSVCMsg_GameEventList_descriptor_t
 
@@ -12814,6 +13948,8 @@
 
 ---
 
+<a id="csvcmsg_gameeventlist_key_t"></a>
+
 ## 🔌 CSVCMsg_GameEventList_key_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12832,6 +13968,8 @@
 
 
 ---
+
+<a id="csvcmsg_gameevent_key_t"></a>
 
 ## 🔌 CSVCMsg_GameEvent_key_t
 
@@ -12857,6 +13995,8 @@
 
 
 ---
+
+<a id="csvcmsg_gamesessionconfiguration"></a>
 
 ## 🔌 CSVCMsg_GameSessionConfiguration
 
@@ -12894,6 +14034,8 @@
 
 ---
 
+<a id="csvcmsg_getcvarvalue"></a>
+
 ## 🔌 CSVCMsg_GetCvarValue
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12914,6 +14056,8 @@
 
 
 ---
+
+<a id="csvcmsg_hltvstatus"></a>
 
 ## 🔌 CSVCMsg_HLTVStatus
 
@@ -12938,6 +14082,8 @@
 
 ---
 
+<a id="csvcmsg_hltvfixupoperatorstatus"></a>
+
 ## 🔌 CSVCMsg_HltvFixupOperatorStatus
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -12958,6 +14104,8 @@
 
 
 ---
+
+<a id="csvcmsg_hltvreplay"></a>
 
 ## 🔌 CSVCMsg_HltvReplay
 
@@ -12984,6 +14132,8 @@
 
 ---
 
+<a id="csvcmsg_menu"></a>
+
 ## 🔌 CSVCMsg_Menu
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13005,6 +14155,8 @@
 
 ---
 
+<a id="csvcmsg_nextmsgpredicted"></a>
+
 ## 🔌 CSVCMsg_NextMsgPredicted
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13025,6 +14177,8 @@
 
 
 ---
+
+<a id="csvcmsg_packetentities"></a>
 
 ## 🔌 CSVCMsg_PacketEntities
 
@@ -13067,6 +14221,8 @@
 
 ---
 
+<a id="csvcmsg_packetentities_alternate_baseline_t"></a>
+
 ## 🔌 CSVCMsg_PacketEntities_alternate_baseline_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13085,6 +14241,8 @@
 
 
 ---
+
+<a id="csvcmsg_packetentities_non_transmitted_entities_t"></a>
 
 ## 🔌 CSVCMsg_PacketEntities_non_transmitted_entities_t
 
@@ -13105,6 +14263,8 @@
 
 ---
 
+<a id="csvcmsg_packetentities_outofpvs_entity_updates_t"></a>
+
 ## 🔌 CSVCMsg_PacketEntities_outofpvs_entity_updates_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13123,6 +14283,8 @@
 
 
 ---
+
+<a id="csvcmsg_packetreliable"></a>
 
 ## 🔌 CSVCMsg_PacketReliable
 
@@ -13146,6 +14308,8 @@
 
 ---
 
+<a id="csvcmsg_peerlist"></a>
+
 ## 🔌 CSVCMsg_PeerList
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13165,6 +14329,8 @@
 
 
 ---
+
+<a id="csvcmsg_prefetch"></a>
 
 ## 🔌 CSVCMsg_Prefetch
 
@@ -13187,6 +14353,8 @@
 
 ---
 
+<a id="csvcmsg_print"></a>
+
 ## 🔌 CSVCMsg_Print
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13206,6 +14374,8 @@
 
 
 ---
+
+<a id="csvcmsg_rconserverdetails"></a>
 
 ## 🔌 CSVCMsg_RconServerDetails
 
@@ -13228,6 +14398,8 @@
 
 ---
 
+<a id="csvcmsg_sendtable"></a>
+
 ## 🔌 CSVCMsg_SendTable
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13248,6 +14420,8 @@
 
 
 ---
+
+<a id="csvcmsg_sendtable_sendprop_t"></a>
 
 ## 🔌 CSVCMsg_SendTable_sendprop_t
 
@@ -13274,6 +14448,8 @@
 
 
 ---
+
+<a id="csvcmsg_serverinfo"></a>
 
 ## 🔌 CSVCMsg_ServerInfo
 
@@ -13310,6 +14486,8 @@
 
 ---
 
+<a id="csvcmsg_serversteamid"></a>
+
 ## 🔌 CSVCMsg_ServerSteamID
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13330,6 +14508,8 @@
 
 ---
 
+<a id="csvcmsg_setpause"></a>
+
 ## 🔌 CSVCMsg_SetPause
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13349,6 +14529,8 @@
 
 
 ---
+
+<a id="csvcmsg_setview"></a>
 
 ## 🔌 CSVCMsg_SetView
 
@@ -13371,6 +14553,8 @@
 
 ---
 
+<a id="csvcmsg_sounds"></a>
+
 ## 🔌 CSVCMsg_Sounds
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13391,6 +14575,8 @@
 
 
 ---
+
+<a id="csvcmsg_sounds_sounddata_t"></a>
 
 ## 🔌 CSVCMsg_Sounds_sounddata_t
 
@@ -13428,6 +14614,8 @@
 
 ---
 
+<a id="csvcmsg_splitscreen"></a>
+
 ## 🔌 CSVCMsg_SplitScreen
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13450,6 +14638,8 @@
 
 ---
 
+<a id="csvcmsg_stopsound"></a>
+
 ## 🔌 CSVCMsg_StopSound
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13470,6 +14660,8 @@
 
 ---
 
+<a id="csvcmsg_tempentities"></a>
+
 ## 🔌 CSVCMsg_TempEntities
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13489,6 +14681,8 @@
 
 
 ---
+
+<a id="csvcmsg_updatestringtable"></a>
 
 ## 🔌 CSVCMsg_UpdateStringTable
 
@@ -13512,6 +14706,8 @@
 
 ---
 
+<a id="csvcmsg_usercommands"></a>
+
 ## 🔌 CSVCMsg_UserCommands
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13529,6 +14725,8 @@
 
 
 ---
+
+<a id="csvcmsg_usermessage"></a>
 
 ## 🔌 CSVCMsg_UserMessage
 
@@ -13551,6 +14749,8 @@
 
 
 ---
+
+<a id="csvcmsg_voicedata"></a>
 
 ## 🔌 CSVCMsg_VoiceData
 
@@ -13578,6 +14778,8 @@
 
 ---
 
+<a id="csvcmsg_voiceinit"></a>
+
 ## 🔌 CSVCMsg_VoiceInit
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13599,6 +14801,8 @@
 
 
 ---
+
+<a id="csource2metrics_matchperfsummary_notification"></a>
 
 ## 🔌 CSource2Metrics_MatchPerfSummary_Notification
 
@@ -13624,6 +14828,8 @@
 
 ---
 
+<a id="csource2metrics_matchperfsummary_notification_client"></a>
+
 ## 🔌 CSource2Metrics_MatchPerfSummary_Notification_Client
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13648,6 +14854,8 @@
 
 ---
 
+<a id="csteam_voice_encoding"></a>
+
 ## 🔌 CSteam_Voice_Encoding
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13665,6 +14873,8 @@
 
 
 ---
+
+<a id="csubtickmovestep"></a>
 
 ## 🔌 CSubtickMoveStep
 
@@ -13690,6 +14900,8 @@
 
 ---
 
+<a id="cuifontfilepb"></a>
+
 ## 🔌 CUIFontFilePB
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13708,6 +14920,8 @@
 
 
 ---
+
+<a id="cuifontfilepackagepb"></a>
 
 ## 🔌 CUIFontFilePackagePB
 
@@ -13728,6 +14942,8 @@
 
 ---
 
+<a id="cuifontfilepackagepb_cuiencryptedfontfilepb"></a>
+
 ## 🔌 CUIFontFilePackagePB_CUIEncryptedFontFilePB
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13746,6 +14962,8 @@
 
 ---
 
+<a id="cusercmdbasepb"></a>
+
 ## 🔌 CUserCmdBasePB
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13763,6 +14981,8 @@
 
 
 ---
+
+<a id="cusermessageachievementevent"></a>
 
 ## 🔌 CUserMessageAchievementEvent
 
@@ -13784,6 +15004,8 @@
 
 ---
 
+<a id="cusermessageammodenied"></a>
+
 ## 🔌 CUserMessageAmmoDenied
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13804,6 +15026,8 @@
 
 ---
 
+<a id="cusermessageanimstategraphstate"></a>
+
 ## 🔌 CUserMessageAnimStateGraphState
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13822,6 +15046,8 @@
 
 
 ---
+
+<a id="cusermessageaudioparameter"></a>
 
 ## 🔌 CUserMessageAudioParameter
 
@@ -13846,6 +15072,8 @@
 
 ---
 
+<a id="cusermessagecameratransition"></a>
+
 ## 🔌 CUserMessageCameraTransition
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13868,6 +15096,8 @@
 
 ---
 
+<a id="cusermessagecameratransition_transition_datadriven"></a>
+
 ## 🔌 CUserMessageCameraTransition_Transition_DataDriven
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13887,6 +15117,8 @@
 
 
 ---
+
+<a id="cusermessageclosecaption"></a>
 
 ## 🔌 CUserMessageCloseCaption
 
@@ -13911,6 +15143,8 @@
 
 ---
 
+<a id="cusermessageclosecaptiondirect"></a>
+
 ## 🔌 CUserMessageCloseCaptionDirect
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13934,6 +15168,8 @@
 
 ---
 
+<a id="cusermessageclosecaptionplaceholder"></a>
+
 ## 🔌 CUserMessageCloseCaptionPlaceholder
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -13956,6 +15192,8 @@
 
 
 ---
+
+<a id="cusermessagecoloredtext"></a>
 
 ## 🔌 CUserMessageColoredText
 
@@ -13982,6 +15220,8 @@
 
 ---
 
+<a id="cusermessagecreditsmsg"></a>
+
 ## 🔌 CUserMessageCreditsMsg
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14003,6 +15243,8 @@
 
 ---
 
+<a id="cusermessagecurrenttimescale"></a>
+
 ## 🔌 CUserMessageCurrentTimescale
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14022,6 +15264,8 @@
 
 
 ---
+
+<a id="cusermessagedesiredtimescale"></a>
 
 ## 🔌 CUserMessageDesiredTimescale
 
@@ -14046,6 +15290,8 @@
 
 ---
 
+<a id="cusermessagefade"></a>
+
 ## 🔌 CUserMessageFade
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14069,6 +15315,8 @@
 
 ---
 
+<a id="cusermessagegametitle"></a>
+
 ## 🔌 CUserMessageGameTitle
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14082,6 +15330,8 @@
 
 
 ---
+
+<a id="cusermessagehapticsmanagereffect"></a>
 
 ## 🔌 CUserMessageHapticsManagerEffect
 
@@ -14105,6 +15355,8 @@
 
 ---
 
+<a id="cusermessagehapticsmanagerpulse"></a>
+
 ## 🔌 CUserMessageHapticsManagerPulse
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14127,6 +15379,8 @@
 
 
 ---
+
+<a id="cusermessagehudmsg"></a>
 
 ## 🔌 CUserMessageHudMsg
 
@@ -14154,6 +15408,8 @@
 
 ---
 
+<a id="cusermessagehudtext"></a>
+
 ## 🔌 CUserMessageHudText
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14173,6 +15429,8 @@
 
 
 ---
+
+<a id="cusermessageitempickup"></a>
 
 ## 🔌 CUserMessageItemPickup
 
@@ -14194,6 +15452,8 @@
 
 ---
 
+<a id="cusermessagelagcompensationerror"></a>
+
 ## 🔌 CUserMessageLagCompensationError
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14214,6 +15474,8 @@
 
 ---
 
+<a id="cusermessagerequestdiagnostic"></a>
+
 ## 🔌 CUserMessageRequestDiagnostic
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14233,6 +15495,8 @@
 
 
 ---
+
+<a id="cusermessagerequestdiagnostic_diagnostic"></a>
 
 ## 🔌 CUserMessageRequestDiagnostic_Diagnostic
 
@@ -14264,6 +15528,8 @@
 
 ---
 
+<a id="cusermessagerequestdllstatus"></a>
+
 ## 🔌 CUserMessageRequestDllStatus
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14284,6 +15550,8 @@
 
 
 ---
+
+<a id="cusermessagerequestinventory"></a>
 
 ## 🔌 CUserMessageRequestInventory
 
@@ -14307,6 +15575,8 @@
 
 ---
 
+<a id="cusermessagerequeststate"></a>
+
 ## 🔌 CUserMessageRequestState
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14320,6 +15590,8 @@
 
 
 ---
+
+<a id="cusermessagerequestutilaction"></a>
 
 ## 🔌 CUserMessageRequestUtilAction
 
@@ -14345,6 +15617,8 @@
 
 ---
 
+<a id="cusermessageresethud"></a>
+
 ## 🔌 CUserMessageResetHUD
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14358,6 +15632,8 @@
 
 
 ---
+
+<a id="cusermessagerumble"></a>
 
 ## 🔌 CUserMessageRumble
 
@@ -14381,6 +15657,8 @@
 
 ---
 
+<a id="cusermessagesaytext"></a>
+
 ## 🔌 CUserMessageSayText
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14402,6 +15680,8 @@
 
 
 ---
+
+<a id="cusermessagesaytext2"></a>
 
 ## 🔌 CUserMessageSayText2
 
@@ -14429,6 +15709,8 @@
 
 ---
 
+<a id="cusermessagesaytextchannel"></a>
+
 ## 🔌 CUserMessageSayTextChannel
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14450,6 +15732,8 @@
 
 
 ---
+
+<a id="cusermessagescreentilt"></a>
 
 ## 🔌 CUserMessageScreenTilt
 
@@ -14475,6 +15759,8 @@
 
 ---
 
+<a id="cusermessagesendaudio"></a>
+
 ## 🔌 CUserMessageSendAudio
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14496,6 +15782,8 @@
 
 ---
 
+<a id="cusermessageserverframetime"></a>
+
 ## 🔌 CUserMessageServerFrameTime
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14515,6 +15803,8 @@
 
 
 ---
+
+<a id="cusermessageshake"></a>
 
 ## 🔌 CUserMessageShake
 
@@ -14539,6 +15829,8 @@
 
 ---
 
+<a id="cusermessageshakedir"></a>
+
 ## 🔌 CUserMessageShakeDir
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14559,6 +15851,8 @@
 
 
 ---
+
+<a id="cusermessageshowmenu"></a>
 
 ## 🔌 CUserMessageShowMenu
 
@@ -14583,6 +15877,8 @@
 
 ---
 
+<a id="cusermessagetextmsg"></a>
+
 ## 🔌 CUserMessageTextMsg
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14603,6 +15899,8 @@
 
 
 ---
+
+<a id="cusermessageupdatecssclasses"></a>
 
 ## 🔌 CUserMessageUpdateCssClasses
 
@@ -14626,6 +15924,8 @@
 
 ---
 
+<a id="cusermessagevoicemask"></a>
+
 ## 🔌 CUserMessageVoiceMask
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14647,6 +15947,8 @@
 
 
 ---
+
+<a id="cusermessagewatershake"></a>
 
 ## 🔌 CUserMessageWaterShake
 
@@ -14671,6 +15973,8 @@
 
 ---
 
+<a id="cusermessage_diagnostic_response"></a>
+
 ## 🔌 CUserMessage_Diagnostic_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14693,6 +15997,8 @@
 
 
 ---
+
+<a id="cusermessage_diagnostic_response_diagnostic"></a>
 
 ## 🔌 CUserMessage_Diagnostic_Response_Diagnostic
 
@@ -14726,6 +16032,8 @@
 
 ---
 
+<a id="cusermessage_dllstatus"></a>
+
 ## 🔌 CUserMessage_DllStatus
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14751,6 +16059,8 @@
 
 ---
 
+<a id="cusermessage_dllstatus_cmodule"></a>
+
 ## 🔌 CUserMessage_DllStatus_CModule
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14772,6 +16082,8 @@
 
 ---
 
+<a id="cusermessage_dllstatus_cvdiagnostic"></a>
+
 ## 🔌 CUserMessage_DllStatus_CVDiagnostic
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14792,6 +16104,8 @@
 
 
 ---
+
+<a id="cusermessage_extrauserdata"></a>
 
 ## 🔌 CUserMessage_ExtraUserData
 
@@ -14816,6 +16130,8 @@
 
 
 ---
+
+<a id="cusermessage_inventory_response"></a>
 
 ## 🔌 CUserMessage_Inventory_Response
 
@@ -14847,6 +16163,8 @@
 
 ---
 
+<a id="cusermessage_inventory_response_inventorydetail"></a>
+
 ## 🔌 CUserMessage_Inventory_Response_InventoryDetail
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14873,6 +16191,8 @@
 
 
 ---
+
+<a id="cusermessage_notifyresponsefound"></a>
 
 ## 🔌 CUserMessage_NotifyResponseFound
 
@@ -14905,6 +16225,8 @@
 
 ---
 
+<a id="cusermessage_notifyresponsefound_criteria"></a>
+
 ## 🔌 CUserMessage_NotifyResponseFound_Criteria
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14923,6 +16245,8 @@
 
 
 ---
+
+<a id="cusermessage_playresponseconditional"></a>
 
 ## 🔌 CUserMessage_PlayResponseConditional
 
@@ -14948,6 +16272,8 @@
 
 
 ---
+
+<a id="cusermessage_utilmsg_response"></a>
 
 ## 🔌 CUserMessage_UtilMsg_Response
 
@@ -14978,6 +16304,8 @@
 
 ---
 
+<a id="cusermessage_utilmsg_response_itemdetail"></a>
+
 ## 🔌 CUserMessage_UtilMsg_Response_ItemDetail
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -14999,6 +16327,8 @@
 
 ---
 
+<a id="cusermsg_customgameevent"></a>
+
 ## 🔌 CUserMsg_CustomGameEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15018,6 +16348,8 @@
 
 ---
 
+<a id="cusermsg_huderror"></a>
+
 ## 🔌 CUserMsg_HudError
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15035,6 +16367,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager"></a>
 
 ## 🔌 CUserMsg_ParticleManager
 
@@ -15094,6 +16428,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_addfan"></a>
+
 ## 🔌 CUserMsg_ParticleManager_AddFan
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15129,6 +16465,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_addmodellistoverrideelement"></a>
+
 ## 🔌 CUserMsg_ParticleManager_AddModellistOverrideElement
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15148,6 +16486,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_changecontrolpointattachment"></a>
 
 ## 🔌 CUserMsg_ParticleManager_ChangeControlPointAttachment
 
@@ -15169,6 +16509,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_clearmodellistoverride"></a>
+
 ## 🔌 CUserMsg_ParticleManager_ClearModellistOverride
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15186,6 +16528,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_createparticle"></a>
 
 ## 🔌 CUserMsg_ParticleManager_CreateParticle
 
@@ -15214,6 +16558,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_createphysicssim"></a>
+
 ## 🔌 CUserMsg_ParticleManager_CreatePhysicsSim
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15234,6 +16580,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_destroyparticle"></a>
+
 ## 🔌 CUserMsg_ParticleManager_DestroyParticle
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15251,6 +16599,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_destroyparticleinvolving"></a>
 
 ## 🔌 CUserMsg_ParticleManager_DestroyParticleInvolving
 
@@ -15270,6 +16620,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_destroyparticlenamed"></a>
 
 ## 🔌 CUserMsg_ParticleManager_DestroyParticleNamed
 
@@ -15292,6 +16644,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_destroyphysicssim"></a>
+
 ## 🔌 CUserMsg_ParticleManager_DestroyPhysicsSim
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15303,6 +16657,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_freezeparticleinvolving"></a>
 
 ## 🔌 CUserMsg_ParticleManager_FreezeParticleInvolving
 
@@ -15324,6 +16680,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_particlecanfreeze"></a>
+
 ## 🔌 CUserMsg_ParticleManager_ParticleCanFreeze
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15341,6 +16699,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_particlefreezetransitionoverride"></a>
 
 ## 🔌 CUserMsg_ParticleManager_ParticleFreezeTransitionOverride
 
@@ -15360,6 +16720,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_particleskiptotime"></a>
+
 ## 🔌 CUserMsg_ParticleManager_ParticleSkipToTime
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15378,6 +16740,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_releaseparticleindex"></a>
+
 ## 🔌 CUserMsg_ParticleManager_ReleaseParticleIndex
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15390,6 +16754,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_removefan"></a>
+
 ## 🔌 CUserMsg_ParticleManager_RemoveFan
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15401,6 +16767,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_setcontrolpointmodel"></a>
 
 ## 🔌 CUserMsg_ParticleManager_SetControlPointModel
 
@@ -15421,6 +16789,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_setcontrolpointsnapshot"></a>
+
 ## 🔌 CUserMsg_ParticleManager_SetControlPointSnapshot
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15439,6 +16809,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_setmaterialoverride"></a>
 
 ## 🔌 CUserMsg_ParticleManager_SetMaterialOverride
 
@@ -15459,6 +16831,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_setparticleclustergrowth"></a>
+
 ## 🔌 CUserMsg_ParticleManager_SetParticleClusterGrowth
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15477,6 +16851,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_setparticlefowproperties"></a>
 
 ## 🔌 CUserMsg_ParticleManager_SetParticleFoWProperties
 
@@ -15497,6 +16873,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_setparticlenamedvaluecontext"></a>
 
 ## 🔌 CUserMsg_ParticleManager_SetParticleNamedValueContext
 
@@ -15519,6 +16897,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_setparticlenamedvaluecontext_ehandlecontext"></a>
+
 ## 🔌 CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15538,6 +16918,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_setparticlenamedvaluecontext_floatcontextvalue"></a>
+
 ## 🔌 CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15556,6 +16938,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_setparticlenamedvaluecontext_transformcontextvalue"></a>
 
 ## 🔌 CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextValue
 
@@ -15577,6 +16961,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_setparticlenamedvaluecontext_vectorcontextvalue"></a>
+
 ## 🔌 CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorContextValue
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15596,6 +16982,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_setparticleshouldcheckfow"></a>
+
 ## 🔌 CUserMsg_ParticleManager_SetParticleShouldCheckFoW
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15613,6 +17001,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_setparticletext"></a>
 
 ## 🔌 CUserMsg_ParticleManager_SetParticleText
 
@@ -15632,6 +17022,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_setsceneobjectgenericflag"></a>
+
 ## 🔌 CUserMsg_ParticleManager_SetSceneObjectGenericFlag
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15649,6 +17041,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_setsceneobjecttintanddesat"></a>
 
 ## 🔌 CUserMsg_ParticleManager_SetSceneObjectTintAndDesat
 
@@ -15669,6 +17063,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_settextureattribute"></a>
+
 ## 🔌 CUserMsg_ParticleManager_SetTexture
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15678,6 +17074,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_setvdata"></a>
 
 ## 🔌 CUserMsg_ParticleManager_SetVData
 
@@ -15697,6 +17095,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_updateentityposition"></a>
+
 ## 🔌 CUserMsg_ParticleManager_UpdateEntityPosition
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15715,6 +17115,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_updatefan"></a>
 
 ## 🔌 CUserMsg_ParticleManager_UpdateFan
 
@@ -15739,6 +17141,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_updateparticleent"></a>
 
 ## 🔌 CUserMsg_ParticleManager_UpdateParticleEnt
 
@@ -15765,6 +17169,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_updateparticlefallback"></a>
+
 ## 🔌 CUserMsg_ParticleManager_UpdateParticleFallback
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15783,6 +17189,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_updateparticlefwd_obsolete"></a>
 
 ## 🔌 CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE
 
@@ -15803,6 +17211,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_updateparticleoffset"></a>
+
 ## 🔌 CUserMsg_ParticleManager_UpdateParticleOffset
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15822,6 +17232,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_updateparticleorient_obsolete"></a>
 
 ## 🔌 CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE
 
@@ -15845,6 +17257,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_updateparticlesetfrozen"></a>
+
 ## 🔌 CUserMsg_ParticleManager_UpdateParticleSetFrozen
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15864,6 +17278,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_updateparticleshoulddraw"></a>
+
 ## 🔌 CUserMsg_ParticleManager_UpdateParticleShouldDraw
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15881,6 +17297,8 @@
 
 
 ---
+
+<a id="cusermsg_particlemanager_updateparticletransform"></a>
 
 ## 🔌 CUserMsg_ParticleManager_UpdateParticleTransform
 
@@ -15903,6 +17321,8 @@
 
 ---
 
+<a id="cusermsg_particlemanager_updateparticle_obsolete"></a>
+
 ## 🔌 CUserMsg_ParticleManager_UpdateParticle_OBSOLETE
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15921,6 +17341,8 @@
 
 
 ---
+
+<a id="cvdiagnostic"></a>
 
 ## 🔌 CVDiagnostic
 
@@ -15942,6 +17364,8 @@
 
 
 ---
+
+<a id="cworkshop_addspecialpayment_request"></a>
 
 ## 🔌 CWorkshop_AddSpecialPayment_Request
 
@@ -15965,6 +17389,8 @@
 
 ---
 
+<a id="cworkshop_addspecialpayment_response"></a>
+
 ## 🔌 CWorkshop_AddSpecialPayment_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -15976,6 +17402,8 @@
 
 
 ---
+
+<a id="cworkshop_getcontributors_request"></a>
 
 ## 🔌 CWorkshop_GetContributors_Request
 
@@ -15996,6 +17424,8 @@
 
 ---
 
+<a id="cworkshop_getcontributors_response"></a>
+
 ## 🔌 CWorkshop_GetContributors_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16013,6 +17443,8 @@
 
 
 ---
+
+<a id="cworkshop_populateitemdescriptions_request"></a>
 
 ## 🔌 CWorkshop_PopulateItemDescriptions_Request
 
@@ -16033,6 +17465,8 @@
 
 ---
 
+<a id="cworkshop_populateitemdescriptions_request_itemdescriptionslanguageblock"></a>
+
 ## 🔌 CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16051,6 +17485,8 @@
 
 
 ---
+
+<a id="cworkshop_populateitemdescriptions_request_singleitemdescription"></a>
 
 ## 🔌 CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription
 
@@ -16071,6 +17507,8 @@
 
 
 ---
+
+<a id="cworkshop_setitempaymentrules_request"></a>
 
 ## 🔌 CWorkshop_SetItemPaymentRules_Request
 
@@ -16096,6 +17534,8 @@
 
 ---
 
+<a id="cworkshop_setitempaymentrules_request_partneritempaymentrule"></a>
+
 ## 🔌 CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16116,6 +17556,8 @@
 
 ---
 
+<a id="cworkshop_setitempaymentrules_request_workshopdirectpaymentrule"></a>
+
 ## 🔌 CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16134,6 +17576,8 @@
 
 
 ---
+
+<a id="cworkshop_setitempaymentrules_request_workshopitempaymentrule"></a>
 
 ## 🔌 CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule
 
@@ -16156,6 +17600,8 @@
 
 ---
 
+<a id="cworkshop_setitempaymentrules_response"></a>
+
 ## 🔌 CWorkshop_SetItemPaymentRules_Response
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16167,6 +17613,8 @@
 
 
 ---
+
+<a id="dialog_type"></a>
 
 ## 📋 DIALOG_TYPE
 
@@ -16188,6 +17636,8 @@
 
 ---
 
+<a id="datacenterping"></a>
+
 ## 🔌 DataCenterPing
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16206,6 +17656,8 @@
 
 
 ---
+
+<a id="deepplayermatchevent"></a>
 
 ## 🔌 DeepPlayerMatchEvent
 
@@ -16237,6 +17689,8 @@
 
 
 ---
+
+<a id="deepplayerstatsentry"></a>
 
 ## 🔌 DeepPlayerStatsEntry
 
@@ -16283,6 +17737,8 @@
 
 ---
 
+<a id="detailedsearchstatistic"></a>
+
 ## 🔌 DetailedSearchStatistic
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16302,6 +17758,8 @@
 
 
 ---
+
+<a id="ebaseclientmessages"></a>
 
 ## 📋 EBaseClientMessages
 
@@ -16326,6 +17784,8 @@
 
 ---
 
+<a id="ebaseentitymessages"></a>
+
 ## 📋 EBaseEntityMessages
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16346,6 +17806,8 @@
 
 
 ---
+
+<a id="ebasegameevents"></a>
 
 ## 📋 EBaseGameEvents
 
@@ -16375,6 +17837,8 @@
 
 ---
 
+<a id="ebasepredictionevents"></a>
+
 ## 📋 EBasePredictionEvents
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16392,6 +17856,8 @@
 
 
 ---
+
+<a id="ebaseusermessages"></a>
 
 ## 📋 EBaseUserMessages
 
@@ -16459,6 +17925,8 @@
 
 ---
 
+<a id="ecspredictionevents"></a>
+
 ## 📋 ECSPredictionEvents
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16476,6 +17944,8 @@
 
 ---
 
+<a id="ecsusrmsg_disconnecttolobby_action"></a>
+
 ## 📋 ECSUsrMsg_DisconnectToLobby_Action
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16492,6 +17962,8 @@
 
 
 ---
+
+<a id="eclientpersonastateflag"></a>
 
 ## 📋 EClientPersonaStateFlag
 
@@ -16522,6 +17994,8 @@
 
 ---
 
+<a id="eclientreportingversion"></a>
+
 ## 📋 EClientReportingVersion
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16540,6 +18014,8 @@
 
 ---
 
+<a id="eclientuievent"></a>
+
 ## 📋 EClientUIEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16557,6 +18033,8 @@
 
 
 ---
+
+<a id="ecodecusageplatform"></a>
 
 ## 📋 ECodecUsagePlatform
 
@@ -16578,6 +18056,8 @@
 
 ---
 
+<a id="ecodecusagereason"></a>
+
 ## 📋 ECodecUsageReason
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16597,7 +18077,9 @@
 
 ---
 
-## 📋 ECommunityItem
+<a id="ecommunityitemattribute"></a>
+
+## 📋 ECommunityItemAttribute
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
 
@@ -16621,6 +18103,8 @@
 
 
 ---
+
+<a id="ecommunityitemclass"></a>
 
 ## 📋 ECommunityItemClass
 
@@ -16647,6 +18131,8 @@
 
 
 ---
+
+<a id="ecsgogcmsg"></a>
 
 ## 📋 ECsgoGCMsg
 
@@ -16771,6 +18257,8 @@
 
 ---
 
+<a id="ecsgogameevents"></a>
+
 ## 📋 ECsgoGameEvents
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16790,6 +18278,8 @@
 
 ---
 
+<a id="ecsgosteamuserstat"></a>
+
 ## 📋 ECsgoSteamUserStat
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16807,6 +18297,8 @@
 
 
 ---
+
+<a id="ecstrike15usermessages"></a>
 
 ## 📋 ECstrike15UserMessages
 
@@ -16900,6 +18392,8 @@
 
 ---
 
+<a id="edemocommands"></a>
+
 ## 📋 EDemoCommands
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16937,6 +18431,8 @@
 
 ---
 
+<a id="egcbaseclientmsg"></a>
+
 ## 📋 EGCBaseClientMsg
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -16962,6 +18458,8 @@
 
 
 ---
+
+<a id="egcbasemsg"></a>
 
 ## 📋 EGCBaseMsg
 
@@ -16993,6 +18491,8 @@
 
 ---
 
+<a id="egcbaseprotoobjecttypes"></a>
+
 ## 📋 EGCBaseProtoObjectTypes
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -17009,6 +18509,8 @@
 
 
 ---
+
+<a id="egcitemcustomizationnotification"></a>
 
 ## 📋 EGCItemCustomizationNotification
 
@@ -17052,6 +18554,8 @@
 
 
 ---
+
+<a id="egcitemmsg"></a>
 
 ## 📋 EGCItemMsg
 
@@ -17215,6 +18719,8 @@
 
 ---
 
+<a id="egcmsgresponse"></a>
+
 ## 📋 EGCMsgResponse
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -17240,6 +18746,8 @@
 
 
 ---
+
+<a id="egcsystemmsg"></a>
 
 ## 📋 EGCSystemMsg
 
@@ -17348,6 +18856,8 @@
 
 ---
 
+<a id="egctogcmsg"></a>
+
 ## 📋 EGCToGCMsg
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -17371,6 +18881,8 @@
 
 ---
 
+<a id="ehapticpulsetype"></a>
+
 ## 📋 EHapticPulseType
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -17388,6 +18900,8 @@
 
 
 ---
+
+<a id="ehitgroup"></a>
 
 ## 📋 EHitGroup
 
@@ -17414,6 +18928,8 @@
 
 ---
 
+<a id="einitsystemresult"></a>
+
 ## 📋 EInitSystemResult
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -17437,6 +18953,8 @@
 
 
 ---
+
+<a id="emsg"></a>
 
 ## 📋 EMsg
 
@@ -18941,6 +20459,8 @@
 
 ---
 
+<a id="emsgclanaccountflags"></a>
+
 ## 📋 EMsgClanAccountFlags
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -18960,6 +20480,8 @@
 
 
 ---
+
+<a id="enetworkdisconnectionreason"></a>
 
 ## 📋 ENetworkDisconnectionReason
 
@@ -19097,6 +20619,8 @@
 
 ---
 
+<a id="eprotodebugvisiblity"></a>
+
 ## 📋 EProtoDebugVisiblity
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19117,6 +20641,8 @@
 
 ---
 
+<a id="equerycvarvaluestatus"></a>
+
 ## 📋 EQueryCvarValueStatus
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19135,6 +20661,8 @@
 
 
 ---
+
+<a id="esomsg"></a>
 
 ## 📋 ESOMsg
 
@@ -19159,6 +20687,8 @@
 
 ---
 
+<a id="esplitscreenmessagetype"></a>
+
 ## 📋 ESplitScreenMessageType
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19175,6 +20705,8 @@
 
 
 ---
+
+<a id="esteamreviewscore"></a>
 
 ## 📋 ESteamReviewScore
 
@@ -19200,6 +20732,8 @@
 
 
 ---
+
+<a id="eteprotobufids"></a>
 
 ## 📋 ETEProtobufIds
 
@@ -19239,6 +20773,8 @@
 
 ---
 
+<a id="eteam"></a>
+
 ## 📋 ETeam
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19257,6 +20793,8 @@
 
 
 ---
+
+<a id="eunlockstyle"></a>
 
 ## 📋 EUnlockStyle
 
@@ -19278,6 +20816,8 @@
 
 
 ---
+
+<a id="eweapontype"></a>
 
 ## 📋 EWeaponType
 
@@ -19306,6 +20846,8 @@
 
 ---
 
+<a id="gcclientlaunchertype"></a>
+
 ## 📋 GCClientLauncherType
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19324,6 +20866,8 @@
 
 
 ---
+
+<a id="gcconnectionstatus"></a>
 
 ## 📋 GCConnectionStatus
 
@@ -19345,6 +20889,8 @@
 
 ---
 
+<a id="gcprotobufmsgsrc"></a>
+
 ## 📋 GCProtoBufMsgSrc
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19365,6 +20911,8 @@
 
 ---
 
+<a id="gc_bannedwordtype"></a>
+
 ## 📋 GC_BannedWordType
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19381,6 +20929,8 @@
 
 
 ---
+
+<a id="gameserverping"></a>
 
 ## 🔌 GameServerPing
 
@@ -19401,6 +20951,8 @@
 
 
 ---
+
+<a id="globalstatistics"></a>
 
 ## 🔌 GlobalStatistics
 
@@ -19434,6 +20986,8 @@
 
 ---
 
+<a id="ipaddressmask"></a>
+
 ## 🔌 IpAddressMask
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19457,6 +21011,8 @@
 
 ---
 
+<a id="mldemoheader"></a>
+
 ## 🔌 MLDemoHeader
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19477,6 +21033,8 @@
 
 
 ---
+
+<a id="mldict"></a>
 
 ## 🔌 MLDict
 
@@ -19499,6 +21057,8 @@
 
 ---
 
+<a id="mlevent"></a>
+
 ## 🔌 MLEvent
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19517,6 +21077,8 @@
 
 
 ---
+
+<a id="mlgamestate"></a>
 
 ## 🔌 MLGameState
 
@@ -19537,6 +21099,8 @@
 
 
 ---
+
+<a id="mlmatchstate"></a>
 
 ## 🔌 MLMatchState
 
@@ -19559,6 +21123,8 @@
 
 
 ---
+
+<a id="mlplayerstate"></a>
 
 ## 🔌 MLPlayerState
 
@@ -19597,6 +21163,8 @@
 
 ---
 
+<a id="mlroundstate"></a>
+
 ## 🔌 MLRoundState
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19617,6 +21185,8 @@
 
 ---
 
+<a id="mltick"></a>
+
 ## 🔌 MLTick
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19636,6 +21206,8 @@
 
 
 ---
+
+<a id="mlweaponstate"></a>
 
 ## 🔌 MLWeaponState
 
@@ -19662,6 +21234,8 @@
 
 ---
 
+<a id="matchenditemupdates"></a>
+
 ## 🔌 MatchEndItemUpdates
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19681,6 +21255,8 @@
 
 
 ---
+
+<a id="net_messages"></a>
 
 ## 📋 NET_Messages
 
@@ -19710,6 +21286,8 @@
 
 ---
 
+<a id="netmessageconnectionclosed"></a>
+
 ## 🔌 NetMessageConnectionClosed
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19728,6 +21306,8 @@
 
 
 ---
+
+<a id="netmessageconnectioncrashed"></a>
 
 ## 🔌 NetMessageConnectionCrashed
 
@@ -19748,6 +21328,8 @@
 
 ---
 
+<a id="netmessagepacketend"></a>
+
 ## 🔌 NetMessagePacketEnd
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19760,6 +21342,8 @@
 
 ---
 
+<a id="netmessagepacketstart"></a>
+
 ## 🔌 NetMessagePacketStart
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19771,6 +21355,8 @@
 
 
 ---
+
+<a id="netmessagesplitscreenuserchanged"></a>
 
 ## 🔌 NetMessageSplitscreenUserChanged
 
@@ -19789,6 +21375,8 @@
 
 
 ---
+
+<a id="operationalstatisticdescription"></a>
 
 ## 🔌 OperationalStatisticDescription
 
@@ -19809,6 +21397,8 @@
 
 ---
 
+<a id="operationalstatisticelement"></a>
+
 ## 🔌 OperationalStatisticElement
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19827,6 +21417,8 @@
 
 
 ---
+
+<a id="operationalstatisticspacket"></a>
 
 ## 🔌 OperationalStatisticsPacket
 
@@ -19847,6 +21439,8 @@
 
 
 ---
+
+<a id="operationalvarvalue"></a>
 
 ## 🔌 OperationalVarValue
 
@@ -19869,6 +21463,8 @@
 
 ---
 
+<a id="p2p_messages"></a>
+
 ## 📋 P2P_Messages
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19890,6 +21486,8 @@
 
 
 ---
+
+<a id="particle_message"></a>
 
 ## 📋 PARTICLE_MESSAGE
 
@@ -19946,6 +21544,8 @@
 
 ---
 
+<a id="playercommendationinfo"></a>
+
 ## 🔌 PlayerCommendationInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -19965,6 +21565,8 @@
 
 
 ---
+
+<a id="playerdecaldigitalsignature"></a>
 
 ## 🔌 PlayerDecalDigitalSignature
 
@@ -19997,6 +21599,8 @@
 
 ---
 
+<a id="playermedalsinfo"></a>
+
 ## 🔌 PlayerMedalsInfo
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20015,6 +21619,8 @@
 
 
 ---
+
+<a id="playerquestdata"></a>
 
 ## 🔌 PlayerQuestData
 
@@ -20041,6 +21647,8 @@
 
 ---
 
+<a id="playerquestdata_questitemdata"></a>
+
 ## 🔌 PlayerQuestData_QuestItemData
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20064,6 +21672,8 @@
 
 
 ---
+
+<a id="playerrankinginfo"></a>
 
 ## 🔌 PlayerRankingInfo
 
@@ -20097,6 +21707,8 @@
 
 ---
 
+<a id="playerrankinginfo_permaprank"></a>
+
 ## 🔌 PlayerRankingInfo_PerMapRank
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20117,6 +21729,8 @@
 
 ---
 
+<a id="prefetchtype"></a>
+
 ## 📋 PrefetchType
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20132,6 +21746,8 @@
 
 
 ---
+
+<a id="protoflattenedserializerfield_t"></a>
 
 ## 🔌 ProtoFlattenedSerializerField_t
 
@@ -20162,6 +21778,8 @@
 
 ---
 
+<a id="protoflattenedserializerfield_t_polymorphic_field_t"></a>
+
 ## 🔌 ProtoFlattenedSerializerField_t_polymorphic_field_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20180,6 +21798,8 @@
 
 
 ---
+
+<a id="protoflattenedserializer_t"></a>
 
 ## 🔌 ProtoFlattenedSerializer_t
 
@@ -20201,6 +21821,8 @@
 
 ---
 
+<a id="questtype"></a>
+
 ## 📋 QuestType
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20217,6 +21839,8 @@
 
 
 ---
+
+<a id="replayeventtype_t"></a>
 
 ## 📋 ReplayEventType_t
 
@@ -20238,6 +21862,8 @@
 
 ---
 
+<a id="requestpause_t"></a>
+
 ## 📋 RequestPause_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20255,6 +21881,8 @@
 
 
 ---
+
+<a id="svc_messages"></a>
 
 ## 📋 SVC_Messages
 
@@ -20302,6 +21930,8 @@
 
 ---
 
+<a id="svc_messages_lowfrequency"></a>
+
 ## 📋 SVC_Messages_LowFrequency
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20317,6 +21947,8 @@
 
 
 ---
+
+<a id="scoreleaderboarddata"></a>
 
 ## 🔌 ScoreLeaderboardData
 
@@ -20340,6 +21972,8 @@
 
 ---
 
+<a id="scoreleaderboarddata_accountentries"></a>
+
 ## 🔌 ScoreLeaderboardData_AccountEntries
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20359,6 +21993,8 @@
 
 ---
 
+<a id="scoreleaderboarddata_entry"></a>
+
 ## 🔌 ScoreLeaderboardData_Entry
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20377,6 +22013,8 @@
 
 
 ---
+
+<a id="serverhltvinfo"></a>
 
 ## 🔌 ServerHltvInfo
 
@@ -20415,6 +22053,8 @@
 
 ---
 
+<a id="signonstate_t"></a>
+
 ## 📋 SignonState_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20438,6 +22078,8 @@
 
 ---
 
+<a id="spawngroupflags_t"></a>
+
 ## 📋 SpawnGroupFlags_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20460,6 +22102,8 @@
 
 
 ---
+
+<a id="tournamentevent"></a>
 
 ## 🔌 TournamentEvent
 
@@ -20487,6 +22131,8 @@
 
 ---
 
+<a id="tournamentmatchsetup"></a>
+
 ## 🔌 TournamentMatchSetup
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20507,6 +22153,8 @@
 
 
 ---
+
+<a id="tournamentplayer"></a>
 
 ## 🔌 TournamentPlayer
 
@@ -20532,6 +22180,8 @@
 
 ---
 
+<a id="tournamentteam"></a>
+
 ## 🔌 TournamentTeam
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20553,6 +22203,8 @@
 
 
 ---
+
+<a id="vacnetshot"></a>
 
 ## 🔌 VacNetShot
 
@@ -20578,6 +22230,8 @@
 
 ---
 
+<a id="voicedataformat_t"></a>
+
 ## 📋 VoiceDataFormat_t
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20595,6 +22249,8 @@
 
 
 ---
+
+<a id="watchablematchinfo"></a>
 
 ## 🔌 WatchableMatchInfo
 
@@ -20626,6 +22282,8 @@
 
 ---
 
+<a id="xpprogressdata"></a>
+
 ## 🔌 XpProgressData
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
@@ -20644,6 +22302,8 @@
 
 
 ---
+
+<a id="erolltype"></a>
 
 ## 📋 eRollType
 

@@ -1,3 +1,5 @@
+<a id="onplayerpawnpostthink"></a>
+
 # 🔗 OnPlayerPawnPostThink
 
 当玩家 pawn 的后续思考钩子被触发时调用。

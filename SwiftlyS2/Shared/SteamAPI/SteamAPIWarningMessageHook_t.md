@@ -1,3 +1,5 @@
+<a id="steamapiwarningmessagehook_t"></a>
+
 # 🔗 SteamAPIWarningMessageHook_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

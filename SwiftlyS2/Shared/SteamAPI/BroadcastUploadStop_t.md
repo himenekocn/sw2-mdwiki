@@ -1,3 +1,5 @@
+<a id="broadcastuploadstop_t"></a>
+
 # 🏗️ BroadcastUploadStop_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

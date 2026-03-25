@@ -1,3 +1,5 @@
+<a id="econtrollerhaptictype"></a>
+
 # 📋 EControllerHapticType
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="igamedataservice"></a>
+
 # 🔌 IGameDataService
 
 **命名空间:** `SwiftlyS2.Shared.Services`

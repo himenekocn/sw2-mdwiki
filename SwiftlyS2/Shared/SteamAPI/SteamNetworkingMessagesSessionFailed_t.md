@@ -1,3 +1,5 @@
+<a id="steamnetworkingmessagessessionfailed_t"></a>
+
 # 🏗️ SteamNetworkingMessagesSessionFailed_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

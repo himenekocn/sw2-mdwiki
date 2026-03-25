@@ -1,3 +1,5 @@
+<a id="cthreadspinmutex"></a>
+
 # 🏗️ CThreadSpinMutex
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

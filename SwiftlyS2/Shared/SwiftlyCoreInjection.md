@@ -1,3 +1,5 @@
+<a id="swiftlycoreinjection"></a>
+
 # 📦 SwiftlyCoreInjection
 
 **命名空间:** `SwiftlyS2.Shared`

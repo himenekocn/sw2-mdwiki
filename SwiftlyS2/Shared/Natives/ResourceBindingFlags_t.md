@@ -1,3 +1,5 @@
+<a id="resourcebindingflags_t"></a>
+
 # 📋 ResourceBindingFlags_t
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

@@ -1,3 +1,5 @@
+<a id="gsclientapprove_t"></a>
+
 # 🏗️ GSClientApprove_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

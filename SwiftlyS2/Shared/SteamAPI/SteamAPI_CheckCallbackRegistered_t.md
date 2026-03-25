@@ -1,3 +1,5 @@
+<a id="steamapi_checkcallbackregistered_t"></a>
+
 # 🔗 SteamAPI_CheckCallbackRegistered_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

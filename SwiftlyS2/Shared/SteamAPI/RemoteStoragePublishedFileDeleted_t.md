@@ -1,3 +1,5 @@
+<a id="remotestoragepublishedfiledeleted_t"></a>
+
 # 🏗️ RemoteStoragePublishedFileDeleted_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

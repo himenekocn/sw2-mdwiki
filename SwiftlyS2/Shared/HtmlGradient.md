@@ -1,3 +1,5 @@
+<a id="htmlgradient"></a>
+
 # 📦 HtmlGradient
 
 提供用于生成带有渐变颜色效果的 HTML 文本的工具方法。

@@ -1,3 +1,5 @@
+<a id="depotid_t"></a>
+
 # 🏗️ DepotId_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

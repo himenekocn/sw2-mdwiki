@@ -9,6 +9,8 @@
 - 🔗 [ServerResponded](#serverresponded)
 - 🔗 [ServerResponded](#serverresponded)
 
+<a id="serverresponded"></a>
+
 ## 🔗 ServerResponded
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`
@@ -28,6 +30,8 @@ delegate void ServerResponded(HServerListRequest hRequest, int iServer);
 
 
 ---
+
+<a id="serverresponded"></a>
 
 ## 🔗 ServerResponded
 

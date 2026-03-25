@@ -1,3 +1,5 @@
+<a id="unmanagedeventcallback"></a>
+
 # 🔗 UnmanagedEventCallback
 
 **命名空间:** `SwiftlyS2.Core.GameEvents`

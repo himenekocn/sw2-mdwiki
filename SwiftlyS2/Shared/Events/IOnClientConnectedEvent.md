@@ -1,3 +1,5 @@
+<a id="ionclientconnectedevent"></a>
+
 # 🔌 IOnClientConnectedEvent
 
 当客户端连接到服务器时调用。

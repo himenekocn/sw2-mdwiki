@@ -1,3 +1,5 @@
+<a id="onmovementservicesruncommandhook"></a>
+
 # 🔗 OnMovementServicesRunCommandHook
 
 当移动服务运行命令钩子被触发时调用。

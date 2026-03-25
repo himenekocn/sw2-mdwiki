@@ -1,3 +1,5 @@
+<a id="onweaponservicesdropweaponhook"></a>
+
 # 🔗 OnWeaponServicesDropWeaponHook
 
 当武器服务丢弃武器钩被触发时调用。

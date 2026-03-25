@@ -1,3 +1,5 @@
+<a id="iplayermanagerservice"></a>
+
 # 🔌 IPlayerManagerService
 
 **命名空间:** `SwiftlyS2.Shared.Players`

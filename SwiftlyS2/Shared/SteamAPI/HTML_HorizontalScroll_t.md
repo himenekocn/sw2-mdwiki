@@ -1,3 +1,5 @@
+<a id="html_horizontalscroll_t"></a>
+
 # 🏗️ HTML_HorizontalScroll_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

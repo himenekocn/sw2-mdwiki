@@ -1,3 +1,5 @@
+<a id="remotestorageenumerateusersubscribedfilesresult_t"></a>
+
 # 🏗️ RemoteStorageEnumerateUserSubscribedFilesResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

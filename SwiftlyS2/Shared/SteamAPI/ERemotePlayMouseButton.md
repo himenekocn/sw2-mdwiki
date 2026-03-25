@@ -1,3 +1,5 @@
+<a id="eremoteplaymousebutton"></a>
+
 # 📋 ERemotePlayMouseButton
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

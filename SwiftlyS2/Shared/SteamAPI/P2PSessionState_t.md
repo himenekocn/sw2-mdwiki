@@ -1,3 +1,5 @@
+<a id="p2psessionstate_t"></a>
+
 # 🏗️ P2PSessionState_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

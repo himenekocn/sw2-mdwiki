@@ -1,3 +1,5 @@
+<a id="workshopeulastatus_t"></a>
+
 # 🏗️ WorkshopEULAStatus_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

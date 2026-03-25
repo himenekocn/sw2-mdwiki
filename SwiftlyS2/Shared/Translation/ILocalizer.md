@@ -1,3 +1,5 @@
+<a id="ilocalizer"></a>
+
 # 🔌 ILocalizer
 
 表示一个本地化工具，可用于获取给定键的翻译。

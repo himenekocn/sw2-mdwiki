@@ -1,3 +1,5 @@
+<a id="onclientsteamauthorize"></a>
+
 # 🔗 OnClientSteamAuthorize
 
 当客户端通过 Steam 授权时调用。

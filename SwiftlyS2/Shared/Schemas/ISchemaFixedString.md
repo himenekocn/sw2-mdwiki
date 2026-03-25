@@ -1,3 +1,5 @@
+<a id="ischemafixedstring"></a>
+
 # 🔌 ISchemaFixedString
 
 **命名空间:** `SwiftlyS2.Shared.Schemas`

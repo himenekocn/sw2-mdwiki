@@ -1,3 +1,5 @@
+<a id="steamnetconnectionrealtimestatus_t"></a>
+
 # 🏗️ SteamNetConnectionRealTimeStatus_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

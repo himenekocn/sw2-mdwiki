@@ -1,3 +1,5 @@
+<a id="downloadclanactivitycountsresult_t"></a>
+
 # 🏗️ DownloadClanActivityCountsResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

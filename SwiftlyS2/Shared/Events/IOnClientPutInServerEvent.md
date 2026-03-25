@@ -1,3 +1,5 @@
+<a id="ionclientputinserverevent"></a>
+
 # 🔌 IOnClientPutInServerEvent
 
 当客户端被放入服务器时调用。

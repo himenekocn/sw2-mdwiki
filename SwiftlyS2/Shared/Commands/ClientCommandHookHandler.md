@@ -1,3 +1,5 @@
+<a id="clientcommandhookhandler"></a>
+
 # 📦 ClientCommandHookHandler
 
 **命名空间:** `SwiftlyS2.Shared.Commands`

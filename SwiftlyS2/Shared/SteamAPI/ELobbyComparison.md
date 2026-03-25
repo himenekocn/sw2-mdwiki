@@ -1,3 +1,5 @@
+<a id="elobbycomparison"></a>
+
 # 📋 ELobbyComparison
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

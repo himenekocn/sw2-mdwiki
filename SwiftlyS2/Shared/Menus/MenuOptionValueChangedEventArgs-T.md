@@ -1,4 +1,6 @@
-# 📦 MenuOptionValueChangedEventArgs<T>
+<a id="menuoptionvaluechangedeventargs-t"></a>
+
+# 📦 MenuOptionValueChangedEventArgs&lt;T&gt;
 
 菜单选项值变更时的事件参数。
 

@@ -1,3 +1,5 @@
+<a id="ionmapunloadevent"></a>
+
 # 🔌 IOnMapUnloadEvent
 
 在地图卸载时被调用。

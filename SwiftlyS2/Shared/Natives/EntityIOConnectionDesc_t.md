@@ -1,3 +1,5 @@
+<a id="entityioconnectiondesc_t"></a>
+
 # 🏗️ EntityIOConnectionDesc_t
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

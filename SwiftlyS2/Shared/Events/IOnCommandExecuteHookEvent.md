@@ -1,3 +1,5 @@
+<a id="ioncommandexecutehookevent"></a>
+
 # 🔌 IOnCommandExecuteHookEvent
 
 在命令执行时调用。

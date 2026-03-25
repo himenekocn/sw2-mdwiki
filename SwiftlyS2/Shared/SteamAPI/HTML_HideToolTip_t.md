@@ -1,3 +1,5 @@
+<a id="html_hidetooltip_t"></a>
+
 # 🏗️ HTML_HideToolTip_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

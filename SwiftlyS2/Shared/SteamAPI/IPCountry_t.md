@@ -1,3 +1,5 @@
+<a id="ipcountry_t"></a>
+
 # 🏗️ IPCountry_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

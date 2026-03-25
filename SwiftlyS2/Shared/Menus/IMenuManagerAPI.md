@@ -1,3 +1,5 @@
+<a id="imenumanagerapi"></a>
+
 # 🔌 IMenuManagerAPI
 
 用于创建和控制所有玩家菜单的中心管理器。

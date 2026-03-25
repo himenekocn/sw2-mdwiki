@@ -1,3 +1,5 @@
+<a id="clientkind"></a>
+
 # 📋 ClientKind
 
 **命名空间:** `SwiftlyS2.Shared.Events`

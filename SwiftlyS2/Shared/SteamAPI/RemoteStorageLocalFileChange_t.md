@@ -1,3 +1,5 @@
+<a id="remotestoragelocalfilechange_t"></a>
+
 # 🏗️ RemoteStorageLocalFileChange_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

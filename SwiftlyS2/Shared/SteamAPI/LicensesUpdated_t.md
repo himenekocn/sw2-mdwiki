@@ -1,3 +1,5 @@
+<a id="licensesupdated_t"></a>
+
 # 🏗️ LicensesUpdated_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

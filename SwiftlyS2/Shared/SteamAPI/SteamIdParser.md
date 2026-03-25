@@ -1,3 +1,5 @@
+<a id="steamidparser"></a>
+
 # 📦 SteamIdParser
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

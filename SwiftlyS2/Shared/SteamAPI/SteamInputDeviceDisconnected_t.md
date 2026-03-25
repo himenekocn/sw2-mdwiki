@@ -1,3 +1,5 @@
+<a id="steaminputdevicedisconnected_t"></a>
+
 # 🏗️ SteamInputDeviceDisconnected_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

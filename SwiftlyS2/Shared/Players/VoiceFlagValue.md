@@ -1,3 +1,5 @@
+<a id="voiceflagvalue"></a>
+
 # 📋 VoiceFlagValue
 
 **命名空间:** `SwiftlyS2.Shared.Players`

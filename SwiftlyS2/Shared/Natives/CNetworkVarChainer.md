@@ -1,3 +1,5 @@
+<a id="cnetworkvarchainer"></a>
+
 # 🏗️ CNetworkVarChainer
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

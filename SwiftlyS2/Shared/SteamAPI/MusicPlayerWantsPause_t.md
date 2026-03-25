@@ -1,3 +1,5 @@
+<a id="musicplayerwantspause_t"></a>
+
 # 🏗️ MusicPlayerWantsPause_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

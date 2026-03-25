@@ -1,3 +1,5 @@
+<a id="html_updatetooltip_t"></a>
+
 # 🏗️ HTML_UpdateToolTip_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

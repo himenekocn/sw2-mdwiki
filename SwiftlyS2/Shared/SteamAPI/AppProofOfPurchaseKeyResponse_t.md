@@ -1,3 +1,5 @@
+<a id="appproofofpurchasekeyresponse_t"></a>
+
 # 🏗️ AppProofOfPurchaseKeyResponse_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

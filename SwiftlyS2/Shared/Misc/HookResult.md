@@ -1,3 +1,5 @@
+<a id="hookresult"></a>
+
 # 📋 HookResult
 
 钩子的返回结果。

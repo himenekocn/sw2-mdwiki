@@ -1,3 +1,5 @@
+<a id="html_verticalscroll_t"></a>
+
 # 🏗️ HTML_VerticalScroll_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

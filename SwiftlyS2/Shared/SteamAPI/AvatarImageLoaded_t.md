@@ -1,3 +1,5 @@
+<a id="avatarimageloaded_t"></a>
+
 # 🏗️ AvatarImageLoaded_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

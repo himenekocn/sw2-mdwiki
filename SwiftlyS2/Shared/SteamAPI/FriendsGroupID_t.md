@@ -1,3 +1,5 @@
+<a id="friendsgroupid_t"></a>
+
 # 🏗️ FriendsGroupID_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

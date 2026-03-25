@@ -1,3 +1,5 @@
+<a id="hsteamlistensocket"></a>
+
 # 🏗️ HSteamListenSocket
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

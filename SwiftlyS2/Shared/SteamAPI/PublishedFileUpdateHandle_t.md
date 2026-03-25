@@ -1,3 +1,5 @@
+<a id="publishedfileupdatehandle_t"></a>
+
 # 🏗️ PublishedFileUpdateHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

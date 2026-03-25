@@ -1,3 +1,5 @@
+<a id="musicplayerwantsplaynext_t"></a>
+
 # 🏗️ MusicPlayerWantsPlayNext_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

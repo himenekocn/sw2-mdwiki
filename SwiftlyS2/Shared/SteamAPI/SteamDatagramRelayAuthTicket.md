@@ -1,3 +1,5 @@
+<a id="steamdatagramrelayauthticket"></a>
+
 # 🏗️ SteamDatagramRelayAuthTicket
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

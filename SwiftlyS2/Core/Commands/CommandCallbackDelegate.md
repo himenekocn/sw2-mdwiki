@@ -1,3 +1,5 @@
+<a id="commandcallbackdelegate"></a>
+
 # 🔗 CommandCallbackDelegate
 
 **命名空间:** `SwiftlyS2.Core.Commands`

@@ -1,3 +1,5 @@
+<a id="hookmode"></a>
+
 # 📋 HookMode
 
 **命名空间:** `SwiftlyS2.Shared.Misc`

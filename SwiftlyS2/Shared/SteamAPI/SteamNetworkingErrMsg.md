@@ -1,3 +1,5 @@
+<a id="steamnetworkingerrmsg"></a>
+
 # 🏗️ SteamNetworkingErrMsg
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

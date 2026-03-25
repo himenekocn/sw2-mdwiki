@@ -1,3 +1,5 @@
+<a id="overlaybrowserprotocolnavigation_t"></a>
+
 # 🏗️ OverlayBrowserProtocolNavigation_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="ionentityparentchangedevent"></a>
+
 # 🔌 IOnEntityParentChangedEvent
 
 当事件实体的父级发生变更时调用。

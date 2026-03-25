@@ -1,3 +1,5 @@
+<a id="rtime32"></a>
+
 # 🏗️ RTime32
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="iserversideclientbase"></a>
+
 # 🔌 IServerSideClientBase
 
 **命名空间:** `SwiftlyS2.Shared.Engine`

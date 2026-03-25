@@ -1,3 +1,5 @@
+<a id="steampartybeaconlocation_t"></a>
+
 # 🏗️ SteamPartyBeaconLocation_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

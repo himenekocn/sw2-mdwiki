@@ -1,3 +1,5 @@
+<a id="ionentitytakedamageevent"></a>
+
 # 🔌 IOnEntityTakeDamageEvent
 
 当实体受到伤害时调用。

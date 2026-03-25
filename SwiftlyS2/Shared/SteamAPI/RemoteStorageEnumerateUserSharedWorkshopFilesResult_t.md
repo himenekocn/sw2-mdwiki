@@ -1,3 +1,5 @@
+<a id="remotestorageenumerateusersharedworkshopfilesresult_t"></a>
+
 # 🏗️ RemoteStorageEnumerateUserSharedWorkshopFilesResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

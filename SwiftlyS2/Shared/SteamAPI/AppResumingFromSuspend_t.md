@@ -1,3 +1,5 @@
+<a id="appresumingfromsuspend_t"></a>
+
 # 🏗️ AppResumingFromSuspend_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

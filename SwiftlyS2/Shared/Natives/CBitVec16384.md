@@ -1,3 +1,5 @@
+<a id="cbitvec16384"></a>
+
 # 🏗️ CBitVec16384
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

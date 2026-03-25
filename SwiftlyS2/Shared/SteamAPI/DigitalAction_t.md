@@ -1,3 +1,5 @@
+<a id="digitalaction_t"></a>
+
 # 🏗️ DigitalAction_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

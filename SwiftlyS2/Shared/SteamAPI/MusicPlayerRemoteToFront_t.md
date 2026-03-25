@@ -1,3 +1,5 @@
+<a id="musicplayerremotetofront_t"></a>
+
 # 🏗️ MusicPlayerRemoteToFront_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

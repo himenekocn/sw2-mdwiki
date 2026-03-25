@@ -1,3 +1,5 @@
+<a id="steaminputconfigurationloaded_t"></a>
+
 # 🏗️ SteamInputConfigurationLoaded_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

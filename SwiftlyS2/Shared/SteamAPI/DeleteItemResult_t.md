@@ -1,3 +1,5 @@
+<a id="deleteitemresult_t"></a>
+
 # 🏗️ DeleteItemResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

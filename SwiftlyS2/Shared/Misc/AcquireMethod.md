@@ -1,3 +1,5 @@
+<a id="acquiremethod"></a>
+
 # 📋 AcquireMethod
 
 **命名空间:** `SwiftlyS2.Shared.Misc`

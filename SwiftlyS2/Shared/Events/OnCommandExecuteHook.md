@@ -1,3 +1,5 @@
+<a id="oncommandexecutehook"></a>
+
 # 🔗 OnCommandExecuteHook
 
 当服务器命令（ConCommand）被执行时调用。

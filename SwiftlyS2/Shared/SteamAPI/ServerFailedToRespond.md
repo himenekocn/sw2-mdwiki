@@ -9,6 +9,8 @@
 - 🔗 [ServerFailedToRespond](#serverfailedtorespond)
 - 🔗 [ServerFailedToRespond](#serverfailedtorespond)
 
+<a id="serverfailedtorespond"></a>
+
 ## 🔗 ServerFailedToRespond
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`
@@ -28,6 +30,8 @@ delegate void ServerFailedToRespond(HServerListRequest hRequest, int iServer);
 
 
 ---
+
+<a id="serverfailedtorespond"></a>
 
 ## 🔗 ServerFailedToRespond
 

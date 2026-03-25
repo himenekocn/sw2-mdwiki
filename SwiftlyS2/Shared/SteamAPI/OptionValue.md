@@ -9,6 +9,8 @@
 - 🏗️ [OptionValue](#optionvalue)
 - 🏗️ [OptionValue](#optionvalue)
 
+<a id="optionvalue"></a>
+
 ## 🏗️ OptionValue
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`
@@ -25,6 +27,8 @@
 
 
 ---
+
+<a id="optionvalue"></a>
 
 ## 🏗️ OptionValue
 

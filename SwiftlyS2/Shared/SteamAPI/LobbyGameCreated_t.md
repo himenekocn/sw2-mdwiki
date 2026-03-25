@@ -1,3 +1,5 @@
+<a id="lobbygamecreated_t"></a>
+
 # 🏗️ LobbyGameCreated_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

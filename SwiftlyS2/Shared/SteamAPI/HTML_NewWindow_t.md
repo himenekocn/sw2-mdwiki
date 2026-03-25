@@ -1,3 +1,5 @@
+<a id="html_newwindow_t"></a>
+
 # 🏗️ HTML_NewWindow_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

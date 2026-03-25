@@ -1,3 +1,5 @@
+<a id="onentitytakedamage"></a>
+
 # 🔗 OnEntityTakeDamage
 
 当实体受到伤害时调用。

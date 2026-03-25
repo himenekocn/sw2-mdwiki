@@ -1,3 +1,5 @@
+<a id="qangle"></a>
+
 # 🏗️ QAngle
 
 QAngle 是一个包含三个 float 的类型，用于表示角度。采用度数制欧拉角，依次为：俯仰（Pitch）、偏航（Yaw）和翻滚（Roll）。

@@ -1,3 +1,5 @@
+<a id="leaderboardfindresult_t"></a>
+
 # 🏗️ LeaderboardFindResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

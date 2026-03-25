@@ -1,3 +1,5 @@
+<a id="friendsisfollowing_t"></a>
+
 # 🏗️ FriendsIsFollowing_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

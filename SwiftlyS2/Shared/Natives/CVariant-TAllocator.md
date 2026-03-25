@@ -1,4 +1,6 @@
-# 🏗️ CVariant<TAllocator>
+<a id="cvariant-tallocator"></a>
+
+# 🏗️ CVariant&lt;TAllocator&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 

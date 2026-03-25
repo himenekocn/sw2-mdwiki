@@ -1,3 +1,5 @@
+<a id="remotestoragepublishfileprogress_t"></a>
+
 # 🏗️ RemoteStoragePublishFileProgress_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

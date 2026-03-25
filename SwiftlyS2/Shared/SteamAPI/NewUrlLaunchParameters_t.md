@@ -1,3 +1,5 @@
+<a id="newurllaunchparameters_t"></a>
+
 # 🏗️ NewUrlLaunchParameters_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

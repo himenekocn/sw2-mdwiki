@@ -1,3 +1,5 @@
+<a id="keyvaluesdatatype"></a>
+
 # 📋 KeyValuesDataType
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

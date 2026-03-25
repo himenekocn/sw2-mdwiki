@@ -1,3 +1,5 @@
+<a id="userfavoriteitemslistchanged_t"></a>
+
 # 🏗️ UserFavoriteItemsListChanged_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

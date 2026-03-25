@@ -1,3 +1,5 @@
+<a id="chatcolors"></a>
+
 # 📦 ChatColors
 
 **命名空间:** `SwiftlyS2.Shared`

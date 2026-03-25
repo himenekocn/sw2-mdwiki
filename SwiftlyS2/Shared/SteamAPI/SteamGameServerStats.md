@@ -1,3 +1,5 @@
+<a id="steamgameserverstats"></a>
+
 # 📦 SteamGameServerStats
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

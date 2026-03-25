@@ -1,3 +1,5 @@
+<a id="iterator_t"></a>
+
 # 🏗️ Iterator_t
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

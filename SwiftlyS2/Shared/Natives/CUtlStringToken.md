@@ -1,3 +1,5 @@
+<a id="cutlstringtoken"></a>
+
 # 🏗️ CUtlStringToken
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

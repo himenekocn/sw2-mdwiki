@@ -1,3 +1,5 @@
+<a id="ionclientsteamauthorizeevent"></a>
+
 # 🔌 IOnClientSteamAuthorizeEvent
 
 当客户端通过 Steam 完成授权时调用。

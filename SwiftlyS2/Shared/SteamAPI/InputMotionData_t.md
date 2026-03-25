@@ -1,3 +1,5 @@
+<a id="inputmotiondata_t"></a>
+
 # 🏗️ InputMotionData_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

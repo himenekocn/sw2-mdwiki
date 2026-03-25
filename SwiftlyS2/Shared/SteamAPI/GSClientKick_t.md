@@ -1,3 +1,5 @@
+<a id="gsclientkick_t"></a>
+
 # 🏗️ GSClientKick_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

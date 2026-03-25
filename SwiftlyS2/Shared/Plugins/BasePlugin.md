@@ -1,3 +1,5 @@
+<a id="baseplugin"></a>
+
 # 📦 BasePlugin
 
 **命名空间:** `SwiftlyS2.Shared.Plugins`

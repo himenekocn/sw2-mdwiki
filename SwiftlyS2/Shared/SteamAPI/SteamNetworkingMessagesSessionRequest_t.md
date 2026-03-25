@@ -1,3 +1,5 @@
+<a id="steamnetworkingmessagessessionrequest_t"></a>
+
 # 🏗️ SteamNetworkingMessagesSessionRequest_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,4 +1,6 @@
-# 📦 SelectorMenuOption<T>
+<a id="selectormenuoption-t"></a>
+
+# 📦 SelectorMenuOption&lt;T&gt;
 
 表示一个选择器菜单选项，允许使用左/右键在选项列表中循环切换。显示格式为：标签: 上一选项 [当前选项] 下一选项。该选项占用“退出”和“使用”键，分别用于执行上一项和下一项的选择操作。
 

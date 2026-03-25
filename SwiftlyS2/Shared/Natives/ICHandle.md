@@ -1,3 +1,5 @@
+<a id="ichandle"></a>
+
 # 🔌 ICHandle
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

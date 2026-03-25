@@ -1,3 +1,5 @@
+<a id="submititemupdateresult_t"></a>
+
 # 🏗️ SubmitItemUpdateResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

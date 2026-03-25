@@ -1,3 +1,5 @@
+<a id="gcmessagefailed_t"></a>
+
 # 🏗️ GCMessageFailed_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

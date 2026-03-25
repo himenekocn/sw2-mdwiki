@@ -1,3 +1,5 @@
+<a id="egamesearcherrorcode_t"></a>
+
 # 📋 EGameSearchErrorCode_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

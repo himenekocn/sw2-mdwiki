@@ -1,3 +1,5 @@
+<a id="menumanagereventargs"></a>
+
 # 📦 MenuManagerEventArgs
 
 为菜单管理器事件提供事件数据。

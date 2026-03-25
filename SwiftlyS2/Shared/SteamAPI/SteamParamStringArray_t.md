@@ -1,3 +1,5 @@
+<a id="steamparamstringarray_t"></a>
+
 # 🏗️ SteamParamStringArray_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

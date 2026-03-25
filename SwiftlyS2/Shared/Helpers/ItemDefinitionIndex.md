@@ -1,3 +1,5 @@
+<a id="itemdefinitionindex"></a>
+
 # 📋 ItemDefinitionIndex
 
 **命名空间:** `SwiftlyS2.Shared.Helpers`

@@ -1,3 +1,5 @@
+<a id="imenubuilderapi"></a>
+
 # 🔌 IMenuBuilderAPI
 
 提供一个用于创建和配置菜单的流畅构建器接口。所有方法均支持链式调用，以便于便捷地构建菜单。

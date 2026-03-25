@@ -1,3 +1,5 @@
+<a id="screenshothandle"></a>
+
 # 🏗️ ScreenshotHandle
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

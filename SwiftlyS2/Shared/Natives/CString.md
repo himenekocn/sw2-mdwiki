@@ -1,3 +1,5 @@
+<a id="cstring"></a>
+
 # 🏗️ CString
 
 本地 char* 的包装类。

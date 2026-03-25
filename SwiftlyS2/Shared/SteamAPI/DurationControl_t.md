@@ -1,3 +1,5 @@
+<a id="durationcontrol_t"></a>
+
 # 🏗️ DurationControl_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

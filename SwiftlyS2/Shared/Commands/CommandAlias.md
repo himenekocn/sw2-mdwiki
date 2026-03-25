@@ -1,3 +1,5 @@
+<a id="commandalias"></a>
+
 # 📦 CommandAlias
 
 **命名空间:** `SwiftlyS2.Shared.Commands`

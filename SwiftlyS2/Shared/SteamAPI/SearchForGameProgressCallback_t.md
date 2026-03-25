@@ -1,3 +1,5 @@
+<a id="searchforgameprogresscallback_t"></a>
+
 # 🏗️ SearchForGameProgressCallback_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

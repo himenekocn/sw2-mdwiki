@@ -1,3 +1,5 @@
+<a id="enotificationposition"></a>
+
 # 📋 ENotificationPosition
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

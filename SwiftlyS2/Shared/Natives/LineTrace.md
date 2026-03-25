@@ -1,3 +1,5 @@
+<a id="linetrace"></a>
+
 # 🏗️ LineTrace
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

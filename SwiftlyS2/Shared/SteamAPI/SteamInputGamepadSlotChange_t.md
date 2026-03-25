@@ -1,3 +1,5 @@
+<a id="steaminputgamepadslotchange_t"></a>
+
 # 🏗️ SteamInputGamepadSlotChange_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

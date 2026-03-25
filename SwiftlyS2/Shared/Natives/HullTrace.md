@@ -1,3 +1,5 @@
+<a id="hulltrace"></a>
+
 # 🏗️ HullTrace
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

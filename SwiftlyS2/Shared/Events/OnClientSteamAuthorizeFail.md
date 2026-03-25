@@ -1,3 +1,5 @@
+<a id="onclientsteamauthorizefail"></a>
+
 # 🔗 OnClientSteamAuthorizeFail
 
 当客户端的 Steam 授权失败时调用。

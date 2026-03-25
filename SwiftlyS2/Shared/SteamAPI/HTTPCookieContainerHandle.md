@@ -1,3 +1,5 @@
+<a id="httpcookiecontainerhandle"></a>
+
 # 🏗️ HTTPCookieContainerHandle
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

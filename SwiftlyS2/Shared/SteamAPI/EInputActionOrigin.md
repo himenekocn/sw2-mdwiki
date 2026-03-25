@@ -1,3 +1,5 @@
+<a id="einputactionorigin"></a>
+
 # 📋 EInputActionOrigin
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="entityinputeventhandler"></a>
+
 # 🔗 EntityInputEventHandler
 
 表示处理实体输入事件的方法，允许在实体接受输入时执行自定义逻辑。

@@ -1,3 +1,5 @@
+<a id="ugcupdatehandle_t"></a>
+
 # 🏗️ UGCUpdateHandle_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

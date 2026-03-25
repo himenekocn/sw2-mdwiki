@@ -1,3 +1,5 @@
+<a id="cutlslot"></a>
+
 # 🏗️ CUtlSlot
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

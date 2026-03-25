@@ -1,3 +1,5 @@
+<a id="lobbyenter_t"></a>
+
 # 🏗️ LobbyEnter_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

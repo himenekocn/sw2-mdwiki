@@ -1,3 +1,5 @@
+<a id="gameconnectedfriendchatmsg_t"></a>
+
 # 🏗️ GameConnectedFriendChatMsg_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

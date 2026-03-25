@@ -1,3 +1,5 @@
+<a id="eugcquery"></a>
+
 # 📋 EUGCQuery
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

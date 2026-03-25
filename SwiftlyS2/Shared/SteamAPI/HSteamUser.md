@@ -1,3 +1,5 @@
+<a id="hsteamuser"></a>
+
 # 🏗️ HSteamUser
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

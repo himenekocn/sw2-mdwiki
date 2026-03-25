@@ -1,3 +1,5 @@
+<a id="cvariantdefaultallocator"></a>
+
 # 🔌 CVariantDefaultAllocator
 
 **命名空间:** `SwiftlyS2.Shared.Natives`

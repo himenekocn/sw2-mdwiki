@@ -1,3 +1,5 @@
+<a id="onmapload"></a>
+
 # 🔗 OnMapLoad
 
 当地图加载时调用。

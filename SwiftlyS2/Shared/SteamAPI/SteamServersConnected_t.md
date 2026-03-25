@@ -1,3 +1,5 @@
+<a id="steamserversconnected_t"></a>
+
 # 🏗️ SteamServersConnected_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

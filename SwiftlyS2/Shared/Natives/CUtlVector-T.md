@@ -1,4 +1,6 @@
-# 🏗️ CUtlVector<T>
+<a id="cutlvector-t"></a>
+
+# 🏗️ CUtlVector&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 

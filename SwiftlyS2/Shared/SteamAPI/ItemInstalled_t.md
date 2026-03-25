@@ -1,3 +1,5 @@
+<a id="iteminstalled_t"></a>
+
 # 🏗️ ItemInstalled_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

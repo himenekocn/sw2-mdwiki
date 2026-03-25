@@ -1,4 +1,6 @@
-# 📦 Callback<T>
+<a id="callback-t"></a>
+
+# 📦 Callback&lt;T&gt;
 
 表示一个自动管理其生命周期的 Steam 回调。
 

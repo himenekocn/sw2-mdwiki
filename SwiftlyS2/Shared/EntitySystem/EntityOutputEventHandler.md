@@ -1,3 +1,5 @@
+<a id="entityoutputeventhandler"></a>
+
 # 🔗 EntityOutputEventHandler
 
 表示一种处理实体输出事件的方法，允许在实体触发输出时执行自定义逻辑。

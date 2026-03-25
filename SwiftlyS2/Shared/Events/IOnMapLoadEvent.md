@@ -1,3 +1,5 @@
+<a id="ionmaploadevent"></a>
+
 # 🔌 IOnMapLoadEvent
 
 在地图加载时调用。

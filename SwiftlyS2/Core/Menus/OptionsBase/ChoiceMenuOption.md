@@ -1,3 +1,5 @@
+<a id="choicemenuoption"></a>
+
 # 📦 ChoiceMenuOption
 
 表示一个在选项列表中循环切换的菜单选项。

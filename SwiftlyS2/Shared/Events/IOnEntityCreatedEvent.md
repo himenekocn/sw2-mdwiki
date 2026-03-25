@@ -1,3 +1,5 @@
+<a id="ionentitycreatedevent"></a>
+
 # 🔌 IOnEntityCreatedEvent
 
 在实体创建时调用。

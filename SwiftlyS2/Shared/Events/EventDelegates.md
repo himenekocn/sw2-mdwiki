@@ -1,3 +1,5 @@
+<a id="eventdelegates"></a>
+
 # 📦 EventDelegates
 
 事件委托。

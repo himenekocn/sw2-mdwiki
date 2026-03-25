@@ -1,3 +1,5 @@
+<a id="eugcreadaction"></a>
+
 # 📋 EUGCReadAction
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

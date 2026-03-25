@@ -1,3 +1,5 @@
+<a id="ientitysystemservice"></a>
+
 # 🔌 IEntitySystemService
 
 **命名空间:** `SwiftlyS2.Shared.EntitySystem`

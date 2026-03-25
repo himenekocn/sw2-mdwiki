@@ -1,4 +1,6 @@
-# 🏗️ CUtlMemory<T>
+<a id="cutlmemory-t"></a>
+
+# 🏗️ CUtlMemory&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 

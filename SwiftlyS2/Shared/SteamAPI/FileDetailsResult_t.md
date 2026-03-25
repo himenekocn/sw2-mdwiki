@@ -1,3 +1,5 @@
+<a id="filedetailsresult_t"></a>
+
 # 🏗️ FileDetailsResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

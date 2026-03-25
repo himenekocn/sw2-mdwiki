@@ -1,3 +1,5 @@
+<a id="eremoteplaymousewheeldirection"></a>
+
 # 📋 ERemotePlayMouseWheelDirection
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

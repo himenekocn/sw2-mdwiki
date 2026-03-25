@@ -1,3 +1,5 @@
+<a id="onstartupserver"></a>
+
 # 🔗 OnStartupServer
 
 服务器启动时调用。

@@ -1,3 +1,5 @@
+<a id="ipluginmanager"></a>
+
 # 🔌 IPluginManager
 
 **命名空间:** `SwiftlyS2.Shared.Plugins`

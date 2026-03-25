@@ -1,3 +1,5 @@
+<a id="esteaminputtype"></a>
+
 # 📋 ESteamInputType
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

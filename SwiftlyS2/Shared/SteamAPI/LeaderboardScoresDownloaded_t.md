@@ -1,3 +1,5 @@
+<a id="leaderboardscoresdownloaded_t"></a>
+
 # 🏗️ LeaderboardScoresDownloaded_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

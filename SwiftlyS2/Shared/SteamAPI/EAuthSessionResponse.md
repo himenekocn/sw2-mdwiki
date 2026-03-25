@@ -1,3 +1,5 @@
+<a id="eauthsessionresponse"></a>
+
 # 📋 EAuthSessionResponse
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="p2psessionconnectfail_t"></a>
+
 # 🏗️ P2PSessionConnectFail_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

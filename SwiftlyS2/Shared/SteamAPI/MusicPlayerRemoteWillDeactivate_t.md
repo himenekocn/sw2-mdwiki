@@ -1,3 +1,5 @@
+<a id="musicplayerremotewilldeactivate_t"></a>
+
 # 🏗️ MusicPlayerRemoteWillDeactivate_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

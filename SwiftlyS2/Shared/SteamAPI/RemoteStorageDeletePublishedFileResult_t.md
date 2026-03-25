@@ -1,3 +1,5 @@
+<a id="remotestoragedeletepublishedfileresult_t"></a>
+
 # 🏗️ RemoteStorageDeletePublishedFileResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

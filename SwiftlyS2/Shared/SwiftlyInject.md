@@ -1,3 +1,5 @@
+<a id="swiftlyinject"></a>
+
 # 📦 SwiftlyInject
 
 **命名空间:** `SwiftlyS2.Shared`

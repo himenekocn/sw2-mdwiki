@@ -1,3 +1,5 @@
+<a id="etimelineeventclippriority"></a>
+
 # 📋 ETimelineEventClipPriority
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

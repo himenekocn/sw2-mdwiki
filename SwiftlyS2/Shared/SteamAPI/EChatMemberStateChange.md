@@ -1,3 +1,5 @@
+<a id="echatmemberstatechange"></a>
+
 # 📋 EChatMemberStateChange
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

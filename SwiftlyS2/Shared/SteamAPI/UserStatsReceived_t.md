@@ -1,3 +1,5 @@
+<a id="userstatsreceived_t"></a>
+
 # 🏗️ UserStatsReceived_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

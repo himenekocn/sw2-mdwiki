@@ -1,4 +1,6 @@
-# 📦 SwiftlyOptionsFactory<T>
+<a id="swiftlyoptionsfactory-t"></a>
+
+# 📦 SwiftlyOptionsFactory&lt;T&gt;
 
 防止 Microsoft 默认合并行为的自定义选项工厂。配置文件中的值将完全替换代码中的默认值，而非进行合并。
 

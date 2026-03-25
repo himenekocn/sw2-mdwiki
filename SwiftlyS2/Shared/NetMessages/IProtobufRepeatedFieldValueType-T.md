@@ -1,4 +1,6 @@
-# 🔌 IProtobufRepeatedFieldValueType<T>
+<a id="iprotobufrepeatedfieldvaluetype-t"></a>
+
+# 🔌 IProtobufRepeatedFieldValueType&lt;T&gt;
 
 **命名空间:** `SwiftlyS2.Shared.NetMessages`
 

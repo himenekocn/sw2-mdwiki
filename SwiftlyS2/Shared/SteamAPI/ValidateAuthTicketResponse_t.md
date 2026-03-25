@@ -1,3 +1,5 @@
+<a id="validateauthticketresponse_t"></a>
+
 # 🏗️ ValidateAuthTicketResponse_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

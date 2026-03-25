@@ -1,3 +1,5 @@
+<a id="computenewplayercompatibilityresult_t"></a>
+
 # 🏗️ ComputeNewPlayerCompatibilityResult_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

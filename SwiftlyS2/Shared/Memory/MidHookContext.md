@@ -1,3 +1,5 @@
+<a id="midhookcontext"></a>
+
 # 🏗️ MidHookContext
 
 **命名空间:** `SwiftlyS2.Shared.Memory`

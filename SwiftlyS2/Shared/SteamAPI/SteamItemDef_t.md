@@ -1,3 +1,5 @@
+<a id="steamitemdef_t"></a>
+
 # 🏗️ SteamItemDef_t
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

@@ -1,3 +1,5 @@
+<a id="inetchannelinfo"></a>
+
 # 🔌 INetChannelInfo
 
 **命名空间:** `SwiftlyS2.Shared.Engine`

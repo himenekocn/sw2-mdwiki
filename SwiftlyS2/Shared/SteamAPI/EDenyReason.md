@@ -1,3 +1,5 @@
+<a id="edenyreason"></a>
+
 # 📋 EDenyReason
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

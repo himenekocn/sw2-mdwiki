@@ -1,3 +1,5 @@
+<a id="edurationcontrolonlinestate"></a>
+
 # 📋 EDurationControlOnlineState
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`

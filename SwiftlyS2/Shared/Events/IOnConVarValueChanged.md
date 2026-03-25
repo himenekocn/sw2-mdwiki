@@ -1,3 +1,5 @@
+<a id="ionconvarvaluechanged"></a>
+
 # 🔌 IOnConVarValueChanged
 
 当 ConVar 的值被更改时调用。

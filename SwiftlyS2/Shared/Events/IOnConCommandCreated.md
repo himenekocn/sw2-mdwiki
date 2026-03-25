@@ -1,3 +1,5 @@
+<a id="ionconcommandcreated"></a>
+
 # 🔌 IOnConCommandCreated
 
 在创建 ConVar 时被调用。
