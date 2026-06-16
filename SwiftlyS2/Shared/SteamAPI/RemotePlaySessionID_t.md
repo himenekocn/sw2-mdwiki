@@ -60,7 +60,7 @@ operator uint(RemotePlaySessionID_t that)
 
 **用法示例:**
 ```csharp
-uint id = RemotePlaySessionID_t.uint(existingSession);
+uint id = (uint)existingSessionID;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(RemotePlaySessionID_t other)
 
 **用法示例:**
 ```csharp
-int result = existingSession.CompareTo(otherSession);
+int result = sessionID.CompareTo(otherSessionID);
 ```
 

@@ -26,7 +26,7 @@ void Clear()
 
 **用法示例:**
 ```csharp
-SteamNetworkingIPAddr addr; addr.Clear();
+addr.Clear();
 ```
 
 ### IsIPv6AllZeros
@@ -39,7 +39,7 @@ bool IsIPv6AllZeros()
 
 **用法示例:**
 ```csharp
-bool isZero = existingAddr.IsIPv6AllZeros();
+bool isZero = addr.IsIPv6AllZeros();
 ```
 
 ### SetIPv6
@@ -55,7 +55,7 @@ void SetIPv6(byte[] ipv6, ushort nPort)
 
 **用法示例:**
 ```csharp
-SteamNetworkingIPAddr addr; addr.SetIPv6(new byte[16], 8080);
+addr.SetIPv6(new byte[16], 8080);
 ```
 
 ### SetIPv4
@@ -71,7 +71,7 @@ void SetIPv4(uint nIP, ushort nPort)
 
 **用法示例:**
 ```csharp
-SteamNetworkingIPAddr addr; addr.SetIPv4(3232235777, 8080);
+addr.SetIPv4(0x7f000001, 8080);
 ```
 
 ### IsIPv4
@@ -84,7 +84,7 @@ bool IsIPv4()
 
 **用法示例:**
 ```csharp
-bool isV4 = existingAddr.IsIPv4();
+bool isIPv4 = networkAddr.IsIPv4();
 ```
 
 ### GetIPv4
@@ -97,7 +97,7 @@ uint GetIPv4()
 
 **用法示例:**
 ```csharp
-uint ipv4 = steamNetworkingIPAddr.GetIPv4();
+uint ipv4 = addr.GetIPv4();
 ```
 
 ### SetIPv6LocalHost
@@ -112,7 +112,7 @@ void SetIPv6LocalHost(ushort nPort = 0)
 
 **用法示例:**
 ```csharp
-SteamNetworkingIPAddr addr; addr.SetIPv6LocalHost(8080);
+addr.SetIPv6LocalHost(8080);
 ```
 
 ### IsLocalHost
@@ -125,7 +125,7 @@ bool IsLocalHost()
 
 **用法示例:**
 ```csharp
-bool isLocal = steamNetworkingIPAddr.IsLocalHost();
+bool isLocal = addr.IsLocalHost();
 ```
 
 ### ToString
@@ -153,7 +153,8 @@ bool ParseString(string pszStr)
 
 **用法示例:**
 ```csharp
-var addr = new SteamNetworkingIPAddr(); var success = addr.ParseString("127.0.0.1:27015");
+var addr = default(SteamNetworkingIPAddr);
+addr.ParseString("[::1]:27015");
 ```
 
 ### Equals
@@ -178,7 +179,7 @@ ESteamNetworkingFakeIPType GetFakeIPType()
 
 **用法示例:**
 ```csharp
-ESteamNetworkingFakeIPType fakeIPType = steamNetworkingIPAddr.GetFakeIPType();
+var fakeIPType = steamNetworkingIPAddr.GetFakeIPType();
 ```
 
 ### IsFakeIP
@@ -191,6 +192,6 @@ bool IsFakeIP()
 
 **用法示例:**
 ```csharp
-bool isFake = existingAddr.IsFakeIP();
+bool isFake = ipAddr.IsFakeIP();
 ```
 

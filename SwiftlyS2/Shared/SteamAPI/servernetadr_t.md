@@ -22,7 +22,8 @@ void Init(uint ip, ushort usQueryPort, ushort usConnectionPort)
 
 **用法示例:**
 ```csharp
-adr.Init(0x7F000001u, 27015, 27016);
+servernetadr_t addr;
+addr.Init(0x7f000001, 27015, 27016);
 ```
 
 ### GetIPAndQueryPort
@@ -35,7 +36,7 @@ netadr_t GetIPAndQueryPort()
 
 **用法示例:**
 ```csharp
-var ip = adr.GetIPAndQueryPort();
+netadr_t addr = server.GetIPAndQueryPort();
 ```
 
 ### GetQueryPort
@@ -48,8 +49,7 @@ ushort GetQueryPort()
 
 **用法示例:**
 ```csharp
-ushort queryPort = addr.GetQueryPort();
-Console.WriteLine(queryPort);
+ushort queryPort = serverNetAdr.GetQueryPort();
 ```
 
 ### SetQueryPort
@@ -64,7 +64,7 @@ void SetQueryPort(ushort usPort)
 
 **用法示例:**
 ```csharp
-adr.SetQueryPort(27015);
+serverNetAdr.SetQueryPort(27015);
 ```
 
 ### GetConnectionPort
@@ -77,7 +77,7 @@ ushort GetConnectionPort()
 
 **用法示例:**
 ```csharp
-ushort port = adr.GetConnectionPort();
+ushort port = serverAddr.GetConnectionPort();
 ```
 
 ### SetConnectionPort
@@ -92,7 +92,8 @@ void SetConnectionPort(ushort usPort)
 
 **用法示例:**
 ```csharp
-addr.SetConnectionPort(27015);
+servernetadr_t serverAddr;
+serverAddr.SetConnectionPort(27015);
 ```
 
 ### GetIP
@@ -105,8 +106,7 @@ uint GetIP()
 
 **用法示例:**
 ```csharp
-uint ip = addr.GetIP();
-Console.WriteLine(ip);
+uint ip = serverNetAdr.GetIP();
 ```
 
 ### SetIP
@@ -121,7 +121,8 @@ void SetIP(uint unIP)
 
 **用法示例:**
 ```csharp
-adr.SetIP(3232235521u);
+servernetadr_t address;
+address.SetIP(0x7F000001);
 ```
 
 ### GetConnectionAddressString
@@ -134,7 +135,7 @@ string GetConnectionAddressString()
 
 **用法示例:**
 ```csharp
-string connectionAddress = addr.GetConnectionAddressString();
+string address = serverInstance.GetConnectionAddressString();
 ```
 
 ### GetQueryAddressString
@@ -147,8 +148,7 @@ string GetQueryAddressString()
 
 **用法示例:**
 ```csharp
-string queryAddress = serverAddr.GetQueryAddressString();
-Console.WriteLine(queryAddress);
+string queryAddress = serverNetAdr.GetQueryAddressString();
 ```
 
 ### ToString (静态)
@@ -210,6 +210,6 @@ int CompareTo(servernetadr_t other)
 
 **用法示例:**
 ```csharp
-int result = addr1.CompareTo(addr2);
+int result = currentAddress.CompareTo(otherAddress);
 ```
 

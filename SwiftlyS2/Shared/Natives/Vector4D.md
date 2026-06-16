@@ -51,7 +51,8 @@ Vector4D FromBuiltin(System.Numerics.Vector4 vector)
 
 **用法示例:**
 ```csharp
-var result = Vector4D.FromBuiltin(new System.Numerics.Vector4(1, 2, 3, 4));
+var builtinVec = System.Numerics.Vector4.One;
+var swiftVec = Vector4D.FromBuiltin(builtinVec);
 ```
 
 ### Normalize
@@ -62,8 +63,8 @@ void Normalize()
 
 **用法示例:**
 ```csharp
-Vector4D v = default;
-v.Normalize();
+Vector4D vec = Vector4D.One;
+vec.Normalize();
 ```
 
 ### Normalized
@@ -76,7 +77,7 @@ Vector4D Normalized()
 
 **用法示例:**
 ```csharp
-Vector4D result = existingVector.Normalized();
+Vector4D normalizedVec = existingVector.Normalized();
 ```
 
 ### Deconstruct
@@ -94,6 +95,7 @@ void Deconstruct(out float x, out float y, out float z, out float w)
 
 **用法示例:**
 ```csharp
-Vector4D vec = Vector4D.UnitW; vec.Deconstruct(out float x, out float y, out float z, out float w);
+var vec = Vector4D.One;
+vec.Deconstruct(out float x, out float y, out float z, out float w);
 ```
 

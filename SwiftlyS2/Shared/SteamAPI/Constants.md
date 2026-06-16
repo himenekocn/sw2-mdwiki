@@ -187,7 +187,7 @@ wire unencrypted(by this library)
 
 **用法示例:**
 ```csharp
-var mode = Constants.wireUnencrypted();
+var result = Constants.unencrypted();
 ```
 
 ### somehow
@@ -204,6 +204,6 @@ relayed somehow(SDR or TURN)
 
 **用法示例:**
 ```csharp
-var result = Constants.relayed(SDR);
+var relayMethod = Constants.relayed;
 ```
 

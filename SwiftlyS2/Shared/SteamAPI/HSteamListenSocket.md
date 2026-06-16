@@ -60,7 +60,7 @@ operator uint(HSteamListenSocket that)
 
 **用法示例:**
 ```csharp
-uint socketId = HSteamListenSocket.uint(existingSocket);
+uint handle = (uint)listenSocket;
 ```
 
 ### Equals

@@ -16,6 +16,6 @@ void Clear()
 
 **用法示例:**
 ```csharp
-SteamDatagramRelayAuthTicket ticket; ticket.Clear();
+ticket.Clear();
 ```
 

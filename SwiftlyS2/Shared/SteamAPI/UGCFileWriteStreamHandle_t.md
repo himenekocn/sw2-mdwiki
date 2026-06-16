@@ -60,7 +60,7 @@ operator ulong(UGCFileWriteStreamHandle_t that)
 
 **用法示例:**
 ```csharp
-ulong handleValue = UGCFileWriteStreamHandle_t.ulong(existingHandle);
+ulong handleValue = (ulong)existingStreamHandle;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(UGCFileWriteStreamHandle_t other)
 
 **用法示例:**
 ```csharp
-int result = existingHandle.CompareTo(otherHandle);
+int result = handle.CompareTo(otherHandle);
 ```
 

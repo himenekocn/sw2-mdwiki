@@ -60,7 +60,7 @@ operator ulong(SteamAPICall_t that)
 
 **用法示例:**
 ```csharp
-ulong callId = (ulong)existingSteamAPICall;
+ulong callId = apiCall;
 ```
 
 ### Equals

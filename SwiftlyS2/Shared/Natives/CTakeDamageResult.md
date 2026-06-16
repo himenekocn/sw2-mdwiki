@@ -13,11 +13,13 @@
 | `OriginatingInfo` | `CTakeDamageInfo*` | - | - |
 | `HealthLost` | `int` | - | - |
 | `HealthBefore` | `int` | - | - |
-| `DamageDealt` | `int` | - | - |
+| `DamageDealt` | `float` | - | - |
 | `PreModifiedDamage` | `float` | - | - |
 | `TotalledHealthLost` | `int` | - | - |
-| `TotalledDamageDealt` | `int` | - | - |
+| `TotalledDamageDealt` | `float` | - | - |
 | `TotalledPreModifiedDamage` | `float` | - | - |
+| `NewDamageAccumulatorValue` | `float` | - | - |
+| `DamageFlags` | `TakeDamageFlags_t` | - | - |
 | `WasDamageSuppressed` | `byte` | - | - |
 | `SuppressFlinch` | `byte` | - | - |
 | `OverrideFlinchHitGroup` | `HitGroup_t` | - | - |

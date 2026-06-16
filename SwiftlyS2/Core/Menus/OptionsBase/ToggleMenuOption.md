@@ -22,14 +22,14 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 
 **参数:**
 
-- `player` (`IPlayer`) - 查看该选项的玩家。
-- `displayLine` (`int`) = `0` - 显示行号（本实现中未使用）。
+- `player` (`IPlayer`) - 正在查看该选项的玩家。
+- `displayLine` (`int`) = `0` - 此实现中未使用的显示行号。
 
-**返回值:** `string` - 带有切换状态指示器的格式化显示文本。
+**返回值:** `string` - 带切换状态指示器的格式化显示文本。
 
 **用法示例:**
 ```csharp
-string displayText = toggleMenuOption.GetDisplayText(player, 0);
+string text = toggleMenuOption.GetDisplayText(player, 0);
 ```
 
 ### GetToggleState
@@ -38,17 +38,17 @@ string displayText = toggleMenuOption.GetDisplayText(player, 0);
 bool GetToggleState(IPlayer player)
 ```
 
-获取指定玩家的切换状态。
+获取指定玩家的开关状态。
 
 **参数:**
 
 - `player` (`IPlayer`) - 要检索其切换状态的玩家。
 
-**返回值:** `bool` - 若已启用则为 true，若已禁用则为 false。对于新玩家使用配置好的默认值。
+**返回值:** `bool` - 如果开关打开则为 true，如果开关关闭则为 false。对于新玩家，使用已配置的默认值。
 
 **用法示例:**
 ```csharp
-bool isEnabled = toggleMenuOption.GetToggleState(player);
+bool state = toggleMenuOption.GetToggleState(player);
 ```
 
 ### SetToggleState
@@ -57,14 +57,14 @@ bool isEnabled = toggleMenuOption.GetToggleState(player);
 bool SetToggleState(IPlayer player, bool value)
 ```
 
-设置指定玩家的切换状态并触发值更改事件。
+为指定玩家设置切换状态，并触发值更改事件。
 
 **参数:**
 
 - `player` (`IPlayer`) - 要设置切换状态的玩家。
-- `value` (`bool`) - 要设置的切换状态。
+- `value` (`bool`) - 要设置的开关键状态。
 
-**返回值:** `bool` - 如果值被更改则为 true，如果原本就是相同值则为 false。
+**返回值:** `bool` - 如果值已被更改则为 true，如果已是相同值则为 false。
 
 **用法示例:**
 ```csharp

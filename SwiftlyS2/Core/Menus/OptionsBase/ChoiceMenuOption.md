@@ -2,7 +2,7 @@
 
 # 📦 ChoiceMenuOption
 
-表示一个在选项列表中循环切换的菜单选项。
+表示一个在选项列表中循环选择的菜单选项。
 
 **命名空间:** `SwiftlyS2.Core.Menus.OptionsBase`
 
@@ -33,7 +33,7 @@ string GetDisplayText(IPlayer player, int displayLine = 0)
 
 **用法示例:**
 ```csharp
-var text = option.GetDisplayText(player, 0);
+string text = choiceMenuOption.GetDisplayText(player, 0);
 ```
 
 ### GetSelectedChoice
@@ -42,17 +42,17 @@ var text = option.GetDisplayText(player, 0);
 string GetSelectedChoice(IPlayer player)
 ```
 
-获取指定玩家当前所选的选项。
+获取指定玩家当前选中的选项。
 
 **参数:**
 
-- `player` (`IPlayer`) - 待检索其选定选项的玩家。
+- `player` (`IPlayer`) - 所选玩家以检索其选择。
 
 **返回值:** `string` - 当前选中的选项字符串。
 
 **用法示例:**
 ```csharp
-string selectedChoice = choiceMenuOption.GetSelectedChoice(player);
+string selected = choiceMenuOption.GetSelectedChoice(player);
 ```
 
 ### SetSelectedChoice
@@ -65,11 +65,11 @@ void SetSelectedChoice(IPlayer player, string choice)
 
 **参数:**
 
-- `player` (`IPlayer`) - 要设置选择的玩家。
-- `choice` (`string`) - 选择项。必须存在于 <see cref="Choices"/> 列表中。
+- `player` (`IPlayer`) - 设置选择的玩家。
+- `choice` (`string`) - 要选择的选项。必须存在于 <see cref="Choices"/> 列表中。
 
 **用法示例:**
 ```csharp
-choiceMenuOption.SetSelectedChoice(player, "Yes");
+choiceMenuOption.SetSelectedChoice(player, "Option1");
 ```
 

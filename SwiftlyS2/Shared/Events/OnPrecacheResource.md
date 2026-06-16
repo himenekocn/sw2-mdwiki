@@ -2,7 +2,7 @@
 
 # 🔗 OnPrecacheResource
 
-在资源预缓存时调用。
+当游戏预缓存资源时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

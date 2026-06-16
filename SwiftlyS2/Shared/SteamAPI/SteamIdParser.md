@@ -22,7 +22,7 @@ ulong? ParseToSteamId64(string input)
 
 **用法示例:**
 ```csharp
-ulong? steamId64 = SteamIdParser.ParseToSteamId64("STEAM_0:1:12345");
+ulong? steamId = SteamIdParser.ParseToSteamId64("76561198000000000");
 ```
 
 ### TryParseSteamIdOnline (静态)
@@ -40,7 +40,7 @@ bool TryParseSteamIdOnline(string input, out ulong steamId64)
 
 **用法示例:**
 ```csharp
-if (SteamIdParser.TryParseSteamIdOnline("https://steamcommunity.com/profiles/76561198000000000", out ulong steamId64)) Console.WriteLine(steamId64);
+if (SteamIdParser.TryParseSteamIdOnline("STEAM_0:1:12345678", out ulong steamId)) { Console.WriteLine(steamId); }
 ```
 
 ### IsValidSteamId64 (静态)
@@ -57,7 +57,7 @@ bool IsValidSteamId64(ulong steamId64)
 
 **用法示例:**
 ```csharp
-bool isValid = SteamIdParser.IsValidSteamId64(76561198000000000UL);
+bool isValid = SteamIdParser.IsValidSteamId64(76561197960287930);
 ```
 
 ### ToSteamId (静态)
@@ -74,7 +74,7 @@ string ToSteamId(ulong steamId64)
 
 **用法示例:**
 ```csharp
-string steamId = SteamIdParser.ToSteamId(76561198000000000UL);
+string steamId = SteamIdParser.ToSteamId(76561198000000000);
 ```
 
 ### ToSteamId3 (静态)
@@ -91,8 +91,8 @@ string ToSteamId3(ulong steamId64)
 
 **用法示例:**
 ```csharp
-ulong steamId64 = 76561198000000000UL;
-string steamId3 = SteamIdParser.ToSteamId3(steamId64);
+var parser = new SteamIdParser();
+string steamId3 = parser.ToSteamId3(76561198000000000);
 ```
 
 ### ToSteamIdOnline (静态)
@@ -109,6 +109,6 @@ string ToSteamIdOnline(ulong steamId64)
 
 **用法示例:**
 ```csharp
-string steamIdOnline = SteamIdParser.ToSteamIdOnline(76561198000000000UL);
+string onlineId = SteamIdParser.ToSteamIdOnline(76561198000000000);
 ```
 

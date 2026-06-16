@@ -60,7 +60,7 @@ operator uint(AppId_t that)
 
 **用法示例:**
 ```csharp
-uint appIdValue = (uint)existingAppId;
+uint appIdValue = (uint)appId;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(AppId_t other)
 
 **用法示例:**
 ```csharp
-int result = existingAppId.CompareTo(otherAppId);
+int result = appId.CompareTo(otherAppId);
 ```
 

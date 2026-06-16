@@ -2,7 +2,7 @@
 
 # 🔗 EntityOutputEventHandler
 
-表示一种处理实体输出事件的方法，允许在实体触发输出时执行自定义逻辑。
+表示一个处理实体输出事件的方法，允许在实体触发输出时执行自定义逻辑。
 
 **命名空间:** `SwiftlyS2.Shared.EntitySystem`
 

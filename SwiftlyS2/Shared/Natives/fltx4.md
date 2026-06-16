@@ -21,7 +21,8 @@ void SetFloat(int index, float value)
 
 **用法示例:**
 ```csharp
-fltx4 vector; vector.SetFloat(0, 1.5f);
+fltx4 vector;
+vector.SetFloat(0, 1.0f);
 ```
 
 ### SetUInt
@@ -37,6 +38,6 @@ void SetUInt(int index, uint value)
 
 **用法示例:**
 ```csharp
-fltx4Vector.SetUInt(0, 42u);
+vector.SetUInt(0, 100);
 ```
 

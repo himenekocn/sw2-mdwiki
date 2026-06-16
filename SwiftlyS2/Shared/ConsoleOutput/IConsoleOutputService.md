@@ -20,7 +20,7 @@ void ConsoleOutputHandler(string message)
 
 **用法示例:**
 ```csharp
-consoleOutputService.ConsoleOutputHandler("Server started successfully");
+convar.ConsoleOutputHandler("Hello World");
 ```
 
 ### RegisterConsoleOutputListener
@@ -37,7 +37,7 @@ Guid RegisterConsoleOutputListener(ConsoleOutputHandler handler)
 
 **用法示例:**
 ```csharp
-Guid listenerId = consoleOutputService.RegisterConsoleOutputListener(handler);
+Guid listenerId = consoleOutputService.RegisterConsoleOutputListener(OnConsoleOutput);
 ```
 
 ### UnregisterConsoleOutputListener
@@ -52,7 +52,7 @@ void UnregisterConsoleOutputListener(Guid guid)
 
 **用法示例:**
 ```csharp
-convar.UnregisterConsoleOutputListener(existingGuid);
+consoleOutputService.UnregisterConsoleOutputListener(listenerGuid);
 ```
 
 ### IsFilterEnabled
@@ -61,9 +61,9 @@ convar.UnregisterConsoleOutputListener(existingGuid);
 bool IsFilterEnabled()
 ```
 
-获取控制台过滤功能是否已启用。
+获取控制台过滤是否已启用。
 
-**返回值:** `bool` - 若启用了过滤功能则为 true，否则为 false。
+**返回值:** `bool` - 如果启用了过滤，则为 true；否则为 false。
 
 **用法示例:**
 ```csharp
@@ -76,7 +76,7 @@ bool isEnabled = consoleOutputService.IsFilterEnabled();
 void ToggleFilter()
 ```
 
-切换控制台过滤器的开启/关闭状态。
+切换控制台过滤器的开/关。
 
 **用法示例:**
 ```csharp
@@ -89,7 +89,7 @@ consoleOutputService.ToggleFilter();
 void ReloadFilterConfiguration()
 ```
 
-从文件重新加载过滤器配置。
+从文件重新加载筛选器配置。
 
 **用法示例:**
 ```csharp
@@ -106,13 +106,13 @@ bool NeedsFiltering(string message)
 
 **参数:**
 
-- `message` (`string`) - 待检查的消息。
+- `message` (`string`) - 要检查的消息。
 
-**返回值:** `bool` - 若消息应被过滤，则为 true；否则为 false。
+**返回值:** `bool` - 如果消息应被过滤则为真，否则为假。
 
 **用法示例:**
 ```csharp
-bool shouldFilter = consoleOutputService.NeedsFiltering("Player joined the game");
+bool needsFilter = consoleOutputService.NeedsFiltering("Hello World");
 ```
 
 ### GetCounterText
@@ -136,14 +136,14 @@ string counterText = consoleOutputService.GetCounterText();
 void WriteToServerConsole(string message)
 ```
 
-使用 tier0 日志系统向服务器控制台写入消息。
+使用tier0日志系统向服务器控制台写入一条消息。
 
 **参数:**
 
-- `message` (`string`) - 该消息
+- `message` (`string`) - 消息
 
 **用法示例:**
 ```csharp
-consoleOutputService.WriteToServerConsole("Server started successfully");
+consoleOutputService.WriteToServerConsole("Hello from SwiftlyS2");
 ```
 

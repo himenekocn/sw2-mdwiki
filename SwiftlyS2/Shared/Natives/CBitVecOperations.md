@@ -21,7 +21,7 @@ void ClearAll(uint* buffer, int intCount)
 
 **用法示例:**
 ```csharp
-unsafe { uint[] buffer = new uint[10]; fixed (uint* ptr = buffer) CBitVecOperations.ClearAll(ptr, 10); }
+unsafe { CBitVecOperations.ClearAll(buffer, intCount); }
 ```
 
 ### SetAll (静态)
@@ -37,7 +37,7 @@ void SetAll(uint* buffer, int intCount)
 
 **用法示例:**
 ```csharp
-uint[] data = new uint[10]; fixed (uint* ptr = data) CBitVecOperations.SetAll(ptr, 10);
+unsafe { fixed (uint* ptr = buffer) CBitVecOperations.SetAll(ptr, count); }
 ```
 
 ### Set (静态)
@@ -54,7 +54,7 @@ void Set(uint* buffer, uint index, uint maxBits)
 
 **用法示例:**
 ```csharp
-unsafe { fixed (uint* ptr = buffer) CBitVecOperations.Set(ptr, index, maxBits); }
+uint[] buffer = new uint[1]; fixed (uint* ptr = buffer) { CBitVecOperations.Set(ptr, 0, 32); }
 ```
 
 ### Set (静态)
@@ -71,7 +71,7 @@ void Set(uint* buffer, int index, uint maxBits)
 
 **用法示例:**
 ```csharp
-unsafe { uint[] data = new uint[1]; fixed (uint* ptr = data) CBitVecOperations.Set(ptr, 5, 32); }
+CBitVecOperations.Set(buffer, 0, 32);
 ```
 
 ### Clear (静态)
@@ -88,7 +88,7 @@ void Clear(uint* buffer, uint index, uint maxBits)
 
 **用法示例:**
 ```csharp
-uint* buffer = stackalloc uint[10]; CBitVecOperations.Clear(buffer, 0, 32);
+unsafe { fixed (uint* ptr = new uint[1]) { CBitVecOperations.Clear(ptr, 0, 32); } }
 ```
 
 ### Clear (静态)
@@ -105,7 +105,7 @@ void Clear(uint* buffer, int index, uint maxBits)
 
 **用法示例:**
 ```csharp
-uint* buffer = stackalloc uint[10]; CBitVecOperations.Clear(buffer, 0, 32);
+unsafe { CBitVecOperations.Clear(buffer, 0, 32); }
 ```
 
 ### IsSet (静态)
@@ -124,7 +124,7 @@ bool IsSet(uint* buffer, uint index, uint maxBits)
 
 **用法示例:**
 ```csharp
-uint[] data = new uint[10]; bool result = CBitVecOperations.IsSet((uint*)System.Runtime.InteropServices.Marshal.UnsafeAddrOfPinnedArrayElement(data, 0), 5, 64);
+bool isSet = CBitVecOperations.IsSet(buffer, 0, 32);
 ```
 
 ### IsSet (静态)
@@ -143,7 +143,7 @@ bool IsSet(uint* buffer, int index, uint maxBits)
 
 **用法示例:**
 ```csharp
-unsafe { bool result = CBitVecOperations.IsSet(buffer, 5, 32); }
+unsafe { bool result = CBitVecOperations.IsSet(buffer, 0, 32); }
 ```
 
 ### Count (静态)
@@ -161,7 +161,7 @@ int Count(uint* buffer, int intCount)
 
 **用法示例:**
 ```csharp
-uint[] data = new uint[10]; int result; unsafe { fixed (uint* ptr = data) { result = CBitVecOperations.Count(ptr, 10); } }
+unsafe { uint[] data = new uint[10]; fixed (uint* ptr = data) { int count = CBitVecOperations.Count(ptr, 10); } }
 ```
 
 ### IsAllClear (静态)
@@ -179,6 +179,6 @@ bool IsAllClear(uint* buffer, int intCount)
 
 **用法示例:**
 ```csharp
-unsafe { bool result = CBitVecOperations.IsAllClear(null, 0); }
+unsafe { bool result = CBitVecOperations.IsAllClear(stackalloc uint[10], 10); }
 ```
 

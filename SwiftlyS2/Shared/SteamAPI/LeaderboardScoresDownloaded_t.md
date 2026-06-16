@@ -26,6 +26,6 @@ into GetDownloadedLeaderboardEntries()
 
 **用法示例:**
 ```csharp
-var entries = downloaded.GetDownloadedLeaderboardEntries();
+var entries = leaderboardEvent.GetDownloadedLeaderboardEntries();
 ```
 

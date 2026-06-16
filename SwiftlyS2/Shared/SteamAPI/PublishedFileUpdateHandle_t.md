@@ -60,7 +60,7 @@ operator ulong(PublishedFileUpdateHandle_t that)
 
 **用法示例:**
 ```csharp
-ulong handle = PublishedFileUpdateHandle_t.ulong(existingHandle);
+ulong handleValue = (ulong)existingPublishedFileUpdateHandle;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(PublishedFileUpdateHandle_t other)
 
 **用法示例:**
 ```csharp
-int result = handle.CompareTo(otherHandle);
+int result = existingHandle.CompareTo(otherHandle);
 ```
 

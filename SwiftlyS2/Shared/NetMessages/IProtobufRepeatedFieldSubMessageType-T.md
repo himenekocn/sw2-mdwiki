@@ -32,7 +32,7 @@ T Get(int index)
 
 **用法示例:**
 ```csharp
-var item = protobufField.Get(0);
+var item = repeatedField.Get(0);
 ```
 
 ### Add
@@ -45,7 +45,7 @@ T Add()
 
 **用法示例:**
 ```csharp
-var item = existingField.Add();
+var item = field.Add();
 ```
 
 ### Clear
@@ -56,6 +56,6 @@ void Clear()
 
 **用法示例:**
 ```csharp
-protobufField.Clear();
+repeatedFieldSubMessageType.Clear();
 ```
 

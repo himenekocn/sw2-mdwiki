@@ -60,7 +60,7 @@ operator ulong(PartyBeaconID_t that)
 
 **用法示例:**
 ```csharp
-ulong id = PartyBeaconID_t.operator ulong(existingBeacon);
+ulong id = (ulong)partyBeaconId;
 ```
 
 ### Equals

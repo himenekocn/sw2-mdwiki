@@ -76,7 +76,7 @@ void Load(bool hotReload)
 
 **用法示例:**
 ```csharp
-plugin.Load(true);
+plugin.Load(false);
 ```
 
 ### Unload

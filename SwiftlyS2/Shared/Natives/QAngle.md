@@ -2,7 +2,7 @@
 
 # 🏗️ QAngle
 
-QAngle 是一个包含三个 float 的类型，用于表示角度。采用度数制欧拉角，依次为：俯仰（Pitch）、偏航（Yaw）和翻滚（Roll）。
+QAngle 是一个包含三个浮点数的类型，表示一个角度。度制欧拉角。俯仰角、偏航角、翻滚角
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 
@@ -20,9 +20,9 @@ QAngle 是一个包含三个 float 的类型，用于表示角度。采用度数
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `X` | `float` | - | 俯仰旋转（上下）的 X 轴访问器。 |
-| `Y` | `float` | - | 用于偏航旋转（左右）的 Y 轴访问器。 |
-| `Z` | `float` | - | 用于 Roll 旋转（翻滚/倾斜）的 Z 轴访问器。 |
+| `X` | `float` | - | 俯仰旋转（上下）的X轴访问器 |
+| `Y` | `float` | - | Y轴访问器，用于偏航旋转（左/右）。 |
+| `Z` | `float` | - | 滚转角（Roll/Tilt）的Z轴访问器。 |
 | `Zero` | `QAngle` | - | - |
 
 ## ⚙️ 方法
@@ -33,17 +33,17 @@ QAngle 是一个包含三个 float 的类型，用于表示角度。采用度数
 void ToDirectionVectors(out Vector forward, out Vector right, out Vector up)
 ```
 
-计算与该角度对应的正向、右侧和上向基向量。用法：<c>angle.ToDirectionVectors(out var forward, out var right, out var up);</c>
+计算与该角度对应的前向、右向和上向基向量。用法：<c>angle.ToDirectionVectors(out var forward, out var right, out var up);</c>
 
 **参数:**
 
 - `forward` (`out Vector`) - 前向方向（X：北，Z：上）。
-- `right` (`out Vector`) - 方向正确。
+- `right` (`out Vector`) - 右方向。
 - `up` (`out Vector`) - 向上方向。
 
 **用法示例:**
 ```csharp
-QAngle angle = default; angle.ToDirectionVectors(out var forward, out var right, out var up);
+angle.ToDirectionVectors(out var forward, out var right, out var up);
 ```
 
 ### Serialize
@@ -52,17 +52,17 @@ QAngle angle = default; angle.ToDirectionVectors(out var forward, out var right,
 string Serialize(IFormatProvider? formatProvider = null)
 ```
 
-将角度向量序列化为字符串。示例返回："100 200 300"
+将qangle序列化为字符串。返回示例："100 200 300"
 
 **参数:**
 
-- `formatProvider` (`IFormatProvider?`) = `null` - 要使用的字符串格式提供程序。为 null 时，使用默认提供程序。
+- `formatProvider` (`IFormatProvider?`) = `null` - 用于字符串的格式提供程序。为null则使用默认提供程序。
 
-**返回值:** `string` - 以字符串形式序列化的角度值（qangle）。
+**返回值:** `string` - 序列化后的qangle字符串。
 
 **用法示例:**
 ```csharp
-string result = existingQAngle.Serialize(null);
+string result = qangle.Serialize(null);
 ```
 
 ### Deserialize (静态)
@@ -71,14 +71,14 @@ string result = existingQAngle.Serialize(null);
 QAngle Deserialize(string input, IFormatProvider? formatProvider = null)
 ```
 
-将 qangle 从字符串反序列化。示例输入："100 200 300"
+从字符串反序列化四元组角度。示例输入："100 200 300"
 
 **参数:**
 
-- `input` (`string`) - 以字符串形式序列化的角度值（qangle）。
-- `formatProvider` (`IFormatProvider?`) = `null` - 要使用的字符串格式提供程序。为 null 时，使用默认提供程序。
+- `input` (`string`) - 序列化后的qangle字符串。
+- `formatProvider` (`IFormatProvider?`) = `null` - 用于字符串的格式提供程序。为null则使用默认提供程序。
 
-**返回值:** `QAngle` - 反序列化后的角度值。
+**返回值:** `QAngle` - 已反序列化的视角角度。
 
 **用法示例:**
 ```csharp
@@ -91,18 +91,17 @@ var angle = QAngle.Deserialize("100 200 300", null);
 bool TryDeserialize([NotNullWhen(true )
 ```
 
-尝试从字符串反序列化 qangle。示例输入："100 200 300"
+尝试从字符串反序列化qangle。示例输入："100 200 300"
 
 **参数:**
 
 - `` (`[NotNullWhen(true`)
 
-**返回值:** `bool` - 若反序列化成功则为 true，否则为 false。
+**返回值:** `bool` - 如果反序列化成功则为 true，否则为 false。
 
 **用法示例:**
 ```csharp
-string input = "100 200 300";
-bool success = QAngle.TryDeserialize(input, out var angle);
+bool success = QAngle.TryDeserialize("100 200 300", out QAngle angle);
 ```
 
 ### TryDeserialize (静态)
@@ -111,17 +110,16 @@ bool success = QAngle.TryDeserialize(input, out var angle);
 bool TryDeserialize([NotNullWhen(true )
 ```
 
-尝试从字符串反序列化 qangle。示例输入："100 200 300"
+尝试从字符串反序列化qangle。示例输入："100 200 300"
 
 **参数:**
 
 - `` (`[NotNullWhen(true`)
 
-**返回值:** `bool` - 若反序列化成功则为 true，否则为 false。
+**返回值:** `bool` - 如果反序列化成功则为 true，否则为 false。
 
 **用法示例:**
 ```csharp
-string input = "100 200 300";
-bool success = QAngle.TryDeserialize(input, out var angle);
+bool success = QAngle.TryDeserialize("100 200 300", out QAngle angle);
 ```
 

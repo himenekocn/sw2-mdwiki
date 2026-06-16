@@ -18,10 +18,10 @@ bool LoadPlugin(string pluginId, bool silent = false)
 
 **参数:**
 
-- `pluginId` (`string`) - 插件的 ID。
-- `silent` (`bool`) = `false` - 如果为 true，则抑制任何错误消息。
+- `pluginId` (`string`) - 插件的ID。
+- `silent` (`bool`) = `false` - 如果为真，则抑制所有错误消息。
 
-**返回值:** `bool` - 若插件加载成功则为 true，否则为 false。
+**返回值:** `bool` - 如果插件加载成功则为真，否则为假。
 
 **用法示例:**
 ```csharp
@@ -38,14 +38,14 @@ bool UnloadPlugin(string pluginId, bool silent = false)
 
 **参数:**
 
-- `pluginId` (`string`) - 插件的 ID。
-- `silent` (`bool`) = `false` - 如果为 true，则抑制任何错误消息。
+- `pluginId` (`string`) - 插件的ID。
+- `silent` (`bool`) = `false` - 如果为真，则抑制所有错误消息。
 
-**返回值:** `bool` - 如果插件卸载成功则为 true，否则为 false。
+**返回值:** `bool` - 如果插件成功卸载则为 true，否则为 false。
 
 **用法示例:**
 ```csharp
-manager.UnloadPlugin("example_plugin", false);
+bool result = manager.UnloadPlugin("my_plugin_id", false);
 ```
 
 ### ReloadPlugin
@@ -58,14 +58,14 @@ bool ReloadPlugin(string pluginId, bool silent = false)
 
 **参数:**
 
-- `pluginId` (`string`) - 插件的 ID。
-- `silent` (`bool`) = `false` - 如果为 true，则抑制任何错误消息。
+- `pluginId` (`string`) - 插件的ID。
+- `silent` (`bool`) = `false` - 如果为真，则抑制所有错误消息。
 
-**返回值:** `bool` - 若插件成功重载则为 true，否则为 false。
+**返回值:** `bool` - 如果插件重新加载成功，则为 True，否则为 False。
 
 **用法示例:**
 ```csharp
-bool success = pluginManager.ReloadPlugin("myPlugin", true);
+manager.ReloadPlugin("my_plugin", true);
 ```
 
 ### GetPluginStatus
@@ -78,7 +78,7 @@ PluginStatus? GetPluginStatus(string pluginId)
 
 **参数:**
 
-- `pluginId` (`string`) - 插件的 ID。
+- `pluginId` (`string`) - 插件的ID。
 
 **返回值:** `PluginStatus?`
 
@@ -97,13 +97,13 @@ PluginMetadata? GetPluginMetadata(string pluginId)
 
 **参数:**
 
-- `pluginId` (`string`) - 插件的 ID。
+- `pluginId` (`string`) - 插件的ID。
 
 **返回值:** `PluginMetadata?`
 
 **用法示例:**
 ```csharp
-var metadata = manager.GetPluginMetadata("MyPluginId");
+var metadata = manager.GetPluginMetadata("my_plugin_id");
 ```
 
 ### GetPluginPath
@@ -116,13 +116,13 @@ string? GetPluginPath(string pluginId)
 
 **参数:**
 
-- `pluginId` (`string`) - 插件的 ID。
+- `pluginId` (`string`) - 插件的ID。
 
 **返回值:** `string?`
 
 **用法示例:**
 ```csharp
-string? path = manager.GetPluginPath("my-plugin-id");
+string? path = manager.GetPluginPath("example_plugin");
 ```
 
 ### GetPluginPaths
@@ -131,7 +131,7 @@ string? path = manager.GetPluginPath("my-plugin-id");
 string> GetPluginPaths()
 ```
 
-获取一个以插件 ID 为键的字典，包含所有插件路径。
+获取所有插件路径的字典，以插件ID为键。
 
 **返回值:** `string\>`
 
@@ -146,7 +146,7 @@ var pluginPaths = manager.GetPluginPaths();
 PluginStatus> GetAllPluginStatuses()
 ```
 
-获取一个字典，包含所有插件的状态，键为插件 ID。
+获取所有插件状态的字典，以插件ID为键。
 
 **返回值:** `PluginStatus\>`
 
@@ -161,13 +161,13 @@ var statuses = manager.GetAllPluginStatuses();
 PluginMetadata> GetAllPluginMetadata()
 ```
 
-获取所有插件元数据的字典，以插件 ID 为键。
+获取所有插件元数据的字典，键为插件ID。
 
 **返回值:** `PluginMetadata\>`
 
 **用法示例:**
 ```csharp
-var metadata = manager.GetAllPluginMetadata();
+var metadataDict = manager.GetAllPluginMetadata();
 ```
 
 ### GetAllPlugins
@@ -176,7 +176,7 @@ var metadata = manager.GetAllPluginMetadata();
 IEnumerable<string> GetAllPlugins()
 ```
 
-获取所有插件 ID 的列表。
+获取所有插件ID的列表。
 
 **返回值:** `IEnumerable\<string\>`
 

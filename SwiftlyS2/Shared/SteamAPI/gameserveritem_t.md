@@ -34,7 +34,7 @@ string GetGameDir()
 
 **用法示例:**
 ```csharp
-string gameDir = item.GetGameDir();
+string gameDir = serverItem.GetGameDir();
 ```
 
 ### SetGameDir
@@ -49,8 +49,7 @@ void SetGameDir(string dir)
 
 **用法示例:**
 ```csharp
-gameserveritem_t item = serverItem;
-item.SetGameDir("csgo");
+gameserveritem.SetGameDir("cstrike");
 ```
 
 ### GetMap
@@ -63,7 +62,7 @@ string GetMap()
 
 **用法示例:**
 ```csharp
-string map = item.GetMap();
+string mapName = existingServerItem.GetMap();
 ```
 
 ### SetMap
@@ -78,8 +77,7 @@ void SetMap(string map)
 
 **用法示例:**
 ```csharp
-gameserveritem_t item = existingItem;
-item.SetMap("de_dust2");
+existingServerItem.SetMap("de_dust2");
 ```
 
 ### GetGameDescription
@@ -92,7 +90,7 @@ string GetGameDescription()
 
 **用法示例:**
 ```csharp
-string desc = item.GetGameDescription();
+string desc = serverItem.GetGameDescription();
 ```
 
 ### SetGameDescription
@@ -107,7 +105,7 @@ void SetGameDescription(string desc)
 
 **用法示例:**
 ```csharp
-serverItem.SetGameDescription("My Server");
+serverItem.SetGameDescription("My Game Server");
 ```
 
 ### GetServerName
@@ -120,8 +118,7 @@ string GetServerName()
 
 **用法示例:**
 ```csharp
-string serverName = serverItem.GetServerName();
-Console.WriteLine(serverName);
+string name = serverItem.GetServerName();
 ```
 
 ### SetServerName
@@ -136,7 +133,7 @@ void SetServerName(string name)
 
 **用法示例:**
 ```csharp
-serverItem.SetServerName("My Server");
+serverItem.SetServerName("MyGameServer");
 ```
 
 ### GetGameTags
@@ -149,7 +146,7 @@ string GetGameTags()
 
 **用法示例:**
 ```csharp
-string tags = gameServerItem.GetGameTags();
+string tags = serverItem.GetGameTags();
 ```
 
 ### SetGameTags
@@ -164,7 +161,7 @@ void SetGameTags(string tags)
 
 **用法示例:**
 ```csharp
-serverItem.SetGameTags("deathmatch,ranked");
+serverItem.SetGameTags("competitive,ranked");
 ```
 
 ### bots
@@ -181,7 +178,7 @@ of bots(i.e simulated players)
 
 **用法示例:**
 ```csharp
-int botCount = serverItem.bots();
+int botCount = serverItem.bots;
 ```
 
 ### time
@@ -198,6 +195,6 @@ int botCount = serverItem.bots();
 
 **用法示例:**
 ```csharp
-var unixTime = item.time();
+var unixTime = serverItem.time();
 ```
 

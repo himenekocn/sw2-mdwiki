@@ -22,6 +22,6 @@ operator IntPtr(MMKVPMarshaller that)
 
 **用法示例:**
 ```csharp
-IntPtr ptr = MMKVPMarshaller.IntPtr(existingMarshaller);
+IntPtr ptr = marshaller;
 ```
 

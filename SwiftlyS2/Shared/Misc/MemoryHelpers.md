@@ -25,7 +25,7 @@ int CalcNewDoublingCount(int oldCount, int requestedCount, int minCount, int max
 
 **用法示例:**
 ```csharp
-int newCount = MemoryHelpers.CalcNewDoublingCount(4, 10, 2, 100);
+int newCount = MemoryHelpers.CalcNewDoublingCount(10, 25, 8, 128);
 ```
 
 ### ShiftElementsRight (静态)
@@ -44,7 +44,7 @@ void ShiftElementsRight(nint memory, int elem, int num, int size, int elementSiz
 
 **用法示例:**
 ```csharp
-nint ptr = System.Runtime.InteropServices.Marshal.AllocHGlobal(1024); MemoryHelpers.ShiftElementsRight(ptr, 0, 5, 1024, 4);
+MemoryHelpers.ShiftElementsRight(IntPtr.Zero, 0, 10, 4, sizeof(int));
 ```
 
 ### ShiftElementsLeft (静态)
@@ -63,6 +63,7 @@ void ShiftElementsLeft(nint memory, int elem, int num, int size, int elementSize
 
 **用法示例:**
 ```csharp
-nint ptr = System.Runtime.InteropServices.Marshal.AllocHGlobal(1024); MemoryHelpers.ShiftElementsLeft(ptr, 0, 5, 100, 4);
+nint ptr = System.Runtime.InteropServices.Marshal.AllocHGlobal(1024);
+MemoryHelpers.ShiftElementsLeft(ptr, 0, 5, 10, 4);
 ```
 

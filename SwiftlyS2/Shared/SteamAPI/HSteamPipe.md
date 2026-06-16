@@ -60,7 +60,7 @@ operator int(HSteamPipe that)
 
 **用法示例:**
 ```csharp
-int pipeValue = HSteamPipe.int(existingPipe);
+int pipeId = (int)existingHSteamPipe;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(HSteamPipe other)
 
 **用法示例:**
 ```csharp
-int result = existingPipe.CompareTo(otherPipe);
+int result = currentPipe.CompareTo(otherPipe);
 ```
 

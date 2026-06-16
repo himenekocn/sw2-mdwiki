@@ -28,6 +28,6 @@ join via(will be invalid if not directly via a friend)
 
 **用法示例:**
 ```csharp
-joinRequest.via(friendSteamId);
+var joinId = existingInstance.via();
 ```
 

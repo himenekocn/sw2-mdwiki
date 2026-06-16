@@ -60,7 +60,7 @@ operator uint(RemotePlayCursorID_t that)
 
 **用法示例:**
 ```csharp
-uint id = RemotePlayCursorID_t.uint(existingCursorID);
+uint id = (uint)cursorID;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(RemotePlayCursorID_t other)
 
 **用法示例:**
 ```csharp
-int result = existingCursor.CompareTo(otherCursor);
+int result = cursorID.CompareTo(otherCursorID);
 ```
 

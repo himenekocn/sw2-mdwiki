@@ -60,7 +60,7 @@ operator uint(ScreenshotHandle that)
 
 **用法示例:**
 ```csharp
-uint handleValue = ScreenshotHandle.uint(existingHandle);
+uint handleValue = (uint)screenshotHandle;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(ScreenshotHandle other)
 
 **用法示例:**
 ```csharp
-int result = existingHandle.CompareTo(otherHandle);
+int result = screenshotHandle.CompareTo(otherScreenshotHandle);
 ```
 

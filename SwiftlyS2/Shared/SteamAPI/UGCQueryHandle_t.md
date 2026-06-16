@@ -60,7 +60,7 @@ operator ulong(UGCQueryHandle_t that)
 
 **用法示例:**
 ```csharp
-ulong handleValue = (ulong)existingQueryHandle;
+ulong handleValue = (ulong)existingUGCQueryHandle;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(UGCQueryHandle_t other)
 
 **用法示例:**
 ```csharp
-int result = queryHandle.CompareTo(otherQueryHandle);
+int result = queryHandle.CompareTo(otherHandle);
 ```
 

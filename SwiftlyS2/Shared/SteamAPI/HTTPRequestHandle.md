@@ -60,7 +60,7 @@ operator uint(HTTPRequestHandle that)
 
 **用法示例:**
 ```csharp
-uint handleValue = HTTPRequestHandle.uint(existingHandle);
+uint handleValue = (uint)requestHandle;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(HTTPRequestHandle other)
 
 **用法示例:**
 ```csharp
-int result = handle.CompareTo(otherHandle);
+int result = requestHandle.CompareTo(otherRequestHandle);
 ```
 

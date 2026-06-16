@@ -34,6 +34,6 @@ Unix epoch(seconds since 1/1/1970)
 
 **用法示例:**
 ```csharp
-long epochSeconds = gsReputation.UnixEpoch();
+long epoch = gsReputation.epoch;
 ```
 

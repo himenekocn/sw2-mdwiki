@@ -12,9 +12,9 @@
 |------|------|--------|------|
 | `ItemServices` | `CCSPlayer_ItemServices` | get | 物品服务。 |
 | `EconItemView` | `CEconItemView` | get | 经济物品视图。 |
-| `WeaponVData` | `CCSWeaponBaseVData?` | get | 若找到该武器的 VData，则返回；否则为 null。 |
+| `WeaponVData` | `CCSWeaponBaseVData?` | get | 如果找到武器虚拟数据则返回该数据，否则返回空值。 |
 | `AcquireMethod` | `AcquireMethod` | get | 获取方法。 |
-| `OriginalResult` | `AcquireResult` | get | CanAcquire 调用的原始返回结果。 |
+| `OriginalResult` | `AcquireResult` | get | CanAcquire调用的原始结果。 |
 
 ## ⚙️ 方法
 
@@ -24,14 +24,14 @@
 void SetAcquireResult(AcquireResult result)
 ```
 
-拦截并修改获取结果。这将修改获取结果，并阻止后续钩子及原始函数的执行。
+拦截并修改获取结果。这将修改获取结果并阻止后续钩子及原始函数。
 
 **参数:**
 
-- `result` (`AcquireResult`) - 要修改的结果。
+- `result` (`AcquireResult`) - 修改结果。
 
 **用法示例:**
 ```csharp
-hookEvent.SetAcquireResult(AcquireResult.Deny);
+hookEvent.SetAcquireResult(AcquireResult.Value);
 ```
 

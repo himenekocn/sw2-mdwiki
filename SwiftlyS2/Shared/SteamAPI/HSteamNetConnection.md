@@ -60,7 +60,7 @@ operator uint(HSteamNetConnection that)
 
 **用法示例:**
 ```csharp
-uint connectionId = HSteamNetConnection.uint(existingConnection);
+uint connectionId = (uint)existingConnection;
 ```
 
 ### Equals

@@ -60,7 +60,7 @@ operator uint(SteamNetworkingPOPID that)
 
 **用法示例:**
 ```csharp
-uint popIdValue = SteamNetworkingPOPID.uint(existingPopId);
+uint popId = (uint)steamNetworkingPopIdInstance;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(SteamNetworkingPOPID other)
 
 **用法示例:**
 ```csharp
-int result = popidA.CompareTo(popidB);
+int result = popid.CompareTo(otherPopid);
 ```
 

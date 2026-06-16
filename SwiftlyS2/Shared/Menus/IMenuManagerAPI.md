@@ -2,7 +2,7 @@
 
 # 🔌 IMenuManagerAPI
 
-用于创建和控制所有玩家菜单的中心管理器。
+创建和控制所有玩家菜单的中央管理器。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -12,7 +12,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Core` | `ISwiftlyCore` | get | SwiftlyS2 的核心实例。 |
+| `Core` | `ISwiftlyCore` | get | SwiftlyS2 核心实例。 |
 | `Configuration` | `MenuManagerConfiguration` | get | 所有菜单的全局配置设置。 |
 
 ## ⚙️ 方法
@@ -29,7 +29,7 @@ IMenuBuilderAPI CreateBuilder()
 
 **用法示例:**
 ```csharp
-var builder = menuManager.CreateBuilder();
+var builder = manager.CreateBuilder();
 ```
 
 ### CreateMenu
@@ -43,8 +43,8 @@ IMenuAPI CreateMenu(MenuConfiguration configuration, MenuKeybindOverrides keybin
 **参数:**
 
 - `configuration` (`MenuConfiguration`) - 菜单的配置。
-- `keybindOverrides` (`MenuKeybindOverrides`) - 菜单的按键绑定覆盖。
-- `parent` (`IMenuAPI?`) = `null` - 父菜单，若无父菜单则为 null。
+- `keybindOverrides` (`MenuKeybindOverrides`) - 菜单的按键绑定覆盖设置。
+- `parent` (`IMenuAPI?`) = `null` - 父菜单，若无则为 null。
 - `optionScrollStyle` (`MenuOptionScrollStyle`) = `MenuOptionScrollStyle.CenterFixed` - 菜单选项的滚动样式。
 - `optionTextStyle` (`MenuOptionTextStyle`) = `MenuOptionTextStyle.TruncateEnd` - 菜单选项的文本溢出样式。
 
@@ -52,7 +52,7 @@ IMenuAPI CreateMenu(MenuConfiguration configuration, MenuKeybindOverrides keybin
 
 **用法示例:**
 ```csharp
-var menu = manager.CreateMenu(config, overrides, null, MenuOptionScrollStyle.Default, MenuOptionTextStyle.Plain);
+var menu = manager.CreateMenu(config, overrides, null, MenuOptionScrollStyle.Default, MenuOptionTextStyle.Default);
 ```
 
 ### GetCurrentMenu
@@ -61,13 +61,13 @@ var menu = manager.CreateMenu(config, overrides, null, MenuOptionScrollStyle.Def
 IMenuAPI? GetCurrentMenu(IPlayer player)
 ```
 
-获取指定玩家当前打开的菜单。
+获取指定玩家当前打开的游戏菜单。
 
 **参数:**
 
-- `player` (`IPlayer`) - 待检查的玩家。
+- `player` (`IPlayer`) - 要检查的玩家。
 
-**返回值:** `IMenuAPI?` - 玩家当前激活的菜单，若未打开任何菜单则为 null。
+**返回值:** `IMenuAPI?` - 玩家的当前活动菜单，如果未打开任何菜单则为 null。
 
 **用法示例:**
 ```csharp
@@ -88,7 +88,7 @@ void OpenMenu(IMenuAPI menu)
 
 **用法示例:**
 ```csharp
-menuManager.OpenMenu(mainMenu);
+menuManager.OpenMenu(menu);
 ```
 
 ### OpenMenu
@@ -102,11 +102,11 @@ void OpenMenu(IMenuAPI menu, Action<IPlayer, IMenuAPI> onClosed)
 **参数:**
 
 - `menu` (`IMenuAPI`) - 要显示的菜单。
-- `onClosed` (`Action\<IPlayer, IMenuAPI\>`) - 菜单关闭时调用的回调。
+- `onClosed` (`Action\<IPlayer, IMenuAPI\>`) - 当菜单关闭时调用的回调。
 
 **用法示例:**
 ```csharp
-manager.OpenMenu(menu, (player, m) => player.Print("Menu closed"));
+menuManager.OpenMenu(menu, (player, m) => {});
 ```
 
 ### OpenMenuForPlayer
@@ -115,11 +115,11 @@ manager.OpenMenu(menu, (player, m) => player.Print("Menu closed"));
 void OpenMenuForPlayer(IPlayer player, IMenuAPI menu)
 ```
 
-为指定玩家打开指定的菜单。首先将关闭任何当前已打开的菜单。
+为指定玩家打开指定菜单。任何当前已打开的菜单将首先被关闭。
 
 **参数:**
 
-- `player` (`IPlayer`) - 将看到该菜单的玩家。
+- `player` (`IPlayer`) - 将看到菜单的玩家。
 - `menu` (`IMenuAPI`) - 要显示的菜单。
 
 **用法示例:**
@@ -133,17 +133,17 @@ manager.OpenMenuForPlayer(player, menu);
 void OpenMenuForPlayer(IPlayer player, IMenuAPI menu, Action<IPlayer, IMenuAPI> onClosed)
 ```
 
-为指定玩家打开指定的菜单。首先将关闭任何当前已打开的菜单。
+为指定玩家打开指定菜单。任何当前已打开的菜单将首先被关闭。
 
 **参数:**
 
-- `player` (`IPlayer`) - 将看到该菜单的玩家。
+- `player` (`IPlayer`) - 将看到菜单的玩家。
 - `menu` (`IMenuAPI`) - 要显示的菜单。
-- `onClosed` (`Action\<IPlayer, IMenuAPI\>`) - 当玩家的菜单关闭时调用的回调。
+- `onClosed` (`Action\<IPlayer, IMenuAPI\>`) - 当玩家关闭菜单时回调。
 
 **用法示例:**
 ```csharp
-manager.OpenMenuForPlayer(player, menu, (p, m) => { });
+manager.OpenMenuForPlayer(player, menu, (p, m) => {});
 ```
 
 ### CloseMenu
@@ -152,15 +152,15 @@ manager.OpenMenuForPlayer(player, menu, (p, m) => { });
 void CloseMenu(IMenuAPI menu)
 ```
 
-关闭所有拥有该菜单的玩家的指定菜单。
+为所有打开了指定菜单的玩家关闭该菜单。
 
 **参数:**
 
-- `menu` (`IMenuAPI`) - 关闭菜单。
+- `menu` (`IMenuAPI`) - 要关闭的菜单。
 
 **用法示例:**
 ```csharp
-manager.CloseMenu(menu);
+menuManager.CloseMenu(menu);
 ```
 
 ### CloseMenuForPlayer
@@ -169,16 +169,16 @@ manager.CloseMenu(menu);
 void CloseMenuForPlayer(IPlayer player, IMenuAPI menu)
 ```
 
-关闭指定玩家的菜单。如果该玩家未打开此菜单，则不会产生任何效果。
+关闭指定玩家的菜单。如果该菜单未对该玩家开启，则此操作无效。
 
 **参数:**
 
-- `player` (`IPlayer`) - 即将关闭菜单的玩家。
-- `menu` (`IMenuAPI`) - 关闭菜单。
+- `player` (`IPlayer`) - 将要关闭其菜单的玩家。
+- `menu` (`IMenuAPI`) - 要关闭的菜单。
 
 **用法示例:**
 ```csharp
-manager.CloseMenuForPlayer(player, menu);
+menuManager.CloseMenuForPlayer(player, menu);
 ```
 
 ### CloseActiveMenu
@@ -187,15 +187,15 @@ manager.CloseMenuForPlayer(player, menu);
 void CloseActiveMenu(IPlayer player)
 ```
 
-关闭玩家当前的菜单。如果玩家未打开任何菜单，则此操作无效。
+关闭玩家当前打开的菜单。如果玩家未打开任何菜单，则此操作无效。
 
 **参数:**
 
-- `player` (`IPlayer`) - 其活动菜单将被关闭的玩家。
+- `player` (`IPlayer`) - 将关闭其活动菜单的玩家。
 
 **用法示例:**
 ```csharp
-manager.CloseActiveMenu(player);
+menuManager.CloseActiveMenu(player);
 ```
 
 ### CloseAllMenus
@@ -204,10 +204,10 @@ manager.CloseActiveMenu(player);
 void CloseAllMenus()
 ```
 
-关闭所有玩家的所有打开菜单。
+为所有玩家关闭所有打开的菜单。
 
 **用法示例:**
 ```csharp
-manager.CloseAllMenus();
+menuManager.CloseAllMenus();
 ```
 

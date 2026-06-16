@@ -58,7 +58,7 @@ bool HitEntityByDesignerName<T>(string designerName, out T outEntity, NameMatchT
 
 **用法示例:**
 ```csharp
-bool hit = gameTrace.HitEntityByDesignerName<MyEntity>("my_designer", out var entity, NameMatchType.Exact);
+bool hit = trace.HitEntityByDesignerName<CBaseEntity>("npc_zombie", out var entity, NameMatchType.Exact);
 ```
 
 ### HitEntityByDesignerName<T>
@@ -76,7 +76,7 @@ bool HitEntityByDesignerName<T>(string designerName, NameMatchType matchType = N
 
 **用法示例:**
 ```csharp
-bool hit = gameTrace.HitEntityByDesignerName<CBasePlayer>("player", NameMatchType.Exact);
+bool hit = trace.HitEntityByDesignerType<CCSPlayerController>("npc_combine_s", NameMatchType.Exact);
 ```
 
 ### HitPlayer
@@ -93,7 +93,7 @@ bool HitPlayer(out IPlayer? player)
 
 **用法示例:**
 ```csharp
-bool hit = gameTrace.HitPlayer(out IPlayer? player);
+if (trace.HitPlayer(out var player)) player?.PrintToChat("Hit!");
 ```
 
 ### HitPlayer
@@ -106,7 +106,7 @@ bool HitPlayer()
 
 **用法示例:**
 ```csharp
-if (gameTrace.HitPlayer()) player.TakeDamage(10);
+bool hit = gameTrace.HitPlayer();
 ```
 
 ### HitEntity<T>
@@ -123,7 +123,7 @@ bool HitEntity<T>(out T entity)
 
 **用法示例:**
 ```csharp
-CGameTrace trace; trace.HitEntity(out CBasePlayer player);
+trace.HitEntity(out CBasePlayer player);
 ```
 
 ### HitEntity<T>

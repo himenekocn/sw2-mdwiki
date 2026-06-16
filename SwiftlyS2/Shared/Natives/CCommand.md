@@ -31,7 +31,7 @@ void Reset()
 
 **用法示例:**
 ```csharp
-CCommand.Reset();
+command.Reset();
 ```
 
 ### FindArg
@@ -48,7 +48,7 @@ int FindArg(string name)
 
 **用法示例:**
 ```csharp
-int index = command.FindArg("-target");
+int index = command.FindArg("target");
 ```
 
 ### FindArgInt
@@ -66,7 +66,7 @@ int FindArgInt(string name, int defaultVal)
 
 **用法示例:**
 ```csharp
-int value = cmd.FindArgInt("count", 10);
+int value = command.FindArgInt("timeout", 30);
 ```
 
 ### Tokenize
@@ -83,6 +83,6 @@ bool Tokenize(string commandString)
 
 **用法示例:**
 ```csharp
-bool result = command.Tokenize("say Hello");
+bool result = command.Tokenize("say hello");
 ```
 

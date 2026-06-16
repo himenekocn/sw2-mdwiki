@@ -2,7 +2,7 @@
 
 # 🔌 IMenuAPI
 
-表示一个可以向玩家显示的交互式菜单。
+表示一个可向玩家显示的交互式菜单。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -14,12 +14,12 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `MenuManager` | `IMenuManagerAPI` | get | 该菜单所属的菜单管理器。 |
-| `Configuration` | `MenuConfiguration` | get | 本菜单的配置设置。 |
-| `KeybindOverrides` | `MenuKeybindOverrides` | get | 本菜单的热键覆盖设置。 |
+| `MenuManager` | `IMenuManagerAPI` | get | 此菜单所属的菜单管理器。 |
+| `Configuration` | `MenuConfiguration` | get | 此菜单的配置设置。 |
+| `KeybindOverrides` | `MenuKeybindOverrides` | get | 此菜单的按键绑定覆盖设置。 |
 | `OptionScrollStyle` | `MenuOptionScrollStyle` | get | 此菜单选项的滚动样式。 |
-| `Builder` | `IMenuBuilderAPI?` | get | 用于构建和配置此菜单的生成器。 |
-| `Tag` | `object?` | get, set | 获取或设置包含此菜单相关数据的对象。 |
+| `Builder` | `IMenuBuilderAPI?` | get | 用于构建和配置此菜单的构建器。 |
+| `Tag` | `object?` | get, set | 获取或设置包含此菜单数据的对象。 |
 | `Options` | `IReadOnlyList\<IMenuOption\>` | get | 此菜单中所有选项的只读集合。 |
 
 ## ⚙️ 方法
@@ -30,11 +30,11 @@
 void ShowForPlayer(IPlayer player)
 ```
 
-通过显示其内容，向指定玩家展示此菜单。
+向指定玩家显示此菜单，通过展示其内容。
 
 **参数:**
 
-- `player` (`IPlayer`) - 将看到该菜单的玩家。
+- `player` (`IPlayer`) - 将看到菜单的玩家。
 
 **用法示例:**
 ```csharp
@@ -47,11 +47,11 @@ menuAPI.ShowForPlayer(player);
 void HideForPlayer(IPlayer player)
 ```
 
-通过移除其视觉显示，为该指定玩家隐藏此菜单。
+通过移除其视觉显示，为指定玩家隐藏此菜单。
 
 **参数:**
 
-- `player` (`IPlayer`) - 将隐藏菜单的玩家。
+- `player` (`IPlayer`) - 将隐藏其菜单的玩家。
 
 **用法示例:**
 ```csharp
@@ -81,17 +81,17 @@ menu.AddOption(existingOption);
 bool RemoveOption(IMenuOption option)
 ```
 
-从该菜单中移除一个选项。
+从此菜单中移除一个选项。
 
 **参数:**
 
 - `option` (`IMenuOption`) - 要移除的菜单选项。
 
-**返回值:** `bool` - 如果选项成功移除则为 true，如果未找到该选项则为 false。
+**返回值:** `bool` - 如果选项成功移除则为真，如果未找到该选项则为假。
 
 **用法示例:**
 ```csharp
-menuAPI.RemoveOption(existingOption);
+bool result = menuAPI.RemoveOption(existingOption);
 ```
 
 ### MoveToOption
@@ -104,14 +104,14 @@ bool MoveToOption(IPlayer player, IMenuOption option)
 
 **参数:**
 
-- `player` (`IPlayer`) - 选择进行移动的玩家。
-- `option` (`IMenuOption`) - 选择移动的目标选项。
+- `player` (`IPlayer`) - 要移动的选中的玩家。
+- `option` (`IMenuOption`) - 将选择项移动到的选项。
 
-**返回值:** `bool` - 若移动成功则为 true，若选项未找到则为 false。
+**返回值:** `bool` - 如果移动成功则为真，如果未找到选项则为假。
 
 **用法示例:**
 ```csharp
-bool result = menuApi.MoveToOption(player, option);
+menuAPI.MoveToOption(player, selectedOption);
 ```
 
 ### MoveToOptionIndex
@@ -120,18 +120,18 @@ bool result = menuApi.MoveToOption(player, option);
 bool MoveToOptionIndex(IPlayer player, int index)
 ```
 
-将玩家的选择移动至指定的选项索引。
+将玩家选择移动到指定的选项索引。
 
 **参数:**
 
-- `player` (`IPlayer`) - 选择进行移动的玩家。
-- `index` (`int`) - 要移动选择项的目标选项索引。
+- `player` (`IPlayer`) - 要移动的选中的玩家。
+- `index` (`int`) - 要将选项移动到的索引。
 
-**返回值:** `bool` - 如果移动成功则为 true，如果索引越界则为 false。
+**返回值:** `bool` - 如果移动成功则为真，如果索引越界则为假。
 
 **用法示例:**
 ```csharp
-var result = menuApi.MoveToOptionIndex(player, 2);
+menuAPI.MoveToOptionIndex(player, 2);
 ```
 
 ### GetCurrentOption
@@ -144,13 +144,13 @@ IMenuOption? GetCurrentOption(IPlayer player)
 
 **参数:**
 
-- `player` (`IPlayer`) - 获取当前选中状态的玩家。
+- `player` (`IPlayer`) - 要检索的当前选中玩家。
 
-**返回值:** `IMenuOption?` - 当前选中的选项，若未选中任何内容则为 null。
+**返回值:** `IMenuOption?` - 当前选中的选项，若未选中任何项则为 null。
 
 **用法示例:**
 ```csharp
-var currentOption = menuAPI.GetCurrentOption(player);
+IMenuOption? currentOption = menuApi.GetCurrentOption(player);
 ```
 
 ### GetCurrentOptionIndex
@@ -163,9 +163,9 @@ int GetCurrentOptionIndex(IPlayer player)
 
 **参数:**
 
-- `player` (`IPlayer`) - 需要获取其当前选择索引的玩家。
+- `player` (`IPlayer`) - 要检索其当前选择索引的玩家。
 
-**返回值:** `int` - 当前选中选项的索引，如果未选择任何项则为 -1。
+**返回值:** `int` - 当前所选选项的索引，如果未选择任何选项则为 -1。
 
 **用法示例:**
 ```csharp

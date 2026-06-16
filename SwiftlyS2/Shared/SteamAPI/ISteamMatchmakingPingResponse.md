@@ -27,7 +27,7 @@ void ServerResponded(gameserveritem_t server)
 
 **用法示例:**
 ```csharp
-pingResponse.ServerResponded(server);
+matchmakingPingResponse.ServerResponded(server);
 ```
 
 ### ServerFailedToRespond
@@ -38,6 +38,6 @@ void ServerFailedToRespond()
 
 **用法示例:**
 ```csharp
-pingResponse.ServerFailedToRespond();
+matchmakingPingResponse.ServerFailedToRespond();
 ```
 

@@ -2,7 +2,7 @@
 
 # 🔌 IOnMovementServicesRunCommandHookEvent
 
-当移动服务运行命令钩子被触发时调用。
+在移动服务运行命令钩子被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -14,5 +14,5 @@
 |------|------|--------|------|
 | `MovementServices` | `CCSPlayer_MovementServices` | get | 移动服务。 |
 | `ButtonState` | `CInButtonState` | get | 按钮状态。 |
-| `UserCmdPB` | `CSGOUserCmdPB` | get | 用户命令的协议缓冲区（protobuf）定义。 |
+| `UserCmdPB` | `CSGOUserCmdPB` | get | 用户命令协议缓冲区。 |
 

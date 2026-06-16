@@ -14,7 +14,7 @@
 UGCQueryHandle_t CreateQueryUserUGCRequest(AccountID_t unAccountID, EUserUGCList eListType, EUGCMatchingUGCType eMatchingUGCType, EUserUGCListSortOrder eSortOrder, AppId_t nCreatorAppID, AppId_t nConsumerAppID, uint unPage)
 ```
 
-查询与用户关联的用户生成内容（UGC）。创作者应用 ID 或消费者应用 ID 必须有效，并设置为当前运行的应用程序。未分页起始页码应设为 1。
+<para> 查询与用户关联的UGC。创建者应用ID或消费者应用ID必须有效，并设置为当前运行的应用。unPage应从1开始。</para>
 
 **参数:**
 
@@ -30,7 +30,7 @@ UGCQueryHandle_t CreateQueryUserUGCRequest(AccountID_t unAccountID, EUserUGCList
 
 **用法示例:**
 ```csharp
-var queryHandle = SteamGameServerUGC.CreateQueryUserUGCRequest(accountId, EUserUGCList.Value, EUGCMatchingUGCType.Value, EUserUGCListSortOrder.Value, appId, appId, 1u);
+var queryHandle = SteamGameServerUGC.CreateQueryUserUGCRequest(new AccountID_t(123), EUserUGCList.Published, EUGCMatchingUGCType.Items, EUserUGCListSortOrder.CreatedDesc, new AppId_t(480), new AppId_t(480), 1);
 ```
 
 ### CreateQueryAllUGCRequest (静态)
@@ -39,7 +39,7 @@ var queryHandle = SteamGameServerUGC.CreateQueryUserUGCRequest(accountId, EUserU
 UGCQueryHandle_t CreateQueryAllUGCRequest(EUGCQuery eQueryType, EUGCMatchingUGCType eMatchingeMatchingUGCTypeFileType, AppId_t nCreatorAppID, AppId_t nConsumerAppID, uint unPage)
 ```
 
-查询所有匹配的 UGC。创建者应用 ID 或消费者应用 ID 必须有效并设置为当前运行的应用。unPage 应从 1 开始。
+<para> 查询所有匹配的用户生成内容（UGC）。创建者应用ID或消费者应用ID必须有效且设置为当前运行的应用。unPage应从1开始。</para>
 
 **参数:**
 
@@ -53,7 +53,7 @@ UGCQueryHandle_t CreateQueryAllUGCRequest(EUGCQuery eQueryType, EUGCMatchingUGCT
 
 **用法示例:**
 ```csharp
-var query = SteamGameServerUGC.CreateQueryAllUGCRequest(EUGCQuery.RankedByTrend, EUGCMatchingUGCType.Items, 480u, 480u, 1);
+var queryHandle = SteamGameServerUGC.CreateQueryAllUGCRequest(EUGCQuery.k_EUGCQuery_RankedByVote, EUGCMatchingUGCType.k_EUGCMatchingUGCType_Items, new AppId_t(480), new AppId_t(480), 1);
 ```
 
 ### CreateQueryAllUGCRequest (静态)
@@ -62,7 +62,7 @@ var query = SteamGameServerUGC.CreateQueryAllUGCRequest(EUGCQuery.RankedByTrend,
 UGCQueryHandle_t CreateQueryAllUGCRequest(EUGCQuery eQueryType, EUGCMatchingUGCType eMatchingeMatchingUGCTypeFileType, AppId_t nCreatorAppID, AppId_t nConsumerAppID, string pchCursor = null)
 ```
 
-使用新的深度分页接口查询所有匹配的UGC（用户生成内容）。必须提供有效的创作者应用 ID 或消费者应用 ID，且需设置为当前运行的应用程序。pchCursor 应设置为 NULL 或 "*" 以获取第一组结果集。
+<para> 使用新的深度分页接口查询所有匹配的用户生成内容(UGC)。创建者应用ID或消费者应用ID必须有效且设置为当前运行的应用。pchCursor应设置为NULL或"*"以获取第一组结果。</para>
 
 **参数:**
 
@@ -76,7 +76,7 @@ UGCQueryHandle_t CreateQueryAllUGCRequest(EUGCQuery eQueryType, EUGCMatchingUGCT
 
 **用法示例:**
 ```csharp
-var handle = SteamGameServerUGC.CreateQueryAllUGCRequest(EUGCQuery.RankedByTrend, EUGCMatchingUGCType.Items, currentAppId, currentAppId, "*");
+var queryHandle = SteamGameServerUGC.CreateQueryAllUGCRequest(EUGCQuery.k_EUGCQuery_RankedByVote, EUGCMatchingUGCType.k_EUGCMatchingUGCType_Items, new AppId_t(480), new AppId_t(480), "*");
 ```
 
 ### CreateQueryUGCDetailsRequest (静态)
@@ -85,7 +85,7 @@ var handle = SteamGameServerUGC.CreateQueryAllUGCRequest(EUGCQuery.RankedByTrend
 UGCQueryHandle_t CreateQueryUGCDetailsRequest(PublishedFileId_t[] pvecPublishedFileID, uint unNumPublishedFileIDs)
 ```
 
-<para>查询给定已发布文件 ID 的详细信息（RequestUGCDetails 调用已弃用，由本接口替代）</para>
+<para> 查询指定已发布文件ID的详细信息（RequestUGCDetails调用已被弃用，由本调用替代）</para>
 
 **参数:**
 
@@ -96,8 +96,8 @@ UGCQueryHandle_t CreateQueryUGCDetailsRequest(PublishedFileId_t[] pvecPublishedF
 
 **用法示例:**
 ```csharp
-PublishedFileId_t[] fileIds = { publishedFileId1, publishedFileId2 };
-UGCQueryHandle_t queryHandle = SteamGameServerUGC.CreateQueryUGCDetailsRequest(fileIds, (uint)fileIds.Length);
+var publishedFileIds = new PublishedFileId_t[] { new PublishedFileId_t(123456) };
+var queryHandle = SteamGameServerUGC.CreateQueryUGCDetailsRequest(publishedFileIds, 1);
 ```
 
 ### SendQueryUGCRequest (静态)
@@ -106,7 +106,7 @@ UGCQueryHandle_t queryHandle = SteamGameServerUGC.CreateQueryUGCDetailsRequest(f
 SteamAPICall_t SendQueryUGCRequest(UGCQueryHandle_t handle)
 ```
 
-<para>向 Steam 发送查询</para>
+<para>向Steam发送查询</para>
 
 **参数:**
 
@@ -116,7 +116,7 @@ SteamAPICall_t SendQueryUGCRequest(UGCQueryHandle_t handle)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.SendQueryUGCRequest(handle);
+var apiCall = SteamGameServerUGC.SendQueryUGCRequest(queryHandle);
 ```
 
 ### GetQueryUGCResult (静态)
@@ -125,7 +125,7 @@ SteamAPICall_t call = SteamGameServerUGC.SendQueryUGCRequest(handle);
 bool GetQueryUGCResult(UGCQueryHandle_t handle, uint index, out SteamUGCDetails_t pDetails)
 ```
 
-<para>在收到查询用户生成内容（UGC）的回调后，检索单个结果。</para>
+<para> 在收到查询UGC的回调后，检索单个结果</para>
 
 **参数:**
 
@@ -137,8 +137,9 @@ bool GetQueryUGCResult(UGCQueryHandle_t handle, uint index, out SteamUGCDetails_
 
 **用法示例:**
 ```csharp
+UGCQueryHandle_t handle = default;
 SteamUGCDetails_t details;
-bool ok = SteamGameServerUGC.GetQueryUGCResult(handle, index, out details);
+bool success = SteamGameServerUGC.GetQueryUGCResult(handle, 0, out details);
 ```
 
 ### GetQueryUGCNumTags (静态)
@@ -156,7 +157,8 @@ uint GetQueryUGCNumTags(UGCQueryHandle_t handle, uint index)
 
 **用法示例:**
 ```csharp
-uint tagCount = SteamGameServerUGC.GetQueryUGCNumTags(queryHandle, 0);
+UGCQueryHandle_t handle = default;
+uint tagCount = SteamGameServerUGC.GetQueryUGCNumTags(handle, 0);
 ```
 
 ### GetQueryUGCTag (静态)
@@ -177,8 +179,7 @@ bool GetQueryUGCTag(UGCQueryHandle_t handle, uint index, uint indexTag, out stri
 
 **用法示例:**
 ```csharp
-string tagValue;
-bool ok = SteamGameServerUGC.GetQueryUGCTag(handle, 0, 0, out tagValue, 256);
+UGCQueryHandle_t handle = default; string tagValue; bool success = SteamGameServerUGC.GetQueryUGCTag(handle, 0, 0, out tagValue, 256);
 ```
 
 ### GetQueryUGCTagDisplayName (静态)
@@ -199,8 +200,7 @@ bool GetQueryUGCTagDisplayName(UGCQueryHandle_t handle, uint index, uint indexTa
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.GetQueryUGCTagDisplayName(handle, 0, 0, out string value, 256);
-if (ok) Console.WriteLine(value);
+bool success = SteamGameServerUGC.GetQueryUGCTagDisplayName(handle, 0, 0, out string tagName, 256);
 ```
 
 ### GetQueryUGCPreviewURL (静态)
@@ -220,8 +220,7 @@ bool GetQueryUGCPreviewURL(UGCQueryHandle_t handle, uint index, out string pchUR
 
 **用法示例:**
 ```csharp
-string url;
-bool ok = SteamGameServerUGC.GetQueryUGCPreviewURL(handle, 0, out url, 512);
+bool success = SteamGameServerUGC.GetQueryUGCPreviewURL(handle, 0, out string url, 256);
 ```
 
 ### GetQueryUGCMetadata (静态)
@@ -242,7 +241,7 @@ bool GetQueryUGCMetadata(UGCQueryHandle_t handle, uint index, out string pchMeta
 **用法示例:**
 ```csharp
 string metadata;
-bool ok = SteamGameServerUGC.GetQueryUGCMetadata(handle, 0u, out metadata, 256u);
+bool success = SteamGameServerUGC.GetQueryUGCMetadata(handle, 0, out metadata, 1024);
 ```
 
 ### GetQueryUGCChildren (静态)
@@ -262,7 +261,8 @@ bool GetQueryUGCChildren(UGCQueryHandle_t handle, uint index, PublishedFileId_t[
 
 **用法示例:**
 ```csharp
-var ok = SteamGameServerUGC.GetQueryUGCChildren(queryHandle, 0u, children, (uint)children.Length);
+PublishedFileId_t[] children = new PublishedFileId_t[10];
+bool success = SteamGameServerUGC.GetQueryUGCChildren(handle, 0, children, 10);
 ```
 
 ### GetQueryUGCStatistic (静态)
@@ -282,7 +282,7 @@ bool GetQueryUGCStatistic(UGCQueryHandle_t handle, uint index, EItemStatistic eS
 
 **用法示例:**
 ```csharp
-ulong statValue; bool ok = SteamGameServerUGC.GetQueryUGCStatistic(queryHandle, 0u, EItemStatistic.Value, out statValue);
+bool success = SteamGameServerUGC.GetQueryUGCStatistic(handle, 0, EItemStatistic.NumSubscriptions, out ulong statValue);
 ```
 
 ### GetQueryUGCNumAdditionalPreviews (静态)
@@ -300,8 +300,8 @@ uint GetQueryUGCNumAdditionalPreviews(UGCQueryHandle_t handle, uint index)
 
 **用法示例:**
 ```csharp
-UGCQueryHandle_t handle = queryHandle;
-uint previewCount = SteamGameServerUGC.GetQueryUGCNumAdditionalPreviews(handle, 0);
+UGCQueryHandle_t handle = new UGCQueryHandle_t(12345);
+uint numPreviews = SteamGameServerUGC.GetQueryUGCNumAdditionalPreviews(handle, 0);
 ```
 
 ### GetQueryUGCAdditionalPreview (静态)
@@ -325,8 +325,7 @@ bool GetQueryUGCAdditionalPreview(UGCQueryHandle_t handle, uint index, uint prev
 
 **用法示例:**
 ```csharp
-string url, fileName; EItemPreviewType previewType;
-bool ok = SteamGameServerUGC.GetQueryUGCAdditionalPreview(handle, 0, 0, out url, 256, out fileName, 260, out previewType);
+var result = SteamGameServerUGC.GetQueryUGCAdditionalPreview(handle, 0, 0, out string url, 256, out string fileName, 256, out EItemPreviewType previewType);
 ```
 
 ### GetQueryUGCNumKeyValueTags (静态)
@@ -344,7 +343,8 @@ uint GetQueryUGCNumKeyValueTags(UGCQueryHandle_t handle, uint index)
 
 **用法示例:**
 ```csharp
-uint numTags = SteamGameServerUGC.GetQueryUGCNumKeyValueTags(handle, 0u);
+UGCQueryHandle_t handle = default;
+uint tagCount = SteamGameServerUGC.GetQueryUGCNumKeyValueTags(handle, 0);
 ```
 
 ### GetQueryUGCKeyValueTag (静态)
@@ -367,8 +367,7 @@ bool GetQueryUGCKeyValueTag(UGCQueryHandle_t handle, uint index, uint keyValueTa
 
 **用法示例:**
 ```csharp
-string key, value;
-bool ok = SteamGameServerUGC.GetQueryUGCKeyValueTag(handle, 0u, 0u, out key, 256u, out value, 256u);
+bool success = SteamGameServerUGC.GetQueryUGCKeyValueTag(handle, 0, 0, out string key, 256, out string value, 256);
 ```
 
 ### GetQueryUGCKeyValueTag (静态)
@@ -377,7 +376,7 @@ bool ok = SteamGameServerUGC.GetQueryUGCKeyValueTag(handle, 0u, 0u, out key, 256
 bool GetQueryUGCKeyValueTag(UGCQueryHandle_t handle, uint index, string pchKey, out string pchValue, uint cchValueSize)
 ```
 
-<para>返回与 pchKey 匹配的第一个值。请注意，一个键可能映射到多个值。如果发生错误或未找到匹配的值，则返回 false。</para>
+<para> 返回与pchKey匹配的第一个值。请注意，一个键可能映射到多个值。如果发生错误或未找到匹配的值，则返回false。</para>
 
 **参数:**
 
@@ -391,7 +390,7 @@ bool GetQueryUGCKeyValueTag(UGCQueryHandle_t handle, uint index, string pchKey, 
 
 **用法示例:**
 ```csharp
-string value; bool ok = SteamGameServerUGC.GetQueryUGCKeyValueTag(handle, 0, "map", out value, 256);
+bool success = SteamGameServerUGC.GetQueryUGCKeyValueTag(handle, 0, "tag_key", out string value, 256);
 ```
 
 ### GetNumSupportedGameVersions (静态)
@@ -400,7 +399,7 @@ string value; bool ok = SteamGameServerUGC.GetQueryUGCKeyValueTag(handle, 0, "ma
 uint GetNumSupportedGameVersions(UGCQueryHandle_t handle, uint index)
 ```
 
-<para>某些物品可以指定其版本在特定游戏版本范围（Steam 分支）内有效</para>
+<para> 某些物品可以指定其版本适用于一系列游戏版本（Steam分支）</para>
 
 **参数:**
 
@@ -411,7 +410,8 @@ uint GetNumSupportedGameVersions(UGCQueryHandle_t handle, uint index)
 
 **用法示例:**
 ```csharp
-uint supportedVersions = SteamGameServerUGC.GetNumSupportedGameVersions(handle, 0);
+UGCQueryHandle_t handle = default;
+uint numVersions = SteamGameServerUGC.GetNumSupportedGameVersions(handle, 0);
 ```
 
 ### GetSupportedGameVersionData (静态)
@@ -433,8 +433,7 @@ bool GetSupportedGameVersionData(UGCQueryHandle_t handle, uint index, uint versi
 
 **用法示例:**
 ```csharp
-string minVersion, maxVersion;
-bool ok = SteamGameServerUGC.GetSupportedGameVersionData(handle, 0, 0, out minVersion, out maxVersion, 128);
+SteamGameServerUGC.GetSupportedGameVersionData(handle, 0, 0, out string min, out string max, 256);
 ```
 
 ### GetQueryUGCContentDescriptors (静态)
@@ -454,7 +453,8 @@ uint GetQueryUGCContentDescriptors(UGCQueryHandle_t handle, uint index, out EUGC
 
 **用法示例:**
 ```csharp
-EUGCContentDescriptorID descriptor; uint count = SteamGameServerUGC.GetQueryUGCContentDescriptors(handle, 0, out descriptor, 1);
+EUGCContentDescriptorID descriptor;
+uint count = SteamGameServerUGC.GetQueryUGCContentDescriptors(handle, 0, out descriptor, 1);
 ```
 
 ### ReleaseQueryUGCRequest (静态)
@@ -463,7 +463,7 @@ EUGCContentDescriptorID descriptor; uint count = SteamGameServerUGC.GetQueryUGCC
 bool ReleaseQueryUGCRequest(UGCQueryHandle_t handle)
 ```
 
-<para>在获取结果后，释放请求以释放内存。</para>
+<para> 在检索结果后释放请求以释放内存</para>
 
 **参数:**
 
@@ -473,7 +473,7 @@ bool ReleaseQueryUGCRequest(UGCQueryHandle_t handle)
 
 **用法示例:**
 ```csharp
-bool released = SteamGameServerUGC.ReleaseQueryUGCRequest(handle);
+SteamGameServerUGC.ReleaseQueryUGCRequest(queryHandle);
 ```
 
 ### AddRequiredTag (静态)
@@ -482,7 +482,7 @@ bool released = SteamGameServerUGC.ReleaseQueryUGCRequest(handle);
 bool AddRequiredTag(UGCQueryHandle_t handle, string pTagName)
 ```
 
-<para>用于查询 UGC 的设置选项</para>
+<para> 用于查询UGC的选项设置</para>
 
 **参数:**
 
@@ -493,7 +493,7 @@ bool AddRequiredTag(UGCQueryHandle_t handle, string pTagName)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.AddRequiredTag(handle, "maps");
+SteamGameServerUGC.AddRequiredTag(queryHandle, "Survival");
 ```
 
 ### AddRequiredTagGroup (静态)
@@ -502,7 +502,7 @@ bool ok = SteamGameServerUGC.AddRequiredTag(handle, "maps");
 bool AddRequiredTagGroup(UGCQueryHandle_t handle, System.Collections.Generic.IList<string> pTagGroups)
 ```
 
-<para>匹配此组中的任何标签</para>
+<para> 匹配此组中的任意标签</para>
 
 **参数:**
 
@@ -513,7 +513,8 @@ bool AddRequiredTagGroup(UGCQueryHandle_t handle, System.Collections.Generic.ILi
 
 **用法示例:**
 ```csharp
-bool added = SteamGameServerUGC.AddRequiredTagGroup(handle, tagGroups);
+var tags = new List<string> { "Action", "Multiplayer" };
+SteamGameServerUGC.AddRequiredTagGroup(handle, tags);
 ```
 
 ### AddExcludedTag (静态)
@@ -531,7 +532,8 @@ bool AddExcludedTag(UGCQueryHandle_t handle, string pTagName)
 
 **用法示例:**
 ```csharp
-bool excluded = SteamGameServerUGC.AddExcludedTag(handle, "beta");
+UGCQueryHandle_t handle = SteamGameServerUGC.CreateQueryAllUGCRequest(SteamWorks.Interop.SteamUGCEQuery.k_EUGCQuery_RankedByTrend, SteamWorks.Interop.SteamWorkshopFileType.k_EWorkshopFileTypeCommunity);
+SteamGameServerUGC.AddExcludedTag(handle, "inappropriate");
 ```
 
 ### SetReturnOnlyIDs (静态)
@@ -549,6 +551,7 @@ bool SetReturnOnlyIDs(UGCQueryHandle_t handle, bool bReturnOnlyIDs)
 
 **用法示例:**
 ```csharp
+UGCQueryHandle_t handle = default;
 SteamGameServerUGC.SetReturnOnlyIDs(handle, true);
 ```
 
@@ -567,7 +570,8 @@ bool SetReturnKeyValueTags(UGCQueryHandle_t handle, bool bReturnKeyValueTags)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetReturnKeyValueTags(handle, true);
+UGCQueryHandle_t handle = new UGCQueryHandle_t(12345);
+SteamGameServerUGC.SetReturnKeyValueTags(handle, true);
 ```
 
 ### SetReturnLongDescription (静态)
@@ -585,7 +589,8 @@ bool SetReturnLongDescription(UGCQueryHandle_t handle, bool bReturnLongDescripti
 
 **用法示例:**
 ```csharp
-SteamGameServerUGC.SetReturnLongDescription(existingHandle, true);
+UGCQueryHandle_t handle = new UGCQueryHandle_t(12345);
+SteamGameServerUGC.SetReturnLongDescription(handle, true);
 ```
 
 ### SetReturnMetadata (静态)
@@ -603,7 +608,8 @@ bool SetReturnMetadata(UGCQueryHandle_t handle, bool bReturnMetadata)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetReturnMetadata(handle, true);
+UGCQueryHandle_t queryHandle = new UGCQueryHandle_t(12345);
+SteamGameServerUGC.SetReturnMetadata(queryHandle, true);
 ```
 
 ### SetReturnChildren (静态)
@@ -621,7 +627,7 @@ bool SetReturnChildren(UGCQueryHandle_t handle, bool bReturnChildren)
 
 **用法示例:**
 ```csharp
-SteamGameServerUGC.SetReturnChildren(existingHandle, true);
+SteamGameServerUGC.SetReturnChildren(handle, true);
 ```
 
 ### SetReturnAdditionalPreviews (静态)
@@ -639,7 +645,8 @@ bool SetReturnAdditionalPreviews(UGCQueryHandle_t handle, bool bReturnAdditional
 
 **用法示例:**
 ```csharp
-var ok = SteamGameServerUGC.SetReturnAdditionalPreviews(handle, true);
+UGCQueryHandle_t handle = new UGCQueryHandle_t(12345);
+SteamGameServerUGC.SetReturnAdditionalPreviews(handle, true);
 ```
 
 ### SetReturnTotalOnly (静态)
@@ -657,6 +664,7 @@ bool SetReturnTotalOnly(UGCQueryHandle_t handle, bool bReturnTotalOnly)
 
 **用法示例:**
 ```csharp
+UGCQueryHandle_t handle = new UGCQueryHandle_t(12345);
 SteamGameServerUGC.SetReturnTotalOnly(handle, true);
 ```
 
@@ -675,8 +683,7 @@ bool SetReturnPlaytimeStats(UGCQueryHandle_t handle, uint unDays)
 
 **用法示例:**
 ```csharp
-UGCQueryHandle_t handle = default;
-SteamGameServerUGC.SetReturnPlaytimeStats(handle, 7);
+SteamGameServerUGC.SetReturnPlaytimeStats(queryHandle, 7);
 ```
 
 ### SetLanguage (静态)
@@ -694,7 +701,8 @@ bool SetLanguage(UGCQueryHandle_t handle, string pchLanguage)
 
 **用法示例:**
 ```csharp
-bool success = SteamGameServerUGC.SetLanguage(handle, "zh-CN");
+UGCQueryHandle_t handle = new UGCQueryHandle_t(12345);
+SteamGameServerUGC.SetLanguage(handle, "english");
 ```
 
 ### SetAllowCachedResponse (静态)
@@ -712,7 +720,8 @@ bool SetAllowCachedResponse(UGCQueryHandle_t handle, uint unMaxAgeSeconds)
 
 **用法示例:**
 ```csharp
-SteamGameServerUGC.SetAllowCachedResponse(handle, 60u);
+UGCQueryHandle_t handle = new UGCQueryHandle_t(12345);
+SteamGameServerUGC.SetAllowCachedResponse(handle, 3600);
 ```
 
 ### SetAdminQuery (静态)
@@ -721,7 +730,7 @@ SteamGameServerUGC.SetAllowCachedResponse(handle, 60u);
 bool SetAdminQuery(UGCUpdateHandle_t handle, bool bAdminQuery)
 ```
 
-<para>管理员查询返回隐藏物品</para>
+<para>管理员查询返回隐藏项</para>
 
 **参数:**
 
@@ -741,7 +750,7 @@ SteamGameServerUGC.SetAdminQuery(handle, true);
 bool SetCloudFileNameFilter(UGCQueryHandle_t handle, string pMatchCloudFileName)
 ```
 
-<para>仅用于查询用户 UGC 的选项</para>
+<para> 仅用于查询用户UGC的选项</para>
 
 **参数:**
 
@@ -752,7 +761,7 @@ bool SetCloudFileNameFilter(UGCQueryHandle_t handle, string pMatchCloudFileName)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetCloudFileNameFilter(handle, "map_");
+SteamGameServerUGC.SetCloudFileNameFilter(queryHandle, "savegame.dat");
 ```
 
 ### SetMatchAnyTag (静态)
@@ -761,7 +770,7 @@ bool ok = SteamGameServerUGC.SetCloudFileNameFilter(handle, "map_");
 bool SetMatchAnyTag(UGCQueryHandle_t handle, bool bMatchAnyTag)
 ```
 
-仅用于查询所有用户生成内容的选项。
+<para> 仅用于查询所有UGC的选项</para>
 
 **参数:**
 
@@ -772,7 +781,7 @@ bool SetMatchAnyTag(UGCQueryHandle_t handle, bool bMatchAnyTag)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetMatchAnyTag(handle, true);
+SteamGameServerUGC.SetMatchAnyTag(queryHandle, true);
 ```
 
 ### SetSearchText (静态)
@@ -790,7 +799,7 @@ bool SetSearchText(UGCQueryHandle_t handle, string pSearchText)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetSearchText(handle, "adventure");
+SteamGameServerUGC.SetSearchText(handle, "example_search");
 ```
 
 ### SetRankedByTrendDays (静态)
@@ -808,7 +817,8 @@ bool SetRankedByTrendDays(UGCQueryHandle_t handle, uint unDays)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetRankedByTrendDays(handle, 7);
+UGCQueryHandle_t handle = UGCQueryHandle_t.Invalid;
+SteamGameServerUGC.SetRankedByTrendDays(handle, 7);
 ```
 
 ### SetTimeCreatedDateRange (静态)
@@ -827,7 +837,8 @@ bool SetTimeCreatedDateRange(UGCQueryHandle_t handle, uint rtStart, uint rtEnd)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetTimeCreatedDateRange(handle, 0u, 86400u);
+UGCQueryHandle_t queryHandle = UGCQueryHandle_t.Invalid;
+bool result = SteamGameServerUGC.SetTimeCreatedDateRange(queryHandle, 1609459200, 1640995200);
 ```
 
 ### SetTimeUpdatedDateRange (静态)
@@ -846,7 +857,8 @@ bool SetTimeUpdatedDateRange(UGCQueryHandle_t handle, uint rtStart, uint rtEnd)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetTimeUpdatedDateRange(handle, 1700000000u, 1700086400u);
+UGCQueryHandle_t handle = UGCQueryHandle_t.Invalid;
+SteamGameServerUGC.SetTimeUpdatedDateRange(handle, 1609459200, 1612137600);
 ```
 
 ### AddRequiredKeyValueTag (静态)
@@ -865,7 +877,8 @@ bool AddRequiredKeyValueTag(UGCQueryHandle_t handle, string pKey, string pValue)
 
 **用法示例:**
 ```csharp
-SteamGameServerUGC.AddRequiredKeyValueTag(handle, "mode", "hardcore");
+UGCQueryHandle_t handle = SteamGameServerUGC.CreateQueryUserUploadedItems(SteamId, EUGCList.k_EUGCList_UserPublished);
+bool success = SteamGameServerUGC.AddRequiredKeyValueTag(handle, "type", "map");
 ```
 
 ### RequestUGCDetails (静态)
@@ -874,7 +887,7 @@ SteamGameServerUGC.AddRequiredKeyValueTag(handle, "mode", "hardcore");
 SteamAPICall_t RequestUGCDetails(PublishedFileId_t nPublishedFileID, uint unMaxAgeSeconds)
 ```
 
-<para>已弃用 - 请使用上方的 CreateQueryUGCDetailsRequest 调用！</para>
+<para> 已弃用 - 请改用上述 CreateQueryUGCDetailsRequest 调用！</para>
 
 **参数:**
 
@@ -885,7 +898,7 @@ SteamAPICall_t RequestUGCDetails(PublishedFileId_t nPublishedFileID, uint unMaxA
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.RequestUGCDetails(publishedFileId, 60);
+SteamAPICall_t call = SteamGameServerUGC.RequestUGCDetails(new PublishedFileId_t(123456789), 300);
 ```
 
 ### CreateItem (静态)
@@ -894,7 +907,8 @@ SteamAPICall_t call = SteamGameServerUGC.RequestUGCDetails(publishedFileId, 60);
 SteamAPICall_t CreateItem(AppId_t nConsumerAppId, EWorkshopFileType eFileType)
 ```
 
-<para>Steam 工坊创作者 API</para> <para>为本应用创建一个新项目，当前尚未附加任何内容</para>
+<para>Steam 创意工坊创建者 API</para>
+<para>为此应用创建尚未附带内容的新项目</para>
 
 **参数:**
 
@@ -905,7 +919,7 @@ SteamAPICall_t CreateItem(AppId_t nConsumerAppId, EWorkshopFileType eFileType)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.CreateItem((AppId_t)480, EWorkshopFileType.Community);
+SteamAPICall_t call = SteamGameServerUGC.CreateItem(new AppId_t(480), EWorkshopFileType.k_EWorkshopFileTypeCommunity);
 ```
 
 ### StartItemUpdate (静态)
@@ -914,7 +928,7 @@ SteamAPICall_t call = SteamGameServerUGC.CreateItem((AppId_t)480, EWorkshopFileT
 UGCUpdateHandle_t StartItemUpdate(AppId_t nConsumerAppId, PublishedFileId_t nPublishedFileID)
 ```
 
-启动用户生成内容（UGC）项目更新。在调用 CommitItemUpdate() 提交更新之前，先设置已更改的属性。
+<para> 启动UGC项目更新。在使用CommitItemUpdate()提交更新之前，设置已更改的属性。</para>
 
 **参数:**
 
@@ -925,7 +939,7 @@ UGCUpdateHandle_t StartItemUpdate(AppId_t nConsumerAppId, PublishedFileId_t nPub
 
 **用法示例:**
 ```csharp
-var updateHandle = SteamGameServerUGC.StartItemUpdate(480, 12345678901234567UL);
+var updateHandle = SteamGameServerUGC.StartItemUpdate(new AppId_t(480), new PublishedFileId_t(123456789));
 ```
 
 ### SetItemTitle (静态)
@@ -934,7 +948,7 @@ var updateHandle = SteamGameServerUGC.StartItemUpdate(480, 12345678901234567UL);
 bool SetItemTitle(UGCUpdateHandle_t handle, string pchTitle)
 ```
 
-<para>更改用户生成内容（UGC）项目的标题</para>
+<para>更改UGC项目的标题</para>
 
 **参数:**
 
@@ -945,7 +959,7 @@ bool SetItemTitle(UGCUpdateHandle_t handle, string pchTitle)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetItemTitle(handle, "My UGC Title");
+SteamGameServerUGC.SetItemTitle(updateHandle, "My Workshop Item");
 ```
 
 ### SetItemDescription (静态)
@@ -954,7 +968,7 @@ bool ok = SteamGameServerUGC.SetItemTitle(handle, "My UGC Title");
 bool SetItemDescription(UGCUpdateHandle_t handle, string pchDescription)
 ```
 
-<para>更改用户生成内容（UGC）项目的描述</para>
+<para>更改UGC物品的描述</para>
 
 **参数:**
 
@@ -965,7 +979,7 @@ bool SetItemDescription(UGCUpdateHandle_t handle, string pchDescription)
 
 **用法示例:**
 ```csharp
-bool success = SteamGameServerUGC.SetItemDescription(handle, "新的UGC描述");
+bool result = SteamGameServerUGC.SetItemDescription(existingHandle, "New item description");
 ```
 
 ### SetItemUpdateLanguage (静态)
@@ -974,7 +988,7 @@ bool success = SteamGameServerUGC.SetItemDescription(handle, "新的UGC描述");
 bool SetItemUpdateLanguage(UGCUpdateHandle_t handle, string pchLanguage)
 ```
 
-<para>指定将设置的标题或描述的语言</para>
+<para>指定将要设置的标题或描述的语言</para>
 
 **参数:**
 
@@ -985,7 +999,7 @@ bool SetItemUpdateLanguage(UGCUpdateHandle_t handle, string pchLanguage)
 
 **用法示例:**
 ```csharp
-SteamGameServerUGC.SetItemUpdateLanguage(updateHandle, "zh-CN");
+SteamGameServerUGC.SetItemUpdateLanguage(updateHandle, "english");
 ```
 
 ### SetItemMetadata (静态)
@@ -994,7 +1008,7 @@ SteamGameServerUGC.SetItemUpdateLanguage(updateHandle, "zh-CN");
 bool SetItemMetadata(UGCUpdateHandle_t handle, string pchMetaData)
 ```
 
-<para>更改UGC项的元数据（最大值 = k_cchDeveloperMetadataMax）</para>
+<para>更改UGC元数据的元数据（最大长度 = k_cchDeveloperMetadataMax）</para>
 
 **参数:**
 
@@ -1005,7 +1019,8 @@ bool SetItemMetadata(UGCUpdateHandle_t handle, string pchMetaData)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetItemMetadata(updateHandle, "dev-meta");
+UGCUpdateHandle_t handle = new UGCUpdateHandle_t(12345);
+SteamGameServerUGC.SetItemMetadata(handle, "MyCustomMetadata");
 ```
 
 ### SetItemVisibility (静态)
@@ -1014,7 +1029,7 @@ bool ok = SteamGameServerUGC.SetItemMetadata(updateHandle, "dev-meta");
 bool SetItemVisibility(UGCUpdateHandle_t handle, ERemoteStoragePublishedFileVisibility eVisibility)
 ```
 
-<para>更改 UGC 项目的可见性</para>
+<para>更改UGC项目的可见性</para>
 
 **参数:**
 
@@ -1025,7 +1040,7 @@ bool SetItemVisibility(UGCUpdateHandle_t handle, ERemoteStoragePublishedFileVisi
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetItemVisibility(handle, ERemoteStoragePublishedFileVisibility.Public);
+SteamGameServerUGC.SetItemVisibility(updateHandle, ERemoteStoragePublishedFileVisibility.k_ERemoteStoragePublishedFileVisibilityPublic);
 ```
 
 ### SetItemTags (静态)
@@ -1034,7 +1049,7 @@ bool ok = SteamGameServerUGC.SetItemVisibility(handle, ERemoteStoragePublishedFi
 bool SetItemTags(UGCUpdateHandle_t updateHandle, System.Collections.Generic.IList<string> pTags, bool bAllowAdminTags = false)
 ```
 
-<para>更改用户生成内容（UGC）项目的标签</para>
+<para>更改UGC物品的标签</para>
 
 **参数:**
 
@@ -1046,7 +1061,8 @@ bool SetItemTags(UGCUpdateHandle_t updateHandle, System.Collections.Generic.ILis
 
 **用法示例:**
 ```csharp
-bool success = SteamGameServerUGC.SetItemTags(updateHandle, tags, true);
+var tags = new List<string> { "Action", "Multiplayer" };
+SteamGameServerUGC.SetItemTags(updateHandle, tags, false);
 ```
 
 ### SetItemContent (静态)
@@ -1055,7 +1071,7 @@ bool success = SteamGameServerUGC.SetItemTags(updateHandle, tags, true);
 bool SetItemContent(UGCUpdateHandle_t handle, string pszContentFolder)
 ```
 
-从该本地文件夹更新物品内容
+<para>从本地文件夹更新物品内容</para>
 
 **参数:**
 
@@ -1066,7 +1082,7 @@ bool SetItemContent(UGCUpdateHandle_t handle, string pszContentFolder)
 
 **用法示例:**
 ```csharp
-bool success = SteamGameServerUGC.SetItemContent(updateHandle, contentFolder);
+bool success = SteamGameServerUGC.SetItemContent(updateHandle, "C:/MyModContent");
 ```
 
 ### SetItemPreview (静态)
@@ -1075,7 +1091,7 @@ bool success = SteamGameServerUGC.SetItemContent(updateHandle, contentFolder);
 bool SetItemPreview(UGCUpdateHandle_t handle, string pszPreviewFile)
 ```
 
-<para>更改此物品的前预览图像文件。pszPreviewFile 指向本地图像文件，其大小必须小于 1MB。</para>
+<para>更改此物品的预览图像文件。pszPreviewFile指向本地图像文件，该文件大小必须低于1MB</para>
 
 **参数:**
 
@@ -1086,7 +1102,7 @@ bool SetItemPreview(UGCUpdateHandle_t handle, string pszPreviewFile)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetItemPreview(handle, @"D:\preview.jpg");
+bool success = SteamGameServerUGC.SetItemPreview(updateHandle, "preview.png");
 ```
 
 ### SetAllowLegacyUpload (静态)
@@ -1095,7 +1111,7 @@ bool ok = SteamGameServerUGC.SetItemPreview(handle, @"D:\preview.jpg");
 bool SetAllowLegacyUpload(UGCUpdateHandle_t handle, bool bAllowLegacyUpload)
 ```
 
-<para>使用传统上传方式上传单个小文件。SetItemContent() 方法的参数应为包含单个文件的目录，或该文件的完整路径。此外，文件大小必须小于 10MB。</para>
+<para> 对单个小文件使用旧版上传。SetItemContent() 的参数应为包含单一文件的目录或该文件的完整路径。文件大小必须小于 10MB。</para>
 
 **参数:**
 
@@ -1106,7 +1122,7 @@ bool SetAllowLegacyUpload(UGCUpdateHandle_t handle, bool bAllowLegacyUpload)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.SetAllowLegacyUpload(handle, true);
+SteamGameServerUGC.SetAllowLegacyUpload(handle, true);
 ```
 
 ### RemoveAllItemKeyValueTags (静态)
@@ -1115,7 +1131,7 @@ bool ok = SteamGameServerUGC.SetAllowLegacyUpload(handle, true);
 bool RemoveAllItemKeyValueTags(UGCUpdateHandle_t handle)
 ```
 
-<para>移除所有现有的键值标签（可通过 AddItemKeyValueTag 函数添加新标签）</para>
+<para> 移除所有现有的键值标签（您可以通过 AddItemKeyValueTag 函数添加新的标签）</para>
 
 **参数:**
 
@@ -1125,7 +1141,8 @@ bool RemoveAllItemKeyValueTags(UGCUpdateHandle_t handle)
 
 **用法示例:**
 ```csharp
-bool removed = SteamGameServerUGC.RemoveAllItemKeyValueTags(handle);
+UGCUpdateHandle_t handle = default;
+SteamGameServerUGC.RemoveAllItemKeyValueTags(handle);
 ```
 
 ### RemoveItemKeyValueTags (静态)
@@ -1134,7 +1151,7 @@ bool removed = SteamGameServerUGC.RemoveAllItemKeyValueTags(handle);
 bool RemoveItemKeyValueTags(UGCUpdateHandle_t handle, string pchKey)
 ```
 
-<para>移除所有具有指定键的现有键值标签</para>
+<para> 移除所有具有指定键的键值标签</para>
 
 **参数:**
 
@@ -1145,7 +1162,8 @@ bool RemoveItemKeyValueTags(UGCUpdateHandle_t handle, string pchKey)
 
 **用法示例:**
 ```csharp
-bool removed = SteamGameServerUGC.RemoveItemKeyValueTags(handle, "MyKey");
+UGCUpdateHandle_t updateHandle = new UGCUpdateHandle_t(12345);
+SteamGameServerUGC.RemoveItemKeyValueTags(updateHandle, "category");
 ```
 
 ### AddItemKeyValueTag (静态)
@@ -1154,7 +1172,7 @@ bool removed = SteamGameServerUGC.RemoveItemKeyValueTags(handle, "MyKey");
 bool AddItemKeyValueTag(UGCUpdateHandle_t handle, string pchKey, string pchValue)
 ```
 
-为该项目添加新的键值标签。请注意，一个标签可以拥有多个值。
+<para>为物品添加新的键值标签。注意一个标签可以有多个值。</para>
 
 **参数:**
 
@@ -1166,7 +1184,8 @@ bool AddItemKeyValueTag(UGCUpdateHandle_t handle, string pchKey, string pchValue
 
 **用法示例:**
 ```csharp
-SteamGameServerUGC.AddItemKeyValueTag(handle, "genre", "rpg");
+UGCUpdateHandle_t handle = new UGCUpdateHandle_t(12345);
+SteamGameServerUGC.AddItemKeyValueTag(handle, "category", "weapons");
 ```
 
 ### AddItemPreviewFile (静态)
@@ -1175,7 +1194,7 @@ SteamGameServerUGC.AddItemKeyValueTag(handle, "genre", "rpg");
 bool AddItemPreviewFile(UGCUpdateHandle_t handle, string pszPreviewFile, EItemPreviewType type)
 ```
 
-<para>为此物品添加预览文件。pszPreviewFile 指向本地文件，该文件大小必须小于 1MB。</para>
+<para> 为此物品添加预览文件。pszPreviewFile 指向本地文件，其大小必须小于 1MB</para>
 
 **参数:**
 
@@ -1187,7 +1206,8 @@ bool AddItemPreviewFile(UGCUpdateHandle_t handle, string pszPreviewFile, EItemPr
 
 **用法示例:**
 ```csharp
-bool success = SteamGameServerUGC.AddItemPreviewFile(handle, @"C:\previews\item_preview.jpg", EItemPreviewType.Image);
+var handle = SteamGameServerUGC.StartItemUpdate(appId, publishedFileId);
+SteamGameServerUGC.AddItemPreviewFile(handle, "preview.jpg", EItemPreviewType.Image);
 ```
 
 ### AddItemPreviewVideo (静态)
@@ -1196,7 +1216,7 @@ bool success = SteamGameServerUGC.AddItemPreviewFile(handle, @"C:\previews\item_
 bool AddItemPreviewVideo(UGCUpdateHandle_t handle, string pszVideoID)
 ```
 
-为该项目添加预览视频
+<para> 为此物品添加预览视频</para>
 
 **参数:**
 
@@ -1207,7 +1227,8 @@ bool AddItemPreviewVideo(UGCUpdateHandle_t handle, string pszVideoID)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.AddItemPreviewVideo(handle, "video123");
+UGCUpdateHandle_t updateHandle = new UGCUpdateHandle_t(12345);
+SteamGameServerUGC.AddItemPreviewVideo(updateHandle, "dQw4w9WgXcQ");
 ```
 
 ### UpdateItemPreviewFile (静态)
@@ -1216,7 +1237,7 @@ bool ok = SteamGameServerUGC.AddItemPreviewVideo(handle, "video123");
 bool UpdateItemPreviewFile(UGCUpdateHandle_t handle, uint index, string pszPreviewFile)
 ```
 
-更新此项目的现有预览文件。pszPreviewFile 指向本地文件，其大小必须小于 1MB。
+<para>更新此项目的现有预览文件。pszPreviewFile指向本地文件，文件大小不得超过1MB</para>
 
 **参数:**
 
@@ -1228,7 +1249,8 @@ bool UpdateItemPreviewFile(UGCUpdateHandle_t handle, uint index, string pszPrevi
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.UpdateItemPreviewFile(handle, 0, @"C:\preview.jpg");
+UGCUpdateHandle_t handle = default;
+bool result = SteamGameServerUGC.UpdateItemPreviewFile(handle, 0, "preview.jpg");
 ```
 
 ### UpdateItemPreviewVideo (静态)
@@ -1237,7 +1259,7 @@ bool ok = SteamGameServerUGC.UpdateItemPreviewFile(handle, 0, @"C:\preview.jpg")
 bool UpdateItemPreviewVideo(UGCUpdateHandle_t handle, uint index, string pszVideoID)
 ```
 
-更新该项目的现有预览视频
+<para>更新此物品的现有预览视频</para>
 
 **参数:**
 
@@ -1249,8 +1271,7 @@ bool UpdateItemPreviewVideo(UGCUpdateHandle_t handle, uint index, string pszVide
 
 **用法示例:**
 ```csharp
-bool success = SteamGameServerUGC.UpdateItemPreviewVideo(handle, 0, "1234567890");
-if (success) Console.WriteLine("Preview video updated");
+bool success = SteamGameServerUGC.UpdateItemPreviewVideo(handle, 0, "dQw4w9WgXcQ");
 ```
 
 ### RemoveItemPreview (静态)
@@ -1259,7 +1280,7 @@ if (success) Console.WriteLine("Preview video updated");
 bool RemoveItemPreview(UGCUpdateHandle_t handle, uint index)
 ```
 
-通过从 0 开始的索引移除预览（预览已排序）
+<para> 按索引移除预览，索引从0开始（预览已排序）</para>
 
 **参数:**
 
@@ -1270,7 +1291,8 @@ bool RemoveItemPreview(UGCUpdateHandle_t handle, uint index)
 
 **用法示例:**
 ```csharp
-bool removed = SteamGameServerUGC.RemoveItemPreview(handle, 0u);
+UGCUpdateHandle_t updateHandle = SteamGameServerUGC.StartItemUpdate(AppId, publishedFileId);
+SteamGameServerUGC.RemoveItemPreview(updateHandle, 0);
 ```
 
 ### AddContentDescriptor (静态)
@@ -1288,7 +1310,8 @@ bool AddContentDescriptor(UGCUpdateHandle_t handle, EUGCContentDescriptorID desc
 
 **用法示例:**
 ```csharp
-bool success = SteamGameServerUGC.AddContentDescriptor(handle, EUGCContentDescriptorID.Value);
+UGCUpdateHandle_t handle = UGCUpdateHandle_t.Invalid;
+SteamGameServerUGC.AddContentDescriptor(handle, EUGCContentDescriptorID.k_EUGCContentDescriptor_NudityOrSexualContent);
 ```
 
 ### RemoveContentDescriptor (静态)
@@ -1306,7 +1329,7 @@ bool RemoveContentDescriptor(UGCUpdateHandle_t handle, EUGCContentDescriptorID d
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.RemoveContentDescriptor(handle, EUGCContentDescriptorID.Invalid);
+bool result = SteamGameServerUGC.RemoveContentDescriptor(handle, EUGCContentDescriptorID.Nudity);
 ```
 
 ### SetRequiredGameVersions (静态)
@@ -1315,7 +1338,7 @@ bool ok = SteamGameServerUGC.RemoveContentDescriptor(handle, EUGCContentDescript
 bool SetRequiredGameVersions(UGCUpdateHandle_t handle, string pszGameBranchMin, string pszGameBranchMax)
 ```
 
-任一参数为空字符串表示将匹配该范围内的任意版本。仅当实际内容已更改时，此规则才会生效。
+<para>任一参数的空字符串表示它将匹配该范围端点的任意版本。这仅在实际内容已被修改时才会应用。</para>
 
 **参数:**
 
@@ -1327,8 +1350,7 @@ bool SetRequiredGameVersions(UGCUpdateHandle_t handle, string pszGameBranchMin, 
 
 **用法示例:**
 ```csharp
-UGCUpdateHandle_t handle = 12345;
-bool ok = SteamGameServerUGC.SetRequiredGameVersions(handle, "1.0.0", "2.0.0");
+bool success = SteamGameServerUGC.SetRequiredGameVersions(updateHandle, "1.0", "");
 ```
 
 ### SubmitItemUpdate (静态)
@@ -1337,7 +1359,7 @@ bool ok = SteamGameServerUGC.SetRequiredGameVersions(handle, "1.0.0", "2.0.0");
 SteamAPICall_t SubmitItemUpdate(UGCUpdateHandle_t handle, string pchChangeNote)
 ```
 
-<para>更新流程已通过 StartItemUpdate() 启动</para>
+<para> 通过 StartItemUpdate() 启动的提交更新过程</para>
 
 **参数:**
 
@@ -1348,7 +1370,8 @@ SteamAPICall_t SubmitItemUpdate(UGCUpdateHandle_t handle, string pchChangeNote)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.SubmitItemUpdate(handle, "已更新物品内容");
+UGCUpdateHandle_t handle = SteamGameServerUGC.StartItemUpdate(AppId, publishedFileId);
+SteamAPICall_t call = SteamGameServerUGC.SubmitItemUpdate(handle, "Updated item description");
 ```
 
 ### GetItemUpdateProgress (静态)
@@ -1367,8 +1390,7 @@ EItemUpdateStatus GetItemUpdateProgress(UGCUpdateHandle_t handle, out ulong punB
 
 **用法示例:**
 ```csharp
-ulong bytesProcessed, bytesTotal;
-var status = SteamGameServerUGC.GetItemUpdateProgress(handle, out bytesProcessed, out bytesTotal);
+var status = SteamGameServerUGC.GetItemUpdateProgress(handle, out ulong processed, out ulong total);
 ```
 
 ### SetUserItemVote (静态)
@@ -1377,7 +1399,7 @@ var status = SteamGameServerUGC.GetItemUpdateProgress(handle, out bytesProcessed
 SteamAPICall_t SetUserItemVote(PublishedFileId_t nPublishedFileID, bool bVoteUp)
 ```
 
-<para>Steam 工坊消费者 API</para>
+<para>Steam创意工坊消费者API</para>
 
 **参数:**
 
@@ -1388,7 +1410,7 @@ SteamAPICall_t SetUserItemVote(PublishedFileId_t nPublishedFileID, bool bVoteUp)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.SetUserItemVote(publishedFileId, true);
+SteamAPICall_t call = SteamGameServerUGC.SetUserItemVote(new PublishedFileId_t(123456789), true);
 ```
 
 ### GetUserItemVote (静态)
@@ -1405,7 +1427,7 @@ SteamAPICall_t GetUserItemVote(PublishedFileId_t nPublishedFileID)
 
 **用法示例:**
 ```csharp
-var apiCall = SteamGameServerUGC.GetUserItemVote(publishedFileId);
+var callHandle = SteamGameServerUGC.GetUserItemVote(new PublishedFileId_t(123456789));
 ```
 
 ### AddItemToFavorites (静态)
@@ -1423,7 +1445,7 @@ SteamAPICall_t AddItemToFavorites(AppId_t nAppId, PublishedFileId_t nPublishedFi
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.AddItemToFavorites((AppId_t)480, (PublishedFileId_t)1234567890UL);
+var callHandle = SteamGameServerUGC.AddItemToFavorites(new AppId_t(480), new PublishedFileId_t(123456789));
 ```
 
 ### RemoveItemFromFavorites (静态)
@@ -1441,7 +1463,7 @@ SteamAPICall_t RemoveItemFromFavorites(AppId_t nAppId, PublishedFileId_t nPublis
 
 **用法示例:**
 ```csharp
-var call = SteamGameServerUGC.RemoveItemFromFavorites((AppId_t)480, (PublishedFileId_t)12345678901234567UL);
+SteamGameServerUGC.RemoveItemFromFavorites(new AppId_t(480), new PublishedFileId_t(123456789));
 ```
 
 ### SubscribeItem (静态)
@@ -1450,7 +1472,7 @@ var call = SteamGameServerUGC.RemoveItemFromFavorites((AppId_t)480, (PublishedFi
 SteamAPICall_t SubscribeItem(PublishedFileId_t nPublishedFileID)
 ```
 
-<para>订阅此项目，将尽快安装</para>
+<para>订阅此物品，将尽快安装</para>
 
 **参数:**
 
@@ -1460,8 +1482,7 @@ SteamAPICall_t SubscribeItem(PublishedFileId_t nPublishedFileID)
 
 **用法示例:**
 ```csharp
-PublishedFileId_t fileId = (PublishedFileId_t)123456789UL;
-SteamGameServerUGC.SubscribeItem(fileId);
+var callHandle = SteamGameServerUGC.SubscribeItem(new PublishedFileId_t(123456789));
 ```
 
 ### UnsubscribeItem (静态)
@@ -1470,7 +1491,7 @@ SteamGameServerUGC.SubscribeItem(fileId);
 SteamAPICall_t UnsubscribeItem(PublishedFileId_t nPublishedFileID)
 ```
 
-<para>取消订阅此项，游戏退出后将被卸载</para>
+<para> 取消订阅此物品，将在游戏退出后卸载</para>
 
 **参数:**
 
@@ -1480,7 +1501,8 @@ SteamAPICall_t UnsubscribeItem(PublishedFileId_t nPublishedFileID)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.UnsubscribeItem(publishedFileId);
+PublishedFileId_t fileId = new PublishedFileId_t(123456789);
+SteamAPICall_t callHandle = SteamGameServerUGC.UnsubscribeItem(fileId);
 ```
 
 ### GetNumSubscribedItems (静态)
@@ -1489,7 +1511,7 @@ SteamAPICall_t call = SteamGameServerUGC.UnsubscribeItem(publishedFileId);
 uint GetNumSubscribedItems(bool bIncludeLocallyDisabled = false)
 ```
 
-订阅项目的数量
+<para>已订阅物品数量</para>
 
 **参数:**
 
@@ -1499,8 +1521,7 @@ uint GetNumSubscribedItems(bool bIncludeLocallyDisabled = false)
 
 **用法示例:**
 ```csharp
-uint subscribedCount = SteamGameServerUGC.GetNumSubscribedItems(false);
-Console.WriteLine(subscribedCount);
+uint count = SteamGameServerUGC.GetNumSubscribedItems(false);
 ```
 
 ### GetSubscribedItems (静态)
@@ -1509,7 +1530,7 @@ Console.WriteLine(subscribedCount);
 uint GetSubscribedItems(PublishedFileId_t[] pvecPublishedFileID, uint cMaxEntries, bool bIncludeLocallyDisabled = false)
 ```
 
-所有已订阅项目的发布文件 ID
+<para>所有已订阅物品的PublishFileID</para>
 
 **参数:**
 
@@ -1521,7 +1542,8 @@ uint GetSubscribedItems(PublishedFileId_t[] pvecPublishedFileID, uint cMaxEntrie
 
 **用法示例:**
 ```csharp
-PublishedFileId_t[] itemIds = default; uint subscribedCount = SteamGameServerUGC.GetSubscribedItems(itemIds, 100u, false);
+PublishedFileId_t[] items = new PublishedFileId_t[10];
+uint count = SteamGameServerUGC.GetSubscribedItems(items, 10, false);
 ```
 
 ### GetItemState (静态)
@@ -1530,7 +1552,7 @@ PublishedFileId_t[] itemIds = default; uint subscribedCount = SteamGameServerUGC
 uint GetItemState(PublishedFileId_t nPublishedFileID)
 ```
 
-<para>获取此客户端上该物品的 EItemState 标志</para>
+<para> 获取此客户端上关于物品的EItemState标志</para>
 
 **参数:**
 
@@ -1540,7 +1562,7 @@ uint GetItemState(PublishedFileId_t nPublishedFileID)
 
 **用法示例:**
 ```csharp
-PublishedFileId_t fileId = default;
+PublishedFileId_t fileId = new PublishedFileId_t(123456789);
 uint state = SteamGameServerUGC.GetItemState(fileId);
 ```
 
@@ -1550,7 +1572,8 @@ uint state = SteamGameServerUGC.GetItemState(fileId);
 bool GetItemInstallInfo(PublishedFileId_t nPublishedFileID, out ulong punSizeOnDisk, out string pchFolder, uint cchFolderSize, out uint punTimeStamp)
 ```
 
-<para>获取当前安装在光盘上且已设置 k_EItemStateInstalled 标志的项目的相关信息</para><para>若设置了 k_EItemStateLegacyItem，则 pchFolder 包含旧版文件自身的路径（而非文件夹路径）</para>
+<para> 获取磁盘上已安装且设置了 k_EItemStateInstalled 标志的当前内容信息</para>
+<para> 如果设置了 k_EItemStateLegacyItem，则 pchFolder 包含传统文件本身的路径（而非文件夹）</para>
 
 **参数:**
 
@@ -1564,7 +1587,7 @@ bool GetItemInstallInfo(PublishedFileId_t nPublishedFileID, out ulong punSizeOnD
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.GetItemInstallInfo(publishedFileId, out ulong sizeOnDisk, out string folder, 260, out uint timeStamp);
+bool installed = SteamGameServerUGC.GetItemInstallInfo(fileId, out ulong size, out string folder, 1024, out uint timestamp);
 ```
 
 ### GetItemDownloadInfo (静态)
@@ -1573,7 +1596,7 @@ bool ok = SteamGameServerUGC.GetItemInstallInfo(publishedFileId, out ulong sizeO
 bool GetItemDownloadInfo(PublishedFileId_t nPublishedFileID, out ulong punBytesDownloaded, out ulong punBytesTotal)
 ```
 
-获取已设置 k_EItemStateNeedsUpdate 标志的项目的待更新信息。下载开始后，punBytesTotal 将首次有效。
+<para>获取针对设置了k_EItemStateNeedsUpdate状态的待更新物品信息。punBytesTotal将在下载开始后有效一次</para>
 
 **参数:**
 
@@ -1585,8 +1608,7 @@ bool GetItemDownloadInfo(PublishedFileId_t nPublishedFileID, out ulong punBytesD
 
 **用法示例:**
 ```csharp
-ulong downloaded, total;
-if (SteamGameServerUGC.GetItemDownloadInfo(fileId, out downloaded, out total)) Console.WriteLine($"{downloaded}/{total}");
+SteamGameServerUGC.GetItemDownloadInfo(new PublishedFileId_t(12345), out ulong downloaded, out ulong total);
 ```
 
 ### DownloadItem (静态)
@@ -1595,7 +1617,7 @@ if (SteamGameServerUGC.GetItemDownloadInfo(fileId, out downloaded, out total)) C
 bool DownloadItem(PublishedFileId_t nPublishedFileID, bool bHighPriority)
 ```
 
-<para>下载新项或更新已安装的项。如果函数返回 true，请等待 DownloadItemResult_t 回调。若该项已安装，则在收到回调前不应使用磁盘上的文件。若未订阅该物品，则会在一段时间内进行缓存。</para><para>若设置 bHighPriority，则挂起其他所有物品的下载任务，并尽快优先下载该项。</para>
+<para> 下载新项目或更新已安装的项目。若函数返回 true，则等待 DownloadItemResult_t。若项目已安装，</para> <para> 则在接收到回调前不应使用磁盘上的文件。若项目未订阅，它将被缓存一段时间。</para> <para> 若设置了 bHighPriority，则会暂停任何其他项目的下载，并尽快下载此项目。</para>
 
 **参数:**
 
@@ -1606,7 +1628,7 @@ bool DownloadItem(PublishedFileId_t nPublishedFileID, bool bHighPriority)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerUGC.DownloadItem((PublishedFileId_t)1234567890UL, true);
+SteamGameServerUGC.DownloadItem(new PublishedFileId_t(123456789), true);
 ```
 
 ### BInitWorkshopForGameServer (静态)
@@ -1615,7 +1637,8 @@ bool ok = SteamGameServerUGC.DownloadItem((PublishedFileId_t)1234567890UL, true)
 bool BInitWorkshopForGameServer(DepotId_t unWorkshopDepotID, string pszFolder)
 ```
 
-<para>游戏服务器可在发出任何用户生成内容（UGC）命令之前，设置一个特定的创意工坊文件夹。</para> <para>若您需要支持多个从同一安装目录启动的游戏服务器，此功能将十分有用。</para>
+<para>游戏服务器在发出任何UGC命令前，可先设置一个特定的工坊文件夹。</para>
+<para>若您希望支持从同一安装文件夹运行多个游戏服务器，此功能将非常实用。</para>
 
 **参数:**
 
@@ -1626,7 +1649,7 @@ bool BInitWorkshopForGameServer(DepotId_t unWorkshopDepotID, string pszFolder)
 
 **用法示例:**
 ```csharp
-SteamGameServerUGC.BInitWorkshopForGameServer((DepotId_t)1001, @"D:\Workshop");
+bool success = SteamGameServerUGC.BInitWorkshopForGameServer(new DepotId_t(12345), "workshop_content");
 ```
 
 ### SuspendDownloads (静态)
@@ -1635,7 +1658,7 @@ SteamGameServerUGC.BInitWorkshopForGameServer((DepotId_t)1001, @"D:\Workshop");
 void SuspendDownloads(bool bSuspend)
 ```
 
-SuspendDownloads(true) 将暂停所有创意工坊下载，直到调用 SuspendDownloads(false) 或游戏结束为止。
+<para> SuspendDownloads( true ) 将暂停所有创意工坊下载，直至调用 SuspendDownloads( false ) 或游戏结束</para>
 
 **参数:**
 
@@ -1653,7 +1676,7 @@ SteamGameServerUGC.SuspendDownloads(false);
 SteamAPICall_t StartPlaytimeTracking(PublishedFileId_t[] pvecPublishedFileID, uint unNumPublishedFileIDs)
 ```
 
-翻译：<para>使用跟踪</para>
+<para>使用追踪</para>
 
 **参数:**
 
@@ -1664,7 +1687,8 @@ SteamAPICall_t StartPlaytimeTracking(PublishedFileId_t[] pvecPublishedFileID, ui
 
 **用法示例:**
 ```csharp
-SteamGameServerUGC.StartPlaytimeTracking(publishedFileIds, (uint)publishedFileIds.Length);
+var fileIds = new PublishedFileId_t[] { new PublishedFileId_t(12345) };
+SteamAPICall_t call = SteamGameServerUGC.StartPlaytimeTracking(fileIds, 1);
 ```
 
 ### StopPlaytimeTracking (静态)
@@ -1682,7 +1706,8 @@ SteamAPICall_t StopPlaytimeTracking(PublishedFileId_t[] pvecPublishedFileID, uin
 
 **用法示例:**
 ```csharp
-SteamGameServerUGC.StopPlaytimeTracking(publishedFileIds, (uint)publishedFileIds.Length);
+PublishedFileId_t[] ids = { new PublishedFileId_t(12345) };
+SteamAPICall_t call = SteamGameServerUGC.StopPlaytimeTracking(ids, 1);
 ```
 
 ### StopPlaytimeTrackingForAllItems (静态)
@@ -1695,7 +1720,7 @@ SteamAPICall_t StopPlaytimeTrackingForAllItems()
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.StopPlaytimeTrackingForAllItems();
+SteamAPICall_t callHandle = SteamGameServerUGC.StopPlaytimeTrackingForAllItems();
 ```
 
 ### AddDependency (静态)
@@ -1704,7 +1729,7 @@ SteamAPICall_t call = SteamGameServerUGC.StopPlaytimeTrackingForAllItems();
 SteamAPICall_t AddDependency(PublishedFileId_t nParentPublishedFileID, PublishedFileId_t nChildPublishedFileID)
 ```
 
-父级与子级关系或依赖管理
+<para>父子关系或依赖项管理</para>
 
 **参数:**
 
@@ -1715,7 +1740,7 @@ SteamAPICall_t AddDependency(PublishedFileId_t nParentPublishedFileID, Published
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.AddDependency(12345678901234567ul, 23456789012345678ul);
+var callHandle = SteamGameServerUGC.AddDependency(new PublishedFileId_t(12345), new PublishedFileId_t(67890));
 ```
 
 ### RemoveDependency (静态)
@@ -1733,7 +1758,7 @@ SteamAPICall_t RemoveDependency(PublishedFileId_t nParentPublishedFileID, Publis
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.RemoveDependency(parentFileId, childFileId);
+var callHandle = SteamGameServerUGC.RemoveDependency(new PublishedFileId_t(12345), new PublishedFileId_t(67890));
 ```
 
 ### AddAppDependency (静态)
@@ -1742,7 +1767,7 @@ SteamAPICall_t call = SteamGameServerUGC.RemoveDependency(parentFileId, childFil
 SteamAPICall_t AddAppDependency(PublishedFileId_t nPublishedFileID, AppId_t nAppID)
 ```
 
-<para>添加/移除应用程序依赖/需求（通常为 DLC）</para>
+<para> 添加/移除应用程序依赖/需求（通常为DLC）</para>
 
 **参数:**
 
@@ -1753,7 +1778,7 @@ SteamAPICall_t AddAppDependency(PublishedFileId_t nPublishedFileID, AppId_t nApp
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.AddAppDependency(publishedFileId, appId);
+SteamGameServerUGC.AddAppDependency(new PublishedFileId_t(123456789), new AppId_t(440));
 ```
 
 ### RemoveAppDependency (静态)
@@ -1771,7 +1796,7 @@ SteamAPICall_t RemoveAppDependency(PublishedFileId_t nPublishedFileID, AppId_t n
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.RemoveAppDependency(publishedFileId, appId);
+SteamAPICall_t call = SteamGameServerUGC.RemoveAppDependency(new PublishedFileId_t(123456789), new AppId_t(440));
 ```
 
 ### GetAppDependencies (静态)
@@ -1780,7 +1805,7 @@ SteamAPICall_t call = SteamGameServerUGC.RemoveAppDependency(publishedFileId, ap
 SteamAPICall_t GetAppDependencies(PublishedFileId_t nPublishedFileID)
 ```
 
-<para>请求应用程序依赖项。请注意，为 GetAppDependenciesResult_t 注册的回调函数可能会被多次调用，</para><para>直到所有应用程序依赖项返回完毕。</para>
+<para>请求应用依赖项。请注意，您为 GetAppDependenciesResult_t 注册的回调函数可能会被多次调用</para> <para>直到所有应用依赖项均已返回</para>
 
 **参数:**
 
@@ -1790,7 +1815,7 @@ SteamAPICall_t GetAppDependencies(PublishedFileId_t nPublishedFileID)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.GetAppDependencies(123456789UL);
+SteamAPICall_t call = SteamGameServerUGC.GetAppDependencies(new PublishedFileId_t(123456789));
 ```
 
 ### DeleteItem (静态)
@@ -1799,7 +1824,7 @@ SteamAPICall_t call = SteamGameServerUGC.GetAppDependencies(123456789UL);
 SteamAPICall_t DeleteItem(PublishedFileId_t nPublishedFileID)
 ```
 
-<para>删除该项目，无需提示用户</para>
+<para> 删除项目时不提示用户</para>
 
 **参数:**
 
@@ -1809,7 +1834,8 @@ SteamAPICall_t DeleteItem(PublishedFileId_t nPublishedFileID)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerUGC.DeleteItem(publishedFileId);
+var publishedFileId = new PublishedFileId_t(123456789);
+SteamAPICall_t callHandle = SteamGameServerUGC.DeleteItem(publishedFileId);
 ```
 
 ### ShowWorkshopEULA (静态)
@@ -1818,14 +1844,13 @@ SteamAPICall_t call = SteamGameServerUGC.DeleteItem(publishedFileId);
 bool ShowWorkshopEULA()
 ```
 
-<para>在叠加窗口中向用户展示该应用最新的工坊最终用户许可协议（EULA），用户可选择接受或拒绝。</para>
+<para> 在叠加窗口中向用户显示应用最新的工坊最终用户许可协议，用户可在此选择接受或拒绝</para>
 
 **返回值:** `bool`
 
 **用法示例:**
 ```csharp
-bool shown = SteamGameServerUGC.ShowWorkshopEULA();
-if (!shown) Console.WriteLine("EULA 未能显示");
+bool accepted = SteamGameServerUGC.ShowWorkshopEULA();
 ```
 
 ### GetWorkshopEULAStatus (静态)
@@ -1834,13 +1859,13 @@ if (!shown) Console.WriteLine("EULA 未能显示");
 SteamAPICall_t GetWorkshopEULAStatus()
 ```
 
-<para>获取与用户是否接受应用程序特定创意工坊最终用户许可协议相关的信息。</para>
+<para> 检索用户是否接受应用特定工坊EULA的相关信息</para>
 
 **返回值:** `SteamAPICall_t`
 
 **用法示例:**
 ```csharp
-var call = SteamGameServerUGC.GetWorkshopEULAStatus();
+SteamAPICall_t callHandle = SteamGameServerUGC.GetWorkshopEULAStatus();
 ```
 
 ### GetUserContentDescriptorPreferences (静态)
@@ -1849,7 +1874,7 @@ var call = SteamGameServerUGC.GetWorkshopEULAStatus();
 uint GetUserContentDescriptorPreferences(out EUGCContentDescriptorID pvecDescriptors, uint cMaxEntries)
 ```
 
-<para>返回用户的社区内容描述符偏好设置</para>
+<para> 返回用户的社区内容描述符偏好</para>
 
 **参数:**
 
@@ -1860,8 +1885,8 @@ uint GetUserContentDescriptorPreferences(out EUGCContentDescriptorID pvecDescrip
 
 **用法示例:**
 ```csharp
-EUGCContentDescriptorID descriptor;
-uint count = SteamGameServerUGC.GetUserContentDescriptorPreferences(out descriptor, 1);
+EUGCContentDescriptorID[] descriptors = new EUGCContentDescriptorID[10];
+uint count = SteamGameServerUGC.GetUserContentDescriptorPreferences(out descriptors[0], (uint)descriptors.Length);
 ```
 
 ### SetItemsDisabledLocally (静态)
@@ -1870,7 +1895,7 @@ uint count = SteamGameServerUGC.GetUserContentDescriptorPreferences(out descript
 bool SetItemsDisabledLocally(out PublishedFileId_t pvecPublishedFileIDs, uint unNumPublishedFileIDs, bool bDisabledLocally)
 ```
 
-<para>设置该项目是否应在本地禁用。这意味着在默认情况下，它不会出现在 GetSubscribedItems() 的返回结果中。</para>
+<para> 设置项目是否应在本地禁用。这意味着默认情况下它不会在 GetSubscribedItems() 中返回。</para>
 
 **参数:**
 
@@ -1882,8 +1907,8 @@ bool SetItemsDisabledLocally(out PublishedFileId_t pvecPublishedFileIDs, uint un
 
 **用法示例:**
 ```csharp
-PublishedFileId_t fileId;
-SteamGameServerUGC.SetItemsDisabledLocally(out fileId, 1u, true);
+PublishedFileId_t[] ids = new PublishedFileId_t[1] { new PublishedFileId_t(123456) };
+bool result = SteamGameServerUGC.SetItemsDisabledLocally(out ids[0], 1, true);
 ```
 
 ### SetSubscriptionsLoadOrder (静态)
@@ -1892,7 +1917,7 @@ SteamGameServerUGC.SetItemsDisabledLocally(out fileId, 1u, true);
 bool SetSubscriptionsLoadOrder(out PublishedFileId_t pvecPublishedFileIDs, uint unNumPublishedFileIDs)
 ```
 
-设置这些物品的本地加载顺序。如果列表中未包含某些物品，它们将按订阅时间进行排序。
+<para> 设置这些物品的本地加载顺序。如果存在未包含在给定列表中的物品，它们将按订阅时间排序。</para>
 
 **参数:**
 
@@ -1903,7 +1928,7 @@ bool SetSubscriptionsLoadOrder(out PublishedFileId_t pvecPublishedFileIDs, uint 
 
 **用法示例:**
 ```csharp
-PublishedFileId_t fileId;
-bool ok = SteamGameServerUGC.SetSubscriptionsLoadOrder(out fileId, 1u);
+PublishedFileId_t[] ids = new PublishedFileId_t[0];
+bool result = SteamGameServerUGC.SetSubscriptionsLoadOrder(out ids[0], 0);
 ```
 

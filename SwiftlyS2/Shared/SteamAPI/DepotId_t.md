@@ -60,7 +60,8 @@ operator uint(DepotId_t that)
 
 **用法示例:**
 ```csharp
-uint id = DepotId_t.uint(existingDepotId);
+DepotId_t depotId = default;
+uint idValue = (uint)depotId;
 ```
 
 ### Equals
@@ -89,6 +90,6 @@ int CompareTo(DepotId_t other)
 
 **用法示例:**
 ```csharp
-int result = existingDepotId.CompareTo(otherDepotId);
+int result = depotId.CompareTo(otherDepotId);
 ```
 

@@ -2,7 +2,7 @@
 
 # 🔌 IGameEventService
 
-插件作用域的服务，用于管理游戏事件。
+用于管理游戏事件的插件作用域服务。
 
 **命名空间:** `SwiftlyS2.Shared.GameEvents`
 
@@ -22,7 +22,7 @@ HookResult GameEventHandler<T>(T eventObj)
 
 - `eventObj` (`T`) - 事件对象。
 
-**返回值:** `HookResult` - 钩子返回值。
+**返回值:** `HookResult` - Hook 结果。
 
 **用法示例:**
 ```csharp
@@ -35,17 +35,17 @@ var result = gameEventService.GameEventHandler(eventObj);
 Guid HookPre<T>(GameEventHandler<T> callback)
 ```
 
-绑定预事件回调。
+钩挂一个预事件回调函数。
 
 **参数:**
 
-- `callback` (`GameEventHandler\<T\>`) - 挂钩的回调函数。
+- `callback` (`GameEventHandler\<T\>`) - 要挂钩的回调。
 
-**返回值:** `Guid` - 表示钩子的 GUID。您可以稍后使用此 GUID 取消挂钩回调。
+**返回值:** `Guid` - 表示挂钩的 GUID。您可以稍后使用此标识符取消挂钩回调。
 
 **用法示例:**
 ```csharp
-var hookId = gameEventService.HookPre<PlayerConnectEvent>(OnPlayerConnect);
+var hookId = gameEventService.HookPre<PlayerConnect>(OnPlayerConnect);
 ```
 
 ### HookPost<T>
@@ -54,17 +54,17 @@ var hookId = gameEventService.HookPre<PlayerConnectEvent>(OnPlayerConnect);
 Guid HookPost<T>(GameEventHandler<T> callback)
 ```
 
-挂钩一个后事件回调。
+挂钩一个后事件回调函数。
 
 **参数:**
 
-- `callback` (`GameEventHandler\<T\>`) - 挂钩的回调函数。
+- `callback` (`GameEventHandler\<T\>`) - 要挂钩的回调。
 
-**返回值:** `Guid` - 表示钩子的 GUID。您可以稍后使用此 GUID 取消挂钩回调。
+**返回值:** `Guid` - 表示挂钩的 GUID。您可以稍后使用此标识符取消挂钩回调。
 
 **用法示例:**
 ```csharp
-var hookId = gameEventService.HookPost<PlayerSpawn>(e => Console.WriteLine($"Player {e.Player.Name} spawned"));
+var hookId = gameEventService.HookPost<PlayerDeath>(OnPlayerDeath);
 ```
 
 ### Unhook
@@ -73,11 +73,11 @@ var hookId = gameEventService.HookPost<PlayerSpawn>(e => Console.WriteLine($"Pla
 void Unhook(Guid guid)
 ```
 
-移除回调钩子。
+卸载一个回调。
 
 **参数:**
 
-- `guid` (`Guid`) - 要取消挂钩的钩子 GUID。
+- `guid` (`Guid`) - 要取消挂钩的钩子的GUID。
 
 **用法示例:**
 ```csharp
@@ -90,11 +90,11 @@ gameEventService.Unhook(eventGuid);
 void UnhookPre<T>()
 ```
 
-解绑所有前置事件回调。
+取消所有事件前回调。
 
 **用法示例:**
 ```csharp
-gameEventService.UnhookPre<PlayerConnectEvent>();
+gameEventService.UnhookPre<IGameEvent>();
 ```
 
 ### UnhookPost<T>
@@ -103,11 +103,11 @@ gameEventService.UnhookPre<PlayerConnectEvent>();
 void UnhookPost<T>()
 ```
 
-取消所有后置事件回调的挂钩。
+卸载所有事件后回调。
 
 **用法示例:**
 ```csharp
-gameEventService.UnhookPost<Player>();
+gameEventService.UnhookPost<PlayerConnectEvent>();
 ```
 
 ### Fire<T>
@@ -118,7 +118,7 @@ void Fire<T>()
 
 **用法示例:**
 ```csharp
-gameEventService.Fire<PlayerShootEvent>();
+gameEventService.Fire<PlayerConnect>();
 ```
 
 ### Fire<T>
@@ -133,7 +133,7 @@ void Fire<T>(Action<T> configureEvent)
 
 **用法示例:**
 ```csharp
-gameEventService.Fire<PlayerHurt>(e => e.UserId = player.Id);
+gameEventService.Fire<PlayerDeath>(e => { e.UserId = player.Index; e.Attacker = attacker.Index; });
 ```
 
 ### FireAsync<T>
@@ -142,13 +142,13 @@ gameEventService.Fire<PlayerHurt>(e => e.UserId = player.Id);
 Task FireAsync<T>()
 ```
 
-异步向所有玩家触发事件。
+向所有玩家异步触发一个事件。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await gameEventService.FireAsync<PlayerJoinEvent>();
+await gameEventService.FireAsync<PlayerConnectEvent>();
 ```
 
 ### FireAsync<T>
@@ -157,7 +157,7 @@ await gameEventService.FireAsync<PlayerJoinEvent>();
 Task FireAsync<T>(Action<T> configureEvent)
 ```
 
-异步向所有已配置事件的玩家触发事件。
+异步向所有玩家触发一个配置事件。
 
 **参数:**
 
@@ -167,7 +167,7 @@ Task FireAsync<T>(Action<T> configureEvent)
 
 **用法示例:**
 ```csharp
-await gameEventService.FireAsync<PlayerShootEvent>(e => e.Damage = 50);
+await gameEventService.FireAsync<PlayerConnect>(e => e.PlayerId = playerId);
 ```
 
 ### FireToPlayer<T>
@@ -182,7 +182,7 @@ void FireToPlayer<T>(int slot)
 
 **用法示例:**
 ```csharp
-gameEventService.FireToPlayer<PlayerSpawned>(1);
+gameEventService.FireToPlayer<EventPlayerDeath>(0);
 ```
 
 ### FireToPlayer<T>
@@ -198,7 +198,7 @@ void FireToPlayer<T>(int slot, Action<T> configureEvent)
 
 **用法示例:**
 ```csharp
-gameEventService.FireToPlayer<PlayerShootEvent>(1, e => e.Damage = 50);
+gameEventService.FireToPlayer<PlayerConnect>(0, e => { });
 ```
 
 ### FireToPlayerAsync<T>
@@ -207,7 +207,7 @@ gameEventService.FireToPlayer<PlayerShootEvent>(1, e => e.Damage = 50);
 Task FireToPlayerAsync<T>(int slot)
 ```
 
-异步向玩家触发事件。
+向玩家异步触发一个事件。
 
 **参数:**
 
@@ -217,7 +217,7 @@ Task FireToPlayerAsync<T>(int slot)
 
 **用法示例:**
 ```csharp
-await gameEventService.FireToPlayerAsync<PlayerDeathEvent>(1);
+await gameEventService.FireToPlayerAsync<PlayerDeath>(playerSlot);
 ```
 
 ### FireToPlayerAsync<T>
@@ -226,18 +226,18 @@ await gameEventService.FireToPlayerAsync<PlayerDeathEvent>(1);
 Task FireToPlayerAsync<T>(int slot, Action<T> configureEvent)
 ```
 
-异步向已配置事件的目标玩家触发事件。
+向玩家异步触发一个已配置的事件。
 
 **参数:**
 
 - `slot` (`int`) - 玩家槽位。
-- `configureEvent` (`Action\<T\>`) - 配置事件的指令。
+- `configureEvent` (`Action\<T\>`) - 配置事件的操作。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await gameEventService.FireToPlayerAsync<PlayerHurt>(slot, e => e.Damage = 50);
+await gameEventService.FireToPlayerAsync<PlayerHurt>(playerSlot, e => { e.UserId = userId; e.Health = 10; });
 ```
 
 ### FireToServer<T>
@@ -248,7 +248,7 @@ void FireToServer<T>()
 
 **用法示例:**
 ```csharp
-gameEventService.FireToServer<PlayerConnectEventArgs>();
+gameEventService.FireToServer<MyEventData>();
 ```
 
 ### FireToServer<T>
@@ -263,7 +263,7 @@ void FireToServer<T>(Action<T> configureEvent)
 
 **用法示例:**
 ```csharp
-gameEventService.FireToServer<PlayerHurtEvent>(e => e.Player = player);
+gameEventService.FireToServer<PlayerHurt>(e => { e.Player = player; e.Attacker = attacker; });
 ```
 
 ### FireToServerAsync<T>
@@ -272,13 +272,13 @@ gameEventService.FireToServer<PlayerHurtEvent>(e => e.Player = player);
 Task FireToServerAsync<T>()
 ```
 
-异步向服务器触发事件。
+异步向服务器触发一个事件。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await gameEventService.FireToServerAsync<PlayerShootEvent>();
+await gameEventService.FireToServerAsync<PlayerDeathEvent>();
 ```
 
 ### FireToServerAsync<T>
@@ -287,17 +287,17 @@ await gameEventService.FireToServerAsync<PlayerShootEvent>();
 Task FireToServerAsync<T>(Action<T> configureEvent)
 ```
 
-异步向服务器发送已配置的事件。
+异步向服务器触发一个已配置的事件。
 
 **参数:**
 
-- `configureEvent` (`Action\<T\>`) - 配置事件的指令。
+- `configureEvent` (`Action\<T\>`) - 配置事件的操作。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await gameEventService.FireToServerAsync<PlayerHurtEvent>(e => e.Player = player);
+await gameEventService.FireToServerAsync<PlayerHurt>(e => { e.Player = player; e.Damage = 10; });
 ```
 
 ### IsListeningToEvent
@@ -336,6 +336,6 @@ bool IsListeningToEvent<T>(int slot)
 
 **用法示例:**
 ```csharp
-bool isListening = gameEventService.IsListeningToEvent<PlayerDeathEvent>(0);
+bool isListening = gameEventService.IsListeningToEvent<PlayerConnect>(player.Slot);
 ```
 

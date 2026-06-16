@@ -2,7 +2,7 @@
 
 # 🔌 IMenuBuilderAPI
 
-提供一个用于创建和配置菜单的流畅构建器接口。所有方法均支持链式调用，以便于便捷地构建菜单。
+为创建和配置菜单提供流畅的构建器接口。所有方法均支持链式调用，便于进行菜单构建。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -12,7 +12,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Design` | `IMenuDesignAPI` | get | 获取此菜单的设计接口。 |
+| `Design` | `IMenuDesignAPI` | get | 获取此菜单的设计界面。 |
 
 ## ⚙️ 方法
 
@@ -22,11 +22,11 @@
 IMenuBuilderAPI BindToParent(IMenuAPI parent)
 ```
 
-将此菜单绑定到父级菜单，以创建分层导航结构。
+将此菜单绑定到父菜单，以创建层级导航结构。
 
 **参数:**
 
-- `parent` (`IMenuAPI`) - 父级菜单。
+- `parent` (`IMenuAPI`) - 父级菜单
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
@@ -41,7 +41,7 @@ menuBuilder.BindToParent(parentMenu);
 IMenuBuilderAPI AddOption(IMenuOption option)
 ```
 
-向菜单中添加一个选项。
+向菜单添加一个菜单选项。
 
 **参数:**
 
@@ -60,7 +60,7 @@ menuBuilder.AddOption(existingOption);
 IMenuBuilderAPI EnableSound()
 ```
 
-启用菜单交互的音效。
+为菜单交互启用音效。
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
@@ -90,7 +90,7 @@ menuBuilder.DisableSound();
 IMenuBuilderAPI EnableExit()
 ```
 
-启用此菜单的退出按钮。
+为此菜单启用退出按钮。
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
@@ -120,11 +120,11 @@ menuBuilder.DisableExit();
 IMenuBuilderAPI SetPlayerFrozen(bool frozen = false)
 ```
 
-控制当菜单打开时是否冻结玩家移动。
+控制菜单打开时玩家移动是否被冻结。
 
 **参数:**
 
-- `frozen` (`bool`) = `false` - 为冻结玩家移动设置为 true，允许移动则为 false。默认为 false。
+- `frozen` (`bool`) = `false` - 真：冻结玩家移动，假：允许移动。默认为假。
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
@@ -143,7 +143,7 @@ IMenuBuilderAPI SetAutoCloseDelay(float seconds = 0f)
 
 **参数:**
 
-- `seconds` (`float`) = `0f` - 菜单自动关闭前的秒数。设置为 0 可禁用自动关闭。默认值为 0。
+- `seconds` (`float`) = `0f` - 菜单自动关闭前的秒数。设为0可禁用自动关闭。默认值为0。
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
@@ -158,11 +158,11 @@ menuBuilder.SetAutoCloseDelay(5.0f);
 IMenuBuilderAPI SetSelectButton(KeyBind keyBind)
 ```
 
-重写用于选择菜单选项的默认按键绑定。
+覆盖选择菜单选项的默认键绑定。
 
 **参数:**
 
-- `keyBind` (`KeyBind`) - 要使用的按键绑定。
+- `keyBind` (`KeyBind`) - 要使用的键位绑定。
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
@@ -177,11 +177,11 @@ menuBuilder.SetSelectButton(KeyBind.Enter);
 IMenuBuilderAPI SetMoveForwardButton(KeyBind keyBind)
 ```
 
-覆盖默认的前进菜单选项按键绑定。
+覆盖通过菜单选项前进的默认按键绑定。
 
 **参数:**
 
-- `keyBind` (`KeyBind`) - 要使用的按键绑定。
+- `keyBind` (`KeyBind`) - 要使用的键位绑定。
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
@@ -196,11 +196,11 @@ menuBuilder.SetMoveForwardButton(KeyBind.W);
 IMenuBuilderAPI SetMoveBackwardButton(KeyBind keyBind)
 ```
 
-重写通过菜单选项向后移动的默认按键绑定。
+覆盖菜单选项中向后移动的默认按键绑定。
 
 **参数:**
 
-- `keyBind` (`KeyBind`) - 要使用的按键绑定。
+- `keyBind` (`KeyBind`) - 要使用的键位绑定。
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
@@ -215,11 +215,11 @@ menuBuilder.SetMoveBackwardButton(KeyBind.S);
 IMenuBuilderAPI SetExitButton(KeyBind keyBind)
 ```
 
-重写关闭菜单的默认按键绑定。
+覆盖关闭菜单的默认按键绑定。
 
 **参数:**
 
-- `keyBind` (`KeyBind`) - 要使用的按键绑定。
+- `keyBind` (`KeyBind`) - 要使用的键位绑定。
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
@@ -234,19 +234,19 @@ menuBuilder.SetExitButton(KeyBind.Escape);
 IMenuBuilderAPI AddExtraButton(KeyBind keyBind, string label, Action<IPlayer, IMenuAPI> action)
 ```
 
-向菜单中添加一个额外按钮，该按钮在按下时执行自定义操作。
+在菜单中添加一个额外的按钮，按下时执行自定义操作。
 
 **参数:**
 
-- `keyBind` (`KeyBind`) - 此按钮的按键绑定。
-- `label` (`string`) - 此按钮在菜单页脚中显示的标签。
-- `action` (`Action\<IPlayer, IMenuAPI\>`) - 按下按钮时执行的操作。
+- `keyBind` (`KeyBind`) - 此按钮的键位绑定。
+- `label` (`string`) - 菜单底部中此按钮显示的标签。
+- `action` (`Action\<IPlayer, IMenuAPI\>`) - 当按钮被按下时执行的动作。
 
 **返回值:** `IMenuBuilderAPI` - 此构建器用于方法链式调用。
 
 **用法示例:**
 ```csharp
-menuBuilder.AddExtraButton(KeyBind.Value, "Action", (player, menu) => player.Print("Button pressed"));
+menuBuilder.AddExtraButton(KeyBind.E, "Confirm", (player, menu) => player.PrintToChat("Confirmed"));
 ```
 
 ### Build
@@ -257,10 +257,10 @@ IMenuAPI Build()
 
 构建菜单并返回最终的菜单实例。
 
-**返回值:** `IMenuAPI` - 已构建的菜单实例。
+**返回值:** `IMenuAPI` - 构建的菜单实例。
 
 **用法示例:**
 ```csharp
-IMenuAPI menu = menuBuilder.Build();
+var menu = builder.Build();
 ```
 

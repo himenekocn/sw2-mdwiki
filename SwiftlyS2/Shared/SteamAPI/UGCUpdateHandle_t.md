@@ -60,7 +60,7 @@ operator ulong(UGCUpdateHandle_t that)
 
 **用法示例:**
 ```csharp
-ulong handleValue = UGCUpdateHandle_t.ulong(existingHandle);
+ulong handleValue = (ulong)ugcUpdateHandle;
 ```
 
 ### Equals

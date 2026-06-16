@@ -2,7 +2,7 @@
 
 # 🔌 IOnMapLoadEvent
 
-在地图加载时调用。
+当地图加载完成时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -12,5 +12,5 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `MapName` | `string` | get | 地图名称。 |
+| `MapName` | `string` | get | 地图的名称。 |
 

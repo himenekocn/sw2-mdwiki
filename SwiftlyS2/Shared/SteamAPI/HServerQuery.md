@@ -60,7 +60,7 @@ operator int(HServerQuery that)
 
 **用法示例:**
 ```csharp
-int result = HServerQuery.int(existingQuery);
+int queryValue = (int)existingHServerQuery;
 ```
 
 ### Equals

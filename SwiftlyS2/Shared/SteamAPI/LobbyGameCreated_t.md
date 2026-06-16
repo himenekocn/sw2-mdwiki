@@ -31,6 +31,6 @@ game server(if any)
 
 **用法示例:**
 ```csharp
-var gameServer = lobbyGameCreated.GameServer();
+var server = lobbyGameCreated.server;
 ```
 

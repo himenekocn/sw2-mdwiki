@@ -60,7 +60,7 @@ operator int(SteamInventoryResult_t that)
 
 **用法示例:**
 ```csharp
-int resultValue = SteamInventoryResult_t.int(existingResult);
+int resultValue = (int)inventoryResult;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(SteamInventoryResult_t other)
 
 **用法示例:**
 ```csharp
-int result = existingResult.CompareTo(otherResult);
+int result = currentInventoryResult.CompareTo(otherInventoryResult);
 ```
 

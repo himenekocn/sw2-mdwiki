@@ -18,7 +18,7 @@ bool Init()
 
 **用法示例:**
 ```csharp
-bool initialized = SteamAPI.Init();
+bool success = SteamAPI.Init();
 ```
 
 ### Shutdown (静态)
@@ -46,7 +46,7 @@ bool RestartAppIfNecessary(AppId_t unOwnAppID)
 
 **用法示例:**
 ```csharp
-bool needsRestart = SteamAPI.RestartAppIfNecessary(new AppId_t(480));
+bool shouldRestart = SteamAPI.RestartAppIfNecessary(new AppId_t(480));
 ```
 
 ### ReleaseCurrentThreadMemory (静态)
@@ -68,7 +68,7 @@ void RunCallbacks()
 
 **用法示例:**
 ```csharp
-while (true) { SteamAPI.RunCallbacks(); System.Threading.Thread.Sleep(1); }
+SteamAPI.RunCallbacks();
 ```
 
 ### IsSteamRunning (静态)
@@ -94,7 +94,7 @@ HSteamPipe GetHSteamPipe()
 
 **用法示例:**
 ```csharp
-HSteamPipe pipe = SteamAPI.GetHSteamPipe();
+var pipe = SteamAPI.GetHSteamPipe();
 ```
 
 ### GetHSteamUser (静态)

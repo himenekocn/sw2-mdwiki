@@ -46,7 +46,7 @@ their list(not always applicable)
 
 **用法示例:**
 ```csharp
-details.list();
+var details = SteamUGC.GetQueryUGCDetailsResult(handle, index);
 ```
 
 ### file
@@ -63,7 +63,7 @@ primary file(for legacy items which only support one file)
 
 **用法示例:**
 ```csharp
-var primaryFile = details.primary_file();
+var file = ugcDetails.m_pchFileName;
 ```
 
 ### files
@@ -80,6 +80,6 @@ all files(non-legacy )
 
 **用法示例:**
 ```csharp
-var files = details.AllFiles();
+var files = SteamUGCDetails_t.files();
 ```
 

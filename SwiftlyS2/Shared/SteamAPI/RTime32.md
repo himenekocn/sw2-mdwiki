@@ -60,7 +60,7 @@ operator uint(RTime32 that)
 
 **用法示例:**
 ```csharp
-uint timestamp = RTime32.uint(existingRTime32);
+uint timeValue = (uint)existingRTime32Instance;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(RTime32 other)
 
 **用法示例:**
 ```csharp
-int result = existingTime.CompareTo(otherTime);
+int result = currentTime.CompareTo(otherTime);
 ```
 

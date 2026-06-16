@@ -2,7 +2,7 @@
 
 # 🔗 OnEntityEndTouch
 
-当实体结束与另一实体的接触时调用。
+当实体停止接触另一个实体时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

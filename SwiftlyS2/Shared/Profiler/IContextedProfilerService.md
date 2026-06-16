@@ -14,15 +14,15 @@
 void StartRecording(string name)
 ```
 
-使用给定的名称开始记录新配置档案。
+开始使用指定名称录制新配置文件。
 
 **参数:**
 
-- `name` (`string`) - 要启动的配置文件名称。
+- `name` (`string`) - 启动配置文件的名称。
 
 **用法示例:**
 ```csharp
-profilerService.StartRecording("PerformanceTest");
+profilerService.StartRecording("MyProfile");
 ```
 
 ### StopRecording
@@ -31,15 +31,15 @@ profilerService.StartRecording("PerformanceTest");
 void StopRecording(string name)
 ```
 
-停止录制指定名称的性能分析配置文件。
+停止录制指定名称的配置文件。
 
 **参数:**
 
-- `name` (`string`) - 要停止的配置文件名称。
+- `name` (`string`) - 要停止的配置文件的名称。
 
 **用法示例:**
 ```csharp
-profilerService.StopRecording("GameLoop");
+profilerService.StopRecording("MyProfile");
 ```
 
 ### RecordTime
@@ -48,15 +48,15 @@ profilerService.StopRecording("GameLoop");
 void RecordTime(string name, double duration)
 ```
 
-记录给定配置文件的耗时。
+记录给定配置文件所花费的时间。
 
 **参数:**
 
-- `name` (`string`) - 要记录时间的配置文件名称。
-- `duration` (`double`) - 录制时长。
+- `name` (`string`) - 要记录时间的配置文件名。
+- `duration` (`double`) - 录制的持续时间。
 
 **用法示例:**
 ```csharp
-profiler.RecordTime("DatabaseQuery", 125.5);
+profilerService.RecordTime("DatabaseQuery", 120.5);
 ```
 

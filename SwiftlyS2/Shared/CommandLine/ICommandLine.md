@@ -10,7 +10,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ParameterCount` | `int` | get | 获取命令行中参数的总数。 |
+| `ParameterCount` | `int` | get | 获取命令行中的参数总数。 |
 | `CommandLine` | `string` | get | - |
 | `HasParameters` | `bool` | get | - |
 
@@ -22,7 +22,7 @@
 bool HasParameter(string paramName)
 ```
 
-检查命令行中是否存在该参数。
+检查命令行中是否存在某个参数。
 
 **参数:**
 
@@ -32,7 +32,7 @@ bool HasParameter(string paramName)
 
 **用法示例:**
 ```csharp
-bool exists = commandLine.HasParameter("-verbose");
+bool exists = commandLine.HasParameter("--verbose");
 ```
 
 ### GetParameterString
@@ -41,7 +41,7 @@ bool exists = commandLine.HasParameter("-verbose");
 string GetParameterString(string paramName, string defaultValue = "")
 ```
 
-从命令行获取字符串参数。
+从命令行获取一个字符串参数。
 
 **参数:**
 
@@ -52,7 +52,7 @@ string GetParameterString(string paramName, string defaultValue = "")
 
 **用法示例:**
 ```csharp
-string serverIp = commandLine.GetParameterString("ip", "127.0.0.1");
+string value = commandLine.GetParameterString("mode", "default");
 ```
 
 ### GetParameterInt
@@ -61,7 +61,7 @@ string serverIp = commandLine.GetParameterString("ip", "127.0.0.1");
 int GetParameterInt(string paramName, int defaultValue = 0)
 ```
 
-从命令行获取一个整型参数。
+从命令行获取一个整数参数。
 
 **参数:**
 
@@ -72,7 +72,7 @@ int GetParameterInt(string paramName, int defaultValue = 0)
 
 **用法示例:**
 ```csharp
-int port = commandLine.GetParameterInt("port", 8080);
+int value = commandLine.GetParameterInt("port", 8080);
 ```
 
 ### GetParameterFloat
@@ -81,7 +81,7 @@ int port = commandLine.GetParameterInt("port", 8080);
 float GetParameterFloat(string paramName, float defaultValue = 0f)
 ```
 
-从命令行获取浮点参数。
+从命令行获取一个浮点参数。
 
 **参数:**
 
@@ -92,6 +92,6 @@ float GetParameterFloat(string paramName, float defaultValue = 0f)
 
 **用法示例:**
 ```csharp
-float value = commandLine.GetParameterFloat("scale", 1.0f);
+float value = commandLine.GetParameterFloat("volume", 1.0f);
 ```
 

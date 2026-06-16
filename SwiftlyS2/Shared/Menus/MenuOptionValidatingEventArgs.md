@@ -14,6 +14,6 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Cancel` | `bool` | get, set | 获取或设置一个值，该值指示是否应取消交互。 |
-| `CancelReason` | `string?` | get, set | 获取或设置导致交互被取消的原因。 |
+| `Cancel` | `bool` | get, set | 获取或设置一个值，该值指示交互是否应被取消。 |
+| `CancelReason` | `string?` | get, set | 获取或设置交互被取消的原因。 |
 

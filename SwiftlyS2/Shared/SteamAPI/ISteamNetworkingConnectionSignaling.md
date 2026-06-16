@@ -25,7 +25,7 @@ bool SendSignal(HSteamNetConnection hConn, ref SteamNetConnectionInfo_t info, In
 
 **用法示例:**
 ```csharp
-var result = signaling.SendSignal(hConn, ref info, pMsg, cbMsg);
+bool result = signaling.SendSignal(hConn, ref info, pMsg, cbMsg);
 ```
 
 ### Release

@@ -2,7 +2,7 @@
 
 # 🔗 OnMapUnload
 
-当地图卸载时被调用。
+当卸载地图时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

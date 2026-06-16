@@ -14,11 +14,11 @@
 |------|------|--------|------|
 | `Identity` | `CEntityIdentity` | get | 实体标识。 |
 | `EntityInstance` | `CEntityInstance` | get | 实体实例。 |
-| `DesignerName` | `string` | get | 调用方的设计师名称。 |
-| `InputName` | `string` | get | 正在接受的输入的名称。 |
-| `Activator` | `CEntityInstance?` | get | 被接受输入的数值。 |
-| `Caller` | `CEntityInstance?` | get | 接受输入的调用方。 |
-| `VariantValue` | `ref CVariant\<CVariantDefaultAllocator\>` | get | 正在接受的输入变体值。 |
-| `OutputId` | `int` | get | 被接受输入的输出 ID。 |
+| `DesignerName` | `string` | get | 调用者的设计器名称。 |
+| `InputName` | `string` | get | 正在接受的输入名称。 |
+| `Activator` | `CEntityInstance?` | get | 正在接受的输入值。 |
+| `Caller` | `CEntityInstance?` | get | 输入的调用者被接受。 |
+| `VariantValue` | `ref CVariant\<CVariantDefaultAllocator\>` | get | 正在接受输入的变量值。 |
+| `OutputId` | `int` | get | 接受输入的输出ID。 |
 | `Result` | `HookResult` | get, set | 钩子的结果。 |
 

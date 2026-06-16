@@ -12,7 +12,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | 修改了按键状态的客户端的玩家 ID。 |
-| `Key` | `KeyKind` | get | 被按下或释放的按键。 |
-| `Pressed` | `bool` | get | 该键是被按下还是被释放。 |
+| `PlayerId` | `int` | get | 更改按键状态的客户端的玩家ID。 |
+| `Key` | `KeyKind` | get | 按下或释放的按键。 |
+| `Pressed` | `bool` | get | 按键是按下还是释放。 |
 

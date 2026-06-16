@@ -60,7 +60,7 @@ operator uint(AccountID_t that)
 
 **用法示例:**
 ```csharp
-uint id = AccountID_t.uint(someAccountID);
+uint id = (uint)accountID;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(AccountID_t other)
 
 **用法示例:**
 ```csharp
-int result = myAccountID.CompareTo(otherAccountID);
+int result = accountID.CompareTo(otherAccountID);
 ```
 

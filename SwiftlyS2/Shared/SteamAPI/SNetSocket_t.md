@@ -60,7 +60,7 @@ operator uint(SNetSocket_t that)
 
 **用法示例:**
 ```csharp
-uint socketId = SNetSocket_t.uint(existingSocket);
+uint socketId = (uint)existingSocket;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(SNetSocket_t other)
 
 **用法示例:**
 ```csharp
-int result = socketA.CompareTo(socketB);
+int result = socket.CompareTo(otherSocket);
 ```
 

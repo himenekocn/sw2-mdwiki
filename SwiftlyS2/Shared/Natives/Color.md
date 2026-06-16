@@ -80,7 +80,7 @@ System.Drawing.Color ToBuiltin()
 
 **用法示例:**
 ```csharp
-System.Drawing.Color builtinColor = existingColor.ToBuiltin();
+System.Drawing.Color builtinColor = color.ToBuiltin();
 ```
 
 ### ToInt32
@@ -93,7 +93,7 @@ int ToInt32()
 
 **用法示例:**
 ```csharp
-int colorValue = existingColor.ToInt32();
+int colorValue = player.Color.ToInt32();
 ```
 
 ### ToHex
@@ -110,7 +110,7 @@ string ToHex(bool includeAlpha = false)
 
 **用法示例:**
 ```csharp
-string hex = Color.Red.ToHex(false);
+string hex = player.Color.ToHex(true);
 ```
 
 ### Equals

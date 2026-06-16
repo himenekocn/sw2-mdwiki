@@ -2,7 +2,7 @@
 
 # 🔗 OnConVarValueChanged
 
-当 ConVar 的值被更改时调用。
+当 ConVar 值发生改变时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

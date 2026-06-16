@@ -16,7 +16,7 @@
 void OnTick()
 ```
 
-在游戏处理完一个 tick 后被调用。如果服务器处于休眠状态，则不会调用此回调。此回调属于热路径，请谨慎使用，切勿执行任何耗时操作。
+当游戏处理完一个tick时调用。如果服务器处于休眠状态则不会调用。此回调属于热路径，请谨慎操作，避免执行高开销任务。
 
 ### OnWorldUpdate
 
@@ -24,7 +24,7 @@ void OnTick()
 void OnWorldUpdate()
 ```
 
-当世界更新时调用。即使在休眠状态下也会发生此回调。这是一个热点路径，请谨慎使用，切勿执行任何高开销操作。
+当世界更新时调用。即使在休眠状态下也会触发。此回调是热点路径，请谨慎使用，避免执行任何高开销操作。
 
 ### OnSteamAPIActivated
 
@@ -32,7 +32,7 @@ void OnWorldUpdate()
 void OnSteamAPIActivated()
 ```
 
-当 Steam API 被激活时调用。
+当 Steam API 激活时调用。
 
 ### OnClientConnected
 
@@ -52,7 +52,7 @@ void OnClientConnected(IOnClientConnectedEvent @event)
 void OnClientDisconnected(IOnClientDisconnectedEvent @event)
 ```
 
-当客户端与服务器断开连接时调用。
+当客户端从服务器断开连接时调用。
 
 **参数:**
 
@@ -76,7 +76,7 @@ void OnClientKeyStateChanged(IOnClientKeyStateChangedEvent @event)
 void OnClientPutInServer(IOnClientPutInServerEvent @event)
 ```
 
-当客户端完全接入服务器时调用。
+当客户端完全进入服务器时调用。
 
 **参数:**
 
@@ -88,7 +88,7 @@ void OnClientPutInServer(IOnClientPutInServerEvent @event)
 void OnClientSteamAuthorize(IOnClientSteamAuthorizeEvent @event)
 ```
 
-当客户端通过 Steam 授权时调用。
+当客户端通过Steam授权时调用。
 
 **参数:**
 
@@ -100,7 +100,7 @@ void OnClientSteamAuthorize(IOnClientSteamAuthorizeEvent @event)
 void OnClientSteamAuthorizeFail(IOnClientSteamAuthorizeFailEvent @event)
 ```
 
-当客户端的 Steam 授权失败时调用。
+当客户端的Steam授权失败时调用。
 
 **参数:**
 
@@ -112,7 +112,7 @@ void OnClientSteamAuthorizeFail(IOnClientSteamAuthorizeFailEvent @event)
 void OnEntityCreated(IOnEntityCreatedEvent @event)
 ```
 
-在实体创建时调用。
+当实体被创建时调用。
 
 **参数:**
 
@@ -136,7 +136,7 @@ void OnEntityDeleted(IOnEntityDeletedEvent @event)
 void OnEntityParentChanged(IOnEntityParentChangedEvent @event)
 ```
 
-当事件实体的父级发生变更时调用。
+当实体的父级发生变化时调用。
 
 **参数:**
 
@@ -148,7 +148,7 @@ void OnEntityParentChanged(IOnEntityParentChangedEvent @event)
 void OnEntitySpawned(IOnEntitySpawnedEvent @event)
 ```
 
-当实体被生成时调用。
+当实体生成时调用。
 
 **参数:**
 
@@ -160,7 +160,7 @@ void OnEntitySpawned(IOnEntitySpawnedEvent @event)
 void OnMapLoad(IOnMapLoadEvent @event)
 ```
 
-当地图加载时调用。
+当地图加载完成时调用。
 
 **参数:**
 
@@ -172,7 +172,7 @@ void OnMapLoad(IOnMapLoadEvent @event)
 void OnMapUnload(IOnMapUnloadEvent @event)
 ```
 
-当地图卸载时被调用。
+当卸载地图时调用。
 
 **参数:**
 
@@ -184,7 +184,7 @@ void OnMapUnload(IOnMapUnloadEvent @event)
 void OnClientProcessUsercmds(IOnClientProcessUsercmdsEvent @event)
 ```
 
-当客户端处理用户命令时调用。此回调为热点路径，请谨慎使用，避免执行任何高开销操作。
+当客户端处理用户命令时调用。此回调是热点路径，请谨慎处理，避免执行任何高开销操作。
 
 **参数:**
 
@@ -196,7 +196,7 @@ void OnClientProcessUsercmds(IOnClientProcessUsercmdsEvent @event)
 void OnConVarValueChanged(IOnConVarValueChanged @event)
 ```
 
-当 ConVar 的值被更改时调用。
+当 ConVar 值发生改变时调用。
 
 **参数:**
 
@@ -208,7 +208,7 @@ void OnConVarValueChanged(IOnConVarValueChanged @event)
 void OnConCommandCreated(IOnConCommandCreated @event)
 ```
 
-当创建 ConCommand 时调用。
+当创建ConCommand时调用。
 
 **参数:**
 
@@ -220,7 +220,7 @@ void OnConCommandCreated(IOnConCommandCreated @event)
 void OnConVarCreated(IOnConVarCreated @event)
 ```
 
-在创建 ConVar 时被调用。
+当创建一个ConVar时调用。
 
 **参数:**
 
@@ -232,8 +232,6 @@ void OnConVarCreated(IOnConVarCreated @event)
 void OnEntityTakeDamage(IOnEntityTakeDamageEvent @event)
 ```
 
-当实体受到伤害时调用。
-
 **参数:**
 
 - `@event` (`IOnEntityTakeDamageEvent`)
@@ -244,7 +242,7 @@ void OnEntityTakeDamage(IOnEntityTakeDamageEvent @event)
 void OnPrecacheResource(IOnPrecacheResourceEvent @event)
 ```
 
-在资源预缓存时调用。
+当游戏预缓存资源时调用。
 
 **参数:**
 
@@ -268,7 +266,7 @@ void OnEntityStartTouch(IOnEntityStartTouchEvent @event)
 void OnEntityTouch(IOnEntityTouchEvent @event)
 ```
 
-当实体与另一实体接触时调用。
+当实体与另一个实体接触时调用。
 
 **参数:**
 
@@ -280,7 +278,7 @@ void OnEntityTouch(IOnEntityTouchEvent @event)
 void OnEntityEndTouch(IOnEntityEndTouchEvent @event)
 ```
 
-当实体结束与另一实体的接触时调用。
+当实体停止接触另一个实体时调用。
 
 **参数:**
 
@@ -292,7 +290,7 @@ void OnEntityEndTouch(IOnEntityEndTouchEvent @event)
 void OnItemServicesCanAcquireHook(IOnItemServicesCanAcquireHookEvent @event)
 ```
 
-当物品服务获取钩子被触发时调用。
+当物品服务可获取钩子被触发时调用。
 
 **参数:**
 
@@ -304,7 +302,7 @@ void OnItemServicesCanAcquireHook(IOnItemServicesCanAcquireHookEvent @event)
 void OnWeaponServicesCanUseHook(IOnWeaponServicesCanUseHookEvent @event)
 ```
 
-当武器服务可使用挂钩被触发时调用。
+当武器服务可用钩子被触发时调用。
 
 **参数:**
 
@@ -316,7 +314,7 @@ void OnWeaponServicesCanUseHook(IOnWeaponServicesCanUseHookEvent @event)
 void OnWeaponServicesDropWeaponHook(IOnWeaponServicesDropWeaponHook @event)
 ```
 
-当武器服务丢弃武器钩被触发时调用。
+当武器服务丢弃武器钩子被触发时调用。
 
 **参数:**
 
@@ -328,7 +326,7 @@ void OnWeaponServicesDropWeaponHook(IOnWeaponServicesDropWeaponHook @event)
 void OnClientVoice(IOnClientVoiceEvent @event)
 ```
 
-当客户端发送语音数据包时调用。
+当客户端发送语音包时调用。
 
 **参数:**
 
@@ -364,7 +362,7 @@ void OnCommandExecuteHook(IOnCommandExecuteHookEvent @event)
 void OnMovementServicesRunCommandHook(IOnMovementServicesRunCommandHookEvent @event)
 ```
 
-当移动服务运行命令钩子被触发时调用。
+在移动服务运行命令钩子被触发时调用。
 
 **参数:**
 
@@ -376,7 +374,7 @@ void OnMovementServicesRunCommandHook(IOnMovementServicesRunCommandHookEvent @ev
 void OnPlayerPawnPostThink(IOnPlayerPawnPostThinkHookEvent @event)
 ```
 
-当玩家 pawn 的后续思考钩子被触发时调用。
+当玩家棋子后思考钩子被触发时调用。
 
 **参数:**
 
@@ -412,5 +410,5 @@ void OnEntityFireOutputHookEvent(IOnEntityFireOutputHookEvent @event)
 void OnStartupServer()
 ```
 
-服务器启动时调用。
+当服务器启动时调用。
 

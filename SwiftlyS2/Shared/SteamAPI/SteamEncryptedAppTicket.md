@@ -27,7 +27,7 @@ bool BDecryptTicket(byte[] rgubTicketEncrypted, uint cubTicketEncrypted, byte[] 
 
 **用法示例:**
 ```csharp
-byte[] encrypted = new byte[256]; uint encLen = 256; byte[] decrypted = new byte[256]; uint decLen = 0; byte[] key = new byte[32]; bool result = SteamEncryptedAppTicket.BDecryptTicket(encrypted, encLen, decrypted, ref decLen, key, 32);
+var decrypted = new byte[1024]; uint size = 1024; bool success = SteamEncryptedAppTicket.BDecryptTicket(encryptedTicket, (uint)encryptedTicket.Length, decrypted, ref size, key, key.Length);
 ```
 
 ### BIsTicketForApp (静态)
@@ -46,7 +46,7 @@ bool BIsTicketForApp(byte[] rgubTicketDecrypted, uint cubTicketDecrypted, AppId_
 
 **用法示例:**
 ```csharp
-byte[] ticket = GetDecryptedTicket(); bool isValid = SteamEncryptedAppTicket.BIsTicketForApp(ticket, (uint)ticket.Length, AppId_t.GameServer);
+bool isValid = SteamEncryptedAppTicket.BIsTicketForApp(ticketData, (uint)ticketData.Length, new AppId_t(480));
 ```
 
 ### GetTicketIssueTime (静态)
@@ -64,7 +64,7 @@ uint GetTicketIssueTime(byte[] rgubTicketDecrypted, uint cubTicketDecrypted)
 
 **用法示例:**
 ```csharp
-byte[] decryptedTicket = new byte[256]; uint issueTime = SteamEncryptedAppTicket.GetTicketIssueTime(decryptedTicket, (uint)decryptedTicket.Length);
+uint issueTime = SteamEncryptedAppTicket.GetTicketIssueTime(decryptedTicket, decryptedTicket.Length);
 ```
 
 ### GetTicketSteamID (静态)
@@ -81,7 +81,7 @@ void GetTicketSteamID(byte[] rgubTicketDecrypted, uint cubTicketDecrypted, out C
 
 **用法示例:**
 ```csharp
-byte[] ticket = new byte[1024]; CSteamID steamID; SteamEncryptedAppTicket.GetTicketSteamID(ticket, (uint)ticket.Length, out steamID);
+SteamEncryptedAppTicket.GetTicketSteamID(decryptedTicket, (uint)decryptedTicket.Length, out CSteamID steamID);
 ```
 
 ### GetTicketAppID (静态)
@@ -99,7 +99,7 @@ uint GetTicketAppID(byte[] rgubTicketDecrypted, uint cubTicketDecrypted)
 
 **用法示例:**
 ```csharp
-byte[] ticket = new byte[256]; uint appId = SteamEncryptedAppTicket.GetTicketAppID(ticket, (uint)ticket.Length);
+uint appId = SteamEncryptedAppTicket.GetTicketAppID(decryptedTicket, decryptedTicket.Length);
 ```
 
 ### BUserOwnsAppInTicket (静态)
@@ -118,7 +118,7 @@ bool BUserOwnsAppInTicket(byte[] rgubTicketDecrypted, uint cubTicketDecrypted, A
 
 **用法示例:**
 ```csharp
-bool ownsApp = SteamEncryptedAppTicket.BUserOwnsAppInTicket(ticketData, (uint)ticketData.Length, 730);
+bool ownsApp = SteamEncryptedAppTicket.BUserOwnsAppInTicket(ticketData, (uint)ticketData.Length, new AppId_t(480));
 ```
 
 ### BUserIsVacBanned (静态)
@@ -136,8 +136,7 @@ bool BUserIsVacBanned(byte[] rgubTicketDecrypted, uint cubTicketDecrypted)
 
 **用法示例:**
 ```csharp
-byte[] ticket = System.Array.Empty<byte>();
-bool isBanned = SteamEncryptedAppTicket.BUserIsVacBanned(ticket, 0);
+bool isVacBanned = SteamEncryptedAppTicket.BUserIsVacBanned(ticketData, (uint)ticketData.Length);
 ```
 
 ### GetUserVariableData (静态)
@@ -156,7 +155,9 @@ byte[] GetUserVariableData(byte[] rgubTicketDecrypted, uint cubTicketDecrypted, 
 
 **用法示例:**
 ```csharp
-byte[] ticket = new byte[256]; uint userDataLen; var userData = SteamEncryptedAppTicket.GetUserVariableData(ticket, (uint)ticket.Length, out userDataLen);
+byte[] ticketData = GetDecryptedTicket();
+uint userDataLength;
+byte[] userVariableData = SteamEncryptedAppTicket.GetUserVariableData(ticketData, (uint)ticketData.Length, out userDataLength);
 ```
 
 ### BIsTicketSigned (静态)
@@ -176,6 +177,6 @@ bool BIsTicketSigned(byte[] rgubTicketDecrypted, uint cubTicketDecrypted, byte[]
 
 **用法示例:**
 ```csharp
-byte[] ticket = null; byte[] key = null; bool isValid = SteamEncryptedAppTicket.BIsTicketSigned(ticket, 0, key, 0);
+bool isValid = SteamEncryptedAppTicket.BIsTicketSigned(ticketData, (uint)ticketData.Length, rsaKey, (uint)rsaKey.Length);
 ```
 

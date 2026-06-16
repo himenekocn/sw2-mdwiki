@@ -29,7 +29,7 @@ void ServerResponded(HServerListRequest hRequest, int iServer)
 
 **用法示例:**
 ```csharp
-serverListResponse.ServerResponded(hRequest, iServer);
+matchmakingResponse.ServerResponded(hRequest, 0);
 ```
 
 ### ServerFailedToRespond
@@ -45,7 +45,7 @@ void ServerFailedToRespond(HServerListRequest hRequest, int iServer)
 
 **用法示例:**
 ```csharp
-matchmakingResponse.ServerFailedToRespond(serverListRequest, 0);
+matchmakingResponse.ServerFailedToRespond(hRequest, iServer);
 ```
 
 ### RefreshComplete
@@ -61,6 +61,6 @@ void RefreshComplete(HServerListRequest hRequest, EMatchMakingServerResponse res
 
 **用法示例:**
 ```csharp
-serverListResponse.RefreshComplete(hRequest, EMatchMakingServerResponse.Value);
+matchmakingResponse.RefreshComplete(hRequest, EMatchMakingServerResponse.eMSRSucceeded);
 ```
 

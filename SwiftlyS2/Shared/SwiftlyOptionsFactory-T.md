@@ -2,7 +2,7 @@
 
 # 📦 SwiftlyOptionsFactory&lt;T&gt;
 
-防止 Microsoft 默认合并行为的自定义选项工厂。配置文件中的值将完全替换代码中的默认值，而非进行合并。
+自定义选项工厂，阻止微软默认合并行为。配置文件值完全替代代码默认值，而非合并。
 
 **命名空间:** `SwiftlyS2.Shared`
 
@@ -28,6 +28,6 @@ T Create(string name)
 
 **用法示例:**
 ```csharp
-var options = swiftlyOptionsFactory.Create("MyConfig");
+var option = factory.Create("MyOption");
 ```
 

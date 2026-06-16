@@ -60,7 +60,7 @@ operator uint(HHTMLBrowser that)
 
 **用法示例:**
 ```csharp
-uint hash = HHTMLBrowser.uint(existingBrowser);
+uint value = HHTMLBrowser.uint(existingBrowserInstance);
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(HHTMLBrowser other)
 
 **用法示例:**
 ```csharp
-int result = browser1.CompareTo(browser2);
+int result = browser.CompareTo(otherBrowser);
 ```
 

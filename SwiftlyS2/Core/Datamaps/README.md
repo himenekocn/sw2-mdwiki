@@ -32,7 +32,9 @@ void AddHook(nint address, nint hook)
 
 **用法示例:**
 ```csharp
-DatamapFunctionHookManager.AddHook((nint)0x12345678, (nint)0x87654321);
+nint targetAddress = 0x12345678;
+nint hookAddress = 0x87654321;
+DatamapFunctionHookManager.AddHook(targetAddress, hookAddress);
 ```
 
 #### RemoveHook (静态)
@@ -47,7 +49,7 @@ void RemoveHook(nint address)
 
 **用法示例:**
 ```csharp
-nint hookAddress = (nint)0x12345678;
+nint hookAddress = 0x12345678;
 DatamapFunctionHookManager.RemoveHook(hookAddress);
 ```
 
@@ -67,7 +69,7 @@ bool TryGetHook(nint address, out nint hook)
 **用法示例:**
 ```csharp
 nint hook;
-if (DatamapFunctionHookManager.TryGetHook((nint)123, out hook)) { }
+bool found = DatamapFunctionHookManager.TryGetHook(0x12345678, out hook);
 ```
 
 

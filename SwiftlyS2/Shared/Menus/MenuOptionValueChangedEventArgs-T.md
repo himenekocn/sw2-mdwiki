@@ -2,7 +2,7 @@
 
 # 📦 MenuOptionValueChangedEventArgs&lt;T&gt;
 
-菜单选项值变更时的事件参数。
+当菜单选项的值发生变化时的事件参数。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 

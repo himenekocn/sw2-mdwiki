@@ -34,7 +34,6 @@
 | `ShootingInfo` | `ShootingInfo` | - | - |
 | `ScriptInstance` | `void*` | - | - |
 | `AttackerInfo` | `AttackerInfo_t` | - | - |
-| `DestructibleHitGroupsToForceDestroy` | `CUtlVector\<DestructibleHitGroupToDestroy_t\>` | - | - |
 | `InTakeDamageFlow` | `byte` | - | - |
 | `ActualHitGroup` | `HitGroup_t` | - | - |
 

@@ -39,7 +39,6 @@ SchemaUntypedField From(nint handle)
 
 **用法示例:**
 ```csharp
-nint handle = GetNativeHandle();
 var field = SchemaUntypedField.From(handle);
 ```
 

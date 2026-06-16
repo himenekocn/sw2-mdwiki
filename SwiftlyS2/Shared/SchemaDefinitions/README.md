@@ -2,11 +2,20 @@
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
-共 2806 个定义
+共 2938 个定义
 
 ## 📋 目录
 
 - 🔌 [AABB_t](#aabb_t)
+- 🔌 [AI_BaseNPCAnimGraph_DebugSnapshotData_t](#ai_basenpcanimgraph_debugsnapshotdata_t)
+- 🔌 [AI_BaseNPC_DebugSnapshotData_t](#ai_basenpc_debugsnapshotdata_t)
+- 🔌 [AI_DefaultNPC_DebugSnapshotData_t](#ai_defaultnpc_debugsnapshotdata_t)
+- 🔌 [AI_DefaultNPC_DebugSnapshotData_t__PathQuery_t](#ai_defaultnpc_debugsnapshotdata_t__pathquery_t)
+- 🔌 [AI_MotorGroundAnimgraph_DebugSnapshotData_t](#ai_motorgroundanimgraph_debugsnapshotdata_t)
+- 🔌 [AI_MotorGroundAnimgraph_DebugSnapshotData_t__Event_t](#ai_motorgroundanimgraph_debugsnapshotdata_t__event_t)
+- 🔌 [AI_Motor_DebugSnapshotData_t](#ai_motor_debugsnapshotdata_t)
+- 🔌 [AI_Navigator_DebugSnapshotData_t](#ai_navigator_debugsnapshotdata_t)
+- 🔌 [AI_Navigator_DebugSnapshotData_t__Waypoint_t](#ai_navigator_debugsnapshotdata_t__waypoint_t)
 - 🔌 [ActiveModelConfig_t](#activemodelconfig_t)
 - 🔌 [AggregateInstanceStreamOnDiskData_t](#aggregateinstancestreamondiskdata_t)
 - 📋 [AggregateInstanceStream_t](#aggregateinstancestream_t)
@@ -23,6 +32,7 @@
 - 📋 [AmmoPosition_t](#ammoposition_t)
 - 🔌 [AmmoTypeInfo_t](#ammotypeinfo_t)
 - 🔌 [AnimComponentID](#animcomponentid)
+- 🔌 [AnimGraph2SerializedPoseRecipeSlot_t](#animgraph2serializedposerecipeslot_t)
 - 📋 [AnimGraphDebugDrawType_t](#animgraphdebugdrawtype_t)
 - 📋 [AnimLoopMode_t](#animloopmode_t)
 - 🔌 [AnimNodeID](#animnodeid)
@@ -52,7 +62,6 @@
 - 📋 [BBoxVolumeType_t](#bboxvolumetype_t)
 - 🔌 [BakedLightingInfo_t](#bakedlightinginfo_t)
 - 🔌 [BakedLightingInfo_t__BakedShadowAssignment_t](#bakedlightinginfo_t__bakedshadowassignment_t)
-- 📋 [BaseExplosionTypes_t](#baseexplosiontypes_t)
 - 🔌 [BaseSceneObjectOverride_t](#basesceneobjectoverride_t)
 - 📋 [BeamClipStyle_t](#beamclipstyle_t)
 - 📋 [BeamType_t](#beamtype_t)
@@ -110,7 +119,6 @@
 - 🔌 [CAnimGraphDebugReplay](#canimgraphdebugreplay)
 - 🔌 [CAnimGraphModelBinding](#canimgraphmodelbinding)
 - 🔌 [CAnimGraphNetworkSettings](#canimgraphnetworksettings)
-- 🔌 [CAnimGraphNetworkedVariables](#canimgraphnetworkedvariables)
 - 🔌 [CAnimGraphSettingsGroup](#canimgraphsettingsgroup)
 - 🔌 [CAnimGraphSettingsManager](#canimgraphsettingsmanager)
 - 🔌 [CAnimInputDamping](#caniminputdamping)
@@ -138,6 +146,7 @@
 - 🔌 [CAnimUpdateSharedData](#canimupdateshareddata)
 - 🔌 [CAnimUser](#canimuser)
 - 🔌 [CAnimUserDifference](#canimuserdifference)
+- 🔌 [CAnimationGraphInstance](#canimationgraphinstance)
 - 🔌 [CAnimationGraphVisualizerAxis](#canimationgraphvisualizeraxis)
 - 🔌 [CAnimationGraphVisualizerLine](#canimationgraphvisualizerline)
 - 🔌 [CAnimationGraphVisualizerPie](#canimationgraphvisualizerpie)
@@ -146,6 +155,7 @@
 - 🔌 [CAnimationGraphVisualizerSphere](#canimationgraphvisualizersphere)
 - 🔌 [CAnimationGraphVisualizerText](#canimationgraphvisualizertext)
 - 🔌 [CAnimationGroup](#canimationgroup)
+- 🔌 [CAnimationLayer](#canimationlayer)
 - 🔌 [CAttachment](#cattachment)
 - 🔌 [CAttributeContainer](#cattributecontainer)
 - 🔌 [CAttributeList](#cattributelist)
@@ -159,7 +169,6 @@
 - 🔌 [CAudioSentence](#caudiosentence)
 - 🔌 [CBarnLight](#cbarnlight)
 - 🔌 [CBaseAnimGraph](#cbaseanimgraph)
-- 🔌 [CBaseAnimGraphAnimGraphController](#cbaseanimgraphanimgraphcontroller)
 - 🔌 [CBaseAnimGraphController](#cbaseanimgraphcontroller)
 - 🔌 [CBaseAnimGraphDestructibleParts_GraphController](#cbaseanimgraphdestructibleparts_graphcontroller)
 - 🔌 [CBaseAnimGraphVariationUserData](#cbaseanimgraphvariationuserdata)
@@ -175,13 +184,12 @@
 - 🔌 [CBaseEntity](#cbaseentity)
 - 🔌 [CBaseEntityAPI](#cbaseentityapi)
 - 🔌 [CBaseFilter](#cbasefilter)
-- 🔌 [CBaseFlex](#cbaseflex)
-- 🔌 [CBaseFlexAlias_funCBaseFlex](#cbaseflexalias_funcbaseflex)
 - 🔌 [CBaseGrenade](#cbasegrenade)
 - 🔌 [CBaseIssue](#cbaseissue)
 - 🔌 [CBaseModelEntity](#cbasemodelentity)
 - 🔌 [CBaseModelEntity](#cbasemodelentity)
 - 🔌 [CBaseModelEntityAPI](#cbasemodelentityapi)
+- 🔌 [CBaseModelEntity__OnDamageLevelChangedArgs_t](#cbasemodelentity__ondamagelevelchangedargs_t)
 - 🔌 [CBaseMoveBehavior](#cbasemovebehavior)
 - 🔌 [CBasePlatTrain](#cbaseplattrain)
 - 🔌 [CBasePlayerController](#cbaseplayercontroller)
@@ -204,8 +212,10 @@
 - 🔌 [CBeam](#cbeam)
 - 🔌 [CBinaryUpdateNode](#cbinaryupdatenode)
 - 🔌 [CBindPoseUpdateNode](#cbindposeupdatenode)
+- 🔌 [CBlend2DInstanceData](#cblend2dinstancedata)
 - 🔌 [CBlend2DUpdateNode](#cblend2dupdatenode)
 - 🔌 [CBlendCurve](#cblendcurve)
+- 🔌 [CBlendNodeInstanceData](#cblendnodeinstancedata)
 - 🔌 [CBlendUpdateNode](#cblendupdatenode)
 - 🔌 [CBlockSelectionMetricEvaluator](#cblockselectionmetricevaluator)
 - 🔌 [CBlood](#cblood)
@@ -246,9 +256,12 @@
 - 🔌 [CC4](#cc4)
 - 🔌 [CCPPScriptComponentUpdater](#ccppscriptcomponentupdater)
 - 🔌 [CCS2ChickenGraphController](#ccs2chickengraphcontroller)
+- 🔌 [CCS2PawnGraphController](#ccs2pawngraphcontroller)
 - 🔌 [CCS2WeaponGraphController](#ccs2weapongraphcontroller)
 - 🔌 [CCSBot](#ccsbot)
-- 🔌 [CCSGOPlayerAnimGraphState](#ccsgoplayeranimgraphstate)
+- 🔌 [CCSGO_EndOfMatchLineupEnd](#ccsgo_endofmatchlineupend)
+- 🔌 [CCSGO_EndOfMatchLineupEndpoint](#ccsgo_endofmatchlineupendpoint)
+- 🔌 [CCSGO_EndOfMatchLineupStart](#ccsgo_endofmatchlineupstart)
 - 🔌 [CCSGO_TeamIntroCharacterPosition](#ccsgo_teamintrocharacterposition)
 - 🔌 [CCSGO_TeamIntroCounterTerroristPosition](#ccsgo_teamintrocounterterroristposition)
 - 🔌 [CCSGO_TeamIntroTerroristPosition](#ccsgo_teamintroterroristposition)
@@ -275,6 +288,11 @@
 - 🔌 [CCSObserver_UseServices](#ccsobserver_useservices)
 - 🔌 [CCSPetPlacement](#ccspetplacement)
 - 🔌 [CCSPlace](#ccsplace)
+- 🔌 [CCSPlayerAnimationState](#ccsplayeranimationstate)
+- 📋 [CCSPlayerAnimationState__AirAction_t](#ccsplayeranimationstate__airaction_t)
+- 📋 [CCSPlayerAnimationState__Direction_t](#ccsplayeranimationstate__direction_t)
+- 📋 [CCSPlayerAnimationState__GroundMoveState_t](#ccsplayeranimationstate__groundmovestate_t)
+- 📋 [CCSPlayerAnimationState__MoveType_t](#ccsplayeranimationstate__movetype_t)
 - 🔌 [CCSPlayerBase_CameraServices](#ccsplayerbase_cameraservices)
 - 🔌 [CCSPlayerController](#ccsplayercontroller)
 - 🔌 [CCSPlayerController](#ccsplayercontroller)
@@ -291,6 +309,7 @@
 - 🔌 [CCSPlayerPawnBase](#ccsplayerpawnbase)
 - 🔌 [CCSPlayerResource](#ccsplayerresource)
 - 🔌 [CCSPlayer_ActionTrackingServices](#ccsplayer_actiontrackingservices)
+- 🔌 [CCSPlayer_AimPunchServices](#ccsplayer_aimpunchservices)
 - 🔌 [CCSPlayer_BulletServices](#ccsplayer_bulletservices)
 - 🔌 [CCSPlayer_BuyServices](#ccsplayer_buyservices)
 - 🔌 [CCSPlayer_CameraServices](#ccsplayer_cameraservices)
@@ -313,10 +332,14 @@
 - 🔌 [CCSWeaponBaseShotgun](#ccsweaponbaseshotgun)
 - 🔌 [CCSWeaponBaseVData](#ccsweaponbasevdata)
 - 🔌 [CCachedPose](#ccachedpose)
+- 🔌 [CCashStack](#ccashstack)
 - 🔌 [CChangeLevel](#cchangelevel)
 - 🔌 [CChicken](#cchicken)
+- 🔌 [CChoiceInstanceData](#cchoiceinstancedata)
 - 🔌 [CChoiceUpdateNode](#cchoiceupdatenode)
+- 🔌 [CChoreoComponent](#cchoreocomponent)
 - 🔌 [CChoreoInfoTarget](#cchoreoinfotarget)
+- 🔌 [CChoreoInstanceData](#cchoreoinstancedata)
 - 🔌 [CChoreoUpdateNode](#cchoreoupdatenode)
 - 🔌 [CCitadelSoundOpvarSetOBB](#ccitadelsoundopvarsetobb)
 - 🔌 [CClothSettingsAnimTag](#cclothsettingsanimtag)
@@ -337,6 +360,7 @@
 - 🔌 [CCurrentRotationVelocityMetricEvaluator](#ccurrentrotationvelocitymetricevaluator)
 - 🔌 [CCurrentVelocityMetricEvaluator](#ccurrentvelocitymetricevaluator)
 - 🔌 [CCycleBase](#ccyclebase)
+- 🔌 [CCycleClipInstanceData](#ccycleclipinstancedata)
 - 🔌 [CCycleControlClipUpdateNode](#ccyclecontrolclipupdatenode)
 - 🔌 [CCycleControlUpdateNode](#ccyclecontrolupdatenode)
 - 🔌 [CDEagle](#cdeagle)
@@ -346,10 +370,12 @@
 - 🔌 [CDampedPathAnimMotorUpdater](#cdampedpathanimmotorupdater)
 - 🔌 [CDampedValueComponentUpdater](#cdampedvaluecomponentupdater)
 - 🔌 [CDampedValueUpdateItem](#cdampedvalueupdateitem)
+- 🔌 [CDebugDrawHistoryData](#cdebugdrawhistorydata)
 - 🔌 [CDebugHistory](#cdebughistory)
 - 📋 [CDebugOverlayCombinedTypes_t](#cdebugoverlaycombinedtypes_t)
 - 📋 [CDebugOverlayFilterTextType_t](#cdebugoverlayfiltertexttype_t)
 - 📋 [CDebugOverlayFilterType_t](#cdebugoverlayfiltertype_t)
+- 🔌 [CDebugSnapshotData_t](#cdebugsnapshotdata_t)
 - 🔌 [CDecalGroupVData](#cdecalgroupvdata)
 - 🔌 [CDecalInstance](#cdecalinstance)
 - 🔌 [CDecoyGrenade](#cdecoygrenade)
@@ -360,8 +386,10 @@
 - 🔌 [CDestructiblePart_DamageLevel](#cdestructiblepart_damagelevel)
 - 🔌 [CDestructiblePartsComponent](#cdestructiblepartscomponent)
 - 🔌 [CDestructiblePartsSystemData](#cdestructiblepartssystemdata)
+- 🔌 [CDirectPlaybackInstanceData](#cdirectplaybackinstancedata)
 - 🔌 [CDirectPlaybackTagData](#cdirectplaybacktagdata)
 - 🔌 [CDirectPlaybackUpdateNode](#cdirectplaybackupdatenode)
+- 🔌 [CDirectionalBlendInstanceData](#cdirectionalblendinstancedata)
 - 🔌 [CDirectionalBlendUpdateNode](#cdirectionalblendupdatenode)
 - 🔌 [CDistanceRemainingMetricEvaluator](#cdistanceremainingmetricevaluator)
 - 🔌 [CDrawCullingData](#cdrawcullingdata)
@@ -437,6 +465,7 @@
 - 🔌 [CExampleSchemaVData_PolymorphicBase](#cexampleschemavdata_polymorphicbase)
 - 🔌 [CExampleSchemaVData_PolymorphicDerivedA](#cexampleschemavdata_polymorphicderiveda)
 - 🔌 [CExampleSchemaVData_PolymorphicDerivedB](#cexampleschemavdata_polymorphicderivedb)
+- 🔌 [CExplosionTypeData](#cexplosiontypedata)
 - 🔌 [CExpressionActionUpdater](#cexpressionactionupdater)
 - 🔌 [CFeIndexedJiggleBone](#cfeindexedjigglebone)
 - 🔌 [CFeJiggleBone](#cfejigglebone)
@@ -474,8 +503,10 @@
 - 🔌 [CFogTrigger](#cfogtrigger)
 - 🔌 [CFogVolume](#cfogvolume)
 - 🔌 [CFollowAttachmentUpdateNode](#cfollowattachmentupdatenode)
+- 🔌 [CFollowPathInstanceData](#cfollowpathinstancedata)
 - 🔌 [CFollowPathUpdateNode](#cfollowpathupdatenode)
 - 🔌 [CFollowTargetUpdateNode](#cfollowtargetupdatenode)
+- 🔌 [CFootAdjustmentInstanceData](#cfootadjustmentinstancedata)
 - 🔌 [CFootAdjustmentUpdateNode](#cfootadjustmentupdatenode)
 - 🔌 [CFootCycle](#cfootcycle)
 - 🔌 [CFootCycleDefinition](#cfootcycledefinition)
@@ -553,6 +584,7 @@
 - 🔌 [CGeneralRandomRotation](#cgeneralrandomrotation)
 - 🔌 [CGeneralSpin](#cgeneralspin)
 - 🔌 [CGenericConstraint](#cgenericconstraint)
+- 🔌 [CGenericShapeProxy](#cgenericshapeproxy)
 - 🔌 [CGlowProperty](#cglowproperty)
 - 🔌 [CGradientFog](#cgradientfog)
 - 🔌 [CGunTarget](#cguntarget)
@@ -579,6 +611,9 @@
 - 🔌 [CInButtonState](#cinbuttonstate)
 - 🔌 [CIncendiaryGrenade](#cincendiarygrenade)
 - 🔌 [CInferno](#cinferno)
+- 🔌 [CInfoChoreoAnchor](#cinfochoreoanchor)
+- 🔌 [CInfoChoreoAnchorPosition](#cinfochoreoanchorposition)
+- 📋 [CInfoChoreoLocatorShapeType_t](#cinfochoreolocatorshapetype_t)
 - 🔌 [CInfoData](#cinfodata)
 - 🔌 [CInfoDeathmatchSpawn](#cinfodeathmatchspawn)
 - 🔌 [CInfoDynamicShadowHint](#cinfodynamicshadowhint)
@@ -625,6 +660,7 @@
 - 🔌 [CKnife](#cknife)
 - 🔌 [CLODComponentUpdater](#clodcomponentupdater)
 - 🔌 [CLeafUpdateNode](#cleafupdatenode)
+- 🔌 [CLeanMatrixInstanceData](#cleanmatrixinstancedata)
 - 🔌 [CLeanMatrixUpdateNode](#cleanmatrixupdatenode)
 - 🔌 [CLightComponent](#clightcomponent)
 - 🔌 [CLightDirectionalEntity](#clightdirectionalentity)
@@ -719,6 +755,7 @@
 - 🔌 [CMovementComponentUpdater](#cmovementcomponentupdater)
 - 🔌 [CMovementHandshakeAnimTag](#cmovementhandshakeanimtag)
 - 🔌 [CMovementStatsProperty](#cmovementstatsproperty)
+- 🔌 [CMoverInstanceData](#cmoverinstancedata)
 - 🔌 [CMoverPathNode](#cmoverpathnode)
 - 🔌 [CMoverUpdateNode](#cmoverupdatenode)
 - 🔌 [CMultiLightProxy](#cmultilightproxy)
@@ -728,9 +765,6 @@
 - 🔌 [CNPCPhysicsHull](#cnpcphysicshull)
 - 🔌 [CNavHullPresetVData](#cnavhullpresetvdata)
 - 🔌 [CNavHullVData](#cnavhullvdata)
-- 🔌 [CNavLinkAnimgraphVar](#cnavlinkanimgraphvar)
-- 🔌 [CNavLinkAreaEntity](#cnavlinkareaentity)
-- 🔌 [CNavLinkMovementVData](#cnavlinkmovementvdata)
 - 🔌 [CNavSpaceInfo](#cnavspaceinfo)
 - 🔌 [CNavVolume](#cnavvolume)
 - 🔌 [CNavVolumeAll](#cnavvolumeall)
@@ -746,6 +780,7 @@
 - 🔌 [CNetworkTransmitComponent](#cnetworktransmitcomponent)
 - 🔌 [CNetworkVelocityVector](#cnetworkvelocityvector)
 - 🔌 [CNetworkViewOffsetVector](#cnetworkviewoffsetvector)
+- 🔌 [CNetworkedCycle](#cnetworkedcycle)
 - 🔌 [CNetworkedSequenceOperation](#cnetworkedsequenceoperation)
 - 🔌 [CNewParticleEffect](#cnewparticleeffect)
 - 🔌 [CNmAdditiveBlendTask](#cnmadditiveblendtask)
@@ -775,7 +810,6 @@
 - 🔌 [CNmCachedVectorNode__CDefinition](#cnmcachedvectornode__cdefinition)
 - 🔌 [CNmChainLookatNode__CDefinition](#cnmchainlookatnode__cdefinition)
 - 🔌 [CNmChainLookatTask](#cnmchainlookattask)
-- 🔌 [CNmChainSolverTask](#cnmchainsolvertask)
 - 🔌 [CNmClip](#cnmclip)
 - 🔌 [CNmClipNode__CDefinition](#cnmclipnode__cdefinition)
 - 🔌 [CNmClipReferenceNode__CDefinition](#cnmclipreferencenode__cdefinition)
@@ -805,7 +839,7 @@
 - 🔌 [CNmEventConsumerParticle](#cnmeventconsumerparticle)
 - 🔌 [CNmEventConsumerSound](#cnmeventconsumersound)
 - 📋 [CNmEventRelevance_t](#cnmeventrelevance_t)
-- 🔌 [CNmExternalGraphNode__CDefinition](#cnmexternalgraphnode__cdefinition)
+- 📋 [CNmEventTargetEntity_t](#cnmeventtargetentity_t)
 - 🔌 [CNmExternalPoseNode__CDefinition](#cnmexternalposenode__cdefinition)
 - 🔌 [CNmFixedWeightBoneMaskNode__CDefinition](#cnmfixedweightbonemasknode__cdefinition)
 - 🔌 [CNmFloatAngleMathNode__CDefinition](#cnmfloatanglemathnode__cdefinition)
@@ -823,12 +857,15 @@
 - 🔌 [CNmFloatRemapNode__CDefinition](#cnmfloatremapnode__cdefinition)
 - 🔌 [CNmFloatRemapNode__RemapRange_t](#cnmfloatremapnode__remaprange_t)
 - 🔌 [CNmFloatSelectorNode__CDefinition](#cnmfloatselectornode__cdefinition)
+- 🔌 [CNmFloatSpringNode__CDefinition](#cnmfloatspringnode__cdefinition)
 - 🔌 [CNmFloatSwitchNode__CDefinition](#cnmfloatswitchnode__cdefinition)
 - 🔌 [CNmFloatValueNode__CDefinition](#cnmfloatvaluenode__cdefinition)
 - 🔌 [CNmFollowBoneNode__CDefinition](#cnmfollowbonenode__cdefinition)
 - 🔌 [CNmFollowBoneTask](#cnmfollowbonetask)
 - 🔌 [CNmFootEvent](#cnmfootevent)
 - 🔌 [CNmFootEventConditionNode__CDefinition](#cnmfooteventconditionnode__cdefinition)
+- 🔌 [CNmFootIKNode__CDefinition](#cnmfootiknode__cdefinition)
+- 🔌 [CNmFootIKTask](#cnmfootiktask)
 - 🔌 [CNmFootstepEventIDNode__CDefinition](#cnmfootstepeventidnode__cdefinition)
 - 🔌 [CNmFootstepEventPercentageThroughNode__CDefinition](#cnmfootstepeventpercentagethroughnode__cdefinition)
 - 🔌 [CNmFrameSnapEvent](#cnmframesnapevent)
@@ -838,8 +875,11 @@
 - 🔌 [CNmGraphDefinition__ReferencedGraphSlot_t](#cnmgraphdefinition__referencedgraphslot_t)
 - 🔌 [CNmGraphEventConditionNode__CDefinition](#cnmgrapheventconditionnode__cdefinition)
 - 🔌 [CNmGraphEventConditionNode__Condition_t](#cnmgrapheventconditionnode__condition_t)
+- 🔌 [CNmGraphInstance](#cnmgraphinstance)
 - 🔌 [CNmGraphNode__CDefinition](#cnmgraphnode__cdefinition)
 - 🔌 [CNmGraphVariationUserData](#cnmgraphvariationuserdata)
+- 🔌 [CNmIDBasedClipSelectorNode__CDefinition](#cnmidbasedclipselectornode__cdefinition)
+- 🔌 [CNmIDBasedSelectorNode__CDefinition](#cnmidbasedselectornode__cdefinition)
 - 🔌 [CNmIDComparisonNode__CDefinition](#cnmidcomparisonnode__cdefinition)
 - 📋 [CNmIDComparisonNode__Comparison_t](#cnmidcomparisonnode__comparison_t)
 - 🔌 [CNmIDEvent](#cnmidevent)
@@ -850,10 +890,6 @@
 - 🔌 [CNmIDSwitchNode__CDefinition](#cnmidswitchnode__cdefinition)
 - 🔌 [CNmIDToFloatNode__CDefinition](#cnmidtofloatnode__cdefinition)
 - 🔌 [CNmIDValueNode__CDefinition](#cnmidvaluenode__cdefinition)
-- 🔌 [CNmIKBody](#cnmikbody)
-- 🔌 [CNmIKEffector](#cnmikeffector)
-- 🔌 [CNmIKJoint](#cnmikjoint)
-- 🔌 [CNmIKRig](#cnmikrig)
 - 🔌 [CNmIsExternalGraphSlotFilledNode__CDefinition](#cnmisexternalgraphslotfillednode__cdefinition)
 - 🔌 [CNmIsExternalPoseSetNode__CDefinition](#cnmisexternalposesetnode__cdefinition)
 - 🔌 [CNmIsInactiveBranchConditionNode__CDefinition](#cnmisinactivebranchconditionnode__cdefinition)
@@ -919,6 +955,7 @@
 - 🔌 [CNmTargetValueNode__CDefinition](#cnmtargetvaluenode__cdefinition)
 - 🔌 [CNmTargetWarpEvent](#cnmtargetwarpevent)
 - 🔌 [CNmTargetWarpNode__CDefinition](#cnmtargetwarpnode__cdefinition)
+- 📋 [CNmTargetWarpNode__TargetUpdateRule_t](#cnmtargetwarpnode__targetupdaterule_t)
 - 🔌 [CNmTimeConditionNode__CDefinition](#cnmtimeconditionnode__cdefinition)
 - 📋 [CNmTimeConditionNode__ComparisonType_t](#cnmtimeconditionnode__comparisontype_t)
 - 📋 [CNmTimeConditionNode__Operator_t](#cnmtimeconditionnode__operator_t)
@@ -989,7 +1026,6 @@
 - 🔌 [CPathKeyFrame](#cpathkeyframe)
 - 🔌 [CPathMetricEvaluator](#cpathmetricevaluator)
 - 🔌 [CPathMover](#cpathmover)
-- 🔌 [CPathMoverEntitySpawn](#cpathmoverentityspawn)
 - 🔌 [CPathMoverEntitySpawner](#cpathmoverentityspawner)
 - 🔌 [CPathNode](#cpathnode)
 - 🔌 [CPathParameters](#cpathparameters)
@@ -1079,6 +1115,7 @@
 - 🔌 [CPointHurt](#cpointhurt)
 - 🔌 [CPointOrient](#cpointorient)
 - 🔌 [CPointPrefab](#cpointprefab)
+- 🔌 [CPointPrefabAPI](#cpointprefabapi)
 - 🔌 [CPointProximitySensor](#cpointproximitysensor)
 - 🔌 [CPointPulse](#cpointpulse)
 - 🔌 [CPointPush](#cpointpush)
@@ -1145,6 +1182,9 @@
 - 🔌 [CPulseCell_Outflow_PlaySceneBase__CursorState_t](#cpulsecell_outflow_playscenebase__cursorstate_t)
 - 🔌 [CPulseCell_Outflow_PlaySequence](#cpulsecell_outflow_playsequence)
 - 🔌 [CPulseCell_Outflow_PlayVCD](#cpulsecell_outflow_playvcd)
+- 🔌 [CPulseCell_Outflow_PlayVCD__VCDRequirementInfo_t](#cpulsecell_outflow_playvcd__vcdrequirementinfo_t)
+- 🔌 [CPulseCell_Outflow_PlayVOLine](#cpulsecell_outflow_playvoline)
+- 🔌 [CPulseCell_Outflow_PlayVOLine__CursorState_t](#cpulsecell_outflow_playvoline__cursorstate_t)
 - 🔌 [CPulseCell_Outflow_ScriptedSequence](#cpulsecell_outflow_scriptedsequence)
 - 🔌 [CPulseCell_Outflow_ScriptedSequence__CursorState_t](#cpulsecell_outflow_scriptedsequence__cursorstate_t)
 - 🔌 [CPulseCell_Outflow_TestExplicitYesNo](#cpulsecell_outflow_testexplicityesno)
@@ -1241,6 +1281,7 @@
 - 🔌 [CRectLight](#crectlight)
 - 🔌 [CRegionSVM](#cregionsvm)
 - 🔌 [CRelativeLocation](#crelativelocation)
+- 🔌 [CRelativeTransform](#crelativetransform)
 - 🔌 [CRemapFloat](#cremapfloat)
 - 🔌 [CRemapValueComponentUpdater](#cremapvaluecomponentupdater)
 - 🔌 [CRemapValueUpdateItem](#cremapvalueupdateitem)
@@ -1254,6 +1295,7 @@
 - 🔌 [CResponseQueue](#cresponsequeue)
 - 🔌 [CRetakeGameRules](#cretakegamerules)
 - 🔌 [CRevertSaved](#crevertsaved)
+- 🔌 [CRootMotion](#crootmotion)
 - 🔌 [CRootUpdateNode](#crootupdatenode)
 - 🔌 [CRopeKeyframe](#cropekeyframe)
 - 🔌 [CRopeKeyframeAlias_move_rope](#cropekeyframealias_move_rope)
@@ -1283,12 +1325,14 @@
 - 📋 [CSWeaponNameID](#csweaponnameid)
 - 📋 [CSWeaponSilencerType](#csweaponsilencertype)
 - 📋 [CSWeaponType](#csweapontype)
+- 🔌 [CSceneCriteria](#cscenecriteria)
 - 🔌 [CSceneEntity](#csceneentity)
 - 🔌 [CSceneEntityAlias_logic_choreographed_scene](#csceneentityalias_logic_choreographed_scene)
 - 🔌 [CSceneEventInfo](#csceneeventinfo)
 - 🔌 [CSceneListManager](#cscenelistmanager)
 - 🔌 [CSceneObjectData](#csceneobjectdata)
 - 🔌 [CSceneObjectData__RTProxyDrawDescriptor_t](#csceneobjectdata__rtproxydrawdescriptor_t)
+- 🔌 [CSceneOpportunity](#csceneopportunity)
 - 🔌 [CScenePayloadVData](#cscenepayloadvdata)
 - 🔌 [CSceneRequest](#cscenerequest)
 - 🔌 [CSchemaSystemInternalRegistration](#cschemasysteminternalregistration)
@@ -1349,10 +1393,15 @@
 - 🔌 [CSmokeGrenadeProjectile](#csmokegrenadeprojectile)
 - 🔌 [CSmokeGrenadeProjectile](#csmokegrenadeprojectile)
 - 🔌 [CSmoothFunc](#csmoothfunc)
+- 🔌 [CSndSeqInstBaseSchema](#csndseqinstbaseschema)
+- 🔌 [CSndSeqInstMidiSampler](#csndseqinstmidisampler)
+- 🔌 [CSndSeqInstSndEvtSchema](#csndseqinstsndevtschema)
+- 🔌 [CSndSeqInstruments](#csndseqinstruments)
 - 🔌 [CSolveIKChainUpdateNode](#csolveikchainupdatenode)
 - 🔌 [CSolveIKTargetHandle_t](#csolveiktargethandle_t)
 - 🔌 [CSosGroupActionLimitSchema](#csosgroupactionlimitschema)
 - 🔌 [CSosGroupActionMemberCountEnvelopeSchema](#csosgroupactionmembercountenvelopeschema)
+- 🔌 [CSosGroupActionOcclusionSchema](#csosgroupactionocclusionschema)
 - 🔌 [CSosGroupActionSchema](#csosgroupactionschema)
 - 🔌 [CSosGroupActionSetSoundeventParameterSchema](#csosgroupactionsetsoundeventparameterschema)
 - 🔌 [CSosGroupActionSoundeventClusterSchema](#csosgroupactionsoundeventclusterschema)
@@ -1399,7 +1448,9 @@
 - 🔌 [CStanceScaleUpdateNode](#cstancescaleupdatenode)
 - 🔌 [CStateActionUpdater](#cstateactionupdater)
 - 🔌 [CStateMachineComponentUpdater](#cstatemachinecomponentupdater)
+- 🔌 [CStateMachineInstanceData](#cstatemachineinstancedata)
 - 🔌 [CStateMachineUpdateNode](#cstatemachineupdatenode)
+- 🔌 [CStateNodeInstanceData](#cstatenodeinstancedata)
 - 🔌 [CStateNodeStateData](#cstatenodestatedata)
 - 🔌 [CStateNodeTransitionData](#cstatenodetransitiondata)
 - 🔌 [CStateUpdateData](#cstateupdatedata)
@@ -1412,7 +1463,7 @@
 - 🔌 [CStringAnimTag](#cstringanimtag)
 - 🔌 [CSubtractUpdateNode](#csubtractupdatenode)
 - 🔌 [CSymbolAnimParameter](#csymbolanimparameter)
-- 🔌 [CTakeDamageInfoAPI](#ctakedamageinfoapi)
+- 🔌 [CTakeDamageResultAPI](#ctakedamageresultapi)
 - 🔌 [CTakeDamageSummaryScopeGuard](#ctakedamagesummaryscopeguard)
 - 🔌 [CTankTargetChange](#ctanktargetchange)
 - 🔌 [CTankTrainAI](#ctanktrainai)
@@ -1422,11 +1473,18 @@
 - 🔌 [CTaskStatusAnimTag](#ctaskstatusanimtag)
 - 🔌 [CTeam](#cteam)
 - 🔌 [CTeamplayRules](#cteamplayrules)
-- 🔌 [CTestBlendContainer](#ctestblendcontainer)
 - 🔌 [CTestDomainDerived_Cursor](#ctestdomainderived_cursor)
 - 🔌 [CTestEffect](#ctesteffect)
 - 🔌 [CTestPulseIO](#ctestpulseio)
 - 🔌 [CTestPulseIOAPI](#ctestpulseioapi)
+- 🔌 [CTestPulseIOComponent](#ctestpulseiocomponent)
+- 🔌 [CTestPulseIOComponent_API](#ctestpulseiocomponent_api)
+- 🔌 [CTestPulseIOComponent_Derived](#ctestpulseiocomponent_derived)
+- 🔌 [CTestPulseIOComponent_DerivedAPI](#ctestpulseiocomponent_derivedapi)
+- 🔌 [CTestPulseIO__EntityHandleIntArgs_t](#ctestpulseio__entityhandleintargs_t)
+- 🔌 [CTestPulseIO__EntityNameStringArgs_t](#ctestpulseio__entitynamestringargs_t)
+- 🔌 [CTestPulseIO__FloatStringArgs_t](#ctestpulseio__floatstringargs_t)
+- 🔌 [CTestPulseIO__ThreeStringArgs_t](#ctestpulseio__threestringargs_t)
 - 🔌 [CTextureBasedAnimatable](#ctexturebasedanimatable)
 - 🔌 [CTiltTwistConstraint](#ctilttwistconstraint)
 - 🔌 [CTimeRemainingMetricEvaluator](#ctimeremainingmetricevaluator)
@@ -1465,6 +1523,7 @@
 - 🔌 [CTriggerTeleport](#ctriggerteleport)
 - 🔌 [CTriggerToggleSave](#ctriggertogglesave)
 - 🔌 [CTriggerVolume](#ctriggervolume)
+- 🔌 [CTurnHelperInstanceData](#cturnhelperinstancedata)
 - 🔌 [CTurnHelperUpdateNode](#cturnhelperupdatenode)
 - 🔌 [CTwistConstraint](#ctwistconstraint)
 - 🔌 [CTwoBoneIKUpdateNode](#ctwoboneikupdatenode)
@@ -1558,6 +1617,7 @@
 - 🔌 [CWarpSectionAnimTag](#cwarpsectionanimtag)
 - 🔌 [CWarpSectionAnimTagBase](#cwarpsectionanimtagbase)
 - 🔌 [CWaterBullet](#cwaterbullet)
+- 🔌 [CWayPointHelperInstanceData](#cwaypointhelperinstancedata)
 - 🔌 [CWayPointHelperUpdateNode](#cwaypointhelperupdatenode)
 - 🔌 [CWeaponAWP](#cweaponawp)
 - 🔌 [CWeaponAug](#cweaponaug)
@@ -1806,6 +1866,7 @@
 - 🔌 [C_OP_MovementRigidAttachToCP](#c_op_movementrigidattachtocp)
 - 🔌 [C_OP_MovementRotateParticleAroundAxis](#c_op_movementrotateparticlearoundaxis)
 - 🔌 [C_OP_MovementSkinnedPositionFromCPSnapshot](#c_op_movementskinnedpositionfromcpsnapshot)
+- 🔌 [C_OP_MultiSegmentDisplaySnapshotGenerator](#c_op_multisegmentdisplaysnapshotgenerator)
 - 🔌 [C_OP_Noise](#c_op_noise)
 - 🔌 [C_OP_NoiseEmitter](#c_op_noiseemitter)
 - 🔌 [C_OP_NormalLock](#c_op_normallock)
@@ -1881,6 +1942,7 @@
 - 🔌 [C_OP_RemapTransformVisibilityToScalar](#c_op_remaptransformvisibilitytoscalar)
 - 🔌 [C_OP_RemapTransformVisibilityToVector](#c_op_remaptransformvisibilitytovector)
 - 🔌 [C_OP_RemapVectorComponentToScalar](#c_op_remapvectorcomponenttoscalar)
+- 🔌 [C_OP_RemapVectorToRotations](#c_op_remapvectortorotations)
 - 🔌 [C_OP_RemapVectortoCP](#c_op_remapvectortocp)
 - 🔌 [C_OP_RemapVelocityToVector](#c_op_remapvelocitytovector)
 - 🔌 [C_OP_RemapVisibilityScalar](#c_op_remapvisibilityscalar)
@@ -1913,6 +1975,7 @@
 - 🔌 [C_OP_RenderTrails](#c_op_rendertrails)
 - 🔌 [C_OP_RenderTreeShake](#c_op_rendertreeshake)
 - 🔌 [C_OP_RenderVRHapticEvent](#c_op_rendervrhapticevent)
+- 🔌 [C_OP_RenderVolumetricEmitter](#c_op_rendervolumetricemitter)
 - 🔌 [C_OP_RepeatedTriggerChildGroup](#c_op_repeatedtriggerchildgroup)
 - 🔌 [C_OP_RestartAfterDuration](#c_op_restartafterduration)
 - 🔌 [C_OP_RopeSpringConstraint](#c_op_ropespringconstraint)
@@ -1994,6 +2057,7 @@
 - 📋 [ChoiceBlendMethod](#choiceblendmethod)
 - 📋 [ChoiceChangeMethod](#choicechangemethod)
 - 📋 [ChoiceMethod](#choicemethod)
+- 📋 [ChoreoExternalAnimgraphControlState_t](#choreoexternalanimgraphcontrolstate_t)
 - 📋 [ChoreoLookAtMode_t](#choreolookatmode_t)
 - 📋 [ChoreoLookAtSpeed_t](#choreolookatspeed_t)
 - 📋 [Class_T](#class_t)
@@ -2011,15 +2075,17 @@
 - 🔌 [CountdownTimer](#countdowntimer)
 - 🔌 [CovMatrix3](#covmatrix3)
 - 📋 [DamageTypes_t](#damagetypes_t)
+- 🔌 [DampedPathMotorInstanceData_t](#dampedpathmotorinstancedata_t)
 - 📋 [DampingSpeedFunction](#dampingspeedfunction)
+- 🔌 [DebugDrawBoneTransforms_t](#debugdrawbonetransforms_t)
 - 📋 [DebugOverlayBits_t](#debugoverlaybits_t)
+- 🔌 [DebugSnapshotBaseStructuredData_t](#debugsnapshotbasestructureddata_t)
 - 📋 [DecalFlags_t](#decalflags_t)
 - 🔌 [DecalGroupOption_t](#decalgroupoption_t)
-- 📋 [DecalMode_t](#decalmode_t)
 - 📋 [DecalRtEncoding_t](#decalrtencoding_t)
-- 🔌 [DestructibleHitGroupToDestroy_t](#destructiblehitgrouptodestroy_t)
+- 🔌 [DestructiblePartDamageRequestAPI](#destructiblepartdamagerequestapi)
+- 🔌 [DestructiblePartDamageRequest_t](#destructiblepartdamagerequest_t)
 - 📋 [DestructiblePartDestructionDeathBehavior_t](#destructiblepartdestructiondeathbehavior_t)
-- 🔌 [DestructiblePartDestructionRequest_t](#destructiblepartdestructionrequest_t)
 - 📋 [Detail2Combo_t](#detail2combo_t)
 - 📋 [DetailCombo_t](#detailcombo_t)
 - 📋 [DisableShadows_t](#disableshadows_t)
@@ -2039,11 +2105,13 @@
 - 📋 [EKillTypes_t](#ekilltypes_t)
 - 📋 [EMidiNote](#emidinote)
 - 📋 [EMode_t](#emode_t)
+- 📋 [ENPCBehaviorOverride_t](#enpcbehavioroverride_t)
 - 📋 [EOverrideBlockLOS_t](#eoverrideblocklos_t)
 - 📋 [EProceduralRagdollWeightIndexPropagationMethod](#eproceduralragdollweightindexpropagationmethod)
 - 📋 [EPulseGraphExecutionHistoryFlag](#epulsegraphexecutionhistoryflag)
 - 📋 [ESceneObjectVisualization](#esceneobjectvisualization)
 - 📋 [ESceneRequestState_t](#escenerequeststate_t)
+- 📋 [ESceneViewDebugOverlaysListenerDataType_t](#esceneviewdebugoverlayslistenerdatatype_t)
 - 📋 [ESilhouetteType_t](#esilhouettetype_t)
 - 📋 [EWaveform](#ewaveform)
 - 🔌 [EmptyTestScript](#emptytestscript)
@@ -2052,13 +2120,13 @@
 - 🔌 [EntComponentInfo_t](#entcomponentinfo_t)
 - 📋 [EntFinderMethod_t](#entfindermethod_t)
 - 🔌 [EntInput_t](#entinput_t)
-- 🔌 [EntOutput_t](#entoutput_t)
 - 📋 [EntityAttachmentType_t](#entityattachmenttype_t)
 - 📋 [EntityDisolveType_t](#entitydisolvetype_t)
 - 📋 [EntityDistanceMode_t](#entitydistancemode_t)
 - 📋 [EntityDormancyType_t](#entitydormancytype_t)
 - 📋 [EntityEffects_t](#entityeffects_t)
 - 🔌 [EntityIOConnectionData_t](#entityioconnectiondata_t)
+- 🔌 [EntityIOQueuePrioritizedEvent_t](#entityioqueueprioritizedevent_t)
 - 📋 [EntityIOTargetType_t](#entityiotargettype_t)
 - 🔌 [EntityKeyValueData_t](#entitykeyvaluedata_t)
 - 📋 [EntityPlatformTypes_t](#entityplatformtypes_t)
@@ -2100,7 +2168,6 @@
 - 🔌 [EventServerPostAdvanceTick_t](#eventserverpostadvancetick_t)
 - 🔌 [EventServerPostSimulate_t](#eventserverpostsimulate_t)
 - 🔌 [EventServerProcessNetworking_t](#eventserverprocessnetworking_t)
-- 🔌 [EventServerSimulate_t](#eventserversimulate_t)
 - 🔌 [EventSetTime_t](#eventsettime_t)
 - 🔌 [EventSimpleLoopFrameUpdate_t](#eventsimpleloopframeupdate_t)
 - 🔌 [EventSimulate_t](#eventsimulate_t)
@@ -2198,11 +2265,16 @@
 - 🔌 [FourQuaternions](#fourquaternions)
 - 🔌 [FourVectors2D](#fourvectors2d)
 - 📋 [FuncDoorSpawnPos_t](#funcdoorspawnpos_t)
+- 📋 [FuncMoverMovementSummaryFlags_t](#funcmovermovementsummaryflags_t)
+- 🔌 [FuncMoverMovementSummary_t](#funcmovermovementsummary_t)
 - 🔌 [FunctionInfo_t](#functioninfo_t)
 - 🔌 [FuseFunctionIndex_t](#fusefunctionindex_t)
 - 📋 [FuseVariableAccess_t](#fusevariableaccess_t)
 - 🔌 [FuseVariableIndex_t](#fusevariableindex_t)
 - 📋 [FuseVariableType_t](#fusevariabletype_t)
+- 🔌 [GAME_HEADER](#game_header)
+- 📋 [GLOBALESTATE](#globalestate)
+- 📋 [GPUParticleCollisionMode_t](#gpuparticlecollisionmode_t)
 - 🔌 [GameAmmoTypeInfo_t](#gameammotypeinfo_t)
 - 📋 [GameAnimEventIndex_t](#gameanimeventindex_t)
 - 🔌 [GameTick_t](#gametick_t)
@@ -2233,18 +2305,27 @@
 - 📋 [IKTargetCoordinateSystem](#iktargetcoordinatesystem)
 - 🔌 [IKTargetSettings_t](#iktargetsettings_t)
 - 📋 [IKTargetSource](#iktargetsource)
+- 🔌 [INavObstacle](#inavobstacle)
+- 📋 [INavObstacle__NavObstacleType_t](#inavobstacle__navobstacletype_t)
 - 🔌 [IParticleCollection](#iparticlecollection)
 - 🔌 [IParticleEffect](#iparticleeffect)
 - 🔌 [IParticleSystemDefinition](#iparticlesystemdefinition)
+- 🔌 [IPhysAggregateInstance](#iphysaggregateinstance)
+- 🔌 [IPhysicsBody](#iphysicsbody)
+- 🔌 [IPhysicsBodyList](#iphysicsbodylist)
+- 🔌 [IPhysicsJoint](#iphysicsjoint)
+- 🔌 [IPhysicsMotionController](#iphysicsmotioncontroller)
+- 🔌 [IPhysicsParticleRope](#iphysicsparticlerope)
 - 🔌 [IPhysicsPlayerController](#iphysicsplayercontroller)
+- 🔌 [IPhysicsRagdollControl](#iphysicsragdollcontrol)
 - 🔌 [IRagdoll](#iragdoll)
 - 🔌 [ISkeletonAnimationController](#iskeletonanimationcontroller)
+- 🔌 [ISndSeqInstruments](#isndseqinstruments)
 - 📋 [IkEndEffectorType](#ikendeffectortype)
 - 📋 [IkTargetType](#iktargettype)
 - 🔌 [InfoForResourceTypeCAnimData](#infoforresourcetypecanimdata)
 - 🔌 [InfoForResourceTypeCAnimationGroup](#infoforresourcetypecanimationgroup)
 - 🔌 [InfoForResourceTypeCCSGOEconItem](#infoforresourcetypeccsgoeconitem)
-- 🔌 [InfoForResourceTypeCChoreoSceneFileList](#infoforresourcetypecchoreoscenefilelist)
 - 🔌 [InfoForResourceTypeCChoreoSceneResource](#infoforresourcetypecchoreosceneresource)
 - 🔌 [InfoForResourceTypeCCompositeMaterialKit](#infoforresourcetypeccompositematerialkit)
 - 🔌 [InfoForResourceTypeCDOTANovelsList](#infoforresourcetypecdotanovelslist)
@@ -2257,7 +2338,6 @@
 - 🔌 [InfoForResourceTypeCMorphSetData](#infoforresourcetypecmorphsetdata)
 - 🔌 [InfoForResourceTypeCNmClip](#infoforresourcetypecnmclip)
 - 🔌 [InfoForResourceTypeCNmGraphDefinition](#infoforresourcetypecnmgraphdefinition)
-- 🔌 [InfoForResourceTypeCNmIKRig](#infoforresourcetypecnmikrig)
 - 🔌 [InfoForResourceTypeCNmSkeleton](#infoforresourcetypecnmskeleton)
 - 🔌 [InfoForResourceTypeCPanoramaDynamicImages](#infoforresourcetypecpanoramadynamicimages)
 - 🔌 [InfoForResourceTypeCPanoramaLayout](#infoforresourcetypecpanoramalayout)
@@ -2273,6 +2353,7 @@
 - 🔌 [InfoForResourceTypeCTestResourceData](#infoforresourcetypectestresourcedata)
 - 🔌 [InfoForResourceTypeCTextureBase](#infoforresourcetypectexturebase)
 - 🔌 [InfoForResourceTypeCTypeScriptResource](#infoforresourcetypectypescriptresource)
+- 🔌 [InfoForResourceTypeCVDataItemDefs](#infoforresourcetypecvdataitemdefs)
 - 🔌 [InfoForResourceTypeCVDataResource](#infoforresourcetypecvdataresource)
 - 🔌 [InfoForResourceTypeCVMixListResource](#infoforresourcetypecvmixlistresource)
 - 🔌 [InfoForResourceTypeCVPhysXSurfacePropertiesList](#infoforresourcetypecvphysxsurfacepropertieslist)
@@ -2294,6 +2375,8 @@
 - 📋 [InheritableBoolType_t](#inheritablebooltype_t)
 - 📋 [InputBitMask_t](#inputbitmask_t)
 - 📋 [InputLayoutVariation_t](#inputlayoutvariation_t)
+- 📋 [InteractionPassive_t](#interactionpassive_t)
+- 📋 [InteractionPriority_t](#interactionpriority_t)
 - 🔌 [IntervalTimer](#intervaltimer)
 - 📋 [ItemFlagTypes_t](#itemflagtypes_t)
 - 🔌 [JiggleBoneSettingsList_t](#jigglebonesettingslist_t)
@@ -2302,6 +2385,7 @@
 - 📋 [JointAxis_t](#jointaxis_t)
 - 📋 [JointMotion_t](#jointmotion_t)
 - 📋 [JumpCorrectionMethod](#jumpcorrectionmethod)
+- 🔌 [KeyGroup_t](#keygroup_t)
 - 📋 [LatchDirtyPermission_t](#latchdirtypermission_t)
 - 📋 [LayoutPositionType_e](#layoutpositiontype_e)
 - 📋 [LessonPanelLayoutFileTypes_t](#lessonpanellayoutfiletypes_t)
@@ -2309,6 +2393,7 @@
 - 📋 [LinearRootMotionBlendMode_t](#linearrootmotionblendmode_t)
 - 🔌 [LookAtBone_t](#lookatbone_t)
 - 🔌 [LookAtOpFixedSettings_t](#lookatopfixedsettings_t)
+- 🔌 [LookData](#lookdata)
 - 🔌 [ManifestTestResource_t](#manifesttestresource_t)
 - 🔌 [MaterialGroup_t](#materialgroup_t)
 - 🔌 [MaterialOverride_t](#materialoverride_t)
@@ -2349,19 +2434,23 @@
 - 🔌 [MotionBlendItem](#motionblenditem)
 - 🔌 [MotionDBIndex](#motiondbindex)
 - 🔌 [MotionIndex](#motionindex)
+- 🔌 [MotionMatchingInstanceData](#motionmatchinginstancedata)
+- 🔌 [MotionSelection](#motionselection)
 - 📋 [MoveCollide_t](#movecollide_t)
 - 📋 [MoveLinearAuthoredPos_t](#movelinearauthoredpos_t)
 - 📋 [MoveMountingAmount_t](#movemountingamount_t)
 - 📋 [MoveType_t](#movetype_t)
 - 📋 [MovementCapability_t](#movementcapability_t)
-- 🔌 [MovementGaitId_t](#movementgaitid_t)
+- 🔌 [MovementData](#movementdata)
 - 📋 [NPCFollowFormation_t](#npcfollowformation_t)
 - 📋 [NPCPhysicsHullType_t](#npcphysicshulltype_t)
 - 📋 [NavAttributeEnum](#navattributeenum)
 - 📋 [NavDirType](#navdirtype)
 - 🔌 [NavGravity_t](#navgravity_t)
+- 🔌 [NavHull_t](#navhull_t)
 - 📋 [NavScopeFlags_t](#navscopeflags_t)
 - 📋 [NavScope_t](#navscope_t)
+- 🔌 [NetVarConfigIndex](#netvarconfigindex)
 - 🔌 [NmBoneMaskSetDefinition_t](#nmbonemasksetdefinition_t)
 - 📋 [NmCachedValueMode_t](#nmcachedvaluemode_t)
 - 🔌 [NmCompressionSettings_t](#nmcompressionsettings_t)
@@ -2374,6 +2463,7 @@
 - 📋 [NmFootPhaseCondition_t](#nmfootphasecondition_t)
 - 📋 [NmFootPhase_t](#nmfootphase_t)
 - 📋 [NmFrameSnapEventMode_t](#nmframesnapeventmode_t)
+- 📋 [NmGraphDebugMode_t](#nmgraphdebugmode_t)
 - 📋 [NmGraphEventTypeCondition_t](#nmgrapheventtypecondition_t)
 - 📋 [NmGraphValueType_t](#nmgraphvaluetype_t)
 - 📋 [NmIKBlendMode_t](#nmikblendmode_t)
@@ -2395,7 +2485,6 @@
 - 📋 [OrientationWarpMode_t](#orientationwarpmode_t)
 - 📋 [OrientationWarpRootMotionSource_t](#orientationwarprootmotionsource_t)
 - 📋 [OrientationWarpTargetOffsetMode_t](#orientationwarptargetoffsetmode_t)
-- 📋 [OutOfPVSUpdates_t](#outofpvsupdates_t)
 - 🔌 [OutflowWithRequirements_t](#outflowwithrequirements_t)
 - 🔌 [PARTICLE_EHANDLE__](#particle_ehandle__)
 - 📋 [PFNoiseModifier_t](#pfnoisemodifier_t)
@@ -2404,6 +2493,8 @@
 - 📋 [PFuncVisualizationType_t](#pfuncvisualizationtype_t)
 - 🔌 [PGDInstruction_t](#pgdinstruction_t)
 - 🔌 [PackedAABB_t](#packedaabb_t)
+- 🔌 [PairedSequenceData](#pairedsequencedata)
+- 🔌 [PairedSequence_t](#pairedsequence_t)
 - 🔌 [ParamSpanSample_t](#paramspansample_t)
 - 🔌 [ParamSpan_t](#paramspan_t)
 - 📋 [ParticleAlphaReferenceType_t](#particlealphareferencetype_t)
@@ -2446,6 +2537,9 @@
 - 📋 [ParticleLiquidContents_t](#particleliquidcontents_t)
 - 📋 [ParticleMassMode_t](#particlemassmode_t)
 - 📋 [ParticleModelType_t](#particlemodeltype_t)
+- 📋 [ParticleMultiSegmentCountSelection_t](#particlemultisegmentcountselection_t)
+- 📋 [ParticleMultiSegmentInputSelection_t](#particlemultisegmentinputselection_t)
+- 📋 [ParticleMultiSegmentSpecialCharacter_t](#particlemultisegmentspecialcharacter_t)
 - 🔌 [ParticleNamedValueConfiguration_t](#particlenamedvalueconfiguration_t)
 - 🔌 [ParticleNamedValueSource_t](#particlenamedvaluesource_t)
 - 🔌 [ParticleNode_t](#particlenode_t)
@@ -2466,12 +2560,17 @@
 - 📋 [ParticleSetMethod_t](#particlesetmethod_t)
 - 📋 [ParticleSortingChoiceList_t](#particlesortingchoicelist_t)
 - 📋 [ParticleTextureLayerBlendType_t](#particletexturelayerblendtype_t)
+- 📋 [ParticleToolsState_t](#particletoolsstate_t)
 - 📋 [ParticleTopology_t](#particletopology_t)
 - 📋 [ParticleTraceMissBehavior_t](#particletracemissbehavior_t)
 - 📋 [ParticleTraceSet_t](#particletraceset_t)
 - 📋 [ParticleTransformType_t](#particletransformtype_t)
 - 📋 [ParticleVRHandChoiceList_t](#particlevrhandchoicelist_t)
 - 📋 [ParticleVecType_t](#particlevectype_t)
+- 📋 [ParticleVolumetricSmokeCreationType_t](#particlevolumetricsmokecreationtype_t)
+- 📋 [ParticleVolumetricSmokeType_t](#particlevolumetricsmoketype_t)
+- 🔌 [PathMoverEntitySpawn](#pathmoverentityspawn)
+- 🔌 [PerTickSettings_t](#perticksettings_t)
 - 📋 [PerformanceMode_t](#performancemode_t)
 - 🔌 [PermEntityLumpData_t](#permentitylumpdata_t)
 - 🔌 [PermModelDataAnimatedMaterialAttribute_t](#permmodeldataanimatedmaterialattribute_t)
@@ -2480,13 +2579,18 @@
 - 🔌 [PermModelInfo_t](#permmodelinfo_t)
 - 📋 [PermModelInfo_t__FlagEnum](#permmodelinfo_t__flagenum)
 - 📋 [PetGroundType_t](#petgroundtype_t)
+- 🔌 [PhysBlockHeader_t](#physblockheader_t)
 - 🔌 [PhysFeModelDesc_t](#physfemodeldesc_t)
+- 📋 [PhysGenericShapeType_t](#physgenericshapetype_t)
+- 📋 [PhysInterfaceId_t](#physinterfaceid_t)
+- 🔌 [PhysObjectHeader_t](#physobjectheader_t)
 - 🔌 [PhysShapeMarkup_t](#physshapemarkup_t)
 - 🔌 [PhysSoftbodyDesc_t](#physsoftbodydesc_t)
 - 🔌 [PhysicsParticleId_t](#physicsparticleid_t)
 - 🔌 [PhysicsRagdollPose_t](#physicsragdollpose_t)
 - 📋 [PlayBackMode_t](#playbackmode_t)
 - 📋 [PlayerConnectedState](#playerconnectedstate)
+- 🔌 [PlayerInputMotorInstanceData_t](#playerinputmotorinstancedata_t)
 - 🔌 [PointCameraSettings_t](#pointcamerasettings_t)
 - 🔌 [PointDefinitionWithTimeValues_t](#pointdefinitionwithtimevalues_t)
 - 🔌 [PointDefinition_t](#pointdefinition_t)
@@ -2504,7 +2608,8 @@
 - 🔌 [PostProcessingResource_t](#postprocessingresource_t)
 - 🔌 [PostProcessingTonemapParameters_t](#postprocessingtonemapparameters_t)
 - 🔌 [PostProcessingVignetteParameters_t](#postprocessingvignetteparameters_t)
-- 🔌 [PredictedDamageTag_t](#predicteddamagetag_t)
+- 🔌 [PrecipitationFilter_t](#precipitationfilter_t)
+- 📋 [PreviewCharacterBannerAnimation](#previewcharacterbanneranimation)
 - 📋 [PreviewCharacterMode](#previewcharactermode)
 - 📋 [PreviewEOMCelebration](#previeweomcelebration)
 - 📋 [PreviewWeaponState](#previewweaponstate)
@@ -2607,12 +2712,20 @@
 - 🔌 [RsRasterizerStateDesc_t](#rsrasterizerstatedesc_t)
 - 🔌 [RsStencilStateDesc_t](#rsstencilstatedesc_t)
 - 📋 [RumbleEffect_t](#rumbleeffect_t)
+- 🔌 [SAVE_HEADER](#save_header)
+- 🔌 [SPAWNGROUP_HEADER](#spawngroup_header)
 - 🔌 [SampleCode](#samplecode)
+- 🔌 [SamplerVoice_t](#samplervoice_t)
+- 📋 [SaveRestoreTableFlags_t](#saverestoretableflags_t)
 - 📋 [ScalarExpressionType_t](#scalarexpressiontype_t)
 - 🔌 [SceneEventId_t](#sceneeventid_t)
+- 🔌 [SceneInterestTags_t](#sceneinteresttags_t)
 - 🔌 [SceneObject_t](#sceneobject_t)
 - 📋 [SceneOnPlayerDeath_t](#sceneonplayerdeath_t)
+- 🔌 [SceneOpportunityActor_t](#sceneopportunityactor_t)
+- 🔌 [SceneOpportunityHandle_t](#sceneopportunityhandle_t)
 - 🔌 [SceneRequestHandle_t](#scenerequesthandle_t)
+- 🔌 [SceneRequestTargetMapPair_t](#scenerequesttargetmappair_t)
 - 🔌 [SceneViewId_t](#sceneviewid_t)
 - 🔌 [ScriptInfo_t](#scriptinfo_t)
 - 📋 [ScriptedConflictResponse_t](#scriptedconflictresponse_t)
@@ -2620,10 +2733,12 @@
 - 📋 [ScriptedMoveTo_t](#scriptedmoveto_t)
 - 📋 [ScriptedOnDeath_t](#scriptedondeath_t)
 - 🔌 [SelectedEditItemInfo_t](#selectededititeminfo_t)
+- 🔌 [SelectorInstanceData_t](#selectorinstancedata_t)
 - 📋 [SelectorTagBehavior_t](#selectortagbehavior_t)
 - 🔌 [SellbackPurchaseEntry_t](#sellbackpurchaseentry_t)
 - 📋 [SeqCmd_t](#seqcmd_t)
 - 📋 [SeqPoseSetting_t](#seqposesetting_t)
+- 🔌 [SequenceData](#sequencedata)
 - 📋 [SequenceFinishNotifyState_t](#sequencefinishnotifystate_t)
 - 🔌 [SequenceHistory_t](#sequencehistory_t)
 - 🔌 [SequenceWeightedList_t](#sequenceweightedlist_t)
@@ -2639,7 +2754,6 @@
 - 🔌 [SignatureOutflow_Continue](#signatureoutflow_continue)
 - 🔌 [SignatureOutflow_Resume](#signatureoutflow_resume)
 - 🔌 [SimpleConstraintSoundProfile](#simpleconstraintsoundprofile)
-- 📋 [SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t](#simpleconstraintsoundprofile__simpleconstraintssoundprofilekeypoints_t)
 - 🔌 [SkeletonAnimCapture_t](#skeletonanimcapture_t)
 - 🔌 [SkeletonAnimCapture_t__Bone_t](#skeletonanimcapture_t__bone_t)
 - 🔌 [SkeletonAnimCapture_t__Camera_t](#skeletonanimcapture_t__camera_t)
@@ -2647,7 +2761,15 @@
 - 🔌 [SkeletonAnimCapture_t__Frame_t](#skeletonanimcapture_t__frame_t)
 - 🔌 [SkeletonBoneBounds_t](#skeletonbonebounds_t)
 - 🔌 [SkeletonDemoDb_t](#skeletondemodb_t)
+- 🔌 [SlopeData](#slopedata)
 - 📋 [SnapshotIndexType_t](#snapshotindextype_t)
+- 📋 [SndSeqInstrumentType_t](#sndseqinstrumenttype_t)
+- 📋 [SndSeqMidiStatusType_t](#sndseqmidistatustype_t)
+- 📋 [SndSeqPlayerType_t](#sndseqplayertype_t)
+- 📋 [SndSeqQuantizeType_t](#sndseqquantizetype_t)
+- 📋 [SndSeqRegionType_t](#sndseqregiontype_t)
+- 📋 [SndSeqSyncType_t](#sndseqsynctype_t)
+- 📋 [SndSeqTrackPlaybackType_t](#sndseqtrackplaybacktype_t)
 - 📋 [SolidType_t](#solidtype_t)
 - 📋 [SolveIKChainAnimNodeDebugSetting](#solveikchainanimnodedebugsetting)
 - 🔌 [SolveIKChainPoseOpFixedSettings_t](#solveikchainposeopfixedsettings_t)
@@ -2658,6 +2780,7 @@
 - 📋 [SosEditItemType_t](#sosedititemtype_t)
 - 📋 [SosGroupFieldBehavior_t](#sosgroupfieldbehavior_t)
 - 📋 [SosGroupType_t](#sosgrouptype_t)
+- 🔌 [SoundCommand_t](#soundcommand_t)
 - 📋 [SoundEventStartType_t](#soundeventstarttype_t)
 - 🔌 [SoundOpvarTraceResult_t](#soundopvartraceresult_t)
 - 🔌 [SoundeventPathCornerPairNetworked_t](#soundeventpathcornerpairnetworked_t)
@@ -2680,9 +2803,12 @@
 - 🔌 [TagSpan_t](#tagspan_t)
 - 📋 [TakeDamageFlags_t](#takedamageflags_t)
 - 📋 [TargetSelectorAngleMode_t](#targetselectoranglemode_t)
+- 🔌 [TargetSelectorInstanceData_t](#targetselectorinstancedata_t)
 - 📋 [TargetWarpAngleMode_t](#targetwarpanglemode_t)
 - 📋 [TargetWarpCorrectionMethod](#targetwarpcorrectionmethod)
 - 📋 [TargetWarpTimingMethod](#targetwarptimingmethod)
+- 🔌 [TestComponent_t](#testcomponent_t)
+- 🔌 [TestComponent_tAPI](#testcomponent_tapi)
 - 📋 [TestInputOutputCombinationsEnum_t](#testinputoutputcombinationsenum_t)
 - 🔌 [TextureControls_t](#texturecontrols_t)
 - 🔌 [TextureGroup_t](#texturegroup_t)
@@ -2697,7 +2823,6 @@
 - 🔌 [TwoBoneIKSettings_t](#twoboneiksettings_t)
 - 🔌 [VMapResourceData_t](#vmapresourcedata_t)
 - 🔌 [VMixAutoFilterDesc_t](#vmixautofilterdesc_t)
-- 🔌 [VMixBoxverb2Desc_t](#vmixboxverb2desc_t)
 - 🔌 [VMixBoxverbDesc_t](#vmixboxverbdesc_t)
 - 📋 [VMixChannelOperation_t](#vmixchanneloperation_t)
 - 🔌 [VMixConvolutionDesc_t](#vmixconvolutiondesc_t)
@@ -2725,7 +2850,6 @@
 - 🔌 [VMixPitchShiftDesc_t](#vmixpitchshiftdesc_t)
 - 🔌 [VMixPlateverbDesc_t](#vmixplateverbdesc_t)
 - 🔌 [VMixPresetDSPDesc_t](#vmixpresetdspdesc_t)
-- 📋 [VMixProcessorType_t](#vmixprocessortype_t)
 - 🔌 [VMixShaperDesc_t](#vmixshaperdesc_t)
 - 🔌 [VMixSubgraphSwitchDesc_t](#vmixsubgraphswitchdesc_t)
 - 📋 [VMixSubgraphSwitchInterpolationType_t](#vmixsubgraphswitchinterpolationtype_t)
@@ -2755,6 +2879,7 @@
 - 📋 [VectorFloatExpressionType_t](#vectorfloatexpressiontype_t)
 - 📋 [VelocityMetricMode](#velocitymetricmode)
 - 🔌 [VelocitySampler](#velocitysampler)
+- 🔌 [VelocityZone_t](#velocityzone_t)
 - 📋 [VertJustification_e](#vertjustification_e)
 - 📋 [VertexAlbedoFormat_t](#vertexalbedoformat_t)
 - 🔌 [VertexPositionColor_t](#vertexpositioncolor_t)
@@ -2791,27 +2916,34 @@
 - 🔌 [dynpitchvol_base_t](#dynpitchvol_base_t)
 - 🔌 [dynpitchvol_t](#dynpitchvol_t)
 - 📋 [eSplinePushType](#esplinepushtype)
+- 🔌 [entitytable_t](#entitytable_t)
 - 📋 [fieldtype_t](#fieldtype_t)
 - 📋 [filter_t](#filter_t)
 - 🔌 [fogparams_t](#fogparams_t)
 - 🔌 [fogplayerparams_t](#fogplayerparams_t)
 - 📋 [gear_slot_t](#gear_slot_t)
+- 🔌 [globalentity_t](#globalentity_t)
 - 🔌 [hudtextparms_t](#hudtextparms_t)
 - 🔌 [lerpdata_t](#lerpdata_t)
+- 🔌 [levellist_t](#levellist_t)
 - 📋 [loadout_slot_t](#loadout_slot_t)
 - 🔌 [locksound_t](#locksound_t)
 - 🔌 [magnetted_objects_t](#magnetted_objects_t)
+- 🔌 [modifiedconvars_t](#modifiedconvars_t)
 - 📋 [navproperties_t](#navproperties_t)
+- 🔌 [physics_save_sphere_t](#physics_save_sphere_t)
 - 🔌 [ragdoll_t](#ragdoll_t)
 - 🔌 [ragdollelement_t](#ragdollelement_t)
 - 🔌 [ragdollhierarchyjoint_t](#ragdollhierarchyjoint_t)
 - 🔌 [shard_model_desc_t](#shard_model_desc_t)
 - 🔌 [sky3dparams_t](#sky3dparams_t)
 - 🔌 [sndopvarlatchdata_t](#sndopvarlatchdata_t)
+- 📋 [soundcommands_t](#soundcommands_t)
 - 📋 [soundlevel_t](#soundlevel_t)
 - 🔌 [thinkfunc_t](#thinkfunc_t)
 - 📋 [vote_create_failed_t](#vote_create_failed_t)
 - 🔌 [vphysics_save_cphysicsbody_t](#vphysics_save_cphysicsbody_t)
+- 🔌 [vphysics_save_ragdoll_control_t](#vphysics_save_ragdoll_control_t)
 
 <a id="aabb_t"></a>
 
@@ -2843,6 +2975,240 @@ void MinBoundsUpdated()
 ```csharp
 void MaxBoundsUpdated()
 ```
+
+
+
+---
+
+<a id="ai_basenpcanimgraph_debugsnapshotdata_t"></a>
+
+## 🔌 AI_BaseNPCAnimGraph_DebugSnapshotData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `DebugSnapshotBaseStructuredData_t`
+
+**实现接口:** `ISchemaClass\<AI_BaseNPCAnimGraph_DebugSnapshotData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `E_action_desired` | `ref CGlobalSymbol` | get | - |
+| `B_action_restart` | `ref bool` | get | - |
+| `E_movement_type_desired` | `ref CGlobalSymbol` | get | - |
+| `B_movement_type_restart` | `ref bool` | get | - |
+
+
+
+---
+
+<a id="ai_basenpc_debugsnapshotdata_t"></a>
+
+## 🔌 AI_BaseNPC_DebugSnapshotData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `DebugSnapshotBaseStructuredData_t`
+
+**实现接口:** `ISchemaClass\<AI_BaseNPC_DebugSnapshotData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Npc_state` | `ref CGlobalSymbol` | get | - |
+| `Current_enemy` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `S_current_schedule` | `string` | get, set | - |
+| `S_current_task` | `ref CGlobalSymbol` | get | - |
+| `S_schedule_interrupt_reason` | `string` | get, set | - |
+| `S_schedule_fail_reason` | `string` | get, set | - |
+| `Conditions` | `ref CUtlVector\<CGlobalSymbol\>` | get | - |
+| `Anim_events` | `ref CUtlVector\<CGlobalSymbol\>` | get | - |
+| `E_action_body_section` | `ref CGlobalSymbol` | get | - |
+| `E_movement_body_section` | `ref CGlobalSymbol` | get | - |
+
+
+
+---
+
+<a id="ai_defaultnpc_debugsnapshotdata_t"></a>
+
+## 🔌 AI_DefaultNPC_DebugSnapshotData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `DebugSnapshotBaseStructuredData_t`
+
+**实现接口:** `ISchemaClass\<AI_DefaultNPC_DebugSnapshotData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `S_npc_current_ability` | `ref CGlobalSymbol` | get | - |
+| `S_npc_tactic_current` | `ref CGlobalSymbol` | get | - |
+| `S_npc_tactic_phase` | `ref CGlobalSymbol` | get | - |
+| `Tactic_interrupt_conditions` | `ref CUtlVector\<CGlobalSymbol\>` | get | - |
+| `S_npc_current_movement` | `string` | get, set | - |
+| `Path_query_schedule` | `AI_DefaultNPC_DebugSnapshotData_t__PathQuery_t` | get | - |
+| `Path_query_tactic` | `AI_DefaultNPC_DebugSnapshotData_t__PathQuery_t` | get | - |
+| `Path_queries_speculative` | `ref CUtlVector\<AI_DefaultNPC_DebugSnapshotData_t__PathQuery_t\>` | get | - |
+
+
+
+---
+
+<a id="ai_defaultnpc_debugsnapshotdata_t__pathquery_t"></a>
+
+## 🔌 AI_DefaultNPC_DebugSnapshotData_t__PathQuery_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<AI_DefaultNPC_DebugSnapshotData_t__PathQuery_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InitialQueryName` | `ref CGlobalSymbol` | get | - |
+| `CurrentQueryName` | `ref CGlobalSymbol` | get | - |
+| `Mode` | `ref CGlobalSymbol` | get | - |
+| `Type` | `ref CGlobalSymbol` | get | - |
+| `State` | `ref CGlobalSymbol` | get | - |
+
+
+
+---
+
+<a id="ai_motorgroundanimgraph_debugsnapshotdata_t"></a>
+
+## 🔌 AI_MotorGroundAnimgraph_DebugSnapshotData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `DebugSnapshotBaseStructuredData_t`
+
+**实现接口:** `ISchemaClass\<AI_MotorGroundAnimgraph_DebugSnapshotData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `State` | `ref CGlobalSymbol` | get | - |
+| `B_has_path` | `ref bool` | get | - |
+| `F_remaining_ground_path_length` | `ref float` | get | - |
+| `F_current_speed` | `ref float` | get | - |
+| `Move_type` | `ref CGlobalSymbol` | get | - |
+| `F_move_heading_actual` | `ref float` | get | - |
+| `F_move_heading_desired` | `ref float` | get | - |
+| `F_current_lean` | `ref float` | get | - |
+| `F_target_lean` | `ref float` | get | - |
+| `Vec_events` | `ref CUtlVector\<AI_MotorGroundAnimgraph_DebugSnapshotData_t__Event_t\>` | get | - |
+
+
+
+---
+
+<a id="ai_motorgroundanimgraph_debugsnapshotdata_t__event_t"></a>
+
+## 🔌 AI_MotorGroundAnimgraph_DebugSnapshotData_t__Event_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<AI_MotorGroundAnimgraph_DebugSnapshotData_t__Event_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Description` | `string` | get, set | - |
+| `Location` | `ref Vector` | get | - |
+
+
+
+---
+
+<a id="ai_motor_debugsnapshotdata_t"></a>
+
+## 🔌 AI_Motor_DebugSnapshotData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `DebugSnapshotBaseStructuredData_t`
+
+**实现接口:** `ISchemaClass\<AI_Motor_DebugSnapshotData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Current_movement_gait_set` | `ref CGlobalSymbol` | get, set | - |
+| `Current_movement_gait` | `ref CGlobalSymbol` | get | - |
+| `Movement_setting_id` | `ref CGlobalSymbol` | get, set | - |
+
+
+
+---
+
+<a id="ai_navigator_debugsnapshotdata_t"></a>
+
+## 🔌 AI_Navigator_DebugSnapshotData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `DebugSnapshotBaseStructuredData_t`
+
+**实现接口:** `ISchemaClass\<AI_Navigator_DebugSnapshotData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `S_npc_nav_authority` | `ref CGlobalSymbol` | get | - |
+| `S_goal_nav_search_id` | `ref CGlobalSymbol` | get | - |
+| `S_goal_source_location` | `string` | get, set | - |
+| `Goal_actual_pos` | `ref Vector` | get | - |
+| `Goal_base_pos` | `ref Vector` | get | - |
+| `Waypoints` | `ref CUtlVector\<AI_Navigator_DebugSnapshotData_t__Waypoint_t\>` | get | - |
+
+
+
+---
+
+<a id="ai_navigator_debugsnapshotdata_t__waypoint_t"></a>
+
+## 🔌 AI_Navigator_DebugSnapshotData_t__Waypoint_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<AI_Navigator_DebugSnapshotData_t__Waypoint_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Position` | `ref Vector` | get | - |
+| `Nav_type` | `ref uint` | get | - |
+| `Flags` | `ref uint` | get | - |
 
 
 
@@ -3253,6 +3619,34 @@ void AssociatedEntityNamesUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Id` | `ref uint` | get | - |
+
+
+
+---
+
+<a id="animgraph2serializedposerecipeslot_t"></a>
+
+## 🔌 AnimGraph2SerializedPoseRecipeSlot_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<AnimGraph2SerializedPoseRecipeSlot_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Topology` | `ref CUtlBinaryBlock` | get | - |
+
+### ⚙️ 方法
+
+#### TopologyUpdated
+
+```csharp
+void TopologyUpdated()
+```
 
 
 
@@ -3683,8 +4077,7 @@ void AssociatedEntityNamesUpdated()
 | `eSequence` | `1` | - |
 | `eAnimGraph2` | `2` | - |
 | `eAnimGraph2Secondary` | `3` | - |
-| `eAnimGraph1` | `4` | - |
-| `eCount` | `5` | - |
+| `eCount` | `4` | - |
 
 
 
@@ -3971,42 +4364,6 @@ void AssociatedEntityNamesUpdated()
 | `LightHash` | `ref uint` | get | - |
 | `MapHash` | `ref uint` | get | - |
 | `ShadowChannel` | `ref byte` | get | - |
-
-
-
----
-
-<a id="baseexplosiontypes_t"></a>
-
-## 📋 BaseExplosionTypes_t
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `enum`
-
-**继承:** `uint`
-
-### 📋 枚举值
-
-| 名称 | 值 | 描述 |
-|------|------|------|
-| `EXPLOSION_TYPE_DEFAULT` | `0` | - |
-| `EXPLOSION_TYPE_GRENADE` | `1` | - |
-| `EXPLOSION_TYPE_MOLOTOV` | `2` | - |
-| `EXPLOSION_TYPE_FIREWORKS` | `3` | - |
-| `EXPLOSION_TYPE_GASCAN` | `4` | - |
-| `EXPLOSION_TYPE_GASCYLINDER` | `5` | - |
-| `EXPLOSION_TYPE_EXPLOSIVEBARREL` | `6` | - |
-| `EXPLOSION_TYPE_ELECTRICAL` | `7` | - |
-| `EXPLOSION_TYPE_EMP` | `8` | - |
-| `EXPLOSION_TYPE_SHRAPNEL` | `9` | - |
-| `EXPLOSION_TYPE_SMOKEGRENADE` | `10` | - |
-| `EXPLOSION_TYPE_FLASHBANG` | `11` | - |
-| `EXPLOSION_TYPE_TRIPMINE` | `12` | - |
-| `EXPLOSION_TYPE_ICE` | `13` | - |
-| `EXPLOSION_TYPE_NONE` | `14` | - |
-| `EXPLOSION_TYPE_CUSTOM` | `15` | - |
-| `EXPLOSION_TYPE_COUNT` | `16` | - |
 
 
 
@@ -4496,7 +4853,7 @@ void AssociatedEntityNamesUpdated()
 | `ConsiderSceneInvolvementAsSpeech` | `ref bool` | get | - |
 | `SceneEntityDisabled` | `ref bool` | get | - |
 | `LastSpokenPriority` | `ref int` | get | - |
-| `Outer` | `CBaseFlex?` | get | - |
+| `Outer` | `CBaseModelEntity?` | get | - |
 
 
 
@@ -5330,195 +5687,6 @@ void AssociatedEntityNamesUpdated()
 
 ---
 
-<a id="canimgraphnetworkedvariables"></a>
-
-## 🔌 CAnimGraphNetworkedVariables
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<CAnimGraphNetworkedVariables\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `PredNetBoolVariables` | `ref CUtlVector\<uint\>` | get | - |
-| `PredNetByteVariables` | `ref CUtlVector\<byte\>` | get | - |
-| `PredNetUInt16Variables` | `ref CUtlVector\<ushort\>` | get | - |
-| `PredNetIntVariables` | `ref CUtlVector\<int\>` | get | - |
-| `PredNetUInt32Variables` | `ref CUtlVector\<uint\>` | get | - |
-| `PredNetUInt64Variables` | `ref CUtlVector\<ulong\>` | get | - |
-| `PredNetFloatVariables` | `ref CUtlVector\<float\>` | get | - |
-| `PredNetVectorVariables` | `ref CUtlVector\<Vector\>` | get | - |
-| `PredNetQuaternionVariables` | `ref CUtlVector\<Quaternion\>` | get | - |
-| `PredNetGlobalSymbolVariables` | `ref CUtlVector\<CGlobalSymbol\>` | get | - |
-| `OwnerOnlyPredNetBoolVariables` | `ref CUtlVector\<uint\>` | get | - |
-| `OwnerOnlyPredNetByteVariables` | `ref CUtlVector\<byte\>` | get | - |
-| `OwnerOnlyPredNetUInt16Variables` | `ref CUtlVector\<ushort\>` | get | - |
-| `OwnerOnlyPredNetIntVariables` | `ref CUtlVector\<int\>` | get | - |
-| `OwnerOnlyPredNetUInt32Variables` | `ref CUtlVector\<uint\>` | get | - |
-| `OwnerOnlyPredNetUInt64Variables` | `ref CUtlVector\<ulong\>` | get | - |
-| `OwnerOnlyPredNetFloatVariables` | `ref CUtlVector\<float\>` | get | - |
-| `OwnerOnlyPredNetVectorVariables` | `ref CUtlVector\<Vector\>` | get | - |
-| `OwnerOnlyPredNetQuaternionVariables` | `ref CUtlVector\<Quaternion\>` | get | - |
-| `OwnerOnlyPredNetGlobalSymbolVariables` | `ref CUtlVector\<CGlobalSymbol\>` | get | - |
-| `BoolVariablesCount` | `ref int` | get | - |
-| `OwnerOnlyBoolVariablesCount` | `ref int` | get | - |
-| `RandomSeedOffset` | `ref int` | get, set | - |
-| `LastTeleportTime` | `ref float` | get | - |
-
-### ⚙️ 方法
-
-#### PredNetBoolVariablesUpdated
-
-```csharp
-void PredNetBoolVariablesUpdated()
-```
-
-#### PredNetByteVariablesUpdated
-
-```csharp
-void PredNetByteVariablesUpdated()
-```
-
-#### PredNetUInt16VariablesUpdated
-
-```csharp
-void PredNetUInt16VariablesUpdated()
-```
-
-#### PredNetIntVariablesUpdated
-
-```csharp
-void PredNetIntVariablesUpdated()
-```
-
-#### PredNetUInt32VariablesUpdated
-
-```csharp
-void PredNetUInt32VariablesUpdated()
-```
-
-#### PredNetUInt64VariablesUpdated
-
-```csharp
-void PredNetUInt64VariablesUpdated()
-```
-
-#### PredNetFloatVariablesUpdated
-
-```csharp
-void PredNetFloatVariablesUpdated()
-```
-
-#### PredNetVectorVariablesUpdated
-
-```csharp
-void PredNetVectorVariablesUpdated()
-```
-
-#### PredNetQuaternionVariablesUpdated
-
-```csharp
-void PredNetQuaternionVariablesUpdated()
-```
-
-#### PredNetGlobalSymbolVariablesUpdated
-
-```csharp
-void PredNetGlobalSymbolVariablesUpdated()
-```
-
-#### OwnerOnlyPredNetBoolVariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetBoolVariablesUpdated()
-```
-
-#### OwnerOnlyPredNetByteVariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetByteVariablesUpdated()
-```
-
-#### OwnerOnlyPredNetUInt16VariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetUInt16VariablesUpdated()
-```
-
-#### OwnerOnlyPredNetIntVariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetIntVariablesUpdated()
-```
-
-#### OwnerOnlyPredNetUInt32VariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetUInt32VariablesUpdated()
-```
-
-#### OwnerOnlyPredNetUInt64VariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetUInt64VariablesUpdated()
-```
-
-#### OwnerOnlyPredNetFloatVariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetFloatVariablesUpdated()
-```
-
-#### OwnerOnlyPredNetVectorVariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetVectorVariablesUpdated()
-```
-
-#### OwnerOnlyPredNetQuaternionVariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetQuaternionVariablesUpdated()
-```
-
-#### OwnerOnlyPredNetGlobalSymbolVariablesUpdated
-
-```csharp
-void OwnerOnlyPredNetGlobalSymbolVariablesUpdated()
-```
-
-#### BoolVariablesCountUpdated
-
-```csharp
-void BoolVariablesCountUpdated()
-```
-
-#### OwnerOnlyBoolVariablesCountUpdated
-
-```csharp
-void OwnerOnlyBoolVariablesCountUpdated()
-```
-
-#### RandomSeedOffsetUpdated
-
-```csharp
-void RandomSeedOffsetUpdated()
-```
-
-#### LastTeleportTimeUpdated
-
-```csharp
-void LastTeleportTimeUpdated()
-```
-
-
-
----
-
 <a id="canimgraphsettingsgroup"></a>
 
 ## 🔌 CAnimGraphSettingsGroup
@@ -6118,6 +6286,26 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimationgraphinstance"></a>
+
+## 🔌 CAnimationGraphInstance
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CAnimationGraphInstance\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TagDispatchDirty` | `ref bool` | get | - |
+
+
+
+---
+
 <a id="canimationgraphvisualizeraxis"></a>
 
 ## 🔌 CAnimationGraphVisualizerAxis
@@ -6311,6 +6499,36 @@ void LastTeleportTimeUpdated()
 
 ---
 
+<a id="canimationlayer"></a>
+
+## 🔌 CAnimationLayer
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CAnimationLayer\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Sequence` | `SchemaUntypedField` | get | - |
+| `PrevCycle` | `ref float` | get | - |
+| `Cycle` | `SchemaUntypedField` | get | - |
+| `Weight` | `SchemaUntypedField` | get | - |
+| `Order` | `SchemaUntypedField` | get | - |
+| `Looping` | `ref bool` | get | - |
+| `Flags` | `ref int` | get | - |
+| `SequenceFinished` | `ref bool` | get | - |
+| `KillRate` | `ref float` | get | - |
+| `KillDelay` | `ref float` | get | - |
+| `Priority` | `ref int` | get | - |
+
+
+
+---
+
 <a id="cattachment"></a>
 
 ## 🔌 CAttachment
@@ -6366,7 +6584,7 @@ void LastTeleportTimeUpdated()
 void SetOrAddAttribute(string attributeName, float value)
 ```
 
-将属性设置或添加到属性列表中。
+设置或添加一个属性到属性列表中。
 
 **参数:**
 
@@ -6375,7 +6593,7 @@ void SetOrAddAttribute(string attributeName, float value)
 
 **用法示例:**
 ```csharp
-attributeList.SetOrAddAttribute("Health", 25.0f);
+attributeList.SetOrAddAttribute("damage_multiplier", 1.5f);
 ```
 
 
@@ -6583,6 +6801,7 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 | `Shear` | `ref Vector` | get | - |
 | `BakeSpecularToCubemaps` | `ref int` | get | - |
 | `BakeSpecularToCubemapsSize` | `ref Vector` | get | - |
+| `BakeSpecularToCubemapsScale` | `ref float` | get | - |
 | `CastShadows` | `ref int` | get | - |
 | `ShadowMapSize` | `ref int` | get | - |
 | `ShadowPriority` | `ref int` | get | - |
@@ -6590,7 +6809,6 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 | `ForceShadowsEnabled` | `ref bool` | get | - |
 | `BounceLight` | `ref int` | get | - |
 | `BounceScale` | `ref float` | get | - |
-| `DynamicBounce` | `ref bool` | get | - |
 | `MinRoughness` | `ref float` | get | - |
 | `AlternateColor` | `ref Vector` | get | - |
 | `AlternateColorBrightness` | `ref float` | get | - |
@@ -6598,7 +6816,6 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 | `FogStrength` | `ref float` | get | - |
 | `FogShadows` | `ref int` | get | - |
 | `FogScale` | `ref float` | get | - |
-| `FogMixedShadows` | `ref bool` | get | - |
 | `FadeSizeStart` | `ref float` | get | - |
 | `FadeSizeEnd` | `ref float` | get | - |
 | `ShadowFadeSizeStart` | `ref float` | get | - |
@@ -6629,6 +6846,7 @@ attributeList.SetOrAddAttribute("Health", 25.0f);
 | `PrecomputedOBBAngles5` | `ref QAngle` | get | - |
 | `PrecomputedOBBExtent5` | `ref Vector` | get | - |
 | `PvsModifyEntity` | `ref bool` | get | - |
+| `TransmitAlways` | `ref bool` | get | - |
 | `VisClusters` | `ref CUtlVector\<ushort\>` | get | - |
 
 ### ⚙️ 方法
@@ -6807,6 +7025,12 @@ void BakeSpecularToCubemapsUpdated()
 void BakeSpecularToCubemapsSizeUpdated()
 ```
 
+#### BakeSpecularToCubemapsScaleUpdated
+
+```csharp
+void BakeSpecularToCubemapsScaleUpdated()
+```
+
 #### CastShadowsUpdated
 
 ```csharp
@@ -6849,12 +7073,6 @@ void BounceLightUpdated()
 void BounceScaleUpdated()
 ```
 
-#### DynamicBounceUpdated
-
-```csharp
-void DynamicBounceUpdated()
-```
-
 #### MinRoughnessUpdated
 
 ```csharp
@@ -6895,12 +7113,6 @@ void FogShadowsUpdated()
 
 ```csharp
 void FogScaleUpdated()
-```
-
-#### FogMixedShadowsUpdated
-
-```csharp
-void FogMixedShadowsUpdated()
 ```
 
 #### FadeSizeStartUpdated
@@ -7108,12 +7320,10 @@ void VisClustersUpdated()
 | `InitiallyPopulateInterpHistory` | `ref bool` | get | - |
 | `ChoreoServices` | `IChoreoServices?` | get | - |
 | `AnimGraphUpdateEnabled` | `ref bool` | get | - |
-| `MaxSlopeDistance` | `ref float` | get | - |
-| `LastSlopeCheckPos` | `ref Vector` | get | - |
-| `AnimGraphUpdateId` | `ref uint` | get | - |
 | `AnimationUpdateScheduled` | `ref bool` | get | - |
 | `Force` | `ref Vector` | get | - |
 | `ForceBone` | `ref int` | get | - |
+| `RagdollControl` | `IPhysicsRagdollControl?` | get | - |
 | `RagdollPose` | `PhysicsRagdollPose_t` | get | - |
 | `RagdollEnabled` | `ref bool` | get | - |
 | `RagdollClientSide` | `ref bool` | get | - |
@@ -7167,42 +7377,6 @@ void RagdollClientSideUpdated()
 
 ---
 
-<a id="cbaseanimgraphanimgraphcontroller"></a>
-
-## 🔌 CBaseAnimGraphAnimGraphController
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `CAnimGraphControllerBase`
-
-**实现接口:** `ISchemaClass\<CBaseAnimGraphAnimGraphController\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `DestructiblePartDestroyedHitGroup` | `SchemaUntypedField` | get | - |
-| `DestructiblePartDestroyedPartIndex` | `SchemaUntypedField` | get | - |
-| `HITGROUP_INVALID_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_GENERIC_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_HEAD_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_CHEST_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_STOMACH_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_LEFTARM_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_RIGHTARM_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_LEFTLEG_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_RIGHTLEG_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_NECK_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_UNUSED_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_GEAR_Destroyed` | `SchemaUntypedField` | get | - |
-| `HITGROUP_SPECIAL_Destroyed` | `SchemaUntypedField` | get | - |
-
-
-
----
-
 <a id="cbaseanimgraphcontroller"></a>
 
 ## 🔌 CBaseAnimGraphController
@@ -7220,10 +7394,8 @@ void RagdollClientSideUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `AnimationAlgorithm` | `ref AnimationAlgorithm_t` | get | - |
-| `AnimGraphNetworkedVars` | `CAnimGraphNetworkedVariables` | get | - |
-| `AnimGraphInstance` | `SchemaUntypedField` | get | - |
 | `NextExternalGraphHandle` | `ExternalAnimGraphHandle_t` | get | - |
-| `SecondarySkeletonNames` | `ref CUtlVector\<CGlobalSymbol\>` | get | - |
+| `SecondarySkeletonSlotIDs` | `ref CUtlVector\<CGlobalSymbol\>` | get | - |
 | `SecondarySkeletons` | `ref CUtlVector\<CHandle\<CBaseAnimGraph\>\>` | get | - |
 | `SecondarySkeletonMasterCount` | `ref int` | get | - |
 | `SoundSyncTime` | `ref float` | get | - |
@@ -7240,8 +7412,9 @@ void RagdollClientSideUpdated()
 | `SequenceFinished` | `ref bool` | get | - |
 | `PrevAnimUpdateTick` | `GameTick_t` | get | - |
 | `GraphDefinitionAG2` | `ref CStrongHandle\<InfoForResourceTypeCNmGraphDefinition\>` | get | - |
-| `SerializedPoseRecipeAG2` | `ref CUtlVector\<byte\>` | get | - |
-| `SerializePoseRecipeSizeAG2` | `ref int` | get | - |
+| `SerializePoseRecipeAG2Slots` | `ref CUtlVector\<AnimGraph2SerializedPoseRecipeSlot_t\>` | get | - |
+| `SerializePoseRecipeAG2Dynamic` | `ref CUtlVector\<byte\>` | get | - |
+| `SerializePoseRecipeAG2ActiveSlot` | `ref uint` | get | - |
 | `SerializePoseRecipeVersionAG2` | `ref int` | get | - |
 | `ServerGraphInstanceIteration` | `ref int` | get | - |
 | `ServerSerializationContextIteration` | `ref int` | get | - |
@@ -7249,6 +7422,7 @@ void RagdollClientSideUpdated()
 | `ExternalGraphIds` | `ref CUtlVector\<ResourceId_t\>` | get | - |
 | `ExternalClipIds` | `ref CUtlVector\<ResourceId_t\>` | get | - |
 | `AnimGraph2Identifier` | `ref CGlobalSymbol` | get | - |
+| `GraphInstanceAG2` | `CNmGraphInstance?` | get | - |
 | `ExternalGraphs` | `ref CUtlVector\<ExternalAnimGraph_t\>` | get | - |
 
 ### ⚙️ 方法
@@ -7259,10 +7433,10 @@ void RagdollClientSideUpdated()
 void AnimationAlgorithmUpdated()
 ```
 
-#### AnimGraphNetworkedVarsUpdated
+#### SecondarySkeletonSlotIDsUpdated
 
 ```csharp
-void AnimGraphNetworkedVarsUpdated()
+void SecondarySkeletonSlotIDsUpdated()
 ```
 
 #### SecondarySkeletonsUpdated
@@ -7313,16 +7487,22 @@ void PlaybackRateUpdated()
 void GraphDefinitionAG2Updated()
 ```
 
-#### SerializedPoseRecipeAG2Updated
+#### SerializePoseRecipeAG2SlotsUpdated
 
 ```csharp
-void SerializedPoseRecipeAG2Updated()
+void SerializePoseRecipeAG2SlotsUpdated()
 ```
 
-#### SerializePoseRecipeSizeAG2Updated
+#### SerializePoseRecipeAG2DynamicUpdated
 
 ```csharp
-void SerializePoseRecipeSizeAG2Updated()
+void SerializePoseRecipeAG2DynamicUpdated()
+```
+
+#### SerializePoseRecipeAG2ActiveSlotUpdated
+
+```csharp
+void SerializePoseRecipeAG2ActiveSlotUpdated()
 ```
 
 #### SerializePoseRecipeVersionAG2Updated
@@ -7721,7 +7901,7 @@ void PanelIDUpdated()
 
 **类型:** `interface`
 
-**继承:** `CBaseFlex`
+**继承:** `CBaseAnimGraph`
 
 **实现接口:** `ISchemaClass\<CBaseCombatCharacter\>`
 
@@ -7880,17 +8060,17 @@ void IsUsableUpdated()
 void Teleport(Vector? position, QAngle? angle, Vector? velocity)
 ```
 
-将实体传送至指定的位置、朝向和速度。
+将实体传送至指定位置、朝向和速度。
 
 **参数:**
 
-- `position` (`Vector?`) - 实体要移动到的目标位置。如果为 null，则不改变实体的位置。
-- `angle` (`QAngle?`) - 实体要设置的目标朝向。如果为 null，则不更改实体的朝向。
-- `velocity` (`Vector?`) - 传送后应用于实体的速度。若为 null，则不改变实体的速度。
+- `position` (`Vector?`) - 要将实体移动到的目标位置。如果为 null，则实体的位置不变。
+- `angle` (`QAngle?`) - 要为目标实体设定的朝向。若为null，则实体的朝向不会改变。
+- `velocity` (`Vector?`) - 传送后应用于实体的速度。如果为 null，则实体的速度不变。
 
 **用法示例:**
 ```csharp
-entity.Teleport(pos, ang, vel);
+player.Teleport(new Vector(0, 0, 0), new QAngle(0, 90, 0), new Vector(0, 0, 0));
 ```
 
 #### TakeDamage
@@ -7905,7 +8085,7 @@ void TakeDamage(CTakeDamageInfo dmgInfo)
 
 **用法示例:**
 ```csharp
-entity.TakeDamage(dmgInfo);
+entity.TakeDamage(damageInfo);
 ```
 
 #### TakeDamageAsync
@@ -7914,7 +8094,7 @@ entity.TakeDamage(dmgInfo);
 Task TakeDamageAsync(CTakeDamageInfo dmgInfo)
 ```
 
-根据指定的伤害信息，异步地对实体施加伤害。
+根据指定的伤害信息异步对实体施加伤害。
 
 **参数:**
 
@@ -7924,7 +8104,7 @@ Task TakeDamageAsync(CTakeDamageInfo dmgInfo)
 
 **用法示例:**
 ```csharp
-await entity.TakeDamageAsync(dmgInfo);
+await entity.TakeDamageAsync(damageInfo);
 ```
 
 #### TakeDamage
@@ -7943,7 +8123,7 @@ void TakeDamage(float flDamage, DamageTypes_t bitsDamageType, CBaseEntity? infli
 
 **用法示例:**
 ```csharp
-entity.TakeDamage(100f, DamageTypes_t.Generic, inflictor, attacker, null);
+player.TakeDamage(10.0f, DamageTypes_t.BULLET, null, attacker, null);
 ```
 
 #### TakeDamageAsync
@@ -7952,7 +8132,7 @@ entity.TakeDamage(100f, DamageTypes_t.Generic, inflictor, attacker, null);
 Task TakeDamageAsync(float flDamage, DamageTypes_t bitsDamageType, CBaseEntity? inflictor = null, CBaseEntity? attacker = null, CBaseEntity? ability = null)
 ```
 
-根据指定的伤害信息，异步地对实体施加伤害。
+根据指定的伤害信息异步对实体施加伤害。
 
 **参数:**
 
@@ -7966,7 +8146,7 @@ Task TakeDamageAsync(float flDamage, DamageTypes_t bitsDamageType, CBaseEntity? 
 
 **用法示例:**
 ```csharp
-await entity.TakeDamageAsync(50f, DamageTypes_t.Physical, inflictor, attacker, ability);
+await player.TakeDamageAsync(50.0f, DamageTypes_t.DMG_BULLET, null, attacker, null);
 ```
 
 #### CollisionRulesChanged
@@ -7975,11 +8155,10 @@ await entity.TakeDamageAsync(50f, DamageTypes_t.Physical, inflictor, attacker, a
 void CollisionRulesChanged()
 ```
 
-通知游戏该实体的碰撞规则已更改。在修改实体的 Collision 属性时请调用此方法。
+通知游戏实体碰撞规则已发生变更。当你修改实体的碰撞属性时，请调用此方法。
 
 **用法示例:**
 ```csharp
-entity.Collision = CollisionGroup.None;
 entity.CollisionRulesChanged();
 ```
 
@@ -8011,8 +8190,13 @@ entity.CollisionRulesChanged();
 | `DisabledContextThinks` | `ref bool` | get | - |
 | `IsSteadyState` | `SchemaUntypedField` | get | - |
 | `LastNetworkChange` | `ref float` | get | - |
+| `Think` | `SchemaUntypedField` | get | - |
 | `ResponseContexts` | `ref CUtlVector\<ResponseContext_t\>` | get | - |
 | `ResponseContext` | `string` | get, set | - |
+| `PfnTouch` | `SchemaUntypedField` | get | - |
+| `PfnUse` | `SchemaUntypedField` | get | - |
+| `PfnBlocked` | `SchemaUntypedField` | get | - |
+| `PfnMoveDone` | `SchemaUntypedField` | get | - |
 | `Health` | `ref int` | get | - |
 | `MaxHealth` | `ref int` | get | - |
 | `LifeState` | `ref byte` | get | - |
@@ -8022,6 +8206,7 @@ entity.CollisionRulesChanged();
 | `PlatformType` | `ref EntityPlatformTypes_t` | get | - |
 | `MoveCollide` | `ref MoveCollide_t` | get | - |
 | `MoveType` | `ref MoveType_t` | get | - |
+| `PreviouslySetMoveType` | `ref MoveType_t` | get | - |
 | `ActualMoveType` | `ref MoveType_t` | get | - |
 | `WaterTouch` | `ref byte` | get | - |
 | `SlimeTouch` | `ref byte` | get | - |
@@ -8344,63 +8529,6 @@ void BloodTypeUpdated()
 
 ---
 
-<a id="cbaseflex"></a>
-
-## 🔌 CBaseFlex
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `CBaseAnimGraph`
-
-**实现接口:** `ISchemaClass\<CBaseFlex\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `FlexWeight` | `ref CUtlVector\<float\>` | get | - |
-| `LookTargetPosition` | `ref Vector` | get | - |
-| `AllowResponsesEndTime` | `GameTime_t` | get | - |
-| `LastFlexAnimationTime` | `GameTime_t` | get | - |
-| `NextSceneEventId` | `SceneEventId_t` | get | - |
-| `UpdateLayerPriorities` | `ref bool` | get | - |
-
-### ⚙️ 方法
-
-#### FlexWeightUpdated
-
-```csharp
-void FlexWeightUpdated()
-```
-
-#### LookTargetPositionUpdated
-
-```csharp
-void LookTargetPositionUpdated()
-```
-
-
-
----
-
-<a id="cbaseflexalias_funcbaseflex"></a>
-
-## 🔌 CBaseFlexAlias_funCBaseFlex
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `CBaseFlex`
-
-**实现接口:** `ISchemaClass\<CBaseFlexAlias_funCBaseFlex\>`
-
-
-
----
-
 <a id="cbasegrenade"></a>
 
 ## 🔌 CBaseGrenade
@@ -8409,7 +8537,7 @@ void LookTargetPositionUpdated()
 
 **类型:** `interface`
 
-**继承:** `CBaseFlex`
+**继承:** `CBaseAnimGraph`
 
 **实现接口:** `ISchemaClass\<CBaseGrenade\>`
 
@@ -8509,14 +8637,13 @@ void ThrowerUpdated()
 CSkeletonInstance? GetSkeletonInstance()
 ```
 
-获取实体的骨架化实例。
+获取实体的骨架实例。
 
 **返回值:** `CSkeletonInstance?`
 
 **用法示例:**
 ```csharp
-CSkeletonInstance? skeleton = entity.GetSkeletonInstance();
-if (skeleton != null) Console.WriteLine("Skeleton found");
+CSkeletonInstance? skeleton = modelEntity.GetSkeletonInstance();
 ```
 
 #### GetModel
@@ -8531,8 +8658,7 @@ string? GetModel()
 
 **用法示例:**
 ```csharp
-string? model = entity.GetModel();
-if (model != null) Console.WriteLine(model);
+string? modelName = entity.GetModel();
 ```
 
 #### GetMeshGroupMask
@@ -8541,14 +8667,13 @@ if (model != null) Console.WriteLine(model);
 ulong? GetMeshGroupMask()
 ```
 
-获取实体的模型网格组掩码。
+获取实体的模型网格组遮罩。
 
 **返回值:** `ulong?`
 
 **用法示例:**
 ```csharp
-ulong? meshGroupMask = modelEntity.GetMeshGroupMask();
-if (meshGroupMask.HasValue) Console.WriteLine(meshGroupMask.Value);
+var mask = entity.GetMeshGroupMask();
 ```
 
 #### SetMeshGroupMask
@@ -8557,7 +8682,7 @@ if (meshGroupMask.HasValue) Console.WriteLine(meshGroupMask.Value);
 void SetMeshGroupMask(ulong meshGroupMask)
 ```
 
-设置实体的模型网格组掩码。
+设置实体的模型网格组遮罩。
 
 **参数:**
 
@@ -8565,7 +8690,7 @@ void SetMeshGroupMask(ulong meshGroupMask)
 
 **用法示例:**
 ```csharp
-modelEntity.SetMeshGroupMask(1UL);
+entity.SetMeshGroupMask(0xFF);
 ```
 
 #### SetModel
@@ -8580,7 +8705,7 @@ void SetModel(string model)
 
 **用法示例:**
 ```csharp
-modelEntity.SetModel("models/player.mdl");
+entity.SetModel("models/player/ctm_sas.vmdl");
 ```
 
 #### SetModelAsync
@@ -8589,7 +8714,7 @@ modelEntity.SetModel("models/player.mdl");
 Task SetModelAsync(string model)
 ```
 
-异步将模型设置到实体。
+异步将模型设置到实体上。
 
 **参数:**
 
@@ -8599,7 +8724,7 @@ Task SetModelAsync(string model)
 
 **用法示例:**
 ```csharp
-await entity.SetModelAsync("models/player/custom_player/legacy/tm_phoenix.mdl");
+await entity.SetModelAsync("models/props/cs_office/vending_machine.mdl");
 ```
 
 #### SetBodygroupByName
@@ -8615,7 +8740,7 @@ void SetBodygroupByName(string group, int value)
 
 **用法示例:**
 ```csharp
-modelEntity.SetBodygroupByName("headgear", 1);
+modelEntity.SetBodygroupByName("head", 1);
 ```
 
 #### SetBodygroupByNameAsync
@@ -8628,14 +8753,14 @@ Task SetBodygroupByNameAsync(string group, int value)
 
 **参数:**
 
-- `group` (`string`) - 要设置的 bodygroup 名称。
-- `value` (`int`) - 要设置为该身体组的值。
+- `group` (`string`) - 要设置的bodygroup名称。
+- `value` (`int`) - 要设置的身体组值。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await modelEntity.SetBodygroupByNameAsync("head", 1);
+await modelEntity.SetBodygroupByNameAsync("default", 1);
 ```
 
 #### SetScale
@@ -8650,7 +8775,7 @@ void SetScale(float scale)
 
 **用法示例:**
 ```csharp
-modelEntity.SetScale(1.25f);
+entity.SetScale(2.0f);
 ```
 
 #### SetScaleAsync
@@ -8669,7 +8794,7 @@ Task SetScaleAsync(float scale)
 
 **用法示例:**
 ```csharp
-await entity.SetScaleAsync(1.25f);
+await modelEntity.SetScaleAsync(2.0f);
 ```
 
 
@@ -8694,6 +8819,7 @@ await entity.SetScaleAsync(1.25f);
 |------|------|--------|------|
 | `CRenderComponent` | `CRenderComponent?` | get | - |
 | `CHitboxComponent` | `CHitboxComponent` | get | - |
+| `ChoreoComponent` | `CChoreoComponent?` | get | - |
 | `DestructiblePartInitialStateDestructed0` | `ref HitGroup_t` | get | - |
 | `DestructiblePartInitialStateDestructed1` | `ref HitGroup_t` | get | - |
 | `DestructiblePartInitialStateDestructed2` | `ref HitGroup_t` | get | - |
@@ -8704,7 +8830,13 @@ await entity.SetScaleAsync(1.25f);
 | `DestructiblePartInitialStateDestructed2_PartIndex` | `ref int` | get | - |
 | `DestructiblePartInitialStateDestructed3_PartIndex` | `ref int` | get | - |
 | `DestructiblePartInitialStateDestructed4_PartIndex` | `ref int` | get | - |
+| `DestructiblePartInitialStateDestructed0_GenerateBreakpieces` | `ref bool` | get | - |
+| `DestructiblePartInitialStateDestructed1_GenerateBreakpieces` | `ref bool` | get | - |
+| `DestructiblePartInitialStateDestructed2_GenerateBreakpieces` | `ref bool` | get | - |
+| `DestructiblePartInitialStateDestructed3_GenerateBreakpieces` | `ref bool` | get | - |
+| `DestructiblePartInitialStateDestructed4_GenerateBreakpieces` | `ref bool` | get | - |
 | `DestructiblePartsSystemComponent` | `CDestructiblePartsComponent?` | get | - |
+| `OnDestructibleHitGroupDamageLevelChanged` | `SchemaUntypedField` | get | - |
 | `DissolveStartTime` | `GameTime_t` | get | - |
 | `OnIgnite` | `ref CEntityIOOutput` | get | - |
 | `RenderMode` | `ref RenderMode_t` | get | - |
@@ -8722,6 +8854,7 @@ await entity.SetScaleAsync(1.25f);
 | `FadeScale` | `ref float` | get | - |
 | `ShadowStrength` | `ref float` | get | - |
 | `ObjectCulling` | `ref byte` | get | - |
+| `BodyGroupChoices` | `SchemaUntypedField` | get | - |
 | `ViewOffset` | `CNetworkViewOffsetVector` | get, set | - |
 | `DisabledHitGroups` | `ISchemaFixedArray\<uint\>` | get | - |
 
@@ -8731,6 +8864,12 @@ await entity.SetScaleAsync(1.25f);
 
 ```csharp
 void CHitboxComponentUpdated()
+```
+
+#### ChoreoComponentUpdated
+
+```csharp
+void ChoreoComponentUpdated()
 ```
 
 #### DestructiblePartsSystemComponentUpdated
@@ -8853,6 +8992,29 @@ void DisabledHitGroupsUpdated()
 
 ---
 
+<a id="cbasemodelentity__ondamagelevelchangedargs_t"></a>
+
+## 🔌 CBaseModelEntity__OnDamageLevelChangedArgs_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CBaseModelEntity__OnDamageLevelChangedArgs_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `HitGroup` | `ref HitGroup_t` | get | - |
+| `DamageLevel` | `ref int` | get | - |
+| `DamageLevelsRemaining` | `ref int` | get | - |
+| `PrevDamageLevel` | `ref int` | get | - |
+
+
+
+---
+
 <a id="cbasemovebehavior"></a>
 
 ## 🔌 CBaseMoveBehavior
@@ -8874,10 +9036,10 @@ void DisabledHitGroupsUpdated()
 | `AnimStartTime` | `ref float` | get | - |
 | `AnimEndTime` | `ref float` | get | - |
 | `AverageSpeedAcrossFrame` | `ref float` | get | - |
-| `CurrentKeyFrame` | `CPathKeyFrame?` | get | - |
-| `TargetKeyFrame` | `CPathKeyFrame?` | get | - |
-| `PreKeyFrame` | `CPathKeyFrame?` | get | - |
-| `PostKeyFrame` | `CPathKeyFrame?` | get | - |
+| `CurrentKeyFrame` | `ref CHandle\<CPathKeyFrame\>` | get | - |
+| `TargetKeyFrame` | `ref CHandle\<CPathKeyFrame\>` | get | - |
+| `PreKeyFrame` | `ref CHandle\<CPathKeyFrame\>` | get | - |
+| `PostKeyFrame` | `ref CHandle\<CPathKeyFrame\>` | get | - |
 | `TimeIntoFrame` | `ref float` | get | - |
 | `Direction` | `ref int` | get | - |
 
@@ -8927,15 +9089,15 @@ void DisabledHitGroupsUpdated()
 void SetPawn(CBasePlayerPawn? pawn)
 ```
 
-将玩家Pawn设置为该实体。
+将玩家棋子设置到该实体。
 
 **参数:**
 
-- `pawn` (`CBasePlayerPawn?`) - 要关联的玩家 Pawn。可为 null 以移除当前关联。
+- `pawn` (`CBasePlayerPawn?`) - 要关联的玩家棋子。设为 null 可移除当前关联。
 
 **用法示例:**
 ```csharp
-controller.SetPawn(pawn);
+player.SetPawn(pawn);
 ```
 
 #### ToPlayer
@@ -8946,12 +9108,11 @@ IPlayer? ToPlayer()
 
 将控制器转换为玩家。
 
-**返回值:** `IPlayer?` - 一个代表指定控制器的玩家的 <see cref="IPlayer"/> 实例，如果不存在此类玩家，则为 <c>null</c>。
+**返回值:** `IPlayer?` - 一个表示具有指定控制器的玩家的 <see cref="IPlayer"/> 实例，如果不存在这样的玩家，则为 <c>null</c>。
 
 **用法示例:**
 ```csharp
 IPlayer? player = controller.ToPlayer();
-if (player != null) Console.WriteLine(player);
 ```
 
 
@@ -9093,7 +9254,7 @@ void DesiredFOVUpdated()
 void CommitSuicide(bool explode, bool force)
 ```
 
-对目标Pawn执行自杀，可选择引发爆炸并允许强制执行。
+对角色执行自杀操作，可选择引发爆炸并允许强制执行。
 
 **参数:**
 
@@ -9102,7 +9263,7 @@ void CommitSuicide(bool explode, bool force)
 
 **用法示例:**
 ```csharp
-player.CommitSuicide(true, false);
+player.CommitSuicide(true, true);
 ```
 
 #### HasLineOfSight
@@ -9111,18 +9272,18 @@ player.CommitSuicide(true, false);
 bool HasLineOfSight(CCSPlayerPawn targetPlayer, float? fieldOfViewDegrees = null)
 ```
 
-检查目标玩家是否在当前玩家的视野范围内。同时执行物理遮挡检测和视角范围验证。
+检查目标玩家是否处于该玩家的视线范围内。执行物理障碍物检查和视野验证。
 
 **参数:**
 
-- `targetPlayer` (`CCSPlayerPawn`) - 需要检查可见性的目标玩家。
-- `fieldOfViewDegrees` (`float?`) = `null` - 可选的视场角（单位：度）。
+- `targetPlayer` (`CCSPlayerPawn`) - 要检查可见性的目标玩家。
+- `fieldOfViewDegrees` (`float?`) = `null` - 可选的视场角（以度为单位）。
 
-**返回值:** `bool` - 当目标玩家可见时为 true；否则为 false。
+**返回值:** `bool` - 如果目标玩家可见则为真；否则为假。
 
 **用法示例:**
 ```csharp
-bool canSee = player.HasLineOfSight(targetPlayer, 90f);
+bool hasLOS = player.HasLineOfSight(targetPlayer, 90.0f);
 ```
 
 #### ToPlayer
@@ -9131,14 +9292,13 @@ bool canSee = player.HasLineOfSight(targetPlayer, 90f);
 IPlayer? ToPlayer()
 ```
 
-将pawn转换为玩家。
+将棋子转换为玩家。
 
-**返回值:** `IPlayer?` - 一个表示拥有指定棋子玩家的 <see cref="IPlayer"/> 实例；若不存在此类玩家，则为 <c>null</c>。
+**返回值:** `IPlayer?` - 表示具有指定棋子的玩家的 <see cref="IPlayer"/> 实例，如果不存在这样的玩家，则为 <c>null</c>。
 
 **用法示例:**
 ```csharp
 IPlayer? player = pawn.ToPlayer();
-if (player != null) Console.WriteLine(player);
 ```
 
 
@@ -9300,6 +9460,7 @@ void DefaultControllerUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ModelName` | `SchemaUntypedField` | get | - |
+| `ModelNameAg2Override` | `SchemaUntypedField` | get | - |
 | `HeadDamageMultiplier` | `CSkillFloat` | get | - |
 | `ChestDamageMultiplier` | `CSkillFloat` | get | - |
 | `StomachDamageMultiplier` | `CSkillFloat` | get | - |
@@ -9426,6 +9587,7 @@ void ReserveAmmoUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `WorldModel` | `SchemaUntypedField` | get | - |
+| `WorldModelAg2Override` | `SchemaUntypedField` | get | - |
 | `ToolsOnlyOwnerModelName` | `SchemaUntypedField` | get | - |
 | `BuiltRightHanded` | `ref bool` | get | - |
 | `AllowFlipping` | `ref bool` | get | - |
@@ -9653,6 +9815,7 @@ void MasterUpdated()
 | `SourceAlphaValueToMapToOne` | `CParticleCollectionRendererFloatInput` | get | - |
 | `Refract` | `ref bool` | get | - |
 | `RefractSolid` | `ref bool` | get | - |
+| `Refract2Passes` | `ref bool` | get | - |
 | `RefractAmount` | `CParticleCollectionRendererFloatInput` | get | - |
 | `RefractBlurRadius` | `ref int` | get | - |
 | `RefractBlurType` | `ref BlurFilterType_t` | get | - |
@@ -10011,6 +10174,28 @@ void EndPosUpdated()
 
 ---
 
+<a id="cblend2dinstancedata"></a>
+
+## 🔌 CBlend2DInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CBlend2DInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `DampedValue` | `ref Vector2D` | get | - |
+| `Cycle` | `ref float` | get | - |
+| `PrevCycle` | `ref float` | get | - |
+
+
+
+---
+
 <a id="cblend2dupdatenode"></a>
 
 ## 🔌 CBlend2DUpdateNode
@@ -10063,6 +10248,32 @@ void EndPosUpdated()
 |------|------|--------|------|
 | `ControlPoint1` | `ref float` | get | - |
 | `ControlPoint2` | `ref float` | get | - |
+
+
+
+---
+
+<a id="cblendnodeinstancedata"></a>
+
+## 🔌 CBlendNodeInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CBlendNodeInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `DampedValue` | `ref float` | get | - |
+| `Cycle` | `ref float` | get | - |
+| `CycleZeroTime` | `ref float` | get | - |
+| `PlaybackRate` | `ref float` | get | - |
+| `BlendValue` | `SchemaUntypedField` | get | - |
+| `Duration` | `ref float` | get | - |
+| `ResetCount` | `SchemaUntypedField` | get, set | - |
 
 
 
@@ -10712,7 +10923,7 @@ void CPropDataComponentUpdated()
 | `HasBreakPiecesOrCommands` | `ref bool` | get | - |
 | `ExplodeDamage` | `ref float` | get | - |
 | `ExplodeRadius` | `ref float` | get | - |
-| `ExplosionType` | `ref BaseExplosionTypes_t` | get | - |
+| `ExplosionType` | `ref CGlobalSymbol` | get | - |
 | `ExplosionDelay` | `ref float` | get | - |
 | `ExplosionBuildupSound` | `string` | get, set | - |
 | `ExplosionCustomEffect` | `string` | get, set | - |
@@ -10980,6 +11191,7 @@ void CPropDataComponentUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Controller` | `IPhysicsMotionController?` | get | - |
 | `FluidType` | `ref CUtlStringToken` | get | - |
 | `FluidDensity` | `ref float` | get | - |
 | `NeutrallyBuoyantGravity` | `ref float` | get | - |
@@ -11119,16 +11331,65 @@ void EntitySpottedStateUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Action` | `SchemaUntypedField` | get | - |
-| `ActionSubtype` | `SchemaUntypedField` | get | - |
+| `Action` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `ActionSubtype` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
 | `ActionReset` | `SchemaUntypedField` | get, set | - |
-| `IdleVariation` | `SchemaUntypedField` | get | - |
-| `RunVariation` | `SchemaUntypedField` | get | - |
-| `PanicVariation` | `SchemaUntypedField` | get | - |
-| `SquatVariation` | `SchemaUntypedField` | get | - |
-| `InWater` | `SchemaUntypedField` | get | - |
+| `IdleVariation` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `RunVariation` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `PanicVariation` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `SquatVariation` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `InWater` | `ref CAnimGraph2ParamOptionalRefBool` | get | - |
 | `HasActionCompletedEvent` | `ref bool` | get | - |
 | `WaitingForCompletedEvent` | `ref bool` | get | - |
+
+
+
+---
+
+<a id="ccs2pawngraphcontroller"></a>
+
+## 🔌 CCS2PawnGraphController
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CCS2WeaponGraphController`
+
+**实现接口:** `ISchemaClass\<CCS2PawnGraphController\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `IsDefusing` | `ref CAnimGraph2ParamOptionalRefBool` | get | - |
+| `MoveType` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `MoveDirectionID` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `MoveSpeedX` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `MoveSpeedY` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `MoveSpeedHorizontal` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `PreviousMoveSpeedHorizontal` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `CrouchAmount` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `IsWalking` | `ref CAnimGraph2ParamOptionalRefBool` | get | - |
+| `WeaponDropAmount` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `GroundAction` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `GroundActionDirectionID` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `GroundTurnAngleOrVelocity` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `LadderCycle` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `LadderYaw` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `LadderYawBackwards` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `AirAction` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `AirHeightAboveGround` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `LeftFootTarget` | `SchemaUntypedField` | get | - |
+| `RightFootTarget` | `SchemaUntypedField` | get | - |
+| `FlashedAmount` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `AimPitchAngle` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `AimYawAngle` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `FlinchHead` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `FlinchHeadRestart` | `ref CAnimGraph2ParamOptionalRefBool` | get | - |
+| `FlinchBody` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `FlinchBodyRestart` | `ref CAnimGraph2ParamOptionalRefBool` | get | - |
+| `FlinchIsOnFire` | `ref CAnimGraph2ParamOptionalRefBool` | get | - |
 
 
 
@@ -11150,26 +11411,26 @@ void EntitySpottedStateUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Action` | `SchemaUntypedField` | get | - |
-| `ActionReset` | `SchemaUntypedField` | get, set | - |
-| `WeaponActionSpeedScale` | `SchemaUntypedField` | get | - |
-| `WeaponCategory` | `SchemaUntypedField` | get | - |
-| `WeaponType` | `SchemaUntypedField` | get | - |
-| `WeaponExtraInfo` | `SchemaUntypedField` | get | - |
-| `WeaponAmmo` | `SchemaUntypedField` | get | - |
-| `WeaponAmmoMax` | `SchemaUntypedField` | get | - |
-| `WeaponAmmoReserve` | `SchemaUntypedField` | get | - |
-| `WeaponIsSilenced` | `SchemaUntypedField` | get | - |
-| `WeaponIronsightAmount` | `SchemaUntypedField` | get | - |
-| `IsUsingLegacyModel` | `SchemaUntypedField` | get | - |
-| `IdleVariation` | `SchemaUntypedField` | get | - |
-| `DeployVariation` | `SchemaUntypedField` | get | - |
-| `AttackType` | `SchemaUntypedField` | get | - |
-| `AttackThrowStrength` | `SchemaUntypedField` | get | - |
-| `AttackVariation` | `SchemaUntypedField` | get | - |
-| `InspectVariation` | `SchemaUntypedField` | get | - |
-| `InspectExtraInfo` | `SchemaUntypedField` | get | - |
-| `ReloadStage` | `SchemaUntypedField` | get | - |
+| `Action` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `ActionReset` | `ref CAnimGraph2ParamOptionalRefBool` | get, set | - |
+| `WeaponActionSpeedScale` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `WeaponCategory` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `WeaponType` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `WeaponExtraInfo` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `WeaponAmmo` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `WeaponAmmoMax` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `WeaponAmmoReserve` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `WeaponIsSilenced` | `ref CAnimGraph2ParamOptionalRefBool` | get | - |
+| `WeaponIronsightAmount` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `IsUsingLegacyModel` | `ref CAnimGraph2ParamOptionalRefBool` | get | - |
+| `IdleVariation` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `DeployVariation` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `AttackType` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `AttackThrowStrength` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `AttackVariation` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `InspectVariation` | `ref CAnimGraph2ParamOptionalRefFloat` | get | - |
+| `InspectExtraInfo` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
+| `ReloadStage` | `ref CAnimGraph2ParamOptionalRefCGlobalSymbol` | get | - |
 
 
 
@@ -11336,15 +11597,49 @@ void EntitySpottedStateUpdated()
 
 ---
 
-<a id="ccsgoplayeranimgraphstate"></a>
+<a id="ccsgo_endofmatchlineupend"></a>
 
-## 🔌 CCSGOPlayerAnimGraphState
+## 🔌 CCSGO_EndOfMatchLineupEnd
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
 **类型:** `interface`
 
-**继承:** `ISchemaClass\<CCSGOPlayerAnimGraphState\>`
+**继承:** `CCSGO_EndOfMatchLineupEndpoint`
+
+**实现接口:** `ISchemaClass\<CCSGO_EndOfMatchLineupEnd\>`
+
+
+
+---
+
+<a id="ccsgo_endofmatchlineupendpoint"></a>
+
+## 🔌 CCSGO_EndOfMatchLineupEndpoint
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CBaseEntity`
+
+**实现接口:** `ISchemaClass\<CCSGO_EndOfMatchLineupEndpoint\>`
+
+
+
+---
+
+<a id="ccsgo_endofmatchlineupstart"></a>
+
+## 🔌 CCSGO_EndOfMatchLineupStart
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CCSGO_EndOfMatchLineupEndpoint`
+
+**实现接口:** `ISchemaClass\<CCSGO_EndOfMatchLineupStart\>`
 
 
 
@@ -11699,7 +11994,7 @@ void DMBonusWeaponUpdated()
 T? FindPickerEntity<T>(CBasePlayerController controller)
 ```
 
-查找控制器所锁定的玩家
+寻找控制器正在瞄准的玩家
 
 **参数:**
 
@@ -11709,8 +12004,7 @@ T? FindPickerEntity<T>(CBasePlayerController controller)
 
 **用法示例:**
 ```csharp
-var picker = gameRules.FindPickerEntity<CBasePlayerPawn>(controller);
-if (picker != null) Console.WriteLine(picker);
+var target = gameRules.FindPickerEntity<CBasePlayerController>(playerController);
 ```
 
 #### TerminateRound
@@ -11719,16 +12013,16 @@ if (picker != null) Console.WriteLine(picker);
 void TerminateRound(RoundEndReason reason, float delay)
 ```
 
-在可选延迟后，以指定的原因结束当前回合。
+在可选延迟后以指定原因结束当前回合
 
 **参数:**
 
-- `reason` (`RoundEndReason`) - 结束回合的原因
+- `reason` (`RoundEndReason`) - 回合结束的原因
 - `delay` (`float`) - 回合结束前的延迟时间
 
 **用法示例:**
 ```csharp
-gameRules.TerminateRound(RoundEndReason.TargetBombed, 3.0f);
+gameRules.TerminateRound(RoundEndReason.TargetBombed, 5.0f);
 ```
 
 #### TerminateRound
@@ -11737,18 +12031,35 @@ gameRules.TerminateRound(RoundEndReason.TargetBombed, 3.0f);
 void TerminateRound(RoundEndReason reason, float delay, uint teamId, uint unk01 = 0)
 ```
 
-在可选延迟后，以指定的原因结束当前回合。
+在可选延迟后以指定原因结束当前回合
 
 **参数:**
 
-- `reason` (`RoundEndReason`) - 结束回合的原因
+- `reason` (`RoundEndReason`) - 回合结束的原因
 - `delay` (`float`) - 回合结束前的延迟时间
-- `teamId` (`uint`) - 用于结束回合的团队 ID
+- `teamId` (`uint`) - 要结束回合的队伍ID
 - `unk01` (`uint`) = `0` - 未知参数
 
 **用法示例:**
 ```csharp
-gameRules.TerminateRound(RoundEndReason.TerroristsWin, 0.5f, 0u, 0u);
+gameRules.TerminateRound(RoundEndReason.CTWin, 0.0f, 3, 0);
+```
+
+#### GoToIntermission
+
+```csharp
+void GoToIntermission(bool abortedMatch = false)
+```
+
+进入游戏的间歇阶段。
+
+**参数:**
+
+- `abortedMatch` (`bool`) = `false` - 指示比赛是否被中止
+
+**用法示例:**
+```csharp
+gameRules.GoToIntermission(false);
 ```
 
 #### GetViewVectors
@@ -11757,14 +12068,13 @@ gameRules.TerminateRound(RoundEndReason.TerroristsWin, 0.5f, 0u, 0u);
 CViewVectors GetViewVectors()
 ```
 
-获取全局视图向量。
+获取全局视角向量。
 
 **返回值:** `CViewVectors` - 视图向量。
 
 **用法示例:**
 ```csharp
-var viewVectors = gameRules.GetViewVectors();
-Console.WriteLine(viewVectors);
+var viewVectors = CCSGameRules.GetViewVectors();
 ```
 
 
@@ -12732,6 +13042,141 @@ void GameRulesUpdated()
 
 ---
 
+<a id="ccsplayeranimationstate"></a>
+
+## 🔌 CCSPlayerAnimationState
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CCSPlayerAnimationState\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CurrentMoveType` | `ref CCSPlayerAnimationState__MoveType_t` | get | - |
+| `GroundMoveState` | `ref CCSPlayerAnimationState__GroundMoveState_t` | get | - |
+| `GroundActionDirection` | `ref CCSPlayerAnimationState__Direction_t` | get | - |
+| `AirAction` | `ref CCSPlayerAnimationState__AirAction_t` | get | - |
+| `WasOnGroundLastUpdate` | `ref bool` | get | - |
+| `WasStationaryLastUpdate` | `ref bool` | get | - |
+| `ActionStartTick` | `GameTick_t` | get | - |
+| `StaticAimTimerStartTick` | `GameTick_t` | get | - |
+| `PlantAndTurnStartTick` | `GameTick_t` | get | - |
+| `TurnOnSpotAngle` | `ref float` | get | - |
+| `PreviousAimYaw` | `ref float` | get | - |
+| `PreviousHorizontalSpeed` | `ref float` | get | - |
+| `FootIKOffsetLeft` | `ref float` | get, set | - |
+| `FootIKOffsetRight` | `ref float` | get, set | - |
+| `WeaponDropPercentageDueToMovement` | `ref float` | get | - |
+| `WeaponDropSmoothDampVelocity` | `ref float` | get | - |
+
+
+
+---
+
+<a id="ccsplayeranimationstate__airaction_t"></a>
+
+## 📋 CCSPlayerAnimationState__AirAction_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `byte`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `None` | `0` | - |
+| `Jump` | `1` | - |
+| `StartFall` | `2` | - |
+| `Land` | `3` | - |
+
+
+
+---
+
+<a id="ccsplayeranimationstate__direction_t"></a>
+
+## 📋 CCSPlayerAnimationState__Direction_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `byte`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `None` | `0` | - |
+| `N` | `1` | - |
+| `NE` | `2` | - |
+| `E` | `3` | - |
+| `SE` | `4` | - |
+| `S` | `5` | - |
+| `SW` | `6` | - |
+| `W` | `7` | - |
+| `NW` | `8` | - |
+
+
+
+---
+
+<a id="ccsplayeranimationstate__groundmovestate_t"></a>
+
+## 📋 CCSPlayerAnimationState__GroundMoveState_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `byte`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `None` | `0` | - |
+| `Idle` | `1` | - |
+| `Start` | `2` | - |
+| `Move` | `3` | - |
+| `TurnOnSpot` | `4` | - |
+| `TurnOnSpotLoop` | `5` | - |
+| `PlantAndTurn` | `6` | - |
+
+
+
+---
+
+<a id="ccsplayeranimationstate__movetype_t"></a>
+
+## 📋 CCSPlayerAnimationState__MoveType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `byte`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `None` | `0` | - |
+| `Ground` | `1` | - |
+| `Air` | `2` | - |
+| `Ladder` | `3` | - |
+
+
+
+---
+
 <a id="ccsplayerbase_cameraservices"></a>
 
 ## 🔌 CCSPlayerBase_CameraServices
@@ -12819,7 +13264,7 @@ player.Respawn();
 Task RespawnAsync()
 ```
 
-异步地重生玩家。
+异步重生玩家。
 
 **返回值:** `Task`
 
@@ -13690,6 +14135,7 @@ void LastLandedVelocityZUpdated()
 | `HostageServices` | `CCSPlayer_HostageServices?` | get | - |
 | `BuyServices` | `CCSPlayer_BuyServices?` | get | - |
 | `ActionTrackingServices` | `CCSPlayer_ActionTrackingServices?` | get | - |
+| `AimPunchServices` | `CCSPlayer_AimPunchServices?` | get | - |
 | `RadioServices` | `CCSPlayer_RadioServices?` | get | - |
 | `DamageReactServices` | `CCSPlayer_DamageReactServices?` | get | - |
 | `CharacterDefIndex` | `ref ushort` | get | - |
@@ -13711,11 +14157,6 @@ void LastLandedVelocityZUpdated()
 | `RetakesMVPBoostExtraUtility` | `ref loadout_slot_t` | get | - |
 | `HealthShotBoostExpirationTime` | `GameTime_t` | get | - |
 | `LandingTimeSeconds` | `ref float` | get | - |
-| `AimPunchAngle` | `ref QAngle` | get | - |
-| `AimPunchAngleVel` | `ref QAngle` | get | - |
-| `AimPunchTickBase` | `GameTick_t` | get | - |
-| `AimPunchTickFraction` | `ref float` | get | - |
-| `AimPunchCache` | `ref CUtlVector\<QAngle\>` | get | - |
 | `IsBuyMenuOpen` | `ref bool` | get | - |
 | `LastLandTime` | `GameTime_t` | get | - |
 | `OnGroundLastTick` | `ref bool` | get | - |
@@ -13732,7 +14173,6 @@ void LastLandedVelocityZUpdated()
 | `EconGloves` | `CEconItemView` | get | - |
 | `EconGlovesChanged` | `ref byte` | get | - |
 | `DeathEyeAngles` | `ref QAngle` | get | - |
-| `SkipOneHeadConstraintUpdate` | `ref bool` | get | - |
 | `LeftHanded` | `ref bool` | get | - |
 | `SwitchedHandednessTime` | `GameTime_t` | get | - |
 | `ViewmodelOffsetX` | `ref float` | get, set | - |
@@ -13764,8 +14204,6 @@ void LastLandedVelocityZUpdated()
 | `ShotsFired` | `ref int` | get | - |
 | `FlinchStack` | `ref float` | get | - |
 | `VelocityModifier` | `ref float` | get | - |
-| `HitHeading` | `ref float` | get | - |
-| `HitBodyPart` | `ref int` | get | - |
 | `TotalBulletForce` | `ref Vector` | get | - |
 | `WaitForNoAttack` | `ref bool` | get | - |
 | `IgnoreLadderJumpTime` | `ref float` | get | - |
@@ -13773,10 +14211,6 @@ void LastLandedVelocityZUpdated()
 | `LastHitBox` | `ref int` | get | - |
 | `Bot` | `CCSBot?` | get | - |
 | `BotAllowActive` | `ref bool` | get | - |
-| `ThirdPersonHeading` | `ref QAngle` | get | - |
-| `SlopeDropOffset` | `ref float` | get, set | - |
-| `SlopeDropHeight` | `ref float` | get | - |
-| `HeadConstraintOffset` | `ref Vector` | get, set | - |
 | `LastPickupPriority` | `ref int` | get | - |
 | `LastPickupPriorityTime` | `ref float` | get | - |
 | `ArmorValue` | `ref int` | get | - |
@@ -13799,8 +14233,6 @@ void LastLandedVelocityZUpdated()
 | `ShootAngleHistory` | `ISchemaFixedArray\<QAngle\>` | get | - |
 | `ThrowPositionHistory` | `ISchemaFixedArray\<Vector\>` | get | - |
 | `VelocityHistory` | `ISchemaFixedArray\<Vector\>` | get | - |
-| `PredictedDamageTags` | `ref CUtlVector\<PredictedDamageTag_t\>` | get | - |
-| `HighestAppliedDamageTagTick` | `ref int` | get | - |
 | `CommittingSuicideOnTeamChange` | `ref bool` | get | - |
 | `WasNotKilledNaturally` | `ref bool` | get | - |
 | `ImmuneToGunGameDamageTime` | `GameTime_t` | get | - |
@@ -13832,6 +14264,12 @@ void BuyServicesUpdated()
 
 ```csharp
 void ActionTrackingServicesUpdated()
+```
+
+#### AimPunchServicesUpdated
+
+```csharp
+void AimPunchServicesUpdated()
 ```
 
 #### HasFemaleVoiceUpdated
@@ -13904,30 +14342,6 @@ void RetakesMVPBoostExtraUtilityUpdated()
 
 ```csharp
 void HealthShotBoostExpirationTimeUpdated()
-```
-
-#### AimPunchAngleUpdated
-
-```csharp
-void AimPunchAngleUpdated()
-```
-
-#### AimPunchAngleVelUpdated
-
-```csharp
-void AimPunchAngleVelUpdated()
-```
-
-#### AimPunchTickBaseUpdated
-
-```csharp
-void AimPunchTickBaseUpdated()
-```
-
-#### AimPunchTickFractionUpdated
-
-```csharp
-void AimPunchTickFractionUpdated()
 ```
 
 #### IsBuyMenuOpenUpdated
@@ -14122,18 +14536,6 @@ void FlinchStackUpdated()
 void VelocityModifierUpdated()
 ```
 
-#### HitHeadingUpdated
-
-```csharp
-void HitHeadingUpdated()
-```
-
-#### HitBodyPartUpdated
-
-```csharp
-void HitBodyPartUpdated()
-```
-
 #### WaitForNoAttackUpdated
 
 ```csharp
@@ -14144,30 +14546,6 @@ void WaitForNoAttackUpdated()
 
 ```csharp
 void KilledByHeadshotUpdated()
-```
-
-#### ThirdPersonHeadingUpdated
-
-```csharp
-void ThirdPersonHeadingUpdated()
-```
-
-#### SlopeDropOffsetUpdated
-
-```csharp
-void SlopeDropOffsetUpdated()
-```
-
-#### SlopeDropHeightUpdated
-
-```csharp
-void SlopeDropHeightUpdated()
-```
-
-#### HeadConstraintOffsetUpdated
-
-```csharp
-void HeadConstraintOffsetUpdated()
 ```
 
 #### ArmorValueUpdated
@@ -14204,12 +14582,6 @@ void PlayerPatchEconIndicesUpdated()
 
 ```csharp
 void GunGameImmunityColorUpdated()
-```
-
-#### PredictedDamageTagsUpdated
-
-```csharp
-void PredictedDamageTagsUpdated()
 ```
 
 #### ImmuneToGunGameDamageTimeUpdated
@@ -14464,6 +14836,71 @@ void WeaponPurchasesThisRoundUpdated()
 
 ---
 
+<a id="ccsplayer_aimpunchservices"></a>
+
+## 🔌 CCSPlayer_AimPunchServices
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CPlayerPawnComponent`
+
+**实现接口:** `ISchemaClass\<CCSPlayer_AimPunchServices\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `PredictableBaseTick` | `GameTick_t` | get | - |
+| `PredictableBaseTickInterpAmount` | `ref float` | get | - |
+| `PredictableBaseAngle` | `ref QAngle` | get | - |
+| `PredictableBaseAngleVel` | `ref QAngle` | get | - |
+| `UnpredictableBaseTick` | `GameTick_t` | get | - |
+| `UnpredictableBaseAngle` | `ref QAngle` | get | - |
+
+### ⚙️ 方法
+
+#### PredictableBaseTickUpdated
+
+```csharp
+void PredictableBaseTickUpdated()
+```
+
+#### PredictableBaseTickInterpAmountUpdated
+
+```csharp
+void PredictableBaseTickInterpAmountUpdated()
+```
+
+#### PredictableBaseAngleUpdated
+
+```csharp
+void PredictableBaseAngleUpdated()
+```
+
+#### PredictableBaseAngleVelUpdated
+
+```csharp
+void PredictableBaseAngleVelUpdated()
+```
+
+#### UnpredictableBaseTickUpdated
+
+```csharp
+void UnpredictableBaseTickUpdated()
+```
+
+#### UnpredictableBaseAngleUpdated
+
+```csharp
+void UnpredictableBaseAngleUpdated()
+```
+
+
+
+---
+
 <a id="ccsplayer_bulletservices"></a>
 
 ## 🔌 CCSPlayer_BulletServices
@@ -14646,6 +15083,10 @@ void HasHelmetUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `AnimationState` | `CCSPlayerAnimationState` | get | - |
+| `UsingGroundTopologyOffset` | `ref bool` | get, set | - |
+| `AltitudeAtLastUsingGroundTopologyOffsetTransition` | `ref float` | get, set | - |
+| `UsingGroundTopologyOffsetTransitionSmoothing` | `ref float` | get, set | - |
 | `LadderNormal` | `ref Vector` | get | - |
 | `LadderSurfacePropIndex` | `ref int` | get | - |
 | `Ducked` | `ref bool` | get | - |
@@ -14654,11 +15095,10 @@ void HasHelmetUpdated()
 | `DuckOverride` | `ref bool` | get | - |
 | `DesiresDuck` | `ref bool` | get | - |
 | `Ducking` | `ref bool` | get | - |
-| `DuckOffset` | `ref float` | get, set | - |
-| `DuckTimeMsecs` | `ref uint` | get | - |
-| `DuckJumpTimeMsecs` | `ref uint` | get | - |
-| `JumpTimeMsecs` | `ref uint` | get | - |
+| `DuckRootOffset` | `ref float` | get, set | - |
+| `DuckViewOffset` | `ref float` | get, set | - |
 | `LastDuckTime` | `ref float` | get | - |
+| `BombPlantViewOffset` | `ref float` | get, set | - |
 | `LastPositionAtFullCrouchSpeed` | `ref Vector2D` | get | - |
 | `DuckUntilOnGround` | `ref bool` | get | - |
 | `HasWalkMovedSinceLastJump` | `ref bool` | get | - |
@@ -14676,8 +15116,9 @@ void HasHelmetUpdated()
 | `Footsteps` | `ref int` | get | - |
 | `StashGrenadeParameterWhen` | `GameTime_t` | get | - |
 | `ButtonDownMaskPrev` | `ref ulong` | get | - |
-| `OffsetTickCompleteTime` | `ref float` | get, set | - |
-| `OffsetTickStashedSpeed` | `ref float` | get, set | - |
+| `UseFrictionStashedSpeed` | `ref bool` | get | - |
+| `UseFrictionStashedSpeedUntilFrac` | `ref float` | get | - |
+| `FrictionStashedSpeed` | `ref float` | get | - |
 | `Stamina` | `ref float` | get | - |
 | `HeightAtJumpStart` | `ref float` | get | - |
 | `MaxJumpHeightThisJump` | `ref float` | get | - |
@@ -14693,9 +15134,28 @@ void HasHelmetUpdated()
 | `JumpApexPending` | `ref bool` | get | - |
 | `TicksSinceLastSurfingDetected` | `ref float` | get | - |
 | `WasSurfing` | `ref bool` | get | - |
-| `InputRotated` | `ref Vector` | get | - |
+| `WalkWishVel` | `ref Vector2D` | get | - |
+| `HasEverProcessedCommand` | `ref bool` | get | - |
 
 ### ⚙️ 方法
+
+#### UsingGroundTopologyOffsetUpdated
+
+```csharp
+void UsingGroundTopologyOffsetUpdated()
+```
+
+#### AltitudeAtLastUsingGroundTopologyOffsetTransitionUpdated
+
+```csharp
+void AltitudeAtLastUsingGroundTopologyOffsetTransitionUpdated()
+```
+
+#### UsingGroundTopologyOffsetTransitionSmoothingUpdated
+
+```csharp
+void UsingGroundTopologyOffsetTransitionSmoothingUpdated()
+```
 
 #### LadderSurfacePropIndexUpdated
 
@@ -14739,34 +15199,28 @@ void DesiresDuckUpdated()
 void DuckingUpdated()
 ```
 
-#### DuckOffsetUpdated
+#### DuckRootOffsetUpdated
 
 ```csharp
-void DuckOffsetUpdated()
+void DuckRootOffsetUpdated()
 ```
 
-#### DuckTimeMsecsUpdated
+#### DuckViewOffsetUpdated
 
 ```csharp
-void DuckTimeMsecsUpdated()
-```
-
-#### DuckJumpTimeMsecsUpdated
-
-```csharp
-void DuckJumpTimeMsecsUpdated()
-```
-
-#### JumpTimeMsecsUpdated
-
-```csharp
-void JumpTimeMsecsUpdated()
+void DuckViewOffsetUpdated()
 ```
 
 #### LastDuckTimeUpdated
 
 ```csharp
 void LastDuckTimeUpdated()
+```
+
+#### BombPlantViewOffsetUpdated
+
+```csharp
+void BombPlantViewOffsetUpdated()
 ```
 
 #### GameCodeHasMovedPlayerAfterCommandUpdated
@@ -14787,16 +15241,22 @@ void StashGrenadeParameterWhenUpdated()
 void ButtonDownMaskPrevUpdated()
 ```
 
-#### OffsetTickCompleteTimeUpdated
+#### UseFrictionStashedSpeedUpdated
 
 ```csharp
-void OffsetTickCompleteTimeUpdated()
+void UseFrictionStashedSpeedUpdated()
 ```
 
-#### OffsetTickStashedSpeedUpdated
+#### UseFrictionStashedSpeedUntilFracUpdated
 
 ```csharp
-void OffsetTickStashedSpeedUpdated()
+void UseFrictionStashedSpeedUntilFracUpdated()
+```
+
+#### FrictionStashedSpeedUpdated
+
+```csharp
+void FrictionStashedSpeedUpdated()
 ```
 
 #### StaminaUpdated
@@ -14845,6 +15305,12 @@ void JumpApexPendingUpdated()
 
 ```csharp
 void WasSurfingUpdated()
+```
+
+#### HasEverProcessedCommandUpdated
+
+```csharp
+void HasEverProcessedCommandUpdated()
 ```
 
 
@@ -14976,8 +15442,6 @@ void PlayerPingUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `NextAttack` | `GameTime_t` | get | - |
-| `IsLookingAtWeapon` | `ref bool` | get | - |
-| `IsHoldingLookAtWeapon` | `ref bool` | get | - |
 | `SavedWeapon` | `ref CHandle\<CBasePlayerWeapon\>` | get | - |
 | `TimeToMelee` | `ref int` | get | - |
 | `TimeToSecondary` | `ref int` | get | - |
@@ -14997,18 +15461,6 @@ void PlayerPingUpdated()
 
 ```csharp
 void NextAttackUpdated()
-```
-
-#### IsLookingAtWeaponUpdated
-
-```csharp
-void IsLookingAtWeaponUpdated()
-```
-
-#### IsHoldingLookAtWeaponUpdated
-
-```csharp
-void IsHoldingLookAtWeaponUpdated()
 ```
 
 #### NetworkAnimTimingUpdated
@@ -15228,6 +15680,7 @@ void TeamLogoImageUpdated()
 | `PostponeFireReadyTicks` | `GameTick_t` | get | - |
 | `PostponeFireReadyFrac` | `ref float` | get | - |
 | `InReload` | `ref bool` | get | - |
+| `DeployTick` | `GameTick_t` | get | - |
 | `DroppedAtTime` | `GameTime_t` | get | - |
 | `IsHauledBack` | `ref bool` | get | - |
 | `SilencerOn` | `ref bool` | get | - |
@@ -15334,6 +15787,12 @@ void PostponeFireReadyFracUpdated()
 
 ```csharp
 void InReloadUpdated()
+```
+
+#### DeployTickUpdated
+
+```csharp
+void DeployTickUpdated()
 ```
 
 #### DroppedAtTimeUpdated
@@ -15550,6 +16009,8 @@ void RevolverCylinderIdxUpdated()
 | `NumBullets` | `ref int` | get | - |
 | `ReloadsSingleShells` | `ref bool` | get | - |
 | `CycleTime` | `CFiringModeFloat` | get | - |
+| `CycleTimeWhenInBurstMode` | `ref float` | get | - |
+| `TimeBetweenBurstShots` | `ref float` | get | - |
 | `MaxSpeed` | `CFiringModeFloat` | get | - |
 | `Spread` | `CFiringModeFloat` | get | - |
 | `InaccuracyCrouch` | `CFiringModeFloat` | get | - |
@@ -15630,6 +16091,28 @@ void RevolverCylinderIdxUpdated()
 | `MorphWeights` | `ref CUtlVector\<float\>` | get | - |
 | `Sequence` | `HSequence` | get | - |
 | `Cycle` | `ref float` | get | - |
+
+
+
+---
+
+<a id="ccashstack"></a>
+
+## 🔌 CCashStack
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CBaseModelEntity`
+
+**实现接口:** `ISchemaClass\<CCashStack\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CashStackValue` | `ref int` | get | - |
 
 
 
@@ -15732,6 +16215,29 @@ void LeaderUpdated()
 
 ---
 
+<a id="cchoiceinstancedata"></a>
+
+## 🔌 CChoiceInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CChoiceInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CurrentChoice` | `SchemaUntypedField` | get | - |
+| `PreviousChoice` | `ref int` | get | - |
+| `ClipStartTime` | `SchemaUntypedField` | get | - |
+| `ChoicePreviousCycle` | `ref float` | get | - |
+
+
+
+---
+
 <a id="cchoiceupdatenode"></a>
 
 ## 🔌 CChoiceUpdateNode
@@ -15763,6 +16269,29 @@ void LeaderUpdated()
 
 ---
 
+<a id="cchoreocomponent"></a>
+
+## 🔌 CChoreoComponent
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CChoreoComponent\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Owner` | `ref CHandle\<CBaseModelEntity\>` | get | - |
+| `NextSceneEventId` | `SceneEventId_t` | get | - |
+| `UpdateLayerPriorities` | `ref bool` | get | - |
+| `AllowResponsesEndTime` | `GameTime_t` | get | - |
+
+
+
+---
+
 <a id="cchoreoinfotarget"></a>
 
 ## 🔌 CChoreoInfoTarget
@@ -15774,6 +16303,26 @@ void LeaderUpdated()
 **继承:** `CPointEntity`
 
 **实现接口:** `ISchemaClass\<CChoreoInfoTarget\>`
+
+
+
+---
+
+<a id="cchoreoinstancedata"></a>
+
+## 🔌 CChoreoInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CChoreoInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `AnimOverlay` | `ISchemaClassFixedArray\<CAnimationLayer\>` | get | - |
 
 
 
@@ -16220,12 +16769,12 @@ void LookupFilenameUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `CommentaryConvarsChanging` | `ref bool` | get | - |
 | `CommentaryEnabledMidGame` | `ref bool` | get | - |
 | `NextTeleportTime` | `GameTime_t` | get | - |
 | `TeleportStage` | `ref int` | get | - |
 | `CheatState` | `ref bool` | get | - |
 | `IsFirstSpawnGroupToLoad` | `ref bool` | get | - |
+| `ModifiedConvars` | `ref CUtlVector\<modifiedconvars_t\>` | get | - |
 | `CurrentNode` | `ref CHandle\<CPointCommentaryNode\>` | get | - |
 | `ActiveCommentaryNode` | `ref CHandle\<CPointCommentaryNode\>` | get | - |
 | `LastCommentaryNode` | `ref CHandle\<CPointCommentaryNode\>` | get | - |
@@ -16501,6 +17050,27 @@ void LookupFilenameUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Cycle` | `ref float` | get | - |
+
+
+
+---
+
+<a id="ccycleclipinstancedata"></a>
+
+## 🔌 CCycleClipInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CCycleClipInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Cycle` | `SchemaUntypedField` | get | - |
+| `PrevCycle` | `SchemaUntypedField` | get | - |
 
 
 
@@ -16810,6 +17380,27 @@ void KillTypeUpdated()
 
 ---
 
+<a id="cdebugdrawhistorydata"></a>
+
+## 🔌 CDebugDrawHistoryData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CDebugDrawHistoryData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Entity` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `Etype` | `ref ESceneViewDebugOverlaysListenerDataType_t` | get | - |
+
+
+
+---
+
 <a id="cdebughistory"></a>
 
 ## 🔌 CDebugHistory
@@ -16907,6 +17498,38 @@ void KillTypeUpdated()
 
 ---
 
+<a id="cdebugsnapshotdata_t"></a>
+
+## 🔌 CDebugSnapshotData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CDebugSnapshotData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Text` | `string` | get, set | - |
+| `DataType` | `ref uint` | get | - |
+| `UserFlags` | `ref uint` | get | - |
+| `UserData` | `ref uint` | get | - |
+| `UserVector` | `ref Vector` | get | - |
+| `UserTransform` | `ref CTransform` | get | - |
+| `UserShape` | `CGenericShapeProxy` | get | - |
+| `DrawColor` | `ref Color` | get | - |
+| `DebugOverlayData` | `ref CUtlVector\<PointerTo\<CDebugDrawHistoryData\>\>` | get | - |
+| `StructuredData` | `DebugSnapshotBaseStructuredData_t?` | get | - |
+| `Entity` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `EntityName` | `string` | get, set | - |
+| `EntityIndex` | `ref uint` | get | - |
+
+
+
+---
+
 <a id="cdecalgroupvdata"></a>
 
 ## 🔌 CDecalGroupVData
@@ -16949,6 +17572,7 @@ void KillTypeUpdated()
 | `BoneIndex` | `ref int` | get | - |
 | `TriangleIndex` | `ref int` | get | - |
 | `PositionLS` | `ref Vector` | get | - |
+| `PositionOS` | `ref Vector` | get | - |
 | `NormalLS` | `ref Vector` | get | - |
 | `SAxisLS` | `ref Vector` | get | - |
 | `Flags` | `ref DecalFlags_t` | get | - |
@@ -16967,8 +17591,6 @@ void KillTypeUpdated()
 | `SequenceIndex` | `ref short` | get | - |
 | `IsAdjacent` | `ref bool` | get | - |
 | `DoDecalLightmapping` | `ref bool` | get | - |
-| `DecalRtEncoding` | `ref DecalRtEncoding_t` | get | - |
-| `ProjectToBackfaces` | `ref bool` | get | - |
 
 
 
@@ -17128,6 +17750,7 @@ void DecoyShotTickUpdated()
 |------|------|--------|------|
 | `DamageTakenByHitGroup` | `ref CUtlVector\<ushort\>` | get | - |
 | `Owner` | `ref CHandle\<CBaseModelEntity\>` | get | - |
+| `AnimGraphDestructibleGraphController` | `CBaseAnimGraphDestructibleParts_GraphController?` | get | - |
 
 ### ⚙️ 方法
 
@@ -17157,6 +17780,37 @@ void OwnerUpdated()
 |------|------|--------|------|
 | `PartsDataByHitGroup` | `SchemaUntypedField` | get | - |
 | `MinMaxNumberHitGroupsToDestroyWhenGibbing` | `CRangeInt` | get | - |
+
+
+
+---
+
+<a id="cdirectplaybackinstancedata"></a>
+
+## 🔌 CDirectPlaybackInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CDirectPlaybackInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TargetPosition` | `ref Vector` | get | - |
+| `TargetFacing` | `ref float` | get | - |
+| `InterpEndTime` | `ref float` | get | - |
+| `Weights` | `ISchemaFixedArray\<float\>` | get | - |
+| `Sequences` | `ISchemaClassFixedArray\<SequenceData\>` | get | - |
+| `CurrentSequenceIndex` | `ref uint` | get | - |
+| `CurrentSequenceData` | `SchemaUntypedField` | get | - |
+| `FadeInTime` | `ref float` | get | - |
+| `FadeOutTime` | `ref float` | get | - |
+| `ForcedCycle` | `SchemaUntypedField` | get | - |
+| `ResetPending` | `ref bool` | get, set | - |
+| `SequenceCycleZeroTime` | `SchemaUntypedField` | get | - |
 
 
 
@@ -17202,6 +17856,32 @@ void OwnerUpdated()
 | `FinishEarly` | `ref bool` | get | - |
 | `ResetOnFinish` | `ref bool` | get, set | - |
 | `AllTags` | `ref CUtlVector\<CDirectPlaybackTagData\>` | get | - |
+
+
+
+---
+
+<a id="cdirectionalblendinstancedata"></a>
+
+## 🔌 CDirectionalBlendInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CDirectionalBlendInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `DampedValue` | `ref float` | get | - |
+| `Cycle` | `ref float` | get | - |
+| `PrevCycle` | `ref float` | get | - |
+| `PlaybackRate` | `SchemaUntypedField` | get | - |
+| `CycleZeroTime` | `SchemaUntypedField` | get | - |
+| `ResetCycleValue` | `SchemaUntypedField` | get, set | - |
+| `ResetCount` | `SchemaUntypedField` | get, set | - |
 
 
 
@@ -17521,7 +18201,7 @@ void UseAnimGraphUpdated()
 
 **类型:** `interface`
 
-**继承:** `CBaseFlex`
+**继承:** `CBaseAnimGraph`
 
 **实现接口:** `ISchemaClass\<CEconEntity\>`
 
@@ -17774,135 +18454,6 @@ void CustomNameUpdated()
 | `AttachmentIndex` | `AttachmentHandle_t` | get | - |
 | `AttachmentName` | `ref CUtlStringToken` | get | - |
 | `EffectName` | `ref ushort` | get | - |
-| `ExplosionType` | `ref byte` | get | - |
-
-### ⚙️ 方法
-
-#### OriginUpdated
-
-```csharp
-void OriginUpdated()
-```
-
-#### StartUpdated
-
-```csharp
-void StartUpdated()
-```
-
-#### NormalUpdated
-
-```csharp
-void NormalUpdated()
-```
-
-#### AnglesUpdated
-
-```csharp
-void AnglesUpdated()
-```
-
-#### EntityUpdated
-
-```csharp
-void EntityUpdated()
-```
-
-#### OtherEntityUpdated
-
-```csharp
-void OtherEntityUpdated()
-```
-
-#### ScaleUpdated
-
-```csharp
-void ScaleUpdated()
-```
-
-#### MagnitudeUpdated
-
-```csharp
-void MagnitudeUpdated()
-```
-
-#### RadiusUpdated
-
-```csharp
-void RadiusUpdated()
-```
-
-#### SurfacePropUpdated
-
-```csharp
-void SurfacePropUpdated()
-```
-
-#### EffectIndexUpdated
-
-```csharp
-void EffectIndexUpdated()
-```
-
-#### DamageTypeUpdated
-
-```csharp
-void DamageTypeUpdated()
-```
-
-#### PenetrateUpdated
-
-```csharp
-void PenetrateUpdated()
-```
-
-#### MaterialUpdated
-
-```csharp
-void MaterialUpdated()
-```
-
-#### HitBoxUpdated
-
-```csharp
-void HitBoxUpdated()
-```
-
-#### ColorUpdated
-
-```csharp
-void ColorUpdated()
-```
-
-#### FlagsUpdated
-
-```csharp
-void FlagsUpdated()
-```
-
-#### AttachmentIndexUpdated
-
-```csharp
-void AttachmentIndexUpdated()
-```
-
-#### AttachmentNameUpdated
-
-```csharp
-void AttachmentNameUpdated()
-```
-
-#### EffectNameUpdated
-
-```csharp
-void EffectNameUpdated()
-```
-
-#### ExplosionTypeUpdated
-
-```csharp
-void ExplosionTypeUpdated()
-```
 
 
 
@@ -18213,7 +18764,7 @@ void CheapEffectUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `NameStringableIndex` | `ref int` | get | - |
+| `NameStringTableIndex` | `ref int` | get | - |
 | `Name` | `string` | get, set | - |
 | `DesignerName` | `string` | get, set | - |
 | `Flags` | `ref uint` | get | - |
@@ -18228,10 +18779,10 @@ void CheapEffectUpdated()
 
 ### ⚙️ 方法
 
-#### NameStringableIndexUpdated
+#### NameStringTableIndexUpdated
 
 ```csharp
-void NameStringableIndexUpdated()
+void NameStringTableIndexUpdated()
 ```
 
 
@@ -18252,10 +18803,11 @@ void NameStringableIndexUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `IsValid` | `bool` | get | 该实体实例是否有效。 |
-| `Index` | `uint` | get | 实体的索引。 |
-| `DesignerName` | `string` | get | 实体的设计者名称。 |
-| `IsValidEntity` | `bool` | get | 该实体实例是否有效且存在于服务器上。此属性必须仅用于实体，否则将返回 false。 |
+| `IsValid` | `bool` | get | 实体实例是否有效。 |
+| `Index` | `uint` | get | 实体索引。 |
+| `DesignerName` | `string` | get | 实体的设计师名称。 |
+| `Identity` | `CEntityIdentity?` | get | 实体的身份标识。 |
+| `IsValidEntity` | `bool` | get | 该实体实例是否有效且存在于服务器上。此方法必须仅用于实体，否则将返回 false。 |
 
 ### ⚙️ 方法
 
@@ -18275,7 +18827,7 @@ void AcceptInput<T>(string input, T? value, CEntityInstance? activator = null, C
 
 **用法示例:**
 ```csharp
-entity.AcceptInput<int>("SetHealth", 100, activator, caller, 0);
+entityInstance.AcceptInput("Use", null, activator: player, caller: null, outputID: 0);
 ```
 
 #### AcceptInputAsync<T>
@@ -18284,21 +18836,21 @@ entity.AcceptInput<int>("SetHealth", 100, activator, caller, 0);
 Task AcceptInputAsync<T>(string input, T? value, CEntityInstance? activator = null, CEntityInstance? caller = null, int outputID = 0)
 ```
 
-异步向实体发送输入指令。
+向实体异步触发一个输入。
 
 **参数:**
 
 - `input` (`string`) - 输入名称。
 - `value` (`T?`) - 输入值。
-- `activator` (`CEntityInstance?`) = `null` - 激活实体。可为空。
-- `caller` (`CEntityInstance?`) = `null` - 调用者实体。可为空。
+- `activator` (`CEntityInstance?`) = `null` - 激活器实体。可空。
+- `caller` (`CEntityInstance?`) = `null` - 调用者实体。可空。
 - `outputID` (`int`) = `0` - 输出 ID。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await entity.AcceptInputAsync("SetHealth", 100, null, null, 0);
+await entityInstance.AcceptInputAsync("Use", null, null, callerEntity, 0);
 ```
 
 #### AddEntityIOEvent<T>
@@ -18317,7 +18869,7 @@ void AddEntityIOEvent<T>(string input, T? value, CEntityInstance? activator = nu
 
 **用法示例:**
 ```csharp
-entity.AddEntityIOEvent("SetText", "Hello", activator, caller, 0.1f);
+entityInstance.AddEntityIOEvent("OnTakeDamage", 10.0f, null, callerEntity, 0.5f);
 ```
 
 #### AddEntityIOEventAsync<T>
@@ -18326,21 +18878,21 @@ entity.AddEntityIOEvent("SetText", "Hello", activator, caller, 0.1f);
 Task AddEntityIOEventAsync<T>(string input, T? value, CEntityInstance? activator = null, CEntityInstance? caller = null, float delay = 0f)
 ```
 
-异步为实体添加一个 IO 事件。
+异步向实体添加一个实体IO事件。
 
 **参数:**
 
 - `input` (`string`) - 输入名称。
 - `value` (`T?`) - 输入值。
-- `activator` (`CEntityInstance?`) = `null` - 激活实体。可为空。
-- `caller` (`CEntityInstance?`) = `null` - 调用者实体。可为空。
+- `activator` (`CEntityInstance?`) = `null` - 激活器实体。可空。
+- `caller` (`CEntityInstance?`) = `null` - 调用者实体。可空。
 - `delay` (`float`) = `0f` - 延迟（秒）。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await entity.AddEntityIOEventAsync("SetHealth", 100, activator, caller, 0.1f);
+await existingEntity.AddEntityIOEventAsync("OnTrigger", true, activatorEntity, callerEntity, 0.5f);
 ```
 
 #### DispatchSpawn
@@ -18355,7 +18907,7 @@ void DispatchSpawn(CEntityKeyValues? entityKV = null)
 
 **用法示例:**
 ```csharp
-entity.DispatchSpawn(entityKV);
+entityInstance.DispatchSpawn(null);
 ```
 
 #### DispatchSpawnAsync
@@ -18364,7 +18916,7 @@ entity.DispatchSpawn(entityKV);
 Task DispatchSpawnAsync(CEntityKeyValues? entityKV = null)
 ```
 
-异步向实体分发生成事件。
+异步向实体分发一个生成事件。
 
 **参数:**
 
@@ -18374,7 +18926,7 @@ Task DispatchSpawnAsync(CEntityKeyValues? entityKV = null)
 
 **用法示例:**
 ```csharp
-await entity.DispatchSpawnAsync(entityKV);
+await entityInstance.DispatchSpawnAsync(existingEntityKV);
 ```
 
 #### SetTransmitState
@@ -18383,16 +18935,16 @@ await entity.DispatchSpawnAsync(entityKV);
 void SetTransmitState(bool transmitting, int playerId)
 ```
 
-设置实体对于单个玩家的传输状态。
+为单个玩家设置实体的传输状态。
 
 **参数:**
 
-- `transmitting` (`bool`) - 实体是否应进行传输。
-- `playerId` (`int`) - 要设置传输状态的玩家 ID。
+- `transmitting` (`bool`) - 该实体是否应进行传输。
+- `playerId` (`int`) - 要设置传输状态的玩家ID。
 
 **用法示例:**
 ```csharp
-entity.SetTransmitState(true, playerId);
+entityInstance.SetTransmitState(true, 1);
 ```
 
 #### SetTransmitState
@@ -18405,11 +18957,11 @@ void SetTransmitState(bool transmitting)
 
 **参数:**
 
-- `transmitting` (`bool`) - 实体是否应进行传输。
+- `transmitting` (`bool`) - 该实体是否应进行传输。
 
 **用法示例:**
 ```csharp
-entity.SetTransmitState(true);
+entityInstance.SetTransmitState(true);
 ```
 
 #### IsTransmitting
@@ -18418,17 +18970,17 @@ entity.SetTransmitState(true);
 bool IsTransmitting(int playerId)
 ```
 
-检查该实体是否正在向单个玩家进行传输。
+检查该实体是否对一名玩家传输。
 
 **参数:**
 
-- `playerId` (`int`) - 要检查传输状态的玩家 ID。
+- `playerId` (`int`) - 要检查发射状态的玩家ID。
 
 **返回值:** `bool`
 
 **用法示例:**
 ```csharp
-bool isTransmitting = entity.IsTransmitting(playerId);
+bool isTransmitting = entityInstance.IsTransmitting(playerId);
 ```
 
 #### Despawn
@@ -18439,7 +18991,7 @@ void Despawn()
 
 **用法示例:**
 ```csharp
-entity.Despawn();
+entityInstance.Despawn();
 ```
 
 #### DespawnAsync
@@ -18454,7 +19006,7 @@ Task DespawnAsync()
 
 **用法示例:**
 ```csharp
-await entity.DespawnAsync();
+await entityInstance.DespawnAsync();
 ```
 
 
@@ -19030,6 +19582,12 @@ void Entity_bEnabledUpdated()
 | `CubemapSourceType` | `ref int` | get | - |
 | `SkyMaterial` | `ref CStrongHandle\<InfoForResourceTypeIMaterial2\>` | get | - |
 | `SkyEntity` | `string` | get, set | - |
+| `HeightFogType` | `ref int` | get | - |
+| `FogHeightBlendMode` | `ref int` | get | - |
+| `FogHeightCoordinateSpace` | `ref int` | get | - |
+| `DistanceFogType` | `ref int` | get | - |
+| `DistanceFogCurveString` | `string` | get, set | - |
+| `HeightFogCurveString` | `string` | get, set | - |
 | `FogCubemapTexture` | `ref CStrongHandle\<InfoForResourceTypeCTextureBase\>` | get | - |
 | `HasHeightFogEnd` | `ref bool` | get | - |
 | `FirstTime` | `ref bool` | get | - |
@@ -19124,6 +19682,42 @@ void SkyMaterialUpdated()
 
 ```csharp
 void SkyEntityUpdated()
+```
+
+#### HeightFogTypeUpdated
+
+```csharp
+void HeightFogTypeUpdated()
+```
+
+#### FogHeightBlendModeUpdated
+
+```csharp
+void FogHeightBlendModeUpdated()
+```
+
+#### FogHeightCoordinateSpaceUpdated
+
+```csharp
+void FogHeightCoordinateSpaceUpdated()
+```
+
+#### DistanceFogTypeUpdated
+
+```csharp
+void DistanceFogTypeUpdated()
+```
+
+#### DistanceFogCurveStringUpdated
+
+```csharp
+void DistanceFogCurveStringUpdated()
+```
+
+#### HeightFogCurveStringUpdated
+
+```csharp
+void HeightFogCurveStringUpdated()
 ```
 
 #### FogCubemapTextureUpdated
@@ -19529,7 +20123,7 @@ void FadeColorUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `LaserTarget` | `string` | get, set | - |
-| `Sprite` | `CSprite?` | get | - |
+| `Sprite` | `ref CHandle\<CSprite\>` | get | - |
 | `SpriteName` | `string` | get, set | - |
 | `FirePosition` | `ref Vector` | get | - |
 | `StartFrame` | `ref float` | get | - |
@@ -19821,6 +20415,7 @@ void TextureOverrideUpdated()
 | `NextShake` | `GameTime_t` | get | - |
 | `CurrentAmp` | `ref float` | get | - |
 | `MaxForce` | `ref Vector` | get | - |
+| `ShakeController` | `IPhysicsMotionController?` | get | - |
 | `ShakeCallback` | `CPhysicsShake` | get | - |
 
 
@@ -20983,6 +21578,30 @@ void WindDirectionVariationMultiplierUpdated()
 
 ---
 
+<a id="cexplosiontypedata"></a>
+
+## 🔌 CExplosionTypeData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CExplosionTypeData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `SoundName` | `SchemaUntypedField` | get | - |
+| `ParticleEffect` | `SchemaUntypedField` | get | - |
+| `IsIncindiary` | `ref bool` | get | - |
+| `HasForces` | `ref bool` | get | - |
+| `DecalType` | `ref CGlobalSymbol` | get | - |
+
+
+
+---
+
 <a id="cexpressionactionupdater"></a>
 
 ## 🔌 CExpressionActionUpdater
@@ -21867,6 +22486,30 @@ void FogUpdated()
 
 ---
 
+<a id="cfollowpathinstancedata"></a>
+
+## 🔌 CFollowPathInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CFollowPathInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `XLastPredictedTransformsDeltas` | `SchemaUntypedField` | get | - |
+| `DampedTurnValue` | `ref float` | get | - |
+| `TurnAmount` | `ref float` | get | - |
+| `PredictionScale` | `SchemaUntypedField` | get | - |
+| `LastPathTime` | `ref float` | get | - |
+
+
+
+---
+
 <a id="cfollowpathupdatenode"></a>
 
 ## 🔌 CFollowPathUpdateNode
@@ -21920,6 +22563,28 @@ void FogUpdated()
 | `OpFixedData` | `FollowTargetOpFixedSettings_t` | get | - |
 | `ParameterPosition` | `CAnimParamHandle` | get | - |
 | `ParameterOrientation` | `CAnimParamHandle` | get | - |
+
+
+
+---
+
+<a id="cfootadjustmentinstancedata"></a>
+
+## 🔌 CFootAdjustmentInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CFootAdjustmentInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `StartTime` | `SchemaUntypedField` | get | - |
+| `Duration` | `SchemaUntypedField` | get | - |
+| `StartHeadingWS` | `ref float` | get | - |
 
 
 
@@ -22745,6 +23410,7 @@ void Draw3DSkyboxUpdated()
 | `PrevPathMover` | `ref CHandle\<CPathMover\>` | get | - |
 | `PathNodeStart` | `string` | get, set | - |
 | `PathNodeEnd` | `string` | get, set | - |
+| `IgnoreEndNode` | `ref bool` | get | - |
 | `MoveType` | `ref CFuncMover__Move_t` | get | - |
 | `IsReversing` | `ref bool` | get | - |
 | `StartSpeed` | `ref float` | get | - |
@@ -22783,7 +23449,6 @@ void Draw3DSkyboxUpdated()
 | `TimeStartOrientationChange` | `GameTime_t` | get | - |
 | `TimeToBlendToNewOrientation` | `ref float` | get | - |
 | `DurationBlendToNewOrientationRan` | `ref float` | get | - |
-| `OriginalOrientationIndex` | `ref int` | get | - |
 | `CreateMovableNavMesh` | `ref bool` | get | - |
 | `AllowMovableNavMeshDockingOnEntireEntity` | `ref bool` | get | - |
 | `OnNodePassed` | `SchemaUntypedField` | get | - |
@@ -22797,8 +23462,9 @@ void Draw3DSkyboxUpdated()
 | `OnLerpToPositionComplete` | `ref CEntityIOOutput` | get | - |
 | `IsPaused` | `ref bool` | get | - |
 | `TransitionedToPathNodeAction` | `ref CFuncMover__TransitionToPathNodeAction_t` | get | - |
+| `TransitionSourceOrientation` | `ref Quaternion` | get | - |
 | `DelayedTeleportToNode` | `ref int` | get | - |
-| `IsVerboseLogging` | `ref bool` | get | - |
+| `IsImGuiLogging` | `ref bool` | get | - |
 | `FollowEntity` | `ref CHandle\<CBaseEntity\>` | get | - |
 | `FollowDistance` | `ref float` | get | - |
 | `FollowMinimumSpeed` | `ref float` | get | - |
@@ -22817,13 +23483,19 @@ void Draw3DSkyboxUpdated()
 | `FollowMover` | `ref CHandle\<CFuncMover\>` | get | - |
 | `FollowMoverEntityName` | `string` | get, set | - |
 | `FollowMoverDistance` | `ref float` | get | - |
+| `FollowMoverRatio` | `ref float` | get | - |
 | `FollowMoverCalculatedDistance` | `ref float` | get | - |
 | `FollowMoverSpringStrength` | `ref float` | get | - |
+| `FollowMoverConstraintPriority` | `ref int` | get | - |
 | `FollowConstraintsInitialized` | `ref bool` | get | - |
 | `FollowConstraint` | `ref CFuncMover__FollowConstraint_t` | get | - |
 | `FollowMoverSpeed` | `ref float` | get | - |
 | `FollowMoverVelocity` | `ref float` | get | - |
 | `TickMovementRan` | `GameTick_t` | get | - |
+| `MovementSummary` | `FuncMoverMovementSummary_t` | get | - |
+| `StopFromBeginStopTarget` | `ref bool` | get | - |
+| `QueueStop` | `ref bool` | get | - |
+| `QueueStopMoving` | `ref bool` | get | - |
 
 
 
@@ -22859,6 +23531,7 @@ void Draw3DSkyboxUpdated()
 |------|------|------|
 | `FOLLOW_CONSTRAINT_DISTANCE` | `0` | - |
 | `FOLLOW_CONSTRAINT_SPRING` | `1` | - |
+| `FOLLOW_CONSTRAINT_RATIO` | `2` | - |
 
 
 
@@ -23335,9 +24008,9 @@ void Draw3DSkyboxUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TrackTop` | `CPathTrack?` | get | - |
-| `TrackBottom` | `CPathTrack?` | get | - |
-| `Train` | `CFuncTrackTrain?` | get | - |
+| `TrackTop` | `ref CHandle\<CPathTrack\>` | get | - |
+| `TrackBottom` | `ref CHandle\<CPathTrack\>` | get | - |
+| `Train` | `ref CHandle\<CFuncTrackTrain\>` | get | - |
 | `TrackTopName` | `string` | get, set | - |
 | `TrackBottomName` | `string` | get, set | - |
 | `TrainName` | `string` | get, set | - |
@@ -23660,7 +24333,7 @@ void Draw3DSkyboxUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Owner` | `ref CHandle\<CBaseAnimGraph\>` | get | - |
+| `Owner` | `ref CHandle\<CBaseModelEntity\>` | get | - |
 | `ScriptedSequence` | `ref CHandle\<CScriptedSequence\>` | get | - |
 | `ScriptState` | `ref IChoreoServices__ScriptState_t` | get | - |
 | `ChoreoState` | `ref IChoreoServices__ChoreoState_t` | get | - |
@@ -23855,13 +24528,13 @@ void GamePausedUpdated()
 CSkeletonInstance GetSkeletonInstance()
 ```
 
-从节点获取骨骼实例。
+从节点获取骨架实例。
 
 **返回值:** `CSkeletonInstance`
 
 **用法示例:**
 ```csharp
-CSkeletonInstance skeleton = node.GetSkeletonInstance();
+CSkeletonInstance skeleton = sceneNode.GetSkeletonInstance();
 ```
 
 
@@ -23912,7 +24585,6 @@ CSkeletonInstance skeleton = node.GetSkeletonInstance();
 | `DoNotSetAnimTimeInInvalidatePhysicsCount` | `ref byte` | get | - |
 | `Name` | `ref CUtlStringToken` | get | - |
 | `HierarchyAttachName` | `ref CUtlStringToken` | get | - |
-| `ZOffset` | `ref float` | get, set | - |
 | `ClientLocalScale` | `ref float` | get | - |
 | `RenderOrigin` | `ref Vector` | get | - |
 
@@ -24148,6 +24820,7 @@ void NameUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `PlaceAnchorsAtConstraintTransform` | `ref bool` | get | - |
 | `LinearMotionX` | `ref JointMotion_t` | get | - |
 | `LinearMotionY` | `ref JointMotion_t` | get | - |
 | `LinearMotionZ` | `ref JointMotion_t` | get | - |
@@ -24196,6 +24869,26 @@ void NameUpdated()
 | `NotifyForceReachedX` | `ref CEntityIOOutput` | get | - |
 | `NotifyForceReachedY` | `ref CEntityIOOutput` | get | - |
 | `NotifyForceReachedZ` | `ref CEntityIOOutput` | get | - |
+
+
+
+---
+
+<a id="cgenericshapeproxy"></a>
+
+## 🔌 CGenericShapeProxy
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CGenericShapeProxy\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Verts` | `SchemaUntypedField` | get | - |
 
 
 
@@ -25106,6 +25799,77 @@ void InPostEffectTimeUpdated()
 
 ---
 
+<a id="cinfochoreoanchor"></a>
+
+## 🔌 CInfoChoreoAnchor
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CPointEntity`
+
+**实现接口:** `ISchemaClass\<CInfoChoreoAnchor\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TargetEntries` | `ref CUtlVector\<CInfoChoreoAnchorPosition\>` | get | - |
+| `TargetWarps` | `ref CUtlVector\<CInfoChoreoAnchorPosition\>` | get | - |
+
+
+
+---
+
+<a id="cinfochoreoanchorposition"></a>
+
+## 🔌 CInfoChoreoAnchorPosition
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CInfoChoreoAnchorPosition\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Origin` | `ref Vector` | get | - |
+| `Angles` | `ref QAngle` | get | - |
+| `ExtentsMin` | `ref Vector` | get | - |
+| `ExtentsMax` | `ref Vector` | get | - |
+| `Radius` | `ref float` | get | - |
+| `ShapeType` | `ref CInfoChoreoLocatorShapeType_t` | get | - |
+
+
+
+---
+
+<a id="cinfochoreolocatorshapetype_t"></a>
+
+## 📋 CInfoChoreoLocatorShapeType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `POINT` | `0` | - |
+| `LINE` | `1` | - |
+| `COUNT` | `2` | - |
+| `NONE` | `3` | - |
+
+
+
+---
+
 <a id="cinfodata"></a>
 
 ## 🔌 CInfoData
@@ -25341,9 +26105,21 @@ void FanForceCurveStringUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `StrSlotEntityName` | `ISchemaStringFixedArray` | get | - |
-| `StrInteractVData` | `string` | get, set | - |
-| `InteractRadius` | `ref float` | get | - |
+| `SceneRequest` | `SceneRequestHandle_t` | get | - |
+| `SceneOpportunity` | `SceneOpportunityHandle_t` | get | - |
+| `Enabled` | `ref bool` | get | - |
+| `StartDisabled` | `ref bool` | get | - |
+| `StrSceneVDataName` | `string` | get, set | - |
+| `StrPulseVDataName` | `string` | get, set | - |
+| `Radius` | `ref float` | get | - |
+| `OwnerFOV` | `ref float` | get | - |
+| `StrLocalInterestReqTags` | `string` | get, set | - |
+| `StrLocalInterestOptTags` | `string` | get, set | - |
+| `StrLookTarget` | `string` | get, set | - |
+| `Duration` | `ref float` | get | - |
+| `Cooldown` | `ref float` | get | - |
+| `RepeatCount` | `ref int` | get | - |
+| `DisableOnExit` | `ref bool` | get | - |
 
 
 
@@ -26164,6 +26940,7 @@ void KillingPlayerUpdated()
 |------|------|--------|------|
 | `WorldGoalAxis` | `ref Vector` | get | - |
 | `LocalTestAxis` | `ref Vector` | get | - |
+| `Controller` | `IPhysicsMotionController?` | get | - |
 | `NameAttach` | `string` | get, set | - |
 | `AttachedObject` | `ref CHandle\<CBaseEntity\>` | get | - |
 | `AngularLimit` | `ref float` | get | - |
@@ -26237,6 +27014,27 @@ void FirstAttackUpdated()
 **继承:** `CAnimUpdateNodeBase`
 
 **实现接口:** `ISchemaClass\<CLeafUpdateNode\>`
+
+
+
+---
+
+<a id="cleanmatrixinstancedata"></a>
+
+## 🔌 CLeanMatrixInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CLeanMatrixInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ValueY` | `ref float` | get | - |
+| `ValueX` | `ref float` | get | - |
 
 
 
@@ -26332,8 +27130,8 @@ void FirstAttackUpdated()
 | `RenderToCubemaps` | `ref bool` | get | - |
 | `AllowSSTGeneration` | `ref bool` | get | - |
 | `DirectLight` | `ref int` | get | - |
-| `IndirectLight` | `ref int` | get | - |
-| `DynamicBounce` | `ref bool` | get | - |
+| `BounceLight` | `ref int` | get | - |
+| `BounceScale` | `ref float` | get | - |
 | `FadeMinDist` | `ref float` | get | - |
 | `FadeMaxDist` | `ref float` | get | - |
 | `ShadowFadeMinDist` | `ref float` | get | - |
@@ -26620,16 +27418,16 @@ void AllowSSTGenerationUpdated()
 void DirectLightUpdated()
 ```
 
-#### IndirectLightUpdated
+#### BounceLightUpdated
 
 ```csharp
-void IndirectLightUpdated()
+void BounceLightUpdated()
 ```
 
-#### DynamicBounceUpdated
+#### BounceScaleUpdated
 
 ```csharp
-void DynamicBounceUpdated()
+void BounceScaleUpdated()
 ```
 
 #### FadeMinDistUpdated
@@ -27517,6 +28315,8 @@ void EnabledUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `OnSpawn` | `ref CEntityIOOutput` | get | - |
+| `OnTrigger` | `ref CEntityIOOutput` | get | - |
 | `Disabled` | `ref bool` | get | - |
 | `WaitForRefire` | `ref bool` | get | - |
 | `TriggerOnce` | `ref bool` | get | - |
@@ -27655,6 +28455,7 @@ void EnabledUpdated()
 | `HostageCount` | `ref int` | get | - |
 | `FadePlayerVisibilityFarZ` | `ref bool` | get | - |
 | `RainTraceToSkyEnabled` | `ref bool` | get | - |
+| `GPUCullSkybox` | `ref bool` | get | - |
 | `EnvRainStrength` | `ref float` | get | - |
 | `EnvPuddleRippleStrength` | `ref float` | get | - |
 | `EnvPuddleRippleDirection` | `ref float` | get | - |
@@ -28530,7 +29331,13 @@ void PhaseDurationTicksUpdated()
 |------|------|--------|------|
 | `Model` | `ref CStrongHandle\<InfoForResourceTypeCModel\>` | get | - |
 | `ModelName` | `string` | get, set | - |
+| `VPhysicsAggregate` | `IPhysAggregateInstance?` | get | - |
+| `RootBoneOffset_x` | `ref float` | get, set | - |
+| `RootBoneOffset_y` | `ref float` | get, set | - |
+| `RootBoneOffset_z` | `ref float` | get, set | - |
+| `RootBoneOffsetResetSerialNumber` | `ref byte` | get, set | - |
 | `ClientClothCreationSuppressed` | `ref bool` | get | - |
+| `AnimStateNoInterpSerialNumber` | `ref byte` | get | - |
 | `MeshGroupMask` | `ref ulong` | get | - |
 | `BodyGroupChoices` | `ref CUtlVector\<int\>` | get | - |
 | `IdealMotionType` | `ref byte` | get | - |
@@ -28545,10 +29352,40 @@ void PhaseDurationTicksUpdated()
 void ModelUpdated()
 ```
 
+#### RootBoneOffset_xUpdated
+
+```csharp
+void RootBoneOffset_xUpdated()
+```
+
+#### RootBoneOffset_yUpdated
+
+```csharp
+void RootBoneOffset_yUpdated()
+```
+
+#### RootBoneOffset_zUpdated
+
+```csharp
+void RootBoneOffset_zUpdated()
+```
+
+#### RootBoneOffsetResetSerialNumberUpdated
+
+```csharp
+void RootBoneOffsetResetSerialNumberUpdated()
+```
+
 #### ClientClothCreationSuppressedUpdated
 
 ```csharp
 void ClientClothCreationSuppressedUpdated()
+```
+
+#### AnimStateNoInterpSerialNumberUpdated
+
+```csharp
+void AnimStateNoInterpSerialNumberUpdated()
 ```
 
 #### MeshGroupMaskUpdated
@@ -29197,6 +30034,29 @@ void IsIncGrenadeUpdated()
 
 ---
 
+<a id="cmoverinstancedata"></a>
+
+## 🔌 CMoverInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CMoverInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `DampedValue` | `ref float` | get | - |
+| `Movement` | `ref Vector` | get | - |
+| `Rotation` | `SchemaUntypedField` | get | - |
+| `TargetOrientation` | `SchemaUntypedField` | get | - |
+
+
+
+---
+
 <a id="cmoverpathnode"></a>
 
 ## 🔌 CMoverPathNode
@@ -29425,84 +30285,6 @@ void IsIncGrenadeUpdated()
 | `AgentBorderErosion` | `ref int` | get | - |
 | `FlowMapGenerationEnabled` | `ref bool` | get | - |
 | `FlowMapNodeMaxRadius` | `ref float` | get | - |
-
-
-
----
-
-<a id="cnavlinkanimgraphvar"></a>
-
-## 🔌 CNavLinkAnimgraphVar
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<CNavLinkAnimgraphVar\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `AnimGraphNavlinkType` | `ref CGlobalSymbol` | get | - |
-| `AlignmentDegrees` | `ref uint` | get | - |
-
-
-
----
-
-<a id="cnavlinkareaentity"></a>
-
-## 🔌 CNavLinkAreaEntity
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `CPointEntity`
-
-**实现接口:** `ISchemaClass\<CNavLinkAreaEntity\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `Width` | `ref float` | get | - |
-| `LocatorOffset` | `ref Vector` | get, set | - |
-| `LocatorAnglesOffset` | `ref QAngle` | get, set | - |
-| `StrMovementForward` | `string` | get, set | - |
-| `StrMovementReverse` | `string` | get, set | - |
-| `Enabled` | `ref bool` | get | - |
-| `AllowCrossMovableConnections` | `ref bool` | get | - |
-| `StrFilterName` | `string` | get, set | - |
-| `Filter` | `ref CHandle\<CBaseFilter\>` | get | - |
-| `OnNavLinkStart` | `ref CEntityIOOutput` | get | - |
-| `OnNavLinkFinish` | `ref CEntityIOOutput` | get | - |
-| `IsTerminus` | `ref bool` | get | - |
-| `Splits` | `ref int` | get | - |
-
-
-
----
-
-<a id="cnavlinkmovementvdata"></a>
-
-## 🔌 CNavLinkMovementVData
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<CNavLinkMovementVData\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `ToolsOnlyOwnerModelName` | `SchemaUntypedField` | get | - |
-| `IsInterpolated` | `ref bool` | get | - |
-| `RecommendedDistance` | `ref uint` | get | - |
-| `AnimgraphVars` | `ref CUtlVector\<CNavLinkAnimgraphVar\>` | get | - |
 
 
 
@@ -29908,6 +30690,30 @@ void ZUpdated()
 
 ---
 
+<a id="cnetworkedcycle"></a>
+
+## 🔌 CNetworkedCycle
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CNetworkedCycle\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CycleUnclamped` | `ref float` | get | - |
+| `PrevCycleUnclamped` | `ref float` | get | - |
+| `CyclesPerSecond` | `SchemaUntypedField` | get | - |
+| `CycleZeroTime` | `SchemaUntypedField` | get | - |
+| `ResetCount` | `SchemaUntypedField` | get, set | - |
+
+
+
+---
+
 <a id="cnetworkedsequenceoperation"></a>
 
 ## 🔌 CNetworkedSequenceOperation
@@ -30051,11 +30857,13 @@ void WeightUpdated()
 | `HorizontalAngleNodeIdx` | `ref short` | get | - |
 | `WeaponCategoryNodeIdx` | `ref short` | get | - |
 | `WeaponTypeNodeIdx` | `ref short` | get | - |
-| `IsWeaponActionActiveNodeIdx` | `ref short` | get | - |
+| `WeaponActionNodeIdx` | `ref short` | get | - |
 | `WeaponDropNodeIdx` | `ref short` | get | - |
-| `EnabledNodeIdx` | `ref short` | get | - |
-| `BlendTimeSeconds` | `ref float` | get | - |
-| `ReduceRangeTimeSeconds` | `ref float` | get | - |
+| `IsDefusingNodeIdx` | `ref short` | get | - |
+| `CrouchWeightNodeIdx` | `ref short` | get | - |
+| `HandIKBlendInTimeSeconds` | `ref float` | get | - |
+| `ActionBlendTimeSeconds` | `ref float` | get | - |
+| `PlantingBlendTimeSeconds` | `ref float` | get | - |
 
 
 
@@ -30184,11 +30992,11 @@ void WeightUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SourceNodeIndices` | `SchemaUntypedField` | get | - |
-| `InputParameterNodeIdx0` | `ref short` | get | - |
-| `InputParameterNodeIdx1` | `ref short` | get | - |
 | `Values` | `SchemaUntypedField` | get | - |
 | `Indices` | `SchemaUntypedField` | get | - |
 | `HullIndices` | `SchemaUntypedField` | get | - |
+| `InputParameterNodeIdx0` | `ref short` | get | - |
+| `InputParameterNodeIdx1` | `ref short` | get | - |
 | `AllowLooping` | `ref bool` | get | - |
 
 
@@ -30243,6 +31051,7 @@ void WeightUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Target` | `ref CNmEventTargetEntity_t` | get | - |
 | `GroupName` | `string` | get, set | - |
 | `GroupValue` | `ref int` | get | - |
 
@@ -30605,40 +31414,6 @@ void WeightUpdated()
 | `IsRunningFromDeserializedData` | `ref bool` | get | - |
 | `HorizontalAngleDegrees` | `ref float` | get | - |
 | `VerticalAngleDegrees` | `ref float` | get | - |
-
-
-
----
-
-<a id="cnmchainsolvertask"></a>
-
-## 🔌 CNmChainSolverTask
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `CNmPoseTask`
-
-**实现接口:** `ISchemaClass\<CNmChainSolverTask\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `EffectorBoneIdx` | `ref int` | get | - |
-| `EffectorTargetBoneIdx` | `ref int` | get | - |
-| `TargetTransform` | `ref CTransform` | get | - |
-| `NumBonesInChain` | `ref int` | get | - |
-| `EffectorTarget` | `CNmTarget` | get | - |
-| `BlendMode` | `ref NmIKBlendMode_t` | get | - |
-| `BlendWeight` | `ref float` | get | - |
-| `IsTargetInWorldSpace` | `ref bool` | get | - |
-| `IsRunningFromDeserializedData` | `ref bool` | get | - |
-| `DebugEffectorBoneID` | `ref CGlobalSymbol` | get | - |
-| `ChainStartTransformMS` | `ref CTransform` | get | - |
-| `DebugRequestedTargetTransformMS` | `ref CTransform` | get | - |
-| `DebugTotalChainLength` | `ref float` | get | - |
 
 
 
@@ -31058,6 +31833,7 @@ void WeightUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Target` | `ref CNmEventTargetEntity_t` | get | - |
 | `AttributeName` | `string` | get, set | - |
 
 
@@ -31105,7 +31881,6 @@ void WeightUpdated()
 | `StartTime` | `NmPercent_t` | get | - |
 | `Duration` | `NmPercent_t` | get | - |
 | `SyncID` | `ref CGlobalSymbol` | get | - |
-| `ClientOnly` | `ref bool` | get | - |
 
 
 
@@ -31211,17 +31986,24 @@ void WeightUpdated()
 
 ---
 
-<a id="cnmexternalgraphnode__cdefinition"></a>
+<a id="cnmeventtargetentity_t"></a>
 
-## 🔌 CNmExternalGraphNode__CDefinition
+## 📋 CNmEventTargetEntity_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
-**类型:** `interface`
+**类型:** `enum`
 
-**继承:** `CNmPoseNode__CDefinition`
+**继承:** `uint`
 
-**实现接口:** `ISchemaClass\<CNmExternalGraphNode__CDefinition\>`
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `Self` | `0` | - |
+| `Weapon` | `1` | - |
+| `HeldItem` | `2` | - |
+| `Custom` | `3` | - |
 
 
 
@@ -31640,6 +32422,32 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfloatspringnode__cdefinition"></a>
+
+## 🔌 CNmFloatSpringNode__CDefinition
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CNmFloatValueNode__CDefinition`
+
+**实现接口:** `ISchemaClass\<CNmFloatSpringNode__CDefinition\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `StartValue` | `ref float` | get | - |
+| `Hertz` | `ref float` | get | - |
+| `DampingRatio` | `ref float` | get | - |
+| `InputValueNodeIdx` | `ref short` | get | - |
+| `UseStartValue` | `ref bool` | get | - |
+
+
+
+---
+
 <a id="cnmfloatswitchnode__cdefinition"></a>
 
 ## 🔌 CNmFloatSwitchNode__CDefinition
@@ -31769,6 +32577,68 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmfootiknode__cdefinition"></a>
+
+## 🔌 CNmFootIKNode__CDefinition
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CNmPassthroughNode__CDefinition`
+
+**实现接口:** `ISchemaClass\<CNmFootIKNode__CDefinition\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `LeftEffectorBoneID` | `ref CGlobalSymbol` | get | - |
+| `RightEffectorBoneID` | `ref CGlobalSymbol` | get | - |
+| `LeftTargetNodeIdx` | `ref short` | get | - |
+| `RightTargetNodeIdx` | `ref short` | get | - |
+| `EnabledNodeIdx` | `ref short` | get | - |
+| `BlendTimeSeconds` | `ref float` | get | - |
+| `BlendMode` | `ref NmIKBlendMode_t` | get | - |
+| `IsTargetInWorldSpace` | `ref bool` | get | - |
+
+
+
+---
+
+<a id="cnmfootiktask"></a>
+
+## 🔌 CNmFootIKTask
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CNmPoseTask`
+
+**实现接口:** `ISchemaClass\<CNmFootIKTask\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `LeftEffectorBoneIdx` | `ref int` | get | - |
+| `RightEffectorBoneIdx` | `ref int` | get | - |
+| `LeftTargetTransform` | `ref CTransform` | get | - |
+| `RightTargetTransform` | `ref CTransform` | get | - |
+| `LeftTargetBoneIdx` | `ref int` | get | - |
+| `RightTargetBoneIdx` | `ref int` | get | - |
+| `LeftTarget` | `CNmTarget` | get | - |
+| `RightTarget` | `CNmTarget` | get | - |
+| `BlendMode` | `ref NmIKBlendMode_t` | get | - |
+| `BlendWeight` | `ref float` | get | - |
+| `IsTargetInWorldSpace` | `ref bool` | get | - |
+| `IsRunningFromDeserializedData` | `ref bool` | get | - |
+
+
+
+---
+
 <a id="cnmfootstepeventidnode__cdefinition"></a>
 
 ## 🔌 CNmFootstepEventIDNode__CDefinition
@@ -31854,6 +32724,7 @@ void WeightUpdated()
 |------|------|--------|------|
 | `VariationID` | `ref CGlobalSymbol` | get | - |
 | `Skeleton` | `ref CStrongHandle\<InfoForResourceTypeCNmSkeleton\>` | get | - |
+| `SupportedSecondarySkeletons` | `ref CUtlVector\<CStrongHandle\<InfoForResourceTypeCNmSkeleton\>\>` | get | - |
 | `UserData` | `CNmGraphVariationUserData?` | get | - |
 | `PersistentNodeIndices` | `ref CUtlVector\<short\>` | get | - |
 | `RootNodeIdx` | `ref short` | get | - |
@@ -31978,6 +32849,20 @@ void WeightUpdated()
 
 ---
 
+<a id="cnmgraphinstance"></a>
+
+## 🔌 CNmGraphInstance
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CNmGraphInstance\>`
+
+
+
+---
+
 <a id="cnmgraphnode__cdefinition"></a>
 
 ## 🔌 CNmGraphNode__CDefinition
@@ -32007,6 +32892,58 @@ void WeightUpdated()
 **类型:** `interface`
 
 **继承:** `ISchemaClass\<CNmGraphVariationUserData\>`
+
+
+
+---
+
+<a id="cnmidbasedclipselectornode__cdefinition"></a>
+
+## 🔌 CNmIDBasedClipSelectorNode__CDefinition
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CNmClipReferenceNode__CDefinition`
+
+**实现接口:** `ISchemaClass\<CNmIDBasedClipSelectorNode__CDefinition\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OptionNodeIndices` | `SchemaUntypedField` | get | - |
+| `OptionIDs` | `SchemaUntypedField` | get | - |
+| `ParameterNodeIdx` | `ref short` | get | - |
+| `FallbackNodeIdx` | `ref short` | get | - |
+| `IgnoreInvalidOptions` | `ref bool` | get | - |
+
+
+
+---
+
+<a id="cnmidbasedselectornode__cdefinition"></a>
+
+## 🔌 CNmIDBasedSelectorNode__CDefinition
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CNmPoseNode__CDefinition`
+
+**实现接口:** `ISchemaClass\<CNmIDBasedSelectorNode__CDefinition\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OptionNodeIndices` | `SchemaUntypedField` | get | - |
+| `OptionIDs` | `SchemaUntypedField` | get | - |
+| `ParameterNodeIdx` | `ref short` | get | - |
+| `FallbackNodeIdx` | `ref short` | get | - |
+| `IgnoreInvalidOptions` | `ref bool` | get | - |
 
 
 
@@ -32243,101 +33180,6 @@ void WeightUpdated()
 
 ---
 
-<a id="cnmikbody"></a>
-
-## 🔌 CNmIKBody
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<CNmIKBody\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `Mass` | `ref float` | get | - |
-| `LocalMassCenter` | `ref Vector` | get | - |
-| `Radius` | `ref Vector` | get | - |
-| `Resistance` | `ref float` | get | - |
-
-
-
----
-
-<a id="cnmikeffector"></a>
-
-## 🔌 CNmIKEffector
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<CNmIKEffector\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `BodyIndex` | `ref int` | get | - |
-| `Enabled` | `ref bool` | get | - |
-| `TargetPosition` | `ref Vector` | get | - |
-| `TargetOrientation` | `ref Quaternion` | get | - |
-| `Weight` | `ref float` | get | - |
-
-
-
----
-
-<a id="cnmikjoint"></a>
-
-## 🔌 CNmIKJoint
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<CNmIKJoint\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `ParentIndex` | `ref int` | get | - |
-| `BodyIndex` | `ref int` | get | - |
-| `XLocalFrame` | `ref CTransform` | get | - |
-| `SwingLimit` | `ref float` | get | - |
-| `MinTwistLimit` | `ref float` | get | - |
-| `MaxTwistLimit` | `ref float` | get | - |
-| `Weight` | `ref float` | get | - |
-
-
-
----
-
-<a id="cnmikrig"></a>
-
-## 🔌 CNmIKRig
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<CNmIKRig\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `Skeleton` | `ref CStrongHandle\<InfoForResourceTypeCNmSkeleton\>` | get | - |
-| `Bodies` | `ref CUtlVector\<CNmIKBody\>` | get | - |
-| `Joints` | `ref CUtlVector\<CNmIKJoint\>` | get | - |
-
-
-
----
-
 <a id="cnmisexternalgraphslotfillednode__cdefinition"></a>
 
 ## 🔌 CNmIsExternalGraphSlotFilledNode__CDefinition
@@ -32510,6 +33352,7 @@ void WeightUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Target` | `ref CNmEventTargetEntity_t` | get | - |
 | `AttributeName` | `string` | get, set | - |
 | `AttributeNameToken` | `ref CUtlStringToken` | get | - |
 | `X` | `SchemaUntypedField` | get | - |
@@ -32777,6 +33620,7 @@ void WeightUpdated()
 |------|------|--------|------|
 | `Relevance` | `ref CNmEventRelevance_t` | get | - |
 | `Type` | `ref CNmParticleEvent__Type_t` | get | - |
+| `Target` | `ref CNmEventTargetEntity_t` | get | - |
 | `ParticleSystem` | `ref CStrongHandle\<InfoForResourceTypeIParticleSystemDefinition\>` | get | - |
 | `Tags` | `string` | get, set | - |
 | `StopImmediately` | `ref bool` | get | - |
@@ -33180,9 +34024,9 @@ void WeightUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EnabledNodeIdx` | `ref short` | get | - |
-| `LockLeftHandNodeIdx` | `ref short` | get | - |
-| `BlendTimeSeconds` | `ref float` | get | - |
+| `FlashedAmountNodeIdx` | `ref short` | get | - |
+| `WeaponCategoryNodeIdx` | `ref short` | get | - |
+| `WeaponTypeNodeIdx` | `ref short` | get | - |
 
 
 
@@ -33780,13 +34624,37 @@ void WeightUpdated()
 | `ClipReferenceNodeIdx` | `ref short` | get | - |
 | `TargetValueNodeIdx` | `ref short` | get | - |
 | `SamplingMode` | `ref CNmRootMotionData__SamplingMode_t` | get | - |
-| `AllowTargetUpdate` | `ref bool` | get | - |
+| `TargetUpdateRule` | `ref CNmTargetWarpNode__TargetUpdateRule_t` | get | - |
 | `AlignWithTargetAtLastWarpEvent` | `ref bool` | get | - |
 | `SamplingPositionErrorThresholdSq` | `ref float` | get | - |
 | `MaxTangentLength` | `ref float` | get | - |
 | `LerpFallbackDistanceThreshold` | `ref float` | get | - |
 | `TargetUpdateDistanceThreshold` | `ref float` | get | - |
 | `TargetUpdateAngleThresholdRadians` | `ref float` | get | - |
+| `AlignmentBoneID` | `ref CGlobalSymbol` | get | - |
+
+
+
+---
+
+<a id="cnmtargetwarpnode__targetupdaterule_t"></a>
+
+## 📋 CNmTargetWarpNode__TargetUpdateRule_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `byte`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `None` | `0` | - |
+| `Recalculate` | `1` | - |
+| `Offset` | `2` | - |
+| `RecalculateOrOffset` | `3` | - |
 
 
 
@@ -33994,7 +34862,7 @@ void WeightUpdated()
 | `BlendTimeSeconds` | `ref float` | get | - |
 | `BlendMode` | `ref NmIKBlendMode_t` | get | - |
 | `IsTargetInWorldSpace` | `ref bool` | get | - |
-| `ReferencePoseTwistWeight` | `ref float` | get | - |
+| `ChainRotationWeight` | `ref float` | get | - |
 
 
 
@@ -34024,7 +34892,7 @@ void WeightUpdated()
 | `BlendWeight` | `ref float` | get | - |
 | `IsTargetInWorldSpace` | `ref bool` | get | - |
 | `IsRunningFromDeserializedData` | `ref bool` | get | - |
-| `ReferencePoseTwistWeight` | `ref float` | get | - |
+| `ChainRotationWeight` | `ref float` | get | - |
 | `DebugEffectorBoneID` | `ref CGlobalSymbol` | get | - |
 
 
@@ -34796,6 +35664,7 @@ void ShowLightUpdated()
 |------|------|--------|------|
 | `OpStrength` | `CParticleCollectionFloatInput` | get | - |
 | `OpEndCapState` | `ref ParticleEndcapMode_t` | get | - |
+| `ToolsState` | `ref ParticleToolsState_t` | get | - |
 | `OpStartFadeInTime` | `ref float` | get | - |
 | `OpEndFadeInTime` | `ref float` | get | - |
 | `OpStartFadeOutTime` | `ref float` | get | - |
@@ -35241,6 +36110,7 @@ void NoRampUpdated()
 | `MinimumSimTime` | `ref float` | get | - |
 | `MinimumTimeStep` | `ref float` | get | - |
 | `MinimumFrames` | `ref int` | get | - |
+| `IsGPUParticleSystem` | `ref bool` | get | - |
 | `MinCPULevel` | `ref int` | get | - |
 | `MinGPULevel` | `ref int` | get | - |
 | `NoDrawTimeToGoToSleep` | `ref float` | get | - |
@@ -35519,8 +36389,8 @@ void NoRampUpdated()
 | `Angle` | `ref Quaternion` | get | - |
 | `NextKey` | `string` | get, set | - |
 | `NextTime` | `ref float` | get | - |
-| `NextKey1` | `CPathKeyFrame?` | get | - |
-| `PrevKey` | `CPathKeyFrame?` | get | - |
+| `NextKey1` | `ref CHandle\<CPathKeyFrame\>` | get | - |
+| `PrevKey` | `ref CHandle\<CPathKeyFrame\>` | get | - |
 | `MoveSpeed` | `ref float` | get | - |
 
 
@@ -35576,27 +36446,6 @@ void NoRampUpdated()
 
 ---
 
-<a id="cpathmoverentityspawn"></a>
-
-## 🔌 CPathMoverEntitySpawn
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<CPathMoverEntitySpawn\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `Mover` | `ref CHandle\<CFuncMover\>` | get | - |
-| `OtherEntities` | `ref CUtlVector\<CHandle\<CBaseEntity\>\>` | get | - |
-
-
-
----
-
 <a id="cpathmoverentityspawner"></a>
 
 ## 🔌 CPathMoverEntitySpawner
@@ -35620,8 +36469,13 @@ void NoRampUpdated()
 | `SpawnFrequencyDistToNearestMover` | `ref float` | get | - |
 | `MapSpawnedMoverTemplates` | `SchemaUntypedField` | get | - |
 | `MaxActive` | `ref int` | get | - |
+| `SpawnNum` | `ref int` | get | - |
 | `LastSpawnTime` | `GameTime_t` | get | - |
 | `Enabled` | `ref bool` | get | - |
+| `DestroyMoverOnArrivedAtEnd` | `ref bool` | get | - |
+| `QueuedRemovals` | `ref CUtlVector\<CHandle\<CFuncMover\>\>` | get | - |
+| `OnTemplateSpawned` | `ref CEntityIOOutput` | get | - |
+| `OnTemplateGroupSpawned` | `ref CEntityIOOutput` | get | - |
 
 
 
@@ -35942,9 +36796,9 @@ void PathStringUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Pnext` | `CPathTrack?` | get | - |
-| `Pprevious` | `CPathTrack?` | get | - |
-| `Paltpath` | `CPathTrack?` | get | - |
+| `Pnext` | `ref CHandle\<CPathTrack\>` | get | - |
+| `Pprevious` | `ref CHandle\<CPathTrack\>` | get | - |
+| `Paltpath` | `ref CHandle\<CPathTrack\>` | get | - |
 | `Radius` | `ref float` | get | - |
 | `Length` | `ref float` | get | - |
 | `AltName` | `string` | get, set | - |
@@ -36104,6 +36958,7 @@ void XInitialPathWorldToLocalUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Joint` | `IPhysicsJoint?` | get | - |
 | `NameAttach1` | `string` | get, set | - |
 | `NameAttach2` | `string` | get, set | - |
 | `Attach1` | `ref CHandle\<CBaseEntity\>` | get | - |
@@ -36147,6 +37002,7 @@ void XInitialPathWorldToLocalUpdated()
 | `PushScale` | `ref float` | get | - |
 | `ConvertToDebrisWhenPossible` | `ref bool` | get | - |
 | `AffectInvulnerableEnts` | `ref bool` | get | - |
+| `DisablePushClamp` | `ref bool` | get | - |
 | `OnPushedPlayer` | `ref CEntityIOOutput` | get | - |
 
 
@@ -36198,6 +37054,7 @@ void XInitialPathWorldToLocalUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Controller` | `IPhysicsMotionController?` | get | - |
 | `NameAttach` | `string` | get, set | - |
 | `Force` | `ref float` | get | - |
 | `ForceTime` | `ref float` | get | - |
@@ -36376,6 +37233,8 @@ void XInitialPathWorldToLocalUpdated()
 | `TorqueScale` | `ref float` | get | - |
 | `TargetSpeed` | `ref float` | get | - |
 | `SpeedWhenSpinUpOrSpinDownStarted` | `ref float` | get | - |
+| `FixedWorldBody` | `IPhysicsBody?` | get | - |
+| `MotorJoint` | `IPhysicsJoint?` | get | - |
 | `Motor` | `CMotorController` | get | - |
 
 
@@ -36789,6 +37648,7 @@ void XInitialPathWorldToLocalUpdated()
 | `GlowColor` | `ref Color` | get | - |
 | `ShouldAutoConvertBackFromDebris` | `ref bool` | get | - |
 | `MuteImpactEffects` | `ref bool` | get | - |
+| `NavObstacleType` | `ref INavObstacle__NavObstacleType_t` | get | - |
 | `UpdateNavWhenMoving` | `ref bool` | get | - |
 | `ForceNavObstacleCut` | `ref bool` | get | - |
 | `AllowObstacleConvexHullMerging` | `ref bool` | get | - |
@@ -36928,6 +37788,7 @@ void AwakeUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `SpringJoint` | `IPhysicsJoint?` | get | - |
 | `Frequency` | `ref float` | get | - |
 | `DampingRatio` | `ref float` | get | - |
 | `RestLength` | `ref float` | get | - |
@@ -37133,6 +37994,23 @@ void BombDefuserUpdated()
 |------|------|--------|------|
 | `Controller` | `CBasePlayerController` | get | 获取与此实例关联的玩家控制器。 |
 
+### ⚙️ 方法
+
+#### ToPlayer
+
+```csharp
+IPlayer? ToPlayer()
+```
+
+尝试将此组件的棋子转换为 <see cref="IPlayer"/> 实例。
+
+**返回值:** `IPlayer?`
+
+**用法示例:**
+```csharp
+IPlayer? player = controllerComponent.ToPlayer();
+```
+
 
 
 ---
@@ -37190,7 +38068,24 @@ void BombDefuserUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Pawn` | `CBasePlayerPawn` | get | 获取与此实例关联的玩家 Pawn。 |
+| `Pawn` | `CBasePlayerPawn` | get | 获取与此实例关联的玩家棋子。 |
+
+### ⚙️ 方法
+
+#### ToPlayer
+
+```csharp
+IPlayer? ToPlayer()
+```
+
+尝试将此组件的棋子转换为 <see cref="IPlayer"/> 实例。
+
+**返回值:** `IPlayer?`
+
+**用法示例:**
+```csharp
+IPlayer? player = pawnComponent.ToPlayer();
+```
 
 
 
@@ -37602,7 +38497,7 @@ T GiveItem<T>()
 
 **用法示例:**
 ```csharp
-var item = itemServices.GiveItem<Item>();
+var item = player.GiveItem<Weapon>();
 ```
 
 #### GiveItemAsync<T>
@@ -37611,13 +38506,13 @@ var item = itemServices.GiveItem<Item>();
 Task<T> GiveItemAsync<T>()
 ```
 
-异步向玩家提供一个物品。
+异步给予玩家一个物品。
 
-**返回值:** `Task\<T\>` - 已获得的物品。
+**返回值:** `Task\<T\>` - 给予的物品。
 
 **用法示例:**
 ```csharp
-var item = await playerItemServices.GiveItemAsync<object>();
+await player.ItemServices.GiveItemAsync<CsItem>();
 ```
 
 #### GiveItem<T>
@@ -37634,7 +38529,7 @@ T GiveItem<T>(string itemDesignerName)
 
 **用法示例:**
 ```csharp
-var item = itemServices.GiveItem<object>("weapon_ak47");
+var item = player.ItemServices.GiveItem<CCSWeaponBaseGun>("weapon_ak47");
 ```
 
 #### GiveItemAsync<T>
@@ -37643,17 +38538,17 @@ var item = itemServices.GiveItem<object>("weapon_ak47");
 Task<T> GiveItemAsync<T>(string itemDesignerName)
 ```
 
-异步向玩家提供一个物品。
+异步给予玩家一个物品。
 
 **参数:**
 
-- `itemDesignerName` (`string`) - 要给予的物品的设计师名称。
+- `itemDesignerName` (`string`) - 给予物品的设计师名称。
 
-**返回值:** `Task\<T\>` - 已获得的物品。
+**返回值:** `Task\<T\>` - 给予的物品。
 
 **用法示例:**
 ```csharp
-var item = await itemServices.GiveItemAsync<object>("weapon_pistol");
+var item = await player.ItemServices.GiveItemAsync<Item>("weapon_ak47");
 ```
 
 #### GiveItem
@@ -37668,7 +38563,7 @@ void GiveItem(string itemDesignerName)
 
 **用法示例:**
 ```csharp
-itemServices.GiveItem("weapon_ak47");
+player.ItemServices.GiveItem("weapon_ak47");
 ```
 
 #### GiveItemAsync
@@ -37677,17 +38572,17 @@ itemServices.GiveItem("weapon_ak47");
 Task GiveItemAsync(string itemDesignerName)
 ```
 
-异步向玩家提供一个物品。
+异步给予玩家一个物品。
 
 **参数:**
 
-- `itemDesignerName` (`string`) - 要给予的物品的设计师名称。
+- `itemDesignerName` (`string`) - 给予物品的设计师名称。
 
-**返回值:** `Task` - 已获得的物品。
+**返回值:** `Task` - 给予的物品。
 
 **用法示例:**
 ```csharp
-await itemServices.GiveItemAsync("weapon_ak47");
+await player.ItemServices.GiveItemAsync("weapon_ak47");
 ```
 
 #### DropActiveItem
@@ -37698,7 +38593,7 @@ void DropActiveItem()
 
 **用法示例:**
 ```csharp
-itemServices.DropActiveItem();
+player.ItemServices.DropActiveItem();
 ```
 
 #### DropActiveItemAsync
@@ -37713,7 +38608,7 @@ Task DropActiveItemAsync()
 
 **用法示例:**
 ```csharp
-await itemServices.DropActiveItemAsync();
+await player.ItemServices.DropActiveItemAsync();
 ```
 
 #### RemoveItems
@@ -37724,7 +38619,7 @@ void RemoveItems()
 
 **用法示例:**
 ```csharp
-playerItemServices.RemoveItems();
+player.ItemServices.RemoveItems();
 ```
 
 #### RemoveItemsAsync
@@ -37733,13 +38628,13 @@ playerItemServices.RemoveItems();
 Task RemoveItemsAsync()
 ```
 
-异步移除玩家的所有物品。
+异步移除玩家所有物品。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await itemServices.RemoveItemsAsync();
+await player.ItemServices.RemoveItemsAsync();
 ```
 
 
@@ -37786,6 +38681,9 @@ await itemServices.RemoveItemsAsync();
 | `ButtonPressedCmdNumber` | `ISchemaFixedArray\<uint\>` | get | - |
 | `LastCommandNumberProcessed` | `ref uint` | get | - |
 | `ToggleButtonDownMask` | `ref ulong` | get | - |
+| `CmdForwardMove` | `ref float` | get | - |
+| `CmdLeftMove` | `ref float` | get | - |
+| `CmdUpMove` | `ref float` | get | - |
 | `Maxspeed` | `ref float` | get | - |
 | `ForceSubtickMoveWhen` | `ISchemaFixedArray\<float\>` | get | - |
 | `ForwardMove` | `ref float` | get | - |
@@ -37953,7 +38851,7 @@ void DropWeapon(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-playerWeaponServices.DropWeapon(currentWeapon);
+player.WeaponServices.DropWeapon(currentWeapon);
 ```
 
 #### DropWeaponAsync
@@ -37962,17 +38860,17 @@ playerWeaponServices.DropWeapon(currentWeapon);
 Task DropWeaponAsync(CBasePlayerWeapon weapon)
 ```
 
-异步投放武器。
+异步丢弃武器。
 
 **参数:**
 
-- `weapon` (`CBasePlayerWeapon`) - 待掉落的武器。
+- `weapon` (`CBasePlayerWeapon`) - 要丢弃的武器。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await weaponServices.DropWeaponAsync(weapon);
+await player.WeaponServices.DropWeaponAsync(currentWeapon);
 ```
 
 #### DropWeapon
@@ -37988,7 +38886,7 @@ void DropWeapon(CBasePlayerWeapon weapon, Vector momentum)
 
 **用法示例:**
 ```csharp
-weaponServices.DropWeapon(weapon, momentum);
+player.WeaponServices.DropWeapon(currentWeapon, new Vector(100, 100, 200));
 ```
 
 #### DropWeaponAsync
@@ -37997,18 +38895,18 @@ weaponServices.DropWeapon(weapon, momentum);
 Task DropWeaponAsync(CBasePlayerWeapon weapon, Vector momentum)
 ```
 
-异步投放武器。
+异步丢弃武器。
 
 **参数:**
 
-- `weapon` (`CBasePlayerWeapon`) - 待掉落的武器。
+- `weapon` (`CBasePlayerWeapon`) - 要丢弃的武器。
 - `momentum` (`Vector`) - 应用于掉落武器的动量。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await weaponServices.DropWeaponAsync(weapon, momentum);
+await player.WeaponServices.DropWeaponAsync(currentWeapon, new Vector(0, 0, 100));
 ```
 
 #### RemoveWeapon
@@ -38023,7 +38921,7 @@ void RemoveWeapon(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-weaponServices.RemoveWeapon(weapon);
+player.WeaponServices.RemoveWeapon(weapon);
 ```
 
 #### RemoveWeaponAsync
@@ -38042,7 +38940,7 @@ Task RemoveWeaponAsync(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-await weaponServices.RemoveWeaponAsync(weapon);
+await player.WeaponServices.RemoveWeaponAsync(weapon);
 ```
 
 #### SelectWeapon
@@ -38051,7 +38949,7 @@ await weaponServices.RemoveWeaponAsync(weapon);
 void SelectWeapon(CBasePlayerWeapon weapon)
 ```
 
-使玩家选择一把武器。非线程安全，在非主线程上下文中请使用异步变体。
+让玩家选择一把武器。线程不安全，非主线程上下文中请改用异步变体。
 
 **参数:**
 
@@ -38059,7 +38957,7 @@ void SelectWeapon(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-weaponServices.SelectWeapon(activeWeapon);
+player.WeaponServices.SelectWeapon(existingWeapon);
 ```
 
 #### SelectWeaponAsync
@@ -38068,7 +38966,7 @@ weaponServices.SelectWeapon(activeWeapon);
 Task SelectWeaponAsync(CBasePlayerWeapon weapon)
 ```
 
-异步使玩家选择武器。
+使玩家异步选择武器。
 
 **参数:**
 
@@ -38078,7 +38976,7 @@ Task SelectWeaponAsync(CBasePlayerWeapon weapon)
 
 **用法示例:**
 ```csharp
-await weaponServices.SelectWeaponAsync(weapon);
+await player.WeaponServices.SelectWeaponAsync(existingWeapon);
 ```
 
 #### DropWeaponBySlot
@@ -38093,7 +38991,7 @@ void DropWeaponBySlot(gear_slot_t slot)
 
 **用法示例:**
 ```csharp
-weaponServices.DropWeaponBySlot(gear_slot_t.Value);
+player.WeaponServices.DropWeaponBySlot(gear_slot_t.Primary);
 ```
 
 #### DropWeaponBySlot
@@ -38109,7 +39007,7 @@ void DropWeaponBySlot(gear_slot_t slot, Vector momentum)
 
 **用法示例:**
 ```csharp
-weaponServices.DropWeaponBySlot(gear_slot_t.Primary, momentum);
+player.WeaponServices.DropWeaponBySlot(gear_slot_t.Primary, new Vector(0, 0, 100));
 ```
 
 #### DropWeaponBySlotAsync
@@ -38118,17 +39016,17 @@ weaponServices.DropWeaponBySlot(gear_slot_t.Primary, momentum);
 Task DropWeaponBySlotAsync(gear_slot_t slot)
 ```
 
-按槽异步丢弃武器。
+通过槽位异步丢弃武器。
 
 **参数:**
 
-- `slot` (`gear_slot_t`) - 武器丢弃的槽位。
+- `slot` (`gear_slot_t`) - 从该槽位丢弃武器。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await weaponServices.DropWeaponBySlotAsync(gear_slot_t.Primary);
+await player.WeaponServices.DropWeaponBySlotAsync(gear_slot_t.Value);
 ```
 
 #### DropWeaponBySlotAsync
@@ -38137,18 +39035,18 @@ await weaponServices.DropWeaponBySlotAsync(gear_slot_t.Primary);
 Task DropWeaponBySlotAsync(gear_slot_t slot, Vector momentum)
 ```
 
-按槽异步丢弃武器。
+通过槽位异步丢弃武器。
 
 **参数:**
 
-- `slot` (`gear_slot_t`) - 武器丢弃的槽位。
+- `slot` (`gear_slot_t`) - 从该槽位丢弃武器。
 - `momentum` (`Vector`) - 应用于掉落武器的动量。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await playerWeaponServices.DropWeaponBySlotAsync(gear_slot_t.Value, momentum);
+await player.WeaponServices.DropWeaponBySlotAsync(gear_slot_t.melee, new Vector(0, 0, 100));
 ```
 
 #### RemoveWeaponBySlot
@@ -38163,7 +39061,7 @@ void RemoveWeaponBySlot(gear_slot_t slot)
 
 **用法示例:**
 ```csharp
-weaponServices.RemoveWeaponBySlot(gear_slot_t.Value);
+player.WeaponServices.RemoveWeaponBySlot(gear_slot_t.Primary);
 ```
 
 #### RemoveWeaponBySlotAsync
@@ -38172,17 +39070,17 @@ weaponServices.RemoveWeaponBySlot(gear_slot_t.Value);
 Task RemoveWeaponBySlotAsync(gear_slot_t slot)
 ```
 
-异步按槽位移除武器。
+根据槽位异步移除武器。
 
 **参数:**
 
-- `slot` (`gear_slot_t`) - 用于移除武器的插槽。
+- `slot` (`gear_slot_t`) - 要移除武器的槽位。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await playerWeaponServices.RemoveWeaponBySlotAsync(gear_slot_t.Primary);
+await player.WeaponServices.RemoveWeaponBySlotAsync(gear_slot_t.Melee);
 ```
 
 #### SelectWeaponBySlot
@@ -38197,7 +39095,7 @@ void SelectWeaponBySlot(gear_slot_t slot)
 
 **用法示例:**
 ```csharp
-weaponServices.SelectWeaponBySlot(gear_slot_t.Slot1);
+player.WeaponServices.SelectWeaponBySlot(gear_slot_t.knife);
 ```
 
 #### SelectWeaponBySlotAsync
@@ -38206,7 +39104,7 @@ weaponServices.SelectWeaponBySlot(gear_slot_t.Slot1);
 Task SelectWeaponBySlotAsync(gear_slot_t slot)
 ```
 
-按槽位异步选择武器。
+异步按槽位选择武器。
 
 **参数:**
 
@@ -38216,7 +39114,7 @@ Task SelectWeaponBySlotAsync(gear_slot_t slot)
 
 **用法示例:**
 ```csharp
-await weaponServices.SelectWeaponBySlotAsync(gear_slot_t.Value);
+await player.WeaponServices.SelectWeaponBySlotAsync(gear_slot_t.Primary);
 ```
 
 #### DropWeaponByDesignerName
@@ -38231,7 +39129,7 @@ void DropWeaponByDesignerName(string designerName)
 
 **用法示例:**
 ```csharp
-weaponServices.DropWeaponByDesignerName("weapon_ak47");
+player.WeaponServices.DropWeaponByDesignerName("weapon_ak47");
 ```
 
 #### DropWeaponByDesignerName
@@ -38247,7 +39145,7 @@ void DropWeaponByDesignerName(string designerName, Vector momentum)
 
 **用法示例:**
 ```csharp
-playerWeaponServices.DropWeaponByDesignerName("weapon_ak47", momentum);
+player.WeaponServices.DropWeaponByDesignerName("weapon_ak47", new Vector(100, 100, 200));
 ```
 
 #### DropWeaponByDesignerNameAsync
@@ -38260,13 +39158,13 @@ Task DropWeaponByDesignerNameAsync(string designerName)
 
 **参数:**
 
-- `designerName` (`string`) - 要掉落武器的设计师名称。
+- `designerName` (`string`) - 要丢弃的武器的设计名称。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await weaponServices.DropWeaponByDesignerNameAsync("weapon_ak47");
+await player.WeaponServices.DropWeaponByDesignerNameAsync("weapon_ak47");
 ```
 
 #### DropWeaponByDesignerNameAsync
@@ -38279,14 +39177,14 @@ Task DropWeaponByDesignerNameAsync(string designerName, Vector momentum)
 
 **参数:**
 
-- `designerName` (`string`) - 要掉落武器的设计师名称。
+- `designerName` (`string`) - 要丢弃的武器的设计名称。
 - `momentum` (`Vector`) - 应用于掉落武器的动量。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await weaponServices.DropWeaponByDesignerNameAsync("weapon_ak47", momentum);
+await player.WeaponServices.DropWeaponByDesignerNameAsync("weapon_ak47", Vector.Zero);
 ```
 
 #### RemoveWeaponByDesignerName
@@ -38301,7 +39199,7 @@ void RemoveWeaponByDesignerName(string designerName)
 
 **用法示例:**
 ```csharp
-weaponServices.RemoveWeaponByDesignerName("weapon_ak47");
+player.WeaponServices.RemoveWeaponByDesignerName("weapon_ak47");
 ```
 
 #### RemoveWeaponByDesignerNameAsync
@@ -38310,17 +39208,17 @@ weaponServices.RemoveWeaponByDesignerName("weapon_ak47");
 Task RemoveWeaponByDesignerNameAsync(string designerName)
 ```
 
-通过设计器名称异步移除武器。
+根据设计者名称异步移除武器。
 
 **参数:**
 
-- `designerName` (`string`) - 要移除的武器的设计师名称。
+- `designerName` (`string`) - 要移除的武器的设计者名称。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await weaponServices.RemoveWeaponByDesignerNameAsync("weapon_ak47");
+await player.WeaponServices.RemoveWeaponByDesignerNameAsync("weapon_ak47");
 ```
 
 #### SelectWeaponByDesignerName
@@ -38335,7 +39233,7 @@ void SelectWeaponByDesignerName(string designerName)
 
 **用法示例:**
 ```csharp
-weaponServices.SelectWeaponByDesignerName("weapon_ak47");
+player.WeaponServices.SelectWeaponByDesignerName("weapon_ak47");
 ```
 
 #### SelectWeaponByDesignerNameAsync
@@ -38344,17 +39242,17 @@ weaponServices.SelectWeaponByDesignerName("weapon_ak47");
 Task SelectWeaponByDesignerNameAsync(string designerName)
 ```
 
-异步选择武器。
+根据设计师名称异步选择武器。
 
 **参数:**
 
-- `designerName` (`string`) - 要选择的武器设计者名称。
+- `designerName` (`string`) - 要选择的武器的设计者名称。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await weaponServices.SelectWeaponByDesignerNameAsync("weapon_ak47");
+await player.WeaponServices.SelectWeaponByDesignerNameAsync("weapon_ak47");
 ```
 
 #### DropWeaponByClass<T>
@@ -38365,7 +39263,7 @@ void DropWeaponByClass<T>()
 
 **用法示例:**
 ```csharp
-weaponServices.DropWeaponByClass<CWeaponAK47>();
+player.WeaponServices.DropWeaponByClass<CWeaponAK47>();
 ```
 
 #### DropWeaponByClass<T>
@@ -38380,7 +39278,7 @@ void DropWeaponByClass<T>(Vector momentum)
 
 **用法示例:**
 ```csharp
-weaponServices.DropWeaponByClass<CWeaponAK47>(momentum);
+player.WeaponServices.DropWeaponByClass<CCSWeaponBaseGun>(new Vector(0, 0, 100));
 ```
 
 #### DropWeaponByClassAsync<T>
@@ -38389,13 +39287,13 @@ weaponServices.DropWeaponByClass<CWeaponAK47>(momentum);
 Task DropWeaponByClassAsync<T>()
 ```
 
-异步丢弃指定类的所有武器。
+异步丢弃指定类别的所有武器。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await weaponServices.DropWeaponByClassAsync<CWeaponAK47>();
+await player.WeaponServices.DropWeaponByClassAsync<CBaseGun>();
 ```
 
 #### DropWeaponByClassAsync<T>
@@ -38404,7 +39302,7 @@ await weaponServices.DropWeaponByClassAsync<CWeaponAK47>();
 Task DropWeaponByClassAsync<T>(Vector momentum)
 ```
 
-异步丢弃指定类的所有武器。
+异步丢弃指定类别的所有武器。
 
 **参数:**
 
@@ -38414,7 +39312,7 @@ Task DropWeaponByClassAsync<T>(Vector momentum)
 
 **用法示例:**
 ```csharp
-await weaponServices.DropWeaponByClassAsync<CWeaponAK47>(momentum);
+await player.WeaponServices.DropWeaponByClassAsync<CWeaponPistol>(new Vector(0, 0, 100));
 ```
 
 #### RemoveWeaponByClass<T>
@@ -38425,7 +39323,7 @@ void RemoveWeaponByClass<T>()
 
 **用法示例:**
 ```csharp
-player.WeaponServices.RemoveWeaponByClass<CWeaponAK47>();
+player.WeaponServices.RemoveWeaponByClass<CBasePlayerWeapon>();
 ```
 
 #### RemoveWeaponByClassAsync<T>
@@ -38440,7 +39338,7 @@ Task RemoveWeaponByClassAsync<T>()
 
 **用法示例:**
 ```csharp
-await weaponServices.RemoveWeaponByClassAsync<WeaponClass>();
+await player.WeaponServices.RemoveWeaponByClassAsync<CCSWeaponBaseGun>();
 ```
 
 #### SelectWeaponByClass<T>
@@ -38451,7 +39349,7 @@ void SelectWeaponByClass<T>()
 
 **用法示例:**
 ```csharp
-weaponServices.SelectWeaponByClass<CCSWeaponAK47>();
+player.WeaponServices.SelectWeaponByClass<CCSWeaponBaseGun>();
 ```
 
 #### SelectWeaponByClassAsync<T>
@@ -38460,13 +39358,13 @@ weaponServices.SelectWeaponByClass<CCSWeaponAK47>();
 Task SelectWeaponByClassAsync<T>()
 ```
 
-异步按类别选择武器。
+根据类别异步选择武器。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await weaponServices.SelectWeaponByClassAsync<CWeaponAK47>();
+await player.WeaponServices.SelectWeaponByClassAsync<CCSWeaponBaseGun>();
 ```
 
 
@@ -39399,6 +40297,21 @@ void ListenedToUpdated()
 | `FixupNames` | `ref bool` | get | - |
 | `LoadDynamic` | `ref bool` | get | - |
 | `AssociatedRelayEntity` | `ref CHandle\<CPointPrefab\>` | get | - |
+| `ProceduralRelaySources` | `ref CUtlVector\<CHandle\<CBaseEntity\>\>` | get | - |
+
+
+
+---
+
+<a id="cpointprefabapi"></a>
+
+## 🔌 CPointPrefabAPI
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CPointPrefabAPI\>`
 
 
 
@@ -39554,6 +40467,7 @@ void ListenedToUpdated()
 | `SpawnedEntityHandles` | `ref CUtlVector\<CHandle\<CEntityInstance\>\>` | get | - |
 | `ScriptSpawnCallback` | `ref HSCRIPTHandler` | get | - |
 | `ScriptCallbackScope` | `ref HSCRIPTHandler` | get | - |
+| `OnEntitySpawned` | `SchemaUntypedField` | get | - |
 
 
 
@@ -40087,6 +41001,8 @@ void ExposureControlUpdated()
 | `RTEnvCP` | `ref int` | get | - |
 | `RTEnvCPComponent` | `ref int` | get | - |
 | `Modifier` | `string` | get, set | - |
+| `UseSnapshotFromSurfaceGraph` | `ref int` | get | - |
+| `SnapshotFilter` | `PrecipitationFilter_t` | get | - |
 
 
 
@@ -40396,7 +41312,7 @@ void ExposureControlUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Condition` | `PulseObservableBoolExpression_t` | get | - |
-| `SubGraph` | `CPulse_OutflowConnection` | get | - |
+| `Always` | `CPulse_OutflowConnection` | get | - |
 | `WhenTrue` | `CPulse_OutflowConnection` | get | - |
 | `WhenFalse` | `CPulse_OutflowConnection` | get | - |
 
@@ -41130,6 +42046,7 @@ void ExposureControlUpdated()
 |------|------|--------|------|
 | `SceneInstance` | `ref CHandle\<CBaseEntity\>` | get | - |
 | `MainActor` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `CursorIDToEventID` | `SchemaUntypedField` | get | - |
 
 
 
@@ -41176,6 +42093,70 @@ void ExposureControlUpdated()
 | `ChoreoScene` | `ref CStrongHandle\<InfoForResourceTypeCChoreoSceneResource\>` | get | - |
 | `OnPaused` | `CPulse_OutflowConnection` | get | - |
 | `OnResumed` | `CPulse_OutflowConnection` | get | - |
+| `OutRequirements` | `ref CUtlVector\<CPulseCell_Outflow_PlayVCD__VCDRequirementInfo_t\>` | get | - |
+
+
+
+---
+
+<a id="cpulsecell_outflow_playvcd__vcdrequirementinfo_t"></a>
+
+## 🔌 CPulseCell_Outflow_PlayVCD__VCDRequirementInfo_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CPulseCell_Outflow_PlayVCD__VCDRequirementInfo_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `EventID` | `ref int` | get | - |
+| `Outflow` | `CPulse_OutflowConnection` | get | - |
+
+
+
+---
+
+<a id="cpulsecell_outflow_playvoline"></a>
+
+## 🔌 CPulseCell_Outflow_PlayVOLine
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CPulseCell_BaseYieldingInflow`
+
+**实现接口:** `ISchemaClass\<CPulseCell_Outflow_PlayVOLine\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OnFinished` | `CPulse_ResumePoint` | get | - |
+
+
+
+---
+
+<a id="cpulsecell_outflow_playvoline__cursorstate_t"></a>
+
+## 🔌 CPulseCell_Outflow_PlayVOLine__CursorState_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CPulseCell_Outflow_PlayVOLine__CursorState_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `SceneInstance` | `ref CHandle\<CBaseEntity\>` | get | - |
 
 
 
@@ -41385,7 +42366,7 @@ void ExposureControlUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `MethodName` | `SchemaUntypedField` | get | - |
-| `GameBlackboard` | `SchemaUntypedField` | get | - |
+| `BlackboardIndex` | `PulseRuntimeBlackboardReferenceIndex_t` | get | - |
 | `AsyncCallMode` | `ref PulseMethodCallMode_t` | get | - |
 | `OnFinished` | `CPulse_ResumePoint` | get | - |
 
@@ -42983,6 +43964,10 @@ void CurrentMaxRagdollCountUpdated()
 | `LastUpdateTickCount` | `ref uint` | get | - |
 | `AllAsleep` | `ref bool` | get | - |
 | `FirstCollisionAfterLaunch` | `ref bool` | get | - |
+| `NavObstacleType` | `ref INavObstacle__NavObstacleType_t` | get | - |
+| `UpdateNavWhenMoving` | `ref bool` | get | - |
+| `ForceNavObstacleCut` | `ref bool` | get | - |
+| `AttachedToReferenceFrame` | `ref bool` | get | - |
 | `DamageEntity` | `ref CHandle\<CBaseEntity\>` | get | - |
 | `Killer` | `ref CHandle\<CBaseEntity\>` | get | - |
 | `PhysicsAttacker` | `ref CHandle\<CBasePlayerPawn\>` | get | - |
@@ -43001,6 +43986,7 @@ void CurrentMaxRagdollCountUpdated()
 | `RagdollMins` | `ref CUtlVector\<Vector\>` | get | - |
 | `RagdollMaxs` | `ref CUtlVector\<Vector\>` | get | - |
 | `ShouldDeleteActivationRecord` | `ref bool` | get | - |
+| `NavObstacles` | `ref CUtlVector\<PointerTo\<INavObstacle\>\>` | get | - |
 
 ### ⚙️ 方法
 
@@ -43299,6 +44285,29 @@ void ShowLightUpdated()
 | `Type` | `ref RelativeLocationType_t` | get | - |
 | `RelativeOffset` | `ref Vector` | get, set | - |
 | `WorldSpacePos` | `ref Vector` | get | - |
+| `Entity` | `ref CHandle\<CBaseEntity\>` | get | - |
+
+
+
+---
+
+<a id="crelativetransform"></a>
+
+## 🔌 CRelativeTransform
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CRelativeTransform\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TransformIsWorldSpace` | `ref bool` | get | - |
+| `Transform` | `ref CTransform` | get | - |
+| `TransformWS` | `ref CTransform` | get | - |
 | `Entity` | `ref CHandle\<CBaseEntity\>` | get | - |
 
 
@@ -43647,6 +44656,28 @@ void BombPlanterUpdated()
 | `LoadTime` | `ref float` | get | - |
 | `Duration` | `ref float` | get | - |
 | `HoldTime` | `ref float` | get | - |
+
+
+
+---
+
+<a id="crootmotion"></a>
+
+## 🔌 CRootMotion
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CRootMotion\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `DeltaTransform` | `SchemaUntypedField` | get | - |
+| `VelocityMS` | `ref Vector` | get | - |
+| `UpOverride` | `ref Vector` | get | - |
 
 
 
@@ -44024,6 +45055,7 @@ void EndAttachmentUpdated()
 | `DefuseStarts` | `ref int` | get | - |
 | `HostagePickUps` | `ref int` | get | - |
 | `NumTeammatesFlashed` | `ref int` | get | - |
+| `StrAnnotationsWorkshopId` | `string` | get, set | - |
 
 
 
@@ -44627,6 +45659,29 @@ void EnemiesFlashedUpdated()
 
 ---
 
+<a id="cscenecriteria"></a>
+
+## 🔌 CSceneCriteria
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CSceneCriteria\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Owner` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `Priority` | `ref InteractionPriority_t` | get | - |
+| `InterestReqTags` | `SceneInterestTags_t` | get | - |
+| `InterestOptTags` | `SceneInterestTags_t` | get | - |
+
+
+
+---
+
 <a id="csceneentity"></a>
 
 ## 🔌 CSceneEntity
@@ -44660,11 +45715,13 @@ void EnemiesFlashedUpdated()
 | `Target66` | `ref CHandle\<CBaseEntity\>` | get | - |
 | `Target77` | `ref CHandle\<CBaseEntity\>` | get | - |
 | `Target88` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `LocatorOrigin` | `ref CHandle\<CBaseEntity\>` | get | - |
 | `TargetAttachment` | `string` | get, set | - |
 | `IsPlayingBack` | `ref bool` | get | - |
 | `Paused` | `ref bool` | get | - |
 | `Multiplayer` | `ref bool` | get | - |
 | `Autogenerated` | `ref bool` | get | - |
+| `AllRequirementsComplete` | `ref bool` | get | - |
 | `ForceClientTime` | `ref float` | get | - |
 | `CurrentTime` | `ref float` | get | - |
 | `FrameTime` | `ref float` | get | - |
@@ -44680,9 +45737,10 @@ void EnemiesFlashedUpdated()
 | `WaitingForActor` | `ref bool` | get | - |
 | `WaitingForInterrupt` | `ref bool` | get | - |
 | `InterruptedActorsScenes` | `ref bool` | get | - |
+| `TakeOverNPCBehavior` | `ref bool` | get | - |
 | `BreakOnNonIdle` | `ref bool` | get | - |
 | `SceneFinished` | `ref bool` | get | - |
-| `ActorList` | `ref CUtlVector\<CHandle\<CBaseFlex\>\>` | get | - |
+| `ActorList` | `ref CUtlVector\<CHandle\<CBaseModelEntity\>\>` | get | - |
 | `RemoveActorList` | `ref CUtlVector\<CHandle\<CBaseEntity\>\>` | get | - |
 | `SceneStringIndex` | `ref ushort` | get | - |
 | `OnStart` | `ref CEntityIOOutput` | get | - |
@@ -44690,6 +45748,7 @@ void EnemiesFlashedUpdated()
 | `OnCanceled` | `ref CEntityIOOutput` | get | - |
 | `OnPaused` | `ref CEntityIOOutput` | get | - |
 | `OnResumed` | `ref CEntityIOOutput` | get | - |
+| `OnPulseRequirement` | `ref CEntityIOOutput` | get | - |
 | `InterruptScene` | `ref CHandle\<CSceneEntity\>` | get | - |
 | `InterruptCount` | `ref int` | get | - |
 | `SceneMissing` | `ref bool` | get | - |
@@ -44701,7 +45760,7 @@ void EnemiesFlashedUpdated()
 | `ListManagers` | `ref CUtlVector\<CHandle\<CSceneListManager\>\>` | get | - |
 | `SoundName` | `string` | get, set | - |
 | `SequenceName` | `string` | get, set | - |
-| `Actor` | `ref CHandle\<CBaseFlex\>` | get | - |
+| `Actor` | `ref CHandle\<CBaseModelEntity\>` | get | - |
 | `Activator` | `ref CHandle\<CBaseEntity\>` | get | - |
 | `BusyActor` | `ref int` | get | - |
 | `PlayerDeathBehavior` | `ref SceneOnPlayerDeath_t` | get | - |
@@ -44730,6 +45789,12 @@ void MultiplayerUpdated()
 
 ```csharp
 void AutogeneratedUpdated()
+```
+
+#### AllRequirementsCompleteUpdated
+
+```csharp
+void AllRequirementsCompleteUpdated()
 ```
 
 #### ForceClientTimeUpdated
@@ -44876,6 +45941,43 @@ void SceneStringIndexUpdated()
 
 ---
 
+<a id="csceneopportunity"></a>
+
+## 🔌 CSceneOpportunity
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CSceneOpportunity\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Owner` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `Handle` | `SceneOpportunityHandle_t` | get | - |
+| `StrInteractVDataName` | `string` | get, set | - |
+| `Enabled` | `ref bool` | get | - |
+| `Active` | `ref bool` | get | - |
+| `Priority` | `ref InteractionPriority_t` | get | - |
+| `Radius` | `ref float` | get | - |
+| `LocalInterestReqTags` | `SceneInterestTags_t` | get | - |
+| `LocalInterestOptTags` | `SceneInterestTags_t` | get | - |
+| `OwnerFOV` | `ref float` | get | - |
+| `ActorList` | `ref CUtlVector\<SceneOpportunityActor_t\>` | get | - |
+| `LookTarget` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `Duration` | `ref float` | get | - |
+| `TStartTime` | `GameTime_t` | get | - |
+| `Cooldown` | `ref float` | get | - |
+| `TCooldownTime` | `GameTime_t` | get | - |
+| `RepeatCount` | `ref int` | get | - |
+| `DisableOnExit` | `ref bool` | get | - |
+
+
+
+---
+
 <a id="cscenepayloadvdata"></a>
 
 ## 🔌 CScenePayloadVData
@@ -44890,7 +45992,10 @@ void SceneStringIndexUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `NPCBehavior` | `ref ENPCBehaviorOverride_t` | get | - |
+| `PulseFile` | `SchemaUntypedField` | get | - |
 | `SceneFile` | `SchemaUntypedField` | get | - |
+| `Priority` | `ref InteractionPriority_t` | get | - |
 
 
 
@@ -44910,9 +46015,15 @@ void SceneStringIndexUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PayloadTypeName` | `string` | get, set | - |
+| `PayloadVDataName` | `string` | get, set | - |
 | `Handle` | `SceneRequestHandle_t` | get | - |
 | `State` | `ref ESceneRequestState_t` | get | - |
+| `NPCBehaviorOverride` | `ref ENPCBehaviorOverride_t` | get | - |
+| `ActorMap` | `ref CUtlVector\<SceneRequestTargetMapPair_t\>` | get | - |
+| `AnchorMap` | `ref CUtlVector\<SceneRequestTargetMapPair_t\>` | get | - |
+| `GraphMap` | `ref CUtlVector\<SceneRequestTargetMapPair_t\>` | get | - |
+| `Owner` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `NameMapKV3` | `SchemaUntypedField` | get | - |
 
 
 
@@ -46125,7 +47236,6 @@ void ShardDescUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `ModelState` | `CModelState` | get | - |
-| `IsAnimationEnabled` | `ref bool` | get | - |
 | `UseParentRenderBounds` | `ref bool` | get | - |
 | `DisableSolidCollisionsForHierarchy` | `ref bool` | get | - |
 | `DirtyMotionType` | `SchemaUntypedField` | get | - |
@@ -46140,12 +47250,6 @@ void ShardDescUpdated()
 
 ```csharp
 void ModelStateUpdated()
-```
-
-#### IsAnimationEnabledUpdated
-
-```csharp
-void IsAnimationEnabledUpdated()
 ```
 
 #### UseParentRenderBoundsUpdated
@@ -46479,6 +47583,95 @@ void VoxelUpdateUpdated()
 
 ---
 
+<a id="csndseqinstbaseschema"></a>
+
+## 🔌 CSndSeqInstBaseSchema
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CSndSeqInstBaseSchema\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Type` | `ref SndSeqInstrumentType_t` | get | - |
+| `PlayerType` | `ref SndSeqPlayerType_t` | get | - |
+| `StopCurrentEvents` | `ref bool` | get | - |
+| `BPM` | `ref float` | get | - |
+| `BPMFactor` | `ref float` | get | - |
+| `BPMInvFactor` | `ref float` | get | - |
+
+
+
+---
+
+<a id="csndseqinstmidisampler"></a>
+
+## 🔌 CSndSeqInstMidiSampler
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CSndSeqInstBaseSchema`
+
+**实现接口:** `ISchemaClass\<CSndSeqInstMidiSampler\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `IsSoundEvent` | `ref bool` | get | - |
+| `StopPrevious` | `ref bool` | get | - |
+| `MinNote` | `ref byte` | get | - |
+| `MaxNote` | `ref byte` | get | - |
+| `MinVelocityAtten` | `ref float` | get | - |
+| `MaxVelocityAtten` | `ref float` | get | - |
+| `Attack` | `ref float` | get | - |
+| `Release` | `ref float` | get | - |
+| `BeatEnvelopes` | `ref bool` | get | - |
+| `NextVoiceSlot` | `ref byte` | get | - |
+| `SoundEventHash` | `ref uint` | get | - |
+
+
+
+---
+
+<a id="csndseqinstsndevtschema"></a>
+
+## 🔌 CSndSeqInstSndEvtSchema
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CSndSeqInstBaseSchema`
+
+**实现接口:** `ISchemaClass\<CSndSeqInstSndEvtSchema\>`
+
+
+
+---
+
+<a id="csndseqinstruments"></a>
+
+## 🔌 CSndSeqInstruments
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISndSeqInstruments`
+
+**实现接口:** `ISchemaClass\<CSndSeqInstruments\>`
+
+
+
+---
+
 <a id="csolveikchainupdatenode"></a>
 
 ## 🔌 CSolveIKChainUpdateNode
@@ -46573,6 +47766,33 @@ void VoxelUpdateUpdated()
 | `Decay` | `ref float` | get | - |
 | `ResultVarName` | `string` | get, set | - |
 | `SaveToGroup` | `ref bool` | get | - |
+
+
+
+---
+
+<a id="csosgroupactionocclusionschema"></a>
+
+## 🔌 CSosGroupActionOcclusionSchema
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CSosGroupActionSchema`
+
+**实现接口:** `ISchemaClass\<CSosGroupActionOcclusionSchema\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CalculationInterval` | `ref float` | get | - |
+| `Radius` | `ref float` | get | - |
+| `OcclusionScale` | `ref float` | get | - |
+| `OcclusionMin` | `ref float` | get | - |
+| `OcclusionMax` | `ref float` | get | - |
+| `TestDepth` | `ref float` | get | - |
 
 
 
@@ -46930,6 +48150,7 @@ void RadiusUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Namespace` | `string` | get, set | - |
 | `UseReference` | `ref bool` | get | - |
 | `Sound` | `ref CStrongHandle\<InfoForResourceTypeCVoiceContainerBase\>` | get | - |
 | `Sound1` | `CVoiceContainerBase?` | get | - |
@@ -47637,6 +48858,7 @@ void FastRefreshUpdated()
 |------|------|--------|------|
 | `AnchorOffsetRestore` | `ref Vector` | get, set | - |
 | `SplineEntity` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `SplineBody` | `IPhysicsBody?` | get | - |
 | `EnableLateralConstraint` | `ref bool` | get | - |
 | `EnableVerticalConstraint` | `ref bool` | get | - |
 | `EnableAngularConstraint` | `ref bool` | get | - |
@@ -47933,6 +49155,29 @@ void HDRColorScaleUpdated()
 
 ---
 
+<a id="cstatemachineinstancedata"></a>
+
+## 🔌 CStateMachineInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CStateMachineInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TimeInState` | `ref float` | get | - |
+| `CurrentTransitionIndex` | `SchemaUntypedField` | get | - |
+| `PrevStateIndex` | `ref int` | get | - |
+| `ScheduledTransitionIndex` | `ref int` | get | - |
+
+
+
+---
+
 <a id="cstatemachineupdatenode"></a>
 
 ## 🔌 CStateMachineUpdateNode
@@ -47955,6 +49200,29 @@ void HDRColorScaleUpdated()
 | `BlockWaningTags` | `ref bool` | get | - |
 | `LockStateWhenWaning` | `ref bool` | get | - |
 | `ResetWhenActivated` | `ref bool` | get, set | - |
+
+
+
+---
+
+<a id="cstatenodeinstancedata"></a>
+
+## 🔌 CStateNodeInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CStateNodeInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `StateWeights` | `SchemaUntypedField` | get | - |
+| `TransitionVelocityDeltaWS` | `ref Vector` | get | - |
+| `CurrentStateStartTime` | `SchemaUntypedField` | get | - |
+| `ResetCount` | `SchemaUntypedField` | get, set | - |
 
 
 
@@ -48229,15 +49497,15 @@ void HDRColorScaleUpdated()
 
 ---
 
-<a id="ctakedamageinfoapi"></a>
+<a id="ctakedamageresultapi"></a>
 
-## 🔌 CTakeDamageInfoAPI
+## 🔌 CTakeDamageResultAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
 **类型:** `interface`
 
-**继承:** `ISchemaClass\<CTakeDamageInfoAPI\>`
+**继承:** `ISchemaClass\<CTakeDamageResultAPI\>`
 
 
 
@@ -48479,29 +49747,6 @@ void TeamnameUpdated()
 
 ---
 
-<a id="ctestblendcontainer"></a>
-
-## 🔌 CTestBlendContainer
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `CVoiceContainerBase`
-
-**实现接口:** `ISchemaClass\<CTestBlendContainer\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `FirstSound` | `ref CStrongHandle\<InfoForResourceTypeCVoiceContainerBase\>` | get | - |
-| `SecondSound` | `ref CStrongHandle\<InfoForResourceTypeCVoiceContainerBase\>` | get | - |
-
-
-
----
-
 <a id="ctestdomainderived_cursor"></a>
 
 ## 🔌 CTestDomainDerived_Cursor
@@ -48575,6 +49820,21 @@ void TeamnameUpdated()
 | `OnVariantColor` | `SchemaUntypedField` | get | - |
 | `OnVariantVector` | `SchemaUntypedField` | get | - |
 | `AllowEmptyInputs` | `ref bool` | get | - |
+| `TestComponent` | `CTestPulseIOComponent_Derived` | get | - |
+| `OnInternalTestVoid` | `ref CEntityIOOutput` | get | - |
+| `OnInternalTestBool` | `SchemaUntypedField` | get | - |
+| `OnInternalTestInt` | `SchemaUntypedField` | get | - |
+| `OnInternalTestFloat` | `SchemaUntypedField` | get | - |
+| `OnInternalTestString` | `SchemaUntypedField` | get | - |
+| `OnInternalTestColor` | `SchemaUntypedField` | get | - |
+| `OnInternalTestVector` | `SchemaUntypedField` | get | - |
+| `OnInternalTestEntityName` | `SchemaUntypedField` | get | - |
+| `OnInternalTestEntityHandle` | `SchemaUntypedField` | get | - |
+| `OnInternalTestSchemaEnum` | `SchemaUntypedField` | get | - |
+| `OnInternalTestFloatString` | `SchemaUntypedField` | get | - |
+| `OnInternalTestEntityNameString` | `SchemaUntypedField` | get | - |
+| `OnInternalTestEntityHandleInt` | `SchemaUntypedField` | get | - |
+| `OnInternalTestStringStringString` | `SchemaUntypedField` | get | - |
 
 
 
@@ -48589,6 +49849,156 @@ void TeamnameUpdated()
 **类型:** `interface`
 
 **继承:** `ISchemaClass\<CTestPulseIOAPI\>`
+
+
+
+---
+
+<a id="ctestpulseiocomponent"></a>
+
+## 🔌 CTestPulseIOComponent
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CTestPulseIOComponent\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ComponentData` | `string` | get, set | - |
+| `OnComponentTestFunc` | `SchemaUntypedField` | get | - |
+
+
+
+---
+
+<a id="ctestpulseiocomponent_api"></a>
+
+## 🔌 CTestPulseIOComponent_API
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CTestPulseIOComponent_API\>`
+
+
+
+---
+
+<a id="ctestpulseiocomponent_derived"></a>
+
+## 🔌 CTestPulseIOComponent_Derived
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CTestPulseIOComponent`
+
+**实现接口:** `ISchemaClass\<CTestPulseIOComponent_Derived\>`
+
+
+
+---
+
+<a id="ctestpulseiocomponent_derivedapi"></a>
+
+## 🔌 CTestPulseIOComponent_DerivedAPI
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CTestPulseIOComponent_DerivedAPI\>`
+
+
+
+---
+
+<a id="ctestpulseio__entityhandleintargs_t"></a>
+
+## 🔌 CTestPulseIO__EntityHandleIntArgs_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CTestPulseIO__EntityHandleIntArgs_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `HandleA` | `ref CHandle\<CEntityInstance\>` | get | - |
+| `ValueB` | `ref int` | get | - |
+
+
+
+---
+
+<a id="ctestpulseio__entitynamestringargs_t"></a>
+
+## 🔌 CTestPulseIO__EntityNameStringArgs_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CTestPulseIO__EntityNameStringArgs_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `NameA` | `SchemaUntypedField` | get | - |
+| `StrValueB` | `string` | get, set | - |
+
+
+
+---
+
+<a id="ctestpulseio__floatstringargs_t"></a>
+
+## 🔌 CTestPulseIO__FloatStringArgs_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CTestPulseIO__FloatStringArgs_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OutFloat` | `ref float` | get | - |
+| `StrOutString` | `string` | get, set | - |
+
+
+
+---
+
+<a id="ctestpulseio__threestringargs_t"></a>
+
+## 🔌 CTestPulseIO__ThreeStringArgs_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CTestPulseIO__ThreeStringArgs_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `StrArg1` | `string` | get, set | - |
+| `StrArg2` | `string` | get, set | - |
+| `StrArg3` | `string` | get, set | - |
 
 
 
@@ -48744,50 +50154,6 @@ void StartFrameUpdated()
 | `FinalValue` | `ref float` | get | - |
 | `CompressionType` | `ref TimelineCompression_t` | get | - |
 | `Stopped` | `ref bool` | get | - |
-
-### ⚙️ 方法
-
-#### ValuesUpdated
-
-```csharp
-void ValuesUpdated()
-```
-
-#### ValueCountsUpdated
-
-```csharp
-void ValueCountsUpdated()
-```
-
-#### BucketCountUpdated
-
-```csharp
-void BucketCountUpdated()
-```
-
-#### IntervalUpdated
-
-```csharp
-void IntervalUpdated()
-```
-
-#### FinalValueUpdated
-
-```csharp
-void FinalValueUpdated()
-```
-
-#### CompressionTypeUpdated
-
-```csharp
-void CompressionTypeUpdated()
-```
-
-#### StoppedUpdated
-
-```csharp
-void StoppedUpdated()
-```
 
 
 
@@ -49522,6 +50888,7 @@ void TestAllVisibleOcclusionUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Controller` | `IPhysicsMotionController?` | get | - |
 | `GravityScale` | `ref float` | get | - |
 | `LinearLimit` | `ref float` | get | - |
 | `LinearDamping` | `ref float` | get | - |
@@ -49667,7 +51034,7 @@ void ConvertToDebrisWhenPossibleUpdated()
 | `TriggerOnStartTouch` | `ref bool` | get | - |
 | `UsePathSimple` | `ref bool` | get | - |
 | `PathSimpleName` | `string` | get, set | - |
-| `PathSimple` | `CPathSimple?` | get | - |
+| `PathSimple` | `ref CHandle\<CPathSimple\>` | get | - |
 | `SplinePushType` | `ref uint` | get | - |
 
 
@@ -49838,6 +51205,28 @@ void ConvertToDebrisWhenPossibleUpdated()
 |------|------|--------|------|
 | `FilterName` | `string` | get, set | - |
 | `Filter` | `ref CHandle\<CBaseFilter\>` | get | - |
+
+
+
+---
+
+<a id="cturnhelperinstancedata"></a>
+
+## 🔌 CTurnHelperInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CTurnHelperInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TurnAmount` | `ref float` | get | - |
+| `TurnStartTime` | `ref float` | get | - |
+| `Duration` | `ref float` | get | - |
 
 
 
@@ -51930,6 +53319,29 @@ void IsYesNoVoteUpdated()
 
 ---
 
+<a id="cwaypointhelperinstancedata"></a>
+
+## 🔌 CWayPointHelperInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<CWayPointHelperInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Movement` | `ref Vector` | get | - |
+| `Rotation` | `ref QAngle` | get | - |
+| `WaypointPosWS` | `ref Vector` | get | - |
+| `StopUpdatingWaypointPos` | `ref bool` | get | - |
+
+
+
+---
+
 <a id="cwaypointhelperupdatenode"></a>
 
 ## 🔌 CWayPointHelperUpdateNode
@@ -53109,12 +54521,11 @@ void FireTimeUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ControlPointNumber` | `ref int` | get | - |
-| `OverrideCP` | `ref int` | get | - |
-| `Density` | `ref int` | get | - |
-| `InitialRadius` | `ref float` | get | - |
-| `InitialSpeedMin` | `ref float` | get | - |
-| `InitialSpeedMax` | `ref float` | get | - |
+| `TransformInput` | `CParticleTransformInput` | get | - |
+| `Density` | `CPerParticleFloatInput` | get | - |
+| `InitialRadius` | `CPerParticleFloatInput` | get | - |
+| `InitialSpeedMin` | `CPerParticleFloatInput` | get | - |
+| `InitialSpeedMax` | `CPerParticleFloatInput` | get | - |
 | `UseParticleCount` | `ref bool` | get | - |
 
 
@@ -54048,15 +55459,15 @@ void FireTimeUpdated()
 |------|------|--------|------|
 | `Offset` | `CPerParticleFloatInput` | get, set | - |
 | `MaxTraceLength` | `CPerParticleFloatInput` | get | - |
+| `TraceDir` | `CPerParticleVecInput` | get | - |
 | `CollisionGroupName` | `string` | get, set | - |
 | `TraceSet` | `ref ParticleTraceSet_t` | get | - |
 | `TraceMissBehavior` | `ref ParticleTraceMissBehavior_t` | get | - |
 | `IncludeWater` | `ref bool` | get | - |
-| `SetNormal` | `ref bool` | get | - |
 | `Attribute` | `ParticleAttributeIndex_t` | get | - |
 | `SetPXYZOnly` | `ref bool` | get | - |
-| `TraceAlongNormal` | `ref bool` | get | - |
-| `TraceDirectionAttribute` | `ParticleAttributeIndex_t` | get | - |
+| `SetNormal` | `ref bool` | get | - |
+| `GroundNormalAttribute` | `ParticleAttributeIndex_t` | get | - |
 | `OffsetonColOnly` | `ref bool` | get, set | - |
 | `OffsetByRadiusFactor` | `ref float` | get, set | - |
 | `PreserveOffsetCP` | `ref int` | get, set | - |
@@ -57284,6 +58695,7 @@ void FireTimeUpdated()
 | `Scale` | `CPerParticleFloatInput` | get | - |
 | `FieldOutput` | `ParticleAttributeIndex_t` | get | - |
 | `Increment` | `CPerParticleFloatInput` | get | - |
+| `SubSample` | `ref bool` | get | - |
 | `RandomDistribution` | `ref bool` | get | - |
 | `Reverse` | `ref bool` | get | - |
 | `MissingParentBehavior` | `ref MissingParentInheritBehavior_t` | get | - |
@@ -58093,6 +59505,7 @@ void FireTimeUpdated()
 | `Offset` | `CPerParticleFloatInput` | get, set | - |
 | `MaxTraceLength` | `ref float` | get | - |
 | `Tolerance` | `ref float` | get | - |
+| `TraceDir` | `CPerParticleVecInput` | get | - |
 | `TraceOffset` | `ref float` | get, set | - |
 | `LerpRate` | `ref float` | get | - |
 | `CollisionGroupName` | `string` | get, set | - |
@@ -58192,6 +59605,41 @@ void FireTimeUpdated()
 | `FullLoopIncrement` | `CParticleCollectionFloatInput` | get | - |
 | `SnapShotStartPoint` | `CParticleCollectionFloatInput` | get | - |
 | `Interpolation` | `CPerParticleFloatInput` | get | - |
+
+
+
+---
+
+<a id="c_op_multisegmentdisplaysnapshotgenerator"></a>
+
+## 🔌 C_OP_MultiSegmentDisplaySnapshotGenerator
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CParticleFunctionPreEmission`
+
+**实现接口:** `ISchemaClass\<C_OP_MultiSegmentDisplaySnapshotGenerator\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CPSnapshot` | `ref int` | get | - |
+| `SegCount` | `ref ParticleMultiSegmentCountSelection_t` | get | - |
+| `InputType` | `ref ParticleMultiSegmentInputSelection_t` | get | - |
+| `StrDefaultString` | `string` | get, set | - |
+| `Value` | `CParticleCollectionFloatInput` | get | - |
+| `SpecialCharList` | `ref CUtlVector\<ParticleMultiSegmentSpecialCharacter_t\>` | get | - |
+| `ColorUnlit` | `CParticleCollectionVecInput` | get | - |
+| `ColorLit` | `CParticleCollectionVecInput` | get | - |
+| `Radius` | `CParticleCollectionFloatInput` | get | - |
+| `Spacing` | `CParticleCollectionFloatInput` | get | - |
+| `MinCount` | `CParticleCollectionFloatInput` | get | - |
+| `MaxCount` | `CParticleCollectionFloatInput` | get | - |
+| `PrependEmpty` | `ref bool` | get | - |
+| `DigitsAfterDecimal` | `CParticleCollectionFloatInput` | get | - |
 
 
 
@@ -60177,6 +61625,29 @@ void FireTimeUpdated()
 
 ---
 
+<a id="c_op_remapvectortorotations"></a>
+
+## 🔌 C_OP_RemapVectorToRotations
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CParticleFunctionOperator`
+
+**实现接口:** `ISchemaClass\<C_OP_RemapVectorToRotations\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Input` | `CPerParticleVecInput` | get | - |
+| `Rotation` | `CPerParticleVecInput` | get | - |
+
+
+
+---
+
 <a id="c_op_remapvectortocp"></a>
 
 ## 🔌 C_OP_RemapVectortoCP
@@ -60499,10 +61970,13 @@ void FireTimeUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `MaxAllowed` | `ref ushort` | get | - |
 | `ColorBlend` | `CParticleCollectionVecInput` | get | - |
 | `ColorBlendType` | `ref ParticleColorBlendType_t` | get | - |
 | `BrightnessLumensPerMeter` | `CParticleCollectionFloatInput` | get | - |
 | `CastShadows` | `ref bool` | get | - |
+| `DynamicBounce` | `ref bool` | get | - |
+| `BounceScale` | `CParticleCollectionFloatInput` | get | - |
 | `Skirt` | `CParticleCollectionFloatInput` | get | - |
 | `Range` | `CParticleCollectionFloatInput` | get | - |
 | `Thickness` | `CParticleCollectionFloatInput` | get | - |
@@ -60613,6 +62087,7 @@ void FireTimeUpdated()
 | `ActivityName` | `string` | get, set | - |
 | `SequenceName` | `string` | get, set | - |
 | `EnableClothSimulation` | `ref bool` | get | - |
+| `DisableClothGroundCollision` | `ref bool` | get | - |
 | `ClothEffectName` | `string` | get, set | - |
 | `OverrideMaterial` | `ref CStrongHandle\<InfoForResourceTypeIMaterial2\>` | get | - |
 | `OverrideTranslucentMaterials` | `ref bool` | get | - |
@@ -60661,12 +62136,15 @@ void FireTimeUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `LightType` | `ref ParticleOmni2LightTypeChoiceList_t` | get | - |
+| `MaxAllowed` | `ref ushort` | get | - |
 | `ColorBlend` | `CParticleCollectionVecInput` | get | - |
 | `ColorBlendType` | `ref ParticleColorBlendType_t` | get | - |
 | `BrightnessUnit` | `ref ParticleLightUnitChoiceList_t` | get | - |
 | `BrightnessLumens` | `CPerParticleFloatInput` | get | - |
 | `BrightnessCandelas` | `CPerParticleFloatInput` | get | - |
 | `CastShadows` | `ref bool` | get | - |
+| `DynamicBounce` | `ref bool` | get | - |
+| `BounceScale` | `CParticleCollectionFloatInput` | get | - |
 | `Fog` | `ref bool` | get | - |
 | `FogScale` | `CPerParticleFloatInput` | get | - |
 | `LuminaireRadius` | `CPerParticleFloatInput` | get | - |
@@ -61003,10 +62481,13 @@ void FireTimeUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `LightType` | `ref ParticleLightTypeChoiceList_t` | get | - |
+| `MaxAllowed` | `ref ushort` | get | - |
 | `ColorScale` | `CParticleCollectionVecInput` | get | - |
 | `ColorBlendType` | `ref ParticleColorBlendType_t` | get | - |
 | `Intensity` | `CPerParticleFloatInput` | get | - |
 | `CastShadows` | `ref bool` | get | - |
+| `DynamicBounce` | `ref bool` | get | - |
+| `BounceScale` | `CParticleCollectionFloatInput` | get | - |
 | `Theta` | `CParticleCollectionFloatInput` | get | - |
 | `Phi` | `CParticleCollectionFloatInput` | get | - |
 | `RadiusMultiplier` | `CParticleCollectionFloatInput` | get | - |
@@ -61206,6 +62687,39 @@ void FireTimeUpdated()
 | `OutputHandCP` | `ref int` | get | - |
 | `OutputField` | `ref int` | get | - |
 | `Amplitude` | `CPerParticleFloatInput` | get | - |
+
+
+
+---
+
+<a id="c_op_rendervolumetricemitter"></a>
+
+## 🔌 C_OP_RenderVolumetricEmitter
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `CParticleFunctionRenderer`
+
+**实现接口:** `ISchemaClass\<C_OP_RenderVolumetricEmitter\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `StrChannelType` | `string` | get, set | - |
+| `Type` | `ref ParticleVolumetricSmokeType_t` | get | - |
+| `CreationType` | `ref ParticleVolumetricSmokeCreationType_t` | get | - |
+| `EventType` | `ref EventTypeSelection_t` | get | - |
+| `Pos` | `CPerParticleVecInput` | get | - |
+| `Velocity` | `CPerParticleVecInput` | get | - |
+| `Radius` | `CPerParticleFloatInput` | get | - |
+| `Density` | `CPerParticleFloatInput` | get | - |
+| `Temperature` | `CPerParticleFloatInput` | get | - |
+| `Magnitude` | `CPerParticleFloatInput` | get | - |
+| `KillRadius` | `CPerParticleFloatInput` | get | - |
+| `Falloff` | `CPerParticleFloatInput` | get | - |
 
 
 
@@ -62298,6 +63812,7 @@ void FireTimeUpdated()
 | `CPInput` | `ref int` | get | - |
 | `CPOutput` | `ref int` | get | - |
 | `Scale` | `CParticleCollectionFloatInput` | get | - |
+| `SetPosition` | `ref bool` | get | - |
 | `SetOrientation` | `ref bool` | get | - |
 | `SetZDown` | `ref bool` | get | - |
 
@@ -63318,6 +64833,31 @@ void FireTimeUpdated()
 
 ---
 
+<a id="choreoexternalanimgraphcontrolstate_t"></a>
+
+## 📋 ChoreoExternalAnimgraphControlState_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eNone` | `0` | - |
+| `eBegin` | `1` | - |
+| `eLooping` | `2` | - |
+| `eExit` | `3` | - |
+| `eAbort` | `4` | - |
+| `eCount` | `5` | - |
+
+
+
+---
+
 <a id="choreolookatmode_t"></a>
 
 ## 📋 ChoreoLookAtMode_t
@@ -63487,20 +65027,6 @@ void FireTimeUpdated()
 |------|------|--------|------|
 | `MinBounds` | `ref Vector` | get | - |
 | `MaxBounds` | `ref Vector` | get | - |
-
-### ⚙️ 方法
-
-#### MinBoundsUpdated
-
-```csharp
-void MinBoundsUpdated()
-```
-
-#### MaxBoundsUpdated
-
-```csharp
-void MaxBoundsUpdated()
-```
 
 
 
@@ -63779,6 +65305,28 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="dampedpathmotorinstancedata_t"></a>
+
+## 🔌 DampedPathMotorInstanceData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<DampedPathMotorInstanceData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Velocity` | `ref Vector` | get | - |
+| `Acceleration` | `ref Vector` | get | - |
+| `Stopping` | `ref bool` | get | - |
+
+
+
+---
+
 <a id="dampingspeedfunction"></a>
 
 ## 📋 DampingSpeedFunction
@@ -63797,6 +65345,28 @@ void WorldGroupIdUpdated()
 | `Constant` | `1` | - |
 | `Spring` | `2` | - |
 | `AsymmetricSpring` | `3` | - |
+
+
+
+---
+
+<a id="debugdrawbonetransforms_t"></a>
+
+## 🔌 DebugDrawBoneTransforms_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `DebugSnapshotBaseStructuredData_t`
+
+**实现接口:** `ISchemaClass\<DebugDrawBoneTransforms_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Bones` | `SchemaUntypedField` | get | - |
 
 
 
@@ -63861,6 +65431,20 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="debugsnapshotbasestructureddata_t"></a>
+
+## 🔌 DebugSnapshotBaseStructuredData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<DebugSnapshotBaseStructuredData_t\>`
+
+
+
+---
+
 <a id="decalflags_t"></a>
 
 ## 📋 DecalFlags_t
@@ -63910,31 +65494,6 @@ void WorldGroupIdUpdated()
 
 ---
 
-<a id="decalmode_t"></a>
-
-## 📋 DecalMode_t
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `enum`
-
-**继承:** `byte`
-
-### 📋 枚举值
-
-| 名称 | 值 | 描述 |
-|------|------|------|
-| `kDecalInvalid` | `255` | - |
-| `kDecalBlood` | `0` | - |
-| `kDecalCloak` | `1` | - |
-| `kDecalCloakDamage` | `2` | - |
-| `kDecalMax` | `3` | - |
-| `kDecalDefault` | `0` | - |
-
-
-
----
-
 <a id="decalrtencoding_t"></a>
 
 ## 📋 DecalRtEncoding_t
@@ -63960,22 +65519,43 @@ void WorldGroupIdUpdated()
 
 ---
 
-<a id="destructiblehitgrouptodestroy_t"></a>
+<a id="destructiblepartdamagerequestapi"></a>
 
-## 🔌 DestructibleHitGroupToDestroy_t
+## 🔌 DestructiblePartDamageRequestAPI
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
 **类型:** `interface`
 
-**继承:** `ISchemaClass\<DestructibleHitGroupToDestroy_t\>`
+**继承:** `ISchemaClass\<DestructiblePartDamageRequestAPI\>`
+
+
+
+---
+
+<a id="destructiblepartdamagerequest_t"></a>
+
+## 🔌 DestructiblePartDamageRequest_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<DestructiblePartDamageRequest_t\>`
 
 ### 📝 属性
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `HitGroup` | `ref HitGroup_t` | get | - |
-| `MaxDamageLevel` | `ref int` | get | - |
+| `DamageLevel` | `ref int` | get | - |
+| `DesiredHealth` | `ref ushort` | get | - |
+| `DestroyFlags` | `ref EDestructibleParts_DestroyParameterFlags` | get | - |
+| `DamageType` | `ref DamageTypes_t` | get | - |
+| `BreakDamage` | `ref float` | get | - |
+| `BreakDamageRadius` | `ref float` | get | - |
+| `WsBreakDamageOrigin` | `ref Vector` | get | - |
+| `WsBreakDamageForce` | `ref Vector` | get | - |
 
 
 
@@ -63999,31 +65579,6 @@ void WorldGroupIdUpdated()
 | `eKill` | `1` | - |
 | `eGib` | `2` | - |
 | `eRemove` | `3` | - |
-
-
-
----
-
-<a id="destructiblepartdestructionrequest_t"></a>
-
-## 🔌 DestructiblePartDestructionRequest_t
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<DestructiblePartDestructionRequest_t\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `DestroyFlags` | `ref EDestructibleParts_DestroyParameterFlags` | get | - |
-| `DamageType` | `ref DamageTypes_t` | get | - |
-| `PartDamage` | `ref float` | get | - |
-| `PartDamageRadius` | `ref float` | get | - |
-| `WsPartDamageOrigin` | `ref Vector` | get | - |
-| `WsPartDamageForce` | `ref Vector` | get | - |
 
 
 
@@ -64096,6 +65651,7 @@ void WorldGroupIdUpdated()
 | `kDisableShadows_All` | `1` | - |
 | `kDisableShadows_Baked` | `2` | - |
 | `kDisableShadows_Realtime` | `3` | - |
+| `kDisableShadows_ReallyNone` | `4` | - |
 
 
 
@@ -64494,6 +66050,27 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="enpcbehavioroverride_t"></a>
+
+## 📋 ENPCBehaviorOverride_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eKeepExisting` | `0` | - |
+| `eTakeOver` | `1` | - |
+
+
+
+---
+
 <a id="eoverrideblocklos_t"></a>
 
 ## 📋 EOverrideBlockLOS_t
@@ -64603,6 +66180,34 @@ void WorldGroupIdUpdated()
 |------|------|------|
 | `INACTIVE` | `0` | - |
 | `ACTIVE` | `1` | - |
+| `FINISHED` | `2` | - |
+| `FAILED` | `3` | - |
+
+
+
+---
+
+<a id="esceneviewdebugoverlayslistenerdatatype_t"></a>
+
+## 📋 ESceneViewDebugOverlaysListenerDataType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ESceneViewDebugOverlaysListenerDataType_Unknown` | `0` | - |
+| `k_ESceneViewDebugOverlaysListenerDataType_Sphere` | `1` | - |
+| `k_ESceneViewDebugOverlaysListenerDataType_Capsule` | `2` | - |
+| `k_ESceneViewDebugOverlaysListenerDataType_BoxAngles` | `3` | - |
+| `k_ESceneViewDebugOverlaysListenerDataType_Line` | `4` | - |
+| `k_ESceneViewDebugOverlaysListenerDataType_SolidBoxAngles` | `5` | - |
+| `k_ESceneViewDebugOverlaysListenerDataType_Text3D` | `6` | - |
 
 
 
@@ -64695,26 +66300,6 @@ void WorldGroupIdUpdated()
 | `Timestamp` | `ref float` | get | - |
 | `Timescale` | `ref float` | get | - |
 
-### ⚙️ 方法
-
-#### DurationUpdated
-
-```csharp
-void DurationUpdated()
-```
-
-#### TimestampUpdated
-
-```csharp
-void TimestampUpdated()
-```
-
-#### TimescaleUpdated
-
-```csharp
-void TimescaleUpdated()
-```
-
 
 
 ---
@@ -64799,20 +66384,6 @@ void TimescaleUpdated()
 **类型:** `interface`
 
 **继承:** `ISchemaClass\<EntInput_t\>`
-
-
-
----
-
-<a id="entoutput_t"></a>
-
-## 🔌 EntOutput_t
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<EntOutput_t\>`
 
 
 
@@ -64957,6 +66528,34 @@ void TimescaleUpdated()
 | `Delay` | `ref float` | get | - |
 | `TimesToFire` | `ref int` | get | - |
 | `ParamMap` | `SchemaUntypedField` | get | - |
+
+
+
+---
+
+<a id="entityioqueueprioritizedevent_t"></a>
+
+## 🔌 EntityIOQueuePrioritizedEvent_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<EntityIOQueuePrioritizedEvent_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `FireTime` | `GameTime_t` | get | - |
+| `TargetType` | `ref EntityIOTargetType_t` | get | - |
+| `Target` | `string` | get, set | - |
+| `TargetInput` | `string` | get, set | - |
+| `Activator` | `ref CHandle\<CEntityInstance\>` | get | - |
+| `Caller` | `ref CHandle\<CEntityInstance\>` | get | - |
+| `OutputID` | `ref int` | get | - |
+| `EntTarget` | `ref CHandle\<CEntityInstance\>` | get | - |
+| `VariantValue` | `ref CVariant\<CVariantDefaultAllocator\>` | get | - |
 
 
 
@@ -65767,22 +67366,6 @@ void SpottedByMaskUpdated()
 **继承:** `EventSimulate_t`
 
 **实现接口:** `ISchemaClass\<EventServerProcessNetworking_t\>`
-
-
-
----
-
-<a id="eventserversimulate_t"></a>
-
-## 🔌 EventServerSimulate_t
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `EventSimulate_t`
-
-**实现接口:** `ISchemaClass\<EventServerSimulate_t\>`
 
 
 
@@ -68074,6 +69657,58 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="funcmovermovementsummaryflags_t"></a>
+
+## 📋 FuncMoverMovementSummaryFlags_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eNone` | `0` | - |
+| `eMovementBegin` | `1` | - |
+| `eStopBegin` | `2` | - |
+| `eStopComplete` | `4` | - |
+| `eReversing` | `8` | - |
+| `eEventsDispatched` | `16` | - |
+
+
+
+---
+
+<a id="funcmovermovementsummary_t"></a>
+
+## 🔌 FuncMoverMovementSummary_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<FuncMoverMovementSummary_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `StartT` | `ref float` | get | - |
+| `EndT` | `ref float` | get | - |
+| `StartNodeIndex` | `ref int` | get | - |
+| `StopNodeIndex` | `ref int` | get | - |
+| `MovementMode` | `ref int` | get | - |
+| `Flags` | `ref FuncMoverMovementSummaryFlags_t` | get | - |
+| `Tick` | `GameTick_t` | get | - |
+| `PathMover` | `ref CHandle\<CPathMover\>` | get | - |
+
+
+
+---
+
 <a id="functioninfo_t"></a>
 
 ## 🔌 FunctionInfo_t
@@ -68182,6 +69817,73 @@ void SpottedByMaskUpdated()
 | `UINT16` | `6` | - |
 | `UINT32` | `7` | - |
 | `FLOAT32` | `8` | - |
+
+
+
+---
+
+<a id="game_header"></a>
+
+## 🔌 GAME_HEADER
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<GAME_HEADER\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Comment` | `string` | get, set | - |
+| `SpawnGroupCount` | `ref int` | get | - |
+| `Landmark` | `string` | get, set | - |
+| `RequiredAddons` | `string` | get, set | - |
+
+
+
+---
+
+<a id="globalestate"></a>
+
+## 📋 GLOBALESTATE
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `byte`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `GLOBAL_OFF` | `0` | - |
+| `GLOBAL_ON` | `1` | - |
+| `GLOBAL_DEAD` | `2` | - |
+
+
+
+---
+
+<a id="gpuparticlecollisionmode_t"></a>
+
+## 📋 GPUParticleCollisionMode_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_GPU_COLLISION_MODE_RT` | `0` | - |
+| `PARTICLE_GPU_COLLISION_MODE_DEPTH` | `1` | - |
+| `PARTICLE_GPU_COLLISION_MODE_HYBRID` | `2` | - |
 
 
 
@@ -68902,6 +70604,50 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="inavobstacle"></a>
+
+## 🔌 INavObstacle
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<INavObstacle\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Id` | `ref ulong` | get | - |
+
+
+
+---
+
+<a id="inavobstacle__navobstacletype_t"></a>
+
+## 📋 INavObstacle__NavObstacleType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `NAV_OBSTACLE_TYPE_INVALID` | `uint.MaxValue` | - |
+| `NAV_OBSTACLE_TYPE_NONE` | `0` | - |
+| `NAV_OBSTACLE_TYPE_AVOID` | `1` | - |
+| `NAV_OBSTACLE_TYPE_CONN` | `2` | - |
+| `NAV_OBSTACLE_TYPE_BLOCK` | `3` | - |
+
+
+
+---
+
 <a id="iparticlecollection"></a>
 
 ## 🔌 IParticleCollection
@@ -68944,6 +70690,99 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="iphysaggregateinstance"></a>
+
+## 🔌 IPhysAggregateInstance
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `IPhysicsBodyList`
+
+**实现接口:** `ISchemaClass\<IPhysAggregateInstance\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Skeleton` | `SchemaUntypedField` | get | - |
+| `IsAxisAligned` | `ref bool` | get | - |
+
+
+
+---
+
+<a id="iphysicsbody"></a>
+
+## 🔌 IPhysicsBody
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<IPhysicsBody\>`
+
+
+
+---
+
+<a id="iphysicsbodylist"></a>
+
+## 🔌 IPhysicsBodyList
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<IPhysicsBodyList\>`
+
+
+
+---
+
+<a id="iphysicsjoint"></a>
+
+## 🔌 IPhysicsJoint
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<IPhysicsJoint\>`
+
+
+
+---
+
+<a id="iphysicsmotioncontroller"></a>
+
+## 🔌 IPhysicsMotionController
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<IPhysicsMotionController\>`
+
+
+
+---
+
+<a id="iphysicsparticlerope"></a>
+
+## 🔌 IPhysicsParticleRope
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<IPhysicsParticleRope\>`
+
+
+
+---
+
 <a id="iphysicsplayercontroller"></a>
 
 ## 🔌 IPhysicsPlayerController
@@ -68953,6 +70792,20 @@ void SpottedByMaskUpdated()
 **类型:** `interface`
 
 **继承:** `ISchemaClass\<IPhysicsPlayerController\>`
+
+
+
+---
+
+<a id="iphysicsragdollcontrol"></a>
+
+## 🔌 IPhysicsRagdollControl
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<IPhysicsRagdollControl\>`
 
 
 
@@ -68981,6 +70834,20 @@ void SpottedByMaskUpdated()
 **类型:** `interface`
 
 **继承:** `ISchemaClass\<ISkeletonAnimationController\>`
+
+
+
+---
+
+<a id="isndseqinstruments"></a>
+
+## 🔌 ISndSeqInstruments
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<ISndSeqInstruments\>`
 
 
 
@@ -69067,20 +70934,6 @@ void SpottedByMaskUpdated()
 **类型:** `interface`
 
 **继承:** `ISchemaClass\<InfoForResourceTypeCCSGOEconItem\>`
-
-
-
----
-
-<a id="infoforresourcetypecchoreoscenefilelist"></a>
-
-## 🔌 InfoForResourceTypeCChoreoSceneFileList
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<InfoForResourceTypeCChoreoSceneFileList\>`
 
 
 
@@ -69249,20 +71102,6 @@ void SpottedByMaskUpdated()
 **类型:** `interface`
 
 **继承:** `ISchemaClass\<InfoForResourceTypeCNmGraphDefinition\>`
-
-
-
----
-
-<a id="infoforresourcetypecnmikrig"></a>
-
-## 🔌 InfoForResourceTypeCNmIKRig
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<InfoForResourceTypeCNmIKRig\>`
 
 
 
@@ -69473,6 +71312,20 @@ void SpottedByMaskUpdated()
 **类型:** `interface`
 
 **继承:** `ISchemaClass\<InfoForResourceTypeCTypeScriptResource\>`
+
+
+
+---
+
+<a id="infoforresourcetypecvdataitemdefs"></a>
+
+## 🔌 InfoForResourceTypeCVDataItemDefs
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<InfoForResourceTypeCVDataItemDefs\>`
 
 
 
@@ -69815,6 +71668,52 @@ void SpottedByMaskUpdated()
 
 ---
 
+<a id="interactionpassive_t"></a>
+
+## 📋 InteractionPassive_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `INTERACT_PASSIVE_NONE` | `0` | - |
+| `INTERACT_PASSIVE_LOOKAT` | `1` | - |
+| `INTERACT_PASSIVE_SPEAK` | `2` | - |
+
+
+
+---
+
+<a id="interactionpriority_t"></a>
+
+## 📋 InteractionPriority_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `INTERACT_PRIORITY_NONE` | `0` | - |
+| `INTERACT_PRIORITY_PASSIVE` | `1` | - |
+| `INTERACT_PRIORITY_LOW` | `2` | - |
+| `INTERACT_PRIORITY_MED` | `3` | - |
+| `INTERACT_PRIORITY_HIGH` | `4` | - |
+
+
+
+---
+
 <a id="intervaltimer"></a>
 
 ## 🔌 IntervalTimer
@@ -69831,20 +71730,6 @@ void SpottedByMaskUpdated()
 |------|------|--------|------|
 | `Timestamp` | `GameTime_t` | get | - |
 | `WorldGroupId` | `ref uint` | get | - |
-
-### ⚙️ 方法
-
-#### TimestampUpdated
-
-```csharp
-void TimestampUpdated()
-```
-
-#### WorldGroupIdUpdated
-
-```csharp
-void WorldGroupIdUpdated()
-```
 
 
 
@@ -70012,6 +71897,30 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="keygroup_t"></a>
+
+## 🔌 KeyGroup_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<KeyGroup_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CenterNote` | `ref byte` | get | - |
+| `MinNote` | `ref byte` | get | - |
+| `MaxNote` | `ref byte` | get | - |
+| `NumVelocityZones` | `ref byte` | get | - |
+| `VelocityZones` | `VelocityZone_t?` | get | - |
+
+
+
+---
+
 <a id="latchdirtypermission_t"></a>
 
 ## 📋 LatchDirtyPermission_t
@@ -70174,6 +72083,26 @@ void WorldGroupIdUpdated()
 | `MaintainUpDirection` | `ref bool` | get | - |
 | `TargetIsPosition` | `ref bool` | get | - |
 | `UseHysteresis` | `ref bool` | get | - |
+
+
+
+---
+
+<a id="lookdata"></a>
+
+## 🔌 LookData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<LookData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `LookTarget` | `SchemaUntypedField` | get | - |
 
 
 
@@ -70804,6 +72733,7 @@ void WorldGroupIdUpdated()
 | `ElementSizeInBytes` | `ref uint` | get | - |
 | `MeshoptCompressed` | `ref bool` | get | - |
 | `MeshoptIndexSequence` | `ref bool` | get | - |
+| `MeshoptMeshletEncodeVersion` | `ref byte` | get | - |
 | `CompressedZSTD` | `ref bool` | get | - |
 | `CreateBufferSRV` | `ref bool` | get | - |
 | `CreateBufferUAV` | `ref bool` | get | - |
@@ -71132,6 +73062,51 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="motionmatchinginstancedata"></a>
+
+## 🔌 MotionMatchingInstanceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<MotionMatchingInstanceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CurrentSelection` | `MotionSelection` | get | - |
+| `PreviousSelection` | `MotionSelection` | get | - |
+
+
+
+---
+
+<a id="motionselection"></a>
+
+## 🔌 MotionSelection
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<MotionSelection\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConfigIndex` | `NetVarConfigIndex` | get | - |
+| `CycleZeroTime` | `SchemaUntypedField` | get | - |
+| `PlaybackSpeed` | `SchemaUntypedField` | get | - |
+| `StartTime` | `SchemaUntypedField` | get | - |
+| `Sample` | `ref int` | get | - |
+
+
+
+---
+
 <a id="movecollide_t"></a>
 
 ## 📋 MoveCollide_t
@@ -71256,27 +73231,46 @@ void WorldGroupIdUpdated()
 | `eInstantStop` | `4` | - |
 | `eShuffle` | `5` | - |
 | `ePlantedTurn` | `6` | - |
-| `eCount` | `7` | - |
+| `eUseStartAsPlantedTurn` | `7` | - |
+| `eLean` | `8` | - |
+| `eCount` | `9` | - |
 
 
 
 ---
 
-<a id="movementgaitid_t"></a>
+<a id="movementdata"></a>
 
-## 🔌 MovementGaitId_t
+## 🔌 MovementData
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
 **类型:** `interface`
 
-**继承:** `ISchemaClass\<MovementGaitId_t\>`
+**继承:** `ISchemaClass\<MovementData\>`
 
 ### 📝 属性
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Id` | `ref CGlobalSymbol` | get | - |
+| `GoalWayPointPos` | `ref Vector` | get | - |
+| `MoveDir` | `SchemaUntypedField` | get | - |
+| `Acceleration` | `SchemaUntypedField` | get | - |
+| `CurrentMoveSpeed` | `SchemaUntypedField` | get | - |
+| `TargetMoveSpeed` | `SchemaUntypedField` | get | - |
+| `GoalDistance` | `SchemaUntypedField` | get | - |
+| `BoundaryRadius` | `SchemaUntypedField` | get | - |
+| `GoalChanged` | `ref bool` | get | - |
+| `HasPath` | `SchemaUntypedField` | get | - |
+| `FacingHeading` | `SchemaUntypedField` | get | - |
+| `ManualFacingDirection` | `ref Vector` | get | - |
+| `ManualFacingTarget` | `ref Vector` | get | - |
+| `FacingMode` | `SchemaUntypedField` | get | - |
+| `ForceFacing` | `SchemaUntypedField` | get | - |
+| `ActiveMotorIndex` | `SchemaUntypedField` | get | - |
+| `OnGround` | `SchemaUntypedField` | get | - |
+| `FacingPosition` | `SchemaUntypedField` | get | - |
+| `PrevFacingPosition` | `ref Vector` | get | - |
 
 
 
@@ -71414,6 +73408,26 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="navhull_t"></a>
+
+## 🔌 NavHull_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<NavHull_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `HullIdx` | `ref int` | get | - |
+
+
+
+---
+
 <a id="navscopeflags_t"></a>
 
 ## 📋 NavScopeFlags_t
@@ -71456,6 +73470,26 @@ void WorldGroupIdUpdated()
 | `eCount` | `2` | - |
 | `eFirst` | `0` | - |
 | `eInvalid` | `255` | - |
+
+
+
+---
+
+<a id="netvarconfigindex"></a>
+
+## 🔌 NetVarConfigIndex
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<NetVarConfigIndex\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Index` | `SchemaUntypedField` | get | - |
 
 
 
@@ -71521,6 +73555,7 @@ void WorldGroupIdUpdated()
 | `TranslationRangeY` | `NmCompressionSettings_t__QuantizationRange_t` | get | - |
 | `TranslationRangeZ` | `NmCompressionSettings_t__QuantizationRange_t` | get | - |
 | `ScaleRange` | `NmCompressionSettings_t__QuantizationRange_t` | get | - |
+| `TrackReadOffset` | `ref int` | get, set | - |
 | `ConstantRotation` | `ref Quaternion` | get | - |
 | `IsRotationStatic` | `ref bool` | get | - |
 | `IsTranslationStatic` | `ref bool` | get | - |
@@ -71758,6 +73793,27 @@ void WorldGroupIdUpdated()
 |------|------|------|
 | `Floor` | `0` | - |
 | `Round` | `1` | - |
+
+
+
+---
+
+<a id="nmgraphdebugmode_t"></a>
+
+## 📋 NmGraphDebugMode_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `Off` | `0` | - |
+| `On` | `1` | - |
 
 
 
@@ -72082,7 +74138,6 @@ void WorldGroupIdUpdated()
 | `OBJECT_TYPE_NO_SHADOWS` | `32` | - |
 | `OBJECT_TYPE_WORLDSPACE_TEXURE_BLEND` | `64` | - |
 | `OBJECT_TYPE_DISABLED_IN_LOW_QUALITY` | `128` | - |
-| `OBJECT_TYPE_NO_SUN_SHADOWS` | `256` | - |
 | `OBJECT_TYPE_RENDER_WITH_DYNAMIC` | `512` | - |
 | `OBJECT_TYPE_RENDER_TO_CUBEMAPS` | `1024` | - |
 | `OBJECT_TYPE_MODEL_HAS_LODS` | `2048` | - |
@@ -72091,6 +74146,8 @@ void WorldGroupIdUpdated()
 | `OBJECT_TYPE_STATIC_CUBE_MAP` | `32768` | - |
 | `OBJECT_TYPE_DISABLE_VIS_CULLING` | `65536` | - |
 | `OBJECT_TYPE_BAKED_GEOMETRY` | `131072` | - |
+| `OBJECT_TYPE_NEEDS_DYNAMIC_SHADOWS` | `262144` | - |
+| `OBJECT_TYPE_HAS_AGGREGATE_RTPROXY` | `524288` | - |
 
 
 
@@ -72259,29 +74316,6 @@ void WorldGroupIdUpdated()
 | `eParameter` | `1` | - |
 | `eAnimationMovementHeading` | `2` | - |
 | `eAnimationMovementHeadingAtEnd` | `3` | - |
-
-
-
----
-
-<a id="outofpvsupdates_t"></a>
-
-## 📋 OutOfPVSUpdates_t
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `enum`
-
-**继承:** `uint`
-
-### 📋 枚举值
-
-| 名称 | 值 | 描述 |
-|------|------|------|
-| `OOPVSUpdates_OptOut` | `0` | - |
-| `OOPVSUpdates_OptIn` | `1` | - |
-| `OOPVSUpdates_Default` | `2` | - |
-| `OOPVSUpdates_Count` | `3` | - |
 
 
 
@@ -72474,6 +74508,48 @@ void WorldGroupIdUpdated()
 |------|------|--------|------|
 | `PackedMin` | `ref uint` | get | - |
 | `PackedMax` | `ref uint` | get | - |
+
+
+
+---
+
+<a id="pairedsequencedata"></a>
+
+## 🔌 PairedSequenceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<PairedSequenceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `PairedSequences` | `ISchemaClassFixedArray\<PairedSequence_t\>` | get | - |
+
+
+
+---
+
+<a id="pairedsequence_t"></a>
+
+## 🔌 PairedSequence_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<PairedSequence_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Role` | `ref CGlobalSymbol` | get | - |
+| `SequenceName` | `ref CGlobalSymbol` | get | - |
+| `Sequence` | `SchemaUntypedField` | get | - |
 
 
 
@@ -73158,23 +75234,24 @@ void WorldGroupIdUpdated()
 | `PF_TYPE_CONCURRENT_DEF_COUNT` | `10` | - |
 | `PF_TYPE_CLOSEST_CAMERA_DISTANCE` | `11` | - |
 | `PF_TYPE_SNAPSHOT_COUNT` | `12` | - |
-| `PF_TYPE_RENDERER_CAMERA_DISTANCE` | `13` | - |
-| `PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT` | `14` | - |
-| `PF_TYPE_PARTICLE_NOISE` | `15` | - |
-| `PF_TYPE_PARTICLE_AGE` | `16` | - |
-| `PF_TYPE_PARTICLE_AGE_NORMALIZED` | `17` | - |
-| `PF_TYPE_PARTICLE_FLOAT` | `18` | - |
-| `PF_TYPE_PARTICLE_INITIAL_FLOAT` | `19` | - |
-| `PF_TYPE_PARTICLE_VECTOR_COMPONENT` | `20` | - |
-| `PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT` | `21` | - |
-| `PF_TYPE_PARTICLE_SPEED` | `22` | - |
-| `PF_TYPE_PARTICLE_NUMBER` | `23` | - |
-| `PF_TYPE_PARTICLE_NUMBER_NORMALIZED` | `24` | - |
-| `PF_TYPE_PARTICLE_ROPE_SEGMENT` | `25` | - |
-| `PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED` | `26` | - |
-| `PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE` | `27` | - |
-| `PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT` | `28` | - |
-| `PF_TYPE_COUNT` | `29` | - |
+| `PF_TYPE_SNAPSHOT_CHANGED` | `13` | - |
+| `PF_TYPE_RENDERER_CAMERA_DISTANCE` | `14` | - |
+| `PF_TYPE_RENDERER_CAMERA_DOT_PRODUCT` | `15` | - |
+| `PF_TYPE_PARTICLE_NOISE` | `16` | - |
+| `PF_TYPE_PARTICLE_AGE` | `17` | - |
+| `PF_TYPE_PARTICLE_AGE_NORMALIZED` | `18` | - |
+| `PF_TYPE_PARTICLE_FLOAT` | `19` | - |
+| `PF_TYPE_PARTICLE_INITIAL_FLOAT` | `20` | - |
+| `PF_TYPE_PARTICLE_VECTOR_COMPONENT` | `21` | - |
+| `PF_TYPE_PARTICLE_INITIAL_VECTOR_COMPONENT` | `22` | - |
+| `PF_TYPE_PARTICLE_SPEED` | `23` | - |
+| `PF_TYPE_PARTICLE_NUMBER` | `24` | - |
+| `PF_TYPE_PARTICLE_NUMBER_NORMALIZED` | `25` | - |
+| `PF_TYPE_PARTICLE_ROPE_SEGMENT` | `26` | - |
+| `PF_TYPE_PARTICLE_ROPE_SEGMENT_NORMALIZED` | `27` | - |
+| `PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DISTANCE` | `28` | - |
+| `PF_TYPE_PARTICLE_SCREENSPACE_CAMERA_DOT_PRODUCT` | `29` | - |
+| `PF_TYPE_COUNT` | `30` | - |
 
 
 
@@ -73485,6 +75562,72 @@ void WorldGroupIdUpdated()
 | `PM_TYPE_NAMED_VALUE_EHANDLE` | `2` | - |
 | `PM_TYPE_CONTROL_POINT` | `3` | - |
 | `PM_TYPE_COUNT` | `4` | - |
+
+
+
+---
+
+<a id="particlemultisegmentcountselection_t"></a>
+
+## 📋 ParticleMultiSegmentCountSelection_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_MULTISEGMENT_SEG_COUNT_7` | `7` | - |
+| `PARTICLE_MULTISEGMENT_SEG_COUNT_14` | `14` | - |
+| `PARTICLE_MULTISEGMENT_SEG_COUNT_16` | `16` | - |
+
+
+
+---
+
+<a id="particlemultisegmentinputselection_t"></a>
+
+## 📋 ParticleMultiSegmentInputSelection_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_MULTISEGMENT_SELECTION_FLOAT` | `0` | - |
+| `PARTICLE_MULTISEGMENT_SELECTION_STRING` | `1` | - |
+
+
+
+---
+
+<a id="particlemultisegmentspecialcharacter_t"></a>
+
+## 📋 ParticleMultiSegmentSpecialCharacter_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_MULTISEGMENT_SPECIAL_NONE` | `uint.MaxValue` | - |
+| `PARTICLE_MULTISEGMENT_SPECIAL_DECIMAL` | `0` | - |
+| `PARTICLE_MULTISEGMENT_SPECIAL_COLON` | `1` | - |
+| `PARTICLE_MULTISEGMENT_SPECIAL_DEGREES` | `2` | - |
 
 
 
@@ -73976,6 +76119,28 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="particletoolsstate_t"></a>
+
+## 📋 ParticleToolsState_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_TOOLS_STATE_ALWAYS_ON` | `uint.MaxValue` | - |
+| `PARTICLE_TOOLS_STATE_TOOLS_ONLY` | `0` | - |
+| `PARTICLE_TOOLS_STATE_GAME_ONLY` | `1` | - |
+
+
+
+---
+
 <a id="particletopology_t"></a>
 
 ## 📋 ParticleTopology_t
@@ -74113,19 +76278,115 @@ void WorldGroupIdUpdated()
 | `PVEC_TYPE_PARTICLE_VECTOR` | `3` | - |
 | `PVEC_TYPE_PARTICLE_INITIAL_VECTOR` | `4` | - |
 | `PVEC_TYPE_PARTICLE_VELOCITY` | `5` | - |
-| `PVEC_TYPE_CP_VALUE` | `6` | - |
-| `PVEC_TYPE_CP_RELATIVE_POSITION` | `7` | - |
-| `PVEC_TYPE_CP_RELATIVE_DIR` | `8` | - |
-| `PVEC_TYPE_CP_RELATIVE_RANDOM_DIR` | `9` | - |
-| `PVEC_TYPE_FLOAT_COMPONENTS` | `10` | - |
-| `PVEC_TYPE_FLOAT_INTERP_CLAMPED` | `11` | - |
-| `PVEC_TYPE_FLOAT_INTERP_OPEN` | `12` | - |
-| `PVEC_TYPE_FLOAT_INTERP_GRADIENT` | `13` | - |
-| `PVEC_TYPE_RANDOM_UNIFORM` | `14` | - |
-| `PVEC_TYPE_RANDOM_UNIFORM_OFFSET` | `15` | - |
-| `PVEC_TYPE_CP_DELTA` | `16` | - |
-| `PVEC_TYPE_CLOSEST_CAMERA_POSITION` | `17` | - |
-| `PVEC_TYPE_COUNT` | `18` | - |
+| `PVEC_TYPE_PARTICLE_GRAVITY` | `6` | - |
+| `PVEC_TYPE_CP_VALUE` | `7` | - |
+| `PVEC_TYPE_CP_RELATIVE_POSITION` | `8` | - |
+| `PVEC_TYPE_CP_RELATIVE_DIR` | `9` | - |
+| `PVEC_TYPE_CP_RELATIVE_RANDOM_DIR` | `10` | - |
+| `PVEC_TYPE_FLOAT_COMPONENTS` | `11` | - |
+| `PVEC_TYPE_FLOAT_INTERP_CLAMPED` | `12` | - |
+| `PVEC_TYPE_FLOAT_INTERP_OPEN` | `13` | - |
+| `PVEC_TYPE_FLOAT_INTERP_GRADIENT` | `14` | - |
+| `PVEC_TYPE_RANDOM_UNIFORM` | `15` | - |
+| `PVEC_TYPE_RANDOM_UNIFORM_OFFSET` | `16` | - |
+| `PVEC_TYPE_CP_DELTA` | `17` | - |
+| `PVEC_TYPE_CLOSEST_CAMERA_POSITION` | `18` | - |
+| `PVEC_TYPE_COUNT` | `19` | - |
+
+
+
+---
+
+<a id="particlevolumetricsmokecreationtype_t"></a>
+
+## 📋 ParticleVolumetricSmokeCreationType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_VOLUMETRIC_SMOKE_TYPE_CONTINUOUS` | `0` | - |
+| `PARTICLE_VOLUMETRIC_SMOKE_TYPE_IMPULSE` | `1` | - |
+
+
+
+---
+
+<a id="particlevolumetricsmoketype_t"></a>
+
+## 📋 ParticleVolumetricSmokeType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PARTICLE_VOLUMETRIC_SMOKE_TYPE_EMISSION` | `0` | - |
+| `PARTICLE_VOLUMETRIC_SMOKE_TYPE_SINK` | `1` | - |
+| `PARTICLE_VOLUMETRIC_SMOKE_TYPE_REPEL` | `2` | - |
+
+
+
+---
+
+<a id="pathmoverentityspawn"></a>
+
+## 🔌 PathMoverEntitySpawn
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<PathMoverEntitySpawn\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Mover` | `ref CHandle\<CFuncMover\>` | get | - |
+| `OtherEntities` | `ref CUtlVector\<CHandle\<CBaseEntity\>\>` | get | - |
+
+
+
+---
+
+<a id="perticksettings_t"></a>
+
+## 🔌 PerTickSettings_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<PerTickSettings_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `StartingLocalToWorld` | `ref CTransform` | get | - |
+| `PrevLocalToWorld` | `ref CTransform` | get | - |
+| `FinalLocalToWorld` | `ref CTransform` | get | - |
+| `RootMotion` | `CRootMotion` | get | - |
+| `UpdateID` | `ref int` | get | - |
+| `LastTimeStep` | `ref float` | get | - |
+| `PrevAnimTime` | `ref float` | get | - |
+| `NextAnimTime` | `ref float` | get | - |
+| `Awaken` | `ref bool` | get | - |
+| `Teleported` | `ref bool` | get | - |
+| `IsClient` | `ref bool` | get | - |
+| `IsPredicted` | `ref bool` | get | - |
 
 
 
@@ -74337,6 +76598,27 @@ void WorldGroupIdUpdated()
 
 ---
 
+<a id="physblockheader_t"></a>
+
+## 🔌 PhysBlockHeader_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<PhysBlockHeader_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Saved` | `ref int` | get | - |
+| `WorldObject` | `ref ulong` | get | - |
+
+
+
+---
+
 <a id="physfemodeldesc_t"></a>
 
 ## 🔌 PhysFeModelDesc_t
@@ -74461,6 +76743,84 @@ void WorldGroupIdUpdated()
 | `LocalDrag1` | `ref float` | get | - |
 | `RodVelocitySmoothIterations` | `ref ushort` | get | - |
 | `QuadVelocitySmoothIterations` | `ref ushort` | get | - |
+
+
+
+---
+
+<a id="physgenericshapetype_t"></a>
+
+## 📋 PhysGenericShapeType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `byte`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `GENERIC_SHAPE_POINT` | `0` | - |
+| `GENERIC_SHAPE_SPHERE` | `1` | - |
+| `GENERIC_SHAPE_AABB` | `2` | - |
+| `GENERIC_SHAPE_CAPSULE` | `3` | - |
+| `GENERIC_SHAPE_HULL` | `4` | - |
+
+
+
+---
+
+<a id="physinterfaceid_t"></a>
+
+## 📋 PhysInterfaceId_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `PIID_UNKNOWN` | `0` | - |
+| `PIID_IPHYSICSBODY` | `1` | - |
+| `PIID_IPHYSAGGREGATE` | `2` | - |
+| `PIID_IPHYSICSJOINT` | `3` | - |
+| `PIID_IPHYSICSMOTIONCONTROLLER` | `4` | - |
+| `PIID_IPHYSICSPARTICLEROPE` | `5` | - |
+| `PIID_IPHYSICSRAGDOLLCONTROL` | `6` | - |
+| `PIID_NUM_TYPES` | `7` | - |
+
+
+
+---
+
+<a id="physobjectheader_t"></a>
+
+## 🔌 PhysObjectHeader_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<PhysObjectHeader_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Type` | `ref PhysInterfaceId_t` | get | - |
+| `Entity` | `ref CHandle\<CBaseEntity\>` | get | - |
+| `FieldName` | `string` | get, set | - |
+| `Objects` | `ref int` | get | - |
+| `ModelName` | `string` | get, set | - |
+| `Bbox` | `AABB_t` | get | - |
+| `Sphere` | `physics_save_sphere_t` | get | - |
+| `Collide` | `ref int` | get | - |
 
 
 
@@ -74607,13 +76967,35 @@ void OwnerUpdated()
 
 | 名称 | 值 | 描述 |
 |------|------|------|
-| `PlayerNeverConnected` | `uint.MaxValue` | - |
-| `PlayerConnected` | `0` | - |
-| `PlayerConnecting` | `1` | - |
-| `PlayerReconnecting` | `2` | - |
-| `PlayerDisconnecting` | `3` | - |
-| `PlayerDisconnected` | `4` | - |
-| `PlayerReserved` | `5` | - |
+| `NeverConnected` | `uint.MaxValue` | - |
+| `Connected` | `0` | - |
+| `Connecting` | `1` | - |
+| `Reconnecting` | `2` | - |
+| `Disconnecting` | `3` | - |
+| `Disconnected` | `4` | - |
+| `Reserved` | `5` | - |
+
+
+
+---
+
+<a id="playerinputmotorinstancedata_t"></a>
+
+## 🔌 PlayerInputMotorInstanceData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<PlayerInputMotorInstanceData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InputVectorWS` | `ref Vector` | get | - |
+| `VelocityWS` | `ref Vector` | get | - |
+| `AccelerationWS` | `ref Vector` | get | - |
 
 
 
@@ -75035,50 +77417,69 @@ void OwnerUpdated()
 
 ---
 
-<a id="predicteddamagetag_t"></a>
+<a id="precipitationfilter_t"></a>
 
-## 🔌 PredictedDamageTag_t
+## 🔌 PrecipitationFilter_t
 
 **命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
 **类型:** `interface`
 
-**继承:** `ISchemaClass\<PredictedDamageTag_t\>`
+**继承:** `ISchemaClass\<PrecipitationFilter_t\>`
 
 ### 📝 属性
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TagTick` | `GameTick_t` | get | - |
-| `FlinchModSmall` | `ref float` | get | - |
-| `FlinchModLarge` | `ref float` | get | - |
-| `FriendlyFireDamageReductionRatio` | `ref float` | get | - |
+| `MaxRadius` | `ref float` | get | - |
 
-### ⚙️ 方法
 
-#### TagTickUpdated
 
-```csharp
-void TagTickUpdated()
-```
+---
 
-#### FlinchModSmallUpdated
+<a id="previewcharacterbanneranimation"></a>
 
-```csharp
-void FlinchModSmallUpdated()
-```
+## 📋 PreviewCharacterBannerAnimation
 
-#### FlinchModLargeUpdated
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
 
-```csharp
-void FlinchModLargeUpdated()
-```
+**类型:** `enum`
 
-#### FriendlyFireDamageReductionRatioUpdated
+**继承:** `uint`
 
-```csharp
-void FriendlyFireDamageReductionRatioUpdated()
-```
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `INVALID` | `uint.MaxValue` | - |
+| `IDLE_OFFSCREEN` | `0` | - |
+| `BANNER_AWP_ACE_GUN` | `1` | - |
+| `BANNER_AWP_ACE_A` | `2` | - |
+| `BANNER_AWP_ACE_B` | `3` | - |
+| `BANNER_AWP_ACE_C` | `4` | - |
+| `BANNER_AWP_ACE_D` | `5` | - |
+| `BANNER_AWP_ACE_E` | `6` | - |
+| `BANNER_PISTOL3SHOT` | `7` | - |
+| `BANNER_3SHOT_A` | `8` | - |
+| `BANNER_3SHOT_B` | `9` | - |
+| `BANNER_3SHOT_C` | `10` | - |
+| `BANNER_PISTOL4SHOT` | `11` | - |
+| `BANNER_4SHOT_A` | `12` | - |
+| `BANNER_4SHOT_B` | `13` | - |
+| `BANNER_4SHOT_C` | `14` | - |
+| `BANNER_4SHOT_D` | `15` | - |
+| `CELEBRATE_STRETCH_NOWEAP_IDLE0` | `16` | - |
+| `BANNER_BOMB_PLANT` | `17` | - |
+| `BANNER_BOMB_DEFUSAL_VER` | `18` | - |
+| `BANNER_FIRE` | `19` | - |
+| `BANNER_BOMB_BLAST_TOSS` | `20` | - |
+| `BANNER_BOMB_BLAST01` | `21` | - |
+| `BANNER_BOMB_BLAST02` | `22` | - |
+| `BANNER_BOMB_BLAST03` | `23` | - |
+| `BANNER_CELEBRATE_01` | `24` | - |
+| `BANNER_CELEBRATE_02` | `25` | - |
+| `BANNER_CELEBRATE_03` | `26` | - |
+| `BANNER_CELEBRATE_04` | `27` | - |
 
 
 
@@ -75441,6 +77842,7 @@ void FriendlyFireDamageReductionRatioUpdated()
 | `RetiredAtNodeID` | `PulseDocNodeID_t` | get | - |
 | `LastReferenced` | `ref float` | get | - |
 | `LastValidEntryIdx` | `ref int` | get | - |
+| `WasAnObservableComputation` | `ref bool` | get | - |
 
 
 
@@ -77657,6 +80059,56 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="save_header"></a>
+
+## 🔌 SAVE_HEADER
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SAVE_HEADER\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `SaveId` | `ref int` | get | - |
+| `Version` | `ref int` | get | - |
+| `ConnectionCount` | `ref int` | get | - |
+| `MapVersion` | `ref int` | get | - |
+| `SpawnGroupName` | `string` | get, set | - |
+| `WorldOffset` | `ref matrix3x4_t` | get, set | - |
+| `SaveTime` | `ref float` | get | - |
+
+
+
+---
+
+<a id="spawngroup_header"></a>
+
+## 🔌 SPAWNGROUP_HEADER
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SPAWNGROUP_HEADER\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `GroupName` | `string` | get, set | - |
+| `EntityLumpName` | `string` | get, set | - |
+| `WorldOffset` | `ref matrix3x4_t` | get, set | - |
+| `ClientSpawnGroup` | `ref bool` | get | - |
+| `SuppressAllEntities` | `ref bool` | get | - |
+
+
+
+---
+
 <a id="samplecode"></a>
 
 ## 🔌 SampleCode
@@ -77672,6 +80124,67 @@ void FriendlyFireDamageReductionRatioUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `SubCode` | `ISchemaFixedArray\<byte\>` | get | - |
+
+
+
+---
+
+<a id="samplervoice_t"></a>
+
+## 🔌 SamplerVoice_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SamplerVoice_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `NoteNum` | `ref byte` | get | - |
+
+
+
+---
+
+<a id="saverestoretableflags_t"></a>
+
+## 📋 SaveRestoreTableFlags_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `FENTTABLE_NONE` | `0` | - |
+| `FENTTABLE_PLAYER` | `2147483648` | - |
+| `FENTTABLE_REMOVED` | `1073741824` | - |
+| `FENTTABLE_MOVEABLE` | `536870912` | - |
+| `FENTTABLE_GLOBAL` | `268435456` | - |
+| `FENTTABLE_PLAYERCHILD` | `134217728` | - |
+| `LEVELMASK_BIT_0` | `1` | - |
+| `LEVELMASK_BIT_1` | `2` | - |
+| `LEVELMASK_BIT_2` | `4` | - |
+| `LEVELMASK_BIT_3` | `8` | - |
+| `LEVELMASK_BIT_4` | `16` | - |
+| `LEVELMASK_BIT_5` | `32` | - |
+| `LEVELMASK_BIT_6` | `64` | - |
+| `LEVELMASK_BIT_7` | `128` | - |
+| `LEVELMASK_BIT_8` | `256` | - |
+| `LEVELMASK_BIT_9` | `512` | - |
+| `LEVELMASK_BIT_10` | `1024` | - |
+| `LEVELMASK_BIT_11` | `2048` | - |
+| `LEVELMASK_BIT_12` | `4096` | - |
+| `LEVELMASK_BIT_13` | `8192` | - |
+| `LEVELMASK_BIT_14` | `16384` | - |
+| `LEVELMASK_BIT_15` | `32768` | - |
 
 
 
@@ -77723,6 +80236,26 @@ void FriendlyFireDamageReductionRatioUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Value` | `ref uint` | get | - |
+
+
+
+---
+
+<a id="sceneinteresttags_t"></a>
+
+## 🔌 SceneInterestTags_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SceneInterestTags_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Tags` | `ref CUtlVector\<CUtlString\>` | get | - |
 
 
 
@@ -77782,6 +80315,51 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="sceneopportunityactor_t"></a>
+
+## 🔌 SceneOpportunityActor_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SceneOpportunityActor_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Actor` | `ref CHandle\<CBaseModelEntity\>` | get | - |
+| `DynamicActor` | `ref bool` | get | - |
+| `Anchor` | `ref bool` | get | - |
+| `StrActorName` | `string` | get, set | - |
+| `StrEntityName` | `string` | get, set | - |
+| `InterestTags` | `SceneInterestTags_t` | get | - |
+
+
+
+---
+
+<a id="sceneopportunityhandle_t"></a>
+
+## 🔌 SceneOpportunityHandle_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SceneOpportunityHandle_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Value` | `ref int` | get | - |
+
+
+
+---
+
 <a id="scenerequesthandle_t"></a>
 
 ## 🔌 SceneRequestHandle_t
@@ -77797,6 +80375,27 @@ void FriendlyFireDamageReductionRatioUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Value` | `ref int` | get | - |
+
+
+
+---
+
+<a id="scenerequesttargetmappair_t"></a>
+
+## 🔌 SceneRequestTargetMapPair_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SceneRequestTargetMapPair_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ActorName` | `string` | get, set | - |
+| `TargetName` | `string` | get, set | - |
 
 
 
@@ -77959,6 +80558,29 @@ void FriendlyFireDamageReductionRatioUpdated()
 
 ---
 
+<a id="selectorinstancedata_t"></a>
+
+## 🔌 SelectorInstanceData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SelectorInstanceData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Weights` | `SchemaUntypedField` | get | - |
+| `CurrentIndexStartTime` | `SchemaUntypedField` | get | - |
+| `CurrentIndex` | `ref int` | get | - |
+| `PreviousIndex` | `ref int` | get | - |
+
+
+
+---
+
 <a id="selectortagbehavior_t"></a>
 
 ## 📋 SelectorTagBehavior_t
@@ -78091,6 +80713,27 @@ void ItemUpdated()
 | `SEQ_POSE_SETTING_ROTATION` | `1` | - |
 | `SEQ_POSE_SETTING_POSITION` | `2` | - |
 | `SEQ_POSE_SETTING_VELOCITY` | `3` | - |
+
+
+
+---
+
+<a id="sequencedata"></a>
+
+## 🔌 SequenceData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SequenceData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Sequence` | `HSequence` | get | - |
+| `Cycle` | `CNetworkedCycle` | get | - |
 
 
 
@@ -78274,6 +80917,7 @@ void ItemDefIdxUpdated()
 | `SHAKE_FREQUENCY` | `3` | - |
 | `SHAKE_START_RUMBLEONLY` | `4` | - |
 | `SHAKE_START_NORUMBLE` | `5` | - |
+| `SHAKE_DURATION` | `6` | - |
 
 
 
@@ -78443,28 +81087,6 @@ void ItemDefIdxUpdated()
 | `ReversalSoundThresholdSmall` | `ref float` | get | - |
 | `ReversalSoundThresholdMedium` | `ref float` | get | - |
 | `ReversalSoundThresholdLarge` | `ref float` | get | - |
-
-
-
----
-
-<a id="simpleconstraintsoundprofile__simpleconstraintssoundprofilekeypoints_t"></a>
-
-## 📋 SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `enum`
-
-**继承:** `uint`
-
-### 📋 枚举值
-
-| 名称 | 值 | 描述 |
-|------|------|------|
-| `kMIN_THRESHOLD` | `0` | - |
-| `kMIN_FULL` | `1` | - |
-| `kHIGHWATER` | `2` | - |
 
 
 
@@ -78640,6 +81262,26 @@ void ItemDefIdxUpdated()
 
 ---
 
+<a id="slopedata"></a>
+
+## 🔌 SlopeData
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SlopeData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `SlopeNormal` | `ref Vector` | get | - |
+
+
+
+---
+
 <a id="snapshotindextype_t"></a>
 
 ## 📋 SnapshotIndexType_t
@@ -78656,6 +81298,167 @@ void ItemDefIdxUpdated()
 |------|------|------|
 | `SNAPSHOT_INDEX_INCREMENT` | `0` | - |
 | `SNAPSHOT_INDEX_DIRECT` | `1` | - |
+
+
+
+---
+
+<a id="sndseqinstrumenttype_t"></a>
+
+## 📋 SndSeqInstrumentType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eSndSeqInstNull` | `0` | - |
+| `eSndSeqInstSndEvt` | `1` | - |
+| `eSndSeqInstMidiSampler` | `2` | - |
+
+
+
+---
+
+<a id="sndseqmidistatustype_t"></a>
+
+## 📋 SndSeqMidiStatusType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `SndSeqMidiStatusNoteOff` | `8` | - |
+| `SndSeqMidiStatusNoteOn` | `9` | - |
+| `SndSeqMidiStatusKeyPressure` | `10` | - |
+| `SndSeqMidiStatusCtrlChange` | `11` | - |
+| `SndSeqMidiStatusProgramChange` | `12` | - |
+| `SndSeqMidiStatusChannelPressure` | `13` | - |
+| `SndSeqMidiStatusPitchBend` | `14` | - |
+
+
+
+---
+
+<a id="sndseqplayertype_t"></a>
+
+## 📋 SndSeqPlayerType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eSndSeqPlayerNull` | `0` | - |
+| `eSndSeqPlayerSndEvt` | `1` | - |
+| `eSndSeqPlayerMidiSeq` | `2` | - |
+
+
+
+---
+
+<a id="sndseqquantizetype_t"></a>
+
+## 📋 SndSeqQuantizeType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eSndSeqQuantizeInvalid` | `uint.MaxValue` | - |
+| `eSndSeqQuantizeNone` | `0` | - |
+| `eSndSeqQuantizeBeat` | `1` | - |
+| `eSndSeqQuantizeBar` | `2` | - |
+| `eSndSeqQuantizeSequence` | `3` | - |
+| `eSndSeqQuantizeSeek` | `4` | - |
+| `eSndSeqQuantizeReset` | `5` | - |
+
+
+
+---
+
+<a id="sndseqregiontype_t"></a>
+
+## 📋 SndSeqRegionType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eSndSeqRegionTypeNull` | `0` | - |
+| `eSndSeqRegionTypeSndEvt` | `1` | - |
+| `eSndSeqRegionTypeMidiSeq` | `2` | - |
+
+
+
+---
+
+<a id="sndseqsynctype_t"></a>
+
+## 📋 SndSeqSyncType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eSndSeqSyncTypeNone` | `0` | - |
+| `eSndSeqSyncTypeWait` | `1` | - |
+| `eSndSeqSyncTypeSeek` | `2` | - |
+
+
+
+---
+
+<a id="sndseqtrackplaybacktype_t"></a>
+
+## 📋 SndSeqTrackPlaybackType_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `eSndSeqTrackPlaybackTypeStep` | `0` | - |
+| `eSndSeqTrackPlaybackTypeFwd` | `1` | - |
 
 
 
@@ -78886,6 +81689,29 @@ void ItemDefIdxUpdated()
 |------|------|------|
 | `SOS_GROUPTYPE_DYNAMIC` | `0` | - |
 | `SOS_GROUPTYPE_STATIC` | `1` | - |
+
+
+
+---
+
+<a id="soundcommand_t"></a>
+
+## 🔌 SoundCommand_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<SoundCommand_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Time` | `ref float` | get | - |
+| `DeltaTime` | `ref float` | get | - |
+| `Command` | `ref soundcommands_t` | get | - |
+| `Value` | `ref float` | get | - |
 
 
 
@@ -79473,6 +82299,27 @@ void P2PctUpdated()
 
 ---
 
+<a id="targetselectorinstancedata_t"></a>
+
+## 🔌 TargetSelectorInstanceData_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<TargetSelectorInstanceData_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CurrentIndex` | `SchemaUntypedField` | get | - |
+| `MSRootMotionAnlyzerTarget` | `SchemaUntypedField` | get | - |
+
+
+
+---
+
 <a id="targetwarpanglemode_t"></a>
 
 ## 📋 TargetWarpAngleMode_t
@@ -79531,6 +82378,40 @@ void P2PctUpdated()
 |------|------|------|
 | `ReachDestinationOnRootMotionEnd` | `0` | - |
 | `ReachDestinationOnWarpTagEnd` | `1` | - |
+
+
+
+---
+
+<a id="testcomponent_t"></a>
+
+## 🔌 TestComponent_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<TestComponent_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ComponentData` | `string` | get, set | - |
+
+
+
+---
+
+<a id="testcomponent_tapi"></a>
+
+## 🔌 TestComponent_tAPI
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<TestComponent_tAPI\>`
 
 
 
@@ -79870,42 +82751,6 @@ void P2PctUpdated()
 | `LFORate` | `ref float` | get | - |
 | `Phase` | `ref float` | get | - |
 | `LFOShape` | `ref VMixLFOShape_t` | get | - |
-
-
-
----
-
-<a id="vmixboxverb2desc_t"></a>
-
-## 🔌 VMixBoxverb2Desc_t
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ISchemaClass\<VMixBoxverb2Desc_t\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `SizeMax` | `ref float` | get | - |
-| `SizeMin` | `ref float` | get | - |
-| `Complexity` | `ref float` | get | - |
-| `Diffusion` | `ref float` | get | - |
-| `ModDepth` | `ref float` | get | - |
-| `ModRate` | `ref float` | get | - |
-| `Parallel` | `ref bool` | get | - |
-| `FilterType` | `VMixFilterDesc_t` | get | - |
-| `Width` | `ref float` | get | - |
-| `Height` | `ref float` | get | - |
-| `Depth` | `ref float` | get | - |
-| `FeedbackScale` | `ref float` | get | - |
-| `FeedbackWidth` | `ref float` | get | - |
-| `FeedbackHeight` | `ref float` | get | - |
-| `FeedbackDepth` | `ref float` | get | - |
-| `OutputGain` | `ref float` | get | - |
-| `Taps` | `ref float` | get | - |
 
 
 
@@ -80622,57 +83467,6 @@ void P2PctUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `EffectName` | `string` | get, set | - |
-
-
-
----
-
-<a id="vmixprocessortype_t"></a>
-
-## 📋 VMixProcessorType_t
-
-**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
-
-**类型:** `enum`
-
-**继承:** `ushort`
-
-### 📋 枚举值
-
-| 名称 | 值 | 描述 |
-|------|------|------|
-| `VPROCESSOR_UNKNOWN` | `0` | - |
-| `VPROCESSOR_RT_PITCH` | `1` | - |
-| `VPROCESSOR_STEAMAUDIO_HRTF` | `2` | - |
-| `VPROCESSOR_DYNAMICS` | `3` | - |
-| `VPROCESSOR_PRESETDSP` | `4` | - |
-| `VPROCESSOR_DELAY` | `5` | - |
-| `VPROCESSOR_MOD_DELAY` | `6` | - |
-| `VPROCESSOR_DIFFUSOR` | `7` | - |
-| `VPROCESSOR_BOXVERB` | `8` | - |
-| `VPROCESSOR_BOXVERB2` | `9` | - |
-| `VPROCESSOR_FREEVERB` | `10` | - |
-| `VPROCESSOR_PLATEVERB` | `11` | - |
-| `VPROCESSOR_FULLWAVE_INTEGRATOR` | `12` | - |
-| `VPROCESSOR_FILTER` | `13` | - |
-| `VPROCESSOR_STEAMAUDIO_PATHING` | `14` | - |
-| `VPROCESSOR_EQ8` | `15` | - |
-| `VPROCESSOR_ENVELOPE` | `16` | - |
-| `VPROCESSOR_VOCODER` | `17` | - |
-| `VPROCESSOR_CONVOLUTION` | `18` | - |
-| `VPROCESSOR_DUAL_COMPRESSOR` | `19` | - |
-| `VPROCESSOR_DYNAMICS_3BAND` | `20` | - |
-| `VPROCESSOR_DYNAMICS_COMPRESSOR` | `21` | - |
-| `VPROCESSOR_SHAPER` | `22` | - |
-| `VPROCESSOR_PANNER` | `23` | - |
-| `VPROCESSOR_UTILITY` | `24` | - |
-| `VPROCESSOR_AUTOFILTER` | `25` | - |
-| `VPROCESSOR_OSC` | `26` | - |
-| `VPROCESSOR_STEREODELAY` | `27` | - |
-| `VPROCESSOR_EFFECT_CHAIN` | `28` | - |
-| `VPROCESSOR_SUBGRAPH_SWITCH` | `29` | - |
-| `VPROCESSOR_STEAMAUDIO_DIRECT` | `30` | - |
-| `VPROCESSOR_STEAMAUDIO_HYBRIDREVERB` | `31` | - |
 
 
 
@@ -81422,6 +84216,29 @@ void P2PctUpdated()
 
 ---
 
+<a id="velocityzone_t"></a>
+
+## 🔌 VelocityZone_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<VelocityZone_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MaxVel` | `ref byte` | get | - |
+| `NextSelection` | `ref byte` | get | - |
+| `NumSamples` | `ref byte` | get | - |
+| `Samples` | `ISchemaFixedArray\<uint\>` | get | - |
+
+
+
+---
+
 <a id="vertjustification_e"></a>
 
 ## 📋 VertJustification_e
@@ -81771,7 +84588,6 @@ void IndexUpdated()
 | `WPN_ANIMSTATE_INVENTORY_UI_TUMBLE` | `1500` | - |
 | `WPN_ANIMSTATE_INVENTORY_UI_KEYCHAIN_APPLY` | `1501` | - |
 | `WPN_ANIMSTATE_END_VALID` | `2000` | - |
-| `WEAPON_LEGACY_STATE_CLEAR_FIRING` | `2001` | - |
 
 
 
@@ -82110,6 +84926,12 @@ void WeaponPurchasesUpdated()
 
 **继承:** `ISchemaClass\<WrappedPhysicsJoint_t\>`
 
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Joint` | `IPhysicsJoint?` | get | - |
+
 
 
 ---
@@ -82360,6 +85182,35 @@ void SoundEventHashUpdated()
 | `k_eSplinePushAlong` | `0` | - |
 | `k_eSplinePushAway` | `1` | - |
 | `k_eSplinePushTowards` | `2` | - |
+
+
+
+---
+
+<a id="entitytable_t"></a>
+
+## 🔌 entitytable_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<entitytable_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Id` | `ref int` | get | - |
+| `Edictindex` | `ref uint` | get | - |
+| `Saveentityindex` | `ref uint` | get | - |
+| `WasSaved` | `ref bool` | get | - |
+| `Flags` | `ref SaveRestoreTableFlags_t` | get | - |
+| `Classname` | `string` | get, set | - |
+| `Globalname` | `string` | get, set | - |
+| `Entityname` | `string` | get, set | - |
+| `LandmarkModelSpace` | `ref Vector` | get | - |
+| `PrecacheEntityKeys` | `SchemaUntypedField` | get | - |
 
 
 
@@ -82748,6 +85599,29 @@ void CtrlUpdated()
 
 ---
 
+<a id="globalentity_t"></a>
+
+## 🔌 globalentity_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<globalentity_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Name` | `SchemaUntypedField` | get | - |
+| `LevelName` | `SchemaUntypedField` | get | - |
+| `State` | `ref GLOBALESTATE` | get | - |
+| `Counter` | `ref int` | get | - |
+
+
+
+---
+
 <a id="hudtextparms_t"></a>
 
 ## 🔌 hudtextparms_t
@@ -82793,6 +85667,30 @@ void CtrlUpdated()
 | `StartOrigin` | `ref Vector` | get | - |
 | `StartRot` | `ref Quaternion` | get | - |
 | `FXIndex` | `ParticleIndex_t` | get | - |
+
+
+
+---
+
+<a id="levellist_t"></a>
+
+## 🔌 levellist_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<levellist_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MapName` | `string` | get, set | - |
+| `LandmarkName` | `string` | get, set | - |
+| `EntLandmark` | `ref CHandle\<CEntityInstance\>` | get | - |
+| `LandmarkOrigin` | `ref Vector` | get | - |
+| `LandmarkAngles` | `ref QAngle` | get | - |
 
 
 
@@ -82933,6 +85831,28 @@ void CtrlUpdated()
 
 ---
 
+<a id="modifiedconvars_t"></a>
+
+## 🔌 modifiedconvars_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<modifiedconvars_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Convar` | `string` | get, set | - |
+| `CurrentValue` | `string` | get, set | - |
+| `OrgValue` | `string` | get, set | - |
+
+
+
+---
+
 <a id="navproperties_t"></a>
 
 ## 📋 navproperties_t
@@ -82948,6 +85868,26 @@ void CtrlUpdated()
 | 名称 | 值 | 描述 |
 |------|------|------|
 | `NAV_IGNORE` | `1` | - |
+
+
+
+---
+
+<a id="physics_save_sphere_t"></a>
+
+## 🔌 physics_save_sphere_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<physics_save_sphere_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Radius` | `ref float` | get | - |
 
 
 
@@ -83220,6 +86160,30 @@ void WorldGroupIDUpdated()
 
 ---
 
+<a id="soundcommands_t"></a>
+
+## 📋 soundcommands_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `enum`
+
+**继承:** `uint`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `SOUNDCTRL_CHANGE_VOLUME` | `0` | - |
+| `SOUNDCTRL_CHANGE_PITCH` | `1` | - |
+| `SOUNDCTRL_STOP` | `2` | - |
+| `SOUNDCTRL_DESTROY` | `3` | - |
+| `SOUNDCTRL_FADEOUT` | `4` | - |
+
+
+
+---
+
 <a id="soundlevel_t"></a>
 
 ## 📋 soundlevel_t
@@ -83283,6 +86247,7 @@ void WorldGroupIDUpdated()
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
+| `Think` | `SchemaUntypedField` | get | - |
 | `Fn` | `ref HSCRIPTHandler` | get | - |
 | `Context` | `ref CUtlStringToken` | get | - |
 | `NextThinkTick` | `GameTick_t` | get | - |
@@ -83363,6 +86328,35 @@ void WorldGroupIDUpdated()
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `OldPointer` | `ref ulong` | get | - |
+
+
+
+---
+
+<a id="vphysics_save_ragdoll_control_t"></a>
+
+## 🔌 vphysics_save_ragdoll_control_t
+
+**命名空间:** `SwiftlyS2.Shared.SchemaDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ISchemaClass\<vphysics_save_ragdoll_control_t\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MinSpringFrequency` | `ref float` | get | - |
+| `MaxSpringFrequency` | `ref float` | get | - |
+| `MaxStretch` | `ref float` | get | - |
+| `SolidCollisionAtZeroWeight` | `ref bool` | get | - |
+| `RequiresDynamicBodies` | `ref bool` | get | - |
+| `IgnoreTeleport` | `ref bool` | get | - |
+| `LinearVelocityAccumulator` | `ref Vector` | get | - |
+| `AngularVelocityAccumulator` | `SchemaUntypedField` | get | - |
+| `ForceAccumulator` | `ref Vector` | get | - |
+| `BodyCount` | `ref int` | get | - |
 
 
 

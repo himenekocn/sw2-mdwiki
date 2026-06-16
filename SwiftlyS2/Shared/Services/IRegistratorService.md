@@ -22,6 +22,6 @@ void Register(object instance)
 
 **用法示例:**
 ```csharp
-registratorService.Register(listenerInstance);
+registrator.Register(listenerInstance);
 ```
 

@@ -2,13 +2,12 @@
 
 **命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
 
-共 830 个定义
+共 1028 个定义
 
 ## 📋 目录
 
 - 🔌 [AccountActivity](#accountactivity)
 - 📋 [Bidirectional_Messages](#bidirectional_messages)
-- 📋 [Bidirectional_Messages_LowFrequency](#bidirectional_messages_lowfrequency)
 - 🔌 [C2S_CONNECTION_Message](#c2s_connection_message)
 - 🔌 [C2S_CONNECT_Message](#c2s_connect_message)
 - 🔌 [C2S_CONNECT_SameProcessCheck](#c2s_connect_sameprocesscheck)
@@ -19,6 +18,8 @@
 - 📋 [CBidirMsg_PredictionEvent_ESyncType](#cbidirmsg_predictionevent_esynctype)
 - 🔌 [CBidirMsg_RebroadcastGameEvent](#cbidirmsg_rebroadcastgameevent)
 - 🔌 [CBidirMsg_RebroadcastSource](#cbidirmsg_rebroadcastsource)
+- 🔌 [CBilling_Address](#cbilling_address)
+- 🔌 [CCDDBAppDetailCommon](#ccddbappdetailcommon)
 - 🔌 [CCLCMsg_BaselineAck](#cclcmsg_baselineack)
 - 🔌 [CCLCMsg_ClientInfo](#cclcmsg_clientinfo)
 - 🔌 [CCLCMsg_CmdKeyValues](#cclcmsg_cmdkeyvalues)
@@ -122,12 +123,16 @@
 - 🔌 [CCSUsrMsg_VotePass](#ccsusrmsg_votepass)
 - 🔌 [CCSUsrMsg_VoteSetup](#ccsusrmsg_votesetup)
 - 🔌 [CCSUsrMsg_VoteStart](#ccsusrmsg_votestart)
+- 🔌 [CCSUsrMsg_WeaponMagDrop](#ccsusrmsg_weaponmagdrop)
 - 🔌 [CCSUsrMsg_WeaponSound](#ccsusrmsg_weaponsound)
 - 🔌 [CCSUsrMsg_XRankGet](#ccsusrmsg_xrankget)
 - 🔌 [CCSUsrMsg_XRankUpd](#ccsusrmsg_xrankupd)
 - 🔌 [CCSUsrMsg_XpUpdate](#ccsusrmsg_xpupdate)
 - 🔌 [CChinaAgreementSessions_StartAgreementSessionInGame_Request](#cchinaagreementsessions_startagreementsessioningame_request)
 - 🔌 [CChinaAgreementSessions_StartAgreementSessionInGame_Response](#cchinaagreementsessions_startagreementsessioningame_response)
+- 🔌 [CClanEventData](#cclaneventdata)
+- 🔌 [CClanEventUserNewsTuple](#cclaneventusernewstuple)
+- 🔌 [CClanMatchEventByRange](#cclanmatcheventbyrange)
 - 🔌 [CClientHeaderOverwatchEvidence](#cclientheaderoverwatchevidence)
 - 🔌 [CClientMsg_ClientUIEvent](#cclientmsg_clientuievent)
 - 🔌 [CClientMsg_CustomGameEvent](#cclientmsg_customgameevent)
@@ -136,6 +141,16 @@
 - 🔌 [CClientMsg_ListenForResponseFound](#cclientmsg_listenforresponsefound)
 - 🔌 [CClientMsg_RotateAnchor](#cclientmsg_rotateanchor)
 - 🔌 [CClientMsg_WorldUIControllerHasPanelChangedEvent](#cclientmsg_worlduicontrollerhaspanelchangedevent)
+- 🔌 [CCloud_Delete_Request](#ccloud_delete_request)
+- 🔌 [CCloud_Delete_Response](#ccloud_delete_response)
+- 🔌 [CCloud_EnumerateUserFiles_Request](#ccloud_enumerateuserfiles_request)
+- 🔌 [CCloud_EnumerateUserFiles_Response](#ccloud_enumerateuserfiles_response)
+- 🔌 [CCloud_GetFileDetails_Request](#ccloud_getfiledetails_request)
+- 🔌 [CCloud_GetFileDetails_Response](#ccloud_getfiledetails_response)
+- 🔌 [CCloud_GetUploadServerInfo_Request](#ccloud_getuploadserverinfo_request)
+- 🔌 [CCloud_GetUploadServerInfo_Response](#ccloud_getuploadserverinfo_response)
+- 🔌 [CCloud_UserFile](#ccloud_userfile)
+- 🔌 [CCommunity_ClanAnnouncementInfo](#ccommunity_clanannouncementinfo)
 - 🔌 [CCommunity_GamePersonalDataCategoryInfo](#ccommunity_gamepersonaldatacategoryinfo)
 - 🔌 [CCommunity_GetGamePersonalDataCategories_Request](#ccommunity_getgamepersonaldatacategories_request)
 - 🔌 [CCommunity_GetGamePersonalDataCategories_Response](#ccommunity_getgamepersonaldatacategories_response)
@@ -143,6 +158,7 @@
 - 🔌 [CCommunity_GetGamePersonalDataEntries_Response](#ccommunity_getgamepersonaldataentries_response)
 - 🔌 [CCommunity_TerminateGamePersonalDataEntries_Request](#ccommunity_terminategamepersonaldataentries_request)
 - 🔌 [CCommunity_TerminateGamePersonalDataEntries_Response](#ccommunity_terminategamepersonaldataentries_response)
+- 🔌 [CCuratorPreferences](#ccuratorpreferences)
 - 🔌 [CDataGCCStrike15_v2_MatchInfo](#cdatagccstrike15_v2_matchinfo)
 - 🔌 [CDataGCCStrike15_v2_TournamentGroup](#cdatagccstrike15_v2_tournamentgroup)
 - 🔌 [CDataGCCStrike15_v2_TournamentGroupTeam](#cdatagccstrike15_v2_tournamentgroupteam)
@@ -195,20 +211,30 @@
 - 🔌 [CGameInfo_CDotaGameInfo](#cgameinfo_cdotagameinfo)
 - 🔌 [CGameInfo_CDotaGameInfo_CHeroSelectEvent](#cgameinfo_cdotagameinfo_cheroselectevent)
 - 🔌 [CGameInfo_CDotaGameInfo_CPlayerInfo](#cgameinfo_cdotagameinfo_cplayerinfo)
+- 🔌 [CGameNetworkingUI_AppSummary](#cgamenetworkingui_appsummary)
+- 🔌 [CGameNetworkingUI_ConnectionState](#cgamenetworkingui_connectionstate)
+- 🔌 [CGameNetworkingUI_ConnectionSummary](#cgamenetworkingui_connectionsummary)
+- 🔌 [CGameNetworkingUI_GlobalState](#cgamenetworkingui_globalstate)
+- 🔌 [CGameNetworkingUI_Message](#cgamenetworkingui_message)
 - 🔌 [CGameServers_AggregationQuery_Request](#cgameservers_aggregationquery_request)
 - 🔌 [CGameServers_AggregationQuery_Response](#cgameservers_aggregationquery_response)
 - 🔌 [CGameServers_AggregationQuery_Response_Group](#cgameservers_aggregationquery_response_group)
+- 🔌 [CHelpRequestLogs_UploadUserApplicationLog_Request](#chelprequestlogs_uploaduserapplicationlog_request)
+- 🔌 [CHelpRequestLogs_UploadUserApplicationLog_Response](#chelprequestlogs_uploaduserapplicationlog_response)
 - 🔌 [CInButtonStatePB](#cinbuttonstatepb)
 - 📋 [CLC_Messages](#clc_messages)
+- 🔌 [CLocalizationToken](#clocalizationtoken)
 - 🔌 [CMsgAccountDetails](#cmsgaccountdetails)
 - 🔌 [CMsgAcknowledgeRentalExpiration](#cmsgacknowledgerentalexpiration)
 - 🔌 [CMsgAdjustEquipSlot](#cmsgadjustequipslot)
 - 🔌 [CMsgAdjustEquipSlots](#cmsgadjustequipslots)
+- 🔌 [CMsgAppRights](#cmsgapprights)
 - 🔌 [CMsgApplyEggEssence](#cmsgapplyeggessence)
 - 🔌 [CMsgApplyPennantUpgrade](#cmsgapplypennantupgrade)
 - 🔌 [CMsgApplyStatTrakSwap](#cmsgapplystattrakswap)
 - 🔌 [CMsgApplySticker](#cmsgapplysticker)
 - 🔌 [CMsgApplyStrangePart](#cmsgapplystrangepart)
+- 🔌 [CMsgAuthTicket](#cmsgauthticket)
 - 🔌 [CMsgCStrike15Welcome](#cmsgcstrike15welcome)
 - 🔌 [CMsgCasketItem](#cmsgcasketitem)
 - 🔌 [CMsgClearDecalsForEntityEvent](#cmsgcleardecalsforentityevent)
@@ -258,7 +284,6 @@
 - 🔌 [CMsgGCCStrike15_v2_ClientReportPlayer](#cmsggccstrike15_v2_clientreportplayer)
 - 🔌 [CMsgGCCStrike15_v2_ClientReportResponse](#cmsggccstrike15_v2_clientreportresponse)
 - 🔌 [CMsgGCCStrike15_v2_ClientReportServer](#cmsggccstrike15_v2_clientreportserver)
-- 🔌 [CMsgGCCStrike15_v2_ClientReportValidation](#cmsggccstrike15_v2_clientreportvalidation)
 - 🔌 [CMsgGCCStrike15_v2_ClientRequestJoinFriendData](#cmsggccstrike15_v2_clientrequestjoinfrienddata)
 - 🔌 [CMsgGCCStrike15_v2_ClientRequestJoinServerData](#cmsggccstrike15_v2_clientrequestjoinserverdata)
 - 🔌 [CMsgGCCStrike15_v2_ClientRequestOffers](#cmsggccstrike15_v2_clientrequestoffers)
@@ -384,24 +409,33 @@
 - 🔌 [CMsgGC_ServerQuestUpdateData](#cmsggc_serverquestupdatedata)
 - 🔌 [CMsgGameServerInfo](#cmsggameserverinfo)
 - 📋 [CMsgGameServerInfo_ServerType](#cmsggameserverinfo_servertype)
+- 🔌 [CMsgICECandidate](#cmsgicecandidate)
+- 🔌 [CMsgICERendezvous](#cmsgicerendezvous)
+- 🔌 [CMsgICERendezvous_Auth](#cmsgicerendezvous_auth)
+- 🔌 [CMsgIPAddress](#cmsgipaddress)
+- 🔌 [CMsgIPAddressBucket](#cmsgipaddressbucket)
 - 🔌 [CMsgIPCAddress](#cmsgipcaddress)
 - 🔌 [CMsgIncrementKillCountAttribute](#cmsgincrementkillcountattribute)
 - 🔌 [CMsgInvitationCreated](#cmsginvitationcreated)
 - 🔌 [CMsgInviteToParty](#cmsginvitetoparty)
 - 🔌 [CMsgItemAcknowledged](#cmsgitemacknowledged)
 - 🔌 [CMsgItemAcknowledged__DEPRECATED](#cmsgitemacknowledged__deprecated)
+- 🔌 [CMsgKeyValuePair](#cmsgkeyvaluepair)
+- 🔌 [CMsgKeyValueSet](#cmsgkeyvalueset)
 - 🔌 [CMsgKickFromParty](#cmsgkickfromparty)
 - 🔌 [CMsgLANServerAvailable](#cmsglanserveravailable)
 - 🔌 [CMsgLeaveParty](#cmsgleaveparty)
 - 🔌 [CMsgLegacySource1ClientWelcome](#cmsglegacysource1clientwelcome)
 - 🔌 [CMsgLegacySource1ClientWelcome_Location](#cmsglegacysource1clientwelcome_location)
 - 🔌 [CMsgModifyItemAttribute](#cmsgmodifyitemattribute)
+- 🔌 [CMsgMulti](#cmsgmulti)
 - 🔌 [CMsgOpenCrate](#cmsgopencrate)
 - 🔌 [CMsgPartyInviteResponse](#cmsgpartyinviteresponse)
 - 🔌 [CMsgPlaceDecalEvent](#cmsgplacedecalevent)
 - 🔌 [CMsgPlayerBulletHit](#cmsgplayerbullethit)
 - 🔌 [CMsgPlayerInfo](#cmsgplayerinfo)
 - 🔌 [CMsgProtoBufHeader](#cmsgprotobufheader)
+- 🔌 [CMsgProtobufWrapped](#cmsgprotobufwrapped)
 - 🔌 [CMsgQAngle](#cmsgqangle)
 - 🔌 [CMsgQuaternion](#cmsgquaternion)
 - 🔌 [CMsgRGBA](#cmsgrgba)
@@ -451,9 +485,96 @@
 - 🔌 [CMsgSource2NetworkFlowQuality](#cmsgsource2networkflowquality)
 - 🔌 [CMsgSource2PerfIntervalSample](#cmsgsource2perfintervalsample)
 - 🔌 [CMsgSource2PerfIntervalSample_Tag](#cmsgsource2perfintervalsample_tag)
+- 🔌 [CMsgSource2PlayStatsPackedRecordList](#cmsgsource2playstatspackedrecordlist)
+- 🔌 [CMsgSource2PlayStatsPackedRecordList_FieldDef](#cmsgsource2playstatspackedrecordlist_fielddef)
+- 🔌 [CMsgSource2PlayStatsPackedRecordList_SteamIDList](#cmsgsource2playstatspackedrecordlist_steamidlist)
 - 🔌 [CMsgSource2SystemSpecs](#cmsgsource2systemspecs)
 - 🔌 [CMsgSource2VProfLiteReport](#cmsgsource2vproflitereport)
 - 🔌 [CMsgSource2VProfLiteReportItem](#cmsgsource2vproflitereportitem)
+- 🔌 [CMsgSteamDatagramCachedCredentialsForApp](#cmsgsteamdatagramcachedcredentialsforapp)
+- 🔌 [CMsgSteamDatagramCertificate](#cmsgsteamdatagramcertificate)
+- 🔌 [CMsgSteamDatagramCertificateRequest](#cmsgsteamdatagramcertificaterequest)
+- 🔌 [CMsgSteamDatagramCertificateSigned](#cmsgsteamdatagramcertificatesigned)
+- 📋 [CMsgSteamDatagramCertificate_EKeyType](#cmsgsteamdatagramcertificate_ekeytype)
+- 🔌 [CMsgSteamDatagramClientPingSampleReply](#cmsgsteamdatagramclientpingsamplereply)
+- 🔌 [CMsgSteamDatagramClientPingSampleReply_LegacyDataCenter](#cmsgsteamdatagramclientpingsamplereply_legacydatacenter)
+- 🔌 [CMsgSteamDatagramClientPingSampleReply_POP](#cmsgsteamdatagramclientpingsamplereply_pop)
+- 🔌 [CMsgSteamDatagramClientPingSampleReply_POP_AltAddress](#cmsgsteamdatagramclientpingsamplereply_pop_altaddress)
+- 🔌 [CMsgSteamDatagramClientPingSampleRequest](#cmsgsteamdatagramclientpingsamplerequest)
+- 🔌 [CMsgSteamDatagramClientSwitchedPrimary](#cmsgsteamdatagramclientswitchedprimary)
+- 🔌 [CMsgSteamDatagramClientSwitchedPrimary_RouterQuality](#cmsgsteamdatagramclientswitchedprimary_routerquality)
+- 🔌 [CMsgSteamDatagramConnectOK](#cmsgsteamdatagramconnectok)
+- 🔌 [CMsgSteamDatagramConnectRequest](#cmsgsteamdatagramconnectrequest)
+- 🔌 [CMsgSteamDatagramConnectionClosed](#cmsgsteamdatagramconnectionclosed)
+- 📋 [CMsgSteamDatagramConnectionClosed_ERelayMode](#cmsgsteamdatagramconnectionclosed_erelaymode)
+- 🔌 [CMsgSteamDatagramConnectionQuality](#cmsgsteamdatagramconnectionquality)
+- 🔌 [CMsgSteamDatagramConnectionStatsClientToRouter](#cmsgsteamdatagramconnectionstatsclienttorouter)
+- 📋 [CMsgSteamDatagramConnectionStatsClientToRouter_Flags](#cmsgsteamdatagramconnectionstatsclienttorouter_flags)
+- 🔌 [CMsgSteamDatagramConnectionStatsP2PClientToRouter](#cmsgsteamdatagramconnectionstatsp2pclienttorouter)
+- 📋 [CMsgSteamDatagramConnectionStatsP2PClientToRouter_Flags](#cmsgsteamdatagramconnectionstatsp2pclienttorouter_flags)
+- 🔌 [CMsgSteamDatagramConnectionStatsP2PRouterToClient](#cmsgsteamdatagramconnectionstatsp2proutertoclient)
+- 📋 [CMsgSteamDatagramConnectionStatsP2PRouterToClient_Flags](#cmsgsteamdatagramconnectionstatsp2proutertoclient_flags)
+- 🔌 [CMsgSteamDatagramConnectionStatsRouterToClient](#cmsgsteamdatagramconnectionstatsroutertoclient)
+- 📋 [CMsgSteamDatagramConnectionStatsRouterToClient_Flags](#cmsgsteamdatagramconnectionstatsroutertoclient_flags)
+- 🔌 [CMsgSteamDatagramConnectionStatsRouterToServer](#cmsgsteamdatagramconnectionstatsroutertoserver)
+- 📋 [CMsgSteamDatagramConnectionStatsRouterToServer_Flags](#cmsgsteamdatagramconnectionstatsroutertoserver_flags)
+- 🔌 [CMsgSteamDatagramConnectionStatsServerToRouter](#cmsgsteamdatagramconnectionstatsservertorouter)
+- 📋 [CMsgSteamDatagramConnectionStatsServerToRouter_Flags](#cmsgsteamdatagramconnectionstatsservertorouter_flags)
+- 🔌 [CMsgSteamDatagramDiagnostic](#cmsgsteamdatagramdiagnostic)
+- 🔌 [CMsgSteamDatagramGameCoordinatorServerLogin](#cmsgsteamdatagramgamecoordinatorserverlogin)
+- 🔌 [CMsgSteamDatagramGameserverPingReplyData](#cmsgsteamdatagramgameserverpingreplydata)
+- 🔌 [CMsgSteamDatagramGameserverPingRequestBody](#cmsgsteamdatagramgameserverpingrequestbody)
+- 🔌 [CMsgSteamDatagramGameserverPingRequestEnvelope](#cmsgsteamdatagramgameserverpingrequestenvelope)
+- 🔌 [CMsgSteamDatagramGameserverSessionEstablished](#cmsgsteamdatagramgameserversessionestablished)
+- 🔌 [CMsgSteamDatagramGameserverSessionRequest](#cmsgsteamdatagramgameserversessionrequest)
+- 🔌 [CMsgSteamDatagramHostedServerAddressPlaintext](#cmsgsteamdatagramhostedserveraddressplaintext)
+- 🔌 [CMsgSteamDatagramLinkInstantaneousStats](#cmsgsteamdatagramlinkinstantaneousstats)
+- 🔌 [CMsgSteamDatagramLinkLifetimeStats](#cmsgsteamdatagramlinklifetimestats)
+- 🔌 [CMsgSteamDatagramNoConnection](#cmsgsteamdatagramnoconnection)
+- 🔌 [CMsgSteamDatagramNoSessionRelayToClient](#cmsgsteamdatagramnosessionrelaytoclient)
+- 🔌 [CMsgSteamDatagramNoSessionRelayToPeer](#cmsgsteamdatagramnosessionrelaytopeer)
+- 🔌 [CMsgSteamDatagramP2PBadRouteRouterToClient](#cmsgsteamdatagramp2pbadrouteroutertoclient)
+- 🔌 [CMsgSteamDatagramP2PRoutes](#cmsgsteamdatagramp2proutes)
+- 🔌 [CMsgSteamDatagramP2PRoutes_RelayCluster](#cmsgsteamdatagramp2proutes_relaycluster)
+- 🔌 [CMsgSteamDatagramP2PRoutes_Route](#cmsgsteamdatagramp2proutes_route)
+- 🔌 [CMsgSteamDatagramP2PRoutingSummary](#cmsgsteamdatagramp2proutingsummary)
+- 🔌 [CMsgSteamDatagramP2PSessionEstablished](#cmsgsteamdatagramp2psessionestablished)
+- 🔌 [CMsgSteamDatagramP2PSessionRequest](#cmsgsteamdatagramp2psessionrequest)
+- 🔌 [CMsgSteamDatagramP2PSessionRequestBody](#cmsgsteamdatagramp2psessionrequestbody)
+- 🔌 [CMsgSteamDatagramP2PSessionRequestBody_EncryptedData](#cmsgsteamdatagramp2psessionrequestbody_encrypteddata)
+- 🔌 [CMsgSteamDatagramRelayAuthTicket](#cmsgsteamdatagramrelayauthticket)
+- 🔌 [CMsgSteamDatagramRelayAuthTicket_ExtraField](#cmsgsteamdatagramrelayauthticket_extrafield)
+- 🔌 [CMsgSteamDatagramRouterPingReply](#cmsgsteamdatagramrouterpingreply)
+- 🔌 [CMsgSteamDatagramRouterPingReply_AltAddress](#cmsgsteamdatagramrouterpingreply_altaddress)
+- 📋 [CMsgSteamDatagramRouterPingReply_AltAddress_Protocol](#cmsgsteamdatagramrouterpingreply_altaddress_protocol)
+- 📋 [CMsgSteamDatagramRouterPingReply_Flags](#cmsgsteamdatagramrouterpingreply_flags)
+- 🔌 [CMsgSteamDatagramRouterPingReply_RouteException](#cmsgsteamdatagramrouterpingreply_routeexception)
+- 🔌 [CMsgSteamDatagramSessionCryptInfo](#cmsgsteamdatagramsessioncryptinfo)
+- 🔌 [CMsgSteamDatagramSessionCryptInfoSigned](#cmsgsteamdatagramsessioncryptinfosigned)
+- 📋 [CMsgSteamDatagramSessionCryptInfo_EKeyType](#cmsgsteamdatagramsessioncryptinfo_ekeytype)
+- 🔌 [CMsgSteamDatagramSetSecondaryAddressRequest](#cmsgsteamdatagramsetsecondaryaddressrequest)
+- 🔌 [CMsgSteamDatagramSetSecondaryAddressResult](#cmsgsteamdatagramsetsecondaryaddressresult)
+- 🔌 [CMsgSteamDatagramSignedGameCoordinatorServerLogin](#cmsgsteamdatagramsignedgamecoordinatorserverlogin)
+- 🔌 [CMsgSteamDatagramSignedMessageGeneric](#cmsgsteamdatagramsignedmessagegeneric)
+- 🔌 [CMsgSteamDatagramSignedRelayAuthTicket](#cmsgsteamdatagramsignedrelayauthticket)
+- 🔌 [CMsgSteamNetworkingICESessionSummary](#cmsgsteamnetworkingicesessionsummary)
+- 🔌 [CMsgSteamNetworkingIPAddress](#cmsgsteamnetworkingipaddress)
+- 🔌 [CMsgSteamNetworkingIdentityLegacyBinary](#cmsgsteamnetworkingidentitylegacybinary)
+- 🔌 [CMsgSteamNetworkingP2PRendezvous](#cmsgsteamnetworkingp2prendezvous)
+- 🔌 [CMsgSteamNetworkingP2PRendezvous_ApplicationMessage](#cmsgsteamnetworkingp2prendezvous_applicationmessage)
+- 🔌 [CMsgSteamNetworkingP2PRendezvous_ConnectOK](#cmsgsteamnetworkingp2prendezvous_connectok)
+- 🔌 [CMsgSteamNetworkingP2PRendezvous_ConnectRequest](#cmsgsteamnetworkingp2prendezvous_connectrequest)
+- 🔌 [CMsgSteamNetworkingP2PRendezvous_ConnectionClosed](#cmsgsteamnetworkingp2prendezvous_connectionclosed)
+- 🔌 [CMsgSteamNetworkingP2PRendezvous_ReliableMessage](#cmsgsteamnetworkingp2prendezvous_reliablemessage)
+- 🔌 [CMsgSteamNetworkingP2PSDRRoutingSummary](#cmsgsteamnetworkingp2psdrroutingsummary)
+- 🔌 [CMsgSteamSockets_UDP_ChallengeReply](#cmsgsteamsockets_udp_challengereply)
+- 🔌 [CMsgSteamSockets_UDP_ChallengeRequest](#cmsgsteamsockets_udp_challengerequest)
+- 🔌 [CMsgSteamSockets_UDP_ConnectOK](#cmsgsteamsockets_udp_connectok)
+- 🔌 [CMsgSteamSockets_UDP_ConnectRequest](#cmsgsteamsockets_udp_connectrequest)
+- 🔌 [CMsgSteamSockets_UDP_ConnectionClosed](#cmsgsteamsockets_udp_connectionclosed)
+- 🔌 [CMsgSteamSockets_UDP_NoConnection](#cmsgsteamsockets_udp_noconnection)
+- 🔌 [CMsgSteamSockets_UDP_Stats](#cmsgsteamsockets_udp_stats)
+- 📋 [CMsgSteamSockets_UDP_Stats_Flags](#cmsgsteamsockets_udp_stats_flags)
 - 🔌 [CMsgStoreGetUserData](#cmsgstoregetuserdata)
 - 🔌 [CMsgStoreGetUserDataResponse](#cmsgstoregetuserdataresponse)
 - 🔌 [CMsgSystemBroadcast](#cmsgsystembroadcast)
@@ -485,6 +606,7 @@
 - 🔌 [CMsgTESmoke](#cmsgtesmoke)
 - 🔌 [CMsgTESparks](#cmsgtesparks)
 - 🔌 [CMsgTEWorldDecal](#cmsgteworlddecal)
+- 🔌 [CMsgTOSTreatment](#cmsgtostreatment)
 - 🔌 [CMsgTransform](#cmsgtransform)
 - 🔌 [CMsgUpdateItemSchema](#cmsgupdateitemschema)
 - 🔌 [CMsgUseItem](#cmsguseitem)
@@ -506,6 +628,8 @@
 - 🔌 [CNETMsg_SplitScreenUser](#cnetmsg_splitscreenuser)
 - 🔌 [CNETMsg_StringCmd](#cnetmsg_stringcmd)
 - 🔌 [CNETMsg_Tick](#cnetmsg_tick)
+- 🔌 [COAuthToken_ImplicitGrantNoPrompt_Request](#coauthtoken_implicitgrantnoprompt_request)
+- 🔌 [COAuthToken_ImplicitGrantNoPrompt_Response](#coauthtoken_implicitgrantnoprompt_response)
 - 🔌 [CP2P_Ping](#cp2p_ping)
 - 🔌 [CP2P_TextMessage](#cp2p_textmessage)
 - 🔌 [CP2P_VRAvatarPosition](#cp2p_vravatarposition)
@@ -513,6 +637,44 @@
 - 🔌 [CP2P_Voice](#cp2p_voice)
 - 📋 [CP2P_Voice_Handler_Flags](#cp2p_voice_handler_flags)
 - 🔌 [CP2P_WatchSynchronization](#cp2p_watchsynchronization)
+- 🔌 [CPackageReservationStatus](#cpackagereservationstatus)
+- 🔌 [CPlayer_AcceptSSA_Request](#cplayer_acceptssa_request)
+- 🔌 [CPlayer_AcceptSSA_Response](#cplayer_acceptssa_response)
+- 🔌 [CPlayer_AddFriend_Request](#cplayer_addfriend_request)
+- 🔌 [CPlayer_AddFriend_Response](#cplayer_addfriend_response)
+- 🔌 [CPlayer_CommunityPreferences](#cplayer_communitypreferences)
+- 🔌 [CPlayer_GetCommunityPreferences_Request](#cplayer_getcommunitypreferences_request)
+- 🔌 [CPlayer_GetCommunityPreferences_Response](#cplayer_getcommunitypreferences_response)
+- 🔌 [CPlayer_GetFriendsGameplayInfo_Request](#cplayer_getfriendsgameplayinfo_request)
+- 🔌 [CPlayer_GetFriendsGameplayInfo_Response](#cplayer_getfriendsgameplayinfo_response)
+- 🔌 [CPlayer_GetFriendsGameplayInfo_Response_FriendsGameplayInfo](#cplayer_getfriendsgameplayinfo_response_friendsgameplayinfo)
+- 🔌 [CPlayer_GetFriendsGameplayInfo_Response_OwnGameplayInfo](#cplayer_getfriendsgameplayinfo_response_owngameplayinfo)
+- 🔌 [CPlayer_GetGameBadgeLevels_Request](#cplayer_getgamebadgelevels_request)
+- 🔌 [CPlayer_GetGameBadgeLevels_Response](#cplayer_getgamebadgelevels_response)
+- 🔌 [CPlayer_GetGameBadgeLevels_Response_Badge](#cplayer_getgamebadgelevels_response_badge)
+- 🔌 [CPlayer_GetLastPlayedTimes_Request](#cplayer_getlastplayedtimes_request)
+- 🔌 [CPlayer_GetLastPlayedTimes_Response](#cplayer_getlastplayedtimes_response)
+- 🔌 [CPlayer_GetLastPlayedTimes_Response_Game](#cplayer_getlastplayedtimes_response_game)
+- 🔌 [CPlayer_GetMutualFriendsForIncomingInvites_Request](#cplayer_getmutualfriendsforincominginvites_request)
+- 🔌 [CPlayer_GetMutualFriendsForIncomingInvites_Response](#cplayer_getmutualfriendsforincominginvites_response)
+- 🔌 [CPlayer_GetNewSteamAnnouncementState_Request](#cplayer_getnewsteamannouncementstate_request)
+- 🔌 [CPlayer_GetNewSteamAnnouncementState_Response](#cplayer_getnewsteamannouncementstate_response)
+- 🔌 [CPlayer_GetNicknameList_Request](#cplayer_getnicknamelist_request)
+- 🔌 [CPlayer_GetNicknameList_Response](#cplayer_getnicknamelist_response)
+- 🔌 [CPlayer_GetNicknameList_Response_PlayerNickname](#cplayer_getnicknamelist_response_playernickname)
+- 🔌 [CPlayer_GetPerFriendPreferences_Request](#cplayer_getperfriendpreferences_request)
+- 🔌 [CPlayer_GetPerFriendPreferences_Response](#cplayer_getperfriendpreferences_response)
+- 🔌 [CPlayer_IgnoreFriend_Request](#cplayer_ignorefriend_request)
+- 🔌 [CPlayer_IgnoreFriend_Response](#cplayer_ignorefriend_response)
+- 🔌 [CPlayer_IncomingInviteMutualFriendList](#cplayer_incominginvitemutualfriendlist)
+- 🔌 [CPlayer_RemoveFriend_Request](#cplayer_removefriend_request)
+- 🔌 [CPlayer_RemoveFriend_Response](#cplayer_removefriend_response)
+- 🔌 [CPlayer_SetCommunityPreferences_Request](#cplayer_setcommunitypreferences_request)
+- 🔌 [CPlayer_SetCommunityPreferences_Response](#cplayer_setcommunitypreferences_response)
+- 🔌 [CPlayer_SetPerFriendPreferences_Request](#cplayer_setperfriendpreferences_request)
+- 🔌 [CPlayer_SetPerFriendPreferences_Response](#cplayer_setperfriendpreferences_response)
+- 🔌 [CPlayer_UpdateSteamAnnouncementLastRead_Request](#cplayer_updatesteamannouncementlastread_request)
+- 🔌 [CPlayer_UpdateSteamAnnouncementLastRead_Response](#cplayer_updatesteamannouncementlastread_response)
 - 🔌 [CPreMatchInfoData](#cprematchinfodata)
 - 🔌 [CPreMatchInfoData_TeamStats](#cprematchinfodata_teamstats)
 - 🔌 [CPredictionEvent_Diagnostic](#cpredictionevent_diagnostic)
@@ -522,6 +684,21 @@
 - 🔌 [CProductInfo_SetRichPresenceLocalization_Request_LanguageSection](#cproductinfo_setrichpresencelocalization_request_languagesection)
 - 🔌 [CProductInfo_SetRichPresenceLocalization_Request_Token](#cproductinfo_setrichpresencelocalization_request_token)
 - 🔌 [CProductInfo_SetRichPresenceLocalization_Response](#cproductinfo_setrichpresencelocalization_response)
+- 🔌 [CPublishedFile_GetDetails_Request](#cpublishedfile_getdetails_request)
+- 🔌 [CPublishedFile_GetDetails_Response](#cpublishedfile_getdetails_response)
+- 🔌 [CPublishedFile_GetUserFiles_Request](#cpublishedfile_getuserfiles_request)
+- 🔌 [CPublishedFile_GetUserFiles_Response](#cpublishedfile_getuserfiles_response)
+- 🔌 [CPublishedFile_GetUserFiles_Response_App](#cpublishedfile_getuserfiles_response_app)
+- 🔌 [CPublishedFile_Publish_Request](#cpublishedfile_publish_request)
+- 🔌 [CPublishedFile_Publish_Response](#cpublishedfile_publish_response)
+- 🔌 [CPublishedFile_RefreshVotingQueue_Request](#cpublishedfile_refreshvotingqueue_request)
+- 🔌 [CPublishedFile_RefreshVotingQueue_Response](#cpublishedfile_refreshvotingqueue_response)
+- 🔌 [CPublishedFile_Subscribe_Request](#cpublishedfile_subscribe_request)
+- 🔌 [CPublishedFile_Subscribe_Response](#cpublishedfile_subscribe_response)
+- 🔌 [CPublishedFile_Unsubscribe_Request](#cpublishedfile_unsubscribe_request)
+- 🔌 [CPublishedFile_Unsubscribe_Response](#cpublishedfile_unsubscribe_response)
+- 🔌 [CPublishedFile_Update_Request](#cpublishedfile_update_request)
+- 🔌 [CPublishedFile_Update_Response](#cpublishedfile_update_response)
 - 🔌 [CQuest_PublisherAddCommunityItemsToPlayer_Request](#cquest_publisheraddcommunityitemstoplayer_request)
 - 🔌 [CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute](#cquest_publisheraddcommunityitemstoplayer_request_attribute)
 - 🔌 [CQuest_PublisherAddCommunityItemsToPlayer_Response](#cquest_publisheraddcommunityitemstoplayer_response)
@@ -607,8 +784,12 @@
 - 🔌 [CSVCMsg_UserMessage](#csvcmsg_usermessage)
 - 🔌 [CSVCMsg_VoiceData](#csvcmsg_voicedata)
 - 🔌 [CSVCMsg_VoiceInit](#csvcmsg_voiceinit)
+- 🔌 [CSource2Metrics_FetchMapData_Request](#csource2metrics_fetchmapdata_request)
+- 🔌 [CSource2Metrics_FetchMapData_Response](#csource2metrics_fetchmapdata_response)
+- 🔌 [CSource2Metrics_FetchMapData_Response_MapData](#csource2metrics_fetchmapdata_response_mapdata)
 - 🔌 [CSource2Metrics_MatchPerfSummary_Notification](#csource2metrics_matchperfsummary_notification)
 - 🔌 [CSource2Metrics_MatchPerfSummary_Notification_Client](#csource2metrics_matchperfsummary_notification_client)
+- 🔌 [CSource2Metrics_RecordPlayStats_Notification](#csource2metrics_recordplaystats_notification)
 - 🔌 [CSteam_Voice_Encoding](#csteam_voice_encoding)
 - 🔌 [CSubtickMoveStep](#csubtickmovestep)
 - 🔌 [CUIFontFilePB](#cuifontfilepb)
@@ -668,6 +849,7 @@
 - 🔌 [CUserMessage_NotifyResponseFound](#cusermessage_notifyresponsefound)
 - 🔌 [CUserMessage_NotifyResponseFound_Criteria](#cusermessage_notifyresponsefound_criteria)
 - 🔌 [CUserMessage_PlayResponseConditional](#cusermessage_playresponseconditional)
+- 🔌 [CUserMessage_UserSentBugBug](#cusermessage_usersentbugbug)
 - 🔌 [CUserMessage_UtilMsg_Response](#cusermessage_utilmsg_response)
 - 🔌 [CUserMessage_UtilMsg_Response_ItemDetail](#cusermessage_utilmsg_response_itemdetail)
 - 🔌 [CUserMsg_CustomGameEvent](#cusermsg_customgameevent)
@@ -679,6 +861,7 @@
 - 🔌 [CUserMsg_ParticleManager_ClearModellistOverride](#cusermsg_particlemanager_clearmodellistoverride)
 - 🔌 [CUserMsg_ParticleManager_CreateParticle](#cusermsg_particlemanager_createparticle)
 - 🔌 [CUserMsg_ParticleManager_CreatePhysicsSim](#cusermsg_particlemanager_createphysicssim)
+- 🔌 [CUserMsg_ParticleManager_CreateSmokeGrid](#cusermsg_particlemanager_createsmokegrid)
 - 🔌 [CUserMsg_ParticleManager_DestroyParticle](#cusermsg_particlemanager_destroyparticle)
 - 🔌 [CUserMsg_ParticleManager_DestroyParticleInvolving](#cusermsg_particlemanager_destroyparticleinvolving)
 - 🔌 [CUserMsg_ParticleManager_DestroyParticleNamed](#cusermsg_particlemanager_destroyparticlenamed)
@@ -692,6 +875,7 @@
 - 🔌 [CUserMsg_ParticleManager_SetControlPointModel](#cusermsg_particlemanager_setcontrolpointmodel)
 - 🔌 [CUserMsg_ParticleManager_SetControlPointSnapshot](#cusermsg_particlemanager_setcontrolpointsnapshot)
 - 🔌 [CUserMsg_ParticleManager_SetMaterialOverride](#cusermsg_particlemanager_setmaterialoverride)
+- 🔌 [CUserMsg_ParticleManager_SetOverrideTexture](#cusermsg_particlemanager_setoverridetexture)
 - 🔌 [CUserMsg_ParticleManager_SetParticleClusterGrowth](#cusermsg_particlemanager_setparticleclustergrowth)
 - 🔌 [CUserMsg_ParticleManager_SetParticleFoWProperties](#cusermsg_particlemanager_setparticlefowproperties)
 - 🔌 [CUserMsg_ParticleManager_SetParticleNamedValueContext](#cusermsg_particlemanager_setparticlenamedvaluecontext)
@@ -734,6 +918,7 @@
 - 🔌 [DeepPlayerMatchEvent](#deepplayermatchevent)
 - 🔌 [DeepPlayerStatsEntry](#deepplayerstatsentry)
 - 🔌 [DetailedSearchStatistic](#detailedsearchstatistic)
+- 📋 [EBanContentCheckResult](#ebancontentcheckresult)
 - 📋 [EBaseClientMessages](#ebaseclientmessages)
 - 📋 [EBaseEntityMessages](#ebaseentitymessages)
 - 📋 [EBaseGameEvents](#ebasegameevents)
@@ -744,8 +929,6 @@
 - 📋 [EClientPersonaStateFlag](#eclientpersonastateflag)
 - 📋 [EClientReportingVersion](#eclientreportingversion)
 - 📋 [EClientUIEvent](#eclientuievent)
-- 📋 [ECodecUsagePlatform](#ecodecusageplatform)
-- 📋 [ECodecUsageReason](#ecodecusagereason)
 - 📋 [ECommunityItemAttribute](#ecommunityitemattribute)
 - 📋 [ECommunityItemClass](#ecommunityitemclass)
 - 📋 [ECsgoGCMsg](#ecsgogcmsg)
@@ -767,10 +950,17 @@
 - 📋 [EMsg](#emsg)
 - 📋 [EMsgClanAccountFlags](#emsgclanaccountflags)
 - 📋 [ENetworkDisconnectionReason](#enetworkdisconnectionreason)
+- 📋 [ENotificationSetting](#enotificationsetting)
+- 📋 [EProtoClanEventType](#eprotoclaneventtype)
 - 📋 [EProtoDebugVisiblity](#eprotodebugvisiblity)
+- 📋 [EProtoExecutionSite](#eprotoexecutionsite)
 - 📋 [EQueryCvarValueStatus](#equerycvarvaluestatus)
 - 📋 [ESOMsg](#esomsg)
+- 📋 [ESource2PlayStatsFieldType](#esource2playstatsfieldtype)
 - 📋 [ESplitScreenMessageType](#esplitscreenmessagetype)
+- 📋 [ESteamDatagramMsgID](#esteamdatagrammsgid)
+- 📋 [ESteamNetworkingSocketsCipher](#esteamnetworkingsocketscipher)
+- 📋 [ESteamNetworkingUDPMsgID](#esteamnetworkingudpmsgid)
 - 📋 [ESteamReviewScore](#esteamreviewscore)
 - 📋 [ETEProtobufIds](#eteprotobufids)
 - 📋 [ETeam](#eteam)
@@ -805,6 +995,8 @@
 - 🔌 [OperationalVarValue](#operationalvarvalue)
 - 📋 [P2P_Messages](#p2p_messages)
 - 📋 [PARTICLE_MESSAGE](#particle_message)
+- 📋 [PartnerEventNotificationType](#partnereventnotificationtype)
+- 🔌 [PerFriendPreferences](#perfriendpreferences)
 - 🔌 [PlayerCommendationInfo](#playercommendationinfo)
 - 🔌 [PlayerDecalDigitalSignature](#playerdecaldigitalsignature)
 - 🔌 [PlayerMedalsInfo](#playermedalsinfo)
@@ -816,6 +1008,12 @@
 - 🔌 [ProtoFlattenedSerializerField_t](#protoflattenedserializerfield_t)
 - 🔌 [ProtoFlattenedSerializerField_t_polymorphic_field_t](#protoflattenedserializerfield_t_polymorphic_field_t)
 - 🔌 [ProtoFlattenedSerializer_t](#protoflattenedserializer_t)
+- 🔌 [PublishedFileDetails](#publishedfiledetails)
+- 🔌 [PublishedFileDetails_Child](#publishedfiledetails_child)
+- 🔌 [PublishedFileDetails_KVTag](#publishedfiledetails_kvtag)
+- 🔌 [PublishedFileDetails_Preview](#publishedfiledetails_preview)
+- 🔌 [PublishedFileDetails_Tag](#publishedfiledetails_tag)
+- 🔌 [PublishedFileDetails_VoteData](#publishedfiledetails_votedata)
 - 📋 [QuestType](#questtype)
 - 📋 [ReplayEventType_t](#replayeventtype_t)
 - 📋 [RequestPause_t](#requestpause_t)
@@ -874,27 +1072,8 @@
 |------|------|------|
 | `bi_RebroadcastGameEvent` | `16` | - |
 | `bi_RebroadcastSource` | `17` | - |
-| `bi_GameEvent` | `18` | - |
+| `bi_GameEvent_DEPRECATED` | `18` | - |
 | `bi_PredictionEvent` | `19` | - |
-
-
-
----
-
-<a id="bidirectional_messages_lowfrequency"></a>
-
-## 📋 Bidirectional_Messages_LowFrequency
-
-**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
-
-**类型:** `enum`
-
-### 📋 枚举值
-
-| 名称 | 值 | 描述 |
-|------|------|------|
-| `bi_RelayInfo` | `700` | - |
-| `bi_RelayPacket` | `701` | - |
 
 
 
@@ -1121,6 +1300,66 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Eventsource` | `int` | get, set | - |
+
+
+
+---
+
+<a id="cbilling_address"></a>
+
+## 🔌 CBilling_Address
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CBilling_Address\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `FirstName` | `string` | get, set | - |
+| `LastName` | `string` | get, set | - |
+| `Address1` | `string` | get, set | - |
+| `Address2` | `string` | get, set | - |
+| `City` | `string` | get, set | - |
+| `UsState` | `string` | get, set | - |
+| `CountryCode` | `string` | get, set | - |
+| `Postcode` | `string` | get, set | - |
+| `ZipPlus4` | `int` | get, set | - |
+| `Phone` | `string` | get, set | - |
+
+
+
+---
+
+<a id="ccddbappdetailcommon"></a>
+
+## 🔌 CCDDBAppDetailCommon
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCDDBAppDetailCommon\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `Name` | `string` | get, set | - |
+| `Icon` | `string` | get, set | - |
+| `Tool` | `bool` | get, set | - |
+| `Demo` | `bool` | get, set | - |
+| `Media` | `bool` | get, set | - |
+| `CommunityVisibleStats` | `bool` | get, set | - |
+| `FriendlyName` | `string` | get, set | - |
+| `Propagation` | `string` | get, set | - |
+| `HasAdultContent` | `bool` | get, set | - |
+| `IsVisibleInSteamChina` | `bool` | get, set | - |
+| `AppType` | `uint` | get, set | - |
 
 
 
@@ -1516,8 +1755,6 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `PunchAngle` | `QAngle` | get, set | - |
-| `WhenTick` | `uint` | get, set | - |
-| `WhenTickFrac` | `float` | get, set | - |
 
 
 
@@ -2188,6 +2425,8 @@
 **类型:** `interface`
 
 **继承:** `ITypedProtobuf\<CCSUsrMsg_ItemDrop\>`
+
+**实现接口:** `INetMessage\<CCSUsrMsg_ItemDrop\>`, `IDisposable`
 
 ### 📝 属性
 
@@ -3459,6 +3698,8 @@
 
 **继承:** `ITypedProtobuf\<CCSUsrMsg_VoteFailed\>`
 
+**实现接口:** `INetMessage\<CCSUsrMsg_VoteFailed\>`, `IDisposable`
+
 ### 📝 属性
 
 | 名称 | 类型 | 访问方法 | 描述 |
@@ -3541,6 +3782,30 @@
 | `OtherTeamStr` | `string` | get, set | - |
 | `IsYesNoVote` | `bool` | get, set | - |
 | `PlayerSlotTarget` | `int` | get, set | - |
+
+
+
+---
+
+<a id="ccsusrmsg_weaponmagdrop"></a>
+
+## 🔌 CCSUsrMsg_WeaponMagDrop
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCSUsrMsg_WeaponMagDrop\>`
+
+**实现接口:** `INetMessage\<CCSUsrMsg_WeaponMagDrop\>`, `IDisposable`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Entidx` | `int` | get, set | - |
+| `SecondaryData` | `int` | get, set | - |
+| `ServerEvent` | `bool` | get, set | - |
 
 
 
@@ -3680,6 +3945,107 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `AgreementUrl` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cclaneventdata"></a>
+
+## 🔌 CClanEventData
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CClanEventData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Gid` | `ulong` | get, set | - |
+| `ClanSteamid` | `ulong` | get, set | - |
+| `EventName` | `string` | get, set | - |
+| `EventType` | `EProtoClanEventType` | get, set | - |
+| `Appid` | `uint` | get, set | - |
+| `ServerAddress` | `string` | get, set | - |
+| `ServerPassword` | `string` | get, set | - |
+| `Rtime32StartTime` | `uint` | get, set | - |
+| `Rtime32EndTime` | `uint` | get, set | - |
+| `CommentCount` | `int` | get, set | - |
+| `CreatorSteamid` | `ulong` | get, set | - |
+| `LastUpdateSteamid` | `ulong` | get, set | - |
+| `EventNotes` | `string` | get, set | - |
+| `Jsondata` | `string` | get, set | - |
+| `AnnouncementBody` | `CCommunity_ClanAnnouncementInfo` | get | - |
+| `Published` | `bool` | get, set | - |
+| `Hidden` | `bool` | get, set | - |
+| `Rtime32VisibilityStart` | `uint` | get, set | - |
+| `Rtime32VisibilityEnd` | `uint` | get, set | - |
+| `BroadcasterAccountid` | `uint` | get, set | - |
+| `FollowerCount` | `uint` | get, set | - |
+| `IgnoreCount` | `uint` | get, set | - |
+| `ForumTopicId` | `ulong` | get, set | - |
+| `Rtime32LastModified` | `uint` | get, set | - |
+| `NewsPostGid` | `ulong` | get, set | - |
+| `RtimeModReviewed` | `uint` | get, set | - |
+| `FeaturedAppTagid` | `uint` | get, set | - |
+| `ReferencedAppids` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `BuildId` | `uint` | get, set | - |
+| `BuildBranch` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cclaneventusernewstuple"></a>
+
+## 🔌 CClanEventUserNewsTuple
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CClanEventUserNewsTuple\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Clanid` | `uint` | get, set | - |
+| `EventGid` | `ulong` | get, set | - |
+| `AnnouncementGid` | `ulong` | get, set | - |
+| `RtimeStart` | `uint` | get, set | - |
+| `RtimeEnd` | `uint` | get, set | - |
+| `PriorityScore` | `uint` | get, set | - |
+| `Type` | `uint` | get, set | - |
+| `ClampRangeSlot` | `uint` | get, set | - |
+| `Appid` | `uint` | get, set | - |
+| `Rtime32LastModified` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cclanmatcheventbyrange"></a>
+
+## 🔌 CClanMatchEventByRange
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CClanMatchEventByRange\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `RtimeBefore` | `uint` | get, set | - |
+| `RtimeAfter` | `uint` | get, set | - |
+| `Qualified` | `uint` | get, set | - |
+| `Events` | `IProtobufRepeatedFieldSubMessageType\<CClanEventUserNewsTuple\>` | get | - |
 
 
 
@@ -3855,6 +4221,227 @@
 
 ---
 
+<a id="ccloud_delete_request"></a>
+
+## 🔌 CCloud_Delete_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCloud_Delete_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Filename` | `string` | get, set | - |
+| `Appid` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="ccloud_delete_response"></a>
+
+## 🔌 CCloud_Delete_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCloud_Delete_Response\>`
+
+
+
+---
+
+<a id="ccloud_enumerateuserfiles_request"></a>
+
+## 🔌 CCloud_EnumerateUserFiles_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCloud_EnumerateUserFiles_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `ExtendedDetails` | `bool` | get, set | - |
+| `Count` | `uint` | get, set | - |
+| `StartIndex` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="ccloud_enumerateuserfiles_response"></a>
+
+## 🔌 CCloud_EnumerateUserFiles_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCloud_EnumerateUserFiles_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Files` | `IProtobufRepeatedFieldSubMessageType\<CCloud_UserFile\>` | get | - |
+| `TotalFiles` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="ccloud_getfiledetails_request"></a>
+
+## 🔌 CCloud_GetFileDetails_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCloud_GetFileDetails_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Ugcid` | `ulong` | get, set | - |
+| `Appid` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="ccloud_getfiledetails_response"></a>
+
+## 🔌 CCloud_GetFileDetails_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCloud_GetFileDetails_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Details` | `CCloud_UserFile` | get | - |
+
+
+
+---
+
+<a id="ccloud_getuploadserverinfo_request"></a>
+
+## 🔌 CCloud_GetUploadServerInfo_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCloud_GetUploadServerInfo_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="ccloud_getuploadserverinfo_response"></a>
+
+## 🔌 CCloud_GetUploadServerInfo_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCloud_GetUploadServerInfo_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ServerUrl` | `string` | get, set | - |
+
+
+
+---
+
+<a id="ccloud_userfile"></a>
+
+## 🔌 CCloud_UserFile
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCloud_UserFile\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `Ugcid` | `ulong` | get, set | - |
+| `Filename` | `string` | get, set | - |
+| `Timestamp` | `ulong` | get, set | - |
+| `FileSize` | `uint` | get, set | - |
+| `Url` | `string` | get, set | - |
+| `SteamidCreator` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="ccommunity_clanannouncementinfo"></a>
+
+## 🔌 CCommunity_ClanAnnouncementInfo
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCommunity_ClanAnnouncementInfo\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Gid` | `ulong` | get, set | - |
+| `Clanid` | `ulong` | get, set | - |
+| `Posterid` | `ulong` | get, set | - |
+| `Headline` | `string` | get, set | - |
+| `Posttime` | `uint` | get, set | - |
+| `Updatetime` | `uint` | get, set | - |
+| `Body` | `string` | get, set | - |
+| `Commentcount` | `int` | get, set | - |
+| `Tags` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+| `Language` | `int` | get, set | - |
+| `Hidden` | `bool` | get, set | - |
+| `ForumTopicId` | `ulong` | get, set | - |
+| `EventGid` | `ulong` | get, set | - |
+| `Voteupcount` | `int` | get, set | - |
+| `Votedowncount` | `int` | get, set | - |
+| `BanCheckResult` | `EBanContentCheckResult` | get, set | - |
+
+
+
+---
+
 <a id="ccommunity_gamepersonaldatacategoryinfo"></a>
 
 ## 🔌 CCommunity_GamePersonalDataCategoryInfo
@@ -4000,6 +4587,39 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Gceresult` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="ccuratorpreferences"></a>
+
+## 🔌 CCuratorPreferences
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CCuratorPreferences\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `SupportedLanguages` | `uint` | get, set | - |
+| `PlatformWindows` | `bool` | get, set | - |
+| `PlatformMac` | `bool` | get, set | - |
+| `PlatformLinux` | `bool` | get, set | - |
+| `VrContent` | `bool` | get, set | - |
+| `AdultContentViolence` | `bool` | get, set | - |
+| `AdultContentSex` | `bool` | get, set | - |
+| `TimestampUpdated` | `uint` | get, set | - |
+| `TagidsCurated` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `TagidsFiltered` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `WebsiteTitle` | `string` | get, set | - |
+| `WebsiteUrl` | `string` | get, set | - |
+| `DiscussionUrl` | `string` | get, set | - |
+| `ShowBroadcast` | `bool` | get, set | - |
 
 
 
@@ -5184,6 +5804,137 @@
 
 ---
 
+<a id="cgamenetworkingui_appsummary"></a>
+
+## 🔌 CGameNetworkingUI_AppSummary
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CGameNetworkingUI_AppSummary\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `IpWasSharedWithFriend` | `bool` | get, set | - |
+| `IpWasSharedWithNonfriend` | `bool` | get, set | - |
+| `ActiveConnections` | `uint` | get, set | - |
+| `MainCxn` | `CGameNetworkingUI_ConnectionSummary` | get | - |
+
+
+
+---
+
+<a id="cgamenetworkingui_connectionstate"></a>
+
+## 🔌 CGameNetworkingUI_ConnectionState
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CGameNetworkingUI_ConnectionState\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionKey` | `string` | get, set | - |
+| `Appid` | `uint` | get, set | - |
+| `ConnectionIdLocal` | `uint` | get, set | - |
+| `IdentityLocal` | `string` | get, set | - |
+| `IdentityRemote` | `string` | get, set | - |
+| `ConnectionState` | `uint` | get, set | - |
+| `StartTime` | `uint` | get, set | - |
+| `CloseTime` | `uint` | get, set | - |
+| `CloseReason` | `uint` | get, set | - |
+| `CloseMessage` | `string` | get, set | - |
+| `StatusLocToken` | `string` | get, set | - |
+| `TransportKind` | `uint` | get, set | - |
+| `SdrpopidLocal` | `string` | get, set | - |
+| `SdrpopidRemote` | `string` | get, set | - |
+| `AddressRemote` | `string` | get, set | - |
+| `P2pRouting` | `CMsgSteamDatagramP2PRoutingSummary` | get | - |
+| `PingInterior` | `uint` | get, set | - |
+| `PingRemoteFront` | `uint` | get, set | - |
+| `PingDefaultInternetRoute` | `uint` | get, set | - |
+| `E2eQualityLocal` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `E2eQualityRemote` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `E2eQualityRemoteInstantaneousTime` | `ulong` | get, set | - |
+| `E2eQualityRemoteLifetimeTime` | `ulong` | get, set | - |
+| `FrontQualityLocal` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `FrontQualityRemote` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `FrontQualityRemoteInstantaneousTime` | `ulong` | get, set | - |
+| `FrontQualityRemoteLifetimeTime` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cgamenetworkingui_connectionsummary"></a>
+
+## 🔌 CGameNetworkingUI_ConnectionSummary
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CGameNetworkingUI_ConnectionSummary\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TransportKind` | `uint` | get, set | - |
+| `ConnectionState` | `uint` | get, set | - |
+| `SdrpopLocal` | `string` | get, set | - |
+| `SdrpopRemote` | `string` | get, set | - |
+| `PingMs` | `uint` | get, set | - |
+| `PacketLoss` | `float` | get, set | - |
+| `PingDefaultInternetRoute` | `uint` | get, set | - |
+| `IpWasShared` | `bool` | get, set | - |
+
+
+
+---
+
+<a id="cgamenetworkingui_globalstate"></a>
+
+## 🔌 CGameNetworkingUI_GlobalState
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CGameNetworkingUI_GlobalState\>`
+
+
+
+---
+
+<a id="cgamenetworkingui_message"></a>
+
+## 🔌 CGameNetworkingUI_Message
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CGameNetworkingUI_Message\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionState` | `IProtobufRepeatedFieldSubMessageType\<CGameNetworkingUI_ConnectionState\>` | get | - |
+
+
+
+---
+
 <a id="cgameservers_aggregationquery_request"></a>
 
 ## 🔌 CGameServers_AggregationQuery_Request
@@ -5251,6 +6002,49 @@
 
 ---
 
+<a id="chelprequestlogs_uploaduserapplicationlog_request"></a>
+
+## 🔌 CHelpRequestLogs_UploadUserApplicationLog_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CHelpRequestLogs_UploadUserApplicationLog_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `LogType` | `string` | get, set | - |
+| `VersionString` | `string` | get, set | - |
+| `LogContents` | `string` | get, set | - |
+
+
+
+---
+
+<a id="chelprequestlogs_uploaduserapplicationlog_response"></a>
+
+## 🔌 CHelpRequestLogs_UploadUserApplicationLog_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CHelpRequestLogs_UploadUserApplicationLog_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Id` | `ulong` | get, set | - |
+
+
+
+---
+
 <a id="cinbuttonstatepb"></a>
 
 ## 🔌 CInButtonStatePB
@@ -5299,6 +6093,27 @@
 | `clc_RconServerDetails` | `35` | - |
 | `clc_HltvReplay` | `36` | - |
 | `clc_Diagnostic` | `37` | - |
+
+
+
+---
+
+<a id="clocalizationtoken"></a>
+
+## 🔌 CLocalizationToken
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CLocalizationToken\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Language` | `uint` | get, set | - |
+| `LocalizedString` | `string` | get, set | - |
 
 
 
@@ -5399,6 +6214,42 @@
 |------|------|--------|------|
 | `Slots` | `IProtobufRepeatedFieldSubMessageType\<CMsgAdjustEquipSlot\>` | get | - |
 | `ChangeNum` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgapprights"></a>
+
+## 🔌 CMsgAppRights
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgAppRights\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `EditInfo` | `bool` | get, set | - |
+| `Publish` | `bool` | get, set | - |
+| `ViewErrorData` | `bool` | get, set | - |
+| `Download` | `bool` | get, set | - |
+| `UploadCdkeys` | `bool` | get, set | - |
+| `GenerateCdkeys` | `bool` | get, set | - |
+| `ViewFinancials` | `bool` | get, set | - |
+| `ManageCeg` | `bool` | get, set | - |
+| `ManageSigning` | `bool` | get, set | - |
+| `ManageCdkeys` | `bool` | get, set | - |
+| `EditMarketing` | `bool` | get, set | - |
+| `EconomySupport` | `bool` | get, set | - |
+| `EconomySupportSupervisor` | `bool` | get, set | - |
+| `ManagePricing` | `bool` | get, set | - |
+| `BroadcastLive` | `bool` | get, set | - |
+| `ViewMarketingTraffic` | `bool` | get, set | - |
+| `EditStoreDisplayContent` | `bool` | get, set | - |
 
 
 
@@ -5514,6 +6365,32 @@
 |------|------|--------|------|
 | `StrangePartItemId` | `ulong` | get, set | - |
 | `ItemItemId` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgauthticket"></a>
+
+## 🔌 CMsgAuthTicket
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgAuthTicket\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Estate` | `uint` | get, set | - |
+| `Eresult` | `uint` | get, set | - |
+| `Steamid` | `ulong` | get, set | - |
+| `Gameid` | `ulong` | get, set | - |
+| `HSteamPipe` | `uint` | get, set | - |
+| `TicketCrc` | `uint` | get, set | - |
+| `Ticket` | `byte[]` | get, set | - |
 
 
 
@@ -6610,45 +7487,6 @@
 
 ---
 
-<a id="cmsggccstrike15_v2_clientreportvalidation"></a>
-
-## 🔌 CMsgGCCStrike15_v2_ClientReportValidation
-
-**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
-
-**类型:** `interface`
-
-**继承:** `ITypedProtobuf\<CMsgGCCStrike15_v2_ClientReportValidation\>`
-
-### 📝 属性
-
-| 名称 | 类型 | 访问方法 | 描述 |
-|------|------|--------|------|
-| `FileReport` | `string` | get, set | - |
-| `CommandLine` | `string` | get, set | - |
-| `TotalFiles` | `uint` | get, set | - |
-| `InternalError` | `uint` | get, set | - |
-| `TrustTime` | `uint` | get, set | - |
-| `CountPending` | `uint` | get, set | - |
-| `CountCompleted` | `uint` | get, set | - |
-| `ProcessId` | `uint` | get, set | - |
-| `Osversion` | `int` | get, set | - |
-| `Clientreportversion` | `uint` | get, set | - |
-| `StatusId` | `uint` | get, set | - |
-| `Diagnostic1` | `uint` | get, set | - |
-| `Diagnostic2` | `ulong` | get, set | - |
-| `Diagnostic3` | `ulong` | get, set | - |
-| `LastLaunchData` | `string` | get, set | - |
-| `ReportCount` | `uint` | get, set | - |
-| `ClientTime` | `ulong` | get, set | - |
-| `Diagnostic4` | `ulong` | get, set | - |
-| `Diagnostic5` | `ulong` | get, set | - |
-| `Diagnostics` | `IProtobufRepeatedFieldSubMessageType\<CVDiagnostic\>` | get | - |
-
-
-
----
-
 <a id="cmsggccstrike15_v2_clientrequestjoinfrienddata"></a>
 
 ## 🔌 CMsgGCCStrike15_v2_ClientRequestJoinFriendData
@@ -6669,6 +7507,7 @@
 | `JoinIpp` | `uint` | get, set | - |
 | `Res` | `CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve` | get | - |
 | `Errormsg` | `string` | get, set | - |
+| `IsLocalServer` | `bool` | get, set | - |
 
 
 
@@ -9504,6 +10343,109 @@
 
 ---
 
+<a id="cmsgicecandidate"></a>
+
+## 🔌 CMsgICECandidate
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgICECandidate\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Candidate` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cmsgicerendezvous"></a>
+
+## 🔌 CMsgICERendezvous
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgICERendezvous\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Auth` | `CMsgICERendezvous_Auth` | get | - |
+| `AddCandidate` | `CMsgICECandidate` | get | - |
+
+
+
+---
+
+<a id="cmsgicerendezvous_auth"></a>
+
+## 🔌 CMsgICERendezvous_Auth
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgICERendezvous_Auth\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `PwdFrag` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cmsgipaddress"></a>
+
+## 🔌 CMsgIPAddress
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgIPAddress\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `V4` | `uint` | get, set | - |
+| `V6` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgipaddressbucket"></a>
+
+## 🔌 CMsgIPAddressBucket
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgIPAddressBucket\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OriginalIpAddress` | `CMsgIPAddress` | get | - |
+| `Bucket` | `ulong` | get, set | - |
+
+
+
+---
+
 <a id="cmsgipcaddress"></a>
 
 ## 🔌 CMsgIPCAddress
@@ -9621,6 +10563,47 @@
 | `Rarity` | `uint` | get, set | - |
 | `Origin` | `uint` | get, set | - |
 | `ItemId` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgkeyvaluepair"></a>
+
+## 🔌 CMsgKeyValuePair
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgKeyValuePair\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Name` | `string` | get, set | - |
+| `Value` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cmsgkeyvalueset"></a>
+
+## 🔌 CMsgKeyValueSet
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgKeyValueSet\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Pairs` | `IProtobufRepeatedFieldSubMessageType\<CMsgKeyValuePair\>` | get | - |
 
 
 
@@ -9744,6 +10727,27 @@
 
 ---
 
+<a id="cmsgmulti"></a>
+
+## 🔌 CMsgMulti
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgMulti\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `SizeUnzipped` | `uint` | get, set | - |
+| `MessageBody` | `byte[]` | get, set | - |
+
+
+
+---
+
 <a id="cmsgopencrate"></a>
 
 ## 🔌 CMsgOpenCrate
@@ -9762,6 +10766,7 @@
 | `SubjectItemId` | `ulong` | get, set | - |
 | `ForRental` | `bool` | get, set | - |
 | `PointsRemaining` | `uint` | get, set | - |
+| `VolatileLimit` | `uint` | get, set | - |
 
 
 
@@ -9819,6 +10824,7 @@
 | `Entityhandle` | `uint` | get, set | - |
 | `MaterialId` | `ulong` | get, set | - |
 | `SequenceName` | `uint` | get, set | - |
+| `PositionObjectspace` | `Vector` | get, set | - |
 
 
 
@@ -9845,6 +10851,7 @@
 | `Damage` | `int` | get, set | - |
 | `PenetrationCount` | `int` | get, set | - |
 | `IsKill` | `bool` | get, set | - |
+| `ThroughSmoke` | `bool` | get, set | - |
 
 
 
@@ -9889,17 +10896,53 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ClientSteamId` | `ulong` | get, set | - |
-| `ClientSessionId` | `int` | get, set | - |
-| `SourceAppId` | `uint` | get, set | - |
-| `JobIdSource` | `ulong` | get, set | - |
-| `JobIdTarget` | `ulong` | get, set | - |
+| `Steamid` | `ulong` | get, set | - |
+| `ClientSessionid` | `int` | get, set | - |
+| `RoutingAppid` | `uint` | get, set | - |
+| `JobidSource` | `ulong` | get, set | - |
+| `JobidTarget` | `ulong` | get, set | - |
 | `TargetJobName` | `string` | get, set | - |
+| `SeqNum` | `int` | get, set | - |
 | `Eresult` | `int` | get, set | - |
 | `ErrorMessage` | `string` | get, set | - |
+| `AuthAccountFlags` | `uint` | get, set | - |
+| `TokenSource` | `uint` | get, set | - |
+| `AdminSpoofingUser` | `bool` | get, set | - |
+| `TransportError` | `int` | get, set | - |
+| `Messageid` | `ulong` | get, set | - |
+| `PublisherGroupId` | `uint` | get, set | - |
+| `Sysid` | `uint` | get, set | - |
+| `TraceTag` | `ulong` | get, set | - |
+| `WebapiKeyId` | `uint` | get, set | - |
+| `IsFromExternalSource` | `bool` | get, set | - |
+| `ForwardToSysid` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `CmSysid` | `uint` | get, set | - |
+| `LauncherType` | `uint` | get, set | - |
+| `Realm` | `uint` | get, set | - |
+| `TimeoutMs` | `int` | get, set | - |
+| `DebugSource` | `string` | get, set | - |
 | `Ip` | `uint` | get, set | - |
-| `GcMsgSrc` | `GCProtoBufMsgSrc` | get, set | - |
-| `GcDirIndexSource` | `uint` | get, set | - |
+| `IpV6` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgprotobufwrapped"></a>
+
+## 🔌 CMsgProtobufWrapped
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgProtobufWrapped\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MessageBody` | `byte[]` | get, set | - |
 
 
 
@@ -10790,6 +11833,8 @@
 
 **继承:** `ITypedProtobuf\<CMsgSource1LegacyGameEvent\>`
 
+**实现接口:** `INetMessage\<CMsgSource1LegacyGameEvent\>`, `IDisposable`
+
 ### 📝 属性
 
 | 名称 | 类型 | 访问方法 | 描述 |
@@ -11028,6 +12073,86 @@
 
 ---
 
+<a id="cmsgsource2playstatspackedrecordlist"></a>
+
+## 🔌 CMsgSource2PlayStatsPackedRecordList
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSource2PlayStatsPackedRecordList\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `RecordName` | `string` | get, set | - |
+| `FieldDefs` | `IProtobufRepeatedFieldSubMessageType\<CMsgSource2PlayStatsPackedRecordList_FieldDef\>` | get | - |
+| `RecordCount` | `uint` | get, set | - |
+| `Uint64Vals` | `IProtobufRepeatedFieldValueType\<ulong\>` | get | - |
+| `Uint32Vals` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `Uint16Vals` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `Uint8Vals` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `Int64Vals` | `IProtobufRepeatedFieldValueType\<long\>` | get | - |
+| `Int32Vals` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
+| `Int16Vals` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
+| `Int8Vals` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
+| `Float64Vals` | `IProtobufRepeatedFieldValueType\<double\>` | get | - |
+| `Float32Vals` | `IProtobufRepeatedFieldValueType\<float\>` | get | - |
+| `BoolVals` | `IProtobufRepeatedFieldValueType\<bool\>` | get | - |
+| `StringVals` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+| `LowCardinalityStringVals` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+| `UtcdatetimeVals` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `SteamidtrustbucketVals` | `IProtobufRepeatedFieldValueType\<ulong\>` | get | - |
+| `TrustbucketVals` | `IProtobufRepeatedFieldSubMessageType\<CMsgSource2PlayStatsPackedRecordList_SteamIDList\>` | get | - |
+| `SteamidVals` | `IProtobufRepeatedFieldValueType\<ulong\>` | get | - |
+
+
+
+---
+
+<a id="cmsgsource2playstatspackedrecordlist_fielddef"></a>
+
+## 🔌 CMsgSource2PlayStatsPackedRecordList_FieldDef
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSource2PlayStatsPackedRecordList_FieldDef\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `FieldName` | `string` | get, set | - |
+| `FieldType` | `ESource2PlayStatsFieldType` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsource2playstatspackedrecordlist_steamidlist"></a>
+
+## 🔌 CMsgSource2PlayStatsPackedRecordList_SteamIDList
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSource2PlayStatsPackedRecordList_SteamIDList\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Steamid` | `IProtobufRepeatedFieldValueType\<ulong\>` | get | - |
+
+
+
+---
+
 <a id="cmsgsource2systemspecs"></a>
 
 ## 🔌 CMsgSource2SystemSpecs
@@ -11115,6 +12240,2135 @@
 | `Usec1secmaxP50All` | `uint` | get, set | - |
 | `Usec1secmaxP95All` | `uint` | get, set | - |
 | `Usec1secmaxP99All` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramcachedcredentialsforapp"></a>
+
+## 🔌 CMsgSteamDatagramCachedCredentialsForApp
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramCachedCredentialsForApp\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `PrivateKey` | `byte[]` | get, set | - |
+| `Cert` | `byte[]` | get, set | - |
+| `RelayTickets` | `IProtobufRepeatedFieldValueType\<byte[]\>` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramcertificate"></a>
+
+## 🔌 CMsgSteamDatagramCertificate
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramCertificate\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `KeyType` | `CMsgSteamDatagramCertificate_EKeyType` | get, set | - |
+| `KeyData` | `byte[]` | get, set | - |
+| `LegacySteamId` | `ulong` | get, set | - |
+| `LegacyIdentityBinary` | `CMsgSteamNetworkingIdentityLegacyBinary` | get | - |
+| `IdentityString` | `string` | get, set | - |
+| `GameserverDatacenterIds` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `TimeCreated` | `uint` | get, set | - |
+| `TimeExpiry` | `uint` | get, set | - |
+| `AppIds` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `IpAddresses` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramcertificaterequest"></a>
+
+## 🔌 CMsgSteamDatagramCertificateRequest
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramCertificateRequest\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Cert` | `CMsgSteamDatagramCertificate` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramcertificatesigned"></a>
+
+## 🔌 CMsgSteamDatagramCertificateSigned
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramCertificateSigned\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Cert` | `byte[]` | get, set | - |
+| `CaKeyId` | `ulong` | get, set | - |
+| `CaSignature` | `byte[]` | get, set | - |
+| `PrivateKeyData` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramcertificate_ekeytype"></a>
+
+## 📋 CMsgSteamDatagramCertificate_EKeyType
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `INVALID` | `0` | - |
+| `ED25519` | `1` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramclientpingsamplereply"></a>
+
+## 🔌 CMsgSteamDatagramClientPingSampleReply
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramClientPingSampleReply\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+| `RelayOverrideActive` | `bool` | get, set | - |
+| `Tos` | `CMsgTOSTreatment` | get | - |
+| `Pops` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamDatagramClientPingSampleReply_POP\>` | get | - |
+| `LegacyDataCenters` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamDatagramClientPingSampleReply_LegacyDataCenter\>` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramclientpingsamplereply_legacydatacenter"></a>
+
+## 🔌 CMsgSteamDatagramClientPingSampleReply_LegacyDataCenter
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramClientPingSampleReply_LegacyDataCenter\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `DataCenterId` | `uint` | get, set | - |
+| `BestDcViaRelayPopId` | `uint` | get, set | - |
+| `BestDcPingMs` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramclientpingsamplereply_pop"></a>
+
+## 🔌 CMsgSteamDatagramClientPingSampleReply_POP
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramClientPingSampleReply_POP\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `PopId` | `uint` | get, set | - |
+| `DefaultFrontPingMs` | `uint` | get, set | - |
+| `ClusterPenalty` | `uint` | get, set | - |
+| `AltAddresses` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamDatagramClientPingSampleReply_POP_AltAddress\>` | get | - |
+| `DefaultE2ePingMs` | `uint` | get, set | - |
+| `DefaultE2eScore` | `uint` | get, set | - |
+| `P2pViaPeerRelayPopId` | `uint` | get, set | - |
+| `BestDcPingMs` | `uint` | get, set | - |
+| `BestDcScore` | `uint` | get, set | - |
+| `BestDcViaRelayPopId` | `uint` | get, set | - |
+| `DefaultDcPingMs` | `uint` | get, set | - |
+| `DefaultDcScore` | `uint` | get, set | - |
+| `DefaultDcViaRelayPopId` | `uint` | get, set | - |
+| `TestDcPingMs` | `uint` | get, set | - |
+| `TestDcScore` | `uint` | get, set | - |
+| `TestDcViaRelayPopId` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramclientpingsamplereply_pop_altaddress"></a>
+
+## 🔌 CMsgSteamDatagramClientPingSampleReply_POP_AltAddress
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramClientPingSampleReply_POP_AltAddress\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Id` | `string` | get, set | - |
+| `FrontPingMs` | `uint` | get, set | - |
+| `Penalty` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramclientpingsamplerequest"></a>
+
+## 🔌 CMsgSteamDatagramClientPingSampleRequest
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramClientPingSampleRequest\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramclientswitchedprimary"></a>
+
+## 🔌 CMsgSteamDatagramClientSwitchedPrimary
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramClientSwitchedPrimary\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+| `FromIp` | `uint` | get, set | - |
+| `FromPort` | `uint` | get, set | - |
+| `FromRouterCluster` | `uint` | get, set | - |
+| `FromActiveTime` | `uint` | get, set | - |
+| `FromActivePacketsRecv` | `uint` | get, set | - |
+| `FromDroppedReason` | `string` | get, set | - |
+| `GapMs` | `uint` | get, set | - |
+| `FromQualityNow` | `CMsgSteamDatagramClientSwitchedPrimary_RouterQuality` | get | - |
+| `ToQualityNow` | `CMsgSteamDatagramClientSwitchedPrimary_RouterQuality` | get | - |
+| `FromQualityThen` | `CMsgSteamDatagramClientSwitchedPrimary_RouterQuality` | get | - |
+| `ToQualityThen` | `CMsgSteamDatagramClientSwitchedPrimary_RouterQuality` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramclientswitchedprimary_routerquality"></a>
+
+## 🔌 CMsgSteamDatagramClientSwitchedPrimary_RouterQuality
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramClientSwitchedPrimary_RouterQuality\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Score` | `uint` | get, set | - |
+| `FrontPing` | `uint` | get, set | - |
+| `BackPing` | `uint` | get, set | - |
+| `SecondsUntilDown` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectok"></a>
+
+## 🔌 CMsgSteamDatagramConnectOK
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectOK\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ClientConnectionId` | `uint` | get, set | - |
+| `ServerConnectionId` | `uint` | get, set | - |
+| `YourTimestamp` | `ulong` | get, set | - |
+| `DelayTimeUsec` | `uint` | get, set | - |
+| `GameserverRelaySessionId` | `uint` | get, set | - |
+| `Crypt` | `CMsgSteamDatagramSessionCryptInfoSigned` | get | - |
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectrequest"></a>
+
+## 🔌 CMsgSteamDatagramConnectRequest
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectRequest\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+| `MyTimestamp` | `ulong` | get, set | - |
+| `PingEstMs` | `uint` | get, set | - |
+| `VirtualPort` | `uint` | get, set | - |
+| `GameserverRelaySessionId` | `uint` | get, set | - |
+| `Crypt` | `CMsgSteamDatagramSessionCryptInfoSigned` | get | - |
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+| `RoutingSecret` | `ulong` | get, set | - |
+| `LegacyClientSteamId` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionclosed"></a>
+
+## 🔌 CMsgSteamDatagramConnectionClosed
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectionClosed\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ToConnectionId` | `uint` | get, set | - |
+| `FromConnectionId` | `uint` | get, set | - |
+| `FromIdentityString` | `string` | get, set | - |
+| `LegacyFromIdentityBinary` | `CMsgSteamNetworkingIdentityLegacyBinary` | get | - |
+| `LegacyFromSteamId` | `ulong` | get, set | - |
+| `LegacyGameserverRelaySessionId` | `uint` | get, set | - |
+| `ToRelaySessionId` | `uint` | get, set | - |
+| `FromRelaySessionId` | `uint` | get, set | - |
+| `ForwardTargetRelayRoutingToken` | `byte[]` | get, set | - |
+| `ForwardTargetRevision` | `uint` | get, set | - |
+| `RelayMode` | `CMsgSteamDatagramConnectionClosed_ERelayMode` | get, set | - |
+| `Debug` | `string` | get, set | - |
+| `ReasonCode` | `uint` | get, set | - |
+| `RoutingSecret` | `ulong` | get, set | - |
+| `NotPrimarySession` | `bool` | get, set | - |
+| `NotPrimaryTransport` | `bool` | get, set | - |
+| `RelayOverrideActive` | `bool` | get, set | - |
+| `QualityRelay` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `QualityE2e` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `P2pRoutingSummary` | `CMsgSteamDatagramP2PRoutingSummary` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionclosed_erelaymode"></a>
+
+## 📋 CMsgSteamDatagramConnectionClosed_ERelayMode
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `None` | `0` | - |
+| `EndToEnd` | `1` | - |
+| `ClosedByPeer` | `2` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionquality"></a>
+
+## 🔌 CMsgSteamDatagramConnectionQuality
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectionQuality\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Instantaneous` | `CMsgSteamDatagramLinkInstantaneousStats` | get | - |
+| `Lifetime` | `CMsgSteamDatagramLinkLifetimeStats` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsclienttorouter"></a>
+
+## 🔌 CMsgSteamDatagramConnectionStatsClientToRouter
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectionStatsClientToRouter\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `QualityRelay` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `QualityE2e` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `AckRelay` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `LegacyAckE2e` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `Flags` | `uint` | get, set | - |
+| `ClientConnectionId` | `uint` | get, set | - |
+| `SeqNumC2r` | `uint` | get, set | - |
+| `SeqNumE2e` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsclienttorouter_flags"></a>
+
+## 📋 CMsgSteamDatagramConnectionStatsClientToRouter_Flags
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ACK_REQUEST_RELAY` | `1` | - |
+| `ACK_REQUEST_E2E` | `2` | - |
+| `ACK_REQUEST_IMMEDIATE` | `4` | - |
+| `NOT_PRIMARY_SESSION` | `8` | - |
+| `CLIENT_RELAY_OVERRIDE` | `32` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsp2pclienttorouter"></a>
+
+## 🔌 CMsgSteamDatagramConnectionStatsP2PClientToRouter
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectionStatsP2PClientToRouter\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `QualityRelay` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `QualityE2e` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `P2pRoutingSummary` | `CMsgSteamDatagramP2PRoutingSummary` | get | - |
+| `AckRelay` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `LegacyAckE2e` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `Flags` | `uint` | get, set | - |
+| `ForwardTargetRelayRoutingToken` | `byte[]` | get, set | - |
+| `ForwardTargetRevision` | `uint` | get, set | - |
+| `Routes` | `byte[]` | get, set | - |
+| `AckPeerRoutesRevision` | `uint` | get, set | - |
+| `ConnectionId` | `uint` | get, set | - |
+| `SeqNumC2r` | `uint` | get, set | - |
+| `SeqNumE2e` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsp2pclienttorouter_flags"></a>
+
+## 📋 CMsgSteamDatagramConnectionStatsP2PClientToRouter_Flags
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ACK_REQUEST_RELAY` | `1` | - |
+| `ACK_REQUEST_E2E` | `2` | - |
+| `ACK_REQUEST_IMMEDIATE` | `4` | - |
+| `NOT_PRIMARY_SESSION` | `8` | - |
+| `NOT_PRIMARY_TRANSPORT_E2E` | `16` | - |
+| `CLIENT_RELAY_OVERRIDE` | `32` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsp2proutertoclient"></a>
+
+## 🔌 CMsgSteamDatagramConnectionStatsP2PRouterToClient
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectionStatsP2PRouterToClient\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `QualityRelay` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `QualityE2e` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `SecondsUntilShutdown` | `uint` | get, set | - |
+| `MigrateRequestIp` | `uint` | get, set | - |
+| `MigrateRequestPort` | `uint` | get, set | - |
+| `ScoringPenaltyRelayCluster` | `uint` | get, set | - |
+| `AckRelay` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `LegacyAckE2e` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `Flags` | `uint` | get, set | - |
+| `AckForwardTargetRevision` | `uint` | get, set | - |
+| `Routes` | `byte[]` | get, set | - |
+| `AckPeerRoutesRevision` | `uint` | get, set | - |
+| `ConnectionId` | `uint` | get, set | - |
+| `SeqNumR2c` | `uint` | get, set | - |
+| `SeqNumE2e` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsp2proutertoclient_flags"></a>
+
+## 📋 CMsgSteamDatagramConnectionStatsP2PRouterToClient_Flags
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ACK_REQUEST_RELAY` | `1` | - |
+| `ACK_REQUEST_E2E` | `2` | - |
+| `ACK_REQUEST_IMMEDIATE` | `4` | - |
+| `NOT_PRIMARY_TRANSPORT_E2E` | `16` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsroutertoclient"></a>
+
+## 🔌 CMsgSteamDatagramConnectionStatsRouterToClient
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectionStatsRouterToClient\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `QualityRelay` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `QualityE2e` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `SecondsUntilShutdown` | `uint` | get, set | - |
+| `MigrateRequestIp` | `uint` | get, set | - |
+| `MigrateRequestPort` | `uint` | get, set | - |
+| `ScoringPenaltyRelayCluster` | `uint` | get, set | - |
+| `AckRelay` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `LegacyAckE2e` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `Flags` | `uint` | get, set | - |
+| `ClientConnectionId` | `uint` | get, set | - |
+| `SeqNumR2c` | `uint` | get, set | - |
+| `SeqNumE2e` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsroutertoclient_flags"></a>
+
+## 📋 CMsgSteamDatagramConnectionStatsRouterToClient_Flags
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ACK_REQUEST_RELAY` | `1` | - |
+| `ACK_REQUEST_E2E` | `2` | - |
+| `ACK_REQUEST_IMMEDIATE` | `4` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsroutertoserver"></a>
+
+## 🔌 CMsgSteamDatagramConnectionStatsRouterToServer
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectionStatsRouterToServer\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `QualityRelay` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `QualityE2e` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `AckRelay` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `LegacyAckE2e` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `Flags` | `uint` | get, set | - |
+| `SeqNumR2s` | `uint` | get, set | - |
+| `SeqNumE2e` | `uint` | get, set | - |
+| `ClientIdentityString` | `string` | get, set | - |
+| `LegacyClientSteamId` | `ulong` | get, set | - |
+| `RelaySessionId` | `uint` | get, set | - |
+| `ClientConnectionId` | `uint` | get, set | - |
+| `ServerConnectionId` | `uint` | get, set | - |
+| `RoutingSecret` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsroutertoserver_flags"></a>
+
+## 📋 CMsgSteamDatagramConnectionStatsRouterToServer_Flags
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ACK_REQUEST_RELAY` | `1` | - |
+| `ACK_REQUEST_E2E` | `2` | - |
+| `ACK_REQUEST_IMMEDIATE` | `4` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsservertorouter"></a>
+
+## 🔌 CMsgSteamDatagramConnectionStatsServerToRouter
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramConnectionStatsServerToRouter\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `QualityRelay` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `QualityE2e` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `AckRelay` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `LegacyAckE2e` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `Flags` | `uint` | get, set | - |
+| `SeqNumS2r` | `uint` | get, set | - |
+| `SeqNumE2e` | `uint` | get, set | - |
+| `RelaySessionId` | `uint` | get, set | - |
+| `ClientConnectionId` | `uint` | get, set | - |
+| `ServerConnectionId` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramconnectionstatsservertorouter_flags"></a>
+
+## 📋 CMsgSteamDatagramConnectionStatsServerToRouter_Flags
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ACK_REQUEST_RELAY` | `1` | - |
+| `ACK_REQUEST_E2E` | `2` | - |
+| `ACK_REQUEST_IMMEDIATE` | `4` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramdiagnostic"></a>
+
+## 🔌 CMsgSteamDatagramDiagnostic
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramDiagnostic\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Severity` | `uint` | get, set | - |
+| `Text` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramgamecoordinatorserverlogin"></a>
+
+## 🔌 CMsgSteamDatagramGameCoordinatorServerLogin
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramGameCoordinatorServerLogin\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TimeGenerated` | `uint` | get, set | - |
+| `Appid` | `uint` | get, set | - |
+| `Routing` | `byte[]` | get, set | - |
+| `Appdata` | `byte[]` | get, set | - |
+| `LegacyIdentityBinary` | `byte[]` | get, set | - |
+| `IdentityString` | `string` | get, set | - |
+| `DummySteamId` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramgameserverpingreplydata"></a>
+
+## 🔌 CMsgSteamDatagramGameserverPingReplyData
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramGameserverPingReplyData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `EchoRelayUnixTime` | `uint` | get, set | - |
+| `Echo` | `byte[]` | get, set | - |
+| `LegacyChallenge` | `ulong` | get, set | - |
+| `LegacyRouterTimestamp` | `uint` | get, set | - |
+| `DataCenterId` | `uint` | get, set | - |
+| `Appid` | `uint` | get, set | - |
+| `ProtocolVersion` | `uint` | get, set | - |
+| `Build` | `string` | get, set | - |
+| `NetworkConfigVersion` | `ulong` | get, set | - |
+| `MyUnixTime` | `uint` | get, set | - |
+| `RoutingBlob` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramgameserverpingrequestbody"></a>
+
+## 🔌 CMsgSteamDatagramGameserverPingRequestBody
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramGameserverPingRequestBody\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `RelayPopid` | `uint` | get, set | - |
+| `YourPublicIp` | `CMsgSteamNetworkingIPAddress` | get | - |
+| `YourPublicPort` | `uint` | get, set | - |
+| `RelayUnixTime` | `ulong` | get, set | - |
+| `RoutingSecret` | `ulong` | get, set | - |
+| `MyIps` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamNetworkingIPAddress\>` | get | - |
+| `Echo` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramgameserverpingrequestenvelope"></a>
+
+## 🔌 CMsgSteamDatagramGameserverPingRequestEnvelope
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramGameserverPingRequestEnvelope\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+| `SignedData` | `byte[]` | get, set | - |
+| `Signature` | `byte[]` | get, set | - |
+| `LegacyYourPublicIp` | `uint` | get, set | - |
+| `LegacyYourPublicPort` | `uint` | get, set | - |
+| `LegacyRelayUnixTime` | `uint` | get, set | - |
+| `LegacyChallenge` | `ulong` | get, set | - |
+| `LegacyRouterTimestamp` | `uint` | get, set | - |
+| `DummyPad` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramgameserversessionestablished"></a>
+
+## 🔌 CMsgSteamDatagramGameserverSessionEstablished
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramGameserverSessionEstablished\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+| `GameserverIdentityString` | `string` | get, set | - |
+| `SecondsUntilShutdown` | `uint` | get, set | - |
+| `SeqNumR2c` | `uint` | get, set | - |
+| `DummyLegacyIdentityBinary` | `byte[]` | get, set | - |
+| `LegacyGameserverSteamid` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramgameserversessionrequest"></a>
+
+## 🔌 CMsgSteamDatagramGameserverSessionRequest
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramGameserverSessionRequest\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Ticket` | `byte[]` | get, set | - |
+| `ChallengeTime` | `uint` | get, set | - |
+| `Challenge` | `ulong` | get, set | - |
+| `ClientConnectionId` | `uint` | get, set | - |
+| `ServerConnectionId` | `uint` | get, set | - |
+| `NetworkConfigVersion` | `ulong` | get, set | - |
+| `ProtocolVersion` | `uint` | get, set | - |
+| `Platform` | `string` | get, set | - |
+| `Build` | `string` | get, set | - |
+| `DevGameserverIdentity` | `string` | get, set | - |
+| `DevClientCert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramhostedserveraddressplaintext"></a>
+
+## 🔌 CMsgSteamDatagramHostedServerAddressPlaintext
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramHostedServerAddressPlaintext\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Ipv4` | `uint` | get, set | - |
+| `Ipv6` | `byte[]` | get, set | - |
+| `Port` | `uint` | get, set | - |
+| `RoutingSecret` | `ulong` | get, set | - |
+| `ProtocolVersion` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramlinkinstantaneousstats"></a>
+
+## 🔌 CMsgSteamDatagramLinkInstantaneousStats
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramLinkInstantaneousStats\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `OutPacketsPerSecX10` | `uint` | get, set | - |
+| `OutBytesPerSec` | `uint` | get, set | - |
+| `InPacketsPerSecX10` | `uint` | get, set | - |
+| `InBytesPerSec` | `uint` | get, set | - |
+| `PingMs` | `uint` | get, set | - |
+| `PacketsDroppedPct` | `uint` | get, set | - |
+| `PacketsWeirdSequencePct` | `uint` | get, set | - |
+| `PeakJitterUsec` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramlinklifetimestats"></a>
+
+## 🔌 CMsgSteamDatagramLinkLifetimeStats
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramLinkLifetimeStats\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectedSeconds` | `uint` | get, set | - |
+| `PacketsSent` | `ulong` | get, set | - |
+| `KbSent` | `ulong` | get, set | - |
+| `PacketsRecv` | `ulong` | get, set | - |
+| `KbRecv` | `ulong` | get, set | - |
+| `PacketsRecvSequenced` | `ulong` | get, set | - |
+| `PacketsRecvDropped` | `ulong` | get, set | - |
+| `PacketsRecvOutOfOrder` | `ulong` | get, set | - |
+| `PacketsRecvOutOfOrderCorrected` | `ulong` | get, set | - |
+| `PacketsRecvDuplicate` | `ulong` | get, set | - |
+| `PacketsRecvLurch` | `ulong` | get, set | - |
+| `MultipathPacketsRecvSequenced` | `IProtobufRepeatedFieldValueType\<ulong\>` | get | - |
+| `MultipathPacketsRecvLater` | `IProtobufRepeatedFieldValueType\<ulong\>` | get | - |
+| `MultipathSendEnabled` | `uint` | get, set | - |
+| `QualityHistogram100` | `uint` | get, set | - |
+| `QualityHistogram99` | `uint` | get, set | - |
+| `QualityHistogram97` | `uint` | get, set | - |
+| `QualityHistogram95` | `uint` | get, set | - |
+| `QualityHistogram90` | `uint` | get, set | - |
+| `QualityHistogram75` | `uint` | get, set | - |
+| `QualityHistogram50` | `uint` | get, set | - |
+| `QualityHistogram1` | `uint` | get, set | - |
+| `QualityHistogramDead` | `uint` | get, set | - |
+| `QualityNtile2nd` | `uint` | get, set | - |
+| `QualityNtile5th` | `uint` | get, set | - |
+| `QualityNtile25th` | `uint` | get, set | - |
+| `QualityNtile50th` | `uint` | get, set | - |
+| `PingHistogram25` | `uint` | get, set | - |
+| `PingHistogram50` | `uint` | get, set | - |
+| `PingHistogram75` | `uint` | get, set | - |
+| `PingHistogram100` | `uint` | get, set | - |
+| `PingHistogram125` | `uint` | get, set | - |
+| `PingHistogram150` | `uint` | get, set | - |
+| `PingHistogram200` | `uint` | get, set | - |
+| `PingHistogram300` | `uint` | get, set | - |
+| `PingHistogramMax` | `uint` | get, set | - |
+| `PingNtile5th` | `uint` | get, set | - |
+| `PingNtile50th` | `uint` | get, set | - |
+| `PingNtile75th` | `uint` | get, set | - |
+| `PingNtile95th` | `uint` | get, set | - |
+| `PingNtile98th` | `uint` | get, set | - |
+| `JitterHistogramNegligible` | `uint` | get, set | - |
+| `JitterHistogram1` | `uint` | get, set | - |
+| `JitterHistogram2` | `uint` | get, set | - |
+| `JitterHistogram5` | `uint` | get, set | - |
+| `JitterHistogram10` | `uint` | get, set | - |
+| `JitterHistogram20` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramnoconnection"></a>
+
+## 🔌 CMsgSteamDatagramNoConnection
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramNoConnection\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ToConnectionId` | `uint` | get, set | - |
+| `FromConnectionId` | `uint` | get, set | - |
+| `LegacyGameserverRelaySessionId` | `uint` | get, set | - |
+| `ToRelaySessionId` | `uint` | get, set | - |
+| `FromRelaySessionId` | `uint` | get, set | - |
+| `FromIdentityString` | `string` | get, set | - |
+| `LegacyFromSteamId` | `ulong` | get, set | - |
+| `EndToEnd` | `bool` | get, set | - |
+| `NotPrimarySession` | `bool` | get, set | - |
+| `NotPrimaryTransport` | `bool` | get, set | - |
+| `RelayOverrideActive` | `bool` | get, set | - |
+| `QualityRelay` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `QualityE2e` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `P2pRoutingSummary` | `CMsgSteamDatagramP2PRoutingSummary` | get | - |
+| `RoutingSecret` | `ulong` | get, set | - |
+| `DummyPad` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramnosessionrelaytoclient"></a>
+
+## 🔌 CMsgSteamDatagramNoSessionRelayToClient
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramNoSessionRelayToClient\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+| `YourPublicIp` | `uint` | get, set | - |
+| `YourPublicPort` | `uint` | get, set | - |
+| `ServerTime` | `uint` | get, set | - |
+| `Challenge` | `ulong` | get, set | - |
+| `SecondsUntilShutdown` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramnosessionrelaytopeer"></a>
+
+## 🔌 CMsgSteamDatagramNoSessionRelayToPeer
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramNoSessionRelayToPeer\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `LegacyRelaySessionId` | `uint` | get, set | - |
+| `FromRelaySessionId` | `uint` | get, set | - |
+| `FromConnectionId` | `uint` | get, set | - |
+| `KludgePad` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramp2pbadrouteroutertoclient"></a>
+
+## 🔌 CMsgSteamDatagramP2PBadRouteRouterToClient
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramP2PBadRouteRouterToClient\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+| `FailedRelayRoutingToken` | `byte[]` | get, set | - |
+| `AckForwardTargetRevision` | `uint` | get, set | - |
+| `KludgePad` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramp2proutes"></a>
+
+## 🔌 CMsgSteamDatagramP2PRoutes
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramP2PRoutes\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `RelayClusters` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamDatagramP2PRoutes_RelayCluster\>` | get | - |
+| `Routes` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamDatagramP2PRoutes_Route\>` | get | - |
+| `Revision` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramp2proutes_relaycluster"></a>
+
+## 🔌 CMsgSteamDatagramP2PRoutes_RelayCluster
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramP2PRoutes_RelayCluster\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `PopId` | `uint` | get, set | - |
+| `PingMs` | `uint` | get, set | - |
+| `ScorePenalty` | `uint` | get, set | - |
+| `SessionRelayRoutingToken` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramp2proutes_route"></a>
+
+## 🔌 CMsgSteamDatagramP2PRoutes_Route
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramP2PRoutes_Route\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MyPopId` | `uint` | get, set | - |
+| `YourPopId` | `uint` | get, set | - |
+| `LegacyScore` | `uint` | get, set | - |
+| `InteriorScore` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramp2proutingsummary"></a>
+
+## 🔌 CMsgSteamDatagramP2PRoutingSummary
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramP2PRoutingSummary\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Ice` | `CMsgSteamNetworkingICESessionSummary` | get | - |
+| `Sdr` | `CMsgSteamNetworkingP2PSDRRoutingSummary` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramp2psessionestablished"></a>
+
+## 🔌 CMsgSteamDatagramP2PSessionEstablished
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramP2PSessionEstablished\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+| `SecondsUntilShutdown` | `uint` | get, set | - |
+| `RelayRoutingToken` | `byte[]` | get, set | - |
+| `SeqNumR2c` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramp2psessionrequest"></a>
+
+## 🔌 CMsgSteamDatagramP2PSessionRequest
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramP2PSessionRequest\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+| `Body` | `byte[]` | get, set | - |
+| `Signature` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramp2psessionrequestbody"></a>
+
+## 🔌 CMsgSteamDatagramP2PSessionRequestBody
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramP2PSessionRequestBody\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ChallengeTime` | `uint` | get, set | - |
+| `Challenge` | `ulong` | get, set | - |
+| `ClientConnectionId` | `uint` | get, set | - |
+| `LegacyPeerSteamId` | `ulong` | get, set | - |
+| `PeerIdentityString` | `string` | get, set | - |
+| `PeerConnectionId` | `uint` | get, set | - |
+| `EncryptedData` | `byte[]` | get, set | - |
+| `EncryptionYourPublicKeyLeadByte` | `uint` | get, set | - |
+| `EncryptionMyEphemeralPublicKey` | `byte[]` | get, set | - |
+| `ProtocolVersion` | `uint` | get, set | - |
+| `NetworkConfigVersion` | `ulong` | get, set | - |
+| `Platform` | `string` | get, set | - |
+| `Build` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramp2psessionrequestbody_encrypteddata"></a>
+
+## 🔌 CMsgSteamDatagramP2PSessionRequestBody_EncryptedData
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramP2PSessionRequestBody_EncryptedData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `PeerIdentityString` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramrelayauthticket"></a>
+
+## 🔌 CMsgSteamDatagramRelayAuthTicket
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramRelayAuthTicket\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TimeExpiry` | `uint` | get, set | - |
+| `AuthorizedClientIdentityString` | `string` | get, set | - |
+| `GameserverIdentityString` | `string` | get, set | - |
+| `AuthorizedPublicIp` | `uint` | get, set | - |
+| `GameserverAddress` | `byte[]` | get, set | - |
+| `AppId` | `uint` | get, set | - |
+| `VirtualPort` | `uint` | get, set | - |
+| `ExtraFields` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamDatagramRelayAuthTicket_ExtraField\>` | get | - |
+| `LegacyAuthorizedSteamId` | `ulong` | get, set | - |
+| `LegacyGameserverSteamId` | `ulong` | get, set | - |
+| `LegacyGameserverPopId` | `uint` | get, set | - |
+| `LegacyAuthorizedClientIdentityBinary` | `byte[]` | get, set | - |
+| `LegacyGameserverIdentityBinary` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramrelayauthticket_extrafield"></a>
+
+## 🔌 CMsgSteamDatagramRelayAuthTicket_ExtraField
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramRelayAuthTicket_ExtraField\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Name` | `string` | get, set | - |
+| `StringValue` | `string` | get, set | - |
+| `Int64Value` | `long` | get, set | - |
+| `Fixed64Value` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramrouterpingreply"></a>
+
+## 🔌 CMsgSteamDatagramRouterPingReply
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramRouterPingReply\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ClientTimestamp` | `uint` | get, set | - |
+| `LatencyDatacenterIds` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `LatencyPingMs` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `LatencyDatacenterIdsP2p` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `LatencyPingMsP2p` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+| `YourPublicIp` | `uint` | get, set | - |
+| `YourPublicPort` | `uint` | get, set | - |
+| `ServerTime` | `uint` | get, set | - |
+| `Challenge` | `ulong` | get, set | - |
+| `SecondsUntilShutdown` | `uint` | get, set | - |
+| `ClientCookie` | `uint` | get, set | - |
+| `RecvTos` | `uint` | get, set | - |
+| `EchoSentTos` | `uint` | get, set | - |
+| `SentTos` | `uint` | get, set | - |
+| `EchoRequestReplyTos` | `uint` | get, set | - |
+| `ScoringPenaltyRelayCluster` | `uint` | get, set | - |
+| `Flags` | `uint` | get, set | - |
+| `RouteExceptions` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamDatagramRouterPingReply_RouteException\>` | get | - |
+| `AltAddresses` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamDatagramRouterPingReply_AltAddress\>` | get | - |
+| `DummyPad` | `byte[]` | get, set | - |
+| `DummyVarint` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramrouterpingreply_altaddress"></a>
+
+## 🔌 CMsgSteamDatagramRouterPingReply_AltAddress
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramRouterPingReply_AltAddress\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Ipv4` | `uint` | get, set | - |
+| `Port` | `uint` | get, set | - |
+| `Penalty` | `uint` | get, set | - |
+| `Protocol` | `CMsgSteamDatagramRouterPingReply_AltAddress_Protocol` | get, set | - |
+| `Id` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramrouterpingreply_altaddress_protocol"></a>
+
+## 📋 CMsgSteamDatagramRouterPingReply_AltAddress_Protocol
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `DefaultProtocol` | `0` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramrouterpingreply_flags"></a>
+
+## 📋 CMsgSteamDatagramRouterPingReply_Flags
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `FLAG_MAYBE_MORE_DATA_CENTERS` | `1` | - |
+| `FLAG_MAYBE_MORE_ALT_ADDRESSES` | `2` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramrouterpingreply_routeexception"></a>
+
+## 🔌 CMsgSteamDatagramRouterPingReply_RouteException
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramRouterPingReply_RouteException\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `DataCenterId` | `uint` | get, set | - |
+| `Flags` | `uint` | get, set | - |
+| `Penalty` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramsessioncryptinfo"></a>
+
+## 🔌 CMsgSteamDatagramSessionCryptInfo
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramSessionCryptInfo\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `KeyType` | `CMsgSteamDatagramSessionCryptInfo_EKeyType` | get, set | - |
+| `KeyData` | `byte[]` | get, set | - |
+| `Nonce` | `ulong` | get, set | - |
+| `ProtocolVersion` | `uint` | get, set | - |
+| `Ciphers` | `ESteamNetworkingSocketsCipher` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramsessioncryptinfosigned"></a>
+
+## 🔌 CMsgSteamDatagramSessionCryptInfoSigned
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramSessionCryptInfoSigned\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Info` | `byte[]` | get, set | - |
+| `Signature` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramsessioncryptinfo_ekeytype"></a>
+
+## 📋 CMsgSteamDatagramSessionCryptInfo_EKeyType
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `INVALID` | `0` | - |
+| `CURVE25519` | `1` | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramsetsecondaryaddressrequest"></a>
+
+## 🔌 CMsgSteamDatagramSetSecondaryAddressRequest
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramSetSecondaryAddressRequest\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ClientMainIp` | `uint` | get, set | - |
+| `ClientMainPort` | `uint` | get, set | - |
+| `ClientConnectionId` | `uint` | get, set | - |
+| `ClientIdentity` | `string` | get, set | - |
+| `RequestSendDuplication` | `bool` | get, set | - |
+| `KludgePad` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramsetsecondaryaddressresult"></a>
+
+## 🔌 CMsgSteamDatagramSetSecondaryAddressResult
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramSetSecondaryAddressResult\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Success` | `bool` | get, set | - |
+| `Message` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramsignedgamecoordinatorserverlogin"></a>
+
+## 🔌 CMsgSteamDatagramSignedGameCoordinatorServerLogin
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramSignedGameCoordinatorServerLogin\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+| `Login` | `byte[]` | get, set | - |
+| `Signature` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramsignedmessagegeneric"></a>
+
+## 🔌 CMsgSteamDatagramSignedMessageGeneric
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramSignedMessageGeneric\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+| `SignedData` | `byte[]` | get, set | - |
+| `Signature` | `byte[]` | get, set | - |
+| `DummyPad` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamdatagramsignedrelayauthticket"></a>
+
+## 🔌 CMsgSteamDatagramSignedRelayAuthTicket
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamDatagramSignedRelayAuthTicket\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ReservedDoNotUse` | `ulong` | get, set | - |
+| `Ticket` | `byte[]` | get, set | - |
+| `Signature` | `byte[]` | get, set | - |
+| `KeyId` | `ulong` | get, set | - |
+| `Certs` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamDatagramCertificateSigned\>` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingicesessionsummary"></a>
+
+## 🔌 CMsgSteamNetworkingICESessionSummary
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingICESessionSummary\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `FailureReasonCode` | `uint` | get, set | - |
+| `LocalCandidateTypes` | `uint` | get, set | - |
+| `RemoteCandidateTypes` | `uint` | get, set | - |
+| `InitialRouteKind` | `uint` | get, set | - |
+| `InitialPing` | `uint` | get, set | - |
+| `InitialScore` | `uint` | get, set | - |
+| `NegotiationMs` | `uint` | get, set | - |
+| `BestRouteKind` | `uint` | get, set | - |
+| `BestPing` | `uint` | get, set | - |
+| `BestScore` | `uint` | get, set | - |
+| `BestTime` | `uint` | get, set | - |
+| `SelectedSeconds` | `uint` | get, set | - |
+| `UserSettings` | `uint` | get, set | - |
+| `IceEnableVar` | `uint` | get, set | - |
+| `LocalCandidateTypesAllowed` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingipaddress"></a>
+
+## 🔌 CMsgSteamNetworkingIPAddress
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingIPAddress\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `V4` | `uint` | get, set | - |
+| `V6` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingidentitylegacybinary"></a>
+
+## 🔌 CMsgSteamNetworkingIdentityLegacyBinary
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingIdentityLegacyBinary\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `SteamId` | `ulong` | get, set | - |
+| `GenericBytes` | `byte[]` | get, set | - |
+| `GenericString` | `string` | get, set | - |
+| `Ipv6AndPort` | `byte[]` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingp2prendezvous"></a>
+
+## 🔌 CMsgSteamNetworkingP2PRendezvous
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingP2PRendezvous\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `FromIdentity` | `string` | get, set | - |
+| `FromConnectionId` | `uint` | get, set | - |
+| `ToIdentity` | `string` | get, set | - |
+| `ToConnectionId` | `uint` | get, set | - |
+| `SdrRoutes` | `byte[]` | get, set | - |
+| `AckPeerRoutesRevision` | `uint` | get, set | - |
+| `IceEnabled` | `bool` | get, set | - |
+| `HostedServerTicket` | `byte[]` | get, set | - |
+| `ConnectRequest` | `CMsgSteamNetworkingP2PRendezvous_ConnectRequest` | get | - |
+| `ConnectOk` | `CMsgSteamNetworkingP2PRendezvous_ConnectOK` | get | - |
+| `ConnectionClosed` | `CMsgSteamNetworkingP2PRendezvous_ConnectionClosed` | get | - |
+| `AckReliableMsg` | `uint` | get, set | - |
+| `FirstReliableMsg` | `uint` | get, set | - |
+| `ReliableMessages` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamNetworkingP2PRendezvous_ReliableMessage\>` | get | - |
+| `ApplicationMessages` | `IProtobufRepeatedFieldSubMessageType\<CMsgSteamNetworkingP2PRendezvous_ApplicationMessage\>` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingp2prendezvous_applicationmessage"></a>
+
+## 🔌 CMsgSteamNetworkingP2PRendezvous_ApplicationMessage
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingP2PRendezvous_ApplicationMessage\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Data` | `byte[]` | get, set | - |
+| `MsgNum` | `ulong` | get, set | - |
+| `Flags` | `uint` | get, set | - |
+| `LaneIdx` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingp2prendezvous_connectok"></a>
+
+## 🔌 CMsgSteamNetworkingP2PRendezvous_ConnectOK
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingP2PRendezvous_ConnectOK\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Crypt` | `CMsgSteamDatagramSessionCryptInfoSigned` | get | - |
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingp2prendezvous_connectrequest"></a>
+
+## 🔌 CMsgSteamNetworkingP2PRendezvous_ConnectRequest
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingP2PRendezvous_ConnectRequest\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Crypt` | `CMsgSteamDatagramSessionCryptInfoSigned` | get | - |
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+| `ToVirtualPort` | `uint` | get, set | - |
+| `FromVirtualPort` | `uint` | get, set | - |
+| `FromFakeip` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingp2prendezvous_connectionclosed"></a>
+
+## 🔌 CMsgSteamNetworkingP2PRendezvous_ConnectionClosed
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingP2PRendezvous_ConnectionClosed\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Debug` | `string` | get, set | - |
+| `ReasonCode` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingp2prendezvous_reliablemessage"></a>
+
+## 🔌 CMsgSteamNetworkingP2PRendezvous_ReliableMessage
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingP2PRendezvous_ReliableMessage\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Ice` | `CMsgICERendezvous` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamnetworkingp2psdrroutingsummary"></a>
+
+## 🔌 CMsgSteamNetworkingP2PSDRRoutingSummary
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamNetworkingP2PSDRRoutingSummary\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InitialPing` | `uint` | get, set | - |
+| `InitialPingFrontLocal` | `uint` | get, set | - |
+| `InitialPingFrontRemote` | `uint` | get, set | - |
+| `InitialScore` | `uint` | get, set | - |
+| `InitialPopLocal` | `uint` | get, set | - |
+| `InitialPopRemote` | `uint` | get, set | - |
+| `BestPing` | `uint` | get, set | - |
+| `BestPingFrontLocal` | `uint` | get, set | - |
+| `BestPingFrontRemote` | `uint` | get, set | - |
+| `BestScore` | `uint` | get, set | - |
+| `BestPopLocal` | `uint` | get, set | - |
+| `BestPopRemote` | `uint` | get, set | - |
+| `BestTime` | `uint` | get, set | - |
+| `NegotiationMs` | `uint` | get, set | - |
+| `SelectedSeconds` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamsockets_udp_challengereply"></a>
+
+## 🔌 CMsgSteamSockets_UDP_ChallengeReply
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamSockets_UDP_ChallengeReply\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+| `Challenge` | `ulong` | get, set | - |
+| `YourTimestamp` | `ulong` | get, set | - |
+| `ProtocolVersion` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamsockets_udp_challengerequest"></a>
+
+## 🔌 CMsgSteamSockets_UDP_ChallengeRequest
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamSockets_UDP_ChallengeRequest\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ConnectionId` | `uint` | get, set | - |
+| `MyTimestamp` | `ulong` | get, set | - |
+| `ProtocolVersion` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamsockets_udp_connectok"></a>
+
+## 🔌 CMsgSteamSockets_UDP_ConnectOK
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamSockets_UDP_ConnectOK\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ClientConnectionId` | `uint` | get, set | - |
+| `ServerConnectionId` | `uint` | get, set | - |
+| `YourTimestamp` | `ulong` | get, set | - |
+| `DelayTimeUsec` | `uint` | get, set | - |
+| `Crypt` | `CMsgSteamDatagramSessionCryptInfoSigned` | get | - |
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+| `IdentityString` | `string` | get, set | - |
+| `LegacyServerSteamId` | `ulong` | get, set | - |
+| `LegacyIdentityBinary` | `CMsgSteamNetworkingIdentityLegacyBinary` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamsockets_udp_connectrequest"></a>
+
+## 🔌 CMsgSteamSockets_UDP_ConnectRequest
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamSockets_UDP_ConnectRequest\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ClientConnectionId` | `uint` | get, set | - |
+| `Challenge` | `ulong` | get, set | - |
+| `MyTimestamp` | `ulong` | get, set | - |
+| `PingEstMs` | `uint` | get, set | - |
+| `Crypt` | `CMsgSteamDatagramSessionCryptInfoSigned` | get | - |
+| `Cert` | `CMsgSteamDatagramCertificateSigned` | get | - |
+| `LegacyProtocolVersion` | `uint` | get, set | - |
+| `IdentityString` | `string` | get, set | - |
+| `LegacyClientSteamId` | `ulong` | get, set | - |
+| `LegacyIdentityBinary` | `CMsgSteamNetworkingIdentityLegacyBinary` | get | - |
+
+
+
+---
+
+<a id="cmsgsteamsockets_udp_connectionclosed"></a>
+
+## 🔌 CMsgSteamSockets_UDP_ConnectionClosed
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamSockets_UDP_ConnectionClosed\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `ToConnectionId` | `uint` | get, set | - |
+| `FromConnectionId` | `uint` | get, set | - |
+| `Debug` | `string` | get, set | - |
+| `ReasonCode` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamsockets_udp_noconnection"></a>
+
+## 🔌 CMsgSteamSockets_UDP_NoConnection
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamSockets_UDP_NoConnection\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `FromConnectionId` | `uint` | get, set | - |
+| `ToConnectionId` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamsockets_udp_stats"></a>
+
+## 🔌 CMsgSteamSockets_UDP_Stats
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgSteamSockets_UDP_Stats\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Stats` | `CMsgSteamDatagramConnectionQuality` | get | - |
+| `Flags` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgsteamsockets_udp_stats_flags"></a>
+
+## 📋 CMsgSteamSockets_UDP_Stats_Flags
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `ACK_REQUEST_E2E` | `2` | - |
+| `ACK_REQUEST_IMMEDIATE` | `4` | - |
+| `NOT_PRIMARY_TRANSPORT_E2E` | `16` | - |
 
 
 
@@ -11535,6 +14789,7 @@
 | `AffectRagdolls` | `bool` | get, set | - |
 | `SoundName` | `string` | get, set | - |
 | `ExplosionType` | `uint` | get, set | - |
+| `ExplosionTypeName` | `uint` | get, set | - |
 | `CreateDebris` | `bool` | get, set | - |
 | `DebrisOrigin` | `Vector` | get, set | - |
 | `DebrisSurfaceprop` | `uint` | get, set | - |
@@ -11907,6 +15162,28 @@
 | `Origin` | `Vector` | get, set | - |
 | `Normal` | `Vector` | get, set | - |
 | `Index` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cmsgtostreatment"></a>
+
+## 🔌 CMsgTOSTreatment
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CMsgTOSTreatment\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `L4sDetect` | `string` | get, set | - |
+| `UpEcn1` | `string` | get, set | - |
+| `DownDscp45` | `string` | get, set | - |
 
 
 
@@ -12421,6 +15698,47 @@
 
 ---
 
+<a id="coauthtoken_implicitgrantnoprompt_request"></a>
+
+## 🔌 COAuthToken_ImplicitGrantNoPrompt_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<COAuthToken_ImplicitGrantNoPrompt_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Clientid` | `string` | get, set | - |
+
+
+
+---
+
+<a id="coauthtoken_implicitgrantnoprompt_response"></a>
+
+## 🔌 COAuthToken_ImplicitGrantNoPrompt_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<COAuthToken_ImplicitGrantNoPrompt_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `AccessToken` | `string` | get, set | - |
+| `RedirectUri` | `string` | get, set | - |
+
+
+
+---
+
 <a id="cp2p_ping"></a>
 
 ## 🔌 CP2P_Ping
@@ -12567,6 +15885,749 @@
 | `DotaSpectatorHeroIndex` | `int` | get, set | - |
 | `DotaSpectatorAutospeed` | `int` | get, set | - |
 | `DotaReplaySpeed` | `int` | get, set | - |
+
+
+
+---
+
+<a id="cpackagereservationstatus"></a>
+
+## 🔌 CPackageReservationStatus
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPackageReservationStatus\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Packageid` | `uint` | get, set | - |
+| `ReservationState` | `int` | get, set | - |
+| `QueuePosition` | `int` | get, set | - |
+| `TotalQueueSize` | `int` | get, set | - |
+| `ReservationCountryCode` | `string` | get, set | - |
+| `Expired` | `bool` | get, set | - |
+| `TimeExpires` | `uint` | get, set | - |
+| `TimeReserved` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_acceptssa_request"></a>
+
+## 🔌 CPlayer_AcceptSSA_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_AcceptSSA_Request\>`
+
+
+
+---
+
+<a id="cplayer_acceptssa_response"></a>
+
+## 🔌 CPlayer_AcceptSSA_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_AcceptSSA_Response\>`
+
+
+
+---
+
+<a id="cplayer_addfriend_request"></a>
+
+## 🔌 CPlayer_AddFriend_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_AddFriend_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Steamid` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_addfriend_response"></a>
+
+## 🔌 CPlayer_AddFriend_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_AddFriend_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `InviteSent` | `bool` | get, set | - |
+| `FriendRelationship` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_communitypreferences"></a>
+
+## 🔌 CPlayer_CommunityPreferences
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_CommunityPreferences\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `HideAdultContentViolence` | `bool` | get, set | - |
+| `HideAdultContentSex` | `bool` | get, set | - |
+| `ParenthesizeNicknames` | `bool` | get, set | - |
+| `TimestampUpdated` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getcommunitypreferences_request"></a>
+
+## 🔌 CPlayer_GetCommunityPreferences_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetCommunityPreferences_Request\>`
+
+
+
+---
+
+<a id="cplayer_getcommunitypreferences_response"></a>
+
+## 🔌 CPlayer_GetCommunityPreferences_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetCommunityPreferences_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Preferences` | `CPlayer_CommunityPreferences` | get | - |
+
+
+
+---
+
+<a id="cplayer_getfriendsgameplayinfo_request"></a>
+
+## 🔌 CPlayer_GetFriendsGameplayInfo_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetFriendsGameplayInfo_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getfriendsgameplayinfo_response"></a>
+
+## 🔌 CPlayer_GetFriendsGameplayInfo_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetFriendsGameplayInfo_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `YourInfo` | `CPlayer_GetFriendsGameplayInfo_Response_OwnGameplayInfo` | get | - |
+| `InGame` | `IProtobufRepeatedFieldSubMessageType\<CPlayer_GetFriendsGameplayInfo_Response_FriendsGameplayInfo\>` | get | - |
+| `PlayedRecently` | `IProtobufRepeatedFieldSubMessageType\<CPlayer_GetFriendsGameplayInfo_Response_FriendsGameplayInfo\>` | get | - |
+| `PlayedEver` | `IProtobufRepeatedFieldSubMessageType\<CPlayer_GetFriendsGameplayInfo_Response_FriendsGameplayInfo\>` | get | - |
+| `Owns` | `IProtobufRepeatedFieldSubMessageType\<CPlayer_GetFriendsGameplayInfo_Response_FriendsGameplayInfo\>` | get | - |
+| `InWishlist` | `IProtobufRepeatedFieldSubMessageType\<CPlayer_GetFriendsGameplayInfo_Response_FriendsGameplayInfo\>` | get | - |
+
+
+
+---
+
+<a id="cplayer_getfriendsgameplayinfo_response_friendsgameplayinfo"></a>
+
+## 🔌 CPlayer_GetFriendsGameplayInfo_Response_FriendsGameplayInfo
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetFriendsGameplayInfo_Response_FriendsGameplayInfo\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Steamid` | `ulong` | get, set | - |
+| `MinutesPlayed` | `uint` | get, set | - |
+| `MinutesPlayedForever` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getfriendsgameplayinfo_response_owngameplayinfo"></a>
+
+## 🔌 CPlayer_GetFriendsGameplayInfo_Response_OwnGameplayInfo
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetFriendsGameplayInfo_Response_OwnGameplayInfo\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Steamid` | `ulong` | get, set | - |
+| `MinutesPlayed` | `uint` | get, set | - |
+| `MinutesPlayedForever` | `uint` | get, set | - |
+| `InWishlist` | `bool` | get, set | - |
+| `Owned` | `bool` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getgamebadgelevels_request"></a>
+
+## 🔌 CPlayer_GetGameBadgeLevels_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetGameBadgeLevels_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getgamebadgelevels_response"></a>
+
+## 🔌 CPlayer_GetGameBadgeLevels_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetGameBadgeLevels_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `PlayerLevel` | `uint` | get, set | - |
+| `Badges` | `IProtobufRepeatedFieldSubMessageType\<CPlayer_GetGameBadgeLevels_Response_Badge\>` | get | - |
+
+
+
+---
+
+<a id="cplayer_getgamebadgelevels_response_badge"></a>
+
+## 🔌 CPlayer_GetGameBadgeLevels_Response_Badge
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetGameBadgeLevels_Response_Badge\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Level` | `int` | get, set | - |
+| `Series` | `int` | get, set | - |
+| `BorderColor` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getlastplayedtimes_request"></a>
+
+## 🔌 CPlayer_GetLastPlayedTimes_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetLastPlayedTimes_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `MinLastPlayed` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getlastplayedtimes_response"></a>
+
+## 🔌 CPlayer_GetLastPlayedTimes_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetLastPlayedTimes_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Games` | `IProtobufRepeatedFieldSubMessageType\<CPlayer_GetLastPlayedTimes_Response_Game\>` | get | - |
+
+
+
+---
+
+<a id="cplayer_getlastplayedtimes_response_game"></a>
+
+## 🔌 CPlayer_GetLastPlayedTimes_Response_Game
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetLastPlayedTimes_Response_Game\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `int` | get, set | - |
+| `LastPlaytime` | `uint` | get, set | - |
+| `Playtime2weeks` | `int` | get, set | - |
+| `PlaytimeForever` | `int` | get, set | - |
+| `FirstPlaytime` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getmutualfriendsforincominginvites_request"></a>
+
+## 🔌 CPlayer_GetMutualFriendsForIncomingInvites_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetMutualFriendsForIncomingInvites_Request\>`
+
+
+
+---
+
+<a id="cplayer_getmutualfriendsforincominginvites_response"></a>
+
+## 🔌 CPlayer_GetMutualFriendsForIncomingInvites_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetMutualFriendsForIncomingInvites_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `IncomingInviteMutualFriendsLists` | `IProtobufRepeatedFieldSubMessageType\<CPlayer_IncomingInviteMutualFriendList\>` | get | - |
+
+
+
+---
+
+<a id="cplayer_getnewsteamannouncementstate_request"></a>
+
+## 🔌 CPlayer_GetNewSteamAnnouncementState_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetNewSteamAnnouncementState_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Language` | `int` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getnewsteamannouncementstate_response"></a>
+
+## 🔌 CPlayer_GetNewSteamAnnouncementState_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetNewSteamAnnouncementState_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `State` | `int` | get, set | - |
+| `AnnouncementHeadline` | `string` | get, set | - |
+| `AnnouncementUrl` | `string` | get, set | - |
+| `TimePosted` | `uint` | get, set | - |
+| `AnnouncementGid` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getnicknamelist_request"></a>
+
+## 🔌 CPlayer_GetNicknameList_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetNicknameList_Request\>`
+
+
+
+---
+
+<a id="cplayer_getnicknamelist_response"></a>
+
+## 🔌 CPlayer_GetNicknameList_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetNicknameList_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Nicknames` | `IProtobufRepeatedFieldSubMessageType\<CPlayer_GetNicknameList_Response_PlayerNickname\>` | get | - |
+
+
+
+---
+
+<a id="cplayer_getnicknamelist_response_playernickname"></a>
+
+## 🔌 CPlayer_GetNicknameList_Response_PlayerNickname
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetNicknameList_Response_PlayerNickname\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Accountid` | `uint` | get, set | - |
+| `Nickname` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_getperfriendpreferences_request"></a>
+
+## 🔌 CPlayer_GetPerFriendPreferences_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetPerFriendPreferences_Request\>`
+
+
+
+---
+
+<a id="cplayer_getperfriendpreferences_response"></a>
+
+## 🔌 CPlayer_GetPerFriendPreferences_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_GetPerFriendPreferences_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Preferences` | `IProtobufRepeatedFieldSubMessageType\<PerFriendPreferences\>` | get | - |
+
+
+
+---
+
+<a id="cplayer_ignorefriend_request"></a>
+
+## 🔌 CPlayer_IgnoreFriend_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_IgnoreFriend_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Steamid` | `ulong` | get, set | - |
+| `Unignore` | `bool` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_ignorefriend_response"></a>
+
+## 🔌 CPlayer_IgnoreFriend_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_IgnoreFriend_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `FriendRelationship` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_incominginvitemutualfriendlist"></a>
+
+## 🔌 CPlayer_IncomingInviteMutualFriendList
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_IncomingInviteMutualFriendList\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Steamid` | `ulong` | get, set | - |
+| `MutualFriendAccountIds` | `IProtobufRepeatedFieldValueType\<uint\>` | get | - |
+
+
+
+---
+
+<a id="cplayer_removefriend_request"></a>
+
+## 🔌 CPlayer_RemoveFriend_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_RemoveFriend_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Steamid` | `ulong` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_removefriend_response"></a>
+
+## 🔌 CPlayer_RemoveFriend_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_RemoveFriend_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `FriendRelationship` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_setcommunitypreferences_request"></a>
+
+## 🔌 CPlayer_SetCommunityPreferences_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_SetCommunityPreferences_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Preferences` | `CPlayer_CommunityPreferences` | get | - |
+
+
+
+---
+
+<a id="cplayer_setcommunitypreferences_response"></a>
+
+## 🔌 CPlayer_SetCommunityPreferences_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_SetCommunityPreferences_Response\>`
+
+
+
+---
+
+<a id="cplayer_setperfriendpreferences_request"></a>
+
+## 🔌 CPlayer_SetPerFriendPreferences_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_SetPerFriendPreferences_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Preferences` | `PerFriendPreferences` | get | - |
+
+
+
+---
+
+<a id="cplayer_setperfriendpreferences_response"></a>
+
+## 🔌 CPlayer_SetPerFriendPreferences_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_SetPerFriendPreferences_Response\>`
+
+
+
+---
+
+<a id="cplayer_updatesteamannouncementlastread_request"></a>
+
+## 🔌 CPlayer_UpdateSteamAnnouncementLastRead_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_UpdateSteamAnnouncementLastRead_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `AnnouncementGid` | `ulong` | get, set | - |
+| `TimePosted` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cplayer_updatesteamannouncementlastread_response"></a>
+
+## 🔌 CPlayer_UpdateSteamAnnouncementLastRead_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPlayer_UpdateSteamAnnouncementLastRead_Response\>`
 
 
 
@@ -12755,6 +16816,336 @@
 **类型:** `interface`
 
 **继承:** `ITypedProtobuf\<CProductInfo_SetRichPresenceLocalization_Response\>`
+
+
+
+---
+
+<a id="cpublishedfile_getdetails_request"></a>
+
+## 🔌 CPublishedFile_GetDetails_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_GetDetails_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Publishedfileids` | `IProtobufRepeatedFieldValueType\<ulong\>` | get | - |
+| `Includetags` | `bool` | get, set | - |
+| `Includeadditionalpreviews` | `bool` | get, set | - |
+| `Includechildren` | `bool` | get, set | - |
+| `Includekvtags` | `bool` | get, set | - |
+| `Includevotes` | `bool` | get, set | - |
+| `ShortDescription` | `bool` | get, set | - |
+
+
+
+---
+
+<a id="cpublishedfile_getdetails_response"></a>
+
+## 🔌 CPublishedFile_GetDetails_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_GetDetails_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Publishedfiledetails` | `IProtobufRepeatedFieldSubMessageType\<PublishedFileDetails\>` | get | - |
+
+
+
+---
+
+<a id="cpublishedfile_getuserfiles_request"></a>
+
+## 🔌 CPublishedFile_GetUserFiles_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_GetUserFiles_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `Page` | `uint` | get, set | - |
+| `Numperpage` | `uint` | get, set | - |
+| `Sortmethod` | `string` | get, set | - |
+| `Totalonly` | `bool` | get, set | - |
+| `Privacy` | `uint` | get, set | - |
+| `IdsOnly` | `bool` | get, set | - |
+| `Requiredtags` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+| `Excludedtags` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+
+
+
+---
+
+<a id="cpublishedfile_getuserfiles_response"></a>
+
+## 🔌 CPublishedFile_GetUserFiles_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_GetUserFiles_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Total` | `uint` | get, set | - |
+| `Startindex` | `uint` | get, set | - |
+| `Publishedfiledetails` | `IProtobufRepeatedFieldSubMessageType\<PublishedFileDetails\>` | get | - |
+| `Apps` | `IProtobufRepeatedFieldSubMessageType\<CPublishedFile_GetUserFiles_Response_App\>` | get | - |
+
+
+
+---
+
+<a id="cpublishedfile_getuserfiles_response_app"></a>
+
+## 🔌 CPublishedFile_GetUserFiles_Response_App
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_GetUserFiles_Response_App\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `Name` | `string` | get, set | - |
+| `Shortcutid` | `uint` | get, set | - |
+| `Private` | `bool` | get, set | - |
+
+
+
+---
+
+<a id="cpublishedfile_publish_request"></a>
+
+## 🔌 CPublishedFile_Publish_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_Publish_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `ConsumerAppid` | `uint` | get, set | - |
+| `Cloudfilename` | `string` | get, set | - |
+| `PreviewCloudfilename` | `string` | get, set | - |
+| `Title` | `string` | get, set | - |
+| `FileDescription` | `string` | get, set | - |
+| `FileType` | `uint` | get, set | - |
+| `ConsumerShortcutName` | `string` | get, set | - |
+| `YoutubeUsername` | `string` | get, set | - |
+| `YoutubeVideoid` | `string` | get, set | - |
+| `Visibility` | `uint` | get, set | - |
+| `RedirectUri` | `string` | get, set | - |
+| `Tags` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+| `CollectionType` | `string` | get, set | - |
+| `GameType` | `string` | get, set | - |
+| `Url` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cpublishedfile_publish_response"></a>
+
+## 🔌 CPublishedFile_Publish_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_Publish_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Publishedfileid` | `ulong` | get, set | - |
+| `RedirectUri` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cpublishedfile_refreshvotingqueue_request"></a>
+
+## 🔌 CPublishedFile_RefreshVotingQueue_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_RefreshVotingQueue_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `MatchingFileType` | `uint` | get, set | - |
+| `Tags` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+| `MatchAllTags` | `bool` | get, set | - |
+| `ExcludedTags` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+| `DesiredQueueSize` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cpublishedfile_refreshvotingqueue_response"></a>
+
+## 🔌 CPublishedFile_RefreshVotingQueue_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_RefreshVotingQueue_Response\>`
+
+
+
+---
+
+<a id="cpublishedfile_subscribe_request"></a>
+
+## 🔌 CPublishedFile_Subscribe_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_Subscribe_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Publishedfileid` | `ulong` | get, set | - |
+| `ListType` | `uint` | get, set | - |
+| `Appid` | `int` | get, set | - |
+| `NotifyClient` | `bool` | get, set | - |
+
+
+
+---
+
+<a id="cpublishedfile_subscribe_response"></a>
+
+## 🔌 CPublishedFile_Subscribe_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_Subscribe_Response\>`
+
+
+
+---
+
+<a id="cpublishedfile_unsubscribe_request"></a>
+
+## 🔌 CPublishedFile_Unsubscribe_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_Unsubscribe_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Publishedfileid` | `ulong` | get, set | - |
+| `ListType` | `uint` | get, set | - |
+| `Appid` | `int` | get, set | - |
+| `NotifyClient` | `bool` | get, set | - |
+
+
+
+---
+
+<a id="cpublishedfile_unsubscribe_response"></a>
+
+## 🔌 CPublishedFile_Unsubscribe_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_Unsubscribe_Response\>`
+
+
+
+---
+
+<a id="cpublishedfile_update_request"></a>
+
+## 🔌 CPublishedFile_Update_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_Update_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `Publishedfileid` | `ulong` | get, set | - |
+| `Title` | `string` | get, set | - |
+| `FileDescription` | `string` | get, set | - |
+| `Visibility` | `uint` | get, set | - |
+| `Tags` | `IProtobufRepeatedFieldValueType\<string\>` | get | - |
+| `Filename` | `string` | get, set | - |
+| `PreviewFilename` | `string` | get, set | - |
+
+
+
+---
+
+<a id="cpublishedfile_update_response"></a>
+
+## 🔌 CPublishedFile_Update_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CPublishedFile_Update_Response\>`
 
 
 
@@ -14802,6 +19193,73 @@
 
 ---
 
+<a id="csource2metrics_fetchmapdata_request"></a>
+
+## 🔌 CSource2Metrics_FetchMapData_Request
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CSource2Metrics_FetchMapData_Request\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Appid` | `uint` | get, set | - |
+| `MapName` | `string` | get, set | - |
+| `GameType` | `uint` | get, set | - |
+| `GameMode` | `uint` | get, set | - |
+| `Param` | `string` | get, set | - |
+| `TimeSpan` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="csource2metrics_fetchmapdata_response"></a>
+
+## 🔌 CSource2Metrics_FetchMapData_Response
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CSource2Metrics_FetchMapData_Response\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Results` | `IProtobufRepeatedFieldSubMessageType\<CSource2Metrics_FetchMapData_Response_MapData\>` | get | - |
+
+
+
+---
+
+<a id="csource2metrics_fetchmapdata_response_mapdata"></a>
+
+## 🔌 CSource2Metrics_FetchMapData_Response_MapData
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CSource2Metrics_FetchMapData_Response_MapData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Name` | `string` | get, set | - |
+| `Type` | `string` | get, set | - |
+| `Data` | `string` | get, set | - |
+
+
+
+---
+
 <a id="csource2metrics_matchperfsummary_notification"></a>
 
 ## 🔌 CSource2Metrics_MatchPerfSummary_Notification
@@ -14849,6 +19307,27 @@
 | `UpstreamFlow` | `CMsgSource2NetworkFlowQuality` | get | - |
 | `Steamid` | `ulong` | get, set | - |
 | `PerfSamples` | `IProtobufRepeatedFieldSubMessageType\<CMsgSource2PerfIntervalSample\>` | get | - |
+
+
+
+---
+
+<a id="csource2metrics_recordplaystats_notification"></a>
+
+## 🔌 CSource2Metrics_RecordPlayStats_Notification
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CSource2Metrics_RecordPlayStats_Notification\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `RecordTypes` | `IProtobufRepeatedFieldSubMessageType\<CMsgSource2PlayStatsPackedRecordList\>` | get | - |
+| `Appid` | `uint` | get, set | - |
 
 
 
@@ -16273,6 +20752,31 @@
 
 ---
 
+<a id="cusermessage_usersentbugbug"></a>
+
+## 🔌 CUserMessage_UserSentBugBug
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CUserMessage_UserSentBugBug\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `CommandLine` | `string` | get, set | - |
+| `AutoexecCfg` | `string` | get, set | - |
+| `SystemSpecs` | `CMsgSource2SystemSpecs` | get | - |
+| `BuildId` | `uint` | get, set | - |
+| `Osversion` | `int` | get, set | - |
+| `CommandLogs` | `string` | get, set | - |
+
+
+
+---
+
 <a id="cusermessage_utilmsg_response"></a>
 
 ## 🔌 CUserMessage_UtilMsg_Response
@@ -16337,6 +20841,8 @@
 
 **继承:** `ITypedProtobuf\<CUserMsg_CustomGameEvent\>`
 
+**实现接口:** `INetMessage\<CUserMsg_CustomGameEvent\>`, `IDisposable`
+
 ### 📝 属性
 
 | 名称 | 类型 | 访问方法 | 描述 |
@@ -16358,6 +20864,8 @@
 
 **继承:** `ITypedProtobuf\<CUserMsg_HudError\>`
 
+**实现接口:** `INetMessage\<CUserMsg_HudError\>`, `IDisposable`
+
 ### 📝 属性
 
 | 名称 | 类型 | 访问方法 | 描述 |
@@ -16377,6 +20885,8 @@
 **类型:** `interface`
 
 **继承:** `ITypedProtobuf\<CUserMsg_ParticleManager\>`
+
+**实现接口:** `INetMessage\<CUserMsg_ParticleManager\>`, `IDisposable`
 
 ### 📝 属性
 
@@ -16423,6 +20933,8 @@
 | `UpdateFan` | `CUserMsg_ParticleManager_UpdateFan` | get | - |
 | `SetParticleClusterGrowth` | `CUserMsg_ParticleManager_SetParticleClusterGrowth` | get | - |
 | `RemoveFan` | `CUserMsg_ParticleManager_RemoveFan` | get | - |
+| `CreateSmokeGrid` | `CUserMsg_ParticleManager_CreateSmokeGrid` | get | - |
+| `SetOverrideTexture` | `CUserMsg_ParticleManager_SetOverrideTexture` | get | - |
 
 
 
@@ -16575,6 +21087,26 @@
 | `PropGroupName` | `string` | get, set | - |
 | `UseHighQualitySimulation` | `bool` | get, set | - |
 | `MaxParticleCount` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="cusermsg_particlemanager_createsmokegrid"></a>
+
+## 🔌 CUserMsg_ParticleManager_CreateSmokeGrid
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CUserMsg_ParticleManager_CreateSmokeGrid\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `VdataName` | `string` | get, set | - |
 
 
 
@@ -16831,6 +21363,26 @@
 
 ---
 
+<a id="cusermsg_particlemanager_setoverridetexture"></a>
+
+## 🔌 CUserMsg_ParticleManager_SetOverrideTexture
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<CUserMsg_ParticleManager_SetOverrideTexture\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `TextureName` | `string` | get, set | - |
+
+
+
+---
+
 <a id="cusermsg_particlemanager_setparticleclustergrowth"></a>
 
 ## 🔌 CUserMsg_ParticleManager_SetParticleClusterGrowth
@@ -17017,6 +21569,7 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Text` | `string` | get, set | - |
+| `Localize` | `bool` | get, set | - |
 
 
 
@@ -17759,6 +22312,31 @@
 
 ---
 
+<a id="ebancontentcheckresult"></a>
+
+## 📋 EBanContentCheckResult
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_EBanContentCheckResult_NotScanned` | `0` | - |
+| `k_EBanContentCheckResult_Reset` | `1` | - |
+| `k_EBanContentCheckResult_NeedsChecking` | `2` | - |
+| `k_EBanContentCheckResult_VeryUnlikely` | `5` | - |
+| `k_EBanContentCheckResult_Unlikely` | `30` | - |
+| `k_EBanContentCheckResult_Possible` | `50` | - |
+| `k_EBanContentCheckResult_Likely` | `75` | - |
+| `k_EBanContentCheckResult_VeryLikely` | `100` | - |
+
+
+
+---
+
 <a id="ebaseclientmessages"></a>
 
 ## 📋 EBaseClientMessages
@@ -17919,6 +22497,7 @@
 | `UM_ExtraUserData` | `164` | - |
 | `UM_NotifyResponseFound` | `165` | - |
 | `UM_PlayResponseConditional` | `166` | - |
+| `UM_UserSentBugBug` | `167` | - |
 | `UM_MAX_BASE` | `200` | - |
 
 
@@ -17938,7 +22517,6 @@
 | 名称 | 值 | 描述 |
 |------|------|------|
 | `CSPE_DamageTag` | `1` | - |
-| `CSPE_AddAimPunch` | `3` | - |
 
 
 
@@ -18029,49 +22607,6 @@
 | `EClientUIEvent_Invalid` | `0` | - |
 | `EClientUIEvent_DialogFinished` | `1` | - |
 | `EClientUIEvent_FireOutput` | `2` | - |
-
-
-
----
-
-<a id="ecodecusageplatform"></a>
-
-## 📋 ECodecUsagePlatform
-
-**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
-
-**类型:** `enum`
-
-### 📋 枚举值
-
-| 名称 | 值 | 描述 |
-|------|------|------|
-| `k_ECodecUsagePlatformUnknown` | `0` | - |
-| `k_ECodecUsagePlatformWindows` | `1` | - |
-| `k_ECodecUsagePlatformMacOS` | `2` | - |
-| `k_ECodecUsagePlatformLinux` | `3` | - |
-| `k_ECodecUsagePlatformSteamDeck` | `4` | - |
-
-
-
----
-
-<a id="ecodecusagereason"></a>
-
-## 📋 ECodecUsageReason
-
-**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
-
-**类型:** `enum`
-
-### 📋 枚举值
-
-| 名称 | 值 | 描述 |
-|------|------|------|
-| `k_ECodecUsageReasonUnknown` | `0` | - |
-| `k_ECodecUsageReasonRemotePlay` | `1` | - |
-| `k_ECodecUsageReasonBroadcasting` | `2` | - |
-| `k_ECodecUsageReasonGameVideo` | `3` | - |
 
 
 
@@ -18231,7 +22766,6 @@
 | `k_EMsgGCCStrike15_v2_ClientPerfReport` | `9202` | - |
 | `k_EMsgGCCStrike15_v2_GetEventFavorites_Response` | `9203` | - |
 | `k_EMsgGCCStrike15_v2_ClientRequestSouvenir` | `9204` | - |
-| `k_EMsgGCCStrike15_v2_ClientReportValidation` | `9205` | - |
 | `k_EMsgGCCStrike15_v2_GC2ClientRefuseSecureMode` | `9206` | - |
 | `k_EMsgGCCStrike15_v2_GC2ClientRequestValidation` | `9207` | - |
 | `k_EMsgGCCStrike15_v2_ClientRedeemMissionReward` | `9209` | - |
@@ -18387,6 +22921,7 @@
 | `CS_UM_DamagePrediction` | `386` | - |
 | `CS_UM_RecurringMissionSchema` | `387` | - |
 | `CS_UM_SendPlayerLoadout` | `388` | - |
+| `CS_UM_WeaponMagDrop` | `389` | - |
 
 
 
@@ -19040,6 +23575,7 @@
 | `k_EMsgLicenseProcessingComplete` | `316` | - |
 | `k_EMsgSetTestFlag` | `317` | - |
 | `k_EMsgQueuedEmailsComplete` | `318` | - |
+| `k_EMsgGMReportPHPError` | `319` | - |
 | `k_EMsgGMDRMSync` | `320` | - |
 | `k_EMsgPhysicalBoxInventory` | `321` | - |
 | `k_EMsgUpdateConfigFile` | `322` | - |
@@ -19057,8 +23593,6 @@
 | `k_EMsgExpectShellRestart` | `336` | - |
 | `k_EMsgHotFixProgress` | `337` | - |
 | `k_EMsgGMStatsForwardToAdminConnections` | `338` | - |
-| `k_EMsgGMGetModifiedConVars` | `339` | - |
-| `k_EMsgGMGetModifiedConVarsResponse` | `340` | - |
 | `k_EMsgBaseAIS` | `400` | - |
 | `k_EMsgAISRequestContentDescription` | `402` | - |
 | `k_EMsgAISUpdateAppInfo` | `403` | - |
@@ -19467,8 +24001,11 @@
 | `k_EMsgClientDPSendSpecialSurveyResponse` | `1622` | - |
 | `k_EMsgClientDPSendSpecialSurveyResponseReply` | `1623` | - |
 | `k_EMsgDPStoreSaleStatistics` | `1624` | - |
+| `k_EMsgClientDPUpdateAppJobReport` | `1625` | - |
+| `k_EMsgClientDPUnsignedInstallScript` | `1627` | - |
 | `k_EMsgDPPartnerMicroTxns` | `1628` | - |
 | `k_EMsgDPPartnerMicroTxnsResponse` | `1629` | - |
+| `k_EMsgClientDPContentStatsReport` | `1630` | - |
 | `k_EMsgDPVRUniquePlayersStat` | `1631` | - |
 | `k_EMsgBaseCM` | `1700` | - |
 | `k_EMsgCMSetAllowState` | `1701` | - |
@@ -19514,9 +24051,6 @@
 | `k_EMsgGCHAppCheersReceived` | `2242` | - |
 | `k_EMsgGCHAppCheersGetAllowedTypes` | `2243` | - |
 | `k_EMsgGCHAppCheersGetAllowedTypesResponse` | `2244` | - |
-| `k_EMsgGCHRoutingRulesFromGCHtoGM` | `2245` | - |
-| `k_EMsgGCHRoutingRulesToGCHfromGM` | `2246` | - |
-| `k_EMsgUpdateCMMessageRateRules` | `2247` | - |
 | `k_EMsgBaseP2P` | `2500` | - |
 | `k_EMsgP2PIntroducerMessage` | `2502` | - |
 | `k_EMsgBaseSM` | `2900` | - |
@@ -19663,6 +24197,8 @@
 | `k_EMsgAMSendQueuedEmails` | `4152` | - |
 | `k_EMsgAMSetLicenseFlags` | `4153` | - |
 | `k_EMsgCommunityDeleteUserNews` | `4155` | - |
+| `k_EMsgAMAllowUserFilesRequest` | `4156` | - |
+| `k_EMsgAMAllowUserFilesResponse` | `4157` | - |
 | `k_EMsgAMGetAccountStatus` | `4158` | - |
 | `k_EMsgAMGetAccountStatusResponse` | `4159` | - |
 | `k_EMsgAMEditBanReason` | `4160` | - |
@@ -19690,6 +24226,7 @@
 | `k_EMsgAMSupportIsAccountEnabledResponse` | `4210` | - |
 | `k_EMsgUGSGetUserStats` | `4211` | - |
 | `k_EMsgAMGSSearch` | `4213` | - |
+| `k_EMsgMarketingMessageUpdate` | `4216` | - |
 | `k_EMsgChatServerRouteFriendMsg` | `4219` | - |
 | `k_EMsgAMTicketAuthRequestOrResponse` | `4220` | - |
 | `k_EMsgAMAddFreeLicense` | `4224` | - |
@@ -19716,6 +24253,7 @@
 | `k_EMsgAMCreateFinancialAdjustment` | `4265` | - |
 | `k_EMsgAMPlayerNicknameList` | `4266` | - |
 | `k_EMsgAMPlayerNicknameListResponse` | `4267` | - |
+| `k_EMsgAMSetDRMTestConfig` | `4268` | - |
 | `k_EMsgAMGetUserCurrentGameInfo` | `4269` | - |
 | `k_EMsgAMGetUserCurrentGameInfoResponse` | `4270` | - |
 | `k_EMsgAMGetGSPlayerList` | `4271` | - |
@@ -19846,7 +24384,6 @@
 | `k_EMsgAMPerfectWorldPaymentResponse` | `4422` | - |
 | `k_EMsgAMECommPayPayment` | `4423` | - |
 | `k_EMsgAMECommPayPaymentResponse` | `4424` | - |
-| `k_EMsgAMSetRemoteClientID` | `4425` | - |
 | `k_EMsgBasePSRange` | `5000` | - |
 | `k_EMsgPSCreateShoppingCart` | `5001` | - |
 | `k_EMsgPSCreateShoppingCartResponse` | `5002` | - |
@@ -19936,6 +24473,7 @@
 | `k_EMsgClientP2PConnectionFailInfo` | `5435` | - |
 | `k_EMsgClientGetDepotDecryptionKey` | `5438` | - |
 | `k_EMsgClientGetDepotDecryptionKeyResponse` | `5439` | - |
+| `k_EMsgGSPerformHardwareSurvey` | `5440` | - |
 | `k_EMsgClientEnableTestLicense` | `5443` | - |
 | `k_EMsgClientEnableTestLicenseResponse` | `5444` | - |
 | `k_EMsgClientDisableTestLicense` | `5445` | - |
@@ -19975,10 +24513,8 @@
 | `k_EMsgClientOGSEndSession` | `5492` | - |
 | `k_EMsgClientOGSEndSessionResponse` | `5493` | - |
 | `k_EMsgClientOGSWriteRow` | `5494` | - |
-| `k_EMsgClientGetPeerContentInfo` | `5495` | - |
-| `k_EMsgClientGetPeerContentInfoResponse` | `5496` | - |
-| `k_EMsgClientStartPeerContentServer` | `5497` | - |
-| `k_EMsgClientStartPeerContentServerResponse` | `5498` | - |
+| `k_EMsgClientDRMTest` | `5495` | - |
+| `k_EMsgClientDRMTestResult` | `5496` | - |
 | `k_EMsgClientServerUnavailable` | `5500` | - |
 | `k_EMsgClientServersAvailable` | `5501` | - |
 | `k_EMsgClientRegisterAuthTicketWithCM` | `5502` | - |
@@ -19988,6 +24524,7 @@
 | `k_EMsgClientMicroTxnAuthorizeResponse` | `5506` | - |
 | `k_EMsgClientGetMicroTxnInfo` | `5508` | - |
 | `k_EMsgClientGetMicroTxnInfoResponse` | `5509` | - |
+| `k_EMsgClientMarketingMessageUpdate2` | `5510` | - |
 | `k_EMsgClientDeregisterWithServer` | `5511` | - |
 | `k_EMsgClientSubscribeToPersonaFeed` | `5512` | - |
 | `k_EMsgClientLogon` | `5514` | - |
@@ -20202,6 +24739,8 @@
 | `k_EMsgClientUCMUpdatePublishedFileResponse` | `7326` | - |
 | `k_EMsgUCMUpdatePublishedFile` | `7327` | - |
 | `k_EMsgUCMUpdatePublishedFileResponse` | `7328` | - |
+| `k_EMsgUCMDeletePublishedFile` | `7329` | - |
+| `k_EMsgUCMDeletePublishedFileResponse` | `7330` | - |
 | `k_EMsgUCMUpdatePublishedFileStat` | `7331` | - |
 | `k_EMsgUCMReloadPublishedFile` | `7337` | - |
 | `k_EMsgUCMReloadUserFileListCaches` | `7338` | - |
@@ -20230,6 +24769,8 @@
 | `k_EMsgClientUCMEnumerateUserSubscribedFilesWithUpdatesResponse` | `7379` | - |
 | `k_EMsgUCMPublishedFileContentUpdated` | `7380` | - |
 | `k_EMsgClientUCMPublishedFileUpdated` | `7381` | - |
+| `k_EMsgClientWorkshopItemChangesRequest` | `7382` | - |
+| `k_EMsgClientWorkshopItemChangesResponse` | `7383` | - |
 | `k_EMsgFSBase` | `7500` | - |
 | `k_EMsgClientRichPresenceUpload` | `7501` | - |
 | `k_EMsgClientRichPresenceRequest` | `7502` | - |
@@ -20400,14 +24941,14 @@
 | `k_EMsgRemoteClientStartStreamResponse` | `9504` | - |
 | `k_EMsgRemoteClientPing` | `9505` | - |
 | `k_EMsgRemoteClientPingResponse` | `9506` | - |
-| `k_EMsgClientUnlockH264` | `9507` | - |
-| `k_EMsgClientUnlockH264Response` | `9508` | - |
+| `k_EMsgClientUnlockStreaming` | `9507` | - |
+| `k_EMsgClientUnlockStreamingResponse` | `9508` | - |
 | `k_EMsgRemoteClientAcceptEULA` | `9509` | - |
 | `k_EMsgRemoteClientGetControllerConfig` | `9510` | - |
 | `k_EMsgRemoteClientGetControllerConfigResponse` | `9511` | - |
 | `k_EMsgRemoteClientStreamingEnabled` | `9512` | - |
-| `k_EMsgClientUnlockHEVC_OBSOLETE` | `9513` | - |
-| `k_EMsgClientUnlockHEVCResponse_OBSOLETE` | `9514` | - |
+| `k_EMsgClientUnlockHEVC` | `9513` | - |
+| `k_EMsgClientUnlockHEVCResponse` | `9514` | - |
 | `k_EMsgRemoteClientStatusRequest` | `9515` | - |
 | `k_EMsgRemoteClientStatusResponse` | `9516` | - |
 | `k_EMsgClientConcurrentSessionsBase` | `9600` | - |
@@ -20417,6 +24958,7 @@
 | `k_EMsgClientBroadcastInit` | `9700` | - |
 | `k_EMsgClientBroadcastFrames` | `9701` | - |
 | `k_EMsgClientBroadcastDisconnect` | `9702` | - |
+| `k_EMsgClientBroadcastScreenshot` | `9703` | - |
 | `k_EMsgClientBroadcastUploadConfig` | `9704` | - |
 | `k_EMsgBaseClient3` | `9800` | - |
 | `k_EMsgClientVoiceCallPreAuthorize` | `9800` | - |
@@ -20425,13 +24967,9 @@
 | `k_EMsgClientServerTimestampResponse` | `9803` | - |
 | `k_EMsgServiceMethodCallFromClientNonAuthed` | `9804` | - |
 | `k_EMsgClientHello` | `9805` | - |
-| `k_EMsgClientEnableOrDisableDownloads` | `9806` | - |
-| `k_EMsgClientEnableOrDisableDownloadsResponse` | `9807` | - |
 | `k_EMsgClientLANP2PBase` | `9900` | - |
 | `k_EMsgClientLANP2PRequestChunk` | `9900` | - |
 | `k_EMsgClientLANP2PRequestChunkResponse` | `9901` | - |
-| `k_EMsgClientPeerChunkRequest` | `9902` | - |
-| `k_EMsgClientPeerChunkResponse` | `9903` | - |
 | `k_EMsgClientLANP2PMax` | `9999` | - |
 | `k_EMsgBaseWatchdogServer` | `10000` | - |
 | `k_EMsgNotifyWatchdog` | `10000` | - |
@@ -20448,12 +24986,6 @@
 | `k_EMsgChatServerGetPendingNotificationCountResponse` | `12001` | - |
 | `k_EMsgBaseSecretServer` | `12100` | - |
 | `k_EMsgServerSecretChanged` | `12100` | - |
-| `k_EMsgBaseWG` | `12200` | - |
-| `k_EMsgWGConnectionProtocolError` | `12200` | - |
-| `k_EMsgWGConnectionValidateUserToken` | `12201` | - |
-| `k_EMsgWGConnectionValidateUserTokenResponse` | `12202` | - |
-| `k_EMsgWGConnectionLegacyWGRequest` | `12203` | - |
-| `k_EMsgWGConnectionLegacyWGResponse` | `12204` | - |
 
 
 
@@ -20619,6 +25151,78 @@
 
 ---
 
+<a id="enotificationsetting"></a>
+
+## 📋 ENotificationSetting
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ENotificationSettingNotifyUseDefault` | `0` | - |
+| `k_ENotificationSettingAlways` | `1` | - |
+| `k_ENotificationSettingNever` | `2` | - |
+
+
+
+---
+
+<a id="eprotoclaneventtype"></a>
+
+## 📋 EProtoClanEventType
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_EClanOtherEvent` | `1` | - |
+| `k_EClanGameEvent` | `2` | - |
+| `k_EClanPartyEvent` | `3` | - |
+| `k_EClanMeetingEvent` | `4` | - |
+| `k_EClanSpecialCauseEvent` | `5` | - |
+| `k_EClanMusicAndArtsEvent` | `6` | - |
+| `k_EClanSportsEvent` | `7` | - |
+| `k_EClanTripEvent` | `8` | - |
+| `k_EClanChatEvent` | `9` | - |
+| `k_EClanGameReleaseEvent` | `10` | - |
+| `k_EClanBroadcastEvent` | `11` | - |
+| `k_EClanSmallUpdateEvent` | `12` | - |
+| `k_EClanPreAnnounceMajorUpdateEvent` | `13` | - |
+| `k_EClanMajorUpdateEvent` | `14` | - |
+| `k_EClanDLCReleaseEvent` | `15` | - |
+| `k_EClanFutureReleaseEvent` | `16` | - |
+| `k_EClanESportTournamentStreamEvent` | `17` | - |
+| `k_EClanDevStreamEvent` | `18` | - |
+| `k_EClanFamousStreamEvent` | `19` | - |
+| `k_EClanGameSalesEvent` | `20` | - |
+| `k_EClanGameItemSalesEvent` | `21` | - |
+| `k_EClanInGameBonusXPEvent` | `22` | - |
+| `k_EClanInGameLootEvent` | `23` | - |
+| `k_EClanInGamePerksEvent` | `24` | - |
+| `k_EClanInGameChallengeEvent` | `25` | - |
+| `k_EClanInGameContestEvent` | `26` | - |
+| `k_EClanIRLEvent` | `27` | - |
+| `k_EClanNewsEvent` | `28` | - |
+| `k_EClanBetaReleaseEvent` | `29` | - |
+| `k_EClanInGameContentReleaseEvent` | `30` | - |
+| `k_EClanFreeTrial` | `31` | - |
+| `k_EClanSeasonRelease` | `32` | - |
+| `k_EClanSeasonUpdate` | `33` | - |
+| `k_EClanCrosspostEvent` | `34` | - |
+| `k_EClanInGameEventGeneral` | `35` | - |
+
+
+
+---
+
 <a id="eprotodebugvisiblity"></a>
 
 ## 📋 EProtoDebugVisiblity
@@ -20636,6 +25240,25 @@
 | `k_EProtoDebugVisibility_ValveServer` | `80` | - |
 | `k_EProtoDebugVisibility_GC` | `90` | - |
 | `k_EProtoDebugVisibility_Never` | `100` | - |
+
+
+
+---
+
+<a id="eprotoexecutionsite"></a>
+
+## 📋 EProtoExecutionSite
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_EProtoExecutionSiteUnknown` | `0` | - |
+| `k_EProtoExecutionSiteSteamClient` | `3` | - |
 
 
 
@@ -20687,6 +25310,41 @@
 
 ---
 
+<a id="esource2playstatsfieldtype"></a>
+
+## 📋 ESource2PlayStatsFieldType
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `Source2PlayStats_Invalid` | `0` | - |
+| `Source2PlayStats_UInt64` | `1` | - |
+| `Source2PlayStats_UInt32` | `2` | - |
+| `Source2PlayStats_UInt16` | `3` | - |
+| `Source2PlayStats_UInt8` | `4` | - |
+| `Source2PlayStats_Int64` | `5` | - |
+| `Source2PlayStats_Int32` | `6` | - |
+| `Source2PlayStats_Int16` | `7` | - |
+| `Source2PlayStats_Int8` | `8` | - |
+| `Source2PlayStats_Float64` | `9` | - |
+| `Source2PlayStats_Float32` | `10` | - |
+| `Source2PlayStats_Bool` | `11` | - |
+| `Source2PlayStats_String` | `12` | - |
+| `Source2PlayStats_LowCardinalityString` | `13` | - |
+| `Source2PlayStats_UTCDateTime` | `14` | - |
+| `Source2PlayStats_SteamIDTrustBucket` | `15` | - |
+| `Source2PlayStats_SteamIDTrustBucketMin` | `16` | - |
+| `Source2PlayStats_SteamID` | `17` | - |
+
+
+
+---
+
 <a id="esplitscreenmessagetype"></a>
 
 ## 📋 ESplitScreenMessageType
@@ -20701,6 +25359,100 @@
 |------|------|------|
 | `MSG_SPLITSCREEN_ADDUSER` | `0` | - |
 | `MSG_SPLITSCREEN_REMOVEUSER` | `1` | - |
+
+
+
+---
+
+<a id="esteamdatagrammsgid"></a>
+
+## 📋 ESteamDatagramMsgID
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ESteamDatagramMsg_Invalid` | `0` | - |
+| `k_ESteamDatagramMsg_RouterPingRequest` | `1` | - |
+| `k_ESteamDatagramMsg_RouterPingReply` | `2` | - |
+| `k_ESteamDatagramMsg_GameserverPingRequest` | `3` | - |
+| `k_ESteamDatagramMsg_GameserverSessionRequest` | `5` | - |
+| `k_ESteamDatagramMsg_GameserverSessionEstablished` | `6` | - |
+| `k_ESteamDatagramMsg_NoSession` | `7` | - |
+| `k_ESteamDatagramMsg_Diagnostic` | `8` | - |
+| `k_ESteamDatagramMsg_DataClientToRouter` | `9` | - |
+| `k_ESteamDatagramMsg_DataRouterToServer` | `10` | - |
+| `k_ESteamDatagramMsg_DataServerToRouter` | `11` | - |
+| `k_ESteamDatagramMsg_DataRouterToClient` | `12` | - |
+| `k_ESteamDatagramMsg_Stats` | `13` | - |
+| `k_ESteamDatagramMsg_ClientPingSampleRequest` | `14` | - |
+| `k_ESteamDatagramMsg_ClientPingSampleReply` | `15` | - |
+| `k_ESteamDatagramMsg_ClientToRouterSwitchedPrimary` | `16` | - |
+| `k_ESteamDatagramMsg_RelayHealth` | `17` | - |
+| `k_ESteamDatagramMsg_ConnectRequest` | `18` | - |
+| `k_ESteamDatagramMsg_ConnectOK` | `19` | - |
+| `k_ESteamDatagramMsg_ConnectionClosed` | `20` | - |
+| `k_ESteamDatagramMsg_NoConnection` | `21` | - |
+| `k_ESteamDatagramMsg_TicketDecryptRequest` | `22` | - |
+| `k_ESteamDatagramMsg_TicketDecryptReply` | `23` | - |
+| `k_ESteamDatagramMsg_P2PSessionRequest` | `24` | - |
+| `k_ESteamDatagramMsg_P2PSessionEstablished` | `25` | - |
+| `k_ESteamDatagramMsg_P2PStatsClient` | `26` | - |
+| `k_ESteamDatagramMsg_P2PStatsRelay` | `27` | - |
+| `k_ESteamDatagramMsg_P2PBadRoute` | `28` | - |
+| `k_ESteamDatagramMsg_GameserverPingReply` | `29` | - |
+| `k_ESteamDatagramMsg_LegacyGameserverRegistration` | `30` | - |
+| `k_ESteamDatagramMsg_SetSecondaryAddressRequest` | `31` | - |
+| `k_ESteamDatagramMsg_SetSecondaryAddressResult` | `32` | - |
+| `k_ESteamDatagramMsg_RelayToRelayPingRequest` | `33` | - |
+| `k_ESteamDatagramMsg_RelayToRelayPingReply` | `34` | - |
+
+
+
+---
+
+<a id="esteamnetworkingsocketscipher"></a>
+
+## 📋 ESteamNetworkingSocketsCipher
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ESteamNetworkingSocketsCipher_INVALID` | `0` | - |
+| `k_ESteamNetworkingSocketsCipher_NULL` | `1` | - |
+| `k_ESteamNetworkingSocketsCipher_AES_256_GCM` | `2` | - |
+
+
+
+---
+
+<a id="esteamnetworkingudpmsgid"></a>
+
+## 📋 ESteamNetworkingUDPMsgID
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_ESteamNetworkingUDPMsg_ChallengeRequest` | `32` | - |
+| `k_ESteamNetworkingUDPMsg_ChallengeReply` | `33` | - |
+| `k_ESteamNetworkingUDPMsg_ConnectRequest` | `34` | - |
+| `k_ESteamNetworkingUDPMsg_ConnectOK` | `35` | - |
+| `k_ESteamNetworkingUDPMsg_ConnectionClosed` | `36` | - |
+| `k_ESteamNetworkingUDPMsg_NoConnection` | `37` | - |
 
 
 
@@ -21539,6 +26291,57 @@
 | `GAME_PARTICLE_MANAGER_EVENT_UPDATE_FAN` | `37` | - |
 | `GAME_PARTICLE_MANAGER_EVENT_SET_CLUSTER_GROWTH` | `38` | - |
 | `GAME_PARTICLE_MANAGER_EVENT_REMOVE_FAN` | `39` | - |
+| `GAME_PARTICLE_MANAGER_EVENT_CREATE_SMOKE_GRID` | `40` | - |
+| `GAME_PARTICLE_MANAGER_EVENT_SET_OVERRIDE_TEXTURE` | `41` | - |
+
+
+
+---
+
+<a id="partnereventnotificationtype"></a>
+
+## 📋 PartnerEventNotificationType
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `enum`
+
+### 📋 枚举值
+
+| 名称 | 值 | 描述 |
+|------|------|------|
+| `k_EEventStart` | `0` | - |
+| `k_EEventBroadcastStart` | `1` | - |
+| `k_EEventMatchStart` | `2` | - |
+| `k_EEventPartnerMaxType` | `3` | - |
+
+
+
+---
+
+<a id="perfriendpreferences"></a>
+
+## 🔌 PerFriendPreferences
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<PerFriendPreferences\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Accountid` | `uint` | get, set | - |
+| `Nickname` | `string` | get, set | - |
+| `NotificationsShowingame` | `ENotificationSetting` | get, set | - |
+| `NotificationsShowonline` | `ENotificationSetting` | get, set | - |
+| `NotificationsShowmessages` | `ENotificationSetting` | get, set | - |
+| `SoundsShowingame` | `ENotificationSetting` | get, set | - |
+| `SoundsShowonline` | `ENotificationSetting` | get, set | - |
+| `SoundsShowmessages` | `ENotificationSetting` | get, set | - |
+| `NotificationsSendmobile` | `ENotificationSetting` | get, set | - |
 
 
 
@@ -21816,6 +26619,192 @@
 | `SerializerNameSym` | `int` | get, set | - |
 | `SerializerVersion` | `int` | get, set | - |
 | `FieldsIndex` | `IProtobufRepeatedFieldValueType\<int\>` | get | - |
+
+
+
+---
+
+<a id="publishedfiledetails"></a>
+
+## 🔌 PublishedFileDetails
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<PublishedFileDetails\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Result` | `uint` | get, set | - |
+| `Publishedfileid` | `ulong` | get, set | - |
+| `Creator` | `ulong` | get, set | - |
+| `CreatorAppid` | `uint` | get, set | - |
+| `ConsumerAppid` | `uint` | get, set | - |
+| `ConsumerShortcutid` | `uint` | get, set | - |
+| `Filename` | `string` | get, set | - |
+| `FileSize` | `ulong` | get, set | - |
+| `PreviewFileSize` | `ulong` | get, set | - |
+| `FileUrl` | `string` | get, set | - |
+| `PreviewUrl` | `string` | get, set | - |
+| `Youtubevideoid` | `string` | get, set | - |
+| `Url` | `string` | get, set | - |
+| `HcontentFile` | `ulong` | get, set | - |
+| `HcontentPreview` | `ulong` | get, set | - |
+| `Title` | `string` | get, set | - |
+| `FileDescription` | `string` | get, set | - |
+| `ShortDescription` | `string` | get, set | - |
+| `TimeCreated` | `uint` | get, set | - |
+| `TimeUpdated` | `uint` | get, set | - |
+| `Visibility` | `uint` | get, set | - |
+| `Flags` | `uint` | get, set | - |
+| `WorkshopFile` | `bool` | get, set | - |
+| `WorkshopAccepted` | `bool` | get, set | - |
+| `ShowSubscribeAll` | `bool` | get, set | - |
+| `NumCommentsDeveloper` | `int` | get, set | - |
+| `NumCommentsPublic` | `int` | get, set | - |
+| `Banned` | `bool` | get, set | - |
+| `BanReason` | `string` | get, set | - |
+| `Banner` | `ulong` | get, set | - |
+| `CanBeDeleted` | `bool` | get, set | - |
+| `Incompatible` | `bool` | get, set | - |
+| `AppName` | `string` | get, set | - |
+| `FileType` | `uint` | get, set | - |
+| `CanSubscribe` | `bool` | get, set | - |
+| `Subscriptions` | `uint` | get, set | - |
+| `Favorited` | `uint` | get, set | - |
+| `Followers` | `uint` | get, set | - |
+| `LifetimeSubscriptions` | `uint` | get, set | - |
+| `LifetimeFavorited` | `uint` | get, set | - |
+| `LifetimeFollowers` | `uint` | get, set | - |
+| `Views` | `uint` | get, set | - |
+| `ImageWidth` | `uint` | get, set | - |
+| `ImageHeight` | `uint` | get, set | - |
+| `ImageUrl` | `string` | get, set | - |
+| `SpoilerTag` | `bool` | get, set | - |
+| `Shortcutid` | `uint` | get, set | - |
+| `Shortcutname` | `string` | get, set | - |
+| `NumChildren` | `uint` | get, set | - |
+| `NumReports` | `uint` | get, set | - |
+| `Previews` | `IProtobufRepeatedFieldSubMessageType\<PublishedFileDetails_Preview\>` | get | - |
+| `Tags` | `IProtobufRepeatedFieldSubMessageType\<PublishedFileDetails_Tag\>` | get | - |
+| `Children` | `IProtobufRepeatedFieldSubMessageType\<PublishedFileDetails_Child\>` | get | - |
+| `Kvtags` | `IProtobufRepeatedFieldSubMessageType\<PublishedFileDetails_KVTag\>` | get | - |
+| `VoteData` | `PublishedFileDetails_VoteData` | get | - |
+| `TimeSubscribed` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="publishedfiledetails_child"></a>
+
+## 🔌 PublishedFileDetails_Child
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<PublishedFileDetails_Child\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Publishedfileid` | `ulong` | get, set | - |
+| `Sortorder` | `uint` | get, set | - |
+| `FileType` | `uint` | get, set | - |
+
+
+
+---
+
+<a id="publishedfiledetails_kvtag"></a>
+
+## 🔌 PublishedFileDetails_KVTag
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<PublishedFileDetails_KVTag\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Key` | `string` | get, set | - |
+| `Value` | `string` | get, set | - |
+
+
+
+---
+
+<a id="publishedfiledetails_preview"></a>
+
+## 🔌 PublishedFileDetails_Preview
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<PublishedFileDetails_Preview\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Previewid` | `ulong` | get, set | - |
+| `Sortorder` | `uint` | get, set | - |
+| `Url` | `string` | get, set | - |
+| `Size` | `uint` | get, set | - |
+| `Filename` | `string` | get, set | - |
+| `Youtubevideoid` | `string` | get, set | - |
+
+
+
+---
+
+<a id="publishedfiledetails_tag"></a>
+
+## 🔌 PublishedFileDetails_Tag
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<PublishedFileDetails_Tag\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Tag` | `string` | get, set | - |
+| `Adminonly` | `bool` | get, set | - |
+
+
+
+---
+
+<a id="publishedfiledetails_votedata"></a>
+
+## 🔌 PublishedFileDetails_VoteData
+
+**命名空间:** `SwiftlyS2.Shared.ProtobufDefinitions`
+
+**类型:** `interface`
+
+**继承:** `ITypedProtobuf\<PublishedFileDetails_VoteData\>`
+
+### 📝 属性
+
+| 名称 | 类型 | 访问方法 | 描述 |
+|------|------|--------|------|
+| `Score` | `float` | get, set | - |
+| `VotesUp` | `uint` | get, set | - |
+| `VotesDown` | `uint` | get, set | - |
 
 
 

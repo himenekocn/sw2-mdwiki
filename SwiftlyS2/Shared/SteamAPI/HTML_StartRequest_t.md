@@ -35,6 +35,6 @@ target type(i.e _blank,  _self,  _parent,  _top)
 
 **用法示例:**
 ```csharp
-htmlStartRequest.target("_blank");
+string targetType = htmlStartRequest.type();
 ```
 

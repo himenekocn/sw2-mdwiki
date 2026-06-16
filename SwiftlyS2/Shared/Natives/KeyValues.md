@@ -34,7 +34,7 @@ KeyValues* FindKey(HKeySymbol keyName, bool create = false)
 
 **用法示例:**
 ```csharp
-KeyValues* result = existingKeyValues.FindKey(HKeySymbol.PlayerName, false);
+var key = existingKeyValues.FindKey(HKeySymbol.SomeKey, false);
 ```
 
 ### FindKey
@@ -52,7 +52,7 @@ KeyValues* FindKey(string keyName, bool create = false)
 
 **用法示例:**
 ```csharp
-KeyValues* result = existingKeyValues.FindKey("exampleKey", true);
+var subKey = keyValues.FindKey("section", true);
 ```
 
 ### GetInt
@@ -70,7 +70,7 @@ int GetInt(string keyName, int defaultValue = 0)
 
 **用法示例:**
 ```csharp
-int value = keyValues.GetInt("max_players", 10);
+int value = keyValues.GetInt("score", 0);
 ```
 
 ### GetUint64
@@ -88,7 +88,7 @@ ulong GetUint64(string keyName, ulong defaultValue = 0)
 
 **用法示例:**
 ```csharp
-ulong value = keyValues.GetUint64("player_id", 0UL);
+ulong value = keyValues.GetUint64("score", 0);
 ```
 
 ### GetFloat
@@ -106,7 +106,7 @@ float GetFloat(string keyName, float defaultValue = 0f)
 
 **用法示例:**
 ```csharp
-float value = keyValues.GetFloat("gravity", 9.8f);
+float value = keyValues.GetFloat("height", 1.0f);
 ```
 
 ### GetString
@@ -124,7 +124,7 @@ string GetString(string keyName, string defaultValue = "")
 
 **用法示例:**
 ```csharp
-string value = keyValues.GetString("player_name", "Unknown");
+string value = keyValues.GetString("myKey", "default");
 ```
 
 ### GetPtr
@@ -142,7 +142,7 @@ nint GetPtr(string keyName, nint defaultValue = 0)
 
 **用法示例:**
 ```csharp
-nint result = keyValues.GetPtr("config_ptr", IntPtr.Zero);
+nint result = keyValues.GetPtr("myKey", 0);
 ```
 
 ### GetColor
@@ -160,7 +160,7 @@ Color GetColor(string keyName, Color defaultValue)
 
 **用法示例:**
 ```csharp
-Color color = keyValues.GetColor("background", Color.Red);
+Color color = keyValues.GetColor("ui_color", Color.Red);
 ```
 
 ### GetBool
@@ -178,7 +178,7 @@ bool GetBool(string keyName, bool defaultValue = false)
 
 **用法示例:**
 ```csharp
-bool isActive = keyValues.GetBool("enabled", false);
+bool result = keyValues.GetBool("enable_feature", false);
 ```
 
 ### IsEmpty
@@ -219,7 +219,8 @@ void SetName(string name)
 
 **用法示例:**
 ```csharp
-keyValues.SetName("example_name");
+KeyValues kv = GetExistingKeyValues();
+kv.SetName("example_name");
 ```
 
 ### SetString
@@ -235,7 +236,7 @@ void SetString(string keyName, string value)
 
 **用法示例:**
 ```csharp
-keyValues.SetString("player_name", "Swiftly");
+keyValues.SetString("username", "player1");
 ```
 
 ### SetInt
@@ -251,7 +252,8 @@ void SetInt(string keyName, int value)
 
 **用法示例:**
 ```csharp
-keyValues.SetInt("rounds", 5);
+KeyValues kv = GetExistingKeyValues();
+kv.SetInt("score", 100);
 ```
 
 ### SetFloat
@@ -267,7 +269,7 @@ void SetFloat(string keyName, float value)
 
 **用法示例:**
 ```csharp
-keyValues.SetFloat("health", 100.5f);
+kv.SetFloat("gravity", 9.8f);
 ```
 
 ### SetBool
@@ -283,7 +285,7 @@ void SetBool(string keyName, bool value)
 
 **用法示例:**
 ```csharp
-keyValues.SetBool("is_active", true);
+keyValues.SetBool("IsEnabled", true);
 ```
 
 ### SetPtr
@@ -299,7 +301,7 @@ void SetPtr(string keyName, nint value)
 
 **用法示例:**
 ```csharp
-keyValues.SetPtr("pointer_key", 0x12345678);
+kv.SetPtr("myKey", IntPtr.Zero);
 ```
 
 ### SetColor
@@ -315,7 +317,7 @@ void SetColor(string keyName, Color value)
 
 **用法示例:**
 ```csharp
-keyValues.SetColor("light_color", Color.Red);
+keyValues.SetColor("my_color", Color.Red);
 ```
 
 ### GetFirstSubKey
@@ -328,7 +330,7 @@ KeyValues* GetFirstSubKey()
 
 **用法示例:**
 ```csharp
-KeyValues* firstSubKey = existingKeyValues.GetFirstSubKey();
+KeyValues* firstSubKey = keyValues.GetFirstSubKey();
 ```
 
 ### GetNextKey
@@ -341,7 +343,7 @@ KeyValues* GetNextKey()
 
 **用法示例:**
 ```csharp
-KeyValues* next = keyValues.GetNextKey();
+KeyValues* nextKey = kv.GetNextKey();
 ```
 
 ### FindLastSubKey
@@ -354,7 +356,7 @@ KeyValues* FindLastSubKey()
 
 **用法示例:**
 ```csharp
-KeyValues* lastSubKey = existingKeyValues.FindLastSubKey();
+KeyValues* lastSubKey = keyValues.FindLastSubKey();
 ```
 
 ### GetFirstTrueSubKey
@@ -367,7 +369,7 @@ KeyValues* GetFirstTrueSubKey()
 
 **用法示例:**
 ```csharp
-KeyValues* subKey = existingKeyValues.GetFirstTrueSubKey();
+KeyValues* firstSubKey = kv.GetFirstTrueSubKey();
 ```
 
 ### GetNextTrueSubKey
@@ -380,7 +382,7 @@ KeyValues* GetNextTrueSubKey()
 
 **用法示例:**
 ```csharp
-KeyValues* nextSubKey = existingKeyValues.GetNextTrueSubKey();
+KeyValues* nextSubKey = keyValues.GetNextTrueSubKey();
 ```
 
 ### GetFirstValue
@@ -393,7 +395,7 @@ KeyValues* GetFirstValue()
 
 **用法示例:**
 ```csharp
-KeyValues* firstValue = existingKeyValues.GetFirstValue();
+KeyValues* first = kv.GetFirstValue();
 ```
 
 ### GetNextValue
@@ -406,7 +408,7 @@ KeyValues* GetNextValue()
 
 **用法示例:**
 ```csharp
-KeyValues* next = keyValues.GetNextValue();
+KeyValues* next = kv.GetNextValue();
 ```
 
 ### GetDataType
@@ -436,6 +438,6 @@ KeyValuesDataType GetDataType(string keyName)
 
 **用法示例:**
 ```csharp
-KeyValuesDataType type = keyValues.GetDataType("player_name");
+var dataType = keyValues.GetDataType("myKey");
 ```
 

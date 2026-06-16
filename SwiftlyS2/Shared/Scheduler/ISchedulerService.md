@@ -14,7 +14,7 @@
 void NextTick(Action task)
 ```
 
-将任务添加到下一个游戏帧执行队列中。
+在下一个tick添加一个要执行的任务。
 
 **参数:**
 
@@ -22,7 +22,7 @@ void NextTick(Action task)
 
 **用法示例:**
 ```csharp
-schedulerService.NextTick(() => Console.WriteLine("Task executed next tick"));
+schedulerService.NextTick(() => Console.WriteLine("Task executed on next tick"));
 ```
 
 ### NextTick
@@ -37,7 +37,7 @@ void NextTick(Func<Task?> task)
 
 **用法示例:**
 ```csharp
-schedulerService.NextTick(async () => await SomeAsyncOperation());
+scheduler.NextTick(async () => { await Task.Delay(100); return null; });
 ```
 
 ### NextTick<T>
@@ -52,7 +52,7 @@ void NextTick<T>(Func<Task<T?>> task)
 
 **用法示例:**
 ```csharp
-schedulerService.NextTick(async () => await SomeAsyncOperation());
+scheduler.NextTick(async () => await GetResultAsync());
 ```
 
 ### NextTickAsync
@@ -61,7 +61,7 @@ schedulerService.NextTick(async () => await SomeAsyncOperation());
 Task NextTickAsync(Action task)
 ```
 
-将任务添加到下一个帧异步执行。
+在下一个游戏帧异步添加一个待执行的任务。
 
 **参数:**
 
@@ -71,7 +71,7 @@ Task NextTickAsync(Action task)
 
 **用法示例:**
 ```csharp
-await schedulerService.NextTickAsync(() => Console.WriteLine("Executed in next tick"));
+await scheduler.NextTickAsync(() => Console.WriteLine("Executed on next tick"));
 ```
 
 ### NextTickAsync
@@ -86,7 +86,7 @@ void NextTickAsync(Func<Task?> task)
 
 **用法示例:**
 ```csharp
-await schedulerService.NextTickAsync(async () => await Task.CompletedTask);
+scheduler.NextTickAsync(async () => await Task.CompletedTask);
 ```
 
 ### NextTickAsync<T>
@@ -101,7 +101,7 @@ void NextTickAsync<T>(Func<Task<T?>> task)
 
 **用法示例:**
 ```csharp
-await scheduler.NextTickAsync(async () => await GetDataAsync());
+schedulerService.NextTickAsync(async () => await SomeAsyncOperation());
 ```
 
 ### NextTickAsync<T>
@@ -110,7 +110,7 @@ await scheduler.NextTickAsync(async () => await GetDataAsync());
 Task<T> NextTickAsync<T>(Func<T> task)
 ```
 
-将任务添加到下一个帧异步执行。
+在下一个游戏帧异步添加一个待执行的任务。
 
 **参数:**
 
@@ -120,7 +120,7 @@ Task<T> NextTickAsync<T>(Func<T> task)
 
 **用法示例:**
 ```csharp
-var result = await scheduler.NextTickAsync(() => player.Health);
+var result = await scheduler.NextTickAsync(() => 42);
 ```
 
 ### NextWorldUpdate
@@ -129,7 +129,7 @@ var result = await scheduler.NextTickAsync(() => player.Health);
 void NextWorldUpdate(Action task)
 ```
 
-将任务添加到下一次世界更新时执行。
+将任务添加至下一世界更新时执行。
 
 **参数:**
 
@@ -137,7 +137,7 @@ void NextWorldUpdate(Action task)
 
 **用法示例:**
 ```csharp
-schedulerService.NextWorldUpdate(() => Console.WriteLine("Task executed on next world update"));
+scheduler.NextWorldUpdate(() => Console.WriteLine("Task executed"));
 ```
 
 ### NextWorldUpdate
@@ -152,7 +152,7 @@ void NextWorldUpdate(Func<Task?> task)
 
 **用法示例:**
 ```csharp
-schedulerService.NextWorldUpdate(async () => await SomeAsyncOperation());
+scheduler.NextWorldUpdate(async () => { await Task.CompletedTask; });
 ```
 
 ### NextWorldUpdate<T>
@@ -167,7 +167,7 @@ void NextWorldUpdate<T>(Func<Task<T?>> task)
 
 **用法示例:**
 ```csharp
-schedulerService.NextWorldUpdate(async () => await FetchDataAsync());
+scheduler.NextWorldUpdate(async () => await GetDataAsync());
 ```
 
 ### NextWorldUpdateAsync
@@ -176,7 +176,7 @@ schedulerService.NextWorldUpdate(async () => await FetchDataAsync());
 Task NextWorldUpdateAsync(Action task)
 ```
 
-添加一个将在下一次世界更新时异步执行的任务。
+将任务添加到下一次世界更新中异步执行。
 
 **参数:**
 
@@ -186,7 +186,7 @@ Task NextWorldUpdateAsync(Action task)
 
 **用法示例:**
 ```csharp
-await schedulerService.NextWorldUpdateAsync(() => Console.WriteLine("Updated"));
+await scheduler.NextWorldUpdateAsync(() => Console.WriteLine("Updated"));
 ```
 
 ### NextWorldUpdateAsync
@@ -201,7 +201,7 @@ void NextWorldUpdateAsync(Func<Task?> task)
 
 **用法示例:**
 ```csharp
-await schedulerService.NextWorldUpdateAsync(async () => await Task.CompletedTask);
+scheduler.NextWorldUpdateAsync(async () => { await Task.CompletedTask; });
 ```
 
 ### NextWorldUpdateAsync<T>
@@ -227,7 +227,7 @@ var result = await scheduler.NextWorldUpdateAsync(async () => await GetDataAsync
 Task<T> NextWorldUpdateAsync<T>(Func<T> task)
 ```
 
-添加一个将在下一次世界更新时异步执行的任务。
+将任务添加到下一次世界更新中异步执行。
 
 **参数:**
 
@@ -237,7 +237,7 @@ Task<T> NextWorldUpdateAsync<T>(Func<T> task)
 
 **用法示例:**
 ```csharp
-var result = await scheduler.NextWorldUpdateAsync(() => GameState.CurrentTick);
+var result = await schedulerService.NextWorldUpdateAsync(() => 42);
 ```
 
 ### Delay
@@ -246,18 +246,18 @@ var result = await scheduler.NextWorldUpdateAsync(() => GameState.CurrentTick);
 CancellationTokenSource Delay(int delayTick, Action task)
 ```
 
-将延迟任务添加到调度器中。
+向调度器添加一个延迟任务。
 
 **参数:**
 
-- `delayTick` (`int`) - 定时器的延迟（以刻为单位）。
+- `delayTick` (`int`) - 计时器的延迟（以滴答数计）。
 - `task` (`Action`) - 要执行的任务。
 
-**返回值:** `CancellationTokenSource` - 一个可用于取消定时器的 CancellationTokenSource。
+**返回值:** `CancellationTokenSource` - 一个可用于取消计时器的 CancellationTokenSource。
 
 **用法示例:**
 ```csharp
-schedulerService.Delay(100, () => player.Kill());
+schedulerService.Delay(100, () => Console.WriteLine("Task executed"));
 ```
 
 ### Repeat
@@ -266,18 +266,18 @@ schedulerService.Delay(100, () => player.Kill());
 CancellationTokenSource Repeat(int periodTick, Action task)
 ```
 
-向调度器添加一个重复任务。该任务将立即执行一次，随后每隔 periodTick 个时钟刻度执行一次。
+向调度器添加一个重复任务。该任务将立即执行一次，之后每隔 periodTick 个时钟周期执行一次。
 
 **参数:**
 
-- `periodTick` (`int`) - 计时器的周期，单位为刻。
+- `periodTick` (`int`) - 计时器的周期，以刻度为单位。
 - `task` (`Action`) - 要执行的任务。
 
-**返回值:** `CancellationTokenSource` - 一个可用于取消定时器的 CancellationTokenSource。
+**返回值:** `CancellationTokenSource` - 一个可用于取消计时器的 CancellationTokenSource。
 
 **用法示例:**
 ```csharp
-var cts = scheduler.Repeat(100, () => Console.WriteLine("Task executed"));
+var cts = schedulerService.Repeat(60, () => Console.WriteLine("Task executed"));
 ```
 
 ### DelayAndRepeat
@@ -286,19 +286,19 @@ var cts = scheduler.Repeat(100, () => Console.WriteLine("Task executed"));
 CancellationTokenSource DelayAndRepeat(int delayTick, int periodTick, Action task)
 ```
 
-向调度器添加一个延迟且重复的任务。
+向调度器添加一个延迟且重复执行的任务。
 
 **参数:**
 
-- `delayTick` (`int`) - 定时器的延迟（以刻为单位）。
-- `periodTick` (`int`) - 计时器的周期，单位为刻。
+- `delayTick` (`int`) - 计时器的延迟（以滴答数计）。
+- `periodTick` (`int`) - 计时器的周期，以刻度为单位。
 - `task` (`Action`) - 要执行的任务。
 
-**返回值:** `CancellationTokenSource` - 一个可用于取消定时器的 CancellationTokenSource。
+**返回值:** `CancellationTokenSource` - 一个可用于取消计时器的 CancellationTokenSource。
 
 **用法示例:**
 ```csharp
-schedulerService.DelayAndRepeat(10, 50, () => Console.WriteLine("Task executed"));
+var cts = schedulerService.DelayAndRepeat(100, 500, () => Console.WriteLine("Task executed"));
 ```
 
 ### DelayBySeconds
@@ -307,18 +307,18 @@ schedulerService.DelayAndRepeat(10, 50, () => Console.WriteLine("Task executed")
 CancellationTokenSource DelayBySeconds(float delaySeconds, Action task)
 ```
 
-向调度器添加一个延迟任务。计时基于游戏帧（tick），这意味着当时间间隔接近 1 帧（约 15 毫秒）时，精度会下降。
+向调度器添加一个延迟任务。计时基于游戏刻（tick），当间隔接近1刻（约15毫秒）时，计时将变得不准确。
 
 **参数:**
 
-- `delaySeconds` (`float`) - 定时器的延迟时间（以秒为单位）。
+- `delaySeconds` (`float`) - 定时器的延迟时间，单位为秒。
 - `task` (`Action`) - 要执行的任务。
 
-**返回值:** `CancellationTokenSource` - 一个可用于取消定时器的 CancellationTokenSource。
+**返回值:** `CancellationTokenSource` - 一个可用于取消计时器的 CancellationTokenSource。
 
 **用法示例:**
 ```csharp
-schedulerService.DelayBySeconds(2.5f, () => player.PrintMessage("延迟任务已执行"));
+schedulerService.DelayBySeconds(1.5f, () => Console.WriteLine("Delayed task executed"));
 ```
 
 ### RepeatBySeconds
@@ -327,18 +327,18 @@ schedulerService.DelayBySeconds(2.5f, () => player.PrintMessage("延迟任务已
 CancellationTokenSource RepeatBySeconds(float periodSeconds, Action task)
 ```
 
-向调度器添加一个重复任务。该任务将立即执行一次，随后每隔 periodSeconds 秒执行一次。计时基于游戏帧（tick），因此当事件间隔接近 1 帧（约 15 毫秒）时，精度会下降。
+向调度器添加一个重复执行的任务。该任务将立即执行一次，之后每隔 periodSeconds 秒执行一次。计时基于游戏刻（tick）计算，这意味着当时间间隔接近1刻（约15毫秒）时，计时将变得不精确。
 
 **参数:**
 
-- `periodSeconds` (`float`) - 计时器的周期，单位为秒。
+- `periodSeconds` (`float`) - 计时器的周期（秒）。
 - `task` (`Action`) - 要执行的任务。
 
-**返回值:** `CancellationTokenSource` - 一个可用于取消定时器的 CancellationTokenSource。
+**返回值:** `CancellationTokenSource` - 一个可用于取消计时器的 CancellationTokenSource。
 
 **用法示例:**
 ```csharp
-scheduler.RepeatBySeconds(5.0f, () => Log("Task executed"));
+scheduler.RepeatBySeconds(1.0f, () => Console.WriteLine("Task executed"));
 ```
 
 ### DelayAndRepeatBySeconds
@@ -347,19 +347,19 @@ scheduler.RepeatBySeconds(5.0f, () => Log("Task executed"));
 CancellationTokenSource DelayAndRepeatBySeconds(float delaySeconds, float periodSeconds, Action task)
 ```
 
-向调度器添加一个延迟并重复执行的任务。该计时基于游戏帧（tick），这意味着当时间间隔接近 1 帧（约 15 毫秒）时，计时将变得不准确。
+向调度器添加一个延迟且重复执行的任务。该任务的计时基于游戏刻（tick），这意味着当时间间隔接近1个游戏刻（约15毫秒）时，其准确性会降低。
 
 **参数:**
 
-- `delaySeconds` (`float`) - 定时器的延迟时间（以秒为单位）。
-- `periodSeconds` (`float`) - 计时器的周期，单位为秒。
+- `delaySeconds` (`float`) - 定时器的延迟时间，单位为秒。
+- `periodSeconds` (`float`) - 计时器的周期（秒）。
 - `task` (`Action`) - 要执行的任务。
 
-**返回值:** `CancellationTokenSource` - 一个可用于取消定时器的 CancellationTokenSource。
+**返回值:** `CancellationTokenSource` - 一个可用于取消计时器的 CancellationTokenSource。
 
 **用法示例:**
 ```csharp
-var cts = scheduler.DelayAndRepeatBySeconds(2.0f, 5.0f, () => Console.WriteLine("Task executed"));
+schedulerService.DelayAndRepeatBySeconds(2.0f, 5.0f, () => Console.WriteLine("Task executed"));
 ```
 
 ### AddTimer
@@ -368,17 +368,17 @@ var cts = scheduler.DelayAndRepeatBySeconds(2.0f, 5.0f, () => Console.WriteLine(
 CancellationTokenSource AddTimer(Func<ITimerContext, TimerStep> task)
 ```
 
-向调度器添加一个高级计时器。
+为调度器添加一个高级计时器。
 
 **参数:**
 
 - `task` (`Func\<ITimerContext, TimerStep\>`) - 要执行的任务。
 
-**返回值:** `CancellationTokenSource` - 一个可用于取消定时器的 CancellationTokenSource。
+**返回值:** `CancellationTokenSource` - 一个可用于取消计时器的 CancellationTokenSource。
 
 **用法示例:**
 ```csharp
-CancellationTokenSource cts = scheduler.AddTimer(ctx => TimerStep.Continue);
+var cts = scheduler.AddTimer(ctx => TimerStep.Continue);
 ```
 
 ### StopOnMapChange
@@ -387,11 +387,11 @@ CancellationTokenSource cts = scheduler.AddTimer(ctx => TimerStep.Continue);
 void StopOnMapChange(CancellationTokenSource cts)
 ```
 
-在地图切换时停止计时器。
+当地图改变时停止计时器。
 
 **参数:**
 
-- `cts` (`CancellationTokenSource`) - 要停止的 CancellationTokenSource。
+- `cts` (`CancellationTokenSource`) - 用于停止的CancellationTokenSource。
 
 **用法示例:**
 ```csharp

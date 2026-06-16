@@ -2,7 +2,7 @@
 
 # 🔌 IAllocableNativeHandle
 
-从 Swiftly C++ 原生侧分配的句柄。目前我们使用原生方式分配对象以利用 hl2sdk 和 memoverride。TODO：不确定是否适合为此创建接口，因为理想情况下，从用户视角看此处与 `INativeHandle` 不应存在任何差异，因为对象的分配与销毁应仅限于内部使用，并在核心层内处理。
+从Swiftly C++原生端分配到的句柄。目前我们使用原生方式来分配对象，以便利用hl2sdk和memoverride。\ TODO：不确定为此设置接口是否合适，因为从用户视角来看，这个接口与`INativeHandle`理论上不应存在差异（分配与销毁操作应仅供内部使用并由核心层处理）。
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 

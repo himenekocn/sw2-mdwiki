@@ -65,7 +65,6 @@ SteamNetworkingMessage_t FromIntPtr(IntPtr pointer)
 
 **用法示例:**
 ```csharp
-IntPtr ptr = GetPointerFromSomewhere();
-SteamNetworkingMessage_t message = SteamNetworkingMessage_t.FromIntPtr(ptr);
+var message = SteamNetworkingMessage_t.FromIntPtr(pointer);
 ```
 

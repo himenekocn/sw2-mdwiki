@@ -38,7 +38,7 @@ void Init(int growSize, int initSize)
 
 **用法示例:**
 ```csharp
-memory.Init(16, 32);
+memory.Init(16, 0);
 ```
 
 ### Purge
@@ -96,7 +96,7 @@ void SetExternalBuffer(nint memory, int numelements, bool readOnly)
 
 **用法示例:**
 ```csharp
-unsafe { var mem = new CUtlMemory(); fixed (byte* ptr = buffer) mem.SetExternalBuffer((nint)ptr, count, readOnly); }
+memory.SetExternalBuffer(IntPtr.Zero, 10, false);
 ```
 
 ### AssumeMemory
@@ -112,7 +112,7 @@ void AssumeMemory(nint memory, int numelements)
 
 **用法示例:**
 ```csharp
-memory.AssumeMemory(nint.Zero, 10);
+memory.AssumeMemory(IntPtr.Zero, 0);
 ```
 
 ### DetachMemory
@@ -155,7 +155,7 @@ void EnsureCapacity(int num)
 
 **用法示例:**
 ```csharp
-memory.EnsureCapacity(10);
+memory.EnsureCapacity(1024);
 ```
 
 ### SetGrowSize

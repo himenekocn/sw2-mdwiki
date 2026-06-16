@@ -2,7 +2,7 @@
 
 # 🔗 OnWeaponServicesCanUseHook
 
-当武器服务可使用挂钩被触发时调用。
+当武器服务可用钩子被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

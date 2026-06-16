@@ -18,7 +18,7 @@ System.Net.IPAddress ToIPAddress()
 
 **用法示例:**
 ```csharp
-System.Net.IPAddress ip = steamIPAddress.ToIPAddress();
+System.Net.IPAddress ip = steamIp.ToIPAddress();
 ```
 
 ### ToString
@@ -39,7 +39,7 @@ ESteamIPType GetIPType()
 
 **用法示例:**
 ```csharp
-ESteamIPType type = instance.GetIPType();
+var ipType = steamIPAddress.GetIPType();
 ```
 
 ### IsSet
@@ -52,6 +52,6 @@ bool IsSet()
 
 **用法示例:**
 ```csharp
-bool isSet = steamIpAddress.IsSet();
+bool isSet = steamIPAddress.IsSet();
 ```
 

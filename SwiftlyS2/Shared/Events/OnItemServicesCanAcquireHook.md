@@ -2,7 +2,7 @@
 
 # 🔗 OnItemServicesCanAcquireHook
 
-当物品服务获取钩子被触发时调用。
+当物品服务可获取钩子被触发时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

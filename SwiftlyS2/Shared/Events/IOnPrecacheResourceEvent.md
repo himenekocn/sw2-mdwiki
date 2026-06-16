@@ -18,10 +18,10 @@ void AddItem(string path)
 
 **参数:**
 
-- `path` (`string`) - 预缓存资源的路径。
+- `path` (`string`) - 要预缓存资源的路径。
 
 **用法示例:**
 ```csharp
-precacheEvent.AddItem("models/props/cs_office/vending_machine.mdl");
+precacher.AddItem("models/props/de_dust2/barrel.vmdl");
 ```
 

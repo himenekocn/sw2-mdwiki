@@ -60,7 +60,7 @@ operator ulong(SteamItemInstanceID_t that)
 
 **用法示例:**
 ```csharp
-ulong id = SteamItemInstanceID_t.ulong(existingInstance);
+ulong id = (ulong)instanceId;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(SteamItemInstanceID_t other)
 
 **用法示例:**
 ```csharp
-int result = existingInstance.CompareTo(otherInstance);
+int result = instanceId.CompareTo(otherInstanceId);
 ```
 

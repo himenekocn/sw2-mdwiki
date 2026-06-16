@@ -2,7 +2,7 @@
 
 # 🔌 IOnCommandExecuteHookEvent
 
-在命令执行时调用。
+当命令被执行时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -14,5 +14,5 @@
 |------|------|--------|------|
 | `Command` | `ref CCommand` | get | 该命令。 |
 | `HookMode` | `HookMode` | get | 钩子模式。 |
-| `Result` | `HookResult` | get, set | 钩子结果。您仅可在预事件（Pre event）中修改它。 |
+| `Result` | `HookResult` | get, set | 挂钩结果。只能在Pre事件中更改。 |
 

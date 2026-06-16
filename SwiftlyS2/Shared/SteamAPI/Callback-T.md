@@ -2,7 +2,7 @@
 
 # 📦 Callback&lt;T&gt;
 
-表示一个自动管理其生命周期的 Steam 回调。
+表示一个自动管理其生命周期的Steam回调
 
 **命名空间:** `SwiftlyS2.Shared.SteamAPI`
 
@@ -20,7 +20,7 @@
 Callback<T> Create(Action<T> callback)
 ```
 
-创建并注册一个新的回调
+创建并注册一个新的回调函数
 
 **参数:**
 
@@ -30,7 +30,7 @@ Callback<T> Create(Action<T> callback)
 
 **用法示例:**
 ```csharp
-var callback = Callback.Create<string>(msg => Console.WriteLine(msg));
+var callback = Callback.Create<int>(x => Console.WriteLine(x));
 ```
 
 ### Dispose

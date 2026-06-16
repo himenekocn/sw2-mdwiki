@@ -66,7 +66,7 @@ void EnsureCapacity(int num, bool force)
 
 **用法示例:**
 ```csharp
-vector.EnsureCapacity(10, true);
+vector.EnsureCapacity(10, false);
 ```
 
 ### SetExternalBuffer
@@ -83,7 +83,7 @@ void SetExternalBuffer(nint memory, I allocationCount, I numElements)
 
 **用法示例:**
 ```csharp
-vector.SetExternalBuffer(memoryPtr, 10, 5);
+vector.SetExternalBuffer(IntPtr.Zero, 10, 5);
 ```
 
 ### AssumeMemory
@@ -100,7 +100,7 @@ void AssumeMemory(nint memory, I allocationCount, I numElements)
 
 **用法示例:**
 ```csharp
-vector.AssumeMemory(memoryPtr, 10, 5);
+instance.AssumeMemory(0, 10, 5);
 ```
 
 ### DetachMemory
@@ -135,7 +135,7 @@ void Purge()
 
 **用法示例:**
 ```csharp
-vector.Purge();
+leanVector.Purge();
 ```
 
 ### Element
@@ -165,7 +165,7 @@ I AddToTail()
 
 **用法示例:**
 ```csharp
-CUtlLeanVector vector; var item = vector.AddToTail();
+var item = vector.AddToTail();
 ```
 
 ### AddToTail
@@ -182,8 +182,7 @@ I AddToTail(T element)
 
 **用法示例:**
 ```csharp
-CUtlLeanVector vector;
-vector.AddToTail(default(T));
+vector.AddToTail(element);
 ```
 
 ### SetCount
@@ -215,7 +214,7 @@ I Find(T element)
 
 **用法示例:**
 ```csharp
-var index = leanVector.Find(targetElement);
+var index = vector.Find(targetElement);
 ```
 
 ### FastRemove
@@ -245,7 +244,7 @@ void Remove(I elem)
 
 **用法示例:**
 ```csharp
-vector.Remove(elem);
+vector.Remove(element);
 ```
 
 ### RemoveMultiple
@@ -261,7 +260,7 @@ void RemoveMultiple(I idx, I count)
 
 **用法示例:**
 ```csharp
-vector.RemoveMultiple(0, 5);
+leanVector.RemoveMultiple(0, 5);
 ```
 
 ### RemoveMultipleFromHead
@@ -276,7 +275,7 @@ void RemoveMultipleFromHead(I count)
 
 **用法示例:**
 ```csharp
-vector.RemoveMultipleFromHead(5);
+vector.RemoveMultipleFromHead(3);
 ```
 
 ### RemoveMultipleFromTail
@@ -291,7 +290,7 @@ void RemoveMultipleFromTail(I count)
 
 **用法示例:**
 ```csharp
-vector.RemoveMultipleFromTail(3);
+vector.RemoveMultipleFromTail(1);
 ```
 
 ### FindAndRemove
@@ -308,7 +307,7 @@ bool FindAndRemove(T value)
 
 **用法示例:**
 ```csharp
-vector.FindAndRemove(value);
+bool removed = vector.FindAndRemove(targetValue);
 ```
 
 ### FindAndFastRemove
@@ -325,7 +324,7 @@ bool FindAndFastRemove(T value)
 
 **用法示例:**
 ```csharp
-vector.FindAndFastRemove(value);
+bool removed = myVector.FindAndFastRemove(someValue);
 ```
 
 ### Dispose

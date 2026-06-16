@@ -26,6 +26,6 @@ in SteamUtils()
 
 **用法示例:**
 ```csharp
-achievementIconFetched.SteamUtils();
+var result = existingInstance.SteamUtils();
 ```
 

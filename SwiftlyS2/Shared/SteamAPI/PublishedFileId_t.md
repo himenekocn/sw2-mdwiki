@@ -60,7 +60,7 @@ operator ulong(PublishedFileId_t that)
 
 **用法示例:**
 ```csharp
-ulong id = (ulong)existingPublishedFileId;
+ulong id = (ulong)publishedFileId;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(PublishedFileId_t other)
 
 **用法示例:**
 ```csharp
-int result = existingFileId.CompareTo(otherFileId);
+int result = currentFileId.CompareTo(otherFileId);
 ```
 

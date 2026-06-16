@@ -60,7 +60,7 @@ operator short(FriendsGroupID_t that)
 
 **用法示例:**
 ```csharp
-short id = FriendsGroupID_t.short(existingFriendsGroupID);
+short id = (short)friendsGroupID;
 ```
 
 ### Equals

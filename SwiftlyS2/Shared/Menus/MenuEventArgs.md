@@ -2,7 +2,7 @@
 
 # 📦 MenuEventArgs
 
-为菜单相关事件提供事件数据。
+提供菜单相关事件的事件数据。
 
 **命名空间:** `SwiftlyS2.Shared.Menus`
 
@@ -15,5 +15,5 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Player` | `IPlayer?` | get | 触发此菜单事件的玩家。 |
-| `Options` | `IReadOnlyList\<IMenuOption\>?` | get | 参与此事件的菜单选项。 |
+| `Options` | `IReadOnlyList\<IMenuOption\>?` | get | 此事件涉及的菜单选项。 |
 

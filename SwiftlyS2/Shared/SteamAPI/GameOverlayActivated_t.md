@@ -31,6 +31,6 @@ the game(should always be the current game)
 
 **用法示例:**
 ```csharp
-var currentGame = overlayActivated.game();
+GameOverlayActivated_t.game();
 ```
 

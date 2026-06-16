@@ -2,7 +2,7 @@
 
 # 🔌 IOnClientSteamAuthorizeEvent
 
-当客户端通过 Steam 完成授权时调用。
+当客户端通过Steam授权时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -12,5 +12,5 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerId` | `int` | get | 已授权客户端的玩家 ID。 |
+| `PlayerId` | `int` | get | 被授权的客户端的玩家ID。 |
 

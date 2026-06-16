@@ -12,5 +12,5 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Entity` | `CEntityInstance` | get | 已删除的实体。 |
+| `Entity` | `CEntityInstance` | get | 被删除的实体。 |
 

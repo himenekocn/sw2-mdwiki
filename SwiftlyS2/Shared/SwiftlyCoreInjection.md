@@ -25,6 +25,6 @@ IServiceCollection AddSwiftly(this IServiceCollection self, ISwiftlyCore core, b
 
 **用法示例:**
 ```csharp
-var services = SwiftlyCoreInjection.AddSwiftly(coreInstance, true, true);
+SwiftlyCoreInjection.AddSwiftly(services, swiftlyCore, true, true);
 ```
 

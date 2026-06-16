@@ -33,6 +33,6 @@ the change(different from SteamIDUserChange if kicking,  muting, etc. )
 
 **用法示例:**
 ```csharp
-var change = lobbyChatUpdate.change;
+var changeType = lobbyChatUpdate.change;
 ```
 

@@ -60,7 +60,7 @@ operator ulong(InputHandle_t that)
 
 **用法示例:**
 ```csharp
-ulong handleValue = InputHandle_t.ulong(existingInputHandle);
+ulong handleValue = (ulong)inputHandle;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(InputHandle_t other)
 
 **用法示例:**
 ```csharp
-int result = handle.CompareTo(otherHandle);
+int result = inputHandle.CompareTo(otherInputHandle);
 ```
 

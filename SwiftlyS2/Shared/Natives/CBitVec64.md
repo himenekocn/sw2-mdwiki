@@ -18,7 +18,6 @@ void ClearAll()
 
 **用法示例:**
 ```csharp
-CBitVec64 bitVec;
 bitVec.ClearAll();
 ```
 
@@ -30,7 +29,8 @@ void SetAll()
 
 **用法示例:**
 ```csharp
-CBitVec64 vec; vec.SetAll();
+CBitVec64 bitVec = default;
+bitVec.SetAll();
 ```
 
 ### Set
@@ -45,7 +45,8 @@ void Set(uint index)
 
 **用法示例:**
 ```csharp
-CBitVec64 vec; vec.Set(5);
+CBitVec64 bitVec;
+bitVec.Set(5);
 ```
 
 ### Set
@@ -60,7 +61,7 @@ void Set(int index)
 
 **用法示例:**
 ```csharp
-CBitVec64 bits; bits.Set(5);
+bitVec.Set(0);
 ```
 
 ### Clear
@@ -90,7 +91,7 @@ void Clear(int index)
 
 **用法示例:**
 ```csharp
-CBitVec64 vec; vec.Clear(5);
+bitVec.Clear(5);
 ```
 
 ### IsSet
@@ -107,7 +108,7 @@ bool IsSet(uint index)
 
 **用法示例:**
 ```csharp
-bool isSet = existingBitVec.IsSet(5);
+bool isSet = bitVec64.IsSet(0);
 ```
 
 ### IsSet

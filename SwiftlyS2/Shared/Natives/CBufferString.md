@@ -16,6 +16,6 @@ void todo()
 
 **用法示例:**
 ```csharp
-CBufferString buffer; buffer.todo();
+bufferString.todo();
 ```
 

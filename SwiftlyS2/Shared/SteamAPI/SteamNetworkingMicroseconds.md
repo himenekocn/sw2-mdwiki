@@ -60,7 +60,7 @@ operator long(SteamNetworkingMicroseconds that)
 
 **用法示例:**
 ```csharp
-long microseconds = (long)SteamNetworkingMicroseconds.FromSeconds(1.5);
+long microseconds = (long)steamNetworkingMicrosecondsInstance;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(SteamNetworkingMicroseconds other)
 
 **用法示例:**
 ```csharp
-int result = existingMicroseconds.CompareTo(otherMicroseconds);
+int result = microsecs.CompareTo(otherMicrosecs);
 ```
 

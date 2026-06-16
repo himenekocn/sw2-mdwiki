@@ -11,8 +11,8 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `TableName` | `string` | get | 获取字符串表的名称。 |
-| `TableId` | `int` | get | 获取字符串表的 ID。 |
-| `NumStrings` | `int` | get | 获取字符串表中的字符串数量。 |
+| `TableId` | `int` | get | 获取字符串表的ID。 |
+| `NumStrings` | `int` | get | 获取字符串表中字符串的数量。 |
 
 ## ⚙️ 方法
 
@@ -32,7 +32,7 @@ int? FindStringIndex(string str)
 
 **用法示例:**
 ```csharp
-int? index = stringTable.FindStringIndex("example_string");
+int? index = stringTable.FindStringIndex("example");
 ```
 
 ### IsStringIndexValid
@@ -45,13 +45,13 @@ bool IsStringIndexValid(int index)
 
 **参数:**
 
-- `index` (`int`) - 用于检查的索引。
+- `index` (`int`) - 要检查的索引。
 
-**返回值:** `bool` - 若索引有效则为 true，否则为 false。
+**返回值:** `bool` - 如果索引有效则为真，否则为假。
 
 **用法示例:**
 ```csharp
-bool isValid = stringTable.IsStringIndexValid(5);
+bool isValid = stringTable.IsStringIndexValid(0);
 ```
 
 ### GetString
@@ -64,9 +64,9 @@ string? GetString(int index)
 
 **参数:**
 
-- `index` (`int`) - 获取字符串的索引。
+- `index` (`int`) - 用于获取字符串的索引。
 
-**返回值:** `string?` - 指定索引处的字符串，若索引无效则为 null。
+**返回值:** `string?` - 指定索引处的字符串，如果索引无效则为 null。
 
 **用法示例:**
 ```csharp
@@ -84,13 +84,13 @@ bool TryGetStringUserData(int index, out StringTableOutUserData result)
 **参数:**
 
 - `index` (`int`) - 用于获取用户数据的索引。
-- `result` (`out StringTableOutUserData`) - 用户数据，如果索引无效则为空。
+- `result` (`out StringTableOutUserData`) - 用户数据，如果索引无效则为无效数据。
 
-**返回值:** `bool` - 若用户数据成功获取则为 true，否则为 false。
+**返回值:** `bool` - 如果用户数据成功检索，则为真；否则为假。
 
 **用法示例:**
 ```csharp
-if (stringTable.TryGetStringUserData(0, out var result)) { }
+bool success = stringTable.TryGetStringUserData(0, out var result);
 ```
 
 ### GetStringUserData
@@ -105,7 +105,7 @@ StringTableOutUserData GetStringUserData(int index)
 
 - `index` (`int`) - 用于获取用户数据的索引。
 
-**返回值:** `StringTableOutUserData` - 用户数据，如果索引无效则为空。
+**返回值:** `StringTableOutUserData` - 用户数据，如果索引无效则为无效数据。
 
 **用法示例:**
 ```csharp
@@ -118,14 +118,14 @@ var userData = stringTable.GetStringUserData(0);
 bool TryGetStringUserData(string str, out StringTableOutUserData result)
 ```
 
-尝试获取指定字符串对应的用户数据。
+尝试获取指定字符串的用户数据。
 
 **参数:**
 
-- `str` (`string`) - 获取用户数据所需的字符串。
-- `result` (`out StringTableOutUserData`) - 用户数据，若字符串未找到则为无效。
+- `str` (`string`) - 要获取用户数据的字符串。
+- `result` (`out StringTableOutUserData`) - 用户数据，如果未找到该字符串则为无效。
 
-**返回值:** `bool` - 若用户数据成功获取则为 true，否则为 false。
+**返回值:** `bool` - 如果用户数据成功检索，则为真；否则为假。
 
 **用法示例:**
 ```csharp
@@ -142,13 +142,13 @@ StringTableOutUserData GetStringUserData(string str)
 
 **参数:**
 
-- `str` (`string`) - 获取用户数据所需的字符串。
+- `str` (`string`) - 要获取用户数据的字符串。
 
-**返回值:** `StringTableOutUserData` - 用户数据，若字符串未找到则为无效。
+**返回值:** `StringTableOutUserData` - 用户数据，如果未找到该字符串则为无效。
 
 **用法示例:**
 ```csharp
-var userData = stringTable.GetStringUserData("myString");
+var userData = stringTable.GetStringUserData("example_key");
 ```
 
 ### SetStringUserData
@@ -157,19 +157,19 @@ var userData = stringTable.GetStringUserData("myString");
 bool SetStringUserData(int index, StringTableUserData userData, bool forceOverride = true)
 ```
 
-为指定索引设置用户数据。
+为指定的索引设置用户数据。
 
 **参数:**
 
 - `index` (`int`) - 用于设置用户数据的索引。
-- `userData` (`StringTableUserData`) - 要设置的UserData。
-- `forceOverride` (`bool`) = `true` - 如果用户数据已存在，是否覆盖该数据。
+- `userData` (`StringTableUserData`) - 要设置的用户数据。
+- `forceOverride` (`bool`) = `true` - 是否覆盖已存在的用户数据。
 
-**返回值:** `bool` - 若用户数据设置成功则为 true，否则为 false。
+**返回值:** `bool` - 如果用户数据设置成功则为真，否则为假。
 
 **用法示例:**
 ```csharp
-stringTable.SetStringUserData(0, StringTableUserData.None, true);
+stringTable.SetStringUserData(0, userData, true);
 ```
 
 ### SetStringUserData
@@ -178,19 +178,19 @@ stringTable.SetStringUserData(0, StringTableUserData.None, true);
 bool SetStringUserData(string str, StringTableUserData userData, bool forceOverride = true)
 ```
 
-为指定的字符串设置用户数据。
+为指定字符串设置用户数据。
 
 **参数:**
 
-- `str` (`string`) - 要为用户数据设置的字符串。
-- `userData` (`StringTableUserData`) - 要设置的UserData。
-- `forceOverride` (`bool`) = `true` - 如果用户数据已存在，是否覆盖该数据。
+- `str` (`string`) - 用于设置用户数据的字符串。
+- `userData` (`StringTableUserData`) - 要设置的用户数据。
+- `forceOverride` (`bool`) = `true` - 是否覆盖已存在的用户数据。
 
-**返回值:** `bool` - 若用户数据设置成功则为 true，否则为 false。
+**返回值:** `bool` - 如果用户数据设置成功则为真，否则为假。
 
 **用法示例:**
 ```csharp
-bool result = stringTable.SetStringUserData("example_key", existingUserData, true);
+bool success = stringTable.SetStringUserData("myKey", userData, true);
 ```
 
 ### SetOrAddStringUserData
@@ -199,19 +199,19 @@ bool result = stringTable.SetStringUserData("example_key", existingUserData, tru
 bool SetOrAddStringUserData(string str, StringTableUserData userData, bool forceOverride = true)
 ```
 
-为指定的字符串设置用户数据，如果该字符串不存在，则添加该字符串并设置其值。
+为指定的字符串设置用户数据，如果该字符串不存在则添加并设置。
 
 **参数:**
 
-- `str` (`string`) - 要为用户数据设置的字符串。
-- `userData` (`StringTableUserData`) - 要设置的UserData。
-- `forceOverride` (`bool`) = `true` - 如果用户数据已存在，是否覆盖该数据。
+- `str` (`string`) - 用于设置用户数据的字符串。
+- `userData` (`StringTableUserData`) - 要设置的用户数据。
+- `forceOverride` (`bool`) = `true` - 是否覆盖已存在的用户数据。
 
 **返回值:** `bool` - 如果用户数据成功设置或添加则为 true，否则为 false。
 
 **用法示例:**
 ```csharp
-stringTable.SetOrAddStringUserData("example_key", new StringTableUserData(), true);
+stringTable.SetOrAddStringUserData("player_name", userData, true);
 ```
 
 ### GetOrAddString
@@ -220,17 +220,17 @@ stringTable.SetOrAddStringUserData("example_key", new StringTableUserData(), tru
 int GetOrAddString(string str)
 ```
 
-获取指定字符串在字符串表中的索引，如果不存在则将其添加。
+获取字符串表中指定字符串的索引，若不存在则添加该字符串。
 
 **参数:**
 
 - `str` (`string`) - 要获取或添加的字符串。
 
-**返回值:** `int` - 该字符串的索引，或者如果字符串未找到并被添加时的新索引。
+**返回值:** `int` - 字符串的索引，若未找到该字符串并添加后则为新索引。
 
 **用法示例:**
 ```csharp
-int index = stringTable.GetOrAddString("example_string");
+int index = stringTable.GetOrAddString("Hello World");
 ```
 
 ### ReplicateUserData
@@ -239,13 +239,13 @@ int index = stringTable.GetOrAddString("example_string");
 void ReplicateUserData(int stringIndex, StringTableUserData userData, in CRecipientFilter filter)
 ```
 
-将指定字符串的用户数据复制给指定的接收者。
+将指定字符串的用户数据复制到指定接收方。
 
 **参数:**
 
-- `stringIndex` (`int`) - 要为其复制用户数据的字符串索引。
-- `userData` (`StringTableUserData`) - 待复制的用户数据。
-- `filter` (`in CRecipientFilter`) - 用于复制用户数据的目标接收方。
+- `stringIndex` (`int`) - 要复制的用户数据字符串的索引。
+- `userData` (`StringTableUserData`) - 要复制的用户数据。
+- `filter` (`in CRecipientFilter`) - 要将用户数据复制到的接收者。
 
 **用法示例:**
 ```csharp
@@ -258,16 +258,16 @@ stringTable.ReplicateUserData(0, userData, filter);
 void ReplicateUserData(string str, StringTableUserData userData, in CRecipientFilter filter)
 ```
 
-将指定字符串的用户数据复制给指定的接收者。请注意，该字符串必须在调用前若干帧（ticks）之前已添加到字符串表中。如果字符串未提前添加，则复制操作将失败；若该字符串仅在此调用前 1-2 帧内被添加，服务器将会覆盖已复制的值。
+将指定字符串的用户数据复制给指定接收者。注意:该字符串必须在若干游戏刻之前就已添加到字符串表中。若字符串尚未添加,则复制操作将失败。若该字符串仅在此调用前1-2个游戏刻才被添加,服务器将覆盖已复制值。
 
 **参数:**
 
 - `str` (`string`) - 用于复制用户数据的字符串。
-- `userData` (`StringTableUserData`) - 待复制的用户数据。
-- `filter` (`in CRecipientFilter`) - 用于复制用户数据的目标接收方。
+- `userData` (`StringTableUserData`) - 要复制的用户数据。
+- `filter` (`in CRecipientFilter`) - 要将用户数据复制到的接收者。
 
 **用法示例:**
 ```csharp
-stringTable.ReplicateUserData("my_string", userData, new CRecipientFilter());
+stringTable.ReplicateUserData("my_key", userData, filter);
 ```
 

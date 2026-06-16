@@ -2,7 +2,7 @@
 
 # 🔗 OnEntitySpawned
 
-当实体被生成时调用。
+当实体生成时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

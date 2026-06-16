@@ -69,7 +69,7 @@ void SetExternalBuffer(nint memory, int allocationCount, int numELements, bool r
 
 **用法示例:**
 ```csharp
-vector.SetExternalBuffer(memoryPtr, 100, 50, false);
+vector.SetExternalBuffer(memoryPtr, 10, 5, false);
 ```
 
 ### AssumeMemory
@@ -116,7 +116,7 @@ bool IsValidIndex(int index)
 
 **用法示例:**
 ```csharp
-bool isValid = vector.IsValidIndex(0);
+bool valid = vector.IsValidIndex(0);
 ```
 
 ### GrowVector
@@ -131,7 +131,7 @@ void GrowVector(int count)
 
 **用法示例:**
 ```csharp
-vector.GrowVector(5);
+vector.GrowVector(10);
 ```
 
 ### InsertBeforeIdx
@@ -165,7 +165,7 @@ int InsertAfterIdx(int elem)
 
 **用法示例:**
 ```csharp
-int newIndex = vector.InsertAfterIdx(elem);
+int index = vector.InsertAfterIdx(0);
 ```
 
 ### InsertBefore
@@ -183,7 +183,7 @@ int InsertBefore(int idx, T value)
 
 **用法示例:**
 ```csharp
-var existingVector = GetExistingVector(); int newIndex = existingVector.InsertBefore(0, defaultValue);
+vector.InsertBefore(0, defaultValue);
 ```
 
 ### InsertAfter
@@ -201,7 +201,7 @@ int InsertAfter(int idx, T value)
 
 **用法示例:**
 ```csharp
-CUtlVector vector; vector.InsertAfter(0, default(T));
+vector.InsertAfter(0, value);
 ```
 
 ### AddToHead
@@ -218,7 +218,7 @@ int AddToHead(T value)
 
 **用法示例:**
 ```csharp
-vector.AddToHead(value);
+int index = vector.AddToHead(value);
 ```
 
 ### AddToTail
@@ -235,7 +235,7 @@ int AddToTail(T value)
 
 **用法示例:**
 ```csharp
-vector.AddToTail(value);
+vector.AddToTail(item);
 ```
 
 ### AddVectorToTail
@@ -252,7 +252,7 @@ int AddVectorToTail(CUtlVector<T> other)
 
 **用法示例:**
 ```csharp
-int count = existingVector.AddVectorToTail(otherVector);
+int count = vector.AddVectorToTail(otherVector);
 ```
 
 ### Find
@@ -333,7 +333,7 @@ bool FindAndRemove(T value)
 
 **用法示例:**
 ```csharp
-vector.FindAndRemove(targetValue);
+bool removed = vector.FindAndRemove(item);
 ```
 
 ### FindAndFastRemove
@@ -350,7 +350,7 @@ bool FindAndFastRemove(T value)
 
 **用法示例:**
 ```csharp
-vector.FindAndFastRemove(value);
+vector.FindAndFastRemove(targetValue);
 ```
 
 ### RemoveMultiple
@@ -381,7 +381,7 @@ void RemoveMultipleFromHead(int count)
 
 **用法示例:**
 ```csharp
-vector.RemoveMultipleFromHead(5);
+myVector.RemoveMultipleFromHead(5);
 ```
 
 ### RemoveMultipleFromTail
@@ -422,7 +422,7 @@ void RemoveAll()
 
 **用法示例:**
 ```csharp
-myVector.RemoveAll();
+vector.RemoveAll();
 ```
 
 ### GetEnumerator

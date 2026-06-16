@@ -30,7 +30,7 @@ void AddPlayerToList(string pchName, int nScore, float flTimePlayed)
 
 **用法示例:**
 ```csharp
-playerResponse.AddPlayerToList("PlayerOne", 1500, 3600.5f);
+matchmakingPlayersResponse.AddPlayerToList("PlayerOne", 100, 3600.5f);
 ```
 
 ### PlayersFailedToRespond
@@ -41,7 +41,7 @@ void PlayersFailedToRespond()
 
 **用法示例:**
 ```csharp
-playersResponse.PlayersFailedToRespond();
+matchmakingPlayersResponse.PlayersFailedToRespond();
 ```
 
 ### PlayersRefreshComplete
@@ -52,7 +52,7 @@ void PlayersRefreshComplete()
 
 **用法示例:**
 ```csharp
-matchmaking.PlayersRefreshComplete();
+matchmakingPlayersResponse.PlayersRefreshComplete();
 ```
 
 ### InternalAddPlayerToList
@@ -69,7 +69,7 @@ void InternalAddPlayerToList(IntPtr pchName, int nScore, float flTimePlayed)
 
 **用法示例:**
 ```csharp
-playersResponse.InternalAddPlayerToList(IntPtr.Zero, 100, 30.5f);
+matchmakingPlayersResponse.InternalAddPlayerToList(IntPtr.Zero, 100, 30.5f);
 ```
 
 ### InternalPlayersFailedToRespond
@@ -80,8 +80,7 @@ void InternalPlayersFailedToRespond()
 
 **用法示例:**
 ```csharp
-// ISteamMatchmakingPlayersResponse is an interface and InternalPlayersFailedToRespond is an instance method, so it must be called on an existing instance variable.
-matchmakingResponse.InternalPlayersFailedToRespond();
+matchmakingPlayersResponse.InternalPlayersFailedToRespond();
 ```
 
 ### InternalPlayersRefreshComplete
@@ -92,7 +91,6 @@ void InternalPlayersRefreshComplete()
 
 **用法示例:**
 ```csharp
-var response = GetExistingResponseInstance();
-response.InternalPlayersRefreshComplete();
+matchmakingPlayersResponse.InternalPlayersRefreshComplete();
 ```
 

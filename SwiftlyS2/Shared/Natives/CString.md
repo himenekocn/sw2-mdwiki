@@ -2,7 +2,7 @@
 
 # 🏗️ CString
 
-本地 char* 的包装类。
+原生 char* 的包装类。
 
 **命名空间:** `SwiftlyS2.Shared.Natives`
 

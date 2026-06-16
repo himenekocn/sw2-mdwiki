@@ -60,7 +60,7 @@ operator ulong(TimelineEventHandle_t that)
 
 **用法示例:**
 ```csharp
-ulong handleValue = TimelineEventHandle_t.ulong(existingHandle);
+ulong handleValue = (ulong)existingTimelineEventHandle;
 ```
 
 ### Equals

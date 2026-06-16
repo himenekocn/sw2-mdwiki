@@ -2,7 +2,7 @@
 
 # 🔌 IGameEventAccessor
 
-一个用于访问原生 IGameEvent 的通用访问器。
+对原生IGameEvent的通用访问器。
 
 **命名空间:** `SwiftlyS2.Shared.GameEvents`
 
@@ -14,7 +14,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `DontBroadcast` | `bool` | get, set | 当为 true 时，事件将不会向客户端广播。 |
+| `DontBroadcast` | `bool` | get, set | 当此值为真时，事件将不会广播给客户端。 |
 
 ## ⚙️ 方法
 
@@ -24,7 +24,7 @@
 void SetBool(string key, bool value)
 ```
 
-设置事件负载中的布尔字段。
+在事件负载上设置一个布尔字段。
 
 **参数:**
 
@@ -42,7 +42,7 @@ gameEventAccessor.SetBool("is_active", true);
 bool GetBool(string key)
 ```
 
-从事件负载中获取布尔字段。
+从事件负载中获取一个布尔字段。
 
 **参数:**
 
@@ -52,7 +52,7 @@ bool GetBool(string key)
 
 **用法示例:**
 ```csharp
-bool isActive = eventAccessor.GetBool("is_active");
+bool value = eventAccessor.GetBool("is_active");
 ```
 
 ### SetInt32
@@ -61,7 +61,7 @@ bool isActive = eventAccessor.GetBool("is_active");
 void SetInt32(string key, int value)
 ```
 
-在事件载荷上设置一个整型字段。
+在事件负载上设置一个整数字段。
 
 **参数:**
 
@@ -79,7 +79,7 @@ eventAccessor.SetInt32("score", 100);
 int GetInt32(string key)
 ```
 
-从事件负载中获取整数字段。
+从事件载荷中获取一个整数字段。
 
 **参数:**
 
@@ -89,7 +89,7 @@ int GetInt32(string key)
 
 **用法示例:**
 ```csharp
-int score = gameEventAccessor.GetInt32("score");
+int value = eventAccessor.GetInt32("userid");
 ```
 
 ### SetUInt64
@@ -98,16 +98,16 @@ int score = gameEventAccessor.GetInt32("score");
 void SetUInt64(string key, ulong value)
 ```
 
-设置事件负载中的无符号 64 位整数字段。
+在事件负载上设置一个无符号64位整数字段。
 
 **参数:**
 
 - `key` (`string`) - 字段名称。
-- `value` (`ulong`) - 无符号 64 位数值。
+- `value` (`ulong`) - 无符号64位值。
 
 **用法示例:**
 ```csharp
-accessor.SetUInt64("score", 1000UL);
+eventAccessor.SetUInt64("score", 1000UL);
 ```
 
 ### GetUInt64
@@ -116,17 +116,17 @@ accessor.SetUInt64("score", 1000UL);
 ulong GetUInt64(string key)
 ```
 
-从事件负载中获取一个无符号 64 位整数字段。
+从事件负载中获取一个无符号64位整数字段。
 
 **参数:**
 
 - `key` (`string`) - 字段名称。
 
-**返回值:** `ulong` - 无符号 64 位数值。
+**返回值:** `ulong` - 无符号64位值。
 
 **用法示例:**
 ```csharp
-ulong value = eventAccessor.GetUInt64("player_id");
+ulong value = gameEventAccessor.GetUInt64("entity_id");
 ```
 
 ### SetFloat
@@ -135,7 +135,7 @@ ulong value = eventAccessor.GetUInt64("player_id");
 void SetFloat(string key, float value)
 ```
 
-在事件负载上设置一个浮点数字段。
+在事件载荷上设置一个浮点数字段。
 
 **参数:**
 
@@ -144,7 +144,7 @@ void SetFloat(string key, float value)
 
 **用法示例:**
 ```csharp
-eventAccessor.SetFloat("damage", 12.5f);
+gameEventAccessor.SetFloat("damage", 95.5f);
 ```
 
 ### GetFloat
@@ -153,7 +153,7 @@ eventAccessor.SetFloat("damage", 12.5f);
 float GetFloat(string key)
 ```
 
-从事件载荷中获取浮点数字段。
+从事件负载中获取一个浮点数字段。
 
 **参数:**
 
@@ -172,7 +172,7 @@ float value = gameEventAccessor.GetFloat("damage");
 void SetString(string key, string value)
 ```
 
-在事件负载中设置字符串字段。
+在事件负载上设置一个字符串字段。
 
 **参数:**
 
@@ -181,7 +181,7 @@ void SetString(string key, string value)
 
 **用法示例:**
 ```csharp
-gameEventAccessor.SetString("reason", "player_disconnect");
+eventAccessor.SetString("reason", "player_disconnect");
 ```
 
 ### GetString
@@ -200,7 +200,7 @@ string GetString(string key)
 
 **用法示例:**
 ```csharp
-string value = eventAccessor.GetString("message");
+string value = gameEventAccessor.GetString("player_name");
 ```
 
 ### SetEntity<K>
@@ -209,7 +209,7 @@ string value = eventAccessor.GetString("message");
 void SetEntity<K>(string key, K value)
 ```
 
-在事件负载中设置实体引用。
+在事件负载上设置一个实体引用。
 
 **参数:**
 
@@ -218,7 +218,7 @@ void SetEntity<K>(string key, K value)
 
 **用法示例:**
 ```csharp
-gameEventAccessor.SetEntity("attacker", player);
+eventAccessor.SetEntity("attacker", player);
 ```
 
 ### GetEntity<K>
@@ -227,7 +227,7 @@ gameEventAccessor.SetEntity("attacker", player);
 K GetEntity<K>(string key)
 ```
 
-从事件负载中获取实体引用。
+从事件负载中获取一个实体引用。
 
 **参数:**
 
@@ -237,7 +237,7 @@ K GetEntity<K>(string key)
 
 **用法示例:**
 ```csharp
-var player = gameEventAccessor.GetEntity<CCSPlayerController>("userid");
+var entity = eventAccessor.GetEntity<CBasePlayer>("userid");
 ```
 
 ### SetEntityIndex
@@ -246,7 +246,7 @@ var player = gameEventAccessor.GetEntity<CCSPlayerController>("userid");
 void SetEntityIndex(string key, int value)
 ```
 
-在事件负载中设置实体索引字段。
+在事件载荷上设置一个实体索引字段。
 
 **参数:**
 
@@ -255,7 +255,7 @@ void SetEntityIndex(string key, int value)
 
 **用法示例:**
 ```csharp
-gameEventAccessor.SetEntityIndex("userid", 5);
+eventAccessor.SetEntityIndex("userid", 1);
 ```
 
 ### GetEntityIndex
@@ -264,7 +264,7 @@ gameEventAccessor.SetEntityIndex("userid", 5);
 int GetEntityIndex(string key)
 ```
 
-从事件载荷中获取实体索引字段。
+从事件负载中获取实体索引字段。
 
 **参数:**
 
@@ -274,7 +274,7 @@ int GetEntityIndex(string key)
 
 **用法示例:**
 ```csharp
-int entityIndex = gameEventAccessor.GetEntityIndex("userid");
+int index = eventAccessor.GetEntityIndex("userid");
 ```
 
 ### SetPlayerSlot
@@ -283,7 +283,7 @@ int entityIndex = gameEventAccessor.GetEntityIndex("userid");
 void SetPlayerSlot(string key, int value)
 ```
 
-在事件负载中设置玩家槽位字段。
+在事件负载上设置一个玩家槽位字段。
 
 **参数:**
 
@@ -292,7 +292,7 @@ void SetPlayerSlot(string key, int value)
 
 **用法示例:**
 ```csharp
-gameEventAccessor.SetPlayerSlot("userid", 5);
+eventAccessor.SetPlayerSlot("player", 1);
 ```
 
 ### GetPlayerSlot
@@ -301,7 +301,7 @@ gameEventAccessor.SetPlayerSlot("userid", 5);
 int GetPlayerSlot(string key)
 ```
 
-从事件负载中获取玩家槽字段。
+从事件负载中获取玩家槽位字段。
 
 **参数:**
 
@@ -311,7 +311,7 @@ int GetPlayerSlot(string key)
 
 **用法示例:**
 ```csharp
-int slot = accessor.GetPlayerSlot("userid");
+int slot = eventAccessor.GetPlayerSlot("userid");
 ```
 
 ### GetPlayerController
@@ -320,7 +320,7 @@ int slot = accessor.GetPlayerSlot("userid");
 CCSPlayerController GetPlayerController(string key)
 ```
 
-获取由给定字段引用的玩家控制器。
+获取指定字段引用的玩家控制器。
 
 **参数:**
 
@@ -330,7 +330,7 @@ CCSPlayerController GetPlayerController(string key)
 
 **用法示例:**
 ```csharp
-var controller = accessor.GetPlayerController("Player1");
+var player = gameEventAccessor.GetPlayerController("userid");
 ```
 
 ### GetPlayerPawn
@@ -339,17 +339,17 @@ var controller = accessor.GetPlayerController("Player1");
 CCSPlayerPawn GetPlayerPawn(string key)
 ```
 
-获取由给定字段引用的玩家Pawn。
+获取指定字段引用的玩家Pawn。
 
 **参数:**
 
 - `key` (`string`) - 字段名称。
 
-**返回值:** `CCSPlayerPawn` - 玩家模型。
+**返回值:** `CCSPlayerPawn` - 玩家棋子。
 
 **用法示例:**
 ```csharp
-CCSPlayerPawn pawn = gameEventAccessor.GetPlayerPawn("userid");
+var pawn = gameEventAccessor.GetPlayerPawn("userid");
 ```
 
 ### GetPlayer
@@ -364,11 +364,11 @@ IPlayer? GetPlayer(string key)
 
 - `key` (`string`) - 字段名称。
 
-**返回值:** `IPlayer?` - 玩家。
+**返回值:** `IPlayer?` - 玩家.
 
 **用法示例:**
 ```csharp
-IPlayer? player = accessor.GetPlayer("userid");
+IPlayer? player = eventAccessor.GetPlayer("userid");
 ```
 
 ### SetPtr
@@ -377,7 +377,7 @@ IPlayer? player = accessor.GetPlayer("userid");
 void SetPtr(string key, nint value)
 ```
 
-在事件负载中设置原始指针值。
+在事件负载上设置一个原始指针值。
 
 **参数:**
 
@@ -386,7 +386,7 @@ void SetPtr(string key, nint value)
 
 **用法示例:**
 ```csharp
-accessor.SetPtr("entity_ptr", entityHandle);
+gameEventAccessor.SetPtr("player_ptr", player.Handle);
 ```
 
 ### GetPtr
@@ -395,7 +395,7 @@ accessor.SetPtr("entity_ptr", entityHandle);
 nint GetPtr(string key)
 ```
 
-从事件载荷中获取原始指针值。
+从事件负载中获取原始指针值。
 
 **参数:**
 
@@ -405,7 +405,7 @@ nint GetPtr(string key)
 
 **用法示例:**
 ```csharp
-nint ptr = eventAccessor.GetPtr("entity_pointer");
+nint ptr = gameEventAccessor.GetPtr("entity_ptr");
 ```
 
 ### GetPawnEntityIndex
@@ -420,11 +420,11 @@ int GetPawnEntityIndex(string key)
 
 - `key` (`string`) - 字段名称。
 
-**返回值:** `int` - Pawn 实体索引。
+**返回值:** `int` - 棋子实体索引
 
 **用法示例:**
 ```csharp
-int pawnIndex = gameEventAccessor.GetPawnEntityIndex("player_pawn");
+int pawnIndex = gameEventAccessor.GetPawnEntityIndex("player");
 ```
 
 ### IsReliable
@@ -433,13 +433,13 @@ int pawnIndex = gameEventAccessor.GetPawnEntityIndex("player_pawn");
 bool IsReliable()
 ```
 
-指示该事件是否被标记为可靠。
+指示事件是否被标记为可靠。
 
-**返回值:** `bool` - 若为可靠数据则为真。
+**返回值:** `bool` - 如果可靠则为真。
 
 **用法示例:**
 ```csharp
-bool isReliable = gameEventAccessor.IsReliable();
+bool isReliable = eventAccessor.IsReliable();
 ```
 
 ### IsLocal
@@ -448,12 +448,12 @@ bool isReliable = gameEventAccessor.IsReliable();
 bool IsLocal()
 ```
 
-指示该事件是否仅针对此服务器/客户端。
+指示事件是否局限于当前服务器/客户端。
 
-**返回值:** `bool` - 当为本地时返回 true。
+**返回值:** `bool` - 如果本地则为真。
 
 **用法示例:**
 ```csharp
-bool isLocal = gameEventAccessor.IsLocal();
+bool isLocal = eventAccessor.IsLocal();
 ```
 

@@ -60,7 +60,7 @@ operator uint(HSteamNetPollGroup that)
 
 **用法示例:**
 ```csharp
-uint pollGroupValue = HSteamNetPollGroup.uint(existingPollGroup);
+uint handle = (uint)pollGroup;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(HSteamNetPollGroup other)
 
 **用法示例:**
 ```csharp
-int result = existingPollGroup.CompareTo(otherPollGroup);
+int result = pollGroup.CompareTo(otherPollGroup);
 ```
 

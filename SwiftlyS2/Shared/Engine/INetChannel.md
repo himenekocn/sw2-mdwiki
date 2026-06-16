@@ -32,7 +32,7 @@ void SetMinDataRate(int rate)
 
 **用法示例:**
 ```csharp
-netChannel.SetMinDataRate(64);
+netChannel.SetMinDataRate(100);
 ```
 
 ### SetMaxDataRate
@@ -47,7 +47,7 @@ void SetMaxDataRate(int rate)
 
 **用法示例:**
 ```csharp
-channel.SetMaxDataRate(1024);
+netChannel.SetMaxDataRate(1024);
 ```
 
 ### SetTimeout
@@ -63,7 +63,7 @@ void SetTimeout(float seconds, bool forceExact = false)
 
 **用法示例:**
 ```csharp
-netChannel.SetTimeout(30.5f, true);
+netChannel.SetTimeout(30.0f, true);
 ```
 
 ### SuppressTransmit

@@ -14,17 +14,17 @@
 HookResult ServerNetMessageHandler<T>(T msg)
 ```
 
-用于处理从服务器发送到客户端的网络消息的处理程序。
+用于处理从服务器发送到客户端的网络消息的处理器。
 
 **参数:**
 
-- `msg` (`T`) - 待处理的网络消息。
+- `msg` (`T`) - 要处理的网络消息。
 
-**返回值:** `HookResult` - 钩子返回值。
+**返回值:** `HookResult` - Hook 结果。
 
 **用法示例:**
 ```csharp
-var result = netMessageService.ServerNetMessageHandler<MyMessageType>(message);
+var result = netMessageService.ServerNetMessageHandler<MyMessageType>(msg);
 ```
 
 ### ServerNetMessageInternalHandler<T>
@@ -33,14 +33,14 @@ var result = netMessageService.ServerNetMessageHandler<MyMessageType>(message);
 HookResult ServerNetMessageInternalHandler<T>(T msg, int playerId)
 ```
 
-用于处理从服务器发送到客户端的网络消息的处理程序。
+用于处理从服务器发送到客户端的网络消息的处理器。
 
 **参数:**
 
-- `msg` (`T`) - 待处理的网络消息。
+- `msg` (`T`) - 要处理的网络消息。
 - `playerId` (`int`) - 网络消息的接收者过滤器。
 
-**返回值:** `HookResult` - 钩子返回值。
+**返回值:** `HookResult` - Hook 结果。
 
 **用法示例:**
 ```csharp
@@ -53,18 +53,18 @@ var result = netMessageService.ServerNetMessageInternalHandler(msg, playerId);
 HookResult ClientNetMessageHandler<T>(T msg, int playerId)
 ```
 
-用于处理从客户端发送至服务器的网络消息的处理程序。
+用于处理从客户端发送到服务器的网络消息的处理器。
 
 **参数:**
 
-- `msg` (`T`) - 待处理的网络消息。
-- `playerId` (`int`) - 发送该网络消息的客户端的玩家 ID。
+- `msg` (`T`) - 要处理的网络消息。
+- `playerId` (`int`) - 发送网络消息的客户端的玩家ID。
 
-**返回值:** `HookResult` - 钩子返回值。
+**返回值:** `HookResult` - Hook 结果。
 
 **用法示例:**
 ```csharp
-var result = netMessageService.ClientNetMessageHandler(myMessage, playerId);
+var result = netMessageService.ClientNetMessageHandler<MyMessage>(msg, playerId);
 ```
 
 ### HookClientMessage<T>
@@ -73,17 +73,17 @@ var result = netMessageService.ClientNetMessageHandler(myMessage, playerId);
 Guid HookClientMessage<T>(ClientNetMessageHandler<T> callback)
 ```
 
-挂钩客户端网络消息。
+Hook 一个客户端网络消息。
 
 **参数:**
 
-- `callback` (`ClientNetMessageHandler\<T\>`) - 处理网络消息的回调。
+- `callback` (`ClientNetMessageHandler\<T\>`) - 用于处理网络消息的回调。
 
-**返回值:** `Guid` - 处理程序的唯一 Guid。后续可用于取消挂钩。
+**返回值:** `Guid` - 该处理程序的唯一Guid。可用于稍后取消挂接。
 
 **用法示例:**
 ```csharp
-Guid hookId = netMessageService.HookClientMessage<MyNetMessage>(OnClientMessageReceived);
+var hookId = netMessageService.HookClientMessage<MyMessage>(OnMyMessageReceived);
 ```
 
 ### HookServerMessage<T>
@@ -92,17 +92,17 @@ Guid hookId = netMessageService.HookClientMessage<MyNetMessage>(OnClientMessageR
 Guid HookServerMessage<T>(ServerNetMessageHandler<T> callback)
 ```
 
-挂钩服务器网络消息。
+钩取服务器网络消息。
 
 **参数:**
 
-- `callback` (`ServerNetMessageHandler\<T\>`) - 处理网络消息的回调。
+- `callback` (`ServerNetMessageHandler\<T\>`) - 用于处理网络消息的回调。
 
-**返回值:** `Guid` - 处理程序的唯一 Guid。后续可用于取消挂钩。
+**返回值:** `Guid` - 该处理程序的唯一Guid。可用于稍后取消挂接。
 
 **用法示例:**
 ```csharp
-var hookId = netMessageService.HookServerMessage<MyMessageType>(OnServerMessageReceived);
+Guid hookId = netMessageService.HookServerMessage<MyMessageType>(OnMessageReceived);
 ```
 
 ### HookServerMessageInternal<T>
@@ -111,7 +111,7 @@ var hookId = netMessageService.HookServerMessage<MyMessageType>(OnServerMessageR
 Guid HookServerMessageInternal<T>(ServerNetMessageInternalHandler<T> callback)
 ```
 
-在内部挂钩客户端网络消息。
+内部挂钩客户端网络消息。
 
 **参数:**
 
@@ -130,15 +130,15 @@ var hookId = netMessageService.HookServerMessageInternal<MyMessageType>(OnMessag
 void Unhook(Guid guid)
 ```
 
-解除对网络消息处理程序的挂钩。
+取消挂钩网络消息处理器。
 
 **参数:**
 
-- `guid` (`Guid`) - 处理程序的唯一 GUID。
+- `guid` (`Guid`) - 处理程序的唯一GUID。
 
 **用法示例:**
 ```csharp
-netMessageService.Unhook(guid);
+messageService.Unhook(messageGuid);
 ```
 
 ### UnhookClientMessage<T>
@@ -147,11 +147,11 @@ netMessageService.Unhook(guid);
 void UnhookClientMessage<T>()
 ```
 
-移除所有指定类型的客户端网络消息处理器。
+使用指定类型卸载所有客户端网络消息处理程序。
 
 **用法示例:**
 ```csharp
-messageService.UnhookClientMessage<PlayerChatMessage>();
+netMessageService.UnhookClientMessage<PlayerChatMessage>();
 ```
 
 ### UnhookServerMessage<T>
@@ -160,11 +160,11 @@ messageService.UnhookClientMessage<PlayerChatMessage>();
 void UnhookServerMessage<T>()
 ```
 
-解绑所有具有指定类型的服务器网络消息处理程序。
+移除指定类型的所有服务器网络消息处理器。
 
 **用法示例:**
 ```csharp
-netMessageService.UnhookServerMessage<MyMessageType>();
+messageService.UnhookServerMessage<PlayerConnectEvent>();
 ```
 
 ### UnhookServerMessageInternal<T>
@@ -173,11 +173,11 @@ netMessageService.UnhookServerMessage<MyMessageType>();
 void UnhookServerMessageInternal<T>()
 ```
 
-取消注册所有指定类型的内部服务器网络消息处理器。
+使用指定类型取消挂钩所有内部服务器网络消息处理程序。
 
 **用法示例:**
 ```csharp
-messageService.UnhookServerMessageInternal<MyMessageType>();
+netMessageService.UnhookServerMessageInternal<MyMessageType>();
 ```
 
 ### Create<T>
@@ -186,7 +186,7 @@ messageService.UnhookServerMessageInternal<MyMessageType>();
 T Create<T>()
 ```
 
-创建一个指定类型的新网络消息。
+创建指定类型的新网络消息。
 
 **返回值:** `T` - 新的网络消息。
 
@@ -201,14 +201,14 @@ var message = netMessageService.Create<LoginRequest>();
 void Send<T>(Action<T> configureMessage)
 ```
 
-向具有已配置接收者过滤器的玩家发送网络消息。
+向配置了接收者过滤器的玩家发送网络消息。
 
 **参数:**
 
-- `configureMessage` (`Action\<T\>`) - 配置网络消息和接收者过滤器的操作。
+- `configureMessage` (`Action\<T\>`) - 配置网络消息和接收方筛选器的操作。
 
 **用法示例:**
 ```csharp
-NetMessageService.Send<PlayerChatMessage>(msg => { msg.Text = "Hello"; msg.RecipientFilter = PlayerManager.All; });
+netMessageService.Send<PlayerMessage>(msg => msg.Text = "Hello");
 ```
 

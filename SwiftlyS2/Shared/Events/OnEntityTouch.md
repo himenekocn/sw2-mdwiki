@@ -2,7 +2,7 @@
 
 # 🔗 OnEntityTouch
 
-当实体与另一实体接触时调用。
+当实体与另一个实体接触时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

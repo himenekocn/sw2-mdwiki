@@ -42,7 +42,7 @@ float GetAvgLoss(NetworkFlow flow)
 
 **用法示例:**
 ```csharp
-float avgLoss = netChannelInfo.GetAvgLoss(NetworkFlow.Value);
+float avgLoss = netChannelInfo.GetAvgLoss(NetworkFlow.Outgoing);
 ```
 
 ### GetAvgChoke
@@ -59,7 +59,7 @@ float GetAvgChoke(NetworkFlow flow)
 
 **用法示例:**
 ```csharp
-float avgChoke = netChannelInfo.GetAvgChoke(NetworkFlow.In);
+float avgChoke = netChannelInfo.GetAvgChoke(NetworkFlow.Value);
 ```
 
 ### GetAvgData
@@ -76,7 +76,7 @@ float GetAvgData(NetworkFlow flow)
 
 **用法示例:**
 ```csharp
-float avg = netChannelInfo.GetAvgData(NetworkFlow.Value);
+float avgData = netChannelInfo.GetAvgData(NetworkFlow.Value);
 ```
 
 ### GetAvgPacketBytes
@@ -110,7 +110,7 @@ float GetAvgPackets(NetworkFlow flow)
 
 **用法示例:**
 ```csharp
-float avg = netChannelInfo.GetAvgPackets(NetworkFlow.Value);
+float avgPackets = netChannelInfo.GetAvgPackets(NetworkFlow.Incoming);
 ```
 
 ### GetTotalData
@@ -127,7 +127,7 @@ ulong GetTotalData(NetworkFlow flow)
 
 **用法示例:**
 ```csharp
-ulong total = netChannelInfo.GetTotalData(NetworkFlow.Value);
+ulong totalData = netChannelInfo.GetTotalData(NetworkFlow.Value);
 ```
 
 ### GetTotalPackets
@@ -144,7 +144,7 @@ int GetTotalPackets(NetworkFlow flow)
 
 **用法示例:**
 ```csharp
-int count = netChannelInfo.GetTotalPackets(NetworkFlow.Value);
+int totalPackets = netChannelInfo.GetTotalPackets(NetworkFlow.Incoming);
 ```
 
 ### GetSequenceNr
@@ -161,7 +161,7 @@ int GetSequenceNr(NetworkFlow flow)
 
 **用法示例:**
 ```csharp
-var seq = netChannelInfo.GetSequenceNr(NetworkFlow.Outgoing);
+int seqNr = netChannelInfo.GetSequenceNr(NetworkFlow.Outgoing);
 ```
 
 ### SetInterpolationAmount
@@ -177,7 +177,7 @@ void SetInterpolationAmount(float InterpolationAmount, float UpdateRate)
 
 **用法示例:**
 ```csharp
-netChannelInfo.SetInterpolationAmount(0.1f, 66.0f);
+netChannel.SetInterpolationAmount(0.1f, 64.0f);
 ```
 
 ### SetNumPredictionErrors
@@ -192,7 +192,7 @@ void SetNumPredictionErrors(int num)
 
 **用法示例:**
 ```csharp
-channel.SetNumPredictionErrors(5);
+netChannelInfo.SetNumPredictionErrors(5);
 ```
 
 ### SetShowNetMessages

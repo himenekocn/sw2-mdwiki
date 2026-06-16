@@ -24,7 +24,7 @@ IntPtr OnConnectRequest(HSteamNetConnection hConn, ref SteamNetworkingIdentity i
 
 **用法示例:**
 ```csharp
-var result = signalingContext.OnConnectRequest(connection, ref peerIdentity, localPort);
+var result = signalingContext.OnConnectRequest(connectionHandle, ref peerIdentity, localPort);
 ```
 
 ### SendRejectionSignal
@@ -41,6 +41,6 @@ void SendRejectionSignal(ref SteamNetworkingIdentity identityPeer, IntPtr pMsg, 
 
 **用法示例:**
 ```csharp
-signalingContext.SendRejectionSignal(ref peerIdentity, messagePtr, messageSize);
+recvContext.SendRejectionSignal(ref identityPeer, pMsgBuffer, msgSize);
 ```
 

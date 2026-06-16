@@ -60,7 +60,7 @@ operator ulong(InputActionSetHandle_t that)
 
 **用法示例:**
 ```csharp
-ulong handleValue = InputActionSetHandle_t.operator ulong(existingHandle);
+ulong handleValue = (ulong)inputActionSetHandle;
 ```
 
 ### Equals

@@ -14,7 +14,7 @@
 HTTPRequestHandle CreateHTTPRequest(EHTTPMethod eHTTPRequestMethod, string pchAbsoluteURL)
 ```
 
-<para>初始化一个新的 HTTP 请求，返回一个句柄以用于后续的对该请求的操作。需要指定请求方法（GET 或 POST）以及请求的绝对 URL。支持 http 和 https 协议，因此该字符串必须以 http://或 https://开头，格式应类似于 http://store.steampowered.com/app/250/等。</para>
+<para> 初始化一个新的HTTP请求，返回一个句柄用于后续操作。需要</para> <para> 指定请求方法（GET或POST）以及绝对URL。支持http和https协议，</para> <para> 因此该字符串必须以http://或https://开头，格式如http://store.steampowered.com/app/250/</para> <para> 或类似形式。</para>
 
 **参数:**
 
@@ -25,7 +25,7 @@ HTTPRequestHandle CreateHTTPRequest(EHTTPMethod eHTTPRequestMethod, string pchAb
 
 **用法示例:**
 ```csharp
-HTTPRequestHandle request = SteamGameServerHTTP.CreateHTTPRequest(EHTTPMethod.GET, "https://store.steampowered.com/app/250/");
+var requestHandle = SteamGameServerHTTP.CreateHTTPRequest(EHTTPMethod.k_EHTTPMethodGET, "https://api.steampowered.com/ISteamWebAPIUtil/GetServerInfo/v0001/");
 ```
 
 ### SetHTTPRequestContextValue (静态)
@@ -34,7 +34,7 @@ HTTPRequestHandle request = SteamGameServerHTTP.CreateHTTPRequest(EHTTPMethod.GE
 bool SetHTTPRequestContextValue(HTTPRequestHandle hRequest, ulong ulContextValue)
 ```
 
-<para>为请求设置上下文值，该值将在发送请求后随 HTTPRequestCompleted_t 回调返回。</para><para>此功能仅用于使调用方能轻松追踪回调与对应请求数据的关联关系。</para>
+<para> 为请求设置一个上下文值，该值将在发送请求后的 HTTPRequestCompleted_t 回调中返回。</para> <para> 这仅用于让调用方能够轻松追踪哪些回调对应哪些请求数据。</para>
 
 **参数:**
 
@@ -45,7 +45,7 @@ bool SetHTTPRequestContextValue(HTTPRequestHandle hRequest, ulong ulContextValue
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.SetHTTPRequestContextValue(requestHandle, 12345UL);
+SteamGameServerHTTP.SetHTTPRequestContextValue(hRequest, 12345UL);
 ```
 
 ### SetHTTPRequestNetworkActivityTimeout (静态)
@@ -54,7 +54,7 @@ bool ok = SteamGameServerHTTP.SetHTTPRequestContextValue(requestHandle, 12345UL)
 bool SetHTTPRequestNetworkActivityTimeout(HTTPRequestHandle hRequest, uint unTimeoutSeconds)
 ```
 
-<para>设置 HTTP 请求的超时时间（单位：秒），必须在发送请求之前调用。若未调用此方法，默认超时时间为 60 秒。如果句柄无效或请求已发送，则返回 false。</para>
+<para> 为HTTP请求设置超时时间（秒），必须在发送请求前调用。默认</para> <para> 超时时间为60秒（若不调用此方法）。若句柄无效或请求</para> <para> 已发送，则返回false。</para>
 
 **参数:**
 
@@ -65,7 +65,7 @@ bool SetHTTPRequestNetworkActivityTimeout(HTTPRequestHandle hRequest, uint unTim
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.SetHTTPRequestNetworkActivityTimeout(hRequest, 10u);
+SteamGameServerHTTP.SetHTTPRequestNetworkActivityTimeout(requestHandle, 30);
 ```
 
 ### SetHTTPRequestHeaderValue (静态)
@@ -74,7 +74,7 @@ bool ok = SteamGameServerHTTP.SetHTTPRequestNetworkActivityTimeout(hRequest, 10u
 bool SetHTTPRequestHeaderValue(HTTPRequestHandle hRequest, string pchHeaderName, string pchHeaderValue)
 ```
 
-<para>为请求设置请求头值，必须在发送请求之前调用。如果句柄无效或请求已发送，则返回 false。</para>
+<para> 为请求设置请求头值，必须在发送请求前调用。若句柄无效或请求已发送，</para> <para> 将返回 false。</para>
 
 **参数:**
 
@@ -86,7 +86,7 @@ bool SetHTTPRequestHeaderValue(HTTPRequestHandle hRequest, string pchHeaderName,
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.SetHTTPRequestHeaderValue(requestHandle, "Content-Type", "application/json");
+SteamGameServerHTTP.SetHTTPRequestHeaderValue(requestHandle, "Authorization", "Bearer token123");
 ```
 
 ### SetHTTPRequestGetOrPostParameter (静态)
@@ -95,7 +95,8 @@ bool ok = SteamGameServerHTTP.SetHTTPRequestHeaderValue(requestHandle, "Content-
 bool SetHTTPRequestGetOrPostParameter(HTTPRequestHandle hRequest, string pchParamName, string pchParamValue)
 ```
 
-<para>设置请求的 GET 或 POST 参数值，具体取决于创建请求时指定的 EHTTPMethod。必须在发送请求之前调用此方法。如果句柄无效或请求已发送，则返回 false。</para>
+<para> 在请求上设置一个GET或POST参数值，具体设置哪个取决于创建请求时指定的EHTTPMethod。</para>
+<para> 必须在发送请求前调用。如果句柄无效或请求已发送，将返回false。</para>
 
 **参数:**
 
@@ -107,7 +108,7 @@ bool SetHTTPRequestGetOrPostParameter(HTTPRequestHandle hRequest, string pchPara
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.SetHTTPRequestGetOrPostParameter(requestHandle, "appid", "480");
+bool success = SteamGameServerHTTP.SetHTTPRequestGetOrPostParameter(hRequest, "key", "value");
 ```
 
 ### SendHTTPRequest (静态)
@@ -116,7 +117,10 @@ bool ok = SteamGameServerHTTP.SetHTTPRequestGetOrPostParameter(requestHandle, "a
 bool SendHTTPRequest(HTTPRequestHandle hRequest, out SteamAPICall_t pCallHandle)
 ```
 
-<para>发送 HTTP 请求；若句柄无效则返回 false，否则请使用 SteamCallHandle 通过回调等待异步响应。</para><para>注意：如果用户处于 Steam 离线模式，则此操作将添加仅缓存的 Cache-Control 头，并仅执行本地缓存查找，而不会发送任何实际的网络请求。</para>
+<para> 发送HTTP请求，若处理句柄无效则返回false，否则使用SteamCallHandle等待</para>
+<para> 通过回调获取异步响应。</para>
+<para> 注意：若用户Steam处于离线模式，则此操作将添加仅缓存缓存控制</para>
+<para> 标头，仅执行本地缓存查找而不发送任何实际远程请求。</para>
 
 **参数:**
 
@@ -128,7 +132,7 @@ bool SendHTTPRequest(HTTPRequestHandle hRequest, out SteamAPICall_t pCallHandle)
 **用法示例:**
 ```csharp
 SteamAPICall_t callHandle;
-bool ok = SteamGameServerHTTP.SendHTTPRequest(hRequest, out callHandle);
+bool success = SteamGameServerHTTP.SendHTTPRequest(hRequest, out callHandle);
 ```
 
 ### SendHTTPRequestAndStreamResponse (静态)
@@ -137,7 +141,7 @@ bool ok = SteamGameServerHTTP.SendHTTPRequest(hRequest, out callHandle);
 bool SendHTTPRequestAndStreamResponse(HTTPRequestHandle hRequest, out SteamAPICall_t pCallHandle)
 ```
 
-发送 HTTP 请求；句柄无效时返回 false，否则请使用 SteamCallHandle 等待。通过回调异步响应完成状态，并在流式传输期间监听 HTTPRequestHeadersReceived_t 和 HTTPRequestDataReceived_t 回调。
+<para> 发送HTTP请求，若句柄无效则返回false，否则使用SteamCallHandle等待</para> <para> 通过回调获取异步响应以完成操作，并在流式传输期间监听</para> <para> HTTPRequestHeadersReceived_t和HTTPRequestDataReceived_t回调。</para>
 
 **参数:**
 
@@ -148,7 +152,7 @@ bool SendHTTPRequestAndStreamResponse(HTTPRequestHandle hRequest, out SteamAPICa
 
 **用法示例:**
 ```csharp
-SteamAPICall_t callHandle; bool ok = SteamGameServerHTTP.SendHTTPRequestAndStreamResponse(reqHandle, out callHandle);
+SteamAPICall_t callHandle; bool success = SteamGameServerHTTP.SendHTTPRequestAndStreamResponse(hRequest, out callHandle);
 ```
 
 ### DeferHTTPRequest (静态)
@@ -157,7 +161,7 @@ SteamAPICall_t callHandle; bool ok = SteamGameServerHTTP.SendHTTPRequestAndStrea
 bool DeferHTTPRequest(HTTPRequestHandle hRequest)
 ```
 
-<para>延迟您已发送的请求。实际的 HTTP 客户端代码中可能存在多个排队请求，此操作会将指定请求移至队列末尾。若句柄无效或请求尚未发送，则返回 false。</para>
+<para> 延迟您已发送的请求，实际的 HTTP 客户端代码可能有许多请求在队列中等待，此操作会将</para> <para> 指定的请求移至队列尾部。若句柄无效或请求尚未发送，则返回 false。</para>
 
 **参数:**
 
@@ -167,7 +171,7 @@ bool DeferHTTPRequest(HTTPRequestHandle hRequest)
 
 **用法示例:**
 ```csharp
-bool deferred = SteamGameServerHTTP.DeferHTTPRequest(hRequest);
+bool result = SteamGameServerHTTP.DeferHTTPRequest(requestHandle);
 ```
 
 ### PrioritizeHTTPRequest (静态)
@@ -176,7 +180,7 @@ bool deferred = SteamGameServerHTTP.DeferHTTPRequest(hRequest);
 bool PrioritizeHTTPRequest(HTTPRequestHandle hRequest)
 ```
 
-优先处理您已发送的请求。实际的 HTTP 客户端代码中可能已有多个请求排队，此操作会将指定的请求移至队列头部。若句柄无效或请求尚未发送，则返回 false。
+<para> 优先处理您已发送的请求，实际HTTP客户端代码中可能有许多请求在队列中等待，此操作将</para> <para> 将指定请求移至队列头部。若句柄无效或请求尚未发送，则返回false。</para>
 
 **参数:**
 
@@ -186,7 +190,7 @@ bool PrioritizeHTTPRequest(HTTPRequestHandle hRequest)
 
 **用法示例:**
 ```csharp
-bool prioritized = SteamGameServerHTTP.PrioritizeHTTPRequest(requestHandle);
+bool result = SteamGameServerHTTP.PrioritizeHTTPRequest(existingRequestHandle);
 ```
 
 ### GetHTTPResponseHeaderSize (静态)
@@ -195,7 +199,7 @@ bool prioritized = SteamGameServerHTTP.PrioritizeHTTPRequest(requestHandle);
 bool GetHTTPResponseHeaderSize(HTTPRequestHandle hRequest, string pchHeaderName, out uint unResponseHeaderSize)
 ```
 
-<para>检查给定自 HTTPRequestCompleted_t 的句柄的 HTTP 响应中是否存在指定的响应头；若存在，同时返回该头值的大小，以便调用方分配正确大小的缓冲区以调用 GetHTTPResponseHeaderValue。</para>
+<para> 检查给定HTTPRequestCompleted_t句柄的HTTP响应中是否存在某个响应头，</para> <para> 如果存在则同时返回该头值的大小，以便调用方为GetHTTPResponseHeaderValue分配正确大小的缓冲区。</para>
 
 **参数:**
 
@@ -207,7 +211,7 @@ bool GetHTTPResponseHeaderSize(HTTPRequestHandle hRequest, string pchHeaderName,
 
 **用法示例:**
 ```csharp
-uint headerSize; bool hasHeader = SteamGameServerHTTP.GetHTTPResponseHeaderSize(requestHandle, "Content-Type", out headerSize);
+bool exists = SteamGameServerHTTP.GetHTTPResponseHeaderSize(requestHandle, "Content-Type", out uint size);
 ```
 
 ### GetHTTPResponseHeaderValue (静态)
@@ -216,7 +220,7 @@ uint headerSize; bool hasHeader = SteamGameServerHTTP.GetHTTPResponseHeaderSize(
 bool GetHTTPResponseHeaderValue(HTTPRequestHandle hRequest, string pchHeaderName, byte[] pHeaderValueBuffer, uint unBufferSize)
 ```
 
-<para>从 HTTP 响应中获取指定头部的值。该函数接受一个来自 HTTPRequestCompleted_t 的句柄，若请求的头部不存在或提供的缓冲区不足以容纳其值，则返回 false。您应首先调用 BGetHTTPResponseHeaderSize 以检查该头部是否存在并确定所需缓冲区的大小。</para>
+<para> 从HTTPRequestCompleted_t的句柄获取HTTP响应的标头值，若标头不存在或缓冲区过小无法容纳其值则返回false。应首先调用</para> <para> BGetHTTPResponseHeaderSize以检查标头是否存在并确定所需缓冲区大小。</para>
 
 **参数:**
 
@@ -229,8 +233,8 @@ bool GetHTTPResponseHeaderValue(HTTPRequestHandle hRequest, string pchHeaderName
 
 **用法示例:**
 ```csharp
-uint headerSize = 0; SteamGameServerHTTP.BGetHTTPResponseHeaderSize(hRequest, "Content-Type", ref headerSize);
-SteamGameServerHTTP.GetHTTPResponseHeaderValue(hRequest, "Content-Type", headerValueBuffer, headerSize);
+uint size = SteamGameServerHTTP.BGetHTTPResponseHeaderSize(hRequest, "Content-Type");
+byte[] buffer = new byte[size]; bool success = SteamGameServerHTTP.GetHTTPResponseHeaderValue(hRequest, "Content-Type", buffer, size);
 ```
 
 ### GetHTTPResponseBodySize (静态)
@@ -239,7 +243,7 @@ SteamGameServerHTTP.GetHTTPResponseHeaderValue(hRequest, "Content-Type", headerV
 bool GetHTTPResponseBodySize(HTTPRequestHandle hRequest, out uint unBodySize)
 ```
 
-从 HTTP 响应中获取主体数据的大小，该函数接受由 HTTPRequestCompleted_t 结构体提供的句柄；若句柄无效则返回 false。
+<para> 从HTTPRequestCompleted_t提供的句柄所对应的HTTP响应中获取主体数据的大小，如果句柄无效则返回false。</para>
 
 **参数:**
 
@@ -251,7 +255,7 @@ bool GetHTTPResponseBodySize(HTTPRequestHandle hRequest, out uint unBodySize)
 **用法示例:**
 ```csharp
 uint bodySize;
-bool ok = SteamGameServerHTTP.GetHTTPResponseBodySize(requestHandle, out bodySize);
+bool success = SteamGameServerHTTP.GetHTTPResponseBodySize(hRequest, out bodySize);
 ```
 
 ### GetHTTPResponseBodyData (静态)
@@ -260,7 +264,7 @@ bool ok = SteamGameServerHTTP.GetHTTPResponseBodySize(requestHandle, out bodySiz
 bool GetHTTPResponseBodyData(HTTPRequestHandle hRequest, byte[] pBodyDataBuffer, uint unBufferSize)
 ```
 
-从 HTTP 响应中获取 Body 数据，需提供来自 HTTPRequestCompleted_t 的句柄；若句柄无效、指向流式响应，或提供的缓冲区大小不正确，则返回 false。请先调用 BGetHTTPResponseBodySize 以确定应使用的正确缓冲区大小。
+<para> 从HTTPRequestCompleted_t提供的句柄对应的HTTP响应中获取主体数据，如果句柄无效、指向流式响应或提供的缓冲区大小不正确，则返回false。请先使用BGetHTTPResponseBodySize确定正确的缓冲区大小。</para>
 
 **参数:**
 
@@ -272,8 +276,8 @@ bool GetHTTPResponseBodyData(HTTPRequestHandle hRequest, byte[] pBodyDataBuffer,
 
 **用法示例:**
 ```csharp
-uint bodySize; SteamGameServerHTTP.BGetHTTPResponseBodySize(requestHandle, out bodySize);
-bool ok = SteamGameServerHTTP.GetHTTPResponseBodyData(requestHandle, bodyBuffer, bodySize);
+uint size = SteamGameServerHTTP.GetHTTPResponseBodySize(hRequest);
+byte[] buffer = new byte[size]; bool success = SteamGameServerHTTP.GetHTTPResponseBodyData(hRequest, buffer, size);
 ```
 
 ### GetHTTPStreamingResponseBodyData (静态)
@@ -282,7 +286,7 @@ bool ok = SteamGameServerHTTP.GetHTTPResponseBodyData(requestHandle, bodyBuffer,
 bool GetHTTPStreamingResponseBodyData(HTTPRequestHandle hRequest, uint cOffset, byte[] pBodyDataBuffer, uint unBufferSize)
 ```
 
-<para> 从给定 HTTPRequestDataReceived_t 句柄的流式 HTTP 响应中获取正文数据。若该句柄无效、指向非流式响应（即未通过 SendHTTPRequestAndStreamResponse 发送），或缓冲区大小和偏移量与 HTTPRequestDataReceived_t 中声明的大小及偏移量不匹配，则返回 false。</para>
+<para> 从给定的 HTTPRequestDataReceived_t 句柄的流式 HTTP 响应中获取主体数据。如果句柄无效、指向非流式响应（即未使用 SendHTTPRequestAndStreamResponse 发送），或者缓冲区大小和偏移量与 HTTPRequestDataReceived_t 中发送的大小和偏移量不匹配，将返回 false。</para>
 
 **参数:**
 
@@ -295,7 +299,7 @@ bool GetHTTPStreamingResponseBodyData(HTTPRequestHandle hRequest, uint cOffset, 
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.GetHTTPStreamingResponseBodyData(hRequest, 0u, bodyDataBuffer, (uint)bodyDataBuffer.Length);
+bool success = SteamGameServerHTTP.GetHTTPStreamingResponseBodyData(hRequest, 0, buffer, (uint)buffer.Length);
 ```
 
 ### ReleaseHTTPRequest (静态)
@@ -304,7 +308,7 @@ bool ok = SteamGameServerHTTP.GetHTTPStreamingResponseBodyData(hRequest, 0u, bod
 bool ReleaseHTTPRequest(HTTPRequestHandle hRequest)
 ```
 
-释放 HTTP 响应句柄；在接收到 HTTPRequestCompleted_t 回调并结束使用该响应后，应始终调用此方法以释放资源。
+<para> 释放HTTP响应句柄，在收到HTTPRequestCompleted_t</para> <para> 回调并完成响应使用后，应始终调用此函数以释放资源。</para>
 
 **参数:**
 
@@ -314,8 +318,7 @@ bool ReleaseHTTPRequest(HTTPRequestHandle hRequest)
 
 **用法示例:**
 ```csharp
-bool released = SteamGameServerHTTP.ReleaseHTTPRequest(hRequest);
-if (released) Console.WriteLine("HTTP request handle released.");
+SteamGameServerHTTP.ReleaseHTTPRequest(hRequest);
 ```
 
 ### GetHTTPDownloadProgressPct (静态)
@@ -324,7 +327,7 @@ if (released) Console.WriteLine("HTTP request handle released.");
 bool GetHTTPDownloadProgressPct(HTTPRequestHandle hRequest, out float pflPercentOut)
 ```
 
-获取请求主体的下载进度。除非已接收到包含 Content-Length 字段的响应头，否则此值将为零。对于不包含 Content-Length 字段的响应，在连接关闭前由于大小未知，该值将始终报告为零。
+<para> 获取请求正文的下载进度。除非已收到包含内容长度字段的响应头，否则此值将为零。</para> <para> 对于不包含内容长度的响应，在请求持续期间该值将报告为零，因为在连接关闭前大小未知。</para>
 
 **参数:**
 
@@ -335,8 +338,7 @@ bool GetHTTPDownloadProgressPct(HTTPRequestHandle hRequest, out float pflPercent
 
 **用法示例:**
 ```csharp
-float percent;
-bool ok = SteamGameServerHTTP.GetHTTPDownloadProgressPct(hRequest, out percent);
+bool success = SteamGameServerHTTP.GetHTTPDownloadProgressPct(hRequest, out float percent);
 ```
 
 ### SetHTTPRequestRawPostBody (静态)
@@ -345,7 +347,8 @@ bool ok = SteamGameServerHTTP.GetHTTPDownloadProgressPct(hRequest, out percent);
 bool SetHTTPRequestRawPostBody(HTTPRequestHandle hRequest, string pchContentType, byte[] pubBody, uint unBodyLen)
 ```
 
-设置 HTTP POST 请求的主体。在 GET 请求上执行此操作将失败并返回 false；若请求已设置过 POST 参数，此操作也将失败。设置此原始主体将使该主体成为 POST 的唯一内容；pchContentType 参数将设置请求的 Content-Type 头，以便服务器能够正确解析主体。
+<para> 设置HTTP POST请求的正文。对于GET请求将失败并返回false，如果该请求已设置POST参数也会失败。</para>
+<para> 设置此原始正文将使其成为POST的唯一内容，pchContentType参数将设置请求的Content-Type标头，以便服务器了解如何解释正文。</para>
 
 **参数:**
 
@@ -358,6 +361,7 @@ bool SetHTTPRequestRawPostBody(HTTPRequestHandle hRequest, string pchContentType
 
 **用法示例:**
 ```csharp
+var body = System.Text.Encoding.UTF8.GetBytes("{\"key\":\"value\"}");
 SteamGameServerHTTP.SetHTTPRequestRawPostBody(hRequest, "application/json", body, (uint)body.Length);
 ```
 
@@ -367,7 +371,7 @@ SteamGameServerHTTP.SetHTTPRequestRawPostBody(hRequest, "application/json", body
 HTTPCookieContainerHandle CreateCookieContainer(bool bAllowResponsesToModify)
 ```
 
-<para>创建一个 Cookie 容器句柄，后续需使用 ReleaseCookieContainer() 释放。若 bAllowResponsesToModify 为 true</para> <para>，则任何通过此 Cookie 容器发出的请求所接收到的响应均可添加新 Cookie，这些新 Cookie 将在后续请求中自动携带发送。若 bAllowResponsesToModify 为 false，则仅会发送您显式设置的 Cookie。本 API 仅适用于进程运行期间；Steam 重启后不会持久化保存任何 Cookie，且无法在进程的多次重复执行间访问同一 Cookie 容器。</para>
+<para> 创建一个Cookie容器句柄，之后必须通过ReleaseCookieContainer()释放。若bAllowResponsesToModify=true</para> <para> 则使用此Cookie容器的任何请求的响应都可能添加新Cookie，这些Cookie可能随</para> <para> 后续请求一起发送。若bAllowResponsesToModify=false，则仅会发送你显式设置的Cookie。此API仅适用于</para> <para> 进程生命周期内，Steam重启后不会持久化任何Cookie，你也无法在</para> <para> 进程重复执行期间访问该Cookie容器。</para>
 
 **参数:**
 
@@ -377,8 +381,7 @@ HTTPCookieContainerHandle CreateCookieContainer(bool bAllowResponsesToModify)
 
 **用法示例:**
 ```csharp
-var cookieContainer = SteamGameServerHTTP.CreateCookieContainer(true);
-SteamGameServerHTTP.ReleaseCookieContainer(cookieContainer);
+var cookieHandle = SteamGameServerHTTP.CreateCookieContainer(true);
 ```
 
 ### ReleaseCookieContainer (静态)
@@ -387,7 +390,7 @@ SteamGameServerHTTP.ReleaseCookieContainer(cookieContainer);
 bool ReleaseCookieContainer(HTTPCookieContainerHandle hCookieContainer)
 ```
 
-释放已使用完毕的 Cookie 容器，以释放其内存
+<para> 释放使用完毕的Cookie容器，释放其内存</para>
 
 **参数:**
 
@@ -397,7 +400,7 @@ bool ReleaseCookieContainer(HTTPCookieContainerHandle hCookieContainer)
 
 **用法示例:**
 ```csharp
-SteamGameServerHTTP.ReleaseCookieContainer(hCookieContainer);
+SteamGameServerHTTP.ReleaseCookieContainer(cookieHandle);
 ```
 
 ### SetCookie (静态)
@@ -406,7 +409,7 @@ SteamGameServerHTTP.ReleaseCookieContainer(hCookieContainer);
 bool SetCookie(HTTPCookieContainerHandle hCookieContainer, string pchHost, string pchUrl, string pchCookie)
 ```
 
-将 Cookie 添加到指定的 Cookie 容器，该容器将在后续请求中使用。
+<para> 向指定的Cookie容器中添加一个Cookie，该Cookie将在后续请求中使用。</para>
 
 **参数:**
 
@@ -419,7 +422,7 @@ bool SetCookie(HTTPCookieContainerHandle hCookieContainer, string pchHost, strin
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.SetCookie(cookieContainer, "example.com", "/login", "sessionid=abc123");
+SteamGameServerHTTP.SetCookie(HTTPCookieContainerHandle.Invalid, "example.com", "/api", "session=abc123");
 ```
 
 ### SetHTTPRequestCookieContainer (静态)
@@ -428,7 +431,7 @@ bool ok = SteamGameServerHTTP.SetCookie(cookieContainer, "example.com", "/login"
 bool SetHTTPRequestCookieContainer(HTTPRequestHandle hRequest, HTTPCookieContainerHandle hCookieContainer)
 ```
 
-设置用于 HTTP 请求的 Cookie 容器。
+<para> 设置用于 HTTP 请求的 Cookie 容器</para>
 
 **参数:**
 
@@ -439,7 +442,7 @@ bool SetHTTPRequestCookieContainer(HTTPRequestHandle hRequest, HTTPCookieContain
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.SetHTTPRequestCookieContainer(requestHandle, cookieContainerHandle);
+bool result = SteamGameServerHTTP.SetHTTPRequestCookieContainer(hRequest, hCookieContainer);
 ```
 
 ### SetHTTPRequestUserAgentInfo (静态)
@@ -448,7 +451,7 @@ bool ok = SteamGameServerHTTP.SetHTTPRequestCookieContainer(requestHandle, cooki
 bool SetHTTPRequestUserAgentInfo(HTTPRequestHandle hRequest, string pchUserAgentInfo)
 ```
 
-<para>设置请求的额外用户代理信息，此操作不会覆盖常规的用户代理，仅在其末尾追加额外信息。</para>
+<para> 设置请求的额外用户代理信息，这不会覆盖正常的用户代理，仅在末尾添加额外信息</para>
 
 **参数:**
 
@@ -459,7 +462,7 @@ bool SetHTTPRequestUserAgentInfo(HTTPRequestHandle hRequest, string pchUserAgent
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.SetHTTPRequestUserAgentInfo(requestHandle, "MyGameServer/1.0");
+SteamGameServerHTTP.SetHTTPRequestUserAgentInfo(requestHandle, "MyCustomBot/1.0");
 ```
 
 ### SetHTTPRequestRequiresVerifiedCertificate (静态)
@@ -468,7 +471,8 @@ bool ok = SteamGameServerHTTP.SetHTTPRequestUserAgentInfo(requestHandle, "MyGame
 bool SetHTTPRequestRequiresVerifiedCertificate(HTTPRequestHandle hRequest, bool bRequireVerifiedCertificate)
 ```
 
-<para>禁用或重新启用对 SSL/TLS 证书的验证。</para> <para>默认情况下，所有 HTTPS 请求均会检查证书。</para>
+<para>禁用或重新启用 SSL/TLS 证书验证。</para>
+<para>默认情况下，所有 HTTPS 请求都会检查证书。</para>
 
 **参数:**
 
@@ -479,7 +483,7 @@ bool SetHTTPRequestRequiresVerifiedCertificate(HTTPRequestHandle hRequest, bool 
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.SetHTTPRequestRequiresVerifiedCertificate(requestHandle, true);
+SteamGameServerHTTP.SetHTTPRequestRequiresVerifiedCertificate(requestHandle, false);
 ```
 
 ### SetHTTPRequestAbsoluteTimeoutMS (静态)
@@ -488,7 +492,7 @@ bool ok = SteamGameServerHTTP.SetHTTPRequestRequiresVerifiedCertificate(requestH
 bool SetHTTPRequestAbsoluteTimeoutMS(HTTPRequestHandle hRequest, uint unMilliseconds)
 ```
 
-<para>为 HTTP 请求设置绝对超时时间；此为总耗时超时，不同于网络活动超时</para> <para>该网络活动超时值可能在每次获取更多数据时被更新。</para>
+<para> 对HTTP请求设置绝对超时，这与网络活动超时不同，后者会在每次获取更多数据时重置</para>
 
 **参数:**
 
@@ -499,7 +503,7 @@ bool SetHTTPRequestAbsoluteTimeoutMS(HTTPRequestHandle hRequest, uint unMillisec
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerHTTP.SetHTTPRequestAbsoluteTimeoutMS(hRequest, 5000);
+bool success = SteamGameServerHTTP.SetHTTPRequestAbsoluteTimeoutMS(hRequest, 5000);
 ```
 
 ### GetHTTPRequestWasTimedOut (静态)
@@ -508,7 +512,7 @@ bool ok = SteamGameServerHTTP.SetHTTPRequestAbsoluteTimeoutMS(hRequest, 5000);
 bool GetHTTPRequestWasTimedOut(HTTPRequestHandle hRequest, out bool pbWasTimedOut)
 ```
 
-<para>检查请求失败的原因是否为超时（而非其他更严重的故障）</para>
+<para> 检查请求失败的原因是否是我们请求超时（而非更严重的故障）</para>
 
 **参数:**
 
@@ -520,6 +524,6 @@ bool GetHTTPRequestWasTimedOut(HTTPRequestHandle hRequest, out bool pbWasTimedOu
 **用法示例:**
 ```csharp
 bool wasTimedOut;
-bool ok = SteamGameServerHTTP.GetHTTPRequestWasTimedOut(requestHandle, out wasTimedOut);
+SteamGameServerHTTP.GetHTTPRequestWasTimedOut(requestHandle, out wasTimedOut);
 ```
 

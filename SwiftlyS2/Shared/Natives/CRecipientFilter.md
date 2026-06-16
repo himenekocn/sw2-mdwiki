@@ -52,6 +52,40 @@ CRecipientFilter FromPlayers(params int[] players)
 var filter = CRecipientFilter.FromPlayers(1, 2, 3);
 ```
 
+### FromPlayers (静态)
+
+```csharp
+CRecipientFilter FromPlayers(params IPlayer[] players)
+```
+
+**参数:**
+
+- `players` (`params IPlayer[]`)
+
+**返回值:** `CRecipientFilter`
+
+**用法示例:**
+```csharp
+var filter = CRecipientFilter.FromPlayers(player1, player2);
+```
+
+### FromPlayers (静态)
+
+```csharp
+CRecipientFilter FromPlayers(IEnumerable<IPlayer> players)
+```
+
+**参数:**
+
+- `players` (`IEnumerable\<IPlayer\>`)
+
+**返回值:** `CRecipientFilter`
+
+**用法示例:**
+```csharp
+var filter = CRecipientFilter.FromPlayers(players);
+```
+
 ### FromSingle (静态)
 
 ```csharp
@@ -66,7 +100,7 @@ CRecipientFilter FromSingle(int player)
 
 **用法示例:**
 ```csharp
-CRecipientFilter filter = CRecipientFilter.FromSingle(1);
+var filter = CRecipientFilter.FromSingle(1);
 ```
 
 ### ToMask
@@ -79,7 +113,7 @@ ulong ToMask()
 
 **用法示例:**
 ```csharp
-ulong mask = filter.ToMask();
+ulong mask = recipientFilter.ToMask();
 ```
 
 ### AddAllPlayers
@@ -90,8 +124,7 @@ void AddAllPlayers()
 
 **用法示例:**
 ```csharp
-CRecipientFilter filter;
-filter.AddAllPlayers();
+recipientFilter.AddAllPlayers();
 ```
 
 ### RemoveAllPlayers
@@ -102,7 +135,7 @@ void RemoveAllPlayers()
 
 **用法示例:**
 ```csharp
-CRecipientFilter filter; filter.RemoveAllPlayers();
+recipientFilter.RemoveAllPlayers();
 ```
 
 ### AddRecipient
@@ -132,7 +165,7 @@ void RemoveRecipient(int playerid)
 
 **用法示例:**
 ```csharp
-filter.RemoveRecipient(playerid);
+recipientFilter.RemoveRecipient(playerId);
 ```
 
 ### GetRecipientCount
@@ -145,7 +178,7 @@ int GetRecipientCount()
 
 **用法示例:**
 ```csharp
-int count = recipientFilter.GetRecipientCount();
+int count = filter.GetRecipientCount();
 ```
 
 ### GetRecipients
@@ -158,6 +191,6 @@ IEnumerable<int> GetRecipients()
 
 **用法示例:**
 ```csharp
-var recipients = existingFilter.GetRecipients();
+var recipients = filter.GetRecipients();
 ```
 

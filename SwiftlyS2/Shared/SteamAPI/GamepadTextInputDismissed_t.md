@@ -30,7 +30,6 @@ accepted text(Call ISteamUtils::GetEnteredGamepadTextInput()
 
 **用法示例:**
 ```csharp
-var text = dismissed.AcceptedText();
-Console.WriteLine(text);
+var text = SteamUtils.GetEnteredGamepadTextInput();
 ```
 

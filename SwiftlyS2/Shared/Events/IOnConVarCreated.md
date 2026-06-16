@@ -2,7 +2,7 @@
 
 # 🔌 IOnConVarCreated
 
-在创建 ConVar 时被调用。
+当创建一个ConVar时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 
@@ -12,5 +12,5 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ConVarName` | `string` | get | 所创建的 ConVar 的名称。 |
+| `ConVarName` | `string` | get | 创建的ConVar名称。 |
 

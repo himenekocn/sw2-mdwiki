@@ -13,28 +13,29 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `PlayerID` | `int` | get | 获取玩家的唯一标识符。 |
-| `SessionId` | `ulong` | get | 获取玩家的会话 ID。 |
-| `UserID` | `int` | get | 获取玩家的用户 ID。 |
-| `Slot` | `int` | get | 获取玩家的槽位。等同于玩家 ID。 |
-| `Name` | `string` | get | 获取玩家的名称。 |
-| `IsFakeClient` | `bool` | get | 该客户端是否为机器人。 |
-| `IsAuthorized` | `bool` | get | 当前用户是否已通过 Steam 授权。 |
+| `SessionId` | `ulong` | get | 获取玩家的会话ID。 |
+| `UserID` | `int` | get | 获取该玩家的用户ID。 |
+| `Slot` | `int` | get | 获取玩家的槽位。等于玩家ID。 |
+| `Name` | `string` | get, set | 获取玩家名称。 |
+| `ServerSideClient` | `IServerSideClient` | get | 获取与玩家关联的服务端客户端。 |
+| `IsFakeClient` | `bool` | get | 客户端是否为机器人。 |
+| `IsAuthorized` | `bool` | get | 当前用户是否已通过Steam授权。 |
 | `ConnectedTime` | `uint` | get | 获取连接处于活动状态的总时间（以秒为单位）。 |
-| `SteamID` | `ulong` | get | 获取与该用户关联的唯一 Steam 标识符。 |
-| `UnauthorizedSteamID` | `ulong` | get | 获取尚未验证的 Steam ID。 |
-| `IsAlive` | `bool` | get | 获取一个值，指示玩家当前是否存活。 |
+| `SteamID` | `ulong` | get | 获取与该用户关联的唯一Steam标识符。 |
+| `UnauthorizedSteamID` | `ulong` | get | 获取尚未验证的Steam ID。 |
+| `IsAlive` | `bool` | get | 获取一个值，该值指示玩家当前是否存活。 |
 | `Controller` | `CCSPlayerController` | get | 获取与玩家关联的玩家控制器。 |
-| `RequiredController` | `CCSPlayerController` | get | 获取与该玩家关联的玩家控制器。要求该控制器必须有效。<exception cref="InvalidOperationException">当控制器无效时抛出此异常。</exception> |
+| `RequiredController` | `CCSPlayerController` | get | 获取与玩家关联的玩家控制器。要求控制器有效。<exception cref="InvalidOperationException">当控制器无效时抛出。</exception> |
 | `Pawn` | `CBasePlayerPawn?` | get | 获取与该玩家关联的棋子。 |
-| `RequiredPawn` | `CBasePlayerPawn` | get | 获取与该玩家关联的棋子。要求该棋子必须有效。<exception cref="InvalidOperationException">当棋子无效时抛出此异常。</exception> |
-| `PlayerPawn` | `CCSPlayerPawn?` | get | 获取与该玩家关联的玩家Pawn。 |
-| `RequiredPlayerPawn` | `CCSPlayerPawn` | get | 获取与该玩家关联的玩家 Pawn。要求该玩家 Pawn 必须有效。<exception cref="InvalidOperationException">当玩家 Pawn 无效时抛出此异常。</exception> |
+| `RequiredPawn` | `CBasePlayerPawn` | get | 获取与该玩家关联的棋子。要求棋子有效。 <exception cref="InvalidOperationException">当棋子无效时抛出。</exception> |
+| `PlayerPawn` | `CCSPlayerPawn?` | get | 获取与玩家关联的玩家棋子。 |
+| `RequiredPlayerPawn` | `CCSPlayerPawn` | get | 获取与该玩家关联的玩家Pawn。要求玩家Pawn必须有效。<exception cref="InvalidOperationException">当玩家Pawn无效时抛出。</exception> |
 | `PressedButtons` | `GameButtonFlags` | get | 获取当前按下的游戏按键集合。 |
-| `IPAddress` | `string` | get | 获取与玩家关联的 IP 地址。 |
-| `VoiceFlags` | `VoiceFlagValue` | get, set | 获取或设置指定要应用的语音选项或功能的标志集。 |
-| `PlayerLanguage` | `Language` | get | 获取玩家的语言设置。 |
+| `IPAddress` | `string` | get | 获取与该玩家关联的IP地址。 |
+| `VoiceFlags` | `VoiceFlagValue` | get, set | 获取或设置指定语音选项或功能的标志集。 |
+| `PlayerLanguage` | `Language` | get | 获取玩家的语言。 |
 | `IsFirstSpawn` | `bool` | get | 指示这是否为玩家的首次出生。 |
-| `IsValid` | `bool` | get | 检查玩家是否有效（拥有控制器、非 HLTV 用户、已连接且存在游戏角色）。 |
+| `IsValid` | `bool` | get | 检查玩家是否有效（拥有控制器、不是HLTV、已连接并有Pawn）。 |
 
 ## ⚙️ 方法
 
@@ -51,7 +52,7 @@ void SendMessage(MessageType kind, string message)
 
 **用法示例:**
 ```csharp
-player.SendMessage(MessageType.Chat, "Hello, world!");
+player.SendMessage(MessageType.Chat, "Hello World");
 ```
 
 ### SendMessage
@@ -68,7 +69,7 @@ void SendMessage(MessageType kind, string message, int htmlDuration = 5000)
 
 **用法示例:**
 ```csharp
-player.SendMessage(MessageType.Chat, "Hello World!", 5);
+player.SendMessage(MessageType.Value, "Hello World", 5);
 ```
 
 ### SendMessageAsync
@@ -81,14 +82,14 @@ Task SendMessageAsync(MessageType kind, string message)
 
 **参数:**
 
-- `kind` (`MessageType`) - 要发送的消息类型。决定消息的处理方式或显示方式。
+- `kind` (`MessageType`) - 要发送的消息类型。决定消息的处理或显示方式。
 - `message` (`string`) - 要发送的消息内容。不能为 null。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.SendMessageAsync(MessageType.Chat, "Hello, player!");
+await player.SendMessageAsync(MessageType.Chat, "Hello World");
 ```
 
 ### SendMessageAsync
@@ -97,19 +98,19 @@ await player.SendMessageAsync(MessageType.Chat, "Hello, player!");
 Task SendMessageAsync(MessageType kind, string message, int htmlDuration = 5000)
 ```
 
-异步向玩家发送指定类型的消息，并附带自定义的 HTML 持续时间。
+以自定义 HTML 持续时间异步向玩家发送指定类型的消息。
 
 **参数:**
 
-- `kind` (`MessageType`) - 要发送的消息类型。决定消息的处理方式或显示方式。
+- `kind` (`MessageType`) - 要发送的消息类型。决定消息的处理或显示方式。
 - `message` (`string`) - 要发送的消息内容。不能为 null。
-- `htmlDuration` (`int`) = `5000` - 消息以 HTML 格式显示的持续时间（单位：毫秒）。
+- `htmlDuration` (`int`) = `5000` - 该消息应以HTML格式显示的持续时间，单位毫秒。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.SendMessageAsync(MessageType.Chat, "Hello!", 5000);
+await player.SendMessageAsync(MessageType.Value, "Hello World", 5000);
 ```
 
 ### SendNotify
@@ -124,7 +125,7 @@ void SendNotify(string message)
 
 **用法示例:**
 ```csharp
-player.SendNotify("Hello, player!");
+player.SendNotify("Hello, World!");
 ```
 
 ### SendNotifyAsync
@@ -133,7 +134,7 @@ player.SendNotify("Hello, player!");
 Task SendNotifyAsync(string message)
 ```
 
-异步向玩家发送通知消息。
+向玩家异步发送通知消息。
 
 **参数:**
 
@@ -143,7 +144,7 @@ Task SendNotifyAsync(string message)
 
 **用法示例:**
 ```csharp
-await player.SendNotifyAsync("Server is restarting in 5 minutes!");
+await player.SendNotifyAsync("Welcome to the game!");
 ```
 
 ### SendConsole
@@ -158,7 +159,7 @@ void SendConsole(string message)
 
 **用法示例:**
 ```csharp
-player.SendConsole("sv_cheats 1");
+player.SendConsole("say Hello World");
 ```
 
 ### SendConsoleAsync
@@ -167,7 +168,7 @@ player.SendConsole("sv_cheats 1");
 Task SendConsoleAsync(string message)
 ```
 
-异步向玩家发送控制台消息。
+向玩家异步发送控制台消息。
 
 **参数:**
 
@@ -177,7 +178,7 @@ Task SendConsoleAsync(string message)
 
 **用法示例:**
 ```csharp
-await player.SendConsoleAsync("Server restarting in 5 minutes.");
+await player.SendConsoleAsync("Hello World");
 ```
 
 ### SendChat
@@ -192,7 +193,7 @@ void SendChat(string message)
 
 **用法示例:**
 ```csharp
-player.SendChat("Hello, world!");
+player.SendChat("Hello World");
 ```
 
 ### SendChatAsync
@@ -211,7 +212,7 @@ Task SendChatAsync(string message)
 
 **用法示例:**
 ```csharp
-await player.SendChatAsync("Hello, world!");
+await player.SendChatAsync("Hello World");
 ```
 
 ### SendCenter
@@ -226,7 +227,7 @@ void SendCenter(string message)
 
 **用法示例:**
 ```csharp
-player.SendCenter("Welcome to the server!");
+player.SendCenter("Hello World");
 ```
 
 ### SendCenterAsync
@@ -260,7 +261,7 @@ void SendAlert(string message)
 
 **用法示例:**
 ```csharp
-player.SendAlert("Warning: Unauthorized access detected!");
+player.SendAlert("Warning: Restricted area!");
 ```
 
 ### SendAlertAsync
@@ -269,7 +270,7 @@ player.SendAlert("Warning: Unauthorized access detected!");
 Task SendAlertAsync(string message)
 ```
 
-异步向玩家发送警报消息。
+向玩家异步发送警报消息。
 
 **参数:**
 
@@ -279,7 +280,7 @@ Task SendAlertAsync(string message)
 
 **用法示例:**
 ```csharp
-await player.SendAlertAsync("警告：检测到异常行为！");
+await player.SendAlertAsync("警告：检测到异常行为");
 ```
 
 ### SendCenterHTML
@@ -295,7 +296,7 @@ void SendCenterHTML(string message, int duration = 5000)
 
 **用法示例:**
 ```csharp
-player.SendCenterHTML("<font color='red'>Hello!</font>", 5);
+player.SendCenterHTML("<font color='red'>Hello World</font>", 5);
 ```
 
 ### SendCenterHTMLAsync
@@ -304,12 +305,12 @@ player.SendCenterHTML("<font color='red'>Hello!</font>", 5);
 Task SendCenterHTMLAsync(string message, int duration = 5000)
 ```
 
-异步向玩家发送一个中心位置的 HTML 消息。
+向玩家异步发送居中HTML消息。
 
 **参数:**
 
 - `message` (`string`) - 要发送的消息内容。不能为 null。
-- `duration` (`int`) = `5000` - 消息以 HTML 格式显示的持续时间（单位：毫秒）。
+- `duration` (`int`) = `5000` - 该消息应以HTML格式显示的持续时间，单位毫秒。
 
 **返回值:** `Task`
 
@@ -330,7 +331,7 @@ void SendChatEOT(string message)
 
 **用法示例:**
 ```csharp
-player.SendChatEOT("Hello, world!");
+player.SendChatEOT("Hello World");
 ```
 
 ### SendChatEOTAsync
@@ -339,7 +340,7 @@ player.SendChatEOT("Hello, world!");
 Task SendChatEOTAsync(string message)
 ```
 
-异步向玩家发送一条结尾的聊天消息。
+异步向玩家发送一条文本结束的聊天消息。
 
 **参数:**
 
@@ -349,7 +350,7 @@ Task SendChatEOTAsync(string message)
 
 **用法示例:**
 ```csharp
-await player.SendChatEOTAsync("游戏结束！");
+await player.SendChatEOTAsync("Hello World");
 ```
 
 ### Kick
@@ -365,7 +366,7 @@ void Kick(string reason, ENetworkDisconnectionReason gameReason)
 
 **用法示例:**
 ```csharp
-player.Kick("违规操作", ENetworkDisconnectionReason.Banned);
+player.Kick("违规操作", ENetworkDisconnectionReason.KICKED_BY_SERVER);
 ```
 
 ### KickAsync
@@ -374,18 +375,18 @@ player.Kick("违规操作", ENetworkDisconnectionReason.Banned);
 Task KickAsync(string reason, ENetworkDisconnectionReason gameReason)
 ```
 
-异步断开用户与网络会话的连接，并提供指定的原因和断开类型。
+以指定的原因和断开连接类型，将用户从网络会话中断开，异步执行。
 
 **参数:**
 
-- `reason` (`string`) - 描述断开连接原因的字符串消息。此消息可能会显示给用户。不能为 null 或空。
-- `gameReason` (`ENetworkDisconnectionReason`) - 指示要执行的断开网络连接类型的断开连接原因代码。
+- `reason` (`string`) - 描述断开连接原因的消息。此消息可能会显示给用户。不能为 null 或为空。
+- `gameReason` (`ENetworkDisconnectionReason`) - 指示要执行的网络断开连接类型的断开原因代码。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.KickAsync("违规操作", ENetworkDisconnectionReason.Value);
+await player.KickAsync("违规操作", ENetworkDisconnectionReason.Banned);
 ```
 
 ### ShouldBlockTransmitEntity
@@ -398,8 +399,8 @@ void ShouldBlockTransmitEntity(int entityid, bool shouldBlockTransmit)
 
 **参数:**
 
-- `entityid` (`int`) - 要更新其传输状态实体的唯一标识符。
-- `shouldBlockTransmit` (`bool`) - 指示是否应阻止该实体的传输的值。指定 <see langword="true"/> 以阻止传输；否则，指定 <see langword="false"/>。
+- `entityid` (`int`) - 要更新传输状态的实体的唯一标识符。
+- `shouldBlockTransmit` (`bool`) - 一个指示是否应阻止该实体传输的值。指定 <see langword="true"/> 以阻止传输；否则指定 <see langword="false"/>。
 
 **用法示例:**
 ```csharp
@@ -412,17 +413,17 @@ player.ShouldBlockTransmitEntity(1024, true);
 bool IsTransmitEntityBlocked(int entityid)
 ```
 
-确定指定的实体当前是否被阻止传输数据。
+确定指定实体当前是否被阻止传输数据。
 
 **参数:**
 
-- `entityid` (`int`) - 待检查传输阻塞实体的唯一标识符。必须为有效的实体 ID。
+- `entityid` (`int`) - 要检查传输阻塞的实体的唯一标识符。必须是有效的实体ID。
 
-**返回值:** `bool` - 如果实体被阻止传输，则为 true；否则为 false。
+**返回值:** `bool` - 如果该实体被阻止传输则为 true；否则为 false。
 
 **用法示例:**
 ```csharp
-bool isBlocked = player.IsTransmitEntityBlocked(entityId);
+bool isBlocked = player.IsTransmitEntityBlocked(123);
 ```
 
 ### ClearTransmitEntityBlocks
@@ -431,7 +432,7 @@ bool isBlocked = player.IsTransmitEntityBlocked(entityId);
 void ClearTransmitEntityBlocks()
 ```
 
-从发送缓冲区中移除所有实体块，并丢弃任何已排期待发送的待定数据。
+从传输缓冲区中移除所有实体块，丢弃所有计划传输的待处理数据。
 
 **用法示例:**
 ```csharp
@@ -444,16 +445,16 @@ player.ClearTransmitEntityBlocks();
 void SetListenOverride(int player, ListenOverride listenOverride)
 ```
 
-为指定玩家设置自定义监听覆盖。
+为指定的玩家设置自定义监听覆盖。
 
 **参数:**
 
-- `player` (`int`) - 要更新其监听覆盖设置的玩家标识符。必须是有效的玩家索引。
-- `listenOverride` (`ListenOverride`) - 应用于指定玩家的监听覆盖值。
+- `player` (`int`) - 将要更新其“监听覆盖”设置的玩家标识符。必须是一个有效的玩家索引。
+- `listenOverride` (`ListenOverride`) - 要应用于指定玩家的监听覆盖值。
 
 **用法示例:**
 ```csharp
-player.SetListenOverride(0, ListenOverride.Value);
+player.SetListenOverride(targetPlayer, ListenOverride.Yes);
 ```
 
 ### GetListenOverride
@@ -466,13 +467,13 @@ ListenOverride GetListenOverride(int player)
 
 **参数:**
 
-- `player` (`int`) - 待获取监听覆盖设置的目标玩家标识符。必须是有效的玩家索引。
+- `player` (`int`) - 要检索其监听覆盖设置的玩家标识符，必须为有效的玩家索引。
 
-**返回值:** `ListenOverride` - 包含指定玩家的监听覆盖设置的 ListenOverride 对象。
+**返回值:** `ListenOverride` - 包含指定玩家监听覆盖设置的监听覆盖对象。
 
 **用法示例:**
 ```csharp
-var overrideSettings = player.GetListenOverride(playerIndex);
+var overrideSetting = player.GetListenOverride(player.Index);
 ```
 
 ### GetClientConvarValue
@@ -481,7 +482,7 @@ var overrideSettings = player.GetListenOverride(playerIndex);
 string GetClientConvarValue(string convarName)
 ```
 
-获取 convars 的用户信息值，例如：m_yaw、sensitivity。
+检索用户信息值，用于诸如 m_yaw、sensitivity 等控制台变量。
 
 **参数:**
 
@@ -491,7 +492,7 @@ string GetClientConvarValue(string convarName)
 
 **用法示例:**
 ```csharp
-string yawValue = player.GetClientConvarValue("m_yaw");
+string yaw = player.GetClientConvarValue("m_yaw");
 ```
 
 ### TakeDamage
@@ -515,11 +516,11 @@ player.TakeDamage(damageInfo);
 Task TakeDamageAsync(CTakeDamageInfo damageInfo)
 ```
 
-根据指定的伤害信息，异步地对实体施加伤害。
+根据指定的伤害信息异步对实体施加伤害。
 
 **参数:**
 
-- `damageInfo` (`CTakeDamageInfo`) - 一个包含待施加伤害详细信息的对象，包括伤害数值、类型和来源。该对象不能为 null。
+- `damageInfo` (`CTakeDamageInfo`) - 一个包含所受伤害详细信息的对象，包括伤害值、类型和来源。不能为null。
 
 **返回值:** `Task`
 
@@ -544,7 +545,7 @@ void TakeDamage(float damage, DamageTypes_t damageType, CBaseEntity? inflictor =
 
 **用法示例:**
 ```csharp
-player.TakeDamage(50.0f, DamageTypes_t.DMG_BULLET, null, attackerEntity, null);
+player.TakeDamage(50.0f, DamageTypes_t.DMG_BULLET, null, attacker, null);
 ```
 
 ### TakeDamageAsync
@@ -553,21 +554,21 @@ player.TakeDamage(50.0f, DamageTypes_t.DMG_BULLET, null, attackerEntity, null);
 Task TakeDamageAsync(float damage, DamageTypes_t damageType, CBaseEntity? inflictor = null, CBaseEntity? attacker = null, CBaseEntity? ability = null)
 ```
 
-根据指定的伤害信息，异步地对实体施加伤害。
+根据指定的伤害信息异步对实体施加伤害。
 
 **参数:**
 
-- `damage` (`float`) - 要施加的伤害量。
+- `damage` (`float`) - 要应用的伤害数值。
 - `damageType` (`DamageTypes_t`) - 要应用伤害的类型。
-- `inflictor` (`CBaseEntity?`) = `null` - 造成伤害的实体。可能为 null。
-- `attacker` (`CBaseEntity?`) = `null` - 发起攻击的实体。可能为空。
-- `ability` (`CBaseEntity?`) = `null` - 造成伤害的技能。可能为空。
+- `inflictor` (`CBaseEntity?`) = `null` - 造成伤害的实体。可以为 null。
+- `attacker` (`CBaseEntity?`) = `null` - 正在攻击的实体。可为空。
+- `ability` (`CBaseEntity?`) = `null` - 造成伤害的能力。可以为空。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.TakeDamageAsync(25.0f, DamageTypes_t.Value, null, attackerEntity, null);
+await player.TakeDamageAsync(25.0f, DamageTypes_t.DMG_BULLET, null, attackerEntity, null);
 ```
 
 ### Teleport
@@ -601,7 +602,7 @@ void Teleport(Vector? pos = null, QAngle? angle = null, Vector? velocity = null)
 
 **用法示例:**
 ```csharp
-player.Teleport(new Vector(100, 200, 50), null, null);
+player.Teleport(new Vector(0, 0, 0), new QAngle(0, 0, 0), new Vector(0, 0, 0));
 ```
 
 ### TeleportAsync
@@ -610,19 +611,19 @@ player.Teleport(new Vector(100, 200, 50), null, null);
 Task TeleportAsync(Vector pos, QAngle angle, Vector velocity)
 ```
 
-异步将实体传送至指定的位置、朝向和速度。
+异步将实体传送至指定位置、朝向和速度。
 
 **参数:**
 
-- `pos` (`Vector`) - 实体传送的目标位置，表示为<see cref="Vector"/>。
-- `angle` (`QAngle`) - 传送后应用于实体的朝向，表示为<see cref="QAngle"/>。
-- `velocity` (`Vector`) - 实体到达时被赋予的速度，以 <see cref="Vector"/> 表示。
+- `pos` (`Vector`) - 将实体传送至的目标位置，表示为 <see cref="Vector"/>。
+- `angle` (`QAngle`) - 传送后应用于实体的朝向，以 <see cref="QAngle"/> 表示。
+- `velocity` (`Vector`) - 抵达时分配给实体的速度，表示为<see cref="Vector"/>。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.TeleportAsync(new Vector(0, 0, 100), new QAngle(0, 90, 0), new Vector(0, 0, 0));
+await player.TeleportAsync(new Vector(0, 0, 0), QAngle.Zero, Vector.Zero);
 ```
 
 ### TeleportAsync
@@ -631,19 +632,19 @@ await player.TeleportAsync(new Vector(0, 0, 100), new QAngle(0, 90, 0), new Vect
 Task TeleportAsync(Vector? pos = null, QAngle? angle = null, Vector? velocity = null)
 ```
 
-异步将实体传送至指定的位置、朝向和速度。
+异步将实体传送至指定位置、朝向和速度。
 
 **参数:**
 
-- `pos` (`Vector?`) = `null` - 实体传送的目标位置，表示为<see cref="Vector"/>。
-- `angle` (`QAngle?`) = `null` - 传送后应用于实体的朝向，表示为<see cref="QAngle"/>。
-- `velocity` (`Vector?`) = `null` - 实体到达时被赋予的速度，以 <see cref="Vector"/> 表示。
+- `pos` (`Vector?`) = `null` - 将实体传送至的目标位置，表示为 <see cref="Vector"/>。
+- `angle` (`QAngle?`) = `null` - 传送后应用于实体的朝向，以 <see cref="QAngle"/> 表示。
+- `velocity` (`Vector?`) = `null` - 抵达时分配给实体的速度，表示为<see cref="Vector"/>。
 
 **返回值:** `Task`
 
 **用法示例:**
 ```csharp
-await player.TeleportAsync(new Vector(100, 200, 50), new QAngle(0, 90, 0), new Vector(0, 0, 0));
+await player.TeleportAsync(new Vector(0, 0, 0), new QAngle(0, 90, 0), Vector.Zero);
 ```
 
 ### SwitchTeam
@@ -658,7 +659,7 @@ void SwitchTeam(Team team)
 
 **用法示例:**
 ```csharp
-player.SwitchTeam(Team.T);
+player.SwitchTeam(Team.CounterTerrorist);
 ```
 
 ### SwitchTeamAsync
@@ -667,7 +668,7 @@ player.SwitchTeam(Team.T);
 Task SwitchTeamAsync(Team team)
 ```
 
-异步切换玩家所属的队伍。
+异步切换玩家所属队伍。
 
 **参数:**
 
@@ -677,7 +678,7 @@ Task SwitchTeamAsync(Team team)
 
 **用法示例:**
 ```csharp
-await player.SwitchTeamAsync(Team.T);
+await player.SwitchTeamAsync(Team.CounterTerrorist);
 ```
 
 ### ChangeTeam
@@ -701,11 +702,11 @@ player.ChangeTeam(Team.Terrorist);
 Task ChangeTeamAsync(Team team)
 ```
 
-异步更改玩家的队伍。此操作同时会杀死该玩家。
+异步更改玩家所在队伍。此操作也会击杀该玩家。
 
 **参数:**
 
-- `team` (`Team`) - 待分配的队伍。不能为空。
+- `team` (`Team`) - 要分配的队伍。不能为空。
 
 **返回值:** `Task`
 
@@ -720,7 +721,7 @@ await player.ChangeTeamAsync(Team.T);
 void Respawn()
 ```
 
-使玩家重生。
+重新生成玩家。
 
 **用法示例:**
 ```csharp
@@ -739,7 +740,7 @@ void ExecuteCommand(string command)
 
 **用法示例:**
 ```csharp
-player.ExecuteCommand("say Hello");
+player.ExecuteCommand("say Hello World");
 ```
 
 ### ExecuteCommandAsync
@@ -748,11 +749,11 @@ player.ExecuteCommand("say Hello");
 Task ExecuteCommandAsync(string command)
 ```
 
-异步代表玩家执行命令。
+异步代表玩家执行一条命令。
 
 **参数:**
 
-- `command` (`string`) - 要执行的命令。不得为 null 或空。
+- `command` (`string`) - 要执行的命令。不能为空或空字符串。
 
 **返回值:** `Task`
 

@@ -45,7 +45,7 @@ bool LessFunc(ref TValue lhs, ref TValue rhs)
 
 **用法示例:**
 ```csharp
-bool result = tree.LessFunc(ref itemA, ref itemB);
+bool result = tree.LessFunc(ref lhs, ref rhs);
 ```
 
 ### EnsureCapacity
@@ -77,7 +77,7 @@ bool IsValidIndex(TKey i)
 
 **用法示例:**
 ```csharp
-bool isValid = tree.IsValidIndex(5);
+bool valid = tree.IsValidIndex(0);
 ```
 
 ### NewNode
@@ -90,7 +90,7 @@ TKey NewNode()
 
 **用法示例:**
 ```csharp
-var newNodeKey = rbTree.NewNode();
+var key = tree.NewNode();
 ```
 
 ### FreeNode
@@ -105,7 +105,7 @@ void FreeNode(TKey i)
 
 **用法示例:**
 ```csharp
-tree.FreeNode(key);
+treeInstance.FreeNode(key);
 ```
 
 ### RotateLeft
@@ -120,7 +120,7 @@ void RotateLeft(TKey elem)
 
 **用法示例:**
 ```csharp
-tree.RotateLeft(elem);
+tree.RotateLeft(key);
 ```
 
 ### RotateRight
@@ -135,7 +135,7 @@ void RotateRight(TKey elem)
 
 **用法示例:**
 ```csharp
-tree.RotateRight(elem);
+tree.RotateRight(key);
 ```
 
 ### InsertRebalance
@@ -150,7 +150,7 @@ void InsertRebalance(TKey elem)
 
 **用法示例:**
 ```csharp
-tree.InsertRebalance(elem);
+tree.InsertRebalance(key);
 ```
 
 ### LinkToParent
@@ -167,7 +167,7 @@ void LinkToParent(TKey i, TKey parent, bool isLeft)
 
 **用法示例:**
 ```csharp
-tree.LinkToParent(childKey, parentKey, true);
+tree.LinkToParent(0, 1, true);
 ```
 
 ### InsertAt
@@ -185,7 +185,7 @@ TKey InsertAt(TKey parent, bool leftchild)
 
 **用法示例:**
 ```csharp
-var newNode = rbTree.InsertAt(existingKey, true);
+var newNode = tree.InsertAt(parentKey, true);
 ```
 
 ### RemoveRebalance
@@ -200,7 +200,7 @@ void RemoveRebalance(TKey elem)
 
 **用法示例:**
 ```csharp
-tree.RemoveRebalance(elem);
+rbTree.RemoveRebalance(key);
 ```
 
 ### Unlink
@@ -215,7 +215,7 @@ void Unlink(TKey elem)
 
 **用法示例:**
 ```csharp
-tree.Unlink(elem);
+tree.Unlink(key);
 ```
 
 ### Link
@@ -230,7 +230,7 @@ void Link(TKey elem)
 
 **用法示例:**
 ```csharp
-tree.Link(elem);
+tree.Link(key);
 ```
 
 ### FindInsertionPosition
@@ -247,7 +247,7 @@ void FindInsertionPosition(TValue val, out TKey parent, out bool leftchild)
 
 **用法示例:**
 ```csharp
-tree.FindInsertionPosition(val, out parent, out leftchild);
+tree.FindInsertionPosition(val, out TKey parent, out bool leftchild);
 ```
 
 ### RemoveAt
@@ -262,7 +262,7 @@ void RemoveAt(TKey elem)
 
 **用法示例:**
 ```csharp
-tree.RemoveAt(elem);
+tree.RemoveAt(key);
 ```
 
 ### Remove
@@ -279,7 +279,7 @@ bool Remove(TValue value)
 
 **用法示例:**
 ```csharp
-tree.Remove(value);
+bool removed = tree.Remove(value);
 ```
 
 ### Find
@@ -307,7 +307,7 @@ void RemoveAll()
 
 **用法示例:**
 ```csharp
-existingTree.RemoveAll();
+tree.RemoveAll();
 ```
 
 ### Purge
@@ -337,7 +337,7 @@ TKey FirstInorder()
 
 **用法示例:**
 ```csharp
-TKey firstKey = rbTree.FirstInorder();
+var firstKey = tree.FirstInorder();
 ```
 
 ### NextInorder
@@ -354,7 +354,7 @@ TKey NextInorder(TKey i)
 
 **用法示例:**
 ```csharp
-var nextKey = rbTree.NextInorder(currentKey);
+TKey nextKey = tree.NextInorder(currentKey);
 ```
 
 ### PrevInorder
@@ -371,7 +371,7 @@ TKey PrevInorder(TKey i)
 
 **用法示例:**
 ```csharp
-TKey previous = rbTree.PrevInorder(currentKey);
+TKey prevKey = rbTree.PrevInorder(currentKey);
 ```
 
 ### LastInorder
@@ -384,7 +384,7 @@ TKey LastInorder()
 
 **用法示例:**
 ```csharp
-TKey lastKey = rbTree.LastInorder();
+var lastKey = tree.LastInorder();
 ```
 
 ### FirstPreorder
@@ -397,7 +397,7 @@ TKey FirstPreorder()
 
 **用法示例:**
 ```csharp
-var firstKey = rbTree.FirstPreorder();
+var firstKey = tree.FirstPreorder();
 ```
 
 ### NextPreorder
@@ -414,7 +414,7 @@ TKey NextPreorder(TKey i)
 
 **用法示例:**
 ```csharp
-TKey nextNode = rbTree.NextPreorder(currentNode);
+TKey nextNode = tree.NextPreorder(currentNode);
 ```
 
 ### LastPreorder
@@ -427,7 +427,7 @@ TKey LastPreorder()
 
 **用法示例:**
 ```csharp
-var lastKey = rbTree.LastPreorder();
+var lastKey = tree.LastPreorder();
 ```
 
 ### FirstPostorder
@@ -440,7 +440,7 @@ TKey FirstPostorder()
 
 **用法示例:**
 ```csharp
-var first = rbTree.FirstPostorder();
+var firstKey = tree.FirstPostorder();
 ```
 
 ### NextPostorder
@@ -457,7 +457,7 @@ TKey NextPostorder(TKey i)
 
 **用法示例:**
 ```csharp
-TKey nextNode = rbTree.NextPostorder(currentNode);
+TKey nextKey = tree.NextPostorder(currentKey);
 ```
 
 ### Reinsert
@@ -472,7 +472,7 @@ void Reinsert(TKey i)
 
 **用法示例:**
 ```csharp
-tree.Reinsert(i);
+tree.Reinsert(key);
 ```
 
 ### IsValid
@@ -495,7 +495,7 @@ void SetLessFunc(LessFunc func)
 
 **用法示例:**
 ```csharp
-tree.SetLessFunc((x, y) => x < y);
+tree.SetLessFunc((a, b) => a.CompareTo(b));
 ```
 
 ### Insert
@@ -512,7 +512,7 @@ TKey Insert(TValue val)
 
 **用法示例:**
 ```csharp
-TKey key = rbTree.Insert(val);
+var key = tree.Insert(value);
 ```
 
 ### InsertIfNotFound
@@ -529,6 +529,6 @@ TKey InsertIfNotFound(TValue val)
 
 **用法示例:**
 ```csharp
-TKey key = tree.InsertIfNotFound(val);
+TKey key = rbTree.InsertIfNotFound(val);
 ```
 

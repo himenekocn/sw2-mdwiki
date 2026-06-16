@@ -2,7 +2,7 @@
 
 # 🔗 OnClientSteamAuthorize
 
-当客户端通过 Steam 授权时调用。
+当客户端通过Steam授权时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

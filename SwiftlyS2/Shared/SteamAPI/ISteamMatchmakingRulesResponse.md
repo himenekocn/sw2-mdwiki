@@ -29,7 +29,7 @@ void RulesResponded(string pchRule, string pchValue)
 
 **用法示例:**
 ```csharp
-existingInstance.RulesResponded("game_mode", "competitive");
+matchmakingRulesResponse.RulesResponded("rule_name", "rule_value");
 ```
 
 ### RulesFailedToRespond
@@ -40,7 +40,7 @@ void RulesFailedToRespond()
 
 **用法示例:**
 ```csharp
-rulesResponse.RulesFailedToRespond();
+matchmakingRulesResponse.RulesFailedToRespond();
 ```
 
 ### RulesRefreshComplete
@@ -67,7 +67,7 @@ void InternalRulesResponded(IntPtr pchRule, IntPtr pchValue)
 
 **用法示例:**
 ```csharp
-instance.InternalRulesResponded(IntPtr.Zero, IntPtr.Zero);
+matchmakingRulesResponse.InternalRulesResponded(rulePtr, valuePtr);
 ```
 
 ### InternalRulesFailedToRespond
@@ -78,7 +78,7 @@ void InternalRulesFailedToRespond()
 
 **用法示例:**
 ```csharp
-rulesResponse.InternalRulesFailedToRespond();
+matchmakingRulesResponse.InternalRulesFailedToRespond();
 ```
 
 ### InternalRulesRefreshComplete
@@ -89,7 +89,6 @@ void InternalRulesRefreshComplete()
 
 **用法示例:**
 ```csharp
-var instance = GetExistingRulesResponse();
-instance.InternalRulesRefreshComplete();
+matchmakingRulesResponse.InternalRulesRefreshComplete();
 ```
 

@@ -36,6 +36,6 @@ charging port(forward side of controller)
 
 **用法示例:**
 ```csharp
-var chargingPort = inputMotionData.charging_port;
+var isCharging = inputMotionData.port;
 ```
 

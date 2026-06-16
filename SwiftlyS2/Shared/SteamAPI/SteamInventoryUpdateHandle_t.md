@@ -60,7 +60,7 @@ operator ulong(SteamInventoryUpdateHandle_t that)
 
 **用法示例:**
 ```csharp
-ulong handleValue = SteamInventoryUpdateHandle_t.ulong(existingHandle);
+ulong handleValue = (ulong)existingHandle;
 ```
 
 ### Equals

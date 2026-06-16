@@ -28,7 +28,7 @@ bool IsSteamApp()
 
 **用法示例:**
 ```csharp
-bool isSteamApp = gameId.IsSteamApp();
+bool isApp = gameID.IsSteamApp();
 ```
 
 ### IsMod
@@ -41,8 +41,7 @@ bool IsMod()
 
 **用法示例:**
 ```csharp
-bool isMod = gameId.IsMod();
-if (isMod) { /* 处理 Mod 游戏 */ }
+bool isMod = gameID.IsMod();
 ```
 
 ### IsShortcut
@@ -55,7 +54,7 @@ bool IsShortcut()
 
 **用法示例:**
 ```csharp
-bool isShortcut = gameId.IsShortcut();
+bool isShortcut = gameID.IsShortcut();
 ```
 
 ### IsP2PFile
@@ -68,7 +67,7 @@ bool IsP2PFile()
 
 **用法示例:**
 ```csharp
-bool isP2P = gameId.IsP2PFile();
+bool isP2P = gameID.IsP2PFile();
 ```
 
 ### AppID
@@ -81,7 +80,7 @@ AppId_t AppID()
 
 **用法示例:**
 ```csharp
-var appId = gameId.AppID();
+AppId_t appId = gameID.AppID();
 ```
 
 ### Type
@@ -94,7 +93,7 @@ EGameIDType Type()
 
 **用法示例:**
 ```csharp
-EGameIDType type = gameId.Type();
+var type = gameID.Type();
 ```
 
 ### ModID
@@ -107,7 +106,7 @@ uint ModID()
 
 **用法示例:**
 ```csharp
-uint modId = gameId.ModID();
+uint modId = gameID.ModID();
 ```
 
 ### IsValid
@@ -126,7 +125,7 @@ void Reset()
 
 **用法示例:**
 ```csharp
-gameId.Reset();
+gameID.Reset();
 ```
 
 ### Set
@@ -141,7 +140,7 @@ void Set(ulong GameID)
 
 **用法示例:**
 ```csharp
-gameId.Set(123456789UL);
+gameID.Set(730);
 ```
 
 ### ToString
@@ -186,7 +185,7 @@ operator ulong(CGameID that)
 
 **用法示例:**
 ```csharp
-ulong rawId = (ulong)gameId;
+ulong id = (ulong)gameId;
 ```
 
 ### Equals
@@ -215,6 +214,6 @@ int CompareTo(CGameID other)
 
 **用法示例:**
 ```csharp
-int result = gameId.CompareTo(otherGameId);
+int result = gameID.CompareTo(otherGameID);
 ```
 

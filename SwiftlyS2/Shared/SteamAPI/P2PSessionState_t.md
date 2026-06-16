@@ -33,6 +33,6 @@ relay server( TURN)
 
 **用法示例:**
 ```csharp
-if (state.RelayServer()) Console.WriteLine("TURN");
+var relayServer = sessionState.relay;
 ```
 

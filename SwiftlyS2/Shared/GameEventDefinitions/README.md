@@ -287,7 +287,7 @@
 
 ## 🔌 EventAchievementEarned
 
-事件 "achievement_earned"（成就已获得）
+事件“成就达成”
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -299,10 +299,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlayerController` | `CCSPlayerController` | get | 玩家的实体索引 <br/> 类型：player_controller |
-| `PlayerPawn` | `CCSPlayerPawn` | get | 玩家的实体索引 <br/> 类型：player_controller |
-| `Player` | `int` | get, set | 玩家的实体索引 <br/> 类型：player_controller |
-| `Achievement` | `short` | get, set | 成就 ID<br/>类型：short |
+| `PlayerController` | `CCSPlayerController` | get | 玩家的实体索引 <br/> 类型: player_controller |
+| `PlayerPawn` | `CCSPlayerPawn` | get | 玩家的实体索引 <br/> 类型: player_controller |
+| `Player` | `int` | get, set | 玩家的实体索引 <br/> 类型: player_controller |
+| `Achievement` | `short` | get, set | 成就ID <br/> 类型：短整型 |
 
 
 
@@ -312,7 +312,7 @@
 
 ## 🔌 EventAchievementEarnedLocal
 
-事件"achievement_earned_local"
+Event "achievement_earned_local"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -324,8 +324,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Achievement` | `short` | get, set | 成就 ID<br/>类型：short |
-| `SplitScreenPlayer` | `short` | get, set | 分屏 ID<br/>类型：短整型（short） |
+| `Achievement` | `short` | get, set | 成就ID <br/> 类型：短整型 |
+| `SplitScreenPlayer` | `short` | get, set | 分屏ID <br/> 类型: short |
 
 
 
@@ -347,9 +347,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `AchievementName` | `string` | get, set | 成就的非本地化名称<br/>类型：字符串 |
-| `CurVal` | `short` | get, set | 达成目标所需的步数<br/>类型：短整型 |
-| `MaxVal` | `short` | get, set | 成就中的总步数<br/>类型：short |
+| `AchievementName` | `string` | get, set | 成就的非本地化名称<br/> 类型：字符串 |
+| `CurVal` | `short` | get, set | 成就进度的步数 <br/> 类型：短整型 |
+| `MaxVal` | `short` | get, set | 成就中的总步数<br/>类型: short |
 
 
 
@@ -359,7 +359,7 @@
 
 ## 🔌 EventAchievementInfoLoaded
 
-事件“成就信息已加载”
+事件 "achievement_info_loaded"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -375,7 +375,7 @@
 
 ## 🔌 EventAchievementWriteFailed
 
-事件“成就写入失败”
+事件 "achievement_write_failed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -391,7 +391,7 @@
 
 ## 🔌 EventAddBulletHitMarker
 
-事件"add_bullet_hit_marker"
+事件 "添加子弹命中标记"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -406,17 +406,17 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Bone` | `short` | get, set | 类型：短整型 |
-| `PosX` | `short` | get, set | 类型：短整型 |
-| `PosY` | `short` | get, set | 类型：短整型 |
-| `PosZ` | `short` | get, set | 类型：短整型 |
-| `AngX` | `short` | get, set | 类型：短整型 |
-| `AngY` | `short` | get, set | 类型：短整型 |
-| `AngZ` | `short` | get, set | 类型：短整型 |
-| `StartX` | `short` | get, set | 类型：短整型 |
-| `StartY` | `short` | get, set | 类型：短整型 |
-| `StartZ` | `short` | get, set | 类型：短整型 |
-| `Hit` | `bool` | get, set | 类型：布尔值 |
+| `Bone` | `short` | get, set | type: short |
+| `PosX` | `short` | get, set | type: short |
+| `PosY` | `short` | get, set | type: short |
+| `PosZ` | `short` | get, set | type: short |
+| `AngX` | `short` | get, set | type: short |
+| `AngY` | `short` | get, set | type: short |
+| `AngZ` | `short` | get, set | type: short |
+| `StartX` | `short` | get, set | type: short |
+| `StartY` | `short` | get, set | type: short |
+| `StartZ` | `short` | get, set | type: short |
+| `Hit` | `bool` | get, set | 类型: bool |
 
 
 
@@ -426,7 +426,7 @@
 
 ## 🔌 EventAddPlayerSonarIcon
 
-事件 "add_player_sonar_icon"
+"添加玩家声纳图标"事件
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -441,9 +441,9 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `PosX` | `float` | get, set | 类型：浮点数 |
-| `PosY` | `float` | get, set | 类型：浮点数 |
-| `PosZ` | `float` | get, set | 类型：浮点数 |
+| `PosX` | `float` | get, set | 类型：float |
+| `PosY` | `float` | get, set | 类型：float |
+| `PosZ` | `float` | get, set | 类型：float |
 
 
 
@@ -453,7 +453,7 @@
 
 ## 🔌 EventAmmoPickup
 
-事件"ammo_pickup"
+事件 "ammo_pickup"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -468,8 +468,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Item` | `string` | get, set | 可以是诸如'tmp'或'hegrenade'的武器，也可以是诸如'nvgs'的物品<br/>类型：字符串 |
-| `Index` | `int` | get, set | 武器实体索引<br/>类型：long |
+| `Item` | `string` | get, set | 武器名称如 'tmp' 或 'hegrenade'，或物品名称如 'nvgs' <br/> 类型：字符串 |
+| `Index` | `int` | get, set | 武器实体索引 <br/> 类型：长整型 |
 
 
 
@@ -479,7 +479,7 @@
 
 ## 🔌 EventAmmoRefill
 
-事件"ammo_refill"
+事件 "ammo_refill"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -494,7 +494,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Success` | `bool` | get, set | 类型：布尔值 |
+| `Success` | `bool` | get, set | 类型: bool |
 
 
 
@@ -504,7 +504,7 @@
 
 ## 🔌 EventAnnouncePhaseEnd
 
-事件“宣布阶段结束”
+事件 "announce_phase_end"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -520,7 +520,7 @@
 
 ## 🔌 EventBeginNewMatch
 
-事件"begin_new_match"
+事件 "begin_new_match"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -536,7 +536,7 @@
 
 ## 🔌 EventBombAbortdefuse
 
-事件"bomb_abortdefuse"
+事件 "bomb_abortdefuse"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -548,9 +548,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 正在拆弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 正在拆弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 正在拆弹的玩家<br/>类型：player_controller_and_pawn |
+| `UserIdController` | `CCSPlayerController` | get | 正在拆除炸弹的玩家<br/>类型：玩家控制器与角色 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 正在拆除炸弹的玩家<br/>类型：玩家控制器与角色 |
+| `UserId` | `int` | get, set | 正在拆除炸弹的玩家<br/>类型：玩家控制器与角色 |
 
 
 
@@ -560,7 +560,7 @@
 
 ## 🔌 EventBombAbortplant
 
-事件“炸弹拆除中止”
+事件 "bomb_abortplant"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -572,10 +572,13 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 正在安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 正在安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 正在安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `Site` | `short` | get, set | 炸弹点索引<br/>类型：short |
+| `UserIdController` | `CCSPlayerController` | get | 正在放置炸弹的玩家  
+类型：player_controller_and_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 正在放置炸弹的玩家  
+类型：player_controller_and_pawn |
+| `UserId` | `int` | get, set | 正在放置炸弹的玩家  
+类型：player_controller_and_pawn |
+| `Site` | `short` | get, set | 炸弹点索引<br/> 类型: 短整型 |
 
 
 
@@ -597,7 +600,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntIndex` | `int` | get, set | c4 实体<br/>类型：long |
+| `EntIndex` | `int` | get, set | C4 实体<br/> 类型: 长整型 |
 
 
 
@@ -619,10 +622,13 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 正在拆弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 正在拆弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 正在拆弹的玩家<br/>类型：player_controller_and_pawn |
-| `HasKit` | `bool` | get, set | 类型：布尔值 |
+| `UserIdController` | `CCSPlayerController` | get | 正在进行拆弹的玩家  
+类型：玩家控制器及棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 正在进行拆弹的玩家  
+类型：玩家控制器及棋子 |
+| `UserId` | `int` | get, set | 正在进行拆弹的玩家  
+类型：玩家控制器及棋子 |
+| `HasKit` | `bool` | get, set | 类型: bool |
 
 
 
@@ -644,10 +650,13 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 正在安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 正在安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 正在安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `Site` | `short` | get, set | 炸弹点索引<br/>类型：short |
+| `UserIdController` | `CCSPlayerController` | get | 正在放置炸弹的玩家  
+类型：player_controller_and_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 正在放置炸弹的玩家  
+类型：player_controller_and_pawn |
+| `UserId` | `int` | get, set | 正在放置炸弹的玩家  
+类型：player_controller_and_pawn |
+| `Site` | `short` | get, set | 炸弹点索引<br/> 类型: 短整型 |
 
 
 
@@ -657,7 +666,7 @@
 
 ## 🔌 EventBombDefused
 
-事件"bomb_defused"
+事件 "炸弹拆除"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -669,10 +678,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 拆除炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 拆除炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 拆除炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `Site` | `short` | get, set | 炸弹点索引<br/>类型：short |
+| `UserIdController` | `CCSPlayerController` | get | 拆弹的玩家 <br/> 类型：玩家控制器与棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 拆弹的玩家 <br/> 类型：玩家控制器与棋子 |
+| `UserId` | `int` | get, set | 拆弹的玩家 <br/> 类型：玩家控制器与棋子 |
+| `Site` | `short` | get, set | 炸弹点索引<br/> 类型: 短整型 |
 
 
 
@@ -682,7 +691,7 @@
 
 ## 🔌 EventBombDropped
 
-事件 "bomb_dropped"（炸弹已投放）
+事件 "bomb_dropped"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -694,10 +703,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 投掷炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 投掷炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 投掷炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `EntIndex` | `int` | get, set | 类型：long |
+| `UserIdController` | `CCSPlayerController` | get | 投掷炸弹的玩家 <br/> 类型：玩家控制器与玩家角色 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 投掷炸弹的玩家 <br/> 类型：玩家控制器与玩家角色 |
+| `UserId` | `int` | get, set | 投掷炸弹的玩家 <br/> 类型：玩家控制器与玩家角色 |
+| `EntIndex` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -707,7 +716,7 @@
 
 ## 🔌 EventBombExploded
 
-事件“炸弹爆炸”
+事件 "bomb_exploded"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -719,10 +728,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `Site` | `short` | get, set | 炸弹点索引<br/>类型：short |
+| `UserIdController` | `CCSPlayerController` | get | 安装了炸弹的玩家<br/>类型: player_controller_and_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 安装了炸弹的玩家<br/>类型: player_controller_and_pawn |
+| `UserId` | `int` | get, set | 安装了炸弹的玩家<br/>类型: player_controller_and_pawn |
+| `Site` | `short` | get, set | 炸弹点索引<br/> 类型: 短整型 |
 
 
 
@@ -732,7 +741,7 @@
 
 ## 🔌 EventBombPickup
 
-事件"bomb_pickup"
+事件 "bomb_pickup"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -744,9 +753,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 拾起炸弹的玩家角色 <br/> 类型：player_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 拾起炸弹的玩家角色 <br/> 类型：player_pawn |
-| `UserId` | `int` | get, set | 拾起炸弹的玩家角色 <br/> 类型：player_pawn |
+| `UserIdController` | `CCSPlayerController` | get | 捡起炸弹的玩家棋子<br/> 类型: player_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 捡起炸弹的玩家棋子<br/> 类型: player_pawn |
+| `UserId` | `int` | get, set | 捡起炸弹的玩家棋子<br/> 类型: player_pawn |
 
 
 
@@ -756,7 +765,7 @@
 
 ## 🔌 EventBombPlanted
 
-事件 "bomb_planted"
+Event "bomb_planted"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -768,10 +777,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 安放炸弹的玩家<br/>类型：player_controller_and_pawn |
-| `Site` | `short` | get, set | 炸弹点索引<br/>类型：short |
+| `UserIdController` | `CCSPlayerController` | get | 安装了炸弹的玩家<br/>类型: player_controller_and_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 安装了炸弹的玩家<br/>类型: player_controller_and_pawn |
+| `UserId` | `int` | get, set | 安装了炸弹的玩家<br/>类型: player_controller_and_pawn |
+| `Site` | `short` | get, set | 炸弹点索引<br/> 类型: 短整型 |
 
 
 
@@ -781,7 +790,7 @@
 
 ## 🔌 EventBonusUpdated
 
-事件"bonus_updated"
+事件 "bonus_updated"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -793,10 +802,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `NumAdvanced` | `short` | get, set | 类型：短整型 |
-| `NumBronze` | `short` | get, set | 类型：短整型 |
-| `NumSilver` | `short` | get, set | 类型：短整型 |
-| `NumGold` | `short` | get, set | 类型：短整型 |
+| `NumAdvanced` | `short` | get, set | type: short |
+| `NumBronze` | `short` | get, set | type: short |
+| `NumSilver` | `short` | get, set | type: short |
+| `NumGold` | `short` | get, set | type: short |
 
 
 
@@ -806,7 +815,7 @@
 
 ## 🔌 EventBotTakeover
 
-事件"bot_takeover"
+事件 "bot_takeover"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -824,9 +833,9 @@
 | `BotIDController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `BotIDPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `BotID` | `int` | get, set | 类型：玩家控制器 |
-| `P` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `R` | `float` | get, set | 类型：浮点数 |
+| `P` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `R` | `float` | get, set | 类型：float |
 
 
 
@@ -836,7 +845,7 @@
 
 ## 🔌 EventBreakBreakable
 
-事件 "break_breakable"
+事件“break_breakable”
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -848,11 +857,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntIndex` | `int` | get, set | 类型：long |
-| `UserIdController` | `CCSPlayerController` | get | 类型：玩家生命体 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家生命体 |
-| `UserId` | `int` | get, set | 类型：玩家生命体 |
-| `Material` | `byte` | get, set | BREAK_GLASS、BREAK_WOOD 等 <br/>类型：byte |
+| `EntIndex` | `int` | get, set | 类型：长整型 |
+| `UserIdController` | `CCSPlayerController` | get | 类型: 玩家棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 类型: 玩家棋子 |
+| `UserId` | `int` | get, set | 类型: 玩家棋子 |
+| `Material` | `byte` | get, set | 玻璃击碎、木头击碎等<br/>类型：byte |
 
 
 
@@ -874,13 +883,13 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntIndex` | `int` | get, set | 类型：long |
-| `UserIdController` | `CCSPlayerController` | get | 类型：玩家生命体 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家生命体 |
-| `UserId` | `int` | get, set | 类型：玩家生命体 |
-| `PlayerHeld` | `bool` | get, set | 类型：布尔值 |
-| `PlayerThrown` | `bool` | get, set | 类型：布尔值 |
-| `PlayerDropped` | `bool` | get, set | 类型：布尔值 |
+| `EntIndex` | `int` | get, set | 类型：长整型 |
+| `UserIdController` | `CCSPlayerController` | get | 类型: 玩家棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 类型: 玩家棋子 |
+| `UserId` | `int` | get, set | 类型: 玩家棋子 |
+| `PlayerHeld` | `bool` | get, set | 类型: bool |
+| `PlayerThrown` | `bool` | get, set | 类型: bool |
+| `PlayerDropped` | `bool` | get, set | 类型: bool |
 
 
 
@@ -902,11 +911,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntIndex` | `int` | get, set | 类型：long |
-| `UserIdController` | `CCSPlayerController` | get | 类型：玩家生命体 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家生命体 |
-| `UserId` | `int` | get, set | 类型：玩家生命体 |
-| `Material` | `byte` | get, set | BREAK_GLASS、BREAK_WOOD 等 <br/>类型：byte |
+| `EntIndex` | `int` | get, set | 类型：长整型 |
+| `UserIdController` | `CCSPlayerController` | get | 类型: 玩家棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 类型: 玩家棋子 |
+| `UserId` | `int` | get, set | 类型: 玩家棋子 |
+| `Material` | `byte` | get, set | 玻璃击碎、木头击碎等<br/>类型：byte |
 
 
 
@@ -916,7 +925,7 @@
 
 ## 🔌 EventBulletDamage
 
-事件“子弹伤害”
+事件 "bullet_damage"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -928,34 +937,38 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `VictimController` | `CCSPlayerController` | get | 受伤玩家索引<br/>类型：player_controller_and_pawn |
-| `VictimPawn` | `CCSPlayerPawn` | get | 受伤玩家索引<br/>类型：player_controller_and_pawn |
-| `Victim` | `int` | get, set | 受伤玩家索引<br/>类型：player_controller_and_pawn |
-| `AttackerController` | `CCSPlayerController` | get | 攻击者的玩家索引<br/>类型：player_controller_and_pawn |
-| `AttackerPawn` | `CCSPlayerPawn` | get | 攻击者的玩家索引<br/>类型：player_controller_and_pawn |
-| `Attacker` | `int` | get, set | 攻击者的玩家索引<br/>类型：player_controller_and_pawn |
-| `Distance` | `float` | get, set | 子弹在击中玩家前飞行的距离<br/>类型：float |
-| `DamageDirX` | `float` | get, set | 子弹的方向向量<br/>类型：float |
-| `DamageDirY` | `float` | get, set | 子弹的方向向量<br/>类型：float |
-| `DamageDirZ` | `float` | get, set | 子弹的方向向量<br/>类型：float |
-| `NumPenetrations` | `byte` | get, set | 穿透的表面数量 <br/> 类型：字节 |
-| `NoScope` | `bool` | get, set | 射击者是否使用了消音器？<br/>类型：布尔值 |
-| `InAir` | `bool` | get, set | 射手是否在跳跃？<br/> 类型：布尔值 |
-| `ShootAngX` | `float` | get, set | 射击角度 X<br/>类型：浮点数 |
-| `ShootAngY` | `float` | get, set | 射击角度 Y<br/>类型：浮点数 |
-| `ShootAngZ` | `float` | get, set | 射击角度 Z<br/>类型：浮点数 |
-| `AimPunchX` | `float` | get, set | 瞄准后坐力 X<br/>类型：float |
-| `AimPunchY` | `float` | get, set | 瞄准后坐力 Y <br/> 类型：浮点数 |
-| `AimPunchZ` | `float` | get, set | 目标打击角度 <br/> 类型：浮点数 |
-| `AttackTickCount` | `int` | get, set | 攻击刻 <br/> 类型：int |
-| `AttackTickFrac` | `float` | get, set | 攻击进度 <br/> 类型：float |
-| `RenderTickCount` | `int` | get, set | 渲染刻 <br/> 类型：整数 |
-| `RenderTickFrac` | `float` | get, set | 渲染分数<br/>类型：浮点数 |
-| `InaccuracyTotal` | `float` | get, set | 总偏差 <br/> 类型：浮点数 |
-| `InaccuracyMove` | `float` | get, set | 移动精度误差<br/>类型：float |
-| `InaccuracyAir` | `float` | get, set | 空气不精准度<br/>类型：浮点数 |
-| `RecoilIndex` | `float` | get, set | 后坐力索引。是的，这确实是一个浮点数。<br/>类型：float |
-| `Type` | `int` | get, set | 延迟补偿类型 <br/> 类型：int |
+| `VictimController` | `CCSPlayerController` | get | 受伤的玩家索引 <br/> 类型: 玩家控制器与棋子 |
+| `VictimPawn` | `CCSPlayerPawn` | get | 受伤的玩家索引 <br/> 类型: 玩家控制器与棋子 |
+| `Victim` | `int` | get, set | 受伤的玩家索引 <br/> 类型: 玩家控制器与棋子 |
+| `AttackerController` | `CCSPlayerController` | get | 攻击者的玩家索引<br/>类型: player_controller_and_pawn |
+| `AttackerPawn` | `CCSPlayerPawn` | get | 攻击者的玩家索引<br/>类型: player_controller_and_pawn |
+| `Attacker` | `int` | get, set | 攻击者的玩家索引<br/>类型: player_controller_and_pawn |
+| `Distance` | `float` | get, set | 子弹击中玩家前的飞行距离  
+类型：浮点数 |
+| `DamageDirX` | `float` | get, set | 子弹的方向向量<br/>类型：浮点数 |
+| `DamageDirY` | `float` | get, set | 子弹的方向向量<br/>类型：浮点数 |
+| `DamageDirZ` | `float` | get, set | 子弹的方向向量<br/>类型：浮点数 |
+| `NumPenetrations` | `byte` | get, set | 穿透了多少个表面 <br/> 类型: byte |
+| `NoScope` | `bool` | get, set | 射手是否为盲狙？  
+类型：布尔值 |
+| `InAir` | `bool` | get, set | 射击者是否在跳跃？  
+类型：布尔值 |
+| `ShootAngX` | `float` | get, set | 射击角度 X <br/> 类型：浮点数 |
+| `ShootAngY` | `float` | get, set | 射击角度 y <br/> 类型：浮点数 |
+| `ShootAngZ` | `float` | get, set | 射击角度 Z <br/> 类型：浮点型 |
+| `AimPunchX` | `float` | get, set | 瞄准抖动X <br/> 类型：浮点数 |
+| `AimPunchY` | `float` | get, set | 瞄准抖动Y轴<br/>类型：浮点数 |
+| `AimPunchZ` | `float` | get, set | 瞄准冲击Z <br/> 类型：浮点数 |
+| `AttackTickCount` | `int` | get, set | 攻击刻 <br/> 类型：整数 |
+| `AttackTickFrac` | `float` | get, set | 攻击系数  
+类型：浮点数 |
+| `RenderTickCount` | `int` | get, set | 渲染帧 <br/> 类型: 整型 |
+| `RenderTickFrac` | `float` | get, set | 渲染碎片 <br/> 类型：浮点数 |
+| `InaccuracyTotal` | `float` | get, set | 总不精确度 <br/> 类型：浮点数 |
+| `InaccuracyMove` | `float` | get, set | 移动不精确度<br/> 类型：浮点数 |
+| `InaccuracyAir` | `float` | get, set | 空中不精准度 <br/> 类型: 浮点数 |
+| `RecoilIndex` | `float` | get, set | 后坐力索引。是的，这确实是一个浮点数。 <br/> 类型：浮点数 |
+| `Type` | `int` | get, set | 延迟补偿类型<br/> 类型: 整数 |
 
 
 
@@ -980,9 +993,9 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -1016,7 +1029,7 @@
 
 ## 🔌 EventBuymenuOpen
 
-事件"buymenu_open"
+事件 "buymenu_open"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1048,7 +1061,7 @@
 
 ## 🔌 EventCartUpdated
 
-事件"cart_updated"
+事件 "cart_updated"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1064,7 +1077,7 @@
 
 ## 🔌 EventChoppersIncomingWarning
 
-事件"choppers_incoming_warning"
+事件 "choppers_incoming_warning"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1076,7 +1089,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Global` | `bool` | get, set | 类型：布尔值 |
+| `Global` | `bool` | get, set | 类型: bool |
 
 
 
@@ -1086,7 +1099,7 @@
 
 ## 🔌 EventClientDisconnect
 
-事件"client_disconnect"
+事件 "client_disconnect"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1102,7 +1115,7 @@
 
 ## 🔌 EventClientLoadoutChanged
 
-事件“客户端装备配置已更改”
+事件 "client_loadout_changed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1118,7 +1131,7 @@
 
 ## 🔌 EventClientsideLessonClosed
 
-事件 "客户端课程已关闭"
+事件 "clientside_lesson_closed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1130,7 +1143,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `LessonName` | `string` | get, set | 类型：字符串 |
+| `LessonName` | `string` | get, set | 类型: 字符串 |
 
 
 
@@ -1140,7 +1153,7 @@
 
 ## 🔌 EventClientsideReloadCustomEcon
 
-事件 "客户端端重新加载自定义经济"
+事件 "clientside_reload_custom_econ"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1152,7 +1165,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `SteamID` | `string` | get, set | 类型：字符串 |
+| `SteamID` | `string` | get, set | 类型: 字符串 |
 
 
 
@@ -1162,7 +1175,7 @@
 
 ## 🔌 EventCoreGameEvents
 
-事件：“核心游戏事件”
+事件 "核心游戏事件"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1178,7 +1191,7 @@
 
 ## 🔌 EventCsGameDisconnected
 
-事件"cs_game_disconnected"
+事件 "cs_game_disconnected"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1194,7 +1207,7 @@
 
 ## 🔌 EventCsIntermission
 
-事件"cs_intermission"
+事件 "cs_intermission"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1226,7 +1239,7 @@
 
 ## 🔌 EventCsPreRestart
 
-事件"cs_pre_restart"
+事件 "cs_pre_restart"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1242,7 +1255,7 @@
 
 ## 🔌 EventCsPrevNextSpectator
 
-事件"cs_prev_next_spectator"
+事件 "cs_prev_next_spectator"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1254,7 +1267,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Next` | `bool` | get, set | 类型：布尔值 |
+| `Next` | `bool` | get, set | 类型: bool |
 
 
 
@@ -1280,7 +1293,7 @@
 
 ## 🔌 EventCsRoundStartBeep
 
-事件"cs_round_start_beep"
+事件“cs_round_start_beep”
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1296,7 +1309,7 @@
 
 ## 🔌 EventCsWinPanelMatch
 
-事件"cs_win_panel_match"
+事件 "cs_win_panel_match"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1312,7 +1325,7 @@
 
 ## 🔌 EventCsWinPanelRound
 
-事件"cs_win_panel_round"
+事件 "cs_win_panel_round"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1324,17 +1337,17 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ShowTimerDefend` | `bool` | get, set | 类型：布尔值 |
-| `ShowTimerAttack` | `bool` | get, set | 类型：布尔值 |
-| `TimerTime` | `short` | get, set | 类型：短整型 |
-| `FinalEvent` | `byte` | get, set | 在 cs_gamerules.h 中定义<br/>类型：字节 |
-| `FunfactToken` | `string` | get, set | 类型：字符串 |
+| `ShowTimerDefend` | `bool` | get, set | 类型: bool |
+| `ShowTimerAttack` | `bool` | get, set | 类型: bool |
+| `TimerTime` | `short` | get, set | type: short |
+| `FinalEvent` | `byte` | get, set | 在 cs_gamerules.h 中定义 <br/> 类型：字节 |
+| `FunfactToken` | `string` | get, set | 类型: 字符串 |
 | `FunfactPlayerController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `FunfactPlayerPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `FunfactPlayer` | `int` | get, set | 类型：玩家控制器 |
-| `FunfactData1` | `int` | get, set | 类型：long |
-| `FunfactData2` | `int` | get, set | 类型：long |
-| `FunfactData3` | `int` | get, set | 类型：long |
+| `FunfactData1` | `int` | get, set | 类型：长整型 |
+| `FunfactData2` | `int` | get, set | 类型：长整型 |
+| `FunfactData3` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -1344,7 +1357,7 @@
 
 ## 🔌 EventCstrikeevents
 
-事件"cstrikeevents"
+事件 "cstrikeevents"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1360,7 +1373,7 @@
 
 ## 🔌 EventDecoyDetonate
 
-事件"decoy_detonate"
+decoy_detonate 事件
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1375,10 +1388,10 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -1388,7 +1401,7 @@
 
 ## 🔌 EventDecoyFiring
 
-事件"decoy_firing"
+事件 "decoy_firing"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1403,10 +1416,10 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -1416,7 +1429,7 @@
 
 ## 🔌 EventDecoyStarted
 
-事件"投掷闪光弹开始”
+事件 "诱饵弹已部署"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1428,13 +1441,13 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 类型：玩家生命体 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家生命体 |
-| `UserId` | `int` | get, set | 类型：玩家生命体 |
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `UserIdController` | `CCSPlayerController` | get | 类型: 玩家棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 类型: 玩家棋子 |
+| `UserId` | `int` | get, set | 类型: 玩家棋子 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -1456,7 +1469,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntityID` | `int` | get, set | 拆弹者的实体 ID<br/>类型：long |
+| `EntityID` | `int` | get, set | defuser 的实体 ID<br/>类型：长整型 |
 
 
 
@@ -1478,10 +1491,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntityID` | `int` | get, set | 拆弹者的实体 ID<br/>类型：long |
-| `UserIdController` | `CCSPlayerController` | get | 拾取拆弹器的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 拾取拆弹器的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 拾取拆弹器的玩家<br/>类型：player_controller_and_pawn |
+| `EntityID` | `int` | get, set | defuser 的实体 ID<br/>类型：长整型 |
+| `UserIdController` | `CCSPlayerController` | get | 拾取拆弹器的玩家 <br/> 类型：玩家控制器与Pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 拾取拆弹器的玩家 <br/> 类型：玩家控制器与Pawn |
+| `UserId` | `int` | get, set | 拾取拆弹器的玩家 <br/> 类型：玩家控制器与Pawn |
 
 
 
@@ -1491,7 +1504,7 @@
 
 ## 🔌 EventDemoSkip
 
-事件"demo_skip"
+事件 "demo_skip"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1503,8 +1516,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PlaybackTick` | `int` | get, set | 当前播放的 tick（游戏帧）<br/>类型：long |
-| `SkiptoTick` | `int` | get, set | tick 表示游戏逻辑更新次数，类型为 long（长整型） |
+| `PlaybackTick` | `int` | get, set | 当前回放帧<br/> 类型：长整型 |
+| `SkiptoTick` | `int` | get, set | 当前游戏刻<br/>类型：长整型 |
 
 
 
@@ -1530,7 +1543,7 @@
 
 ## 🔌 EventDemoStop
 
-事件"demo_stop"
+事件 "demo_stop"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1546,7 +1559,7 @@
 
 ## 🔌 EventDifficultyChanged
 
-事件"difficulty_changed"
+事件 "difficulty_changed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1558,9 +1571,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `NewDifficulty` | `short` | get, set | 类型：短整型 |
-| `OldDifficulty` | `short` | get, set | 类型：短整型 |
-| `StrDifficulty` | `string` | get, set | 新的难度（作为字符串）<br/>类型：字符串 |
+| `NewDifficulty` | `short` | get, set | type: short |
+| `OldDifficulty` | `short` | get, set | type: short |
+| `StrDifficulty` | `string` | get, set | 新的难度（字符串形式）  
+类型：字符串 |
 
 
 
@@ -1582,8 +1596,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Time` | `short` | get, set | 该奖励持续的时间长度<br/>类型：short |
-| `Pos` | `short` | get, set | 奖励武器的装备槽位置<br/>类型：短整型 |
+| `Time` | `short` | get, set | 此加成持续的时长 <br/> 类型: short |
+| `Pos` | `short` | get, set | 奖励武器的装载位置<br/> 类型：short |
 
 
 
@@ -1605,8 +1619,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntIndex` | `int` | get, set | 类型：long |
-| `DMgState` | `int` | get, set | 类型：long |
+| `EntIndex` | `int` | get, set | 类型：长整型 |
+| `DMgState` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -1616,7 +1630,7 @@
 
 ## 🔌 EventDoorClose
 
-事件 "door_close"
+Event "door_close"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1628,10 +1642,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 谁关上了门<br/>类型：玩家pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 谁关上了门<br/>类型：玩家pawn |
-| `UserId` | `int` | get, set | 谁关上了门<br/>类型：玩家pawn |
-| `Checkpoint` | `bool` | get, set | 门是否为检查点门<br/>类型：布尔值 |
+| `UserIdController` | `CCSPlayerController` | get | 谁关闭了门 <br/> 类型: 玩家棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 谁关闭了门 <br/> 类型: 玩家棋子 |
+| `UserId` | `int` | get, set | 谁关闭了门 <br/> 类型: 玩家棋子 |
+| `Checkpoint` | `bool` | get, set | 门是否为检查点门<br/> 类型：布尔 |
 
 
 
@@ -1641,7 +1655,7 @@
 
 ## 🔌 EventDoorClosed
 
-事件“门已关闭”
+事件 "door_closed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1653,10 +1667,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 谁关上了门<br/>类型：玩家pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 谁关上了门<br/>类型：玩家pawn |
-| `UserId` | `int` | get, set | 谁关上了门<br/>类型：玩家pawn |
-| `EntIndex` | `int` | get, set | 类型：long |
+| `UserIdController` | `CCSPlayerController` | get | 谁关闭了门 <br/> 类型: 玩家棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 谁关闭了门 <br/> 类型: 玩家棋子 |
+| `UserId` | `int` | get, set | 谁关闭了门 <br/> 类型: 玩家棋子 |
+| `EntIndex` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -1666,7 +1680,7 @@
 
 ## 🔌 EventDoorMoving
 
-事件“door_moving"
+事件 "door_moving"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1681,7 +1695,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `EntIndex` | `int` | get, set | 类型：long |
+| `EntIndex` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -1703,10 +1717,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 谁关上了门<br/>类型：玩家pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 谁关上了门<br/>类型：玩家pawn |
-| `UserId` | `int` | get, set | 谁关上了门<br/>类型：玩家pawn |
-| `EntIndex` | `int` | get, set | 类型：long |
+| `UserIdController` | `CCSPlayerController` | get | 谁关闭了门 <br/> 类型: 玩家棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 谁关闭了门 <br/> 类型: 玩家棋子 |
+| `UserId` | `int` | get, set | 谁关闭了门 <br/> 类型: 玩家棋子 |
+| `EntIndex` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -1716,7 +1730,7 @@
 
 ## 🔌 EventDroneAboveRoof
 
-事件"drone_above_roof"
+事件 "drone_above_roof"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1731,7 +1745,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Cargo` | `short` | get, set | 类型：短整型 |
+| `Cargo` | `short` | get, set | type: short |
 
 
 
@@ -1741,7 +1755,7 @@
 
 ## 🔌 EventDroneCargoDetached
 
-事件 "drone_cargo_detached"（无人机货物已分离）
+事件 "drone_cargo_detached"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1756,8 +1770,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Cargo` | `short` | get, set | 类型：短整型 |
-| `Delivered` | `bool` | get, set | 类型：布尔值 |
+| `Cargo` | `short` | get, set | type: short |
+| `Delivered` | `bool` | get, set | 类型: bool |
 
 
 
@@ -1767,7 +1781,7 @@
 
 ## 🔌 EventDroneDispatched
 
-事件"drone_dispatched"
+事件 "drone_dispatched"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1782,8 +1796,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Priority` | `short` | get, set | 类型：短整型 |
-| `DroneDispatched` | `short` | get, set | 类型：短整型 |
+| `Priority` | `short` | get, set | type: short |
+| `DroneDispatched` | `short` | get, set | type: short |
 
 
 
@@ -1817,7 +1831,7 @@
 
 ## 🔌 EventDropRateModified
 
-事件"drop_rate_modified"
+事件 "drop_rate_modified"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1861,11 +1875,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 玩家实体索引<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家实体索引<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 玩家实体索引<br/>类型：玩家控制器 |
-| `Subject` | `short` | get, set | 木箱实体索引<br/>类型：短整型 |
-| `Type` | `string` | get, set | 箱子的类型（金属、木质或空投）<br/> type: string |
+| `UserIdController` | `CCSPlayerController` | get | 玩家实体索引<br/>类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家实体索引<br/>类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 玩家实体索引<br/>类型: 玩家控制器 |
+| `Subject` | `short` | get, set | crate entindex <br/> 类型: short |
+| `Type` | `string` | get, set | 板条箱类型（金属、木质或空投）<br/> 类型：字符串 |
 
 
 
@@ -1875,7 +1889,7 @@
 
 ## 🔌 EventEnableRestartVoting
 
-事件"enable_restart_voting"
+事件 "enable_restart_voting"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1887,7 +1901,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Enable` | `bool` | get, set | 类型：布尔值 |
+| `Enable` | `bool` | get, set | 类型: bool |
 
 
 
@@ -1913,7 +1927,7 @@
 
 ## 🔌 EventEndmatchMapvoteSelectingMap
 
-事件"endmatch_mapvote_selecting_map"
+事件 "endmatch_mapvote_selecting_map"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1925,17 +1939,17 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Count` | `byte` | get, set | “平局”数量<br/>类型：字节 |
-| `Slot1` | `byte` | get, set | 类型：字节 |
-| `Slot2` | `byte` | get, set | 类型：字节 |
-| `Slot3` | `byte` | get, set | 类型：字节 |
-| `Slot4` | `byte` | get, set | 类型：字节 |
-| `Slot5` | `byte` | get, set | 类型：字节 |
-| `Slot6` | `byte` | get, set | 类型：字节 |
-| `Slot7` | `byte` | get, set | 类型：字节 |
-| `Slot8` | `byte` | get, set | 类型：字节 |
-| `Slot9` | `byte` | get, set | 类型：字节 |
-| `Slot10` | `byte` | get, set | 类型：字节 |
+| `Count` | `byte` | get, set | 平局数 <br/> 类型：字节 |
+| `Slot1` | `byte` | get, set | 类型: 字节 |
+| `Slot2` | `byte` | get, set | 类型: 字节 |
+| `Slot3` | `byte` | get, set | 类型: 字节 |
+| `Slot4` | `byte` | get, set | 类型: 字节 |
+| `Slot5` | `byte` | get, set | 类型: 字节 |
+| `Slot6` | `byte` | get, set | 类型: 字节 |
+| `Slot7` | `byte` | get, set | 类型: 字节 |
+| `Slot8` | `byte` | get, set | 类型: 字节 |
+| `Slot9` | `byte` | get, set | 类型: 字节 |
+| `Slot10` | `byte` | get, set | 类型: 字节 |
 
 
 
@@ -1945,7 +1959,7 @@
 
 ## 🔌 EventEnterBombzone
 
-事件"enter_bombzone"
+事件 "enter_bombzone"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1960,8 +1974,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `HasBomb` | `bool` | get, set | 类型：布尔值 |
-| `IsPlanted` | `bool` | get, set | 类型：布尔值 |
+| `HasBomb` | `bool` | get, set | 类型: bool |
+| `IsPlanted` | `bool` | get, set | 类型: bool |
 
 
 
@@ -1971,7 +1985,7 @@
 
 ## 🔌 EventEnterBuyzone
 
-事件"enter_buyzone"
+Event "enter_buyzone"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -1986,7 +2000,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `CanBuy` | `bool` | get, set | 类型：布尔值 |
+| `CanBuy` | `bool` | get, set | 类型: bool |
 
 
 
@@ -1996,7 +2010,7 @@
 
 ## 🔌 EventEnterRescueZone
 
-事件“进入救援区域”
+事件 "进入救援区域"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2032,10 +2046,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntindexKilled` | `int` | get, set | 类型：long |
-| `EntindexAttacker` | `int` | get, set | 类型：long |
-| `EntindexInflictor` | `int` | get, set | 类型：long |
-| `DamageBits` | `int` | get, set | 类型：long |
+| `EntindexKilled` | `int` | get, set | 类型：长整型 |
+| `EntindexAttacker` | `int` | get, set | 类型：长整型 |
+| `EntindexInflictor` | `int` | get, set | 类型：长整型 |
+| `DamageBits` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -2045,7 +2059,7 @@
 
 ## 🔌 EventEntityVisible
 
-事件"entity_visible"
+Event "entity_visible"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2057,12 +2071,12 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 能够看到该实体的玩家<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 能够看到该实体的玩家<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 能够看到该实体的玩家<br/>类型：player_controller |
-| `Subject` | `int` | get, set | 它们所见的实体的实体索引 <br/> 类型：长整型 |
-| `ClassName` | `string` | get, set | 他们所见实体的类名 <br/> 类型：字符串 |
-| `EntityName` | `string` | get, set | 他们看到的实体的名称<br/>类型：字符串 |
+| `UserIdController` | `CCSPlayerController` | get | 观察到实体的玩家 <br/> 类型: player_controller |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 观察到实体的玩家 <br/> 类型: player_controller |
+| `UserId` | `int` | get, set | 观察到实体的玩家 <br/> 类型: player_controller |
+| `Subject` | `int` | get, set | 他们看到的实体的Entindex <br/> 类型：long |
+| `ClassName` | `string` | get, set | 他们看到的实体类名<br/>类型：字符串 |
+| `EntityName` | `string` | get, set | 实体名称（他们所见）<br/>类型：字符串 |
 
 
 
@@ -2103,8 +2117,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `HasBomb` | `bool` | get, set | 类型：布尔值 |
-| `IsPlanted` | `bool` | get, set | 类型：布尔值 |
+| `HasBomb` | `bool` | get, set | 类型: bool |
+| `IsPlanted` | `bool` | get, set | 类型: bool |
 
 
 
@@ -2114,7 +2128,7 @@
 
 ## 🔌 EventExitBuyzone
 
-事件“退出购买区域”
+事件 "exit_buyzone"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2129,7 +2143,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `CanBuy` | `bool` | get, set | 类型：布尔值 |
+| `CanBuy` | `bool` | get, set | 类型: bool |
 
 
 
@@ -2139,7 +2153,7 @@
 
 ## 🔌 EventExitRescueZone
 
-事件 "exit_rescue_zone"
+Event "exit_rescue_zone"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2163,7 +2177,7 @@
 
 ## 🔌 EventFinaleStart
 
-事件"finale_start"
+事件 "finale_start"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2175,7 +2189,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Rushes` | `short` | get, set | 类型：短整型 |
+| `Rushes` | `short` | get, set | type: short |
 
 
 
@@ -2185,7 +2199,7 @@
 
 ## 🔌 EventFirstbombsIncomingWarning
 
-事件"firstbombs_incoming_warning"
+事件 "firstbombs_incoming_warning"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2197,7 +2211,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Global` | `bool` | get, set | 类型：布尔值 |
+| `Global` | `bool` | get, set | 类型: bool |
 
 
 
@@ -2207,7 +2221,7 @@
 
 ## 🔌 EventFlareIgniteNpc
 
-事件"flare_ignite_npc"
+事件 "flare_ignite_npc"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2219,7 +2233,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntIndex` | `int` | get, set | 实体已点燃<br/>类型：长整型 |
+| `EntIndex` | `int` | get, set | 实体点燃  
+类型：长整型 |
 
 
 
@@ -2229,7 +2244,7 @@
 
 ## 🔌 EventFlashbangDetonate
 
-事件 "闪光弹引爆"
+事件 "flashbang_detonate"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2244,10 +2259,10 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -2257,7 +2272,7 @@
 
 ## 🔌 EventGameEnd
 
-事件"game_end"：游戏结束
+Event "game_end" 一场游戏结束
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2269,7 +2284,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Winner` | `byte` | get, set | 获胜方队伍/用户 ID <br/> 类型：byte |
+| `Winner` | `byte` | get, set | 胜者队伍/用户ID <br/> 类型：字节 |
 
 
 
@@ -2279,7 +2294,7 @@
 
 ## 🔌 EventGameInit
 
-当新游戏启动时发送"game_init"事件
+事件 "game_init" 在新游戏开始时发送
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2295,7 +2310,7 @@
 
 ## 🔌 EventGameMessage
 
-事件 "game_message"：由游戏逻辑向所有玩家发送的消息
+事件 "game_message"：游戏逻辑向所有玩家发送的消息
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2307,8 +2322,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Target` | `byte` | get, set | 0 = 控制台，1 = HUD <br/> 类型：字节 |
-| `Text` | `string` | get, set | 消息文本<br/>类型：字符串 |
+| `Target` | `byte` | get, set | 0 = 控制台, 1 = 抬头显示器 <br/> 类型: 字节 |
+| `Text` | `string` | get, set | 消息文本 <br/> 类型：字符串 |
 
 
 
@@ -2318,7 +2333,7 @@
 
 ## 🔌 EventGameNewmap
 
-事件 "game_newmap" 在新地图完全加载时发送。
+事件 "game_newmap" 在新地图完全加载时发送
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2331,7 +2346,7 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `MapName` | `string` | get, set | 地图名称<br/>类型：字符串 |
-| `Transition` | `bool` | get, set | 若此为从一张地图过渡到另一张地图，则为 true <br/> 类型：布尔值 |
+| `Transition` | `bool` | get, set | 如果这是从一个地图到另一个地图的过渡，则为 true <br/> 类型：布尔 |
 
 
 
@@ -2341,7 +2356,7 @@
 
 ## 🔌 EventGamePhaseChanged
 
-事件 "game_phase_changed"（游戏阶段变更）
+事件 "game_phase_changed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2353,7 +2368,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `NewPhase` | `short` | get, set | 类型：短整型 |
+| `NewPhase` | `short` | get, set | type: short |
 
 
 
@@ -2363,7 +2378,7 @@
 
 ## 🔌 EventGameStart
 
-事件 "game_start"：新游戏开始
+事件 "game_start" 一个新游戏开始
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2375,10 +2390,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `RoundsLimit` | `int` | get, set | 最大回合数<br/>类型：long |
-| `TimeLimit` | `int` | get, set | 时间限制<br/>类型：long |
-| `FragLimit` | `int` | get, set | 击杀数上限<br/>类型：long |
-| `Objective` | `string` | get, set | 回合目标<br/>类型：字符串 |
+| `RoundsLimit` | `int` | get, set | 最大回合数<br/>类型：长整型 |
+| `TimeLimit` | `int` | get, set | 时间限制 <br/> 类型: long |
+| `FragLimit` | `int` | get, set | frag 限制  
+类型：long |
+| `Objective` | `string` | get, set | 回合目标 <br/> 类型: 字符串 |
 
 
 
@@ -2404,7 +2420,7 @@
 
 ## 🔌 EventGameinstructorDraw
 
-事件"gameinstructor_draw"
+事件 "gameinstructor_draw"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2480,15 +2496,16 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `VictimIDController` | `CCSPlayerController` | get | 死亡玩家的用户 ID<br/>类型：player_controller |
-| `VictimIDPawn` | `CCSPlayerPawn` | get | 死亡玩家的用户 ID<br/>类型：player_controller |
-| `VictimID` | `int` | get, set | 死亡玩家的用户 ID<br/>类型：player_controller |
-| `AttackerIDController` | `CCSPlayerController` | get | 击杀者的用户 ID<br/>类型：player_controller |
-| `AttackerIDPawn` | `CCSPlayerPawn` | get | 击杀者的用户 ID<br/>类型：player_controller |
-| `AttackerID` | `int` | get, set | 击杀者的用户 ID<br/>类型：player_controller |
-| `Dominated` | `short` | get, set | 该击杀是否使凶手支配了受害者 <br/> 类型：short |
-| `Revenge` | `short` | get, set | 该击杀是否使杀手对受害者进行了复仇 <br/> 类型：short |
-| `Bonus` | `bool` | get, set | 杀手是否使用附带武器击杀？<br/>类型：布尔值 |
+| `VictimIDController` | `CCSPlayerController` | get | 死亡用户的ID <br/> 类型: player_controller |
+| `VictimIDPawn` | `CCSPlayerPawn` | get | 死亡用户的ID <br/> 类型: player_controller |
+| `VictimID` | `int` | get, set | 死亡用户的ID <br/> 类型: player_controller |
+| `AttackerIDController` | `CCSPlayerController` | get | 杀死该用户的ID <br/> 类型: player_controller |
+| `AttackerIDPawn` | `CCSPlayerPawn` | get | 杀死该用户的ID <br/> 类型: player_controller |
+| `AttackerID` | `int` | get, set | 杀死该用户的ID <br/> 类型: player_controller |
+| `Dominated` | `short` | get, set | 杀手是否以此击杀压制了受害者 <br/> 类型: short |
+| `Revenge` | `short` | get, set | 杀手是否借助此次击杀成功复仇受害者  
+类型：短整型 |
+| `Bonus` | `bool` | get, set | 杀手是否使用奖励武器击杀？<br/> 类型：布尔 |
 
 
 
@@ -2498,7 +2515,7 @@
 
 ## 🔌 EventGrenadeBounce
 
-事件"grenade_bounce"
+事件 "grenade_bounce"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2522,7 +2539,7 @@
 
 ## 🔌 EventGrenadeThrown
 
-事件"grenade_thrown"
+"手雷投掷"事件
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2537,7 +2554,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `Weapon` | `string` | get, set | 武器名称，类型：字符串 |
+| `Weapon` | `string` | get, set | 武器名称<br/>类型：字符串 |
 
 
 
@@ -2547,7 +2564,7 @@
 
 ## 🔌 EventGuardianWaveRestart
 
-事件"guardian_wave_restart"
+事件 "guardian_wave_restart"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2563,7 +2580,7 @@
 
 ## 🔌 EventHegrenadeDetonate
 
-事件 "hegrenade_detonate"
+Event "hegrenade_detonate"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2578,10 +2595,10 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -2591,7 +2608,7 @@
 
 ## 🔌 EventHelicopterGrenadePuntMiss
 
-事件"helicopter_grenade_punt_miss"
+事件 "helicopter_grenade_punt_miss"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2623,7 +2640,7 @@
 
 ## 🔌 EventHltvCameraman
 
-事件"hltv_cameraman"：一名观众/玩家担任摄像师
+事件 "hltv_cameraman" 一名观察者/玩家成为摄像师
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2635,9 +2652,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 摄像机操作者实体索引<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 摄像机操作者实体索引<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 摄像机操作者实体索引<br/>类型：玩家控制器 |
+| `UserIdController` | `CCSPlayerController` | get | 相机操作者实体索引<br/>类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 相机操作者实体索引<br/>类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 相机操作者实体索引<br/>类型: 玩家控制器 |
 
 
 
@@ -2647,7 +2664,7 @@
 
 ## 🔌 EventHltvChangedMode
 
-事件"hltv_changed_mode"
+事件 "hltv_changed_mode"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2659,9 +2676,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `OldMode` | `int` | get, set | 类型：long |
-| `NewMode` | `int` | get, set | 类型：long |
-| `ObsTarget` | `int` | get, set | 类型：long |
+| `OldMode` | `int` | get, set | 类型：长整型 |
+| `NewMode` | `int` | get, set | 类型：长整型 |
+| `ObsTarget` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -2671,7 +2688,7 @@
 
 ## 🔌 EventHltvChase
 
-事件"hltv_chase"：单个实体的镜头
+事件 "hltv_chase" 针对单个实体的镜头
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2683,17 +2700,17 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Target1Controller` | `CCSPlayerController` | get | 主目标索引<br/>类型：player_controller |
-| `Target1Pawn` | `CCSPlayerPawn` | get | 主目标索引<br/>类型：player_controller |
-| `Target1` | `int` | get, set | 主目标索引<br/>类型：player_controller |
-| `Target2Controller` | `CCSPlayerController` | get | 次要目标索引或为 0<br/>类型：玩家控制器 |
-| `Target2Pawn` | `CCSPlayerPawn` | get | 次要目标索引或为 0<br/>类型：玩家控制器 |
-| `Target2` | `int` | get, set | 次要目标索引或为 0<br/>类型：玩家控制器 |
-| `Distance` | `short` | get, set | 相机距离<br/>类型：短整型（short） |
-| `Theta` | `short` | get, set | 视角水平角度<br/>类型：短整型 |
-| `Phi` | `short` | get, set | 视图角垂直 <br/> 类型：short |
-| `Inertia` | `byte` | get, set | 相机惯性<br/>类型：字节 |
-| `InEye` | `byte` | get, set | 导演建议显示在眼睛中<br/>类型：字节 |
+| `Target1Controller` | `CCSPlayerController` | get | 主要目标索引<br/>类型：玩家控制器 |
+| `Target1Pawn` | `CCSPlayerPawn` | get | 主要目标索引<br/>类型：玩家控制器 |
+| `Target1` | `int` | get, set | 主要目标索引<br/>类型：玩家控制器 |
+| `Target2Controller` | `CCSPlayerController` | get | 次要目标索引或0 <br/> 类型: player_controller |
+| `Target2Pawn` | `CCSPlayerPawn` | get | 次要目标索引或0 <br/> 类型: player_controller |
+| `Target2` | `int` | get, set | 次要目标索引或0 <br/> 类型: player_controller |
+| `Distance` | `short` | get, set | 摄像机距离 <br/> 类型：短整型 |
+| `Theta` | `short` | get, set | 视角水平角 <br/> 类型：短整型 |
+| `Phi` | `short` | get, set | 视角垂直角度<br/> 类型：短整型 |
+| `Inertia` | `byte` | get, set | 相机惯性 <br/> 类型：字节 |
+| `InEye` | `byte` | get, set | 导演建议在游戏中显示 <br/> 类型: 字节 |
 
 
 
@@ -2703,7 +2720,7 @@
 
 ## 🔌 EventHltvChat
 
-事件"hltv_chat"：由观众发送的HLTV聊天消息
+事件 "hltv_chat" 观众发送的HLTV聊天消息
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2715,8 +2732,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Text` | `string` | get, set | 类型：字符串 |
-| `SteamID` | `ulong` | get, set | Steam ID<br/>类型：uint64 |
+| `Text` | `string` | get, set | 类型: 字符串 |
+| `SteamID` | `ulong` | get, set | steam ID <br/> 类型：uint64 |
 
 
 
@@ -2726,7 +2743,7 @@
 
 ## 🔌 EventHltvFixed
 
-事件"hltv_fixed"从固定视角显示
+事件 "hltv_fixed" 从固定视角展示
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2738,16 +2755,16 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PosX` | `int` | get, set | 世界中的相机位置<br/>类型：长整型（long） |
-| `Posy` | `int` | get, set | 类型：long |
-| `PosZ` | `int` | get, set | 类型：long |
-| `Theta` | `short` | get, set | 相机角度<br/>类型：short |
-| `Phi` | `short` | get, set | 类型：短整型 |
-| `Offset` | `short` | get, set | 类型：短整型 |
-| `FOv` | `float` | get, set | 类型：浮点数 |
-| `TargetController` | `CCSPlayerController` | get | 跟随此玩家<br/>类型：player_controller |
-| `TargetPawn` | `CCSPlayerPawn` | get | 跟随此玩家<br/>类型：player_controller |
-| `Target` | `int` | get, set | 跟随此玩家<br/>类型：player_controller |
+| `PosX` | `int` | get, set | 摄像机在世界空间中的位置 <br/> 类型：长整型 |
+| `Posy` | `int` | get, set | 类型：长整型 |
+| `PosZ` | `int` | get, set | 类型：长整型 |
+| `Theta` | `short` | get, set | 摄像机角度 <br/> 类型: short |
+| `Phi` | `short` | get, set | type: short |
+| `Offset` | `short` | get, set | type: short |
+| `FOv` | `float` | get, set | 类型：float |
+| `TargetController` | `CCSPlayerController` | get | 跟随此玩家<br/>类型：玩家控制器 |
+| `TargetPawn` | `CCSPlayerPawn` | get | 跟随此玩家<br/>类型：玩家控制器 |
+| `Target` | `int` | get, set | 跟随此玩家<br/>类型：玩家控制器 |
 
 
 
@@ -2757,7 +2774,7 @@
 
 ## 🔌 EventHltvMessage
 
-事件"hltv_message"：由管理员发送的 HLTV 消息
+事件 "hltv_message" 由管理员发送的HLTV消息
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2769,7 +2786,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Text` | `string` | get, set | 类型：字符串 |
+| `Text` | `string` | get, set | 类型: 字符串 |
 
 
 
@@ -2779,7 +2796,7 @@
 
 ## 🔌 EventHltvRankCamera
 
-事件"hltv_rank_camera"：一个用于排名视角的相机
+事件 "hltv_rank_camera" 摄像机排名
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2791,11 +2808,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Index` | `byte` | get, set | 固定摄像机索引<br/>类型：byte |
-| `Rank` | `float` | get, set | 排名：此摄像机视角的趣味性如何<br/>类型：浮点数 |
-| `TargetController` | `CCSPlayerController` | get | 最佳/最近的目标实体<br/>类型：player_controller |
-| `TargetPawn` | `CCSPlayerPawn` | get | 最佳/最近的目标实体<br/>类型：player_controller |
-| `Target` | `int` | get, set | 最佳/最近的目标实体<br/>类型：player_controller |
+| `Index` | `byte` | get, set | 固定摄像机索引<br/>类型：字节 |
+| `Rank` | `float` | get, set | 排名，此摄像机视角的趣味性<br/> 类型：浮点数 |
+| `TargetController` | `CCSPlayerController` | get | 最佳/最近的目标实体<br/>类型: player_controller |
+| `TargetPawn` | `CCSPlayerPawn` | get | 最佳/最近的目标实体<br/>类型: player_controller |
+| `Target` | `int` | get, set | 最佳/最近的目标实体<br/>类型: player_controller |
 
 
 
@@ -2805,7 +2822,7 @@
 
 ## 🔌 EventHltvRankEntity
 
-事件"hltv_rank_entity"：实体排名
+事件 "hltv_rank_entity" 实体排名
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2817,13 +2834,14 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 玩家插槽 <br/> 类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家插槽 <br/> 类型：玩家控制器 |
-| `UserId` | `int` | get, set | 玩家插槽 <br/> 类型：玩家控制器 |
-| `Rank` | `float` | get, set | 排名：该实体值得查看的有趣程度 <br/> 类型：浮点数 |
-| `TargetController` | `CCSPlayerController` | get | 最佳/最近的目标实体<br/>类型：player_controller |
-| `TargetPawn` | `CCSPlayerPawn` | get | 最佳/最近的目标实体<br/>类型：player_controller |
-| `Target` | `int` | get, set | 最佳/最近的目标实体<br/>类型：player_controller |
+| `UserIdController` | `CCSPlayerController` | get | 玩家槽位<br/>类型：玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家槽位<br/>类型：玩家控制器 |
+| `UserId` | `int` | get, set | 玩家槽位<br/>类型：玩家控制器 |
+| `Rank` | `float` | get, set | 排名，此实体观看的有趣程度  
+类型：浮点数 |
+| `TargetController` | `CCSPlayerController` | get | 最佳/最近的目标实体<br/>类型: player_controller |
+| `TargetPawn` | `CCSPlayerPawn` | get | 最佳/最近的目标实体<br/>类型: player_controller |
+| `Target` | `int` | get, set | 最佳/最近的目标实体<br/>类型: player_controller |
 
 
 
@@ -2845,8 +2863,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Delay` | `int` | get, set | 杀手回放延迟中的秒数<br/>类型：long |
-| `Reason` | `int` | get, set | 重播原因（ReplayEventType_t）<br/>类型：long |
+| `Delay` | `int` | get, set | 杀手回放延迟的秒数<br/> 类型: 长整型 |
+| `Reason` | `int` | get, set | 回放原因 (ReplayEventType_t) <br/> 类型: long |
 
 
 
@@ -2856,7 +2874,7 @@
 
 ## 🔌 EventHltvReplayStatus
 
-事件"hltv_replay_status"
+事件 "hltv_replay_status"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2868,7 +2886,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Reason` | `int` | get, set | HLTV 回放状态变更的原因（类型：long） |
+| `Reason` | `int` | get, set | hltv 回放状态变更原因 () <br/> 类型: long |
 
 
 
@@ -2878,7 +2896,7 @@
 
 ## 🔌 EventHltvStatus
 
-事件"hltv_status"：通用 HLTV 状态
+事件 "hltv_status" 常规HLTV状态
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2890,10 +2908,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Clients` | `int` | get, set | HLTV 观战者数量<br/>类型：long |
-| `Slots` | `int` | get, set | HLTV 席位数量<br/>类型：long |
-| `Proxies` | `short` | get, set | HLTV 代理的数量<br/>类型：短整型 |
-| `Master` | `string` | get, set | 分派主服务器 IP:端口 <br/> 类型：字符串 |
+| `Clients` | `int` | get, set | HLTV观众数量 <br/> 类型: long |
+| `Slots` | `int` | get, set | HLTV 观众位数量<br/> 类型：长整型 |
+| `Proxies` | `short` | get, set | HLTV代理数量 <br/> 类型：短整型 |
+| `Master` | `string` | get, set | 调度主服务器IP:端口  
+类型：字符串 |
 
 
 
@@ -2903,7 +2922,7 @@
 
 ## 🔌 EventHltvTitle
 
-事件"hltv_title"
+事件 "hltv_title"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2915,7 +2934,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Text` | `string` | get, set | 类型：字符串 |
+| `Text` | `string` | get, set | 类型: 字符串 |
 
 
 
@@ -2937,7 +2956,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Version` | `int` | get, set | 类型：long |
+| `Version` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -2959,7 +2978,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：短整型 |
+| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：short |
 
 
 
@@ -2969,7 +2988,7 @@
 
 ## 🔌 EventHostageFollows
 
-事件"人质跟随”
+事件 "hostage_follows"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -2981,10 +3000,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 触碰人质的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 触碰人质的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 触碰人质的玩家<br/>类型：player_controller_and_pawn |
-| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：短整型 |
+| `UserIdController` | `CCSPlayerController` | get | 触碰人质的玩家<br/>类型: 玩家控制器与角色实体 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 触碰人质的玩家<br/>类型: 玩家控制器与角色实体 |
+| `UserId` | `int` | get, set | 触碰人质的玩家<br/>类型: 玩家控制器与角色实体 |
+| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：short |
 
 
 
@@ -2994,7 +3013,7 @@
 
 ## 🔌 EventHostageHurt
 
-事件"人质受伤”
+事件 "人质受伤"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3006,10 +3025,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 伤害人质的玩家 <br/> 类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 伤害人质的玩家 <br/> 类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 伤害人质的玩家 <br/> 类型：player_controller_and_pawn |
-| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：短整型 |
+| `UserIdController` | `CCSPlayerController` | get | 伤害人质的玩家 <br/> 类型: 玩家控制器与角色 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 伤害人质的玩家 <br/> 类型: 玩家控制器与角色 |
+| `UserId` | `int` | get, set | 伤害人质的玩家 <br/> 类型: 玩家控制器与角色 |
+| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：short |
 
 
 
@@ -3019,7 +3038,7 @@
 
 ## 🔌 EventHostageKilled
 
-事件“人质被击杀”
+事件 "hostage_killed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3031,10 +3050,13 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 击杀人质的玩家 <br/> 类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 击杀人质的玩家 <br/> 类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 击杀人质的玩家 <br/> 类型：player_controller_and_pawn |
-| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：短整型 |
+| `UserIdController` | `CCSPlayerController` | get | 击杀过人质的玩家  
+类型：玩家控制器与角色 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 击杀过人质的玩家  
+类型：玩家控制器与角色 |
+| `UserId` | `int` | get, set | 击杀过人质的玩家  
+类型：玩家控制器与角色 |
+| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：short |
 
 
 
@@ -3044,7 +3066,7 @@
 
 ## 🔌 EventHostageRescued
 
-事件“人质被解救”
+事件 "人质被解救"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3056,11 +3078,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 成功解救人质的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 成功解救人质的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 成功解救人质的玩家<br/>类型：player_controller_and_pawn |
-| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：短整型 |
-| `Site` | `short` | get, set | 救援站点索引<br/>类型：short |
+| `UserIdController` | `CCSPlayerController` | get | 解救人质的人质 <br/> 类型：玩家控制器与棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 解救人质的人质 <br/> 类型：玩家控制器与棋子 |
+| `UserId` | `int` | get, set | 解救人质的人质 <br/> 类型：玩家控制器与棋子 |
+| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：short |
+| `Site` | `short` | get, set | 救援点索引<br/>类型: short |
 
 
 
@@ -3070,7 +3092,9 @@
 
 ## 🔌 EventHostageRescuedAll
 
-事件"hostage_rescued_all"（人质全部获救）
+Event "hostage_rescued_all"  
+
+翻译：事件 "所有人质获救"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3098,10 +3122,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 成功解救人质的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 成功解救人质的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 成功解救人质的玩家<br/>类型：player_controller_and_pawn |
-| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：短整型 |
+| `UserIdController` | `CCSPlayerController` | get | 解救人质的人质 <br/> 类型：玩家控制器与棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 解救人质的人质 <br/> 类型：玩家控制器与棋子 |
+| `UserId` | `int` | get, set | 解救人质的人质 <br/> 类型：玩家控制器与棋子 |
+| `Hostage` | `short` | get, set | 人质实体索引<br/>类型：short |
 
 
 
@@ -3123,7 +3147,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Hostname` | `string` | get, set | 类型：字符串 |
+| `Hostname` | `string` | get, set | 类型: 字符串 |
 
 
 
@@ -3145,10 +3169,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -3158,7 +3182,7 @@
 
 ## 🔌 EventInfernoExtinguish
 
-事件"inferno_extinguish"
+事件 "inferno_extinguish"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3170,10 +3194,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -3195,10 +3219,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -3208,7 +3232,7 @@
 
 ## 🔌 EventInspectWeapon
 
-事件"inspect_weapon"
+事件 "inspect_weapon"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3244,10 +3268,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 本教程的目标玩家<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 本教程的目标玩家<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 本教程的目标玩家<br/>类型：player_controller |
-| `HintName` | `string` | get, set | 要启动的课程名称。必须与 instructor_lesson.txt 匹配 <br/> 类型：字符串 |
+| `UserIdController` | `CCSPlayerController` | get | 该课程针对的玩家 <br/> 类型: player_controller |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 该课程针对的玩家 <br/> 类型: player_controller |
+| `UserId` | `int` | get, set | 该课程针对的玩家 <br/> 类型: player_controller |
+| `HintName` | `string` | get, set | 要开始的课程名称。必须与 instructor_lesson.txt 匹配 <br/> 类型：字符串 |
 
 
 
@@ -3257,7 +3281,7 @@
 
 ## 🔌 EventInstructorServerHintCreate
 
-事件 "instructor_server_hint_create" 使用完全由服务器或地图提供的数据创建提示。该提示旨在在内容尚未就绪、无需依赖此提示之前，优化测试流程以辅助游戏调试。**严禁将其作为可发布版本的临时补救措施**。
+事件 "instructor_server_hint_create" 使用完全由服务器/地图提供的数据创建提示。旨在在内容准备就绪前，为平滑测试过程提供提示，且无需额外操作。**不适用于作为发布版本的临时补丁**。
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3269,38 +3293,38 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 触发提示的玩家的用户 ID<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 触发提示的玩家的用户 ID<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 触发提示的玩家的用户 ID<br/>类型：player_controller |
-| `HintEntindex` | `int` | get, set | 触发该事件的 env_instructor_hint 实体的 ID <br/>类型：long |
-| `HintName` | `string` | get, set | 提示的命名，用于后续再次引用该提示（例如，针对该提示使用击杀命令而非超时）<br/>类型：字符串 |
-| `HintReplaceKey` | `string` | get, set | 消息类型，使得相同类型的消息会相互替换<br/>类型：字符串 |
-| `HintTarget` | `int` | get, set | 应显示提示的目标实体 ID<br/>类型：long |
-| `HintActivatorUseridController` | `CCSPlayerController` | get | 激活者的玩家槽位<br/>类型：player_controller |
-| `HintActivatorUseridPawn` | `CCSPlayerPawn` | get | 激活者的玩家槽位<br/>类型：player_controller |
-| `HintActivatorUserid` | `int` | get, set | 激活者的玩家槽位<br/>类型：player_controller |
-| `HintTimeout` | `short` | get, set | 提示自动超时的秒数，0 表示永不超时<br/>类型：short |
-| `HintIconOnscreen` | `string` | get, set | 当提示在屏幕上显示时要使用的提示图标。例如："icon_alert_red" <br/> 类型：字符串 |
-| `HintIconOffscreen` | `string` | get, set | 当提示位于屏幕外时应使用的提示图标。例如："icon_alert" <br/> 类型：字符串 |
-| `HintCaption` | `string` | get, set | 提示标题，例如："#ThisIsDangerous" <br/> 类型：字符串 |
-| `HintActivatorCaption` | `string` | get, set | 仅由激活者可见的提示标题，例如"#YouPushedItGood"<br/>类型：字符串 |
-| `HintColor` | `string` | get, set | "r,g,b"格式中的提示颜色，其中每个分量的范围为0-255 <br/> 类型：字符串 |
-| `HintIconOffset` | `float` | get, set | 提示在 Z 轴上相对于实体原点的偏移距离 <br/> 类型：float |
-| `HintRange` | `float` | get, set | 提示被剔除前的范围<br/>类型：float |
-| `HintFlags` | `int` | get, set | 提示标志<br/>类型：long |
-| `HintBinding` | `string` | get, set | 当使用绑定为屏幕图标时使用的绑定 <br/> 类型：字符串 |
-| `HintAllowNodrawTarget` | `bool` | get, set | 如果为 false，当目标实体不可见时提示将消失 <br/> 类型：布尔值 |
-| `HintNooffscreen` | `bool` | get, set | 如果为 true，则在玩家视野外时不显示提示<br/>类型：布尔值 |
-| `HintForcecaption` | `bool` | get, set | 若为 true，即使提示被遮挡，提示说明仍将显示<br/>类型：布尔值 |
-| `HintLocalPlayerOnly` | `bool` | get, set | 若为 true，则仅本地玩家能看到提示<br/>类型：bool |
-| `HintStartSound` | `string` | get, set | 要播放的游戏音效<br/>类型：字符串 |
+| `UserIdController` | `CCSPlayerController` | get | 触发提示的玩家用户ID <br/> 类型: player_controller |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 触发提示的玩家用户ID <br/> 类型: player_controller |
+| `UserId` | `int` | get, set | 触发提示的玩家用户ID <br/> 类型: player_controller |
+| `HintEntindex` | `int` | get, set | 触发事件的环境指导提示的实体ID <br/> 类型: long |
+| `HintName` | `string` | get, set | 提示的命名，用于后续引用（例如，为提示设置击杀命令而非超时）<br/> 类型：字符串 |
+| `HintReplaceKey` | `string` | get, set | 类型名称，使相同类型的消息相互替换 <br/> 类型：字符串 |
+| `HintTarget` | `int` | get, set | 提示应显示于的实体ID<br/>类型：长整型 |
+| `HintActivatorUseridController` | `CCSPlayerController` | get | 激活者的玩家槽位 <br/> 类型: player_controller |
+| `HintActivatorUseridPawn` | `CCSPlayerPawn` | get | 激活者的玩家槽位 <br/> 类型: player_controller |
+| `HintActivatorUserid` | `int` | get, set | 激活者的玩家槽位 <br/> 类型: player_controller |
+| `HintTimeout` | `short` | get, set | 提示自动超时的时间（秒），0 = 永不超时 <br/> 类型：short |
+| `HintIconOnscreen` | `string` | get, set | 提示图标，用于提示在屏幕上显示时。例如："icon_alert_red"<br/>类型：字符串 |
+| `HintIconOffscreen` | `string` | get, set | 当提示位于屏幕外时使用的提示图标，例如 "icon_alert" <br/> 类型：字符串 |
+| `HintCaption` | `string` | get, set | 提示文本。例如："#ThisIsDangerous" <br/> 类型：字符串 |
+| `HintActivatorCaption` | `string` | get, set | 仅激活者可见的提示标题，例如 "#YouPushedItGood" <br/> 类型: 字符串 |
+| `HintColor` | `string` | get, set | 提示颜色，格式为"r,g,b"，每个分量取值范围0-255 <br/> 类型: string |
+| `HintIconOffset` | `float` | get, set | 在Z轴上将提示从实体原点偏移的距离 <br/> 类型：浮点数 |
+| `HintRange` | `float` | get, set | 提示被剔除前的范围<br/> 类型：浮点数 |
+| `HintFlags` | `int` | get, set | 提示标志<br/>类型: long |
+| `HintBinding` | `string` | get, set | 当 use_binding 为屏幕图标时使用的绑定<br/> 类型：字符串 |
+| `HintAllowNodrawTarget` | `bool` | get, set | 若设为 false，目标实体不可见时提示将消失 <br/> 类型：布尔值 |
+| `HintNooffscreen` | `bool` | get, set | 若为真，玩家视野外将不显示提示 <br/> 类型: 布尔值 |
+| `HintForcecaption` | `bool` | get, set | 如果为真，即使提示被遮挡，提示标题也会显示 <br/> 类型：bool |
+| `HintLocalPlayerOnly` | `bool` | get, set | 如果为真，只有本地玩家会看到提示<br/> 类型：布尔值 |
+| `HintStartSound` | `string` | get, set | 游戏音效播放 <br/> 类型：字符串 |
 | `HintLayoutfile` | `string` | get, set | Panorama 布局文件的路径<br/>类型：字符串 |
-| `HintVrPanelType` | `short` | get, set | Panorama 面板的附件类型<br/>类型：short |
-| `HintVrHeightOffset` | `float` | get, set | 附着面板的高度偏移量<br/>类型：float |
-| `HintVrOffsetX` | `float` | get, set | 附加面板的偏移量<br/>类型：浮点数 |
-| `HintVrOffsetY` | `float` | get, set | 附加面板的偏移量<br/>类型：浮点数 |
-| `HintVrOffsetZ` | `float` | get, set | 附加面板的偏移量<br/>类型：浮点数 |
-| `HintGamepadBinding` | `string` | get, set | 当 use_binding 为屏幕图标时，要使用的游戏手柄绑定 <br/> 类型：字符串 |
+| `HintVrPanelType` | `short` | get, set | 全景面板的附件类型<br/>类型：短整型 |
+| `HintVrHeightOffset` | `float` | get, set | 附着面板的高度偏移 <br/> 类型：浮点数 |
+| `HintVrOffsetX` | `float` | get, set | 附加面板的偏移量 <br/> 类型：浮点数 |
+| `HintVrOffsetY` | `float` | get, set | 附加面板的偏移量 <br/> 类型：浮点数 |
+| `HintVrOffsetZ` | `float` | get, set | 附加面板的偏移量 <br/> 类型：浮点数 |
+| `HintGamepadBinding` | `string` | get, set | 游戏绑定时使用的游戏手柄绑定，当use_binding为屏幕图标时<br/> 类型: string |
 
 
 
@@ -3310,7 +3334,7 @@
 
 ## 🔌 EventInstructorServerHintStop
 
-事件"instructor_server_hint_stop"销毁服务器/地图创建的提示
+Event "instructor_server_hint_stop" 销毁服务器/地图创建的提示
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3322,8 +3346,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `HintName` | `string` | get, set | 停止提示。将停止所有具有此名称的提示<br/>类型：字符串 |
-| `HintEntindex` | `int` | get, set | 触发该事件的 env_instructor_hint 实体的 ID <br/>类型：long |
+| `HintName` | `string` | get, set | 停止提示。将停止所有具有此名称的提示<br/> 类型：字符串 |
+| `HintEntindex` | `int` | get, set | 触发事件的环境指导提示的实体ID <br/> 类型: long |
 
 
 
@@ -3345,14 +3369,14 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 本教程的目标玩家<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 本教程的目标玩家<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 本教程的目标玩家<br/>类型：player_controller |
-| `HintName` | `string` | get, set | 要启动的课程名称。必须与 instructor_lesson.txt 匹配 <br/> 类型：字符串 |
-| `HintTarget` | `int` | get, set | 该提示应显示的目标实体 ID。若控制器目标为空，则留空。<br/>类型：long |
-| `VrMovementType` | `byte` | get, set | 类型：字节 |
-| `VrSingleController` | `bool` | get, set | 类型：布尔值 |
-| `VrControllerType` | `byte` | get, set | 类型：字节 |
+| `UserIdController` | `CCSPlayerController` | get | 该课程针对的玩家 <br/> 类型: player_controller |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 该课程针对的玩家 <br/> 类型: player_controller |
+| `UserId` | `int` | get, set | 该课程针对的玩家 <br/> 类型: player_controller |
+| `HintName` | `string` | get, set | 要开始的课程名称。必须与 instructor_lesson.txt 匹配 <br/> 类型：字符串 |
+| `HintTarget` | `int` | get, set | 提示信息应显示在的实体ID。如果为控制器目标则留空<br/>类型：long |
+| `VrMovementType` | `byte` | get, set | 类型: 字节 |
+| `VrSingleController` | `bool` | get, set | 类型: bool |
+| `VrControllerType` | `byte` | get, set | 类型: 字节 |
 
 
 
@@ -3374,8 +3398,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ItemDef` | `short` | get, set | 类型：短整型 |
-| `Itemid` | `int` | get, set | 类型：long |
+| `ItemDef` | `short` | get, set | type: short |
+| `Itemid` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -3400,14 +3424,14 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Item` | `string` | get, set | 可以是诸如'tmp'或'hegrenade'的武器，也可以是诸如'nvgs'的物品<br/>类型：字符串 |
-| `DefIndex` | `int` | get, set | 类型：long |
-| `CanZoom` | `bool` | get, set | 类型：布尔值 |
-| `HasSilencer` | `bool` | get, set | 类型：布尔值 |
-| `IsSilenced` | `bool` | get, set | 类型：布尔值 |
-| `HasTracers` | `bool` | get, set | 类型：布尔值 |
-| `WepType` | `short` | get, set | 类型：短整型 |
-| `IsPainted` | `bool` | get, set | 类型：布尔值 |
+| `Item` | `string` | get, set | 武器名称如 'tmp' 或 'hegrenade'，或物品名称如 'nvgs' <br/> 类型：字符串 |
+| `DefIndex` | `int` | get, set | 类型：长整型 |
+| `CanZoom` | `bool` | get, set | 类型: bool |
+| `HasSilencer` | `bool` | get, set | 类型: bool |
+| `IsSilenced` | `bool` | get, set | 类型: bool |
+| `HasTracers` | `bool` | get, set | 类型: bool |
+| `WepType` | `short` | get, set | type: short |
+| `IsPainted` | `bool` | get, set | 类型: bool |
 
 
 
@@ -3432,9 +3456,9 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Item` | `string` | get, set | 可以是诸如'tmp'或'hegrenade'的武器，也可以是诸如'nvgs'的物品<br/>类型：字符串 |
-| `Silent` | `bool` | get, set | 类型：布尔值 |
-| `DefIndex` | `int` | get, set | 类型：long |
+| `Item` | `string` | get, set | 武器名称如 'tmp' 或 'hegrenade'，或物品名称如 'nvgs' <br/> 类型：字符串 |
+| `Silent` | `bool` | get, set | 类型: bool |
+| `DefIndex` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -3444,7 +3468,7 @@
 
 ## 🔌 EventItemPickupFailed
 
-事件“物品拾取失败”
+事件 "item_pickup_failed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3459,9 +3483,9 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Item` | `string` | get, set | 类型：字符串 |
-| `Reason` | `short` | get, set | 类型：短整型 |
-| `Limit` | `short` | get, set | 类型：短整型 |
+| `Item` | `string` | get, set | 类型: 字符串 |
+| `Reason` | `short` | get, set | type: short |
+| `Limit` | `short` | get, set | type: short |
 
 
 
@@ -3471,7 +3495,7 @@
 
 ## 🔌 EventItemPickupSlerp
 
-事件"item_pickup_slerp"
+事件 "item_pickup_slerp"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3486,8 +3510,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Index` | `short` | get, set | 类型：短整型 |
-| `Behavior` | `short` | get, set | 类型：短整型 |
+| `Index` | `short` | get, set | type: short |
+| `Behavior` | `short` | get, set | type: short |
 
 
 
@@ -3497,7 +3521,7 @@
 
 ## 🔌 EventItemPurchase
 
-事件"item_purchase"
+事件 "item_purchase"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3512,9 +3536,9 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Team` | `short` | get, set | 类型：短整型 |
-| `LoadOut` | `short` | get, set | 类型：短整型 |
-| `Weapon` | `string` | get, set | 类型：字符串 |
+| `Team` | `short` | get, set | type: short |
+| `LoadOut` | `short` | get, set | type: short |
+| `Weapon` | `string` | get, set | 类型: 字符串 |
 
 
 
@@ -3524,7 +3548,7 @@
 
 ## 🔌 EventItemRemove
 
-事件"item_remove"
+事件 "item_remove"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3539,8 +3563,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Item` | `string` | get, set | 可以是诸如'tmp'或'hegrenade'的武器，也可以是诸如'nvgs'的物品<br/>类型：字符串 |
-| `DefIndex` | `int` | get, set | 类型：long |
+| `Item` | `string` | get, set | 武器名称如 'tmp' 或 'hegrenade'，或物品名称如 'nvgs' <br/> 类型：字符串 |
+| `DefIndex` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -3550,7 +3574,7 @@
 
 ## 🔌 EventItemSchemaInitialized
 
-事件"item_schema_initialized"
+事件 "item_schema_initialized"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3581,7 +3605,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Reason` | `byte` | get, set | 0 = 队伍已满 <br/> 类型：byte |
+| `Reason` | `byte` | get, set | 0 = 队伍已满 <br/> 类型：字节 |
 
 
 
@@ -3591,7 +3615,7 @@
 
 ## 🔌 EventLocalPlayerControllerTeam
 
-事件"本地玩家控制器队伍”
+事件"本地玩家控制队伍"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3623,7 +3647,7 @@
 
 ## 🔌 EventLocalPlayerTeam
 
-事件 "local_player_team"
+事件 "本地玩家队伍"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3639,7 +3663,7 @@
 
 ## 🔌 EventLootCrateOpened
 
-事件"loot_crate_opened"
+事件 "loot_crate_opened"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3651,10 +3675,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 玩家实体索引<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家实体索引<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 玩家实体索引<br/>类型：玩家控制器 |
-| `Type` | `string` | get, set | 箱子的类型（金属、木质或空投）<br/> type: string |
+| `UserIdController` | `CCSPlayerController` | get | 玩家实体索引<br/>类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家实体索引<br/>类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 玩家实体索引<br/>类型: 玩家控制器 |
+| `Type` | `string` | get, set | 板条箱类型（金属、木质或空投）<br/> 类型：字符串 |
 
 
 
@@ -3676,11 +3700,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 玩家实体索引<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家实体索引<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 玩家实体索引<br/>类型：玩家控制器 |
-| `Subject` | `short` | get, set | 木箱实体索引<br/>类型：短整型 |
-| `Type` | `string` | get, set | 箱子的类型（金属、木质或空投）<br/> type: string |
+| `UserIdController` | `CCSPlayerController` | get | 玩家实体索引<br/>类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家实体索引<br/>类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 玩家实体索引<br/>类型: 玩家控制器 |
+| `Subject` | `short` | get, set | crate entindex <br/> 类型: short |
+| `Type` | `string` | get, set | 板条箱类型（金属、木质或空投）<br/> 类型：字符串 |
 
 
 
@@ -3706,7 +3730,7 @@
 
 ## 🔌 EventMapTransition
 
-事件"map_transition"
+事件 "地图过渡"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3722,7 +3746,7 @@
 
 ## 🔌 EventMatchEndConditions
 
-事件"match_end_conditions"（比赛结束条件）
+事件 "match_end_conditions"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3734,10 +3758,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Frags` | `int` | get, set | 类型：long |
-| `MaxRounds` | `int` | get, set | 类型：long |
-| `WinRounds` | `int` | get, set | 类型：long |
-| `Time` | `int` | get, set | 类型：long |
+| `Frags` | `int` | get, set | 类型：长整型 |
+| `MaxRounds` | `int` | get, set | 类型：长整型 |
+| `WinRounds` | `int` | get, set | 类型：长整型 |
+| `Time` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -3747,7 +3771,7 @@
 
 ## 🔌 EventMaterialDefaultComplete
 
-事件"material_default_complete"
+事件 "material_default_complete"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3779,7 +3803,7 @@
 
 ## 🔌 EventMbInputLockSuccess
 
-事件"mb_input_lock_success"
+事件 "mb_input_lock_success"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3795,7 +3819,7 @@
 
 ## 🔌 EventMolotovDetonate
 
-事件 "molotov_detonate"
+事件"燃烧弹引爆"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3810,9 +3834,9 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -3822,7 +3846,7 @@
 
 ## 🔌 EventNavBlocked
 
-事件"nav_blocked"
+事件 "nav_blocked"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3834,8 +3858,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Area` | `int` | get, set | 类型：long |
-| `Blocked` | `bool` | get, set | 类型：布尔值 |
+| `Area` | `int` | get, set | 类型：长整型 |
+| `Blocked` | `bool` | get, set | 类型: bool |
 
 
 
@@ -3845,7 +3869,7 @@
 
 ## 🔌 EventNavGenerate
 
-事件"nav_generate"
+事件 "nav_generate"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3861,7 +3885,7 @@
 
 ## 🔌 EventNextlevelChanged
 
-事件"nextlevel_changed"：一个游戏事件，名称长度最多可为 32 个字符。
+事件 "nextlevel_changed" 是一个游戏事件，名称长度可达32个字符
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3873,9 +3897,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `NextLevel` | `string` | get, set | 类型：字符串 |
-| `MapGroup` | `string` | get, set | 类型：字符串 |
-| `SkirmishMode` | `string` | get, set | 类型：字符串 |
+| `NextLevel` | `string` | get, set | 类型: 字符串 |
+| `MapGroup` | `string` | get, set | 类型: 字符串 |
+| `SkirmishMode` | `string` | get, set | 类型: 字符串 |
 
 
 
@@ -3897,11 +3921,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 玩家实体索引<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家实体索引<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 玩家实体索引<br/>类型：玩家控制器 |
-| `Subject` | `short` | get, set | 木箱实体索引<br/>类型：短整型 |
-| `Type` | `string` | get, set | 箱子的类型（金属、木质或空投）<br/> type: string |
+| `UserIdController` | `CCSPlayerController` | get | 玩家实体索引<br/>类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家实体索引<br/>类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 玩家实体索引<br/>类型: 玩家控制器 |
+| `Subject` | `short` | get, set | crate entindex <br/> 类型: short |
+| `Type` | `string` | get, set | 板条箱类型（金属、木质或空投）<br/> 类型：字符串 |
 
 
 
@@ -3911,7 +3935,7 @@
 
 ## 🔌 EventOtherDeath
 
-事件“其他死亡”
+事件 "other_death"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3923,18 +3947,18 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `OtherID` | `short` | get, set | 死亡的其他实体 ID <br/> 类型：short |
-| `OtherType` | `string` | get, set | 其他实体类型<br/>类型：字符串 |
-| `Attacker` | `short` | get, set | 击杀者的用户 ID<br/>类型：short |
-| `Weapon` | `string` | get, set | 武器名称：击杀者所使用的武器<br/>类型：字符串 |
-| `WeaponItemid` | `string` | get, set | 武器击杀者使用的库存物品 ID<br/>类型：字符串 |
-| `WeaponFauxitemid` | `string` | get, set | 武器击杀者使用的假物品 ID<br/>类型：字符串 |
-| `WeaponOriginalownerXuid` | `string` | get, set | 类型：字符串 |
-| `Headshot` | `bool` | get, set | 指示爆头 <br/> 类型：布尔值 |
-| `Penetrated` | `short` | get, set | 在击杀目标前，被穿透的弹射物数量<br/>类型：short |
+| `OtherID` | `short` | get, set | 其他实体ID（死亡者）<br/> 类型：short |
+| `OtherType` | `string` | get, set | 其他实体类型<br/> 类型: 字符串 |
+| `Attacker` | `short` | get, set | 击杀玩家的用户ID <br/> 类型: short |
+| `Weapon` | `string` | get, set | 武器名称 击杀者使用的武器 <br/> 类型: 字符串 |
+| `WeaponItemid` | `string` | get, set | 武器击杀者所使用的库存物品ID <br/> 类型：字符串 |
+| `WeaponFauxitemid` | `string` | get, set | 武器击杀所使用的虚假物品ID <br/> 类型：字符串 |
+| `WeaponOriginalownerXuid` | `string` | get, set | 类型: 字符串 |
+| `Headshot` | `bool` | get, set | 标记为爆头 <br/> 类型: 布尔值 |
+| `Penetrated` | `short` | get, set | 击杀目标前穿透射击的物体数量<br/> 类型：短整型 |
 | `NoScope` | `bool` | get, set | 击杀未使用瞄准镜，用于死亡通知图标<br/>类型：布尔值 |
-| `ThruSmoke` | `bool` | get, set | 射速武器穿透烟雾弹<br/>类型：布尔值 |
-| `AttackerBlind` | `bool` | get, set | 攻击者因闪光弹致盲<br/>类型：布尔值 |
+| `ThruSmoke` | `bool` | get, set | 扫描类武器穿透烟雾弹 <br/> 类型: 布尔 |
+| `AttackerBlind` | `bool` | get, set | 攻击者因闪光弹致盲 <br/> 类型：布尔值 |
 
 
 
@@ -3944,7 +3968,7 @@
 
 ## 🔌 EventParachuteDeploy
 
-事件"parachute_deploy"（降落伞部署）
+事件 "parachute_deploy"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -3992,7 +4016,7 @@
 
 ## 🔌 EventPhysgunPickup
 
-事件"physgun_pickup"
+事件 "physgun_pickup"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4004,7 +4028,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Target` | `nint` | get, set | 拾取的实体<br/>类型：ehandle |
+| `Target` | `nint` | get, set | entity 拾取 <br/> 类型: ehandle |
 
 
 
@@ -4026,9 +4050,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 服务器上的用户 ID<br/>类型：玩家控制器 |
+| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 服务器上的用户ID <br/> 类型: 玩家控制器 |
 
 
 
@@ -4065,7 +4089,7 @@
 
 ## 🔌 EventPlayerBlind
 
-事件 "player_blind"（玩家致盲）
+事件 "player_blind"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4080,11 +4104,11 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `AttackerController` | `CCSPlayerController` | get | 投掷闪光弹的用户 ID<br/>类型：player_controller |
-| `AttackerPawn` | `CCSPlayerPawn` | get | 投掷闪光弹的用户 ID<br/>类型：player_controller |
-| `Attacker` | `int` | get, set | 投掷闪光弹的用户 ID<br/>类型：player_controller |
-| `EntityID` | `short` | get, set | 闪光弹爆炸<br/>类型：short |
-| `BlindDuration` | `float` | get, set | 类型：浮点数 |
+| `AttackerController` | `CCSPlayerController` | get | 抛出闪光弹的用户ID <br/> 类型: player_controller |
+| `AttackerPawn` | `CCSPlayerPawn` | get | 抛出闪光弹的用户ID <br/> 类型: player_controller |
+| `Attacker` | `int` | get, set | 抛出闪光弹的用户ID <br/> 类型: player_controller |
+| `EntityID` | `short` | get, set | 闪光弹爆炸 <br/> 类型: short |
+| `BlindDuration` | `float` | get, set | 类型：float |
 
 
 
@@ -4106,11 +4130,12 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `OldName` | `string` | get, set | 玩家旧名称（当前名称）<br/>类型：字符串 |
-| `NewName` | `string` | get, set | 玩家新名称<br/>类型：字符串 |
+| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `OldName` | `string` | get, set | 玩家旧（当前）名称<br/>类型：字符串 |
+| `NewName` | `string` | get, set | 玩家新名称  
+类型：字符串 |
 
 
 
@@ -4120,7 +4145,7 @@
 
 ## 🔌 EventPlayerChat
 
-事件 "player_chat"：玩家公开聊天
+Event "player_chat" 一个公共玩家聊天
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4132,12 +4157,15 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TeamOnly` | `bool` | get, set | true 表示仅启用队伍聊天<br/>类型：bool |
-| `UserIdController` | `CCSPlayerController` | get | 聊天中的玩家 <br/> 类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 聊天中的玩家 <br/> 类型：玩家控制器 |
-| `UserId` | `int` | get, set | 聊天中的玩家 <br/> 类型：玩家控制器 |
-| `Playerid` | `short` | get, set | 聊天中的玩家 ID<br/>类型：short |
-| `Text` | `string` | get, set | 聊天文本<br/>类型：字符串 |
+| `TeamOnly` | `bool` | get, set | 如果是仅队伍聊天则返回true <br/> 类型: bool |
+| `UserIdController` | `CCSPlayerController` | get | 聊天中的玩家  
+类型：玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 聊天中的玩家  
+类型：玩家控制器 |
+| `UserId` | `int` | get, set | 聊天中的玩家  
+类型：玩家控制器 |
+| `Playerid` | `short` | get, set | 聊天玩家ID <br/> 类型：短整型 |
+| `Text` | `string` | get, set | 聊天文本<br/>类型: 字符串 |
 
 
 
@@ -4147,7 +4175,7 @@
 
 ## 🔌 EventPlayerConnect
 
-事件"player_connect"：新客户端已连接。
+事件 "player_connect" 一名新客户端已连接
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4159,13 +4187,14 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Name` | `string` | get, set | 玩家名称<br/>类型：字符串 |
-| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户 ID（在服务器上唯一）<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户 ID（在服务器上唯一）<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 服务器上的用户 ID（在服务器上唯一）<br/>类型：player_controller |
-| `NetworkID` | `string` | get, set | 玩家网络（即 Steam）ID <br/> 类型：字符串 |
-| `XuID` | `ulong` | get, set | Steam ID<br/>类型：uint64 |
-| `Bot` | `bool` | get, set | 类型：布尔值 |
+| `Name` | `string` | get, set | 玩家名称<br/>类型: 字符串 |
+| `UserIdController` | `CCSPlayerController` | get | 用户ID（服务器上唯一）<br/> 类型：玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 用户ID（服务器上唯一）<br/> 类型：玩家控制器 |
+| `UserId` | `int` | get, set | 用户ID（服务器上唯一）<br/> 类型：玩家控制器 |
+| `NetworkID` | `string` | get, set | 玩家网络（即Steam）ID  
+类型：字符串 |
+| `XuID` | `ulong` | get, set | steam ID <br/> 类型：uint64 |
+| `Bot` | `bool` | get, set | 类型: bool |
 
 
 
@@ -4175,7 +4204,7 @@
 
 ## 🔌 EventPlayerConnectFull
 
-事件"player_connect_full"：玩家已在连接序列中发送最终消息
+事件 "player_connect_full" 玩家已在连接序列中发送最终消息
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4187,9 +4216,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户 ID（在服务器上唯一）<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户 ID（在服务器上唯一）<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 服务器上的用户 ID（在服务器上唯一）<br/>类型：player_controller |
+| `UserIdController` | `CCSPlayerController` | get | 用户ID（服务器上唯一）<br/> 类型：玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 用户ID（服务器上唯一）<br/> 类型：玩家控制器 |
+| `UserId` | `int` | get, set | 用户ID（服务器上唯一）<br/> 类型：玩家控制器 |
 
 
 
@@ -4199,7 +4228,7 @@
 
 ## 🔌 EventPlayerDeath
 
-事件 "player_death" 是一个游戏事件，名称最长可为 32 个字符。
+事件 "player_death" 游戏事件，名称长度最多为32个字符
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4211,34 +4240,40 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 死亡用户的用户 ID<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 死亡用户的用户 ID<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 死亡用户的用户 ID<br/>类型：player_controller_and_pawn |
-| `AttackerController` | `CCSPlayerController` | get | 击杀者的用户 ID<br/>类型：player_controller_and_pawn |
-| `AttackerPawn` | `CCSPlayerPawn` | get | 击杀者的用户 ID<br/>类型：player_controller_and_pawn |
-| `Attacker` | `int` | get, set | 击杀者的用户 ID<br/>类型：player_controller_and_pawn |
-| `AssisterController` | `CCSPlayerController` | get | 协助击杀的玩家<br/>类型：player_controller_and_pawn |
-| `AssisterPawn` | `CCSPlayerPawn` | get | 协助击杀的玩家<br/>类型：player_controller_and_pawn |
-| `Assister` | `int` | get, set | 协助击杀的玩家<br/>类型：player_controller_and_pawn |
-| `AssistedFlash` | `bool` | get, set | 辅助角色成功投掷闪光弹 <br/> 类型：布尔值 |
-| `Weapon` | `string` | get, set | 武器名称：击杀者所使用的武器<br/>类型：字符串 |
-| `WeaponItemid` | `string` | get, set | 武器击杀者使用的库存物品 ID<br/>类型：字符串 |
-| `WeaponFauxitemid` | `string` | get, set | 武器击杀者使用的假物品 ID<br/>类型：字符串 |
-| `WeaponOriginalownerXuid` | `string` | get, set | 类型：字符串 |
-| `Headshot` | `bool` | get, set | 指示爆头 <br/> 类型：布尔值 |
-| `Dominated` | `short` | get, set | 该击杀是否使凶手支配了受害者 <br/> 类型：short |
-| `Revenge` | `short` | get, set | 该击杀是否使杀手对受害者进行了复仇 <br/> 类型：short |
-| `Wipe` | `short` | get, set | 是否为导致小队全灭的击杀<br/>类型：short |
-| `Penetrated` | `short` | get, set | 在击杀目标前，被穿透的弹射物数量<br/>类型：short |
-| `NoReplay` | `bool` | get, set | 如果回放数据不可用，此项将存在并设置为 false <br/> 类型：布尔值 |
+| `UserIdController` | `CCSPlayerController` | get | 用户ID（死亡者）<br/> 类型：player_controller_and_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 用户ID（死亡者）<br/> 类型：player_controller_and_pawn |
+| `UserId` | `int` | get, set | 用户ID（死亡者）<br/> 类型：player_controller_and_pawn |
+| `AttackerController` | `CCSPlayerController` | get | 杀死玩家的用户ID<br/>类型：玩家控制器与棋子 |
+| `AttackerPawn` | `CCSPlayerPawn` | get | 杀死玩家的用户ID<br/>类型：玩家控制器与棋子 |
+| `Attacker` | `int` | get, set | 杀死玩家的用户ID<br/>类型：玩家控制器与棋子 |
+| `AssisterController` | `CCSPlayerController` | get | 协助击杀的玩家<br/>类型: player_controller_and_pawn |
+| `AssisterPawn` | `CCSPlayerPawn` | get | 协助击杀的玩家<br/>类型: player_controller_and_pawn |
+| `Assister` | `int` | get, set | 协助击杀的玩家<br/>类型: player_controller_and_pawn |
+| `AssistedFlash` | `bool` | get, set | assister 使用闪光弹辅助  
+类型：布尔值 |
+| `Weapon` | `string` | get, set | 武器名称 击杀者使用的武器 <br/> 类型: 字符串 |
+| `WeaponItemid` | `string` | get, set | 武器击杀者所使用的库存物品ID <br/> 类型：字符串 |
+| `WeaponFauxitemid` | `string` | get, set | 武器击杀所使用的虚假物品ID <br/> 类型：字符串 |
+| `WeaponOriginalownerXuid` | `string` | get, set | 类型: 字符串 |
+| `Headshot` | `bool` | get, set | 标记为爆头 <br/> 类型: 布尔值 |
+| `Dominated` | `short` | get, set | 杀手是否以此击杀压制了受害者 <br/> 类型: short |
+| `Revenge` | `short` | get, set | 杀手是否借助此次击杀成功复仇受害者  
+类型：短整型 |
+| `Wipe` | `short` | get, set | 是否为导致小队全灭的击杀 <br/> 类型：short |
+| `Penetrated` | `short` | get, set | 击杀目标前穿透射击的物体数量<br/> 类型：短整型 |
+| `NoReplay` | `bool` | get, set | 如果回放数据不可用，此字段将存在并设置为false  
+类型：布尔 |
 | `NoScope` | `bool` | get, set | 击杀未使用瞄准镜，用于死亡通知图标<br/>类型：布尔值 |
-| `ThruSmoke` | `bool` | get, set | 射速武器穿透烟雾弹<br/>类型：布尔值 |
-| `AttackerBlind` | `bool` | get, set | 攻击者因闪光弹致盲<br/>类型：布尔值 |
-| `Distance` | `float` | get, set | 到受害者的距离（单位：米）<br/> 类型：float |
-| `DmgHealth` | `short` | get, set | 对生命值造成的伤害<br/>类型：short |
-| `DmgArmor` | `byte` | get, set | 对护甲造成的伤害<br/>类型：byte |
-| `HitGroup` | `byte` | get, set | 受击部位组（Hitgroup）<br/>类型：byte |
-| `AttackerInAir` | `bool` | get, set | 攻击者处于空中<br/>类型：布尔值 |
+| `ThruSmoke` | `bool` | get, set | 扫描类武器穿透烟雾弹 <br/> 类型: 布尔 |
+| `AttackerBlind` | `bool` | get, set | 攻击者因闪光弹致盲 <br/> 类型：布尔值 |
+| `Distance` | `float` | get, set | 距离受害者的距离（米）<br/> 类型：浮点数 |
+| `DmgHealth` | `short` | get, set | - |
+| `ActualDmgHealth` | `int` | get, set | 对生命值造成的伤害 <br/> 类型：整数 |
+| `DmgArmor` | `byte` | get, set | - |
+| `ActualDmgArmor` | `int` | get, set | 对护甲造成的伤害<br/>类型：整型 |
+| `HitGroup` | `byte` | get, set | - |
+| `ActualHitGroup` | `HitGroup_t` | get, set | 命中的身体部位组 <br/> 类型: HitGroup_t |
+| `AttackerInAir` | `bool` | get, set | 攻击者处于半空中 <br/> 类型: bool |
 
 
 
@@ -4260,9 +4295,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 类型：玩家生命体 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家生命体 |
-| `UserId` | `int` | get, set | 类型：玩家生命体 |
+| `UserIdController` | `CCSPlayerController` | get | 类型: 玩家棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 类型: 玩家棋子 |
+| `UserId` | `int` | get, set | 类型: 玩家棋子 |
 
 
 
@@ -4272,7 +4307,7 @@
 
 ## 🔌 EventPlayerDisconnect
 
-事件"player_disconnect"：客户端已断开连接
+事件 "player_disconnect" 客户端已断开连接
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4284,14 +4319,15 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `Reason` | `short` | get, set | 见 NetworkDisconnect 枚举 Protobuf<br/>类型：short |
-| `Name` | `string` | get, set | 玩家名称<br/>类型：字符串 |
-| `NetworkID` | `string` | get, set | 玩家网络（即 Steam）ID <br/> 类型：字符串 |
-| `XuID` | `ulong` | get, set | Steam ID<br/>类型：uint64 |
-| `PlayerID` | `short` | get, set | 类型：短整型 |
+| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `Reason` | `short` | get, set | 参见networkdisconnect枚举protobuf <br/> 类型：短整型 |
+| `Name` | `string` | get, set | 玩家名称<br/>类型: 字符串 |
+| `NetworkID` | `string` | get, set | 玩家网络（即Steam）ID  
+类型：字符串 |
+| `XuID` | `ulong` | get, set | steam ID <br/> 类型：uint64 |
+| `PlayerID` | `short` | get, set | type: short |
 
 
 
@@ -4301,7 +4337,7 @@
 
 ## 🔌 EventPlayerFalldamage
 
-事件“玩家坠落伤害”
+事件 "player_falldamage"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4316,7 +4352,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `Damage` | `float` | get, set | 类型：浮点数 |
+| `Damage` | `float` | get, set | 类型：float |
 
 
 
@@ -4326,7 +4362,7 @@
 
 ## 🔌 EventPlayerFootstep
 
-事件"player_footstep"
+Event "player_footstep"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4338,9 +4374,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 类型：玩家生命体 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家生命体 |
-| `UserId` | `int` | get, set | 类型：玩家生命体 |
+| `UserIdController` | `CCSPlayerController` | get | 类型: 玩家棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 类型: 玩家棋子 |
+| `UserId` | `int` | get, set | 类型: 玩家棋子 |
 
 
 
@@ -4362,10 +4398,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `Count` | `short` | get, set | 本次完整更新的编号<br/>类型：short |
+| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `Count` | `short` | get, set | 此完整更新的编号<br/>类型: short |
 
 
 
@@ -4375,7 +4411,7 @@
 
 ## 🔌 EventPlayerGivenC4
 
-事件"player_given_c4"
+事件 "player_given_c4"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4387,9 +4423,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 接收 C4 的用户 ID<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 接收 C4 的用户 ID<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 接收 C4 的用户 ID<br/>类型：player_controller |
+| `UserIdController` | `CCSPlayerController` | get | 接收了C4的用户ID <br/> 类型: player_controller |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 接收了C4的用户ID <br/> 类型: player_controller |
+| `UserId` | `int` | get, set | 接收了C4的用户ID <br/> 类型: player_controller |
 
 
 
@@ -4411,7 +4447,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `HintMessage` | `string` | get, set | 提示的可本地化字符串<br/>类型：string |
+| `HintMessage` | `string` | get, set | 本地化提示字符串<br/>类型: 字符串 |
 
 
 
@@ -4421,7 +4457,7 @@
 
 ## 🔌 EventPlayerHurt
 
-事件"player_hurt"
+事件 "player_hurt"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4433,18 +4469,24 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 受伤的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 受伤的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 受伤的玩家<br/>类型：player_controller_and_pawn |
-| `AttackerController` | `CCSPlayerController` | get | 发起攻击的玩家<br/>类型：player_controller_and_pawn |
-| `AttackerPawn` | `CCSPlayerPawn` | get | 发起攻击的玩家<br/>类型：player_controller_and_pawn |
-| `Attacker` | `int` | get, set | 发起攻击的玩家<br/>类型：player_controller_and_pawn |
-| `Health` | `byte` | get, set | 剩余生命值 <br/> 类型：byte |
-| `Armor` | `byte` | get, set | 剩余护甲值<br/>类型：byte |
-| `Weapon` | `string` | get, set | 攻击者使用的武器名称，若为场景中的通用对象则为世界 <br/> 类型：字符串 |
-| `DmgHealth` | `short` | get, set | 对生命值造成的伤害<br/>类型：short |
-| `DmgArmor` | `byte` | get, set | 对护甲造成的伤害<br/>类型：byte |
-| `HitGroup` | `byte` | get, set | 受击部位组（Hitgroup）<br/>类型：byte |
+| `UserIdController` | `CCSPlayerController` | get | 受伤的玩家 <br/> 类型: player_controller_and_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 受伤的玩家 <br/> 类型: player_controller_and_pawn |
+| `UserId` | `int` | get, set | 受伤的玩家 <br/> 类型: player_controller_and_pawn |
+| `AttackerController` | `CCSPlayerController` | get | 攻击者玩家<br/>类型：玩家控制器与角色 |
+| `AttackerPawn` | `CCSPlayerPawn` | get | 攻击者玩家<br/>类型：玩家控制器与角色 |
+| `Attacker` | `int` | get, set | 攻击者玩家<br/>类型：玩家控制器与角色 |
+| `Health` | `byte` | get, set | - |
+| `ActualHealth` | `int` | get, set | 剩余生命值  
+类型：整数 |
+| `Armor` | `byte` | get, set | - |
+| `ActualArmor` | `int` | get, set | 剩余护甲值 <br/> 类型：整数 |
+| `Weapon` | `string` | get, set | 攻击者使用的武器名称，如果不是世界 <br/> 类型：字符串 |
+| `DmgHealth` | `short` | get, set | - |
+| `ActualDmgHealth` | `int` | get, set | 对生命值造成的伤害 <br/> 类型：整数 |
+| `DmgArmor` | `byte` | get, set | - |
+| `ActualDmgArmor` | `int` | get, set | 对护甲造成的伤害<br/>类型：整型 |
+| `HitGroup` | `byte` | get, set | - |
+| `ActualHitGroup` | `HitGroup_t` | get, set | 命中的身体部位组 <br/> 类型: HitGroup_t |
 
 
 
@@ -4454,7 +4496,7 @@
 
 ## 🔌 EventPlayerInfo
 
-事件"player_info"：玩家更改了其名称
+事件 "player_info" 一名玩家更改了他的名称
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4466,12 +4508,12 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Name` | `string` | get, set | 玩家名称<br/>类型：字符串 |
-| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户 ID（在服务器上唯一）<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户 ID（在服务器上唯一）<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 服务器上的用户 ID（在服务器上唯一）<br/>类型：player_controller |
-| `SteamID` | `ulong` | get, set | 玩家网络（即 Steam）ID<br/>类型：uint64 |
-| `Bot` | `bool` | get, set | 当玩家为 AI 机器人时返回 true <br/> 类型：bool |
+| `Name` | `string` | get, set | 玩家名称<br/>类型: 字符串 |
+| `UserIdController` | `CCSPlayerController` | get | 用户ID（服务器上唯一）<br/> 类型：玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 用户ID（服务器上唯一）<br/> 类型：玩家控制器 |
+| `UserId` | `int` | get, set | 用户ID（服务器上唯一）<br/> 类型：玩家控制器 |
+| `SteamID` | `ulong` | get, set | 玩家网络（如Steam）ID <br/> 类型：uint64 |
+| `Bot` | `bool` | get, set | 如果玩家是AI机器人则为true <br/> 类型：bool |
 
 
 
@@ -4505,7 +4547,7 @@
 
 ## 🔌 EventPlayerPing
 
-事件"player_ping"
+事件 "player_ping"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4520,11 +4562,11 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
-| `Urgent` | `bool` | get, set | 类型：布尔值 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
+| `Urgent` | `bool` | get, set | 类型: bool |
 
 
 
@@ -4534,7 +4576,7 @@
 
 ## 🔌 EventPlayerPingStop
 
-事件"player_ping_stop"
+事件 "player_ping_stop"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4546,7 +4588,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntityID` | `short` | get, set | 类型：短整型 |
+| `EntityID` | `short` | get, set | type: short |
 
 
 
@@ -4571,7 +4613,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `Slot` | `short` | get, set | 类型：短整型 |
+| `Slot` | `short` | get, set | type: short |
 
 
 
@@ -4596,7 +4638,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Vote` | `bool` | get, set | 类型：布尔值 |
+| `Vote` | `bool` | get, set | 类型: bool |
 
 
 
@@ -4606,7 +4648,7 @@
 
 ## 🔌 EventPlayerScore
 
-事件 "player_score"：玩家得分已变更
+事件 "player_score" 玩家得分已更改
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4618,12 +4660,12 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `UserId` | `int` | get, set | 服务器上的用户 ID<br/>类型：玩家控制器 |
-| `Kills` | `short` | get, set | 击杀数 <br/> 类型：short |
-| `Deaths` | `short` | get, set | 死亡次数<br/>类型：short |
-| `Score` | `short` | get, set | 总游戏分数<br/>类型：短整型（short） |
+| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `UserId` | `int` | get, set | 服务器上的用户ID <br/> 类型: 玩家控制器 |
+| `Kills` | `short` | get, set | # 击杀数<br/> 类型：短整型 |
+| `Deaths` | `short` | get, set | # 死亡次数 <br/> 类型：short |
+| `Score` | `short` | get, set | 游戏总得分 <br/> 类型: 短整型 |
 
 
 
@@ -4633,7 +4675,7 @@
 
 ## 🔌 EventPlayerShoot
 
-事件 "player_shoot"：玩家开火射击其武器。
+事件 "player_shoot" 玩家射击其武器
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4645,11 +4687,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户 ID<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户 ID<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 服务器上的用户 ID<br/>类型：player_controller_and_pawn |
-| `Weapon` | `byte` | get, set | 武器 ID<br/>类型：byte |
-| `Mode` | `byte` | get, set | 武器模式<br/>类型：字节 |
+| `UserIdController` | `CCSPlayerController` | get | 服务器上的用户ID <br/> 类型: 玩家控制器与棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 服务器上的用户ID <br/> 类型: 玩家控制器与棋子 |
+| `UserId` | `int` | get, set | 服务器上的用户ID <br/> 类型: 玩家控制器与棋子 |
+| `Weapon` | `byte` | get, set | 武器ID<br/>类型：字节 |
+| `Mode` | `byte` | get, set | 武器模式 <br/> 类型: 字节 |
 
 
 
@@ -4659,7 +4701,7 @@
 
 ## 🔌 EventPlayerSound
 
-事件"player_sound"
+事件 "player_sound"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4674,9 +4716,9 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `Radius` | `int` | get, set | 类型：整数 |
-| `Duration` | `float` | get, set | 类型：浮点数 |
-| `Step` | `bool` | get, set | 类型：布尔值 |
+| `Radius` | `int` | get, set | 类型: int |
+| `Duration` | `float` | get, set | 类型：float |
+| `Step` | `bool` | get, set | 类型: bool |
 
 
 
@@ -4686,7 +4728,7 @@
 
 ## 🔌 EventPlayerSpawn
 
-事件 "player_spawn"：玩家在游戏中生成
+事件 "player_spawn" 玩家在游戏中生成
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4725,7 +4767,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `InRestart` | `bool` | get, set | 如果重启待处理则为 true<br/>类型：bool |
+| `InRestart` | `bool` | get, set | 如果重启处于待处理状态，则为true <br/> 类型：bool |
 
 
 
@@ -4735,7 +4777,7 @@
 
 ## 🔌 EventPlayerStatsUpdated
 
-事件"player_stats_updated"
+事件 "player_stats_updated"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4747,7 +4789,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ForceUpload` | `bool` | get, set | 类型：布尔值 |
+| `ForceUpload` | `bool` | get, set | 类型: bool |
 
 
 
@@ -4757,7 +4799,7 @@
 
 ## 🔌 EventPlayerTeam
 
-事件“玩家队伍”
+事件 "player_team"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4769,15 +4811,18 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 玩家<br/>类型：玩家控制器与Pawn（Pawn 为游戏实体基类） |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家<br/>类型：玩家控制器与Pawn（Pawn 为游戏实体基类） |
-| `UserId` | `int` | get, set | 玩家<br/>类型：玩家控制器与Pawn（Pawn 为游戏实体基类） |
-| `Team` | `byte` | get, set | 团队 ID<br/>类型：byte |
-| `OldTeam` | `byte` | get, set | 旧队伍 ID<br/>类型：字节 |
-| `Disconnect` | `bool` | get, set | 因玩家断开连接而更改队伍 <br/> 类型：布尔型 |
-| `Silent` | `bool` | get, set | 类型：布尔值 |
-| `Name` | `string` | get, set | 类型：字符串 |
-| `IsBot` | `bool` | get, set | 如果玩家是机器人则为 true<br/>类型：bool |
+| `UserIdController` | `CCSPlayerController` | get | 玩家  
+类型：玩家控制器与棋子 |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家  
+类型：玩家控制器与棋子 |
+| `UserId` | `int` | get, set | 玩家  
+类型：玩家控制器与棋子 |
+| `Team` | `byte` | get, set | 团队ID <br/> 类型：字节 |
+| `OldTeam` | `byte` | get, set | 旧队伍ID <br/> 类型：字节 |
+| `Disconnect` | `bool` | get, set | 团队变更因为玩家断开连接<br/> 类型：布尔值 |
+| `Silent` | `bool` | get, set | 类型: bool |
+| `Name` | `string` | get, set | 类型: 字符串 |
+| `IsBot` | `bool` | get, set | 如果玩家是机器人则为真<br/>类型：布尔值 |
 
 
 
@@ -4799,7 +4844,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntIndex` | `int` | get, set | 类型：long |
+| `EntIndex` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -4809,7 +4854,7 @@
 
 ## 🔌 EventReadGameTitledata
 
-事件"read_game_titledata"：从用户档案中读取游戏标题数据
+事件 "read_game_titledata" 从用户档案中读取游戏标题数据
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4821,7 +4866,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ControllerId` | `short` | get, set | 用户的控制器 ID<br/>类型：short |
+| `ControllerId` | `short` | get, set | 用户控制器ID<br/>类型: short |
 
 
 
@@ -4843,7 +4888,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `SplitScreenPlayer` | `short` | get, set | 分屏 ID<br/>类型：短整型（short） |
+| `SplitScreenPlayer` | `short` | get, set | 分屏ID <br/> 类型: short |
 
 
 
@@ -4853,7 +4898,7 @@
 
 ## 🔌 EventResetGameTitledata
 
-事件"reset_game_titledata"重置用户标题数据；请勿自动写入配置文件。
+事件 "reset_game_titledata" 重置用户标题数据；不要自动写入配置文件
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4865,7 +4910,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ControllerId` | `short` | get, set | 用户的控制器 ID<br/>类型：short |
+| `ControllerId` | `short` | get, set | 用户控制器ID<br/>类型: short |
 
 
 
@@ -4875,7 +4920,9 @@
 
 ## 🔌 EventRoundAnnounceFinal
 
-事件 "round_announce_final"（回合最终播报）
+Event "round_announce_final"
+
+翻译：事件 "round_announce_final"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4891,7 +4938,7 @@
 
 ## 🔌 EventRoundAnnounceLastRoundHalf
 
-事件"round_announce_last_round_half"
+事件 "round_announce_last_round_half"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4907,7 +4954,7 @@
 
 ## 🔌 EventRoundAnnounceMatchPoint
 
-事件"round_announce_match_point"（宣布赛点）
+事件 "round_announce_match_point"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4923,7 +4970,7 @@
 
 ## 🔌 EventRoundAnnounceMatchStart
 
-事件“round_announce_match_start”
+事件 "round_announce_match_start"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4939,7 +4986,7 @@
 
 ## 🔌 EventRoundAnnounceWarmup
 
-事件“回合预热宣告”
+事件 "round_announce_warmup"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4955,7 +5002,7 @@
 
 ## 🔌 EventRoundEnd
 
-事件“回合结束”
+事件 "round_end"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -4967,13 +5014,14 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Winner` | `byte` | get, set | 获胜方/玩家 i <br/> 类型：字节 |
-| `Reason` | `byte` | get, set | 胜利原因<br/>类型：字节 |
-| `Message` | `string` | get, set | 回合结束消息<br/>类型：字符串 |
-| `Time` | `float` | get, set | 类型：浮点数 |
-| `Legacy` | `byte` | get, set | 服务器生成的遗留值<br/>类型：byte |
-| `PlayerCount` | `short` | get, set | 回合结束时存活的玩家总数，用于统计收集；该值由服务器计算（当客户端在接收此消息时处于回放模式）<br/>类型：short |
-| `NoMusic` | `byte` | get, set | 如果设置，则不播放回合结束音乐，因为动作仍在进行中<br/>类型：byte |
+| `Winner` | `byte` | get, set | 获胜队伍/用户 i <br/> 类型: 字节 |
+| `Reason` | `byte` | get, set | 团队获胜原因 <br/> 类型: 字节 |
+| `Message` | `string` | get, set | 回合结束消息  
+类型：字符串 |
+| `Time` | `float` | get, set | 类型：float |
+| `Legacy` | `byte` | get, set | 服务端生成的遗留值 <br/> 类型：字节 |
+| `PlayerCount` | `short` | get, set | 回合结束时存活玩家总数，用于数据统计收集，当客户端在回放中接收此消息时在服务器端计算 <br/> 类型：short |
+| `NoMusic` | `byte` | get, set | 若已设置，则勿播放回合结束音乐，因操作仍在进行中<br/> 类型：字节 |
 
 
 
@@ -4999,7 +5047,7 @@
 
 ## 🔌 EventRoundFreezeEnd
 
-事件“回合冻结结束”
+事件 "round_freeze_end"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5030,11 +5078,11 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Reason` | `short` | get, set | 类型：短整型 |
-| `Value` | `int` | get, set | 类型：long |
-| `MusickItMvps` | `int` | get, set | 类型：long |
-| `NoMusic` | `byte` | get, set | 类型：字节 |
-| `MusickItID` | `int` | get, set | 类型：long |
+| `Reason` | `short` | get, set | type: short |
+| `Value` | `int` | get, set | 类型：长整型 |
+| `MusickItMvps` | `int` | get, set | 类型：长整型 |
+| `NoMusic` | `byte` | get, set | 类型: 字节 |
+| `MusickItID` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -5044,7 +5092,7 @@
 
 ## 🔌 EventRoundOfficiallyEnded
 
-事件"round_officially_ended"
+事件 "round_officially_ended"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5060,7 +5108,7 @@
 
 ## 🔌 EventRoundPoststart
 
-事件"round_poststart"在所有其他回合重启动作完成后发送
+事件 "round_poststart" 在所有其他回合重启动作之后发送
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5076,7 +5124,7 @@
 
 ## 🔌 EventRoundPrestart
 
-事件"round_prestart"在所有其他回合重启动作之前发送
+事件 "round_prestart" 在所有其他回合重启动作之前发送
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5092,7 +5140,7 @@
 
 ## 🔌 EventRoundStart
 
-事件"round_start"
+事件 "round_start"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5104,9 +5152,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TimeLimit` | `int` | get, set | 回合时间限制（单位：秒）<br/>类型：long |
-| `FragLimit` | `int` | get, set | 每局击杀限制（秒）<br/>类型：long |
-| `Objective` | `string` | get, set | 回合目标<br/>类型：字符串 |
+| `TimeLimit` | `int` | get, set | 回合时间限制（秒）<br/> 类型：长整型 |
+| `FragLimit` | `int` | get, set | frag 限制（秒）<br/> 类型：长整型 |
+| `Objective` | `string` | get, set | 回合目标 <br/> 类型: 字符串 |
 
 
 
@@ -5116,7 +5164,7 @@
 
 ## 🔌 EventRoundStartPostNav
 
-事件 "round_start_post_nav"（回合开始导航后）
+事件 "round_start_post_nav"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5132,7 +5180,7 @@
 
 ## 🔌 EventRoundStartPreEntity
 
-事件“round_start_pre_entity"
+事件 "round_start_pre_entity"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5148,7 +5196,7 @@
 
 ## 🔌 EventRoundTimeWarning
 
-事件 "round_time_warning"（回合时间警告）
+事件 "round_time_warning"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5164,7 +5212,7 @@
 
 ## 🔌 EventSeasoncoinLevelup
 
-事件"seasoncoin_levelup"
+事件 "seasoncoin_levelup"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5179,8 +5227,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Category` | `short` | get, set | 类型：短整型 |
-| `Rank` | `short` | get, set | 类型：短整型 |
+| `Category` | `short` | get, set | type: short |
+| `Rank` | `short` | get, set | type: short |
 
 
 
@@ -5190,7 +5238,7 @@
 
 ## 🔌 EventServerCvar
 
-事件"server_cvar"：服务器控制台变量已更改
+事件 "server_cvar" 服务器控制台变量已更改
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5203,7 +5251,7 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `CVarName` | `string` | get, set | cvar 名称，例如 "mp_roundtime" <br/> 类型：字符串 |
-| `CVarValue` | `string` | get, set | 新 cvar 值 <br/> 类型：字符串 |
+| `CVarValue` | `string` | get, set | 新cvar值<br/>类型: 字符串 |
 
 
 
@@ -5225,7 +5273,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Text` | `string` | get, set | 消息文本<br/>类型：字符串 |
+| `Text` | `string` | get, set | 消息文本 <br/> 类型：字符串 |
 
 
 
@@ -5235,7 +5283,7 @@
 
 ## 🔌 EventServerPreShutdown
 
-事件"server_pre_shutdown"：服务器即将关闭
+事件 "server_pre_shutdown" 服务器即将关闭
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5247,7 +5295,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Reason` | `string` | get, set | 服务器即将关闭的原因<br/>类型：字符串 |
+| `Reason` | `string` | get, set | 服务器即将关闭的原因 <br/> 类型: 字符串 |
 
 
 
@@ -5257,7 +5305,7 @@
 
 ## 🔌 EventServerShutdown
 
-事件"server_shutdown"：服务器关闭
+事件 "server_shutdown" 服务器关闭
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5269,7 +5317,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Reason` | `string` | get, set | 服务器关闭的原因 <br/> 类型：字符串 |
+| `Reason` | `string` | get, set | 服务器关闭的原因<br/> 类型: 字符串 |
 
 
 
@@ -5279,7 +5327,7 @@
 
 ## 🔌 EventServerSpawn
 
-事件"server_spawn"在服务器启动时触发一次
+事件 "server_spawn" 在服务器启动时发送一次
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5292,15 +5340,16 @@
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
 | `Hostname` | `string` | get, set | 公共主机名<br/>类型：字符串 |
-| `Address` | `string` | get, set | 主机名、IP 地址或 DNS 名称 <br/> 类型：字符串 |
-| `Port` | `short` | get, set | 服务器端口<br/>类型：短整型 |
-| `Game` | `string` | get, set | 游戏目录<br/>类型：字符串 |
+| `Address` | `string` | get, set | 主机名、IP或DNS名称 <br/> 类型：字符串 |
+| `Port` | `short` | get, set | 服务器端口<br/>类型：short |
+| `Game` | `string` | get, set | 游戏目录<br/>类型: 字符串 |
 | `MapName` | `string` | get, set | 地图名称<br/>类型：字符串 |
-| `AddonName` | `string` | get, set | 插件名称<br/>类型：字符串 |
+| `AddonName` | `string` | get, set | 附加资源名称<br/>类型：字符串 |
 | `MaxPlayers` | `int` | get, set | 最大玩家数<br/>类型：长整型 |
-| `Os` | `string` | get, set | WIN32, LINUX<br/>类型：字符串 |
-| `Dedicated` | `bool` | get, set | true 表示为专用服务器<br/>类型：布尔值 |
-| `Password` | `bool` | get, set | true 表示密码保护 <br/> 类型：bool |
+| `Os` | `string` | get, set | WIN32, LINUX  
+类型：字符串 |
+| `Dedicated` | `bool` | get, set | 如果是专用服务器，则为 true<br/> 类型：布尔 |
+| `Password` | `bool` | get, set | 如果受密码保护则为真 <br/> 类型: 布尔 |
 
 
 
@@ -5322,8 +5371,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Group` | `string` | get, set | 类型：字符串 |
-| `Enabled` | `short` | get, set | 类型：短整型 |
+| `Group` | `string` | get, set | 类型: 字符串 |
+| `Enabled` | `short` | get, set | type: short |
 
 
 
@@ -5333,7 +5382,7 @@
 
 ## 🔌 EventSfuievent
 
-事件 "sfuievent"
+事件“sfuievent”
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5345,9 +5394,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Action` | `string` | get, set | 类型：字符串 |
-| `Data` | `string` | get, set | 类型：字符串 |
-| `Slot` | `byte` | get, set | 类型：字节 |
+| `Action` | `string` | get, set | 类型: 字符串 |
+| `Data` | `string` | get, set | 类型: 字符串 |
+| `Slot` | `byte` | get, set | 类型: 字节 |
 
 
 
@@ -5357,7 +5406,7 @@
 
 ## 🔌 EventShowDeathpanel
 
-事件"show_deathpanel"
+事件 "show_deathpanel"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5369,17 +5418,17 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `VictimController` | `CCSPlayerController` | get | 被击杀者的索引 <br/> 类型：player_controller_and_pawn |
-| `VictimPawn` | `CCSPlayerPawn` | get | 被击杀者的索引 <br/> 类型：player_controller_and_pawn |
-| `Victim` | `int` | get, set | 被击杀者的索引 <br/> 类型：player_controller_and_pawn |
-| `Killer` | `nint` | get, set | 被击杀实体的 entindex<br/>类型：ehandle |
+| `VictimController` | `CCSPlayerController` | get | 被杀者的结束索引 <br/> 类型: player_controller_and_pawn |
+| `VictimPawn` | `CCSPlayerPawn` | get | 被杀者的结束索引 <br/> 类型: player_controller_and_pawn |
+| `Victim` | `int` | get, set | 被杀者的结束索引 <br/> 类型: player_controller_and_pawn |
+| `Killer` | `nint` | get, set | 击杀者实体的实体索引 <br/> 类型：ehandle |
 | `KillerControllerController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `KillerControllerPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `KillerController` | `int` | get, set | 类型：玩家控制器 |
-| `HitsTaken` | `short` | get, set | 类型：短整型 |
-| `DamageTaken` | `short` | get, set | 类型：短整型 |
-| `HitsGiven` | `short` | get, set | 类型：短整型 |
-| `DamageGiven` | `short` | get, set | 类型：短整型 |
+| `HitsTaken` | `short` | get, set | type: short |
+| `DamageTaken` | `short` | get, set | type: short |
+| `HitsGiven` | `short` | get, set | type: short |
+| `DamageGiven` | `short` | get, set | type: short |
 
 
 
@@ -5389,7 +5438,7 @@
 
 ## 🔌 EventShowSurvivalRespawnStatus
 
-事件"show_survival_respawn_status"
+Event "show_survival_respawn_status"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5401,8 +5450,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `LocToken` | `string` | get, set | 类型：字符串 |
-| `Duration` | `int` | get, set | 类型：long |
+| `LocToken` | `string` | get, set | 类型: 字符串 |
+| `Duration` | `int` | get, set | 类型：长整型 |
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
@@ -5415,7 +5464,7 @@
 
 ## 🔌 EventSilencerDetach
 
-事件“消音器脱离”
+事件 "silencer_detach"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5439,7 +5488,7 @@
 
 ## 🔌 EventSilencerOff
 
-事件"silencer_off"
+事件 "silencer_off"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5463,7 +5512,7 @@
 
 ## 🔌 EventSilencerOn
 
-事件"silencer_on"
+事件 "silencer_on"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5502,7 +5551,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `ParaDrop` | `short` | get, set | 类型：短整型 |
+| `ParaDrop` | `short` | get, set | type: short |
 
 
 
@@ -5512,7 +5561,7 @@
 
 ## 🔌 EventSmokegrenadeDetonate
 
-事件"smokegrenade_detonate"
+事件 "smokegrenade_detonate"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5527,10 +5576,10 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -5540,7 +5589,7 @@
 
 ## 🔌 EventSmokegrenadeExpired
 
-事件"烟雾弹已过期”
+事件 "smokegrenade_expired"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5555,10 +5604,10 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -5580,9 +5629,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 观战玩家<br/>类型：玩家控制器与Pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 观战玩家<br/>类型：玩家控制器与Pawn |
-| `UserId` | `int` | get, set | 观战玩家<br/>类型：玩家控制器与Pawn |
+| `UserIdController` | `CCSPlayerController` | get | 观战玩家 <br/> 类型: player_controller_and_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 观战玩家 <br/> 类型: player_controller_and_pawn |
+| `UserId` | `int` | get, set | 观战玩家 <br/> 类型: player_controller_and_pawn |
 
 
 
@@ -5604,10 +5653,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 观战玩家<br/>类型：玩家控制器与Pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 观战玩家<br/>类型：玩家控制器与Pawn |
-| `UserId` | `int` | get, set | 观战玩家<br/>类型：玩家控制器与Pawn |
-| `Target` | `nint` | get, set | 目标对象的 ehandle <br/> 类型：ehandle |
+| `UserIdController` | `CCSPlayerController` | get | 观战玩家 <br/> 类型: player_controller_and_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 观战玩家 <br/> 类型: player_controller_and_pawn |
+| `UserId` | `int` | get, set | 观战玩家 <br/> 类型: player_controller_and_pawn |
+| `Target` | `nint` | get, set | 目标实体的eHandle<br/>类型: eHandle |
 
 
 
@@ -5633,7 +5682,7 @@
 
 ## 🔌 EventStartVote
 
-事件"start_vote"
+事件 "start_vote"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5648,8 +5697,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `Type` | `byte` | get, set | 类型：字节 |
-| `VoteParameter` | `short` | get, set | 类型：短整型 |
+| `Type` | `byte` | get, set | 类型: 字节 |
+| `VoteParameter` | `short` | get, set | type: short |
 
 
 
@@ -5675,7 +5724,7 @@
 
 ## 🔌 EventSurvivalAnnouncePhase
 
-事件"survival_announce_phase"
+事件 "survival_announce_phase"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5687,7 +5736,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Phase` | `short` | get, set | 阶段编号<br/>类型：short |
+| `Phase` | `short` | get, set | 阶段编号<br/> 类型：短整型 |
 
 
 
@@ -5697,7 +5746,7 @@
 
 ## 🔌 EventSurvivalNoRespawnsFinal
 
-事件“生存模式_最终无重生”
+事件 "survival_no_respawns_final"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5721,7 +5770,7 @@
 
 ## 🔌 EventSurvivalNoRespawnsWarning
 
-事件"survival_no_respawns_warning"（生存模式无重生警告）
+事件 "survival_no_respawns_warning"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5745,7 +5794,7 @@
 
 ## 🔌 EventSurvivalParadropBreak
 
-事件"survival_paradrop_break"
+事件 "survival_paradrop_break"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5757,7 +5806,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntityID` | `short` | get, set | 类型：短整型 |
+| `EntityID` | `short` | get, set | type: short |
 
 
 
@@ -5779,7 +5828,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `EntityID` | `short` | get, set | 类型：短整型 |
+| `EntityID` | `short` | get, set | type: short |
 
 
 
@@ -5813,7 +5862,7 @@
 
 ## 🔌 EventSwitchTeam
 
-事件"switch_team"
+事件 "switch_team"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5825,11 +5874,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `NumPlayers` | `short` | get, set | T 阵营和 CT 阵营当前活跃玩家数量 <br/> 类型：short |
-| `NumSpectators` | `short` | get, set | 观众数量<br/>类型：短整型 |
-| `AvgRank` | `short` | get, set | 人类玩家的平均等级<br/>类型：short |
-| `NumTSlotsFree` | `short` | get, set | 类型：短整型 |
-| `NumCTSlotsFree` | `short` | get, set | 类型：短整型 |
+| `NumPlayers` | `short` | get, set | 双方T和CT阵营中的活跃玩家数量 <br/> 类型：short |
+| `NumSpectators` | `short` | get, set | 观众人数 <br/> 类型: short |
+| `AvgRank` | `short` | get, set | 玩家平均段位 <br/> 类型: 短整型 |
+| `NumTSlotsFree` | `short` | get, set | type: short |
+| `NumCTSlotsFree` | `short` | get, set | type: short |
 
 
 
@@ -5839,7 +5888,7 @@
 
 ## 🔌 EventTagrenadeDetonate
 
-事件"tagrenade_detonate"
+事件 "tagrenade_detonate"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5854,10 +5903,10 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `EntityID` | `short` | get, set | 类型：短整型 |
-| `X` | `float` | get, set | 类型：浮点数 |
-| `Y` | `float` | get, set | 类型：浮点数 |
-| `Z` | `float` | get, set | 类型：浮点数 |
+| `EntityID` | `short` | get, set | type: short |
+| `X` | `float` | get, set | 类型：float |
+| `Y` | `float` | get, set | 类型：float |
+| `Z` | `float` | get, set | 类型：float |
 
 
 
@@ -5867,7 +5916,7 @@
 
 ## 🔌 EventTeamInfo
 
-事件"team_info"：团队信息
+事件 "team_info" 关于队伍的信息
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5879,8 +5928,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TeamID` | `byte` | get, set | 唯一团队 ID<br/>类型：字节 |
-| `Teamname` | `string` | get, set | 队伍名称，例如"Team Blue"<br/>类型：字符串 |
+| `TeamID` | `byte` | get, set | 唯一队伍ID<br/>类型：字节 |
+| `Teamname` | `string` | get, set | 队伍名称 例如"蓝队" <br/> 类型: 字符串 |
 
 
 
@@ -5906,7 +5955,7 @@
 
 ## 🔌 EventTeamIntroStart
 
-事件"team_intro_start"
+事件 "team_intro_start"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5922,7 +5971,7 @@
 
 ## 🔌 EventTeamScore
 
-事件"team_score"：队伍分数变更
+事件 "team_score" 队伍得分已改变
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5934,8 +5983,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `TeamID` | `byte` | get, set | 团队 ID<br/>类型：byte |
-| `Score` | `short` | get, set | 总团队分数<br/>类型：short |
+| `TeamID` | `byte` | get, set | 团队ID <br/> 类型：字节 |
+| `Score` | `short` | get, set | 队伍总分 <br/> 类型：短整型 |
 
 
 
@@ -5945,7 +5994,7 @@
 
 ## 🔌 EventTeamchangePending
 
-事件"teamchange_pending"
+事件 "teamchange_pending"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5960,7 +6009,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器 |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器 |
 | `UserId` | `int` | get, set | 类型：玩家控制器 |
-| `ToTeam` | `byte` | get, set | 类型：字节 |
+| `ToTeam` | `byte` | get, set | 类型: 字节 |
 
 
 
@@ -5970,7 +6019,7 @@
 
 ## 🔌 EventTeamplayBroadcastAudio
 
-事件"teamplay_broadcast_audio"会向队伍中的每位成员播放一段声音。
+事件 "teamplay_broadcast_audio" 向队伍内的所有玩家播放音效
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -5982,8 +6031,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Team` | `byte` | get, set | 唯一团队 ID<br/>类型：字节 |
-| `Sound` | `string` | get, set | 要播放的音效名称<br/>类型：字符串 |
+| `Team` | `byte` | get, set | 唯一队伍ID<br/>类型：字节 |
+| `Sound` | `string` | get, set | 要发出的声音名称<br/>类型：字符串 |
 
 
 
@@ -5993,7 +6042,7 @@
 
 ## 🔌 EventTeamplayRoundStart
 
-事件 "teamplay_round_start"：回合重新开始
+事件 "teamplay_round_start" 回合重启
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6005,7 +6054,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `FullReset` | `bool` | get, set | 这是否为地图的全局重置<br/>类型：布尔值 |
+| `FullReset` | `bool` | get, set | 是否为地图的完全重置 <br/> 类型: 布尔值 |
 
 
 
@@ -6015,7 +6064,7 @@
 
 ## 🔌 EventTournamentReward
 
-事件"tournament_reward"
+事件 "tournament_reward"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6027,9 +6076,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `DefIndex` | `int` | get, set | 类型：long |
-| `TotalRewards` | `int` | get, set | 类型：long |
-| `AccountID` | `int` | get, set | 类型：long |
+| `DefIndex` | `int` | get, set | 类型：长整型 |
+| `TotalRewards` | `int` | get, set | 类型：长整型 |
+| `AccountID` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -6039,7 +6088,7 @@
 
 ## 🔌 EventTrialTimeExpired
 
-事件"trial_time_expired"
+事件 "trial_time_expired"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6051,9 +6100,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 时间已耗尽的玩家<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 时间已耗尽的玩家<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 时间已耗尽的玩家<br/>类型：player_controller |
+| `UserIdController` | `CCSPlayerController` | get | 玩家，其时间已过期 <br/> 类型：player_controller |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 玩家，其时间已过期 <br/> 类型：player_controller |
+| `UserId` | `int` | get, set | 玩家，其时间已过期 <br/> 类型：player_controller |
 
 
 
@@ -6063,7 +6112,7 @@
 
 ## 🔌 EventUgcFileDownloadFinished
 
-事件“ugc_file_download_finished"
+事件 "ugc_file_download_finished"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6075,7 +6124,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `HContent` | `ulong` | get, set | 该特定内容的 ID（可能是图片或地图）<br/>类型：uint64 |
+| `HContent` | `ulong` | get, set | 此特定内容（图像或地图）的ID <br/> 类型：uint64 |
 
 
 
@@ -6085,7 +6134,7 @@
 
 ## 🔌 EventUgcFileDownloadStart
 
-事件"ugc_file_download_start"
+事件 "ugc_file_download_start"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6097,8 +6146,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `HContent` | `ulong` | get, set | 该特定内容的 ID（可能是图片或地图）<br/>类型：uint64 |
-| `PublishedFileId` | `ulong` | get, set | 关联内容包的 ID <br/> 类型：uint64 |
+| `HContent` | `ulong` | get, set | 此特定内容（图像或地图）的ID <br/> 类型：uint64 |
+| `PublishedFileId` | `ulong` | get, set | 关联内容包的ID <br/> 类型: uint64 |
 
 
 
@@ -6108,7 +6157,7 @@
 
 ## 🔌 EventUgcMapDownloadError
 
-事件 "ugc_map_download_error"（创意工坊地图下载错误）
+事件 "ugc_map_download_error"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6120,8 +6169,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PublishedFileId` | `ulong` | get, set | 类型：无符号 64 位整数 |
-| `ErrorCode` | `int` | get, set | 类型：long |
+| `PublishedFileId` | `ulong` | get, set | 类型: uint64 |
+| `ErrorCode` | `int` | get, set | 类型：长整型 |
 
 
 
@@ -6143,7 +6192,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PublishedFileId` | `ulong` | get, set | 类型：无符号 64 位整数 |
+| `PublishedFileId` | `ulong` | get, set | 类型: uint64 |
 
 
 
@@ -6153,7 +6202,7 @@
 
 ## 🔌 EventUgcMapUnsubscribed
 
-事件"ugc_map_unsubscribed"
+事件 "ugc_map_unsubscribed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6165,7 +6214,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `PublishedFileId` | `ulong` | get, set | 类型：无符号 64 位整数 |
+| `PublishedFileId` | `ulong` | get, set | 类型: uint64 |
 
 
 
@@ -6175,7 +6224,7 @@
 
 ## 🔌 EventUpdateMatchmakingStats
 
-事件"update_matchmaking_stats"
+事件 "update_matchmaking_stats"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6191,7 +6240,7 @@
 
 ## 🔌 EventUserDataDownloaded
 
-事件"user_data_downloaded"在从 Steam 或 XBox Live 下载成就/统计数据时触发
+当成就/统计数据从Steam或Xbox Live下载时触发"user_data_downloaded"事件
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6207,7 +6256,7 @@
 
 ## 🔌 EventVipEscaped
 
-事件 "vip_escaped"
+事件 “vip_escaped”
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6219,9 +6268,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | VIP 玩家<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | VIP 玩家<br/>类型：player_controller |
-| `UserId` | `int` | get, set | VIP 玩家<br/>类型：player_controller |
+| `UserIdController` | `CCSPlayerController` | get | 成为VIP的玩家 <br/> 类型: player_controller |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 成为VIP的玩家 <br/> 类型: player_controller |
+| `UserId` | `int` | get, set | 成为VIP的玩家 <br/> 类型: player_controller |
 
 
 
@@ -6231,7 +6280,7 @@
 
 ## 🔌 EventVipKilled
 
-事件"vip_killed"
+事件 "vip_killed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6243,12 +6292,12 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | VIP 玩家<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | VIP 玩家<br/>类型：player_controller |
-| `UserId` | `int` | get, set | VIP 玩家<br/>类型：player_controller |
-| `AttackerController` | `CCSPlayerController` | get | 击杀 VIP 的用户 ID<br/>类型：player_controller |
-| `AttackerPawn` | `CCSPlayerPawn` | get | 击杀 VIP 的用户 ID<br/>类型：player_controller |
-| `Attacker` | `int` | get, set | 击杀 VIP 的用户 ID<br/>类型：player_controller |
+| `UserIdController` | `CCSPlayerController` | get | 成为VIP的玩家 <br/> 类型: player_controller |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 成为VIP的玩家 <br/> 类型: player_controller |
+| `UserId` | `int` | get, set | 成为VIP的玩家 <br/> 类型: player_controller |
+| `AttackerController` | `CCSPlayerController` | get | 击杀VIP的用户ID <br/> 类型: player_controller |
+| `AttackerPawn` | `CCSPlayerPawn` | get | 击杀VIP的用户ID <br/> 类型: player_controller |
+| `Attacker` | `int` | get, set | 击杀VIP的用户ID <br/> 类型: player_controller |
 
 
 
@@ -6258,7 +6307,7 @@
 
 ## 🔌 EventVoteCast
 
-事件"vote_cast"
+事件 "vote_cast"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6270,11 +6319,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `VoteOption` | `byte` | get, set | 玩家投票的选项 <br/> 类型：byte |
-| `Team` | `short` | get, set | 类型：短整型 |
-| `UserIdController` | `CCSPlayerController` | get | 投票的玩家<br/>类型：player_controller |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 投票的玩家<br/>类型：player_controller |
-| `UserId` | `int` | get, set | 投票的玩家<br/>类型：player_controller |
+| `VoteOption` | `byte` | get, set | 玩家投票选择的选项<br/>类型：字节 |
+| `Team` | `short` | get, set | type: short |
+| `UserIdController` | `CCSPlayerController` | get | 投票的玩家 <br/> 类型: player_controller |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 投票的玩家 <br/> 类型: player_controller |
+| `UserId` | `int` | get, set | 投票的玩家 <br/> 类型: player_controller |
 
 
 
@@ -6284,7 +6333,7 @@
 
 ## 🔌 EventVoteCastNo
 
-事件“投票未通过”
+事件 "vote_cast_no"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6296,8 +6345,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Team` | `byte` | get, set | 类型：字节 |
-| `EntityID` | `int` | get, set | 投票者的实体 ID<br/>类型：long |
+| `Team` | `byte` | get, set | 类型: 字节 |
+| `EntityID` | `int` | get, set | 投票者的实体ID <br/> 类型: long |
 
 
 
@@ -6307,7 +6356,7 @@
 
 ## 🔌 EventVoteCastYes
 
-事件 "vote_cast_yes"（投票投赞成票）
+事件 "vote_cast_yes"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6319,8 +6368,8 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Team` | `byte` | get, set | 类型：字节 |
-| `EntityID` | `int` | get, set | 投票者的实体 ID<br/>类型：long |
+| `Team` | `byte` | get, set | 类型: 字节 |
+| `EntityID` | `int` | get, set | 投票者的实体ID <br/> 类型: long |
 
 
 
@@ -6330,7 +6379,7 @@
 
 ## 🔌 EventVoteChanged
 
-事件"vote_changed"
+事件 "vote_changed"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6342,14 +6391,14 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `YesVotes` | `byte` | get, set | 类型：字节 |
-| `NoVotes` | `byte` | get, set | 类型：字节 |
-| `PotentialVotes` | `byte` | get, set | 类型：字节 |
-| `VoteOption1` | `byte` | get, set | 类型：字节 |
-| `VoteOption2` | `byte` | get, set | 类型：字节 |
-| `VoteOption3` | `byte` | get, set | 类型：字节 |
-| `VoteOption4` | `byte` | get, set | 类型：字节 |
-| `VoteOption5` | `byte` | get, set | 类型：字节 |
+| `YesVotes` | `byte` | get, set | 类型: 字节 |
+| `NoVotes` | `byte` | get, set | 类型: 字节 |
+| `PotentialVotes` | `byte` | get, set | 类型: 字节 |
+| `VoteOption1` | `byte` | get, set | 类型: 字节 |
+| `VoteOption2` | `byte` | get, set | 类型: 字节 |
+| `VoteOption3` | `byte` | get, set | 类型: 字节 |
+| `VoteOption4` | `byte` | get, set | 类型: 字节 |
+| `VoteOption5` | `byte` | get, set | 类型: 字节 |
 
 
 
@@ -6359,7 +6408,7 @@
 
 ## 🔌 EventVoteEnded
 
-事件"vote_ended"
+事件 "vote_ended"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6387,7 +6436,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Team` | `byte` | get, set | 类型：字节 |
+| `Team` | `byte` | get, set | 类型: 字节 |
 
 
 
@@ -6397,7 +6446,7 @@
 
 ## 🔌 EventVoteOptions
 
-事件"vote_options"
+事件 "vote_options"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6409,12 +6458,12 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Count` | `byte` | get, set | 选项数量 - 最多为 MAX_VOTE_OPTIONS <br/> 类型：byte |
-| `Option1` | `string` | get, set | 类型：字符串 |
-| `Option2` | `string` | get, set | 类型：字符串 |
-| `Option3` | `string` | get, set | 类型：字符串 |
-| `Option4` | `string` | get, set | 类型：字符串 |
-| `Option5` | `string` | get, set | 类型：字符串 |
+| `Count` | `byte` | get, set | 选项数量 - 最多MAX_VOTE_OPTIONS <br/> 类型：byte |
+| `Option1` | `string` | get, set | 类型: 字符串 |
+| `Option2` | `string` | get, set | 类型: 字符串 |
+| `Option3` | `string` | get, set | 类型: 字符串 |
+| `Option4` | `string` | get, set | 类型: 字符串 |
+| `Option5` | `string` | get, set | 类型: 字符串 |
 
 
 
@@ -6436,9 +6485,9 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Details` | `string` | get, set | 类型：字符串 |
-| `Param1` | `string` | get, set | 类型：字符串 |
-| `Team` | `byte` | get, set | 类型：字节 |
+| `Details` | `string` | get, set | 类型: 字符串 |
+| `Param1` | `string` | get, set | 类型: 字符串 |
+| `Team` | `byte` | get, set | 类型: 字节 |
 
 
 
@@ -6448,7 +6497,7 @@
 
 ## 🔌 EventVoteStarted
 
-事件"vote_started"
+事件 "vote_started"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6460,11 +6509,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Issue` | `string` | get, set | 类型：字符串 |
-| `Param1` | `string` | get, set | 类型：字符串 |
-| `VoteData` | `string` | get, set | 类型：字符串 |
-| `Team` | `byte` | get, set | 类型：字节 |
-| `Initiator` | `int` | get, set | 发起投票的玩家实体 ID <br/> 类型：long |
+| `Issue` | `string` | get, set | 类型: 字符串 |
+| `Param1` | `string` | get, set | 类型: 字符串 |
+| `VoteData` | `string` | get, set | 类型: 字符串 |
+| `Team` | `byte` | get, set | 类型: 字节 |
+| `Initiator` | `int` | get, set | 发起投票的玩家实体ID <br/> 类型：long |
 
 
 
@@ -6474,7 +6523,7 @@
 
 ## 🔌 EventWarmupEnd
 
-事件"warmup_end"
+事件 "warmup_end"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6490,7 +6539,7 @@
 
 ## 🔌 EventWeaponFire
 
-事件"weapon_fire"
+事件 "weapon_fire"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6505,8 +6554,8 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `Weapon` | `string` | get, set | 武器名称，类型：字符串 |
-| `Silenced` | `bool` | get, set | 是否为消音武器<br/>类型：布尔型 |
+| `Weapon` | `string` | get, set | 武器名称<br/>类型：字符串 |
+| `Silenced` | `bool` | get, set | 是否武器已消音 <br/> 类型：布尔 |
 
 
 
@@ -6516,7 +6565,7 @@
 
 ## 🔌 EventWeaponFireOnEmpty
 
-事件“武器在空仓时开火”
+事件 "weapon_fire_on_empty"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6531,7 +6580,7 @@
 | `UserIdController` | `CCSPlayerController` | get | 类型：玩家控制器与Pawn |
 | `UserIdPawn` | `CCSPlayerPawn` | get | 类型：玩家控制器与Pawn |
 | `UserId` | `int` | get, set | 类型：玩家控制器与Pawn |
-| `Weapon` | `string` | get, set | 武器名称，类型：字符串 |
+| `Weapon` | `string` | get, set | 武器名称<br/>类型：字符串 |
 
 
 
@@ -6541,7 +6590,7 @@
 
 ## 🔌 EventWeaponReload
 
-事件"weapon_reload"
+事件 "weapon_reload"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6625,10 +6674,10 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `UserIdController` | `CCSPlayerController` | get | 该事件适用的玩家<br/>类型：player_controller_and_pawn |
-| `UserIdPawn` | `CCSPlayerPawn` | get | 该事件适用的玩家<br/>类型：player_controller_and_pawn |
-| `UserId` | `int` | get, set | 该事件适用的玩家<br/>类型：player_controller_and_pawn |
-| `Mode` | `byte` | get, set | EWeaponHudSelectionMode（切换/拾取/丢弃）<br/>类型：byte |
+| `UserIdController` | `CCSPlayerController` | get | 此事件适用的玩家 <br/> 类型: player_controller_and_pawn |
+| `UserIdPawn` | `CCSPlayerPawn` | get | 此事件适用的玩家 <br/> 类型: player_controller_and_pawn |
+| `UserId` | `int` | get, set | 此事件适用的玩家 <br/> 类型: player_controller_and_pawn |
+| `Mode` | `byte` | get, set | EWeaponHudSelectionMode (切换 / 拾取 / 丢弃) <br/> 类型：byte |
 | `EntIndex` | `int` | get, set | 武器实体索引<br/>类型：long |
 
 
@@ -6639,7 +6688,7 @@
 
 ## 🔌 EventWriteGameTitledata
 
-事件 "write_game_titledata" 将用户标题数据写入个人资料
+事件 "write_game_titledata" 在个人资料中写入用户标题数据
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 
@@ -6651,7 +6700,7 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `ControllerId` | `short` | get, set | 用户的控制器 ID<br/>类型：short |
+| `ControllerId` | `short` | get, set | 用户控制器ID<br/>类型: short |
 
 
 
@@ -6661,7 +6710,7 @@
 
 ## 🔌 EventWriteProfileData
 
-事件"write_profile_data"
+事件 "write_profile_data"
 
 **命名空间:** `SwiftlyS2.Shared.GameEventDefinitions`
 

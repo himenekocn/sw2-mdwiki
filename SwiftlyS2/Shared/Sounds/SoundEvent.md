@@ -12,11 +12,11 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Name` | `string` | - | 音效事件名称。 |
-| `SourceEntityIndex` | `int` | - | 发出此声音事件实体的索引。设置为 -1（默认值）将从接收者位置发出声音。 |
-| `Volume` | `float` | - | 音效事件的音量。 |
-| `Pitch` | `float` | - | 声音事件的音高。 |
-| `Recipients` | `ref CRecipientFilter` | - | 声音事件的目标接收者。 |
+| `Name` | `string` | - | 声音事件名称。 |
+| `SourceEntityIndex` | `int` | - | 此声音事件发出的实体索引。设置为 -1（默认值）将从接收对象位置发出声音。 |
+| `Volume` | `float` | - | 声音事件的音量。 |
+| `Pitch` | `float` | - | 音调事件（sound event）的音高（pitch）。 |
+| `Recipients` | `ref CRecipientFilter` | - | 声音事件的接收者。 |
 
 ## ⚙️ 方法
 
@@ -81,7 +81,7 @@ void SetInt32(string fieldName, int value)
 
 **用法示例:**
 ```csharp
-soundEvent.SetInt32("volume", 75);
+soundEvent.SetInt32("volume", 100);
 ```
 
 ### GetInt32
@@ -114,7 +114,7 @@ void SetUInt32(string fieldName, uint value)
 
 **用法示例:**
 ```csharp
-soundEvent.SetUInt32("event_id", 1001);
+soundEvent.SetUInt32("Volume", 100);
 ```
 
 ### GetUInt32
@@ -131,7 +131,7 @@ uint GetUInt32(string fieldName)
 
 **用法示例:**
 ```csharp
-uint value = soundEvent.GetUInt32("Volume");
+uint value = soundEvent.GetUInt32("volume");
 ```
 
 ### SetFloat
@@ -147,7 +147,7 @@ void SetFloat(string fieldName, float value)
 
 **用法示例:**
 ```csharp
-soundEvent.SetFloat("volume", 0.8f);
+soundEvent.SetFloat("volume", 0.5f);
 ```
 
 ### GetFloat
@@ -182,7 +182,7 @@ void SetFloat3(string fieldName, float x, float y, float z)
 
 **用法示例:**
 ```csharp
-soundEvent.SetFloat3("position", 1.0f, 2.5f, -3.0f);
+soundEvent.SetFloat3("position", 1.0f, 2.0f, 3.0f);
 ```
 
 ### SetFloat3
@@ -198,7 +198,7 @@ void SetFloat3(string fieldName, Vector vec)
 
 **用法示例:**
 ```csharp
-soundEvent.SetFloat3("volume", existingVector);
+soundEvent.SetFloat3("position", Vector.Zero);
 ```
 
 ### GetFloat3
@@ -215,7 +215,7 @@ Vector GetFloat3(string fieldName)
 
 **用法示例:**
 ```csharp
-Vector result = soundEvent.GetFloat3("volume");
+Vector position = soundEvent.GetFloat3("position");
 ```
 
 ### Emit
@@ -237,13 +237,13 @@ uint id = soundEvent.Emit();
 Task<uint> EmitAsync()
 ```
 
-异步触发音效事件。
+异步触发声音事件。
 
-**返回值:** `Task\<uint\>` - 生成的声音事件 GUID。
+**返回值:** `Task\<uint\>` - 发出的声音事件GUID。
 
 **用法示例:**
 ```csharp
-uint eventId = await soundEvent.EmitAsync();
+uint soundId = await soundEvent.EmitAsync();
 ```
 
 ### Dispose

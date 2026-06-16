@@ -26,7 +26,7 @@ bool Init(uint unIP, ushort usGamePort, ushort usQueryPort, EServerMode eServerM
 
 **用法示例:**
 ```csharp
-bool success = GameServer.Init(0x7F000001, 27015, 27016, EServerMode.Value, "1.0.0");
+bool result = GameServer.Init(0, 27015, 27016, EServerMode.eServerModeAuthentication, "1.0.0");
 ```
 
 ### Shutdown (静态)

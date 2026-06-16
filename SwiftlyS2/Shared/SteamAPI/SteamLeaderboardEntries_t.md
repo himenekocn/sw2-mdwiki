@@ -60,7 +60,7 @@ operator ulong(SteamLeaderboardEntries_t that)
 
 **用法示例:**
 ```csharp
-ulong handle = SteamLeaderboardEntries_t.ulong(existingEntries);
+ulong handle = (ulong)leaderboardEntries;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(SteamLeaderboardEntries_t other)
 
 **用法示例:**
 ```csharp
-int result = existingEntry.CompareTo(otherEntry);
+int result = entry.CompareTo(otherEntry);
 ```
 

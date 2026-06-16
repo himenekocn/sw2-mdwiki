@@ -31,7 +31,7 @@ int Get<T>()
 
 **用法示例:**
 ```csharp
-int playerId = SchemaInfo.Get<Player>();
+int id = SchemaInfo.Get<Player>();
 ```
 
 ### IsSchemaClass<T> (静态)
@@ -44,6 +44,6 @@ bool IsSchemaClass<T>()
 
 **用法示例:**
 ```csharp
-bool isSchema = SchemaInfo.IsSchemaClass<CCSPlayerController>();
+bool isSchema = SchemaInfo.IsSchemaClass<CBasePlayer>();
 ```
 

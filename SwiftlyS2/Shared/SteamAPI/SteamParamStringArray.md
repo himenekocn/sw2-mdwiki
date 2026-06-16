@@ -22,6 +22,6 @@ operator IntPtr(SteamParamStringArray that)
 
 **用法示例:**
 ```csharp
-IntPtr ptr = SteamParamStringArray.IntPtr(existingArray);
+IntPtr ptr = (IntPtr)existingSteamParamStringArray;
 ```
 

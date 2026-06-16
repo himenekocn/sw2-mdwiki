@@ -14,7 +14,11 @@
 SteamAPICall_t RequestUserStats(CSteamID steamIDUser)
 ```
 
-<para>下载用户的统计数据</para> <para>完成时返回 GSStatsReceived_t 回调</para> <para>如果用户没有统计数据，GSStatsReceived_t.m_eResult 将设置为 k_EResultFail</para> <para>这些统计数据仅对在服务器上进行游戏的客户端自动更新。对于其他用户，需要再次调用 RequestUserStats() 以刷新数据</para>
+<para> 下载该用户的统计数据</para>
+<para> 完成时返回 GSStatsReceived_t 回调</para>
+<para> 如果该用户没有统计数据，GSStatsReceived_t.m_eResult 将被设置为 k_EResultFail</para>
+<para> 这些统计数据仅会自动更新给在服务器上游戏的客户端。对于其他</para>
+<para> 用户，您需要再次调用 RequestUserStats() 以刷新任何数据</para>
 
 **参数:**
 
@@ -24,7 +28,7 @@ SteamAPICall_t RequestUserStats(CSteamID steamIDUser)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerStats.RequestUserStats(steamIDUser);
+SteamAPICall_t callHandle = SteamGameServerStats.RequestUserStats(steamIDUser);
 ```
 
 ### GetUserStat (静态)
@@ -33,7 +37,7 @@ SteamAPICall_t call = SteamGameServerStats.RequestUserStats(steamIDUser);
 bool GetUserStat(CSteamID steamIDUser, string pchName, out int pData)
 ```
 
-请求用户的统计数据，该接口在成功调用 RequestUserStats() 之后可用。
+<para> 请求获取某用户的统计信息，应在成功调用 RequestUserStats() 后使用</para>
 
 **参数:**
 
@@ -45,8 +49,8 @@ bool GetUserStat(CSteamID steamIDUser, string pchName, out int pData)
 
 **用法示例:**
 ```csharp
-int statValue;
-bool ok = SteamGameServerStats.GetUserStat(steamIDUser, "Kills", out statValue);
+SteamGameServerStats.RequestUserStats(steamIDUser);
+bool success = SteamGameServerStats.GetUserStat(steamIDUser, "kills", out int kills);
 ```
 
 ### GetUserStat (静态)
@@ -65,8 +69,8 @@ bool GetUserStat(CSteamID steamIDUser, string pchName, out float pData)
 
 **用法示例:**
 ```csharp
-float statValue;
-bool ok = SteamGameServerStats.GetUserStat(steamIDUser, "Kills", out statValue);
+CSteamID userId = new CSteamID(76561197960287930);
+bool success = SteamGameServerStats.GetUserStat(userId, "kills", out float kills);
 ```
 
 ### GetUserAchievement (静态)
@@ -85,7 +89,8 @@ bool GetUserAchievement(CSteamID steamIDUser, string pchName, out bool pbAchieve
 
 **用法示例:**
 ```csharp
-SteamGameServerStats.GetUserAchievement(steamIDUser, "AchievementName", out var achieved);
+bool achieved;
+SteamGameServerStats.GetUserAchievement(steamIDUser, "ACH_WIN_FIRST_GAME", out achieved);
 ```
 
 ### SetUserStat (静态)
@@ -94,7 +99,10 @@ SteamGameServerStats.GetUserAchievement(steamIDUser, "AchievementName", out var 
 bool SetUserStat(CSteamID steamIDUser, string pchName, int nData)
 ```
 
-<para>设置或更新统计数据与成就。</para><para>注意：这些更新仅适用于游戏服务器被允许编辑的统计数据，且仅适用于已声明由游戏创作者官方控制的游戏服务器。</para><para>请在 Steamworks 页面上配置您官方服务器的 IP 范围。</para>
+<para> 设置/更新统计数据与成就。</para>
+<para> 注意：这些更新仅对允许编辑统计数据的游戏服务器生效，且仅适用于</para>
+<para> 已被声明为游戏创建者官方控制的游戏服务器。</para>
+<para> 请在Steamworks页面设置您的官方服务器IP范围。</para>
 
 **参数:**
 
@@ -106,7 +114,8 @@ bool SetUserStat(CSteamID steamIDUser, string pchName, int nData)
 
 **用法示例:**
 ```csharp
-bool updated = SteamGameServerStats.SetUserStat(steamIDUser, "Kills", 10);
+CSteamID userId = new CSteamID(76561198000000000);
+SteamGameServerStats.SetUserStat(userId, "kills", 100);
 ```
 
 ### SetUserStat (静态)
@@ -125,8 +134,8 @@ bool SetUserStat(CSteamID steamIDUser, string pchName, float fData)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerStats.SetUserStat(steamIDUser, "Kills", 12.5f);
-if (ok) Console.WriteLine("Set user stat success");
+CSteamID userId = new CSteamID(76561198000000000);
+SteamGameServerStats.SetUserStat(userId, "Speed", 12.5f);
 ```
 
 ### UpdateUserAvgRateStat (静态)
@@ -146,7 +155,7 @@ bool UpdateUserAvgRateStat(CSteamID steamIDUser, string pchName, float flCountTh
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerStats.UpdateUserAvgRateStat(steamIDUser, "Score", 10f, 300.0);
+SteamGameServerStats.UpdateUserAvgRateStat(steamIDUser, "kills_per_minute", 5.0f, 120.0);
 ```
 
 ### SetUserAchievement (静态)
@@ -164,7 +173,7 @@ bool SetUserAchievement(CSteamID steamIDUser, string pchName)
 
 **用法示例:**
 ```csharp
-bool ok = SteamGameServerStats.SetUserAchievement(steamIDUser, "ACH_WIN_ONE_GAME");
+SteamGameServerStats.SetUserAchievement(steamIDUser, "ACH_WIN_FIRST_GAME");
 ```
 
 ### ClearUserAchievement (静态)
@@ -182,7 +191,8 @@ bool ClearUserAchievement(CSteamID steamIDUser, string pchName)
 
 **用法示例:**
 ```csharp
-bool cleared = SteamGameServerStats.ClearUserAchievement(steamIDUser, "ACH_WIN_ONE_GAME");
+CSteamID userId = new CSteamID(76561198000000000);
+SteamGameServerStats.ClearUserAchievement(userId, "ACHIEVEMENT_NAME");
 ```
 
 ### StoreUserStats (静态)
@@ -191,7 +201,7 @@ bool cleared = SteamGameServerStats.ClearUserAchievement(steamIDUser, "ACH_WIN_O
 SteamAPICall_t StoreUserStats(CSteamID steamIDUser)
 ```
 
-将当前数据存储在服务器上，设置后将会收到 GSStatsStored_t 回调。如果回调中的结果为 k_EResultInvalidParam，则表示已上传的一个或多个统计信息被拒绝，原因可能是其违反了约束条件或已过时。在此情况下，服务器会返回更新后的数值，应重新遍历统计信息以保持同步。
+<para> 将当前数据存储到服务器，设置完成后将收到 GSStatsStored_t 回调。</para> <para> 如果回调返回 k_EResultInvalidParam 结果，则表明上传的一个或多个统计数据</para> <para> 已被拒绝，原因可能是违反了约束条件</para> <para> 或数据已过时。此时服务器会返回更新后的数值。</para> <para> 应重新遍历统计数据以保持同步。</para>
 
 **参数:**
 
@@ -201,6 +211,6 @@ SteamAPICall_t StoreUserStats(CSteamID steamIDUser)
 
 **用法示例:**
 ```csharp
-SteamAPICall_t call = SteamGameServerStats.StoreUserStats(steamIDUser);
+SteamAPICall_t callHandle = SteamGameServerStats.StoreUserStats(steamIDUser);
 ```
 

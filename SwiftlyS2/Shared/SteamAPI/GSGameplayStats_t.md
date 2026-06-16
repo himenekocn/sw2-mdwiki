@@ -31,6 +31,6 @@ the server(0-based )
 
 **用法示例:**
 ```csharp
-var server = stats.server(0);
+var serverIndex = GSGameplayStats_t.server();
 ```
 

@@ -28,6 +28,6 @@ as GetHTTPResponseBodySize()
 
 **用法示例:**
 ```csharp
-var bodySize = requestCompleted.GetHTTPResponseBodySize();
+ulong size = requestCompleted.GetHTTPResponseBodySize();
 ```
 

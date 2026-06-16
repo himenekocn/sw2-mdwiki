@@ -60,7 +60,7 @@ operator uint(HTTPCookieContainerHandle that)
 
 **用法示例:**
 ```csharp
-uint handleValue = HTTPCookieContainerHandle.uint(existingHandle);
+uint handleValue = (uint)existingCookieContainerHandle;
 ```
 
 ### Equals

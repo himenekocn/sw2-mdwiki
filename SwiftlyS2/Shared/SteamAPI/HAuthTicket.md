@@ -60,7 +60,7 @@ operator uint(HAuthTicket that)
 
 **用法示例:**
 ```csharp
-uint ticketValue = HAuthTicket.uint(existingTicket);
+uint ticketValue = (uint)authTicket;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(HAuthTicket other)
 
 **用法示例:**
 ```csharp
-int result = existingTicket.CompareTo(otherTicket);
+int result = authTicket.CompareTo(otherAuthTicket);
 ```
 

@@ -14,7 +14,7 @@
 void PrintSearchPaths()
 ```
 
-将当前的搜索路径打印到控制台。
+将当前搜索路径打印到控制台。
 
 **用法示例:**
 ```csharp
@@ -27,18 +27,18 @@ gameFileSystem.PrintSearchPaths();
 bool IsDirectory(string path, string pathId)
 ```
 
-检查给定路径和路径 ID 处的目录是否存在。
+检查在指定路径和路径ID处是否存在目录。
 
 **参数:**
 
-- `path` (`string`) - 待检查的路径。
-- `pathId` (`string`) - 要搜索的路径 ID。
+- `path` (`string`) - 要检查的路径。
+- `pathId` (`string`) - 要搜索的路径ID。
 
-**返回值:** `bool` - 如果目录存在则为 true，否则为 false。
+**返回值:** `bool` - 如果目录存在则为真，否则为假。
 
 **用法示例:**
 ```csharp
-bool exists = gameFileSystem.IsDirectory("maps", "map01");
+bool exists = gameFileSystem.IsDirectory("maps/", "map_path_id");
 ```
 
 ### RemoveSearchPath
@@ -47,18 +47,18 @@ bool exists = gameFileSystem.IsDirectory("maps", "map01");
 bool RemoveSearchPath(string path, string pathId)
 ```
 
-从文件系统中移除搜索路径。
+从文件系统中移除一个搜索路径。
 
 **参数:**
 
 - `path` (`string`) - 要移除的路径。
-- `pathId` (`string`) - 要移除的路径的 ID。
+- `pathId` (`string`) - 要移除的路径的ID。
 
-**返回值:** `bool` - 如果路径成功移除则为 true，否则为 false。
+**返回值:** `bool` - 如果路径成功移除，则为 true；否则为 false。
 
 **用法示例:**
 ```csharp
-bool result = gameFileSystem.RemoveSearchPath("/custom/maps", "map_path_01");
+bool removed = fileSystem.RemoveSearchPath("addons/custom_mod", "GAME");
 ```
 
 ### AddSearchPath
@@ -71,14 +71,14 @@ void AddSearchPath(string path, string pathId, SearchPathAdd_t addType, SearchPa
 
 **参数:**
 
-- `path` (`string`) - 要添加的路径。
-- `pathId` (`string`) - 要添加的路径的 ID。
-- `addType` (`SearchPathAdd_t`) - 要执行的添加类型。
+- `path` (`string`) - 添加路径。
+- `pathId` (`string`) - 要添加的路径的ID。
+- `addType` (`SearchPathAdd_t`) - 要执行的加法类型。
 - `priority` (`SearchPathPriority_t`) - 搜索路径的优先级。
 
 **用法示例:**
 ```csharp
-gameFileSystem.AddSearchPath("custom/maps", "mod1", SearchPathAdd_t.Value, SearchPathPriority_t.Value);
+fileSystem.AddSearchPath("content", "MOD", SearchPathAdd_t.ADD_AT_END, SearchPathPriority_t.PRIORITY_NORMAL);
 ```
 
 ### FileExists
@@ -87,18 +87,18 @@ gameFileSystem.AddSearchPath("custom/maps", "mod1", SearchPathAdd_t.Value, Searc
 bool FileExists(string filePath, string pathId)
 ```
 
-检查给定文件路径和路径 ID 处的文件是否存在。
+检查指定文件路径和路径ID处的文件是否存在。
 
 **参数:**
 
-- `filePath` (`string`) - 待检查的文件路径。
-- `pathId` (`string`) - 待检查路径的 ID。
+- `filePath` (`string`) - 要检查的文件路径。
+- `pathId` (`string`) - 要检入的路径ID。
 
-**返回值:** `bool` - 如果文件存在则为 true，否则为 false。
+**返回值:** `bool` - 如果文件存在则为真，否则为假。
 
 **用法示例:**
 ```csharp
-bool exists = gameFileSystem.FileExists("maps/de_dust2.bsp", "workshop123");
+bool exists = gameFileSystem.FileExists("cfg/server.cfg", "MOD");
 ```
 
 ### GetSearchPath
@@ -107,19 +107,19 @@ bool exists = gameFileSystem.FileExists("maps/de_dust2.bsp", "workshop123");
 string GetSearchPath(string pathId, GetSearchPathTypes_t searchPathType, int searchPathsToGet)
 ```
 
-获取给定路径 ID 和搜索路径类型的搜索路径。
+获取给定路径ID和搜索路径类型的搜索路径。
 
 **参数:**
 
-- `pathId` (`string`) - 用于获取搜索路径的路径 ID。
+- `pathId` (`string`) - 用于获取搜索路径的路径ID。
 - `searchPathType` (`GetSearchPathTypes_t`) - 要获取的搜索路径类型。
-- `searchPathsToGet` (`int`) - 获取搜索路径的数量。
+- `searchPathsToGet` (`int`) - 要获取的搜索路径数量。
 
-**返回值:** `string` - 给定路径 ID 和搜索路径类型的搜索路径。
+**返回值:** `string` - 给定路径ID和搜索路径类型的搜索路径。
 
 **用法示例:**
 ```csharp
-string path = fileSystem.GetSearchPath("MOD", GetSearchPathTypes_t.Value, 1);
+string path = gameFileSystem.GetSearchPath("MOD", GetSearchPathTypes_t.Value, 1);
 ```
 
 ### ReadFile
@@ -128,18 +128,18 @@ string path = fileSystem.GetSearchPath("MOD", GetSearchPathTypes_t.Value, 1);
 string ReadFile(string filePath, string pathId)
 ```
 
-读取指定文件路径及路径 ID 下的文件内容。
+读取给定文件路径和路径ID处的文件内容。
 
 **参数:**
 
 - `filePath` (`string`) - 要读取的文件路径。
-- `pathId` (`string`) - 读取文件的路径 ID。
+- `pathId` (`string`) - 用于读取文件的路径ID。
 
-**返回值:** `string` - 文件内容作为字符串。
+**返回值:** `string` - 文件内容（字符串格式）
 
 **用法示例:**
 ```csharp
-string content = gameFileSystem.ReadFile("configs/map.cfg", "server_config_01");
+string content = gameFileSystem.ReadFile("config.json", "default");
 ```
 
 ### WriteFile
@@ -148,19 +148,19 @@ string content = gameFileSystem.ReadFile("configs/map.cfg", "server_config_01");
 bool WriteFile(string filePath, string pathId, string content)
 ```
 
-将内容写入给定文件路径和路径 ID 对应的文件中。
+将内容写入指定文件路径和路径ID对应的文件。
 
 **参数:**
 
 - `filePath` (`string`) - 要写入的文件路径。
-- `pathId` (`string`) - 要写入文件的文件路径 ID。
+- `pathId` (`string`) - 要写入文件的路径ID。
 - `content` (`string`) - 要写入文件的内容。
 
-**返回值:** `bool` - 如果文件写入成功则为 true，否则为 false。
+**返回值:** `bool` - 如果文件写入成功则为真，否则为假。
 
 **用法示例:**
 ```csharp
-bool success = gameFileSystem.WriteFile("data/config.txt", "cfg001", "Hello World");
+bool success = gameFileSystem.WriteFile("data.txt", "default_id", "Hello World");
 ```
 
 ### GetFileSize
@@ -169,18 +169,18 @@ bool success = gameFileSystem.WriteFile("data/config.txt", "cfg001", "Hello Worl
 uint GetFileSize(string filePath, string pathId)
 ```
 
-获取给定文件路径和路径 ID 处文件的大小。
+获取给定文件路径和路径ID下的文件大小。
 
 **参数:**
 
 - `filePath` (`string`) - 要获取大小的文件路径。
-- `pathId` (`string`) - 用于获取文件大小的路径 ID。
+- `pathId` (`string`) - 获取文件大小的路径ID。
 
-**返回值:** `uint` - 文件的大小，单位为字节。
+**返回值:** `uint` - 文件大小（以字节为单位）。
 
 **用法示例:**
 ```csharp
-ulong size = gameFileSystem.GetFileSize("maps/de_dust2.bsp", "MOD");
+uint size = fileSystem.GetFileSize("config.cfg", "MOD");
 ```
 
 ### PrecacheFile
@@ -189,18 +189,18 @@ ulong size = gameFileSystem.GetFileSize("maps/de_dust2.bsp", "MOD");
 bool PrecacheFile(string filePath, string pathId)
 ```
 
-在指定的文件路径和路径 ID 处预缓存一个文件。
+在给定文件路径和路径ID下预缓存一个文件。
 
 **参数:**
 
-- `filePath` (`string`) - 预缓存文件的路径。
-- `pathId` (`string`) - 要预缓存文件的目标路径的 ID。
+- `filePath` (`string`) - 要预缓存的文件路径。
+- `pathId` (`string`) - 预缓存文件路径的ID。
 
-**返回值:** `bool` - 若文件预加载成功则为 true，否则为 false。
+**返回值:** `bool` - 如果文件预缓存成功则为真，否则为假。
 
 **用法示例:**
 ```csharp
-bool result = gameFileSystem.PrecacheFile("maps/test.bsp", "map_test");
+gameFileSystem.PrecacheFile("models/player.mdl", "GAME");
 ```
 
 ### IsFileWritable
@@ -209,18 +209,18 @@ bool result = gameFileSystem.PrecacheFile("maps/test.bsp", "map_test");
 bool IsFileWritable(string filePath, string pathId)
 ```
 
-检查给定文件路径和路径 ID 下的文件是否可写。
+检查给定文件路径和路径ID的文件是否可写。
 
 **参数:**
 
-- `filePath` (`string`) - 待检查文件的路径。
-- `pathId` (`string`) - 待检查路径的 ID。
+- `filePath` (`string`) - 要检查的文件的路径。
+- `pathId` (`string`) - 要检入的路径ID。
 
-**返回值:** `bool` - 如果文件可写入则为 true，否则为 false。
+**返回值:** `bool` - 如果文件可写则为真，否则为假。
 
 **用法示例:**
 ```csharp
-bool canWrite = gameFileSystem.IsFileWritable("config/settings.json", "mod_config_01");
+bool canWrite = gameFileSystem.IsFileWritable("config.cfg", "mod_data");
 ```
 
 ### SetFileWritable
@@ -229,19 +229,19 @@ bool canWrite = gameFileSystem.IsFileWritable("config/settings.json", "mod_confi
 bool SetFileWritable(string filePath, string pathId, bool writable)
 ```
 
-将指定文件路径和路径 ID 处的文件的可写状态设置为指定值。
+设置指定文件路径和路径ID下文件的可写状态。
 
 **参数:**
 
 - `filePath` (`string`) - 要设置可写状态的文件路径。
-- `pathId` (`string`) - 用于设置可写状态的路径 ID。
-- `writable` (`bool`) - 设为 true 使文件可写，设为 false 使其为只读。
+- `pathId` (`string`) - 用于设置可写状态的路径ID。
+- `writable` (`bool`) - 设为 true 使文件可写，设为 false 使其只读。
 
-**返回值:** `bool` - 若可写状态设置成功则为 true，否则为 false。
+**返回值:** `bool` - 如果可写状态设置成功则为真，否则为假。
 
 **用法示例:**
 ```csharp
-bool result = gameFileSystem.SetFileWritable("maps/test.bsp", "map01", true);
+bool result = fileSystem.SetFileWritable("config.txt", "mod_config", true);
 ```
 
 ### FindFileAbsoluteList
@@ -250,17 +250,17 @@ bool result = gameFileSystem.SetFileWritable("maps/test.bsp", "map01", true);
 List<string> FindFileAbsoluteList(string wildcard, string pathId)
 ```
 
-查找所有与给定通配符和路径 ID 匹配的文件。
+查找与给定通配符和路径ID匹配的所有文件。
 
 **参数:**
 
 - `wildcard` (`string`) - 用于匹配文件的通配符。
-- `pathId` (`string`) - 要搜索的路径 ID。
+- `pathId` (`string`) - 要搜索的路径ID。
 
-**返回值:** `List\<string\>` - 一个包含所有匹配给定通配符和路径 ID 的文件的列表。
+**返回值:** `List\<string\>` - 与给定的通配符和路径ID匹配的所有文件列表。
 
 **用法示例:**
 ```csharp
-var files = gameFileSystem.FindFileAbsoluteList("*.cfg", "game");
+var files = gameFileSystem.FindFileAbsoluteList("*.txt", "root");
 ```
 

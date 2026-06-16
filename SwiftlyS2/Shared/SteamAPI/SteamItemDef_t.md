@@ -60,7 +60,7 @@ operator int(SteamItemDef_t that)
 
 **用法示例:**
 ```csharp
-int itemId = SteamItemDef_t.int(existingItemDef);
+int defValue = (int)itemDef;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(SteamItemDef_t other)
 
 **用法示例:**
 ```csharp
-int result = existingItem.CompareTo(otherItem);
+int result = itemDef.CompareTo(otherItemDef);
 ```
 

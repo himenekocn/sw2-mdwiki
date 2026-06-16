@@ -60,7 +60,7 @@ operator int(HSteamUser that)
 
 **用法示例:**
 ```csharp
-int userId = HSteamUser.int(existingUser);
+int userId = (int)hSteamUser;
 ```
 
 ### Equals
@@ -89,6 +89,6 @@ int CompareTo(HSteamUser other)
 
 **用法示例:**
 ```csharp
-int result = user.CompareTo(otherUser);
+int result = currentUser.CompareTo(otherUser);
 ```
 

@@ -22,6 +22,6 @@ int GetCallbackIdentity(Type callbackStruct)
 
 **用法示例:**
 ```csharp
-int identity = CallbackIdentities.GetCallbackIdentity(typeof(MyCallbackStruct));
+var identity = CallbackIdentities.GetCallbackIdentity(typeof(SomeCallbackStruct));
 ```
 

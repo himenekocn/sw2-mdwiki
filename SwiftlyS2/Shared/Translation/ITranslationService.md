@@ -14,13 +14,13 @@
 ILocalizer GetPlayerLocalizer(IPlayer player)
 ```
 
-获取指定玩家的本地化程序。
+获取指定玩家的本地化器。
 
 **参数:**
 
-- `player` (`IPlayer`) - 获取本地化器的玩家。
+- `player` (`IPlayer`) - 要为其获取本地化器的玩家。
 
-**返回值:** `ILocalizer` - 指定玩家的本地化程序。
+**返回值:** `ILocalizer` - 指定玩家的本地化器。
 
 **用法示例:**
 ```csharp

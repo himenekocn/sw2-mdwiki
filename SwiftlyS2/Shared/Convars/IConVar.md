@@ -10,16 +10,17 @@
 
 | 名称 | 类型 | 访问方法 | 描述 |
 |------|------|--------|------|
-| `Name` | `string` | get | 该 convar 的名称。 |
-| `HelpText` | `string` | get | 该 cvar 的辅助说明文本。 |
-| `ValueAsString` | `string` | get, set | 此命令变量的字符串值。设置时，如果该命令变量可被复制，将自动向所有客户端进行复制。此外，使用此方法设置值会将其内部放入设置队列中，这意味着在某些特殊情况下（例如在钩子函数内设置 sv_enablebunnyhopping），该方法将无法生效；此类情况下应改用 SetInternal 方法。<exception cref="ArgumentException">当字符串值无法解析时抛出。</exception> |
-| `MaxValueAsString` | `string` | get, set | 此控制台变量（convar）字符串形式的最大值。<exception cref="ArgumentException">当字符串值无法解析时抛出。</exception> |
-| `MinValueAsString` | `string` | get, set | 此 Cvar 字符串值的最小值。<exception cref="ArgumentException">当字符串值无法解析时抛出。</exception> |
-| `DefaultValueAsString` | `string` | get, set | 该字符串格式控制台变量的默认值。<exception cref="ArgumentException">当字符串值无法解析时抛出。</exception> |
-| `HasDefaultValue` | `bool` | get | 该控制台变量是否具有默认值。 |
-| `HasMinValue` | `bool` | get | 该控制台变量是否包含最小值。 |
-| `HasMaxValue` | `bool` | get | 该控制台变量是否具有最大值。 |
-| `Flags` | `ConvarFlags` | get, set | 该 cvar 的标志。 |
+| `Name` | `string` | get | 控制台变量名称。 |
+| `HelpText` | `string` | get | 控制台变量的帮助文本。 |
+| `ValueAsString` | `string` | get, set | 该控制台变量的字符串值。当设置时，如果该控制台变量可被复制，则会自动复制到所有客户端。此外，使用此方法设置值会在内部将其放入一个设置队列中，这意味着对于某些特殊情况（例如在钩子内部设置sv_enablebunnyhopping）将不起作用，在这些情况下应改用SetInternal方法。<exception cref="ArgumentException">当字符串值无法解析时抛出。</exception> |
+| `MaxValueAsString` | `string` | get, set | 该控制台变量字符串形式的最大值。<exception cref="ArgumentException">当字符串值无法解析时抛出。</exception> |
+| `MinValueAsString` | `string` | get, set | 该convar的最小值（字符串形式）。<exception cref="ArgumentException">当字符串值无法解析时引发。</exception> |
+| `DefaultValueAsString` | `string` | get, set | 该ConVar的字符串默认值。  
+<exception cref="ArgumentException">当字符串值无法解析时抛出。</exception> |
+| `HasDefaultValue` | `bool` | get | 该控制台变量（convar）是否具有默认值。 |
+| `HasMinValue` | `bool` | get | 该 convar 是否有最小值。 |
+| `HasMaxValue` | `bool` | get | 该控制变量是否存在最大值。 |
+| `Flags` | `ConvarFlags` | get, set | Convar 的标记。 |
 
 ## ⚙️ 方法
 
@@ -29,7 +30,7 @@
 void SetInternalAsString(string value)
 ```
 
-内部设置该变量的值。此更改不会同步至客户端。
+内部设置控制台变量的值。不会将更改复制到客户端。
 
 **参数:**
 
@@ -37,7 +38,7 @@ void SetInternalAsString(string value)
 
 **用法示例:**
 ```csharp
-convar.SetInternalAsString("new_value");
+convar.SetInternalAsString("1");
 ```
 
 ### ReplicateToClientAsString
@@ -46,16 +47,16 @@ convar.SetInternalAsString("new_value");
 void ReplicateToClientAsString(int clientId, string value)
 ```
 
-将指定客户端的 convar 值进行复制。
+将 ConVar 的值复制到指定的客户端。
 
 **参数:**
 
-- `clientId` (`int`) - 用于复制的目标客户端 ID。
-- `value` (`string`) - 需要复制的值。
+- `clientId` (`int`) - 要复制到的客户端ID。
+- `value` (`string`) - 要复制的值。
 
 **用法示例:**
 ```csharp
-convar.ReplicateToClientAsString(clientId, value);
+convar.ReplicateToClientAsString(1, "true");
 ```
 
 ### QueryClient
@@ -64,12 +65,12 @@ convar.ReplicateToClientAsString(clientId, value);
 void QueryClient(int clientId, Action<string> callback)
 ```
 
-从指定客户端查询该控制变量的值。
+从指定客户端查询控制台变量的值。
 
 **参数:**
 
 - `clientId` (`int`)
-- `callback` (`Action\<string\>`) - 带有该值的要执行的操作。
+- `callback` (`Action\<string\>`) - 使用该值执行的动作。
 
 **用法示例:**
 ```csharp
@@ -82,17 +83,17 @@ convar.QueryClient(1, value => Console.WriteLine(value));
 bool TryGetDefaultValueAsString(out string defaultValue)
 ```
 
-尝试获取该命令变量的默认值。
+尝试获取控制台变量的默认值。
 
 **参数:**
 
-- `defaultValue` (`out string`) - 该变量的默认值。
+- `defaultValue` (`out string`) - 控制台变量的默认值。
 
-**返回值:** `bool` - 若找到默认值则为 true，否则为 false。
+**返回值:** `bool` - 若找到默认值则为True，否则为False。
 
 **用法示例:**
 ```csharp
-bool success = convar.TryGetDefaultValueAsString(out string defaultValue);
+convar.TryGetDefaultValueAsString(out string defaultValue);
 ```
 
 ### TryGetMinValueAsString
@@ -101,17 +102,17 @@ bool success = convar.TryGetDefaultValueAsString(out string defaultValue);
 bool TryGetMinValueAsString(out string minValue)
 ```
 
-尝试获取该变量的最小值。
+尝试获取控制台变量的最小值。
 
 **参数:**
 
-- `minValue` (`out string`) - 该 CVar 的最小值。
+- `minValue` (`out string`) - 该 convar 的最小值。
 
-**返回值:** `bool` - 当找到最小值时为 true，否则为 false。
+**返回值:** `bool` - 如果找到最小值则为True，否则为False。
 
 **用法示例:**
 ```csharp
-if (convar.TryGetMinValueAsString(out string minValue)) { Console.WriteLine(minValue); }
+bool hasMin = convar.TryGetMinValueAsString(out string minValue);
 ```
 
 ### TryGetMaxValueAsString
@@ -120,16 +121,16 @@ if (convar.TryGetMinValueAsString(out string minValue)) { Console.WriteLine(minV
 bool TryGetMaxValueAsString(out string maxValue)
 ```
 
-尝试获取该cvar的最大值。
+尝试获取控制台变量的最大值。
 
 **参数:**
 
-- `maxValue` (`out string`) - 该 CVar 的最大值。
+- `maxValue` (`out string`) - convar 的最大值。
 
-**返回值:** `bool` - 如果找到最大值，则为 true；否则为 false。
+**返回值:** `bool` - 如果找到最大值则为真，否则为假。
 
 **用法示例:**
 ```csharp
-if (convar.TryGetMaxValueAsString(out string maxValue)) Console.WriteLine(maxValue);
+bool success = convar.TryGetMaxValueAsString(out string maxValue);
 ```
 

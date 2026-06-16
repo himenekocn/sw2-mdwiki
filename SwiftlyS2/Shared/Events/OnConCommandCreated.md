@@ -2,7 +2,7 @@
 
 # 🔗 OnConCommandCreated
 
-当创建 ConCommand 时调用。
+当创建ConCommand时调用。
 
 **命名空间:** `SwiftlyS2.Shared.Events`
 

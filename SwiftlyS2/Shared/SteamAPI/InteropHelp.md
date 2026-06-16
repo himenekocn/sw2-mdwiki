@@ -16,7 +16,8 @@ void TestIfPlatformSupported()
 
 **用法示例:**
 ```csharp
-InteropHelp.TestIfPlatformSupported();
+InteropHelp interopHelp = null;
+interopHelp.TestIfPlatformSupported();
 ```
 
 ### TestIfAvailableClient (静态)
@@ -55,7 +56,7 @@ string PtrToStringUTF8(IntPtr nativeUtf8)
 
 **用法示例:**
 ```csharp
-string result = InteropHelp.PtrToStringUTF8(nativeUtf8);
+string result = InteropHelp.PtrToStringUTF8(nativeUtf8Ptr);
 ```
 
 ### ByteArrayToStringUTF8 (静态)
@@ -72,7 +73,8 @@ string ByteArrayToStringUTF8(byte[] buffer)
 
 **用法示例:**
 ```csharp
-byte[] data = GetUtf8Bytes(); string result = InteropHelp.ByteArrayToStringUTF8(data);
+byte[] data = GetSomeData();
+string result = InteropHelp.ByteArrayToStringUTF8(data);
 ```
 
 ### StringToByteArrayUTF8 (静态)
@@ -89,7 +91,8 @@ void StringToByteArrayUTF8(string str, byte[] outArrayBuffer, int outArrayBuffer
 
 **用法示例:**
 ```csharp
-byte[] buffer = new byte[100]; InteropHelp.StringToByteArrayUTF8("test", buffer, buffer.Length);
+byte[] buffer = new byte[256];
+InteropHelp.StringToByteArrayUTF8("Hello", buffer, buffer.Length);
 ```
 
 ### IntPtr (静态)

@@ -18,9 +18,9 @@ bool HasSharedInterface(string key)
 
 **参数:**
 
-- `key` (`string`) - 该接口的键。
+- `key` (`string`) - 接口的键。
 
-**返回值:** `bool` - 若接口存在则为 true，否则为 false。
+**返回值:** `bool` - 如果接口存在则为真，否则为假。
 
 **用法示例:**
 ```csharp
@@ -37,13 +37,13 @@ TInterface GetSharedInterface<TInterface>(string key)
 
 **参数:**
 
-- `key` (`string`) - 该接口的键。
+- `key` (`string`) - 接口的键。
 
 **返回值:** `TInterface` - 接口的实现。
 
 **用法示例:**
 ```csharp
-var myInterface = manager.GetSharedInterface<IMyService>("MyKey");
+var sharedInterface = manager.GetSharedInterface<IMyService>("MyKey");
 ```
 
 ### TryGetSharedInterface<TInterface>
@@ -52,17 +52,17 @@ var myInterface = manager.GetSharedInterface<IMyService>("MyKey");
 bool TryGetSharedInterface<TInterface>(string key, [NotNullWhen(true )
 ```
 
-尝试通过键获取共享接口实现。
+尝试按键获取共享接口实现。
 
 **参数:**
 
-- `key` (`string`) - 接口实现的键。
+- `key` (`string`) - 接口实现的关键。
 - `` (`[NotNullWhen(true`)
 
-**返回值:** `bool` - 如果找到了实现，则为 <see langword="true"/>，否则为 <see langword="false"/>。
+**返回值:** `bool` - 若找到实现则为<see langword="true"/>，否则为<see langword="false"/>
 
 **用法示例:**
 ```csharp
-if (manager.TryGetSharedInterface<IMyService>("MyKey", out var service)) { service.DoWork(); }
+bool success = manager.TryGetSharedInterface<IMyService>("myKey", out var service);
 ```
 
